@@ -1,5 +1,5 @@
 --Создаём переменные
-local ply = LocalPlayer
+local ply = LocalPlayer()
 local playerModels = player_manager.AllValidModels()
 local faded_black = Color(15,15,15,200)
 
@@ -17,11 +17,16 @@ concommand.Add("hg_playermodels", function(ply)
     playerModelsPanel.Paint = function(self, w, h)
         draw.RoundedBox(10, 0, 0, w, h, faded_black)
     end
+    local playerModelsTextEmtry = vgui.Create("DTextEntry", playerModelsPanel)
+    playerModelsTextEmtry:SetPos(10, 20)
+    playerModelsTextEmtry:SetSize(280, 20)
+    playerModelsTextEmtry:SetPlaceholderText("Имя модели")
+    playerModelsTextEmtry:SetDrawOnTop(true)
 
     --Создаем VGUI список для отображения доступных playermodel
     local playerModelsList = vgui.Create("DListView", playerModelsPanel)
     playerModelsList:SetSize(280, 350)
-    playerModelsList:SetPos(10, 30)
+    playerModelsList:SetPos(10, 45)
     playerModelsList:AddColumn("Модель")
 
     --Создаем DModelPanel для отображения модели
@@ -39,7 +44,7 @@ concommand.Add("hg_playermodels", function(ply)
     setModelButton:SetSize(120, 30)
     setModelButton:SetText("Поставить модель")
     setModelButton.DoClick = function()
-        LocalPlayer():ConCommand("ulx setmodel " .. ply:GetName() .. " " .. playerModelIcon:GetModel())
+        LocalPlayer():ConCommand("ulx setmodel " .. '"' .. ply:GetName() .. '" "' .. playerModelIcon:GetModel() .. '"')
     end
 
     local copyModelNameButton = vgui.Create("DButton", playerModelsPanel)
@@ -61,5 +66,13 @@ concommand.Add("hg_playermodels", function(ply)
         local modelName = row:GetColumnText(1)
         playerModelIcon:SetModel(modelName)
     end
-
+    playerModelsTextEmtry.OnValueChange = function()
+        local value = string.lower(playerModelsTextEmtry:GetValue())
+        playerModelsList:Clear()
+        for i, v in pairs(playerModels) do
+            if string.find(v, value) then
+                playerModelsList:AddLine(string.lower(v))
+            end
+        end
+    end
 end)

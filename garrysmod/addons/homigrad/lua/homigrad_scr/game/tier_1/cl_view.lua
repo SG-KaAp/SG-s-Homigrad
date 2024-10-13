@@ -657,6 +657,11 @@ function CalcView(ply,vec,ang,fov,znear,zfar)
 			vecWep = hand.Pos + hand.Ang:Up() * 2.43 - hand.Ang:Forward() * 10 + hand.Ang:Right() * 0.3
 			angWep = hand.Ang + Angle(-15,5,0)
 		end
+		if weaponClass == "weapon_taser" then
+			--Vector(2.5,10,0.3)
+			vecWep = hand.Pos + hand.Ang:Up() * 6 - hand.Ang:Forward() * 6.5 + hand.Ang:Right() * 2.5
+			angWep = hand.Ang + Angle(0,25,0)
+		end
 		if weaponClass == "weapon_hk_usps" then
 			--Vector(3.9,10,1.09)
 			vecWep = hand.Pos + hand.Ang:Up() * 4.25 - hand.Ang:Forward() * 10 + hand.Ang:Right() * 0.05
