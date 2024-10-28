@@ -1,0 +1,444 @@
+<Logging continued from "data/ulx_logs/10-07-24.txt">
+[00:00:43] progamer suicided!
+[00:00:44] progamer suicided!
+[00:00:44] (Console) banned progamer for 10 minute(s) (Kicked and Banned for RDM)
+[00:01:15] Panzerschreck1337 suicided!
+[00:02:42] imyourdeath suicided!
+[00:02:42] imyourdeath suicided!
+[00:02:45] Panzerschreck1337 suicided!
+[00:04:11] imyourdeath suicided!
+[00:05:28] progamer suicided!
+[00:07:59] imyourdeath suicided!
+[00:08:03] Panzerschreck1337 suicided!
+[00:09:28] Panzerschreck1337 suicided!
+[00:11:02] imyourdeath suicided!
+[00:11:24] Panzerschreck1337 suicided!
+[00:13:09] Panzerschreck1337: !levelnext mode
+[00:14:17] imyourdeath suicided!
+[00:14:38] progamer suicided!
+[00:14:41] Panzerschreck1337 suicided!
+[00:18:05] imyourdeath suicided!
+[00:19:35] Panzerschreck1337 suicided!
+[00:20:03] progamer suicided!
+[00:20:26] Panzerschreck1337 suicided!
+[00:22:36] imyourdeath suicided!
+[00:23:52] imyourdeath suicided!
+[00:24:05] progamer suicided!
+[00:24:08] Panzerschreck1337 suicided!
+[00:24:11] Panzerschreck1337 suicided!
+[00:24:11] imyourdeath suicided!
+[00:24:11] progamer suicided!
+[00:24:41] Server is shutting down/changing levels.
+
+
+
+[00:24:48] New map: ttt_rooftops_2016_v1
+[00:24:49] Server is shutting down/changing levels.
+
+
+
+[00:24:55] New map: ttt_rooftops_2016_v1
+[00:24:56] Client "Panzerschreck1337" connected.
+[00:24:56] Client "progamer" connected.
+[00:24:56] Client "imyourdeath" connected.
+[00:25:19] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 23 seconds).
+[00:25:40] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 44 seconds).
+[00:25:45] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 49 seconds).
+[00:26:26] progamer suicided!
+[00:26:30] Panzerschreck1337 suicided!
+[00:27:06] progamer suicided!
+[00:27:36] progamer: /change map
+[00:27:38] Panzerschreck1337 suicided!
+[00:29:05] Panzerschreck1337 suicided!
+[00:29:26] progamer suicided!
+[00:29:53] imyourdeath suicided!
+[00:30:22] Panzerschreck1337: !levelend
+[00:31:18] Panzerschreck1337: !noguilt
+[00:31:26] progamer suicided!
+[00:31:54] Panzerschreck1337: yyy
+[00:31:55] Panzerschreck1337: casdad
+[00:32:05] Panzerschreck1337: :cupid:
+[00:32:31] Panzerschreck1337: /levelend
+[00:32:46] progamer suicided!
+[00:32:49] imyourdeath suicided!
+[00:33:00] Panzerschreck1337 suicided!
+[00:33:08] imyourdeath suicided!
+[00:33:28] imyourdeath suicided!
+[00:33:44] Panzerschreck1337 suicided!
+[00:33:48] progamer suicided!
+[00:33:51] imyourdeath suicided!
+[00:33:51] imyourdeath suicided!
+[00:33:55] Panzerschreck1337 suicided!
+[00:34:07] progamer suicided!
+[00:34:28] Panzerschreck1337: !menu
+[00:35:08] Panzerschreck1337 voted for gm_chimney (1/3)
+[00:35:30] progamer voted for gm_chimney (2/3)
+[00:36:11] (SILENT) Panzerschreck1337 opened the profile of progamer
+[00:36:15] Panzerschreck1337: афк 9999999
+[00:37:09] Panzerschreck1337: ! vote map
+[00:37:26] Panzerschreck1337: ! vote map 39
+[00:37:41] progamer suicided!
+[00:38:14] imyourdeath: !votemap39
+[00:38:35] imyourdeath voted for gm_chimney (3/3)
+[00:38:35] Votemap for gm_chimney won.
+[00:38:35] imyourdeath: !votemap 39
+[00:38:35] Server is shutting down/changing levels.
+
+
+
+[00:38:40] New map: gm_chimney
+[00:39:07] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 29 seconds).
+[00:39:09] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 31 seconds).
+[00:39:15] Client "imyourdeath" connected.
+[00:39:57] progamer suicided!
+[00:40:53] Panzerschreck1337: !point boxspawn
+[00:40:58] Panzerschreck1337: !menu
+[00:41:44] Panzerschreck1337: !help
+[00:42:02] progamer: афк 9999999
+[00:42:03] Panzerschreck1337: !point red
+[00:42:19] Panzerschreck1337: !point blue
+[00:42:38] Panzerschreck1337: !levels
+[00:42:44] Panzerschreck1337: !level
+[00:42:51] Panzerschreck1337: !Level
+[00:42:58] Dropped "Panzerschreck1337" from server<STEAM_0:1:575526983>
+[00:42:58] Panzerschreck1337 suicided!
+[00:43:02] Dropped "progamer" from server<STEAM_0:1:578766727>
+[14:31:07] Client "Балбес" connected.
+[14:38:35] Client "Балбес" spawned in server <STEAM_0:1:48006106> (took 448 seconds).
+[14:39:41] Dropped "Балбес" from server<STEAM_0:1:48006106>
+[17:36:05] Client "SG_KaAp" connected.
+[17:36:32] Client "unk1l" connected.
+[17:36:38] Client "ишак" connected.
+[17:36:49] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 44 seconds).
+[17:37:17] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 45 seconds).
+[17:37:24] SG_KaAp: !menu
+[17:37:42] SG_KaAp: !menu
+[17:37:56] SG_KaAp: !menu
+[17:38:15] SG_KaAp added unk1l to group admin
+[17:38:37] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 119 seconds).
+[17:39:08] ишак: !rspawn и
+[17:39:26] (SILENT) ишак Respawned Themself
+[17:39:28] unk1l suicided!
+[17:39:40] unk1l: !menu
+[17:39:57] ишак: !noclip иш
+[17:40:56] unk1l: убейте меня может
+[17:41:04] SG_KaAp: (!forcerespawn
+[17:41:11] ишак: давайте дуэль
+[17:41:16] unk1l suicided!
+[17:41:16] unk1l respawned Themself
+[17:41:16] unk1l: !forcerespawn unk1l
+[17:41:18] ишак: сделайте
+[17:41:26] SG_KaAp: !levels
+[17:41:32] ишак: че
+[17:41:46] unk1l suicided!
+[17:42:03] ишак suicided!
+[17:42:08] unk1l: !menu
+[17:42:16] unk1l: !menu
+[17:42:32] unk1l teleported to SG_KaAp
+[17:42:36] ишак<STEAM_0:1:663861216> spawned model models/props_c17/furniturefridge001a.mdl
+[17:42:43] unk1l suicided!
+[17:42:43] SG_KaAp respawned unk1l
+[17:42:43] SG_KaAp: !forcerespawn unk1l
+[17:42:47] SG_KaAp teleported to unk1l
+[17:43:02] ишак<STEAM_0:1:663861216> spawned model models/props_junk/metalbucket01a.mdl
+[17:43:09] ишак<STEAM_0:1:663861216> spawned model models/props_c17/furnituredrawer003a.mdl
+[17:43:18] SG_KaAp suicided!
+[17:43:18] SG_KaAp respawned Themself
+[17:43:19] ишак<STEAM_0:1:663861216> spawned model models/props_c17/furnituretable002a.mdl
+[17:43:49] unk1l suicided!
+[17:43:52] ишак: gk
+[17:44:03] (SILENT) ишак Respawned Themself
+[17:44:31] ишак: стой
+[17:44:54] unk1l: hg_playermodels
+[17:44:55] unk1l: !hg_playermodels
+[17:45:14] SG_KaAp suicided!
+[17:45:14] SG_KaAp respawned Themself
+[17:46:07] SG_KaAp respawned Themself
+[17:46:16] SG_KaAp suicided!
+[17:46:16] SG_KaAp respawned Themself
+[17:46:16] SG_KaAp: !forcerespawn sg_kaap
+[17:46:39] ишак: смотри
+[17:46:44] ишак: инкул
+[17:46:48] unk1l: да инкул
+[17:47:00] SG_KaAp suicided!
+[17:47:02] (SILENT) ишак Respawned Themself
+[17:47:16] ишак: !noclip иш
+[17:47:32] ишак: вставай
+[17:47:33] SG_KaAp changed the map to gm_school with gamemode homigrad
+[17:47:33] SG_KaAp: !map gm_school homigrad
+[17:47:33] Server is shutting down/changing levels.
+
+
+
+[17:47:39] New map: gm_school
+[17:47:59] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[17:48:07] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 30 seconds).
+[17:48:12] SG_KaAp: !levelnext hideandseek
+[17:48:17] SG_KaAp: !levelrandom 0
+[17:48:32] unk1l suicided!
+[17:48:34] unk1l: !forcerespawn
+[17:48:38] unk1l respawned Themself
+[17:48:38] unk1l: !forcerespawn unk1l
+[17:48:52] SG_KaAp: !kill unk1l
+[17:48:56] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 79 seconds).
+[17:48:59] SG_KaAp suicided!
+[17:49:01] unk1l granted god mode upon Themself
+[17:49:01] unk1l: !god
+[17:49:22] ишак suicided!
+[17:49:51] (SILENT) ишак Respawned Themself
+[17:50:00] unk1l killed ишак using player
+[17:50:01] ишак: !
+[17:50:06] unk1l: лол)
+[17:50:09] (SILENT) ишак Respawned Themself
+[17:50:14] ишак granted god mode upon Themself
+[17:50:14] ишак: !god иш
+[17:50:19] SG_KaAp: Блять, ишак еще один абуз и все
+[17:50:23] SG_KaAp: Не абузь
+[17:50:32] ишак: а что я делаю
+[17:50:38] ишак: я просто хожу
+[17:51:02] SG_KaAp: Ишак, если что ты права не имешь быть в респаун спеке
+[17:51:09] ишак: а
+[17:51:11] unk1l: блин где ты
+[17:51:12] ишак suicided!
+[17:51:12] SG_KaAp slayed ишак
+[17:51:12] SG_KaAp: !slay ишак
+[17:51:59] SG_KaAp suicided!
+[17:51:59] SG_KaAp suicided!
+[17:52:15] ишак suicided!
+[17:53:00] unk1l suicided!
+[17:53:00] unk1l suicided!
+[17:53:07] SG_KaAp suicided!
+[17:53:09] ишак suicided!
+[17:53:23] ишак suicided!
+[17:53:32] SG_KaAp: !point
+[17:54:10] SG_KaAp suicided!
+[17:54:48] ишак suicided!
+[17:54:59] SG_KaAp suicided!
+[17:54:59] unk1l suicided!
+[17:54:59] ишак suicided!
+[17:55:10] unk1l: аирбас имба
+[17:55:12] unk1l: отвечаю
+[17:55:29] Server is shutting down/changing levels.
+
+
+
+[17:55:35] New map: ttt_airbus_b3
+[17:55:35] Server is shutting down/changing levels.
+
+
+
+[17:55:41] New map: ttt_airbus_b3
+[17:55:41] Client "SG_KaAp" connected.
+[17:55:41] Client "unk1l" connected.
+[17:55:41] Client "ишак" connected.
+[17:56:04] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[17:56:11] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 30 seconds).
+[17:56:14] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 33 seconds).
+[17:56:22] ишак: все
+[17:56:22] ишак suicided!
+[17:56:25] ишак: дс все
+[17:56:30] ишак: заблокирован
+[17:56:31] unk1l: у меня работает
+[17:56:36] ишак: у меня
+[17:56:44] ишак suicided!
+[17:56:51] ишак: а че в одной руке
+[17:57:36] ишак: да ты заебал
+[17:57:37] unk1l suicided!
+[17:57:53] SG_KaAp suicided!
+[17:57:54] unk1l: не хотите пофаниться?
+[17:57:56] ишак suicided!
+[17:58:00] ишак: как это
+[17:58:01] unk1l: просто постреляться
+[17:58:01] SG_KaAp: Все в дс!!
+[17:58:03] SG_KaAp: Все в дс!!
+[17:58:05] ишак: всм
+[17:58:06] SG_KaAp: В гс
+[17:58:13] SG_KaAp suicided!
+[17:58:19] ишак: дс все
+[17:58:44] ишак: стойц
+[17:58:55] (SILENT) SG_KaAp Respawned Themself
+[17:59:02] unk1l suicided!
+[17:59:05] ишак suicided!
+[17:59:11] ишак: у меня дс не работает
+[17:59:14] ишак: вообще
+[17:59:15] SG_KaAp killed unk1l using player
+[17:59:19] SG_KaAp: ТУДА
+[17:59:21] SG_KaAp: Ладно
+[17:59:22] ишак: все пизда
+[17:59:27] SG_KaAp: Не буду арбузить
+[17:59:38] SG_KaAp suicided!
+[17:59:38] SG_KaAp suicided!
+[17:59:42] ишак suicided!
+[18:00:05] ишак suicided!
+[18:01:44] unk1l suicided!
+[18:01:52] unk1l: я тебя не слышу братан
+[18:02:09] ишак suicided!
+[18:02:52] ишак: !menu
+[18:03:04] SG_KaAp suicided!
+[18:03:30] ишак suicided!
+[18:03:49] ишак: давайте дргую карту
+[18:03:56] ишак: !menu
+[18:03:58] SG_KaAp suicided!
+[18:04:03] unk1l: ХАХАХАХ
+[18:04:07] unk1l: НИХЕРА УЛЕТЕЛ
+[18:04:09] ишак: давайте дргуую карту
+[18:04:13] unk1l: нормальная же
+[18:04:17] unk1l suicided!
+[18:04:17] (Console) banned unk1l for 10 minute(s) (Kicked and Banned for RDM)
+[18:04:23] ишак suicided!
+[18:04:24] (TEAM) SG_KaAp: !maps
+[18:04:28] SG_KaAp: !menu
+[18:04:39] ишак suicided!
+[18:04:43] SG_KaAp suicided!
+[18:04:43] SG_KaAp suicided!
+[18:04:59] unk1l suicided!
+[18:04:59] (Console) banned unk1l for 10 minute(s) (Kicked and Banned for RDM)
+[18:04:59] ишак suicided!
+[18:05:15] SG_KaAp suicided!
+[18:05:17] SG_KaAp: !menu
+[18:05:19] ишак suicided!
+[18:05:19] ишак suicided!
+[18:05:24] ишак: другую карту
+[18:05:29] unk1l suicided!
+[18:05:29] unk1l suicided!
+[18:05:33] SG_KaAp suicided!
+[18:05:33] SG_KaAp suicided!
+[18:05:34] SG_KaAp: !menu
+[18:05:36] unk1l: !menu
+[18:05:39] SG_KaAp suicided!
+[18:05:39] unk1l suicided!
+[18:05:39] ишак suicided!
+[18:05:44] Dropped "ишак" from server<STEAM_0:1:663861216>
+[18:06:09] Server is shutting down/changing levels.
+
+
+
+[18:06:14] New map: gm_flatgrass
+[18:06:14] Server is shutting down/changing levels.
+
+
+
+[18:06:19] New map: gm_flatgrass
+[18:06:19] Client "SG_KaAp" connected.
+[18:06:19] Client "unk1l" connected.
+[18:06:40] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 21 seconds).
+[18:06:41] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[18:07:00] SG_KaAp suicided!
+[18:07:00] SG_KaAp suicided!
+[18:07:08] unk1l: го чисто фан
+[18:08:00] unk1l suicided!
+[18:08:19] SG_KaAp suicided!
+[18:08:36] unk1l suicided!
+[18:08:49] unk1l: Можно я оружия протестирую?
+[18:08:53] unk1l suicided!
+[18:08:53] unk1l: Можно я оружия протестирую?
+[18:08:55] unk1l: Можно я оружия протестирую?
+[18:09:00] unk1l: Спасиб
+[18:09:12] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[18:09:17] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[18:09:32] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/combine_apc.mdl
+[18:11:40] unk1l suicided!
+[18:12:41] SG_KaAp suicided!
+[18:13:43] unk1l suicided!
+[18:14:03] unk1l killed SG_KaAp using player
+[18:14:15] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[18:14:15] SG_KaAp suicided!
+[18:14:51] unk1l set Themself's model to models/player/sev2/russian_soldier_2.mdl with colors R:255, G:255, B:255
+[18:16:22] unk1l<STEAM_0:1:460734357> spawned vehicle models/source_vehicles/car005b_armored/vehicle.mdl
+[18:17:19] unk1l<STEAM_0:1:460734357> spawned NPC npc_combine_s
+[18:17:32] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[18:17:32] unk1l suicided!
+[18:17:49] Server is shutting down/changing levels.
+
+
+
+[18:18:23] New map: gm_bbicotka_hmcd
+[18:21:04] Client "SG_KaAp" connected.
+[18:21:42] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 38 seconds).
+[18:21:51] SG_KaAp: g
+[18:22:20] (SILENT) SG_KaAp Respawned Themself
+[18:22:24] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_wasteland/prison_heater001a.mdl
+[18:26:30] Server is shutting down/changing levels.
+
+
+
+[18:26:53] New map: gm_bbicotka_hmcd
+[18:30:31] Client "SG_KaAp" connected.
+[18:30:49] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 18 seconds).
+[18:37:26] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[18:45:06] Server is shutting down/changing levels.
+
+
+
+[18:45:28] New map: gm_bbicotka_hmcd
+[18:46:22] Client "SG_KaAp" connected.
+[18:46:50] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 28 seconds).
+[18:47:01] SG_KaAp respawned Themself
+[18:47:01] SG_KaAp: !forcerespawn sg_kaap
+[18:47:51] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[18:48:00] Server is shutting down/changing levels.
+
+
+
+[18:48:31] New map: gm_bbicotka_hmcd
+[18:49:20] Client "SG_KaAp" connected.
+[18:49:33] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 13 seconds).
+[18:49:58] (TEAM) SG_KaAp: g
+[18:50:03] SG_KaAp: y
+[18:50:07] Server is shutting down/changing levels.
+
+
+
+[18:51:21] New map: gm_bbicotka_hmcd
+[18:51:43] Client "SG_KaAp" connected.
+[18:51:55] Server is shutting down/changing levels.
+
+
+
+[19:05:04] New map: gm_bbicotka_hmcd
+[19:07:03] Client "SG_KaAp" connected.
+[19:07:22] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 19 seconds).
+[19:07:25] Server is shutting down/changing levels.
+
+
+
+[19:08:41] New map: gm_bbicotka_hmcd
+[19:08:49] Client "SG_KaAp" connected.
+[19:09:03] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 14 seconds).
+[19:13:57] Server is shutting down/changing levels.
+
+
+
+[19:14:21] New map: gm_bbicotka_hmcd
+[19:15:20] Client "SG_KaAp" connected.
+[19:15:32] Server is shutting down/changing levels.
+
+
+
+[19:21:50] New map: gm_bbicotka_hmcd
+[19:22:02] Client "SG_KaAp" connected.
+[19:22:21] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 19 seconds).
+[19:22:32] SG_KaAp: !forcerespawn
+[19:22:39] SG_KaAp respawned Themself
+[19:22:39] SG_KaAp: !forcerespawn sg_kaap
+[19:25:52] SG_KaAp<STEAM_0:1:566748347> spawned sent npc_igs
+[19:26:07] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_nukeflash
+[19:26:24] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_nukeflash
+[19:26:25] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_nukeflash
+[19:26:31] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[19:26:38] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezarmor_mtorso
+[19:26:53] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezfabricator
+[19:27:01] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_hgjack_f1nade
+[19:27:09] SG_KaAp<STEAM_0:1:566748347> spawned sent gred_emp_6pdr
+[19:27:11] SG_KaAp<STEAM_0:1:566748347> spawned sent gred_emp_6pdr
+[19:28:44] SG_KaAp suicided!
+[19:29:16] SG_KaAp respawned Themself
+[19:29:16] SG_KaAp: !forcerespawn sg_kaap
+[19:30:44] SG_KaAp suicided!
+[19:31:13] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:32:30] Server is shutting down/changing levels.
+
+
+
+[19:32:54] New map: gm_bbicotka_hmcd
+<Logging continued in "data/ulx_logs/10-09-24.txt">

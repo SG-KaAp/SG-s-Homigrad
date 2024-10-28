@@ -1,7 +1,7 @@
 SWEP.Base = "weapon_hg_granade_base"
 
 SWEP.PrintName = "Дымовая граната"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Пиротехническое средство для пуска дыма, предназначенное для подачи сигналов, указания места посадки, маскировки объектов при выполнении манёвров (в том числе в ходе уличных беспорядков)"
 SWEP.Category = "Гранаты"
 

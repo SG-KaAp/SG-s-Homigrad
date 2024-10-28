@@ -74,7 +74,6 @@ if engine.ActiveGamemode() == "homigrad" then
 
         if ent:Health() < 150 then
             ent:SetHealth(math.Clamp(self:GetOwner():Health() + 10,0,150))
-            ent.hungryregen = ent.hungryregen + 6
             sound.Play(healsound,ent:GetPos(),75,100,0.5)
 
             return true

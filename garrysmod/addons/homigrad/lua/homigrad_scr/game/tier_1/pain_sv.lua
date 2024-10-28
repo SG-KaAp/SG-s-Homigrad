@@ -12,7 +12,6 @@ end)
 for i,ply in pairs(player.GetAll()) do
 	--hook.Run("PlayerInitialSpawn",ply)
 end
-
 hook.Add("HomigradDamage","PlayerPainGrowth",function(ply,hitGroup,dmginfo,rag,armorMul)
 	if dmginfo:GetAttacker():IsRagdoll() then return end
 	local dmg = dmginfo:GetDamage()
@@ -70,7 +69,7 @@ hook.Add("Player Think","homigrad-pain",function(ply,time)
 		
 	end
 
-	if ply.pain >= 1800 then
+	if ply.pain >= 600 then
 		ply.KillReason = "pain"
 		ply:Kill()
 		return

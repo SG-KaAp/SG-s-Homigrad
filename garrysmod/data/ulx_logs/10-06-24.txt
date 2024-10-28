@@ -1,0 +1,249 @@
+<Logging continued from "data/ulx_logs/10-05-24.txt">
+[08:56:58] Client "Florida T Guy" connected.
+[09:13:30] Client "SG_KaAp" connected.
+[09:14:31] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 61 seconds).
+[09:15:54] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[10:21:07] Client "Florida T Guy" connected.
+[13:46:50] Server is shutting down/changing levels.
+
+
+
+[13:50:50] New map: gm_bbicotka_hmcd
+[13:53:48] Client "SG_KaAp" connected.
+[13:56:59] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 191 seconds).
+[13:57:48] SG_KaAp respawned Themself
+[13:57:48] SG_KaAp: !forcerespawn sg_kaap
+[13:58:10] SG_KaAp suicided!
+[13:58:10] SG_KaAp respawned Themself
+[13:58:10] SG_KaAp: !forcerespawn sg_kaap
+[13:58:17] SG_KaAp suicided!
+[13:58:18] SG_KaAp respawned Themself
+[13:58:18] SG_KaAp: !forcerespawn sg_kaap
+[13:58:24] SG_KaAp suicided!
+[13:58:24] SG_KaAp respawned Themself
+[13:58:24] SG_KaAp: !forcerespawn sg_kaap
+[13:58:33] SG_KaAp suicided!
+[13:58:33] SG_KaAp respawned Themself
+[13:58:33] SG_KaAp: !forcerespawn sg_kaap
+[14:02:07] SG_KaAp suicided!
+[14:02:15] SG_KaAp respawned Themself
+[14:02:15] SG_KaAp: !forcerespawn sg_kaap
+[14:03:41] SG_KaAp: !ьутг
+[14:03:43] SG_KaAp: !menu
+[14:04:27] SG_KaAp removed all access rights from Dosen
+[14:04:38] SG_KaAp removed group donate_setmodel
+[14:05:52] Client "ишак" connected.
+[14:06:09] SG_KaAp suicided!
+[14:06:10] SG_KaAp: !menu
+[14:06:14] SG_KaAp respawned Themself
+[14:06:14] SG_KaAp: !forcerespawn sg_kaap
+[14:07:53] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[14:07:55] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[14:08:42] SG_KaAp: !noclip sg_kaap
+[14:09:03] SG_KaAp: !noclip sg_kaap
+[14:09:11] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[14:09:31] SG_KaAp: !noclip sg_kaap
+[14:09:36] SG_KaAp: !noclip sg_kaap
+[14:09:39] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[14:10:11] SG_KaAp: !noclip sg_kaap
+[14:10:19] SG_KaAp: !noclip sg_kaap
+[14:10:28] SG_KaAp suicided!
+[14:10:31] SG_KaAp respawned Themself
+[14:10:31] SG_KaAp: !forcerespawn sg_kaap
+[14:11:04] SG_KaAp suicided!
+[14:11:04] SG_KaAp respawned Themself
+[14:11:04] SG_KaAp: !forcerespawn sg_kaap
+[14:11:07] SG_KaAp: !noclip sg_kaap
+[14:11:15] SG_KaAp: !noclip sg_kaap
+[14:11:29] SG_KaAp suicided!
+[14:11:32] SG_KaAp respawned Themself
+[14:11:32] SG_KaAp: !forcerespawn sg_kaap
+[14:11:41] SG_KaAp suicided!
+[14:11:41] SG_KaAp respawned Themself
+[14:11:41] SG_KaAp: !forcerespawn sg_kaap
+[14:11:57] SG_KaAp suicided!
+[14:11:57] SG_KaAp respawned Themself
+[14:11:57] SG_KaAp: !forcerespawn sg_kaap
+[14:12:49] SG_KaAp suicided!
+[14:12:49] SG_KaAp: !noclip sg_kaap
+[14:12:52] SG_KaAp respawned Themself
+[14:12:52] SG_KaAp: !forcerespawn sg_kaap
+[14:13:08] SG_KaAp suicided!
+[14:13:08] SG_KaAp respawned Themself
+[14:13:08] SG_KaAp: !forcerespawn sg_kaap
+[14:13:14] SG_KaAp suicided!
+[14:13:14] SG_KaAp respawned Themself
+[14:13:14] SG_KaAp: !forcerespawn sg_kaap
+[14:14:06] SG_KaAp suicided!
+[14:14:06] SG_KaAp respawned Themself
+[14:14:06] SG_KaAp: !forcerespawn sg_kaap
+[14:14:28] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 516 seconds).
+[14:14:44] ишак: ну и че
+[14:15:05] ишак: как можно админом стать
+[14:15:15] ишак: я уже кидал же
+[14:15:25] ишак: заполнял
+[14:15:39] ишак: у меня
+[14:15:42] ишак: с 2023
+[14:15:44] ишак: играю
+[14:15:57] ишак: не
+[14:16:32] ишак: админ должен банить тех кто плохо ведет себя или читер
+[14:16:44] ишак: админ не должен банить просто так
+[14:16:49] ишак: а точно
+[14:17:22] ишак suicided!
+[14:17:28] ишак: ок
+[14:17:32] ишак: куда идти
+[14:18:00] SG_KaAp set Themself's model to models/player/gman_high.mdl with colors R:255, G:255, B:255
+[14:18:49] ишак: ок
+[14:18:59] SG_KaAp: !adduser ишак admin
+[14:19:25] SG_KaAp: !menu
+[14:19:35] SG_KaAp added ишак to group admin
+[14:19:42] ишак: о
+[14:19:44] ишак: а как
+[14:19:45] SG_KaAp: !menu
+[14:19:55] ишак: !menu
+[14:20:07] ишак set Themself's model to models/modelname.mdl with colors R:255, G:255, B:255
+[14:20:15] ишак: ахахах
+[14:20:19] ишак: че за ерорка
+[14:20:22] SG_KaAp granted access "ulx banid" to group admin
+[14:20:23] SG_KaAp revoked access "ulx banid" to group admin
+[14:20:25] ишак: как убрать
+[14:20:48] ишак suicided!
+[14:21:36] ишак suicided!
+[14:21:36] SG_KaAp respawned ишак
+[14:21:36] SG_KaAp: !forcerespawn ишак
+[14:21:47] ишак: иду
+[14:21:59] ишак: !menu
+[14:22:24] ишак suicided!
+[14:22:24] SG_KaAp respawned ишак
+[14:22:24] SG_KaAp: !forcerespawn ишак
+[14:22:26] SG_KaAp teleported to ишак
+[14:22:37] ишак teleported to SG_KaAp
+[14:22:47] SG_KaAp: hg_playermodels
+[14:23:00] SG_KaAp: (!setmodel
+[14:23:41] SG_KaAp set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[14:23:41] SG_KaAp: !setmodel sg_kaap "models/player/open season/boog.mdl"
+[14:23:55] ишак: не
+[14:23:57] (TEAM) ишак: н
+[14:24:03] ишак: не хочу
+[14:24:06] ишак: если потом
+[14:24:16] SG_KaAp: (!ban
+[14:24:40] ишак: а какой бинд чтобы летать
+[14:24:57] SG_KaAp: !menu
+[14:25:07] SG_KaAp: (!noclip nick
+[14:25:17] ишак: а как
+[14:25:25] ишак: как
+[14:25:30] ишак: а
+[14:25:50] ишак: !noclip ишак
+[14:26:04] ишак: !noclip ишак
+[14:26:10] ишак suicided!
+[14:26:10] SG_KaAp respawned ишак
+[14:26:15] SG_KaAp suicided!
+[14:26:15] SG_KaAp respawned Themself
+[14:26:31] SG_KaAp suicided!
+[14:26:31] SG_KaAp respawned Themself
+[14:26:54] ишак suicided!
+[14:27:03] ишак: ага
+[14:27:13] (SILENT) ишак Respawned Themself
+[14:27:14] SG_KaAp: (!Respawn
+[14:27:15] ишак: все
+[14:27:35] SG_KaAp suicided!
+[14:27:37] SG_KaAp respawned Themself
+[14:27:37] SG_KaAp: !forcerespawn sg_kaap
+[14:28:07] SG_KaAp suicided!
+[14:28:08] ишак: добваь какой нибудь мод на gore
+[14:28:09] SG_KaAp respawned Themself
+[14:28:09] SG_KaAp: !forcerespawn sg_kaap
+[14:28:22] ишак: мясо кишки
+[14:28:29] SG_KaAp: !noclip sg_kaap
+[14:28:31] ишак: !noclip ишак
+[14:28:47] ишак<STEAM_0:1:663861216> spawned NPC npc_citizen
+[14:28:51] ишак suicided!
+[14:28:54] SG_KaAp: !noclip sg_kaap
+[14:28:55] ишак: а
+[14:29:03] (SILENT) ишак Respawned Themself
+[14:29:06] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[14:29:06] SG_KaAp suicided!
+[14:29:06] ишак: ое
+[14:30:06] ишак: !noclip иш
+[14:31:40] Dropped "ишак" from server<STEAM_0:1:663861216>
+[15:04:31] Server is shutting down/changing levels.
+
+
+
+[15:04:54] New map: gm_bbicotka_hmcd
+[15:06:09] Client "SG_KaAp" connected.
+[15:07:22] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 73 seconds).
+[15:09:28] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[15:09:29] Client "SG_KaAp" connected.
+[15:09:42] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 13 seconds).
+[15:10:39] SG_KaAp respawned Themself
+[15:10:39] SG_KaAp: !forcerespawn sg_kaap
+[15:10:55] SG_KaAp suicided!
+[15:10:55] SG_KaAp respawned Themself
+[15:10:55] SG_KaAp: !forcerespawn sg_kaap
+[15:11:33] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[15:11:33] SG_KaAp suicided!
+[15:36:20] Client "SG_KaAp" connected.
+[15:37:01] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 41 seconds).
+[15:38:10] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[15:38:10] Client "SG_KaAp" connected.
+[15:38:23] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 13 seconds).
+[15:39:17] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[15:39:17] Client "SG_KaAp" connected.
+[15:39:30] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 13 seconds).
+[15:40:49] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:36:10] Client "ишак" connected.
+[19:36:52] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 42 seconds).
+[19:37:18] (SILENT) ишак Respawned Themself
+[19:37:29] ишак: !menu
+[19:37:53] ишак changed the map to gm_deschool
+[19:37:53] Server is shutting down/changing levels.
+
+
+
+[19:37:59] New map: gm_deschool
+[19:39:32] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 96 seconds).
+[19:40:00] (SILENT) ишак Respawned Themself
+[19:40:10] ишак: !noclip и
+[19:40:46] ишак<STEAM_0:1:663861216> spawned sent dronesrewrite_ardrone2
+[19:41:13] ишак<STEAM_0:1:663861216> spawned sent dronesrewrite_artillerymain
+[19:41:28] ишак<STEAM_0:1:663861216> spawned sent dronesrewrite_grenader
+[19:41:53] ишак<STEAM_0:1:663861216> spawned sent dronesrewrite_warriordr
+[19:42:14] ишак<STEAM_0:1:663861216> spawned sent dronesrewrite_barrel
+[19:42:26] ишак<STEAM_0:1:663861216> spawned NPC npc_citizen
+[19:42:33] ишак<STEAM_0:1:663861216> spawned NPC npc_combine_s
+[19:42:42] ишак<STEAM_0:1:663861216> spawned NPC npc_combine_s
+[19:43:48] ишак: !noclip иш
+[19:44:48] ишак<STEAM_0:1:663861216> spawned NPC npc_citizen
+[19:45:42] ишак suicided!
+[19:46:07] ишак: !menu
+[19:46:33] (SILENT) ишак Respawned Themself
+[19:47:55] ишак<STEAM_0:1:663861216> spawned NPC npc_breen
+[19:48:30] ишак suicided!
+[19:48:35] ишак: !menu
+[19:48:47] ишак changed the map to de_school
+[19:48:47] Server is shutting down/changing levels.
+
+
+
+[19:48:53] New map: de_school
+[19:49:23] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 33 seconds).
+[19:49:35] ишак: !menu
+[19:49:39] (SILENT) ишак Respawned Themself
+[19:50:04] ишак<STEAM_0:1:663861216> spawned sent ent_jack_gmod_ezmbhg
+[19:51:58] ишак: !setmodel models/player/open season/boog.mdl
+[19:52:19] (TEAM) ишак: !menu
+[19:52:43] ишак changed the map to gm_flatgrass
+[19:52:43] Server is shutting down/changing levels.
+
+
+
+[19:52:48] New map: gm_flatgrass
+[19:53:15] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 29 seconds).
+[19:53:40] (SILENT) ишак Respawned Themself
+[19:58:21] ишак<STEAM_0:1:663861216> spawned NPC npc_citizen
+[19:58:23] ишак<STEAM_0:1:663861216> spawned NPC npc_citizen
+[19:58:25] ишак<STEAM_0:1:663861216> spawned NPC npc_citizen
+[19:58:40] Dropped "ишак" from server<STEAM_0:1:663861216>
+[19:58:40] ишак suicided!
+<Logging continued in "data/ulx_logs/10-07-24.txt">

@@ -1,7 +1,7 @@
 SWEP.Base                   = "weapon_base"
 
 SWEP.PrintName 				= "Бомба в пропе"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "homigrad"
 SWEP.Instructions			= "ЛКМ, чтобы заложить в проп/поставить; ПКМ, чтобы взорвать"
 SWEP.Category 				= "Примочки убийцы"
 

@@ -1,7 +1,7 @@
 SWEP.Base = "weapon_hg_granade_base"
 
 SWEP.PrintName = "RGD-5"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Наступательная ручная граната, относится к противопехотным осколочным ручным гранатам дистанционного действия наступательного типа."
 SWEP.Category = "Гранаты"
 

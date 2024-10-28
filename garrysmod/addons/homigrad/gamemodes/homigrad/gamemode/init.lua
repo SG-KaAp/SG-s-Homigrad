@@ -83,7 +83,7 @@ function GM:PlayerSpawn(ply)
 	ply:PlayerClassEvent("On")
 	
 	TableRound().PlayerSpawn(ply,ply:Team())
-	hook.Run("PlayerLoadout",ply)
+    hook.Run("PlayerLoadout",ply)
 end
 
 function GM:PlayerDeath(ply,inf,att)
@@ -303,13 +303,98 @@ COMMANDS.roll = {function(ply,args)
 	end
 end,nil,nil,true}
 
-COMMANDS.fullup = {function(ply,args)
-	ply.stamina = 100
-	ply.pain = 0
-	ply.Blood = 5000
-	ply.Bloodlosing = 0
-	ply.dmgimpulse = 0
-end}
+concommand.Add("fullup", function(ply, cmd, args)
+    -- Проверка на админские права
+    if not ply:IsAdmin() and not ply:IsUserGroup("helper") and not ply:IsUserGroup("moderator") then
+        if CLIENT then
+            chat.AddText(Color(255, 0, 0), "Только для админов")
+        else
+            ply:PrintMessage(HUD_PRINTCONSOLE, "Только для админов.")
+        end
+        return
+    end
+
+    -- Определяем целевого игрока
+    local target = ply
+
+    if args[1] then
+        -- Ищем игрока по указанному нику
+        local potentialTarget = nil
+        for _, v in ipairs(player.GetAll()) do
+            if string.find(string.lower(v:Nick()), string.lower(args[1])) then
+                potentialTarget = v
+                break
+            end
+        end
+
+        -- Если нашли игрока, назначаем его как цель, иначе сообщаем, что игрок не найден
+        if potentialTarget then
+            target = potentialTarget
+        else
+            ply:ChatPrint("Игрок с таким именем не найден.")
+            return
+        end
+
+    end
+
+    -- Восстанавливаем параметры целевого игрока
+    target.stamina = 100
+    target.pain = 0
+    target.Blood = 5000
+    target.Bloodlosing = 0
+    target.dmgimpulse = 0
+
+    -- Сообщаем, что параметры восстановлены
+     for _, player in ipairs(player.GetAll()) do
+            player:ChatPrint(" " .. ply:Nick() .. " восстановил параметры игрока " .. target:Nick() .. ".")
+     end
+    print(string.format(" %s использовал команду 'FullUP' на игроке %s", ply:Nick(), target:Nick()))
+end)
+
+
+concommand.Add("sfullup", function(ply, cmd, args)
+    -- Проверка на админские права
+    if not ply:IsSuperAdmin() then
+        if CLIENT then
+            chat.AddText(Color(255, 0, 0), "Только для админов")
+        else
+            ply:PrintMessage(HUD_PRINTCONSOLE, "Только для админов.")
+        end
+        return
+    end
+
+    -- Определяем целевого игрока
+    local target = ply
+
+    if args[1] then
+        -- Ищем игрока по указанному нику
+        local potentialTarget = nil
+        for _, v in ipairs(player.GetAll()) do
+            if string.find(string.lower(v:Nick()), string.lower(args[1])) then
+                potentialTarget = v
+                break
+            end
+        end
+
+        -- Если нашли игрока, назначаем его как цель, иначе сообщаем, что игрок не найден
+        if potentialTarget then
+            target = potentialTarget
+        else
+            ply:ChatPrint("Игрок с таким именем не найден.")
+            return
+        end
+
+    end
+
+    -- Восстанавливаем параметры целевого игрока
+    target.stamina = 100
+    target.pain = 0
+    target.Blood = 5000
+    target.Bloodlosing = 0
+    target.dmgimpulse = 0
+end)
+
+
 
 function GM:DoPlayerDeath(ply) end
 

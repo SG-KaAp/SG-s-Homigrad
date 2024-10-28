@@ -1,6 +1,7 @@
 if engine.ActiveGamemode() == "homigrad" then
 
 SWEP.PrintName = "Складной Ножик"
+SWEP.Author = "Homigrad"
 SWEP.Instructions = "Маленький ножик складного типа, который удобно носить в кармане. Хорошее средство для самообороны, которое никто не сможет увидеть, пока вы не достанете его из кармана."
 SWEP.Category = "Ближний Бой"
 

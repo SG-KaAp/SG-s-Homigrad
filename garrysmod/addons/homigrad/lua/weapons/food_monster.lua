@@ -3,7 +3,7 @@ SWEP.Base = 'weapon_base'
 AddCSLuaFile()
 
 SWEP.PrintName = "Энергетик"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Purpose = "Энергетический напиток"
 SWEP.Category = "Вкусности"
 
@@ -119,7 +119,6 @@ function SWEP:PrimaryAttack()
 	self:GetOwner():SetAnimation(PLAYER_ATTACK1)
 
 	if(SERVER)then
-		self:GetOwner().hungryregen = self:GetOwner().hungryregen + 1
 		self:GetOwner().adrenaline = self:GetOwner().adrenaline + 1
 		self:GetOwner().stamina = self:GetOwner().stamina + 10
 		self:Remove()

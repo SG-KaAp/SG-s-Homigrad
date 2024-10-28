@@ -1,0 +1,3374 @@
+<Logging continued from "data/ulx_logs/10-23-24.txt">
+[10:09:14] Client "Zkibidi Adventures" connected.
+[10:12:34] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 200 seconds).
+[10:13:24] Zkibidi Adventures: !motd
+[10:15:28] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[10:30:41] Server is shutting down/changing levels.
+
+
+
+[11:00:12] New map: gm_bbicotka_hmcd
+[11:02:04] Client "?who are you" connected.
+[11:05:24] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 200 seconds).
+[11:05:32] Client "SG_KaAp" connected.
+[11:05:41] ?who are you: !menu
+[11:05:58] ?who are you respawned Themself
+[11:06:12] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[11:06:12] ?who are you suicided!
+[11:06:13] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 41 seconds).
+[11:07:06] Client "?who are you" connected.
+[11:07:09] SG_KaAp: !forcerespawn ^
+[11:07:20] SG_KaAp respawned Themself
+[11:07:20] SG_KaAp: !frespawn ^
+[11:07:32] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[11:07:32] SG_KaAp suicided!
+[11:07:39] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 33 seconds).
+[11:07:56] ?who are you: !menu
+[11:08:09] ?who are you respawned Themself
+[11:09:03] Client "Дед Щукарь" connected.
+[11:09:04] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[11:09:04] ?who are you suicided!
+[11:14:58] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 355 seconds).
+[11:15:28] Дед Щукарь respawned Themself
+[11:15:28] Дед Щукарь: !respawn Дед
+[11:15:41] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[11:15:41] Дед Щукарь suicided!
+[11:15:52] Server is shutting down/changing levels.
+
+
+
+[11:26:13] New map: gm_bbicotka_hmcd
+[11:26:21] Server is shutting down/changing levels.
+
+
+
+[11:26:53] New map: gm_bbicotka_hmcd
+[11:27:14] Client "SG_KaAp" connected.
+[11:27:25] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 11 seconds).
+[11:27:36] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[11:27:52] Server is shutting down/changing levels.
+
+
+
+[11:43:08] New map: gm_bbicotka_hmcd
+[11:45:35] Client "SG_KaAp" connected.
+[11:45:55] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[11:46:07] SG_KaAp respawned Themself
+[11:46:07] SG_KaAp: !frespawn ^
+[11:46:26] SG_KaAp: !noclip
+[11:46:29] SG_KaAp: !noclip
+[11:46:36] SG_KaAp suicided!
+[11:46:37] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[11:46:51] Server is shutting down/changing levels.
+
+
+
+[11:47:28] New map: gm_bbicotka_hmcd
+[11:51:11] Client "Дед Щукарь" connected.
+[11:53:36] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 145 seconds).
+[11:56:36] Дед Щукарь respawned Themself
+[11:56:36] Дед Щукарь: !respawn Дед
+[11:59:21] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[11:59:21] Дед Щукарь suicided!
+[12:04:58] Client "?who are you" connected.
+[12:07:11] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 133 seconds).
+[12:07:29] ?who are you: !menu
+[12:07:38] ?who are you respawned Themself
+[12:07:40] Client "Дед Щукарь" connected.
+[12:08:48] ?who are you<STEAM_0:0:798151674> spawned NPC npc_sjg_howlers_battle
+[12:08:48] ?who are you suicided!
+[12:08:56] ?who are you: !menu
+[12:08:58] ?who are you respawned Themself
+[12:09:11] ?who are you suicided!
+[12:09:33] ?who are you: !menu
+[12:09:35] ?who are you respawned Themself
+[12:09:47] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 127 seconds).
+[12:10:18] Client "Мику" connected.
+[12:11:07] ?who are you: !noclip
+[12:11:19] ?who are you<STEAM_0:0:798151674> spawned NPC npc_sjg_howlers_maze
+[12:11:46] ?who are you was killed by npc_sjg_howlers_maze
+[12:12:43] ?who are you: !noclip
+[12:13:47] ?who are you<STEAM_0:0:798151674> spawned NPC npc_sjg_howlers_battle
+[12:14:13] ?who are you suicided!
+[12:14:31] Дед Щукарь: !noclip
+[12:15:20] ?who are you suicided!
+[12:16:06] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 348 seconds).
+[12:16:46] Дед Щукарь suicided!
+[12:16:55] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[12:16:55] Дед Щукарь suicided!
+[12:17:01] Server is shutting down/changing levels.
+
+
+
+[12:17:44] New map: gm_bbicotka_hmcd
+[12:18:22] Client "?who are you" connected.
+[12:18:23] Client "Мику" connected.
+[12:18:48] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 26 seconds).
+[12:18:59] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 36 seconds).
+[12:19:04] ?who are you: !menu
+[12:19:34] ?who are you suicided!
+[12:19:37] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[12:19:37] Мику suicided!
+[12:19:54] Dropped "Мику" from server<STEAM_0:0:50399502>
+[12:20:51] Client "?who are you" connected.
+[12:21:31] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 40 seconds).
+[12:21:47] ?who are you: !menu
+[12:23:26] Client "Дед Щукарь" connected.
+[12:24:10] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[12:25:02] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 96 seconds).
+[12:27:05] Дед Щукарь respawned Themself
+[12:27:05] Дед Щукарь: !respawn Дед
+[12:32:15] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[12:32:33] Дед Щукарь: !menu
+[12:36:08] Дед Щукарь suicided!
+[12:37:07] Client "Яичка" connected.
+[12:38:31] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 84 seconds).
+[12:39:11] Яичка: Ltl
+[12:39:13] Яичка: Дед хай
+[12:39:53] Яичка: На крышу
+[12:39:58] Дед Щукарь: уже тут
+[12:40:01] Яичка: иди
+[12:40:03] Яичка: иду
+[12:40:11] Яичка: Приав
+[12:40:19] Яичка: У меня поинтшоп
+[12:40:27] Яичка: Не робтит
+[12:40:31] Яичка: Хз
+[12:40:37] Яичка: скачал я
+[12:40:40] Дед Щукарь: pointshop content
+[12:41:11] Яичка: !levelend
+[12:41:13] Дед Щукарь suicided!
+[12:41:42] Дед Щукарь<STEAM_0:1:740599899> spawned model models/props_c17/concrete_barrier001a.mdl
+[12:42:32] Дед Щукарь suicided!
+[12:43:31] Дед Щукарь suicided!
+[12:47:01] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[12:47:01] Яичка suicided!
+[12:47:01] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[12:47:01] Дед Щукарь suicided!
+
+
+
+[13:44:25] New map: gm_bbicotka_hmcd
+[14:10:51] Client "`(*>﹏<*)′" connected.
+[14:32:48] Client "Яичка" connected.
+[14:33:33] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 45 seconds).
+[14:34:32] Яичка: !forcerespawn ^
+[14:34:38] Яичка: !menu
+[14:35:15] Яичка: levelend
+[14:35:17] Яичка: !nortv 1
+[14:35:19] Яичка: levelrandom
+[14:35:20] Яичка: sync
+[14:35:30] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[14:37:27] Client "Яичка" connected.
+[14:37:32] Server is shutting down/changing levels.
+
+
+
+[14:37:42] New map: de_school2
+[14:37:42] Server is shutting down/changing levels.
+
+
+
+[14:37:50] New map: de_school2
+[14:37:50] Client "Яичка" connected.
+[14:37:50] Client "Яичка" connected.
+[14:38:13] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 23 seconds).
+[14:46:01] Client "Дед Щукарь" connected.
+[14:47:54] Client "S.T.A.L.K.E.R" connected.
+[14:48:46] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 165 seconds).
+[14:52:07] Client "S.T.A.L.K.E.R" spawned in server <STEAM_0:0:580668777> (took 253 seconds).
+[14:52:31] Dropped "S.T.A.L.K.E.R" from server<STEAM_0:0:580668777>
+[14:54:58] Дед Щукарь suicided!
+[14:56:26] Дед Щукарь suicided!
+[14:56:30] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[14:56:47] Client "Дед Щукарь" connected.
+[14:57:53] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 66 seconds).
+[14:58:24] Дед Щукарь suicided!
+[15:00:36] Client "Черный Вульфич" connected.
+[15:00:43] Дед Щукарь suicided!
+[15:01:27] Яичка: !noclip ^
+[15:01:45] Дед Щукарь suicided!
+[15:02:10] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[15:02:10] Дед Щукарь suicided!
+[15:03:12] Server is shutting down/changing levels.
+
+
+
+[15:03:49] New map: gm_bbicotka_hmcd
+[15:04:24] Client "Черный Вульфич" connected.
+[15:09:43] Client "Яичка" connected.
+[15:09:47] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 323 seconds).
+[15:10:12] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 29 seconds).
+[15:11:41] Яичка killed Черный Вульфич using weapon_slb_admin_deagle
+[15:11:54] Яичка: !noclip ^
+[15:11:59] Черный Вульфич: ШООООООООООО
+[15:12:04] Черный Вульфич: А МНЕ НОУКЛИП
+[15:12:05] Яичка привел к Черный Вульфич
+[15:12:05] Яичка: !bring ч
+[15:12:08] Яичка: хай
+[15:12:11] Черный Вульфич: ПРУВЕТ
+[15:12:19] Черный Вульфич: ты админ?
+[15:12:22] Яичка: До
+[15:12:42] Черный Вульфич: ckeifq
+[15:12:51] Черный Вульфич: а как админом стать
+[15:12:54] Яичка<STEAM_0:0:709713214> spawned NPC npc_citizen
+[15:13:01] Черный Вульфич: дс же не штрехает
+[15:13:12] Яичка: хз
+[15:13:18] Черный Вульфич: f rfr ns bv cnfk
+[15:13:23] Черный Вульфич: да емае
+[15:13:28] Черный Вульфич: как как ты быть
+[15:13:31] Черный Вульфич: я тоже хочу
+[15:13:51] Черный Вульфич: это что
+[15:13:55] Черный Вульфич: вай
+[15:14:43] Черный Вульфич: это лутше работает
+[15:14:52] Client "Дед Щукарь" connected.
+[15:14:55] Черный Вульфич: ого
+[15:15:06] Черный Вульфич: а ппоставь нпс
+[15:15:15] Яичка<STEAM_0:0:709713214> spawned NPC npc_citizen
+[15:15:19] Яичка<STEAM_0:0:709713214> spawned NPC npc_citizen
+[15:15:20] Черный Вульфич: емае
+[15:15:25] Черный Вульфич: какой он сильный
+[15:15:53] Черный Вульфич suicided!
+[15:16:18] Черный Вульфич: ae
+[15:16:19] (TEAM) Черный Вульфич: фу
+[15:16:22] Черный Вульфич: фу
+[15:16:29] Черный Вульфич: ав
+[15:16:55] Черный Вульфич suicided!
+[15:17:08] Черный Вульфич: :(
+[15:18:11] Черный Вульфич: Я УМЕР :(
+[15:18:23] Яичка: !frespawn чер
+[15:18:28] Яичка suicided!
+[15:18:28] Яичка respawned Everyone
+[15:18:28] Яичка: !frespawn ч
+[15:18:31] Черный Вульфич: О
+[15:18:31] Яичка: !noclip ^
+[15:18:37] Яичка привел к Черный Вульфич
+[15:18:37] Яичка: !bring *
+[15:18:45] Черный Вульфич: ДРАСТЕ
+[15:18:48] Черный Вульфич: а
+[15:19:43] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_eznuke_big
+[15:20:20] Черный Вульфич suicided!
+[15:20:27] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezdynamite
+[15:20:31] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezlandmine
+[15:20:45] Черный Вульфич: я уменр от передоза спермы
+[15:20:47] Яичка suicided!
+[15:21:20] Яичка: !
+[15:21:22] Яичка привел к Черный Вульфич
+[15:21:22] Яичка: !bring *
+[15:21:23] Черный Вульфич suicided!
+[15:23:01] Яичка suicided!
+[15:23:03] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[15:23:03] Яичка suicided!
+[15:23:04] Client "Яичка" connected.
+[15:23:34] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 30 seconds).
+[15:23:45] Яичка: !noclip ^
+[15:23:56] Яичка suicided!
+[15:23:56] Яичка suicided!
+[15:23:58] Яичка killed Черный Вульфич
+[15:24:22] Яичка: !noclip ^
+[15:24:25] Яичка: !noclip ^
+[15:24:32] Яичка привел к Черный Вульфич
+[15:24:32] Яичка: !bring *
+[15:25:08] Черный Вульфич suicided!
+[15:25:08] Черный Вульфич suicided!
+[15:25:25] Яичка: !noclip ^
+[15:25:55] Черный Вульфич suicided!
+[15:25:55] Черный Вульфич suicided!
+[15:26:24] Яичка: !noclip ^
+[15:27:02] Яичка: !noclip ^
+[15:27:21] Client "ДимASS" connected.
+[15:27:37] Черный Вульфич suicided!
+[15:28:11] Яичка: !noclip ^
+[15:28:22] Яичка: !noclip ^
+[15:28:32] Client "jogutuk!" connected.
+[15:28:41] Черный Вульфич suicided!
+[15:29:12] Яичка: !noclip ^
+[15:29:33] Черный Вульфич suicided!
+[15:29:35] Яичка: !noclip ^
+[15:29:45] Яичка: !levelend
+[15:29:46] Яичка: !noclip ^
+[15:29:49] Яичка suicided!
+[15:30:00] Яичка: !noclip ^
+[15:30:18] Яичка suicided!
+[15:30:31] Яичка: accessspawn
+[15:30:33] Яичка: levelrandom
+[15:30:43] Яичка: !noclip ^
+[15:31:47] Яичка: !noclip ^
+[15:32:01] Яичка: !noclip ^
+[15:32:16] Яичка: !noclip ^
+[15:32:19] Яичка: !noclip ^
+[15:32:50] Яичка suicided!
+[15:32:50] Яичка suicided!
+[15:32:53] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[15:35:07] Client "ДимASS" connected.
+[15:36:30] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 83 seconds).
+[15:37:07] Черный Вульфич suicided!
+[15:38:19] Client "?who are you" connected.
+[15:39:51] Черный Вульфич suicided!
+[15:39:52] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 93 seconds).
+[15:42:04] ?who are you suicided!
+[15:42:59] Черный Вульфич suicided!
+[15:43:55] Черный Вульфич suicided!
+[15:43:55] Черный Вульфич suicided!
+[15:44:14] Client "Пиджак" connected.
+[15:45:16] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[15:45:16] ?who are you suicided!
+[15:46:02] ДимASS suicided!
+[15:46:39] Черный Вульфич suicided!
+[15:48:08] Черный Вульфич suicided!
+[15:48:08] ДимASS suicided!
+[15:48:38] Server is shutting down/changing levels.
+
+
+
+[15:48:50] New map: de_cache_rework
+[15:48:51] Server is shutting down/changing levels.
+
+
+
+[15:49:01] New map: de_cache_rework
+[15:49:01] Client "Черный Вульфич" connected.
+[15:49:01] Client "Черный Вульфич" connected.
+[15:49:01] Client "ДимASS" connected.
+[15:50:03] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 62 seconds).
+[15:50:03] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 62 seconds).
+[15:52:17] Черный Вульфич suicided!
+[15:52:55] Черный Вульфич suicided!
+[15:53:12] ДимASS suicided!
+[15:53:28] Черный Вульфич suicided!
+[15:53:28] ДимASS suicided!
+[15:54:02] ДимASS suicided!
+[15:54:02] ДимASS suicided!
+[15:54:26] Client "Falc" connected.
+[15:54:50] ДимASS suicided!
+[15:54:50] ДимASS suicided!
+[15:55:36] Черный Вульфич suicided!
+[15:57:50] ДимASS suicided!
+[15:57:50] ДимASS suicided!
+[15:58:13] Черный Вульфич suicided!
+[15:58:16] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 230 seconds).
+[15:58:54] ДимASS suicided!
+[15:59:59] Черный Вульфич suicided!
+[16:00:18] Черный Вульфич suicided!
+[16:00:33] ДимASS suicided!
+[16:01:32] Falc suicided!
+[16:01:32] Falc suicided!
+[16:01:53] Dropped "Falc" from server<STEAM_0:1:624344922>
+[16:03:03] Черный Вульфич suicided!
+[16:03:25] Client "подозрительная с" connected.
+[16:03:49] Dropped "ДимASS" from server<STEAM_0:0:206797798>
+[16:04:00] (TEAM) Черный Вульфич: !MENU
+[16:04:48] Черный Вульфич suicided!
+[16:06:14] Server is shutting down/changing levels.
+
+
+
+[16:06:23] New map: ba_jail_hellsgamers_se_r2
+[16:06:23] Server is shutting down/changing levels.
+
+
+
+[16:06:31] New map: ba_jail_hellsgamers_se_r2
+[16:06:31] Client "Черный Вульфич" connected.
+[16:06:31] Client "Черный Вульфич" connected.
+[16:07:12] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 41 seconds).
+[16:08:06] Server is shutting down/changing levels.
+
+
+
+[16:08:15] New map: cs_office
+[16:08:15] Server is shutting down/changing levels.
+
+
+
+[16:08:22] New map: cs_office
+[16:08:22] Client "Черный Вульфич" connected.
+[16:08:22] Client "Черный Вульфич" connected.
+
+
+
+[16:09:01] New map: gm_bbicotka_hmcd
+[16:11:43] Client "Дед Щукарь" connected.
+[16:13:02] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 79 seconds).
+[16:13:32] Client "Черный Вульфич" connected.
+[16:14:08] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 36 seconds).
+[16:14:33] Дед Щукарь suicided!
+[16:14:52] Черный Вульфич: ИЗВЕНИ ТАК НАДО БЫЛО
+[16:15:04] Дед Щукарь suicided!
+[16:15:11] Черный Вульфич: ТОЖЕ САМОЕ
+[16:16:16] Дед Щукарь suicided!
+[16:16:19] Черный Вульфич: да я такой
+[16:18:35] Черный Вульфич suicided!
+[16:18:39] Дед Щукарь suicided!
+[16:20:02] Дед Щукарь suicided!
+[16:20:07] Черный Вульфич suicided!
+[16:21:10] Client "Тимурка" connected.
+[16:22:45] Client "HL enjoyer" connected.
+[16:23:42] Client "БулочкаСмаком" connected.
+[16:23:56] Client "Тимурка" spawned in server <STEAM_0:0:782714837> (took 166 seconds).
+[16:24:26] Черный Вульфич голосует за Да
+[16:24:28] Тимурка голосует за Да
+[16:24:32] Дед Щукарь голосует за Нет
+[16:25:57] Дед Щукарь suicided!
+[16:26:48] Дед Щукарь suicided!
+[16:26:49] Client "БулочкаСмаком" connected.
+[16:26:49] Черный Вульфич suicided!
+[16:26:49] Тимурка suicided!
+[16:27:45] Дед Щукарь suicided!
+[16:27:50] Дед Щукарь suicided!
+[16:28:03] Дед Щукарь: !levelend
+[16:28:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props_junk/garbage256_composite002b.mdl
+[16:28:42] Client "HL enjoyer" spawned in server <STEAM_0:0:433142425> (took 357 seconds).
+[16:28:46] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_italy/it_mkt_container1.mdl
+[16:28:54] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/de_inferno/tablecoffee.mdl
+[16:29:01] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_assault/ticketmachine.mdl
+[16:29:07] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_assault/ticketmachine.mdl
+[16:29:08] Дед Щукарь<STEAM_0:1:740599899> spawned model models/food/burger.mdl
+[16:29:10] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_assault/ticketmachine.mdl
+[16:29:14] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_assault/ticketmachine.mdl
+[16:29:18] Черный Вульфич suicided!
+[16:29:48] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_assault/trainstationsign.mdl
+[16:29:49] Дед Щукарь: !setmodel ^ models/kuhnya/barinov.mdl
+[16:29:56] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_assault/forklift.mdl
+[16:29:57] Дед Щукарь: !menu
+[16:30:18] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle03.mdl
+[16:30:21] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle03.mdl
+[16:30:21] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle02.mdl
+[16:30:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:23] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:23] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:23] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:23] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:29] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:29] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:29] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:29] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:29] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:29] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/bottle01.mdl
+[16:30:35] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/furniture_shelf01a.mdl
+[16:30:38] HL enjoyer suicided!
+[16:30:39] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/furniture_shelf01a.mdl
+[16:30:46] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_italy/bananna_bunch.mdl
+[16:31:22] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_militia/fishriver01.mdl
+[16:31:44] Тимурка suicided!
+[16:31:46] Дед Щукарь переместился к Черный Вульфич
+[16:31:56] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 307 seconds).
+[16:32:37] Дед Щукарь переместился к Тимурка
+[16:33:03] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_office/computer_monitor.mdl
+[16:33:06] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_office/computer_monitor.mdl
+[16:33:07] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_office/computer_keyboard.mdl
+[16:33:09] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_office/computer_mouse.mdl
+[16:33:20] Client "Edward  Norton" connected.
+[16:33:23] Черный Вульфич<STEAM_0:1:770259809> spawned model models/props/cs_office/crates_indoor.mdl
+[16:33:38] БулочкаСмаком suicided!
+[16:34:16] БулочкаСмаком suicided!
+[16:34:49] HL enjoyer suicided!
+[16:35:40] Черный Вульфич suicided!
+[16:35:59] БулочкаСмаком suicided!
+[16:36:02] HL enjoyer suicided!
+[16:36:57] Черный Вульфич suicided!
+[16:37:53] Дед Щукарь<STEAM_0:1:740599899> spawned model models/food/hotdog.mdl
+[16:38:28] БулочкаСмаком suicided!
+[16:38:53] Дед Щукарь suicided!
+[16:39:20] Тимурка suicided!
+[16:40:11] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[16:40:11] Черный Вульфич suicided!
+[16:40:13] Client "Черный Вульфич" connected.
+[16:40:48] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 35 seconds).
+[16:40:50] Дед Щукарь suicided!
+[16:40:54] Client "SG_KaAp" connected.
+[16:41:18] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[16:41:18] Черный Вульфич suicided!
+[16:41:19] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 25 seconds).
+[16:42:27] Дед Щукарь голосует за Нет
+[16:42:28] HL enjoyer голосует за Нет
+[16:42:30] Тимурка голосует за Нет
+[16:42:31] БулочкаСмаком голосует за Да
+[16:42:44] HL enjoyer suicided!
+[16:43:01] Client "C17.OTA.SWORD.SOLDIER:204 URF.IM" connected.
+[16:43:17] SG_KaAp: !menu
+[16:43:17] БулочкаСмаком suicided!
+[16:43:39] SG_KaAp: !setmodel
+[16:43:54] HL enjoyer suicided!
+[16:43:55] Тимурка suicided!
+[16:44:00] Дед Щукарь suicided!
+[16:44:41] Client "sky" connected.
+[16:46:04] Дед Щукарь: шиной
+[16:46:10] Дед Щукарь: ну вот
+[16:46:28] Дед Щукарь suicided!
+[16:46:43] Тимурка suicided!
+[16:47:10] HL enjoyer suicided!
+[16:47:22] SG_KaAp suicided!
+[16:47:22] SG_KaAp respawned Themself
+[16:47:22] SG_KaAp: !frespawn ^
+[16:47:28] (TEAM) SG_KaAp: !noclip
+[16:47:35] SG_KaAp: !noclip
+[16:47:39] HL enjoyer: !levelend
+[16:47:40] HL enjoyer: !levelend
+[16:48:05] SG_KaAp suicided!
+[16:48:10] БулочкаСмаком suicided!
+[16:48:11] Client "< blank >" connected.
+[16:48:24] Дед Щукарь suicided!
+[16:48:44] Тимурка suicided!
+[16:48:50] Client "Falc" connected.
+[16:50:00] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 70 seconds).
+[16:50:44] Dropped "HL enjoyer" from server<STEAM_0:0:433142425>
+[16:50:44] HL enjoyer suicided!
+[16:51:17] Client "HL enjoyer" connected.
+[16:51:38] Дед Щукарь suicided!
+[16:51:44] Client "HL enjoyer" spawned in server <STEAM_0:0:433142425> (took 27 seconds).
+[16:53:22] Client "头头" connected.
+[16:53:31] Дед Щукарь suicided!
+[16:53:56] БулочкаСмаком suicided!
+[16:53:56] Falc suicided!
+[16:53:59] HL enjoyer suicided!
+[16:55:02] Тимурка suicided!
+[16:56:36] Falc suicided!
+[16:56:57] Дед Щукарь suicided!
+[16:57:00] Дед Щукарь suicided!
+[16:57:00] Тимурка suicided!
+[16:57:00] HL enjoyer suicided!
+[16:57:00] БулочкаСмаком suicided!
+[16:57:00] Falc suicided!
+[16:57:04] Dropped "Тимурка" from server<STEAM_0:0:782714837>
+[16:57:30] Server is shutting down/changing levels.
+
+
+
+[16:57:38] New map: hmcd_rooftops_snow
+[16:57:39] Server is shutting down/changing levels.
+
+
+
+[16:57:46] New map: hmcd_rooftops_snow
+[16:57:46] Client "Falc" connected.
+[16:57:46] Client "Falc" connected.
+[16:57:46] Client "SG_KaAp" connected.
+[16:57:46] Client "SG_KaAp" connected.
+[16:57:46] Client "HL enjoyer" connected.
+[16:57:46] Client "HL enjoyer" connected.
+[16:57:46] Client "БулочкаСмаком" connected.
+[16:57:46] Client "БулочкаСмаком" connected.
+[16:57:46] Client "Дед Щукарь" connected.
+[16:57:46] Client "Дед Щукарь" connected.
+[16:57:47] Client "< blank >" connected.
+[16:57:47] Client "< blank >" connected.
+
+
+
+[16:58:19] New map: gm_bbicotka_hmcd
+[16:58:35] Client "Falc" connected.
+[16:59:00] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 25 seconds).
+[17:00:04] Client "HL enjoyer" connected.
+[17:00:24] Client "HL enjoyer" spawned in server <STEAM_0:0:433142425> (took 20 seconds).
+[17:01:33] Client "БулочкаСмаком" connected.
+[17:02:01] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 28 seconds).
+[17:02:50] Falc: Где ты
+[17:02:55] Client "< blank >" connected.
+[17:02:56] Client "Дед Щукарь" connected.
+[17:03:11] HL enjoyer suicided!
+[17:03:30] Client "`(*>﹏<*)′" connected.
+[17:04:05] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 69 seconds).
+[17:04:06] Client "ĞĔŃĎĂĹŦ (белый)亗" connected.
+[17:04:33] Client "`(*>﹏<*)′" spawned in server <STEAM_0:0:757040952> (took 63 seconds).
+[17:05:33] `(*>﹏<*)′<STEAM_0:0:757040952> changed their name to учись сын мияги
+[17:05:38] HL enjoyer suicided!
+[17:05:43] Falc suicided!
+[17:06:02] БулочкаСмаком suicided!
+[17:06:21] БулочкаСмаком голосует за Да
+[17:06:22] HL enjoyer голосует за Да
+[17:06:33] Дед Щукарь голосует за Нет
+[17:06:41] БулочкаСмаком: !levelend
+[17:07:22] учись сын мияги suicided!
+[17:07:24] Дед Щукарь suicided!
+[17:07:43] Client "SG_KaAp" connected.
+[17:07:47] Client "i11ushenka" connected.
+[17:07:59] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 16 seconds).
+[17:08:12] Falc suicided!
+[17:08:12] Falc suicided!
+[17:08:41] Client "i11ushenka" connected.
+[17:09:12] Falc<STEAM_0:1:624344922> spawned model models/weapons/w_smg_mac10.mdl
+[17:09:17] Falc<STEAM_0:1:624344922> spawned model models/weapons/w_smg_mac10.mdl
+[17:09:17] Дед Щукарь suicided!
+[17:09:26] учись сын мияги suicided!
+[17:09:49] HL enjoyer<STEAM_0:0:433142425> spawned model models/props/cs_assault/box_stack2.mdl
+[17:09:52] HL enjoyer<STEAM_0:0:433142425> spawned model models/gibs/hgibs.mdl
+[17:09:53] HL enjoyer<STEAM_0:0:433142425> spawned model models/gibs/hgibs.mdl
+[17:09:57] Дед Щукарь suicided!
+[17:10:04] Client "Яичка" connected.
+[17:10:18] БулочкаСмаком: афк 9999999
+[17:10:18] Dropped "БулочкаСмаком" from server<STEAM_0:1:49357881>
+[17:10:18] БулочкаСмаком suicided!
+[17:10:31] Client "БулочкаСмаком" connected.
+[17:10:37] учись сын мияги suicided!
+[17:10:44] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 40 seconds).
+[17:10:55] Яичка: !noclip ^
+[17:11:29] Яичка: !setmodel ^ models/player/group01/female_05.mdl
+[17:11:34] учись сын мияги suicided!
+[17:11:38] SG_KaAp suicided!
+[17:11:38] Дед Щукарь suicided!
+[17:11:50] Client "БулочкаСмаком" connected.
+[17:11:58] HL enjoyer suicided!
+[17:12:00] Яичка killed Falc using player
+[17:12:11] Falc голосует за Да
+[17:12:12] учись сын мияги suicided!
+[17:12:13] HL enjoyer голосует за Нет
+[17:12:13] учись сын мияги голосует за Да
+[17:12:13] Дед Щукарь голосует за Да
+[17:12:14] Яичка suicided!
+[17:12:16] Яичка голосует за Нет
+[17:12:19] SG_KaAp голосует за Да
+[17:12:23] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 33 seconds).
+[17:12:28] Client "ĞĔŃĎĂĹŦ (белый)亗" spawned in server <STEAM_0:1:753171672> (took 502 seconds).
+[17:12:35] SG_KaAp<STEAM_0:1:566748347> spawned model models/hunter/blocks/cube4x6x1.mdl
+[17:12:36] Client "< blank >" spawned in server <STEAM_0:1:446740708> (took 581 seconds).
+[17:12:37] Яичка: !csay НЕКСТБОТЫ НЕ РОБЯТ
+[17:12:39] SG_KaAp<STEAM_0:1:566748347> spawned model models/hunter/blocks/cube4x6x1.mdl
+[17:12:45] Яичка: !menu
+[17:12:49] (csay from Яичка) НЕКСТБОТЫ НЕ РОБЯТ
+[17:12:57] Яичка: F
+[17:12:59] Яичка: f
+[17:13:01] Яичка: А
+[17:13:03] Яичка: Памагите
+[17:13:07] Яичка: С поинтшопам
+[17:13:10] Falc suicided!
+[17:13:16] Яичка: у меня
+[17:13:18] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[17:13:21] БулочкаСмаком<STEAM_0:1:49357881> spawned model models/props/de_nuke/crate_extrasmall.mdl
+[17:13:24] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[17:13:29] Дед Щукарь suicided!
+[17:13:31] SG_KaAp suicided!
+[17:13:33] Яичка suicided!
+[17:13:45] Яичка: У меня поинт шоп
+[17:13:46] Дед Щукарь was killed by npc_sjg_howlers_battle
+[17:13:49] Яичка: Хз чзх
+[17:13:54] Falc suicided!
+[17:14:00] SG_KaAp: !levelend
+[17:14:05] SG_KaAp suicided!
+[17:14:07] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[17:14:07] Яичка suicided!
+[17:14:07] Client "Яичка" connected.
+[17:14:15] SG_KaAp: !noclip
+[17:14:18] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[17:14:19] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[17:14:22] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[17:14:23] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_maze
+[17:14:25] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[17:14:33] SG_KaAp: !noclip
+[17:14:35] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 28 seconds).
+[17:14:52] БулочкаСмаком suicided!
+[17:15:10] < blank > suicided!
+[17:15:24] Дед Щукарь suicided!
+[17:15:29] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 408 seconds).
+[17:15:38] Falc suicided!
+[17:15:59] учись сын мияги suicided!
+[17:16:18] ĞĔŃĎĂĹŦ (белый)亗 suicided!
+[17:16:25] SG_KaAp suicided!
+[17:16:36] Client "JDH" connected.
+[17:16:37] HL enjoyer suicided!
+[17:17:13] Яичка suicided!
+[17:17:38] Яичка suicided!
+[17:17:47] Дед Щукарь suicided!
+[17:18:11] < blank > suicided!
+[17:18:14] SG_KaAp suicided!
+[17:18:15] учись сын мияги suicided!
+[17:18:49] БулочкаСмаком suicided!
+[17:19:11] < blank > suicided!
+[17:19:32] SG_KaAp suicided!
+[17:19:33] Falc suicided!
+[17:19:35] ĞĔŃĎĂĹŦ (белый)亗 suicided!
+[17:19:56] Яичка suicided!
+[17:19:59] Dropped "HL enjoyer" from server<STEAM_0:0:433142425>
+[17:19:59] HL enjoyer suicided!
+[17:20:03] БулочкаСмаком suicided!
+[17:20:08] i11ushenka suicided!
+[17:20:10] Falc suicided!
+[17:20:21] ĞĔŃĎĂĹŦ (белый)亗 suicided!
+[17:20:27] SG_KaAp suicided!
+[17:20:34] Дед Щукарь suicided!
+[17:20:35] БулочкаСмаком suicided!
+[17:20:54] Client "boris" connected.
+[17:21:00] ĞĔŃĎĂĹŦ (белый)亗 suicided!
+[17:21:03] SG_KaAp suicided!
+[17:21:03] учись сын мияги suicided!
+[17:21:08] < blank > suicided!
+[17:21:10] Дед Щукарь suicided!
+[17:21:24] Яичка: !noclip ^
+[17:21:38] Client "d60791463" connected.
+[17:21:45] Яичка suicided!
+[17:21:49] ĞĔŃĎĂĹŦ (белый)亗 suicided!
+[17:22:11] Дед Щукарь suicided!
+[17:22:24] учись сын мияги suicided!
+[17:22:30] БулочкаСмаком suicided!
+[17:22:34] < blank > suicided!
+[17:22:35] Яичка: Чзх
+[17:22:43] Яичка: Это не я был уже
+[17:22:49] Яичка: Не
+[17:22:53] Яичка: Это не я?
+[17:22:54] Дед Щукарь: !menu
+[17:22:58] учись сын мияги: !menu
+[17:23:04] Dropped "Falc" from server<STEAM_0:1:624344922>
+[17:23:04] Falc suicided!
+[17:23:05] Яичка: Я сижу за капом наблюдаю
+[17:23:18] Яичка: Дед я тебя да
+[17:23:24] Client "Falc" connected.
+[17:23:24] Яичка: А булачку нет
+[17:23:28] i11ushenka suicided!
+[17:23:28] учись сын мияги voted for ttt_waterworld (1/4)
+[17:23:34] Яичка: Я хз?
+[17:23:40] Яичка: Ну эт не я?
+[17:23:45] SG_KaAp suicided!
+[17:23:51] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 27 seconds).
+[17:23:53] Дед Щукарь suicided!
+[17:24:02] Client "RIP_DED" connected.
+[17:24:19] i11ushenka suicided!
+[17:24:22] Dropped "i11ushenka" from server<STEAM_0:1:789318958>
+[17:24:30] БулочкаСмаком suicided!
+[17:24:46] Dropped "БулочкаСмаком" from server<STEAM_0:1:49357881>
+[17:25:52] учись сын мияги suicided!
+[17:26:14] < blank >: !MOTD
+[17:26:15] SG_KaAp<STEAM_0:1:566748347> spawned sent armor
+[17:26:15] Client "i11ushenka" connected.
+[17:26:19] SG_KaAp<STEAM_0:1:566748347> spawned sent armor
+[17:26:24] SG_KaAp<STEAM_0:1:566748347> spawned sent hostage
+[17:26:30] Dropped "учись сын мияги" from server<STEAM_0:0:757040952>
+[17:26:36] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_nukeflash
+[17:26:37] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 22 seconds).
+[17:27:43] ĞĔŃĎĂĹŦ (белый)亗: афк 9999999
+[17:27:43] Dropped "ĞĔŃĎĂĹŦ (белый)亗" from server<STEAM_0:1:753171672>
+[17:27:43] ĞĔŃĎĂĹŦ (белый)亗 suicided!
+[17:27:48] Client "xinzz" connected.
+[17:27:56] < blank > suicided!
+[17:28:09] Falc suicided!
+[17:28:13] Дед Щукарь suicided!
+[17:28:16] SG_KaAp suicided!
+[17:28:22] Дед Щукарь suicided!
+[17:28:22] SG_KaAp suicided!
+[17:28:23] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[17:28:23] Яичка suicided!
+[17:28:41] SG_KaAp suicided!
+[17:28:52] Falc suicided!
+[17:28:52] SG_KaAp suicided!
+[17:28:57] i11ushenka suicided!
+[17:29:08] i11ushenka suicided!
+[17:29:11] Дед Щукарь suicided!
+[17:29:19] Falc suicided!
+[17:29:23] Dropped "< blank >" from server<STEAM_0:1:446740708>
+[17:29:23] < blank > suicided!
+[17:29:27] Дед Щукарь suicided!
+[17:29:46] Дед Щукарь suicided!
+[17:29:48] SG_KaAp suicided!
+[17:30:14] SG_KaAp: !menu
+[17:30:21] Server is shutting down/changing levels.
+
+
+
+[17:30:59] New map: gm_bbicotka_hmcd
+[17:30:59] Client "Дед Щукарь" connected.
+[17:30:59] Client "xinzz" connected.
+[17:30:59] Client "xinzz" connected.
+[17:31:08] Client "Яичка" connected.
+[17:31:15] Client "boris" connected.
+[17:31:18] Client "i11ushenka" connected.
+[17:31:24] Client "SG_KaAp" connected.
+[17:31:37] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 19 seconds).
+[17:31:39] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 31 seconds).
+[17:31:40] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 16 seconds).
+[17:31:59] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[17:32:03] SG_KaAp: !menu
+[17:32:05] Яичка set Themself's model to models/player/group02/male_02.mdl with colors R:255, G:255, B:255
+[17:32:17] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 78 seconds).
+[17:32:37] i11ushenka suicided!
+[17:32:50] Client "d60791463" connected.
+[17:33:30] Dropped "i11ushenka" from server<STEAM_0:1:789318958>
+[17:33:35] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[17:33:35] Яичка suicided!
+[17:33:36] Client "Яичка" connected.
+[17:33:55] Client "Falc" connected.
+[17:34:02] Дед Щукарь set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[17:34:02] Дед Щукарь: !setmodel ^ models/kuhnya/barinov.mdl
+[17:34:03] SG_KaAp set Themself's model to models/ful76/player/vladimir_lenin_redux.mdl with colors R:255, G:255, B:255
+[17:34:26] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 31 seconds).
+[17:35:33] Falc: Спартак сила
+[17:35:58] Дед Щукарь killed SG_KaAp using player
+[17:36:08] Client "Яичка" connected.
+[17:36:15] Дед Щукарь suicided!
+[17:36:37] Client "xinzz" spawned in server <STEAM_0:0:632153824> (took 338 seconds).
+[17:36:47] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 39 seconds).
+[17:37:31] Falc suicided!
+[17:37:41] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[17:37:41] Яичка suicided!
+[17:37:42] xinzz: что вчера хомиград не работал
+[17:37:42] Client "Яичка" connected.
+[17:37:49] SG_KaAp переместился к Falc
+[17:38:01] SG_KaAp переместился к Дед Щукарь
+[17:38:08] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 26 seconds).
+[17:38:23] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001_explosive.mdl
+[17:38:25] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001.mdl
+[17:38:29] SG_KaAp suicided!
+[17:38:35] Falc suicided!
+[17:39:06] xinzz suicided!
+[17:39:10] Дед Щукарь suicided!
+[17:39:55] Client "boris" spawned in server <STEAM_0:0:621478469> (took 520 seconds).
+[17:40:09] xinzz suicided!
+[17:40:10] Дед Щукарь suicided!
+[17:40:12] SG_KaAp suicided!
+[17:40:14] Яичка suicided!
+[17:40:14] Falc suicided!
+[17:40:25] Дед Щукарь suicided!
+[17:41:17] xinzz suicided!
+[17:41:17] xinzz suicided!
+[17:41:19] Яичка suicided!
+[17:41:32] Яичка suicided!
+[17:42:55] Client "karnehon" connected.
+[17:43:07] Дед Щукарь suicided!
+[17:43:11] Яичка suicided!
+[17:43:17] xinzz suicided!
+[17:43:20] Client "fargoalexey" connected.
+[17:43:25] Яичка: Мне грустна изза поинтшопа
+[17:43:45] Falc suicided!
+[17:44:34] xinzz suicided!
+[17:44:45] Дед Щукарь suicided!
+[17:44:47] boris suicided!
+[17:44:54] SG_KaAp suicided!
+[17:45:25] Client "WellChecked" connected.
+[17:46:41] Дед Щукарь suicided!
+[17:46:48] Client "d60791463" connected.
+[17:46:50] SG_KaAp suicided!
+[17:46:56] Falc suicided!
+[17:47:17] Яичка suicided!
+[17:47:22] xinzz suicided!
+[17:48:26] Client "Zkibidi Adventures" connected.
+[17:48:27] xinzz suicided!
+[17:48:29] Дед Щукарь suicided!
+[17:48:31] xinzz suicided!
+[17:48:35] Falc suicided!
+[17:48:35] Falc suicided!
+[17:49:00] Client "!!!" connected.
+[17:49:04] Дед Щукарь suicided!
+[17:49:08] Client "fargoalexey" spawned in server <STEAM_0:0:601641490> (took 348 seconds).
+[17:49:23] Яичка: СВОИ
+[17:49:30] Falc: СВОи
+[17:49:41] xinzz suicided!
+[17:50:06] Client "karnehon" spawned in server <STEAM_0:1:774019510> (took 431 seconds).
+[17:50:10] fargoalexey suicided!
+[17:50:23] Яичка: свол
+[17:50:26] SG_KaAp suicided!
+[17:51:10] Яичка suicided!
+[17:51:16] fargoalexey suicided!
+[17:51:25] SG_KaAp suicided!
+[17:51:46] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 200 seconds).
+[17:52:02] SG_KaAp suicided!
+[17:52:03] Client "PukiKaki" connected.
+[17:52:04] Дед Щукарь suicided!
+[17:52:11] xinzz suicided!
+[17:52:11] Falc suicided!
+[17:52:11] Falc suicided!
+[17:52:22] Дед Щукарь suicided!
+[17:52:40] Zkibidi Adventures: сг
+[17:52:44] Дед Щукарь suicided!
+[17:52:44] Дед Щукарь suicided!
+[17:52:55] Яичка suicided!
+[17:53:16] Zkibidi Adventures suicided!
+[17:53:16] Client "PukiKaki" spawned in server <STEAM_0:1:634778179> (took 73 seconds).
+[17:53:23] boris suicided!
+[17:53:27] Дед Щукарь suicided!
+[17:53:59] karnehon suicided!
+[17:54:05] fargoalexey suicided!
+[17:54:25] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[17:54:25] Zkibidi Adventures suicided!
+[17:54:31] Falc suicided!
+[17:54:31] xinzz suicided!
+[17:54:41] Dropped "karnehon" from server<STEAM_0:1:774019510>
+[17:54:41] karnehon suicided!
+[17:54:41] fargoalexey suicided!
+[17:54:43] Яичка suicided!
+[17:54:43] Яичка suicided!
+[17:54:47] Client "!!!" spawned in server <STEAM_0:0:796787844> (took 347 seconds).
+[17:54:50] Client "karnehon" connected.
+[17:55:28] Яичка<STEAM_0:0:709713214> spawned vehicle models/blu/van/pw_van.mdl
+[17:55:30] Яичка<STEAM_0:0:709713214> spawned vehicle models/blu/van/pw_van.mdl
+[17:55:32] Client "karnehon" spawned in server <STEAM_0:1:774019510> (took 42 seconds).
+[17:55:46] Client "БулочкаСмаком" connected.
+[17:55:51] PukiKaki: афк 9999999
+[17:55:51] Dropped "PukiKaki" from server<STEAM_0:1:634778179>
+[17:55:51] PukiKaki suicided!
+[17:56:06] Falc suicided!
+[17:56:09] boris suicided!
+[17:56:28] Дед Щукарь suicided!
+[17:56:33] xinzz: афк 9999999
+[17:56:33] Dropped "xinzz" from server<STEAM_0:0:632153824>
+[17:56:33] xinzz suicided!
+[17:57:01] Яичка suicided!
+[17:57:22] fargoalexey suicided!
+[17:57:30] SG_KaAp suicided!
+[17:57:30] SG_KaAp suicided!
+[17:57:50] Яичка suicided!
+[17:57:55] Client "xinzz" connected.
+[17:58:01] Client "xinzz" connected.
+[17:58:05] fargoalexey suicided!
+[17:58:13] karnehon suicided!
+[17:58:24] SG_KaAp suicided!
+[17:58:38] Client "PukiKaki" connected.
+[17:58:39] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 173 seconds).
+[17:58:54] Client "PukiKaki" spawned in server <STEAM_0:1:634778179> (took 16 seconds).
+[17:59:06] Falc suicided!
+[17:59:15] fargoalexey killed Яичка
+[17:59:16] PukiKaki: п
+[17:59:20] PukiKaki: н
+[17:59:21] !!! suicided!
+[17:59:34] Яичка: Да
+[17:59:45] Яичка suicided!
+[17:59:47] karnehon suicided!
+[18:00:28] !!! suicided!
+[18:00:31] Client "xinzz" spawned in server <STEAM_0:0:632153824> (took 150 seconds).
+[18:00:32] Dropped "PukiKaki" from server<STEAM_0:1:634778179>
+[18:00:32] PukiKaki suicided!
+[18:00:32] Client "PukiKaki" connected.
+[18:00:45] Дед Щукарь suicided!
+[18:00:46] Falc suicided!
+[18:00:46] Falc suicided!
+[18:00:48] Client "PukiKaki" spawned in server <STEAM_0:1:634778179> (took 16 seconds).
+[18:00:52] Dropped "PukiKaki" from server<STEAM_0:1:634778179>
+[18:00:56] SG_KaAp suicided!
+[18:01:02] Яичка: УБИТЫ!
+[18:01:05] xinzz suicided!
+[18:01:05] Яичка: НА КРЫШЕ!
+[18:01:06] Дед Щукарь suicided!
+[18:01:09] !!! suicided!
+[18:01:09] !!! suicided!
+[18:01:14] Яичка suicided!
+[18:01:14] Яичка suicided!
+[18:01:19] БулочкаСмаком suicided!
+[18:01:27] SG_KaAp: !menu
+[18:01:35] fargoalexey suicided!
+[18:02:12] Falc suicided!
+[18:02:22] karnehon suicided!
+[18:02:22] karnehon suicided!
+[18:02:37] !!! suicided!
+[18:02:40] Client "Zkibidi Adventures" connected.
+[18:02:48] Яичка suicided!
+[18:02:57] !!! suicided!
+[18:03:22] fargoalexey suicided!
+[18:03:34] boris suicided!
+[18:03:35] Falc suicided!
+[18:03:35] SG_KaAp suicided!
+[18:03:50] БулочкаСмаком suicided!
+[18:04:13] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 93 seconds).
+[18:04:16] Дед Щукарь suicided!
+[18:04:33] boris suicided!
+[18:04:35] !!! suicided!
+[18:04:48] karnehon: афк 9999999
+[18:04:48] Dropped "karnehon" from server<STEAM_0:1:774019510>
+[18:04:48] karnehon suicided!
+[18:05:01] fargoalexey suicided!
+[18:05:01] fargoalexey suicided!
+[18:05:05] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[18:05:05] Zkibidi Adventures suicided!
+[18:05:11] !!! suicided!
+[18:05:11] !!! suicided!
+[18:05:11] SG_KaAp suicided!
+[18:05:18] БулочкаСмаком: /Actchest3
+[18:05:35] Дед Щукарь suicided!
+[18:05:45] boris suicided!
+[18:05:45] boris suicided!
+[18:05:52] Client "Batyr2999" connected.
+[18:05:56] Client "Zkibidi Adventures" connected.
+[18:06:02] Яичка: Перезапусти сервер плиз
+[18:06:07] xinzz suicided!
+[18:06:11] boris suicided!
+[18:06:15] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[18:06:15] SG_KaAp suicided!
+[18:06:29] БулочкаСмаком: /Actchest3
+[18:06:43] Client "Zkibidi Adventures" connected.
+[18:06:47] Яичка suicided!
+[18:06:57] xinzz suicided!
+[18:07:05] !!! suicided!
+[18:07:19] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 36 seconds).
+[18:07:28] Client "d60791463" connected.
+[18:07:33] fargoalexey suicided!
+[18:07:40] Client "Саня Инженер" connected.
+[18:07:57] БулочкаСмаком suicided!
+[18:08:29] Client "Batyr2999" connected.
+[18:08:32] Яичка: Он  напиздел
+[18:08:34] Client "karnehon" connected.
+[18:08:45] Zkibidi Adventures: нет
+[18:08:47] Яичка: Он не зонбе
+[18:09:07] Дед Щукарь suicided!
+[18:09:08] xinzz suicided!
+[18:09:08] Client "Batyr2999" spawned in server <STEAM_0:0:674969238> (took 39 seconds).
+[18:09:15] Client "karnehon" spawned in server <STEAM_0:1:774019510> (took 41 seconds).
+[18:09:30] БулочкаСмаком suicided!
+[18:09:30] БулочкаСмаком suicided!
+[18:09:32] Batyr2999 suicided!
+[18:09:56] boris suicided!
+[18:09:59] karnehon suicided!
+[18:10:00] xinzz suicided!
+[18:10:12] fargoalexey suicided!
+[18:10:49] !!! suicided!
+[18:11:04] Falc suicided!
+[18:11:07] БулочкаСмаком suicided!
+[18:11:46] karnehon suicided!
+[18:11:59] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[18:12:15] Яичка: !noclip ^
+[18:12:22] Zkibidi Adventures suicided!
+[18:12:29] Zkibidi Adventures: и че это ща хуйня
+[18:12:34] Яичка: !noclip ^
+[18:12:41] Яичка suicided!
+[18:12:42] Zkibidi Adventures: мне доска просто гибнула
+[18:12:43] Client "WellChecked" spawned in server <STEAM_0:0:231338953> (took 1638 seconds).
+[18:12:44] boris suicided!
+[18:12:45] Яичка: KFKFFOF
+[18:12:46] Яичка: !noclip
+[18:12:52] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:12:58] fargoalexey suicided!
+[18:13:08] Дед Щукарь suicided!
+[18:13:12] Dropped "fargoalexey" from server<STEAM_0:0:601641490>
+[18:13:12] fargoalexey suicided!
+[18:13:21] Falc suicided!
+[18:13:29] WellChecked suicided!
+[18:13:39] Яичка suicided!
+[18:13:41] БулочкаСмаком suicided!
+[18:13:42] Яичка suicided!
+[18:13:42] Яичка: !noclip ^
+[18:13:46] Яичка: !noclip ^
+[18:13:51] Zkibidi Adventures suicided!
+[18:13:52] Zkibidi Adventures suicided!
+[18:13:55] karnehon suicided!
+[18:14:01] WellChecked suicided!
+[18:14:06] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:14:08] Дед Щукарь suicided!
+[18:14:10] Яичка suicided!
+[18:14:13] Яичка: !noclip ^
+[18:14:14] boris suicided!
+[18:14:16] Falc suicided!
+[18:14:16] Falc suicided!
+[18:14:20] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:14:20] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:14:29] !!! suicided!
+[18:14:33] Batyr2999 suicided!
+[18:14:38] Client "Kallenavn!" connected.
+[18:14:39] Dropped "WellChecked" from server<STEAM_0:0:231338953>
+[18:14:39] WellChecked suicided!
+[18:14:47] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:14:49] Batyr2999 suicided!
+[18:15:10] Zkibidi Adventures: фууу
+[18:15:14] Zkibidi Adventures: фурриеб
+[18:15:21] Zkibidi Adventures suicided!
+[18:15:24] boris suicided!
+[18:15:26] Яичка: сам
+[18:15:35] Zkibidi Adventures: какой же хуесос просто
+[18:16:02] Дед Щукарь: никак
+[18:16:06] Яичка: !ophack
+[18:16:09] Zkibidi Adventures: яичка пидор админ абузит
+[18:16:09] Яичка suicided!
+[18:16:09] Яичка suicided!
+[18:16:16] Zkibidi Adventures: яичка заебал
+[18:16:23] Dropped "Batyr2999" from server<STEAM_0:0:674969238>
+[18:16:44] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[18:17:02] Дед Щукарь: фууу
+[18:17:15] !!!: Д:Мпаекчыф
+[18:17:34] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:18:19] Дед Щукарь suicided!
+[18:18:24] Яичка: !noclip ^
+[18:18:38] Дед Щукарь suicided!
+[18:18:41] Яичка suicided!
+[18:18:46] Дед Щукарь suicided!
+[18:18:50] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:18:54] karnehon: афк 9999999
+[18:18:54] Dropped "karnehon" from server<STEAM_0:1:774019510>
+[18:18:54] karnehon suicided!
+[18:18:54] !!! suicided!
+[18:18:55] Dropped "!!!" from server<STEAM_0:0:796787844>
+[18:18:55] !!! suicided!
+[18:18:59] Яичка: !ophack
+[18:19:26] Яичка suicided!
+[18:19:37] Falc: я уже 5 раз упал
+[18:19:38] Дед Щукарь suicided!
+[18:19:41] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[18:19:46] boris suicided!
+[18:19:46] boris suicided!
+[18:19:56] Client "karnehon" connected.
+[18:20:15] Яичка suicided!
+[18:20:18] Яичка: !noclip ^
+[18:20:39] Client "karnehon" spawned in server <STEAM_0:1:774019510> (took 43 seconds).
+[18:20:39] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser.mdl with colors R:255, G:255, B:255
+[18:20:43] БулочкаСмаком suicided!
+[18:20:45] Яичка suicided!
+[18:20:48] boris suicided!
+[18:20:48] Дед Щукарь suicided!
+[18:20:49] xinzz suicided!
+[18:20:49] Яичка suicided!
+[18:20:49] boris suicided!
+[18:20:49] Falc suicided!
+[18:20:49] karnehon suicided!
+[18:20:49] БулочкаСмаком suicided!
+[18:21:00] Falc: В школу
+[18:21:18] Server is shutting down/changing levels.
+
+
+
+[18:21:28] New map: ttt_airbus_b3
+[18:21:29] Server is shutting down/changing levels.
+
+
+
+[18:21:37] New map: ttt_airbus_b3
+[18:21:37] Client "БулочкаСмаком" connected.
+[18:21:37] Client "karnehon" connected.
+[18:21:37] Client "karnehon" connected.
+[18:21:37] Client "Falc" connected.
+[18:21:37] Client "БулочкаСмаком" connected.
+[18:21:37] Client "Falc" connected.
+[18:21:37] Client "Яичка" connected.
+[18:21:37] Client "Яичка" connected.
+[18:21:37] Client "Дед Щукарь" connected.
+[18:21:37] Client "Дед Щукарь" connected.
+[18:21:37] Client "xinzz" connected.
+[18:21:37] Client "xinzz" connected.
+[18:21:37] Client "boris" connected.
+
+
+
+[18:22:11] New map: gm_bbicotka_hmcd
+[18:22:11] Client "БулочкаСмаком" connected.
+[18:22:11] Client "БулочкаСмаком" connected.
+[18:22:12] Client "БулочкаСмаком" connected.
+[18:22:14] Client "xinzz" connected.
+[18:22:25] Client "Falc" connected.
+[18:22:53] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 28 seconds).
+[18:23:13] Client "Яичка" connected.
+[18:23:14] Dropped "Falc" from server<STEAM_0:1:624344922>
+[18:23:15] Client "Falc" connected.
+[18:23:29] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 77 seconds).
+[18:23:43] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 28 seconds).
+[18:23:57] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 44 seconds).
+[18:24:08] Яичка: !forcerespawn ^ 
+[18:24:21] Яичка respawned Themself
+[18:24:21] Яичка: !frespawn ^
+[18:24:24] Client "xinzz" spawned in server <STEAM_0:0:632153824> (took 130 seconds).
+[18:24:32] Яичка set Themself's model to models/CyanBlue/Fate/Astolfo/Astolfo.mdl with colors R:255, G:255, B:255
+[18:24:32] Яичка: !setmodel ^ models/CyanBlue/Fate/Astolfo/Astolfo.mdl
+[18:24:54] Яичка запустил голосование (Менять-карту?)
+[18:24:54] Яичка: !vote Менять-карту? Да нее
+[18:24:56] Яичка голосует за Да
+[18:24:58] xinzz голосует за Да
+[18:25:00] Falc голосует за Да
+[18:25:01] Яичка: !noclip ^
+[18:25:03] Яичка: !noclip ^
+[18:25:09] Яичка suicided!
+[18:25:13] Яичка respawned Themself
+[18:25:13] Яичка: !frespawn ^
+[18:25:14] Результат: 'Да' . (3/4)
+[18:25:17] Яичка set Themself's model to models/CyanBlue/Fate/Astolfo/Astolfo.mdl with colors R:255, G:255, B:255
+[18:25:17] Яичка: !setmodel ^ models/CyanBlue/Fate/Astolfo/Astolfo.mdl
+[18:25:26] Яичка: !menu
+[18:25:45] Яичка сменил карту на hmcd_rooftops_snow
+[18:25:45] Server is shutting down/changing levels.
+
+
+
+[18:25:54] New map: hmcd_rooftops_snow
+[18:26:27] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 36 seconds).
+[18:26:28] Client "Solder_Storu" connected.
+[18:26:29] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 38 seconds).
+[18:26:45] Client "Дед Щукарь" connected.
+[18:26:52] Яичка suicided!
+[18:27:01] Client "boris" connected.
+[18:27:04] Client "xinzz" spawned in server <STEAM_0:0:632153824> (took 73 seconds).
+[18:27:05] Яичка<STEAM_0:0:709713214> spawned sent ent_lightsaber
+[18:27:10] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 79 seconds).
+[18:28:01] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 76 seconds).
+[18:28:14] Яичка suicided!
+[18:28:33] Client "boris" spawned in server <STEAM_0:0:621478469> (took 92 seconds).
+[18:28:41] БулочкаСмаком suicided!
+[18:29:16] Яичка suicided!
+[18:29:31] Falc: Прости
+[18:29:39] Дед Щукарь suicided!
+[18:29:53] Яичка запустил голосование (freeway-карту?)
+[18:29:53] Яичка: !vote freeway-карту? ДА не
+[18:29:54] Яичка голосует за ДА
+[18:29:55] БулочкаСмаком голосует за ДА
+[18:29:55] Falc голосует за не
+[18:29:55] Дед Щукарь голосует за ДА
+[18:29:55] Client "SG_KaAp" connected.
+[18:29:58] xinzz голосует за ДА
+[18:30:13] Результат: 'ДА' . (4/6)
+[18:30:18] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[18:30:28] Falc suicided!
+[18:30:28] Falc: бляяя
+[18:30:31] Яичка: !menu
+[18:30:41] Яичка сменил карту на gm_freeway
+[18:30:41] Server is shutting down/changing levels.
+
+
+
+[18:30:50] New map: gm_freeway
+[18:31:15] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 27 seconds).
+[18:31:20] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 32 seconds).
+[18:31:20] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 32 seconds).
+[18:31:22] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 34 seconds).
+[18:31:37] Client "xinzz" spawned in server <STEAM_0:0:632153824> (took 49 seconds).
+[18:31:39] SG_KaAp suicided!
+[18:31:55] Client "boris" spawned in server <STEAM_0:0:621478469> (took 67 seconds).
+[18:31:59] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 71 seconds).
+[18:32:06] Яичка: Чекни дс предложения
+[18:32:22] xinzz suicided!
+[18:32:26] Яичка: Я тута
+[18:32:30] Яичка: На машине
+[18:32:40] SG_KaAp suicided!
+[18:32:42] Яичка: ЧУВААААК
+[18:32:46] Яичка suicided!
+[18:32:57] БулочкаСмаком suicided!
+[18:33:01] Яичка was killed by trigger_hurt
+[18:33:12] Falc suicided!
+[18:33:12] xinzz suicided!
+[18:33:14] Яичка suicided!
+[18:33:15] Дед Щукарь suicided!
+[18:33:25] Яичка suicided!
+[18:33:26] Дед Щукарь suicided!
+[18:33:42] Яичка: кап чо такое
+[18:33:46] БулочкаСмаком suicided!
+[18:33:58] boris: афк 9999999
+[18:33:58] Dropped "boris" from server<STEAM_0:0:621478469>
+[18:33:58] boris suicided!
+[18:34:23] Дед Щукарь suicided!
+[18:34:27] БулочкаСмаком suicided!
+[18:34:36] Client "Mr.spidoz" connected.
+[18:34:43] Falc suicided!
+[18:34:48] БулочкаСмаком suicided!
+[18:34:50] xinzz suicided!
+[18:35:02] Яичка: !noclip ^
+[18:35:15] Дед Щукарь suicided!
+[18:35:18] Яичка suicided!
+[18:35:44] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 296 seconds).
+[18:35:44] БулочкаСмаком suicided!
+[18:35:49] Дед Щукарь suicided!
+[18:36:39] Яичка голосует за Да
+[18:36:40] SG_KaAp голосует за Да
+[18:36:40] Falc голосует за Нет
+[18:36:40] Дед Щукарь голосует за Да
+[18:36:41] Solder_Storu голосует за Да
+[18:36:41] xinzz голосует за Да
+[18:36:42] БулочкаСмаком голосует за Да
+[18:37:03] SG_KaAp: !menu
+[18:37:11] xinzz suicided!
+[18:37:19] Falc suicided!
+[18:37:20] (csay from SG_KaAp) Друзья! Сейчас в Dicsord проходит трибуна, где мы отвечаем на ваши вопросы и играем на Homigrad
+[18:37:25] БулочкаСмаком suicided!
+[18:37:25] xinzz suicided!
+[18:37:25] Falc suicided!
+[18:37:25] Яичка suicided!
+[18:37:25] Solder_Storu suicided!
+[18:37:25] Дед Щукарь suicided!
+[18:37:25] БулочкаСмаком suicided!
+[18:37:25] xinzz suicided!
+[18:37:25] Falc suicided!
+[18:37:25] Яичка suicided!
+[18:37:25] Solder_Storu suicided!
+[18:37:41] БулочкаСмаком suicided!
+[18:37:41] xinzz: у меня нет дс
+[18:37:46] БулочкаСмаком suicided!
+[18:37:46] xinzz suicided!
+[18:37:46] Falc suicided!
+[18:37:46] Яичка suicided!
+[18:37:46] Solder_Storu suicided!
+[18:37:46] Дед Щукарь suicided!
+[18:37:46] SG_KaAp suicided!
+[18:37:46] БулочкаСмаком suicided!
+[18:37:46] xinzz suicided!
+[18:37:46] Falc suicided!
+[18:37:46] Яичка suicided!
+[18:37:46] Solder_Storu suicided!
+[18:37:46] Дед Щукарь suicided!
+[18:37:56] SG_KaAp: !menu
+[18:38:12] Яичка suicided!
+[18:38:37] Falc suicided!
+[18:38:50] БулочкаСмаком suicided!
+[18:38:51] Solder_Storu suicided!
+[18:38:55] Дед Щукарь suicided!
+[18:39:02] SG_KaAp suicided!
+[18:39:07] xinzz suicided!
+[18:39:18] Client "Mr.spidoz" spawned in server <STEAM_0:1:760196953> (took 282 seconds).
+[18:39:24] Solder_Storu suicided!
+[18:39:28] Яичка suicided!
+[18:39:41] Falc suicided!
+[18:39:50] Dropped "Falc" from server<STEAM_0:1:624344922>
+[18:40:00] Mr.spidoz suicided!
+[18:40:03] xinzz suicided!
+[18:40:13] Mr.spidoz: что за пидорас
+[18:40:19] Яичка suicided!
+[18:40:27] Mr.spidoz: он здохбялть
+[18:40:29] Solder_Storu suicided!
+[18:40:31] Mr.spidoz: xD
+[18:40:56] БулочкаСмаком suicided!
+[18:40:58] Mr.spidoz suicided!
+[18:41:11] Solder_Storu was killed by trigger_hurt
+[18:41:35] Яичка suicided!
+[18:42:07] SG_KaAp suicided!
+[18:42:12] xinzz suicided!
+[18:42:13] БулочкаСмаком suicided!
+[18:42:31] Solder_Storu suicided!
+[18:42:31] Solder_Storu suicided!
+[18:42:47] Дед Щукарь suicided!
+[18:43:00] БулочкаСмаком suicided!
+[18:43:01] Яичка suicided!
+[18:43:55] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[18:44:03] Solder_Storu suicided!
+[18:44:10] SG_KaAp suicided!
+[18:44:29] Яичка suicided!
+[18:44:38] Дед Щукарь suicided!
+[18:44:50] xinzz suicided!
+[18:44:59] БулочкаСмаком suicided!
+[18:45:08] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[18:45:38] Solder_Storu suicided!
+[18:46:01] xinzz suicided!
+[18:46:01] БулочкаСмаком suicided!
+[18:46:03] Mr.spidoz suicided!
+[18:46:12] Яичка suicided!
+[18:46:16] Client "Zkibidi Adventures" connected.
+[18:46:34] Solder_Storu suicided!
+[18:46:42] SG_KaAp suicided!
+[18:47:04] БулочкаСмаком suicided!
+[18:47:06] xinzz suicided!
+[18:47:10] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[18:47:10] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[18:47:10] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[18:47:18] Mr.spidoz suicided!
+[18:47:36] Client "МЕФЧИК" connected.
+[18:47:44] Яичка suicided!
+[18:47:44] Яичка suicided!
+[18:47:47] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 91 seconds).
+[18:48:00] Mr.spidoz suicided!
+[18:48:01] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[18:48:12] Яичка suicided!
+[18:48:14] БулочкаСмаком suicided!
+[18:48:18] xinzz suicided!
+[18:48:56] xinzz suicided!
+[18:49:05] БулочкаСмаком suicided!
+[18:49:06] Mr.spidoz suicided!
+[18:49:17] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[18:49:17] Zkibidi Adventures suicided!
+[18:49:20] Client "Zkibidi Adventures" connected.
+[18:49:41] Яичка suicided!
+[18:49:45] Яичка: !levelend
+[18:50:05] Solder_Storu suicided!
+[18:50:05] Solder_Storu suicided!
+[18:50:09] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 49 seconds).
+[18:50:17] xinzz suicided!
+[18:50:27] Яичка suicided!
+[18:50:44] SG_KaAp suicided!
+[18:50:49] Mr.spidoz was killed by trigger_hurt
+[18:50:50] Zkibidi Adventures suicided!
+[18:50:57] Zkibidi Adventures: АДМИИИН
+[18:51:00] Zkibidi Adventures: АДМИИИН
+[18:51:01] Zkibidi Adventures: РЕСНИ
+[18:51:12] Zkibidi Adventures: АДМИН МЕНЯ СПАВН КИЛЬНУЛО
+[18:51:18] Яичка was killed by trigger_hurt
+[18:51:25] БулочкаСмаком suicided!
+[18:51:26] Mr.spidoz suicided!
+[18:51:36] xinzz suicided!
+[18:51:49] Zkibidi Adventures: РЕСНИ ПОЖАЛУЙСТА
+[18:51:49] SG_KaAp suicided!
+[18:51:54] БулочкаСмаком suicided!
+[18:51:54] xinzz suicided!
+[18:51:54] Zkibidi Adventures suicided!
+[18:51:54] Яичка suicided!
+[18:51:54] Solder_Storu suicided!
+[18:51:54] Mr.spidoz suicided!
+[18:51:54] SG_KaAp suicided!
+[18:52:02] Zkibidi Adventures: меня спавнкиллит
+[18:52:24] Server is shutting down/changing levels.
+
+
+
+[18:52:38] New map: rp_deadcity
+[18:52:38] Server is shutting down/changing levels.
+
+
+
+[18:52:50] New map: rp_deadcity
+[18:52:50] Client "xinzz" connected.
+[18:52:50] Client "xinzz" connected.
+[18:52:50] Client "БулочкаСмаком" connected.
+[18:52:50] Client "БулочкаСмаком" connected.
+[18:52:50] Client "Zkibidi Adventures" connected.
+[18:52:50] Client "Zkibidi Adventures" connected.
+[18:52:50] Client "SG_KaAp" connected.
+[18:52:50] Client "SG_KaAp" connected.
+[18:52:50] Client "Mr.spidoz" connected.
+[18:52:50] Client "Mr.spidoz" connected.
+[18:52:50] Client "Яичка" connected.
+[18:52:50] Client "Яичка" connected.
+[18:52:50] Client "Дед Щукарь" connected.
+[18:52:50] Client "МЕФЧИК" connected.
+[18:52:50] Client "МЕФЧИК" connected.
+[18:52:50] Client "Дед Щукарь" connected.
+[18:52:50] Client "Solder_Storu" connected.
+[18:52:50] Client "Solder_Storu" connected.
+[18:53:19] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 29 seconds).
+[18:53:27] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 37 seconds).
+[18:53:52] Client "Mr.spidoz" spawned in server <STEAM_0:1:760196953> (took 62 seconds).
+[18:54:10] Яичка suicided!
+[18:54:13] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 83 seconds).
+[18:54:20] Client "xinzz" spawned in server <STEAM_0:0:632153824> (took 90 seconds).
+[18:54:37] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 107 seconds).
+[18:54:58] Яичка: ВЕЙП МОЙ
+[18:55:38] Client "boris" connected.
+[18:56:02] БулочкаСмаком suicided!
+[18:56:02] БулочкаСмаком suicided!
+[18:56:08] Client "Den_Fil" connected.
+[18:56:11] Яичка suicided!
+[18:56:11] Mr.spidoz suicided!
+[18:56:15] Zkibidi Adventures: какой мз
+[18:56:16] Zkibidi Adventures: это сталкер
+[18:56:25] Dropped "xinzz" from server<STEAM_0:0:632153824>
+[18:56:25] xinzz suicided!
+[18:56:25] Zkibidi Adventures: КАКОЙ МЗ БЛЯТЬ
+[18:56:33] БулочкаСмаком suicided!
+[18:56:34] Zkibidi Adventures suicided!
+[18:56:34] Zkibidi Adventures: ты что в сталкер не играл
+[18:56:42] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 232 seconds).
+[18:56:59] Zkibidi Adventures: держи в курсе
+[18:57:20] Client "МЕФЧИК" spawned in server <STEAM_0:0:799810163> (took 270 seconds).
+[18:57:27] Client "boris" spawned in server <STEAM_0:0:621478469> (took 109 seconds).
+[18:57:37] Яичка: Го за мной
+[18:57:40] Zkibidi Adventures: в жопу?
+[18:57:52] Zkibidi Adventures: не по канону
+[18:58:13] Mr.spidoz suicided!
+[18:58:18] Яичка suicided!
+[18:58:57] Solder_Storu suicided!
+[18:58:57] Solder_Storu suicided!
+[18:59:47] МЕФЧИК suicided!
+[18:59:59] БулочкаСмаком suicided!
+[19:00:03] Яичка killed Zkibidi Adventures using player
+[19:00:16] Client "SG_KaAp" connected.
+[19:00:21] Zkibidi Adventures: яичка животное или что
+[19:00:24] Яичка: Я срать
+[19:00:27] Яичка: Я срать
+[19:00:28] Яичка: Я срать
+[19:00:29] Яичка suicided!
+[19:00:32] Solder_Storu suicided!
+[19:00:34] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 18 seconds).
+[19:00:34] Zkibidi Adventures: яичка что ты делаешь сука
+[19:00:42] Zkibidi Adventures: ты заебал меня рдмить
+[19:01:09] Zkibidi Adventures: у меня нету никакого контента
+[19:01:13] Zkibidi Adventures: и все норм
+[19:01:19] SG_KaAp: !votemap 60
+[19:01:38] boris suicided!
+[19:01:40] Mr.spidoz suicided!
+[19:01:59] SG_KaAp suicided!
+[19:02:01] Mr.spidoz suicided!
+[19:02:20] Mr.spidoz suicided!
+[19:03:44] МЕФЧИК: афк 9999999
+[19:03:44] Dropped "МЕФЧИК" from server<STEAM_0:0:799810163>
+[19:03:44] МЕФЧИК suicided!
+[19:03:53] Solder_Storu suicided!
+[19:03:54] Zkibidi Adventures: КАКОЕ ЖЕ ГОВНИЩЕ БАГАНОЕ
+[19:03:54] Дед Щукарь suicided!
+[19:04:04] Zkibidi Adventures: КАК ЛАЗАТЬ
+[19:04:06] Zkibidi Adventures: СУКА
+[19:04:15] Zkibidi Adventures: МЕНЯ УБИВАЕТ СТЕНКА
+[19:04:21] SG_KaAp voted for gm_mdach (1/4)
+[19:04:21] SG_KaAp: !votemap 60
+[19:04:30] Дед Щукарь voted for gm_mdach (2/4)
+[19:04:30] Дед Щукарь: !votemap 60
+[19:04:36] Zkibidi Adventures suicided!
+[19:04:39] Client "Den_Fil" connected.
+[19:04:43] Solder_Storu voted for gm_mdach (3/4)
+[19:04:43] Solder_Storu: !votemap 60
+[19:05:35] Яичка: согл
+[19:05:39] Дед Щукарь голосует за Да
+[19:05:39] Яичка голосует за Нет
+[19:05:40] boris голосует за Да
+[19:05:40] SG_KaAp голосует за Да
+[19:05:40] БулочкаСмаком голосует за Да
+[19:05:51] Solder_Storu голосует за Нет
+[19:05:54] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[19:05:54] Zkibidi Adventures suicided!
+[19:06:24] SG_KaAp suicided!
+[19:06:24] SG_KaAp suicided!
+[19:06:33] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:06:44] boris suicided!
+[19:07:10] Дед Щукарь suicided!
+[19:07:15] Яичка suicided!
+[19:07:25] Mr.spidoz<STEAM_0:1:760196953> spawned model models/maxofs2d/companion_doll.mdl
+[19:07:28] Яичка set Themself's model to models/player/group03m/male_05.mdl with colors R:255, G:255, B:255
+[19:07:28] Дед Щукарь suicided!
+[19:07:33] Яичка<STEAM_0:0:709713214> spawned model models/props_doors/door03_slotted_left.mdl
+[19:07:35] Яичка<STEAM_0:0:709713214> spawned model models/props_doors/door03_slotted_left.mdl
+[19:07:37] БулочкаСмаком suicided!
+[19:07:37] Mr.spidoz<STEAM_0:1:760196953> spawned model models/maxofs2d/hover_classic.mdl
+[19:07:38] Дед Щукарь suicided!
+[19:07:40] Яичка<STEAM_0:0:709713214> spawned model models/props_doors/door03_slotted_left.mdl
+[19:07:42] Дед Щукарь: !noclip
+[19:07:43] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001_explosive.mdl
+[19:07:45] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001_explosive.mdl
+[19:07:48] Mr.spidoz suicided!
+[19:07:48] Дед Щукарь suicided!
+[19:07:52] Яичка suicided!
+[19:07:53] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props_fortifications/sandbags_line2.mdl
+[19:07:53] Дед Щукарь: !noclip
+[19:07:55] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001_explosive.mdl
+[19:08:05] Яичка suicided!
+[19:08:12] boris<STEAM_0:0:621478469> spawned model models/maxofs2d/hover_classic.mdl
+[19:08:12] Mr.spidoz suicided!
+[19:08:19] Mr.spidoz suicided!
+[19:08:21] БулочкаСмаком suicided!
+[19:08:22] Mr.spidoz suicided!
+[19:08:26] Дед Щукарь suicided!
+[19:08:26] Mr.spidoz suicided!
+[19:08:29] Дед Щукарь: !noclip
+[19:08:33] Solder_Storu<STEAM_0:1:627138888> spawned model models/maxofs2d/hover_basic.mdl
+[19:08:33] БулочкаСмаком suicided!
+[19:08:36] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_italy/orange.mdl
+[19:08:37] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_italy/orange.mdl
+[19:08:39] boris<STEAM_0:0:621478469> spawned model models/props_phx/chrome_tire.mdl
+[19:08:40] Solder_Storu<STEAM_0:1:627138888> spawned model models/maxofs2d/thruster_projector.mdl
+[19:08:50] Client "Zkibidi Adventures" connected.
+[19:08:58] boris suicided!
+[19:09:00] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/table_coffee.mdl
+[19:09:04] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/coffee_mug2.mdl
+[19:09:06] boris suicided!
+[19:09:09] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_militia/bottle01.mdl
+[19:09:13] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_militia/bottle03.mdl
+[19:09:32] Solder_Storu suicided!
+[19:09:35] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/computer_monitor.mdl
+[19:09:44] boris<STEAM_0:0:621478469> spawned model models/props_wasteland/exterior_fence001a.mdl
+[19:09:48] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_militia/table_shed.mdl
+[19:09:48] БулочкаСмаком suicided!
+[19:09:56] Яичка: !noclip ^
+[19:10:00] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/table_coffee.mdl
+[19:10:03] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 73 seconds).
+[19:10:06] Dropped "Solder_Storu" from server<STEAM_0:1:627138888>
+[19:10:06] Solder_Storu suicided!
+[19:10:08] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_militia/bottle03.mdl
+[19:10:10] Client "Solder_Storu" connected.
+[19:10:14] boris<STEAM_0:0:621478469> spawned model models/props_wasteland/exterior_fence001a.mdl
+[19:10:18] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsticknade
+[19:10:20] БулочкаСмаком<STEAM_0:1:49357881> spawned model models/props_junk/wood_crate001a.mdl
+[19:10:20] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsticknade
+[19:10:22] Яичка: !noclip ^
+[19:10:22] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/computer_monitor.mdl
+[19:10:30] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/computer_keyboard.mdl
+[19:10:33] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsalatbomb
+[19:10:36] Яичка: !noclip ^
+[19:10:39] БулочкаСмаком suicided!
+[19:10:39] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsalatbomb
+[19:10:43] Zkibidi Adventures: YTTTN
+[19:10:44] Zkibidi Adventures: НЕЕЕТ
+[19:10:46] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/computer_mouse.mdl
+[19:11:03] Zkibidi Adventures suicided!
+[19:11:03] Zkibidi Adventures suicided!
+[19:11:08] boris<STEAM_0:0:621478469> spawned model models/food/burger.mdl
+[19:11:10] boris<STEAM_0:0:621478469> spawned model models/food/burger.mdl
+[19:11:11] БулочкаСмаком<STEAM_0:1:49357881> spawned model models/props_junk/wood_crate001a.mdl
+[19:11:13] БулочкаСмаком<STEAM_0:1:49357881> spawned model models/props_junk/wood_crate001a.mdl
+[19:11:15] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 65 seconds).
+[19:11:17] Zkibidi Adventures suicided!
+[19:11:26] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[19:11:26] Zkibidi Adventures suicided!
+[19:11:27] Дед Щукарь: !noclip ^
+[19:11:30] Client "Zkibidi Adventures" connected.
+[19:11:41] Яичка: регдол
+[19:11:45] Яичка: ляг
+[19:11:48] Яичка: !noclip ^
+[19:11:50] boris<STEAM_0:0:621478469> spawned model models/props_wasteland/interior_fence002a.mdl
+[19:12:03] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 33 seconds).
+[19:12:06] Дед Щукарь: !noclip ^
+[19:12:10] Яичка: хз
+[19:12:13] Дед Щукарь: !noclip ^
+[19:12:15] Client "вротберунчик" connected.
+[19:12:17] Mr.spidoz<STEAM_0:1:760196953> spawned model models/props/cs_office/table_coffee.mdl
+[19:12:30] Яичка: lheu
+[19:12:30] boris<STEAM_0:0:621478469> spawned model models/props_wasteland/interior_fence002d.mdl
+[19:12:34] Zkibidi Adventures: ХУЕСОС
+[19:12:35] Яичка: друг
+[19:12:36] Zkibidi Adventures: ТЫ ЗАЕБАЛ
+[19:12:44] Zkibidi Adventures: гойда
+[19:13:02] Дед Щукарь suicided!
+[19:13:02] Dropped "Mr.spidoz" from server<STEAM_0:1:760196953>
+[19:13:02] Mr.spidoz suicided!
+[19:13:06] Client "Mr.spidoz" connected.
+[19:13:15] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/hospital_bed01.mdl
+[19:13:15] Яичка<STEAM_0:0:709713214> spawned ragdoll models/props_c17/furnituremattress001a.mdl
+[19:13:33] boris suicided!
+[19:13:38] Дед Щукарь set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[19:13:38] Дед Щукарь: !setmodel ^ models/volk/volk.mdl
+[19:13:43] Client "Mr.spidoz" spawned in server <STEAM_0:1:760196953> (took 37 seconds).
+[19:13:43] Яичка: !noclip ^
+[19:13:51] Dropped "boris" from server<STEAM_0:0:621478469>
+[19:13:51] boris suicided!
+[19:13:52] Дед Щукарь suicided!
+[19:14:00] Client "boris" connected.
+[19:14:05] Zkibidi Adventures suicided!
+[19:14:11] Dropped "БулочкаСмаком" from server<STEAM_0:1:49357881>
+[19:14:11] БулочкаСмаком suicided!
+[19:14:20] Mr.spidoz suicided!
+[19:14:21] Яичка: !noclip ^
+[19:14:25] Дед Щукарь suicided!
+[19:14:29] Client "БулочкаСмаком" connected.
+[19:14:31] Яичка: !noclip ^
+[19:14:46] Дед Щукарь suicided!
+[19:14:50] Zkibidi Adventures suicided!
+[19:14:52] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 23 seconds).
+[19:14:53] Яичка: !noclip ^
+[19:14:54] Dropped "Solder_Storu" from server<STEAM_0:1:627138888>
+[19:14:54] Solder_Storu suicided!
+[19:15:00] Client "Solder_Storu" connected.
+[19:15:01] Zkibidi Adventures suicided!
+[19:15:03] Zkibidi Adventures: я тдмер
+[19:15:08] Zkibidi Adventures suicided!
+[19:15:15] Zkibidi Adventures: да блят
+[19:15:28] Client "boris" spawned in server <STEAM_0:0:621478469> (took 88 seconds).
+[19:15:30] Zkibidi Adventures: да сука
+[19:15:31] Zkibidi Adventures: отпусти
+[19:15:34] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:15:38] Дед Щукарь: !noclip ^
+[19:15:48] Яичка suicided!
+[19:15:50] Яичка suicided!
+[19:15:51] Яичка: !noclip ^
+[19:15:53] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 53 seconds).
+[19:15:53] Client "Den_Fil" connected.
+[19:15:55] БулочкаСмаком suicided!
+[19:16:00] Client "Den_Fil" connected.
+[19:16:13] boris suicided!
+[19:16:17] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:16:23] Zkibidi Adventures suicided!
+[19:16:30] Dropped "boris" from server<STEAM_0:0:621478469>
+[19:16:30] boris suicided!
+[19:16:33] Client "boris" connected.
+[19:17:11] Яичка: !noclip ^
+[19:17:39] Дед Щукарь suicided!
+[19:17:46] Client "boris" spawned in server <STEAM_0:0:621478469> (took 73 seconds).
+[19:17:57] БулочкаСмаком: афк 9999999
+[19:17:57] Dropped "БулочкаСмаком" from server<STEAM_0:1:49357881>
+[19:17:57] БулочкаСмаком suicided!
+[19:17:59] Client "БулочкаСмаком" connected.
+[19:18:13] Solder_Storu suicided!
+[19:18:21] boris was killed by gb_rocket_rp3
+[19:18:21] Solder_Storu was killed by gb_rocket_rp3
+[19:18:21] Дед Щукарь was killed by gb_rocket_rp3
+[19:18:22] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 23 seconds).
+[19:18:26] Solder_Storu was killed by gb_rocket_rp3
+[19:18:26] Zkibidi Adventures was killed by gb_rocket_rp3
+[19:18:34] БулочкаСмаком was killed by gb_rocket_rp3
+[19:18:34] Zkibidi Adventures was killed by gb_rocket_rp3
+[19:18:34] Дед Щукарь was killed by gb_rocket_rp3
+[19:18:34] boris was killed by gb_rocket_rp3
+[19:18:55] Client "SG_KaAp" connected.
+[19:19:08] Дед Щукарь was killed by gb_rocket_rp3
+[19:19:15] Дед Щукарь was killed by gb_rocket_rp3
+[19:19:18] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:19:18] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:19:18] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[19:19:26] Client "Den_Fil" spawned in server <STEAM_0:0:630536070> (took 206 seconds).
+[19:19:28] boris was killed by gb_rocket_rp3
+[19:19:44] Яичка: да
+[19:19:50] Яичка: ПОж
+[19:19:52] SG_KaAp: !menu
+[19:19:53] Яичка: поже
+[19:19:53] Дед Щукарь: !noclip ^
+[19:20:02] Zkibidi Adventures suicided!
+[19:20:05] Яичка was killed by gb_rocket_rp3
+[19:20:05] Mr.spidoz was killed by gb_rocket_rp3
+[19:20:05] Дед Щукарь was killed by gb_rocket_rp3
+[19:20:05] SG_KaAp: accessspawn
+[19:20:09] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:20:09] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:20:09] Яичка: !noclip ^
+[19:20:17] Solder_Storu suicided!
+[19:20:18] SG_KaAp: !accessspawn
+[19:20:25] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:20:30] БулочкаСмаком suicided!
+[19:20:32] Zkibidi Adventures suicided!
+[19:20:32] Den_Fil suicided!
+[19:20:35] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:20:35] SG_KaAp suicided!
+[19:20:40] Solder_Storu suicided!
+[19:20:41] Дед Щукарь suicided!
+[19:20:42] Дед Щукарь suicided!
+[19:20:42] Mr.spidoz suicided!
+[19:20:45] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:20:45] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:20:59] boris suicided!
+[19:21:02] Mr.spidoz suicided!
+[19:21:03] Zkibidi Adventures suicided!
+[19:21:09] Дед Щукарь: !noclip ^
+[19:21:16] Zkibidi Adventures: успокойся
+[19:21:18] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:21:18] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:21:21] Дед Щукарь suicided!
+[19:21:24] Zkibidi Adventures: успокойся
+[19:21:24] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:21:24] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:21:27] Яичка was killed by gb_rocket_rp3
+[19:21:27] Дед Щукарь was killed by gb_rocket_rp3
+[19:21:28] Zkibidi Adventures: че ты бомбишь
+[19:21:29] Дед Щукарь was killed by gb_rocket_rp3
+[19:21:29] Яичка was killed by gb_rocket_rp3
+[19:21:29] БулочкаСмаком suicided!
+[19:21:32] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:21:32] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:21:36] Dropped "boris" from server<STEAM_0:0:621478469>
+[19:21:36] boris suicided!
+[19:21:41] Client "boris" connected.
+[19:21:43] Client "SG_KaAp" connected.
+[19:21:49] Дед Щукарь suicided!
+[19:21:59] Яичка set Themself's model to models/player/star wars battlefront 2/republic/rep_inf_clonecommander.mdl with colors R:255, G:255, B:255
+[19:22:05] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[19:22:16] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:22:16] SG_KaAp suicided!
+[19:22:16] Яичка: Я играюсь
+[19:22:19] Яичка: Камстракт
+[19:22:28] Яичка: Ладно
+[19:22:30] Client "SG_KaAp" connected.
+[19:22:35] Яичка: Да понял я
+[19:22:36] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:22:36] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:22:50] Zkibidi Adventures: ЭТО РП МЕСТЬ
+[19:22:51] Client "boris" spawned in server <STEAM_0:0:621478469> (took 70 seconds).
+[19:22:54] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 24 seconds).
+[19:23:09] Яичка: Стар вар
+[19:23:11] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[19:23:12] Яичка: Ладно
+[19:23:16] Zkibidi Adventures: пять ка на пол
+[19:23:20] Яичка: Стар варс же
+[19:23:20] Zkibidi Adventures: 5К НА ПОЛ
+[19:23:24] Zkibidi Adventures: 5К НА ПОЛ
+[19:23:28] Zkibidi Adventures: 5К НА ПОЛ
+[19:23:36] Zkibidi Adventures: ПЯТЬ КА НА ПОЛ
+[19:23:39] Zkibidi Adventures: 5К НА ПОЛ
+[19:23:44] Zkibidi Adventures: 5К НА ПОЛ
+[19:23:47] Zkibidi Adventures: 5К НА ПОЛ
+[19:23:53] Яичка suicided!
+[19:23:55] Яичка: !noclip ^
+[19:24:00] Client "Jumbo Sledgehammer" connected.
+[19:24:03] Zkibidi Adventures: отдал вейп
+[19:24:05] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[19:24:10] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/fence02a.mdl
+[19:24:12] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/fence01b.mdl
+[19:24:12] Zkibidi Adventures: отдай вейп
+[19:24:13] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/fence01a.mdl
+[19:24:16] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/fence01a.mdl
+[19:24:20] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/fence01a.mdl
+[19:24:23] Zkibidi Adventures: дайте мне свеп зиг хайль
+[19:24:23] SG_KaAp suicided!
+[19:24:29] Яичка: !noclip ^
+[19:24:32] Solder_Storu suicided!
+[19:24:39] Zkibidi Adventures: дай мне тоже свеп
+[19:24:42] Zkibidi Adventures: и скин
+[19:24:43] БулочкаСмаком: афк 9999999
+[19:24:43] Dropped "БулочкаСмаком" from server<STEAM_0:1:49357881>
+[19:24:43] БулочкаСмаком suicided!
+[19:24:43] Яичка: мда
+[19:24:49] Яичка set Themself's model to models/player/skeleton.mdl with colors R:255, G:255, B:255
+[19:24:51] Дед Щукарь set Zkibidi Adventures's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:24:51] Дед Щукарь: !setmodel zkibi models/player/dod_german.mdl
+[19:24:57] Дед Щукарь переместил Zkibidi Adventures
+[19:24:57] Дед Щукарь: !tp zki
+[19:25:15] Дед Щукарь suicided!
+[19:25:19] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:25:19] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:25:23] Mr.spidoz suicided!
+[19:25:23] Zkibidi Adventures: я не могу зиговать
+[19:25:25] Zkibidi Adventures: почему то
+[19:25:34] Яичка: !noclip ^
+[19:25:36] Client "Мику" connected.
+[19:25:40] Яичка: модель?
+[19:25:59] Яичка: Модель
+[19:26:02] Mr.spidoz suicided!
+[19:26:06] Zkibidi Adventures: СУЧКА
+[19:26:09] Яичка set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:26:11] Zkibidi Adventures: уэуэуэу
+[19:26:14] Client "БулочкаСмаком" connected.
+[19:26:15] Zkibidi Adventures suicided!
+[19:26:27] Mr.spidoz suicided!
+[19:26:29] SG_KaAp: accessspawn
+[19:26:38] SG_KaAp: !accessspawn
+[19:26:40] Яичка: !accessspawn
+[19:26:45] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 31 seconds).
+[19:26:48] boris suicided!
+[19:26:48] boris suicided!
+[19:26:52] Solder_Storu suicided!
+[19:26:54] Dropped "Solder_Storu" from server<STEAM_0:1:627138888>
+[19:26:54] Solder_Storu suicided!
+[19:26:55] БулочкаСмаком suicided!
+[19:26:59] Client "Solder_Storu" connected.
+[19:27:28] Zkibidi Adventures suicided!
+[19:27:37] Dropped "Mr.spidoz" from server<STEAM_0:1:760196953>
+[19:27:37] Mr.spidoz suicided!
+[19:27:48] Дед Щукарь: а модель бойкиссера
+[19:27:50] Дед Щукарь: дай
+[19:27:50] Den_Fil suicided!
+[19:27:52] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 53 seconds).
+[19:27:55] Яичка: boy
+[19:27:56] Дед Щукарь: нам обоим
+[19:27:58] Яичка: напиши
+[19:28:03] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:28:08] БулочкаСмаком suicided!
+[19:28:10] SG_KaAp suicided!
+[19:28:24] boris suicided!
+[19:28:30] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 174 seconds).
+[19:28:39] Дед Щукарь: models/lightshoro_workshop/goofycat/boykisser_v2o
+[19:28:42] Дед Щукарь: чо дальше
+[19:28:45] Яичка: да
+[19:28:51] Яичка suicided!
+[19:28:55] Яичка: !noclip ^
+[19:28:55] Мику: ЭЭ
+[19:28:56] Мику: СУККА
+[19:28:57] Дед Щукарь set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o with colors R:255, G:255, B:255
+[19:28:57] Дед Щукарь: !setmodel ^ models/lightshoro_workshop/goofycat/boykisser_v2o
+[19:28:58] Мику: ОТПУСТИ
+[19:29:00] Мику: МЕНЯ
+[19:29:03] Мику: КААП
+[19:29:05] Мику: БЛЯТЬ
+[19:29:17] Zkibidi Adventures suicided!
+[19:29:32] SG_KaAp suicided!
+[19:29:40] Яичка: !noclip ^
+[19:29:42] Дед Щукарь: !noclip ^
+[19:29:54] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:30:02] Дед Щукарь set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:30:02] Дед Щукарь: !setmodel ^ models/lightshoro_workshop/goofycat/boykisser_v2o.mdl
+[19:30:04] boris suicided!
+[19:30:10] Мику suicided!
+[19:30:21] Яичка suicided!
+[19:30:24] Яичка: !noclip ^
+[19:30:35] Den_Fil: a kak
+[19:30:40] boris suicided!
+[19:30:40] boris suicided!
+[19:30:53] Яичка отобрал оружие у Zkibidi Adventures
+[19:30:53] Яичка: !strip Zk
+[19:30:55] SG_KaAp: !map gm_mdacha homigrad
+[19:30:59] Zkibidi Adventures suicided!
+[19:31:00] SG_KaAp: !menu
+[19:31:02] БулочкаСмаком suicided!
+[19:31:11] Яичка: !giveweapon zk weapon_hands
+[19:31:12] Мику suicided!
+[19:31:13] SG_KaAp сменил карту на gm_mdach с модом homigrad
+[19:31:13] Server is shutting down/changing levels.
+
+
+
+[19:31:23] New map: gm_mdach
+[19:31:44] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 25 seconds).
+[19:31:53] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 34 seconds).
+[19:31:56] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 37 seconds).
+[19:31:57] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 38 seconds).
+[19:32:03] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 44 seconds).
+[19:32:18] Яичка: !forcerespawn ^ 
+[19:32:25] SG_KaAp set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[19:32:27] Яичка respawned Themself
+[19:32:27] Яичка: !frespawn ^
+[19:32:30] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 71 seconds).
+[19:32:39] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 80 seconds).
+[19:32:55] Client "boris" spawned in server <STEAM_0:0:621478469> (took 96 seconds).
+[19:32:57] Яичка: пиздец
+[19:33:00] SG_KaAp killed БулочкаСмаком using player
+[19:33:02] Мику suicided!
+[19:33:13] Дед Щукарь set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:33:13] Дед Щукарь: !setmodel ^ models/lightshoro_workshop/goofycat/boykisser_v2o.mdl
+[19:33:23] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:33:25] Solder_Storu killed БулочкаСмаком using player
+[19:33:30] Solder_Storu suicided!
+[19:33:32] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[19:33:35] Мику suicided!
+[19:33:37] Дед Щукарь suicided!
+[19:33:38] Мику: как блять
+[19:33:40] SG_KaAp suicided!
+[19:33:49] Мику: рукамии так не возможно быстро убить
+[19:33:49] Яичка set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:33:51] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[19:33:53] SG_KaAp suicided!
+[19:34:03] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[19:34:06] Мику: каап у тя войс ченрджер
+[19:34:06] Яичка set Themself's model to models/player/group03/male_06.mdl with colors R:255, G:255, B:255
+[19:34:07] Мику: ?
+[19:34:25] Яичка: О мику
+[19:34:33] Яичка: Го на шашлыки
+[19:34:34] Мику: как крутить
+[19:34:47] boris suicided!
+[19:34:50] Яичка<STEAM_0:0:709713214> spawned ragdoll models/gibs/fast_zombie_legs.mdl
+[19:34:51] БулочкаСмаком suicided!
+[19:34:51] Zkibidi Adventures suicided!
+[19:34:53] Мику suicided!
+[19:35:05] Client "Jumbo Sledgehammer" spawned in server <STEAM_0:0:581282977> (took 226 seconds).
+[19:35:06] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[19:35:08] Яичка: Шашлек
+[19:35:30] SG_KaAp suicided!
+[19:35:46] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[19:35:51] Яичка set Themself's model to models/player/group03/male_08.mdl with colors R:255, G:255, B:255
+[19:36:08] Яичка set Themself's model to models/player/group03/male_05.mdl with colors R:255, G:255, B:255
+[19:36:20] Яичка suicided!
+[19:36:25] SG_KaAp suicided!
+[19:36:30] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:36:42] Яичка suicided!
+[19:36:53] Client "SG_KaAp" connected.
+[19:37:08] БулочкаСмаком suicided!
+[19:37:13] Client "skach" connected.
+[19:37:13] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[19:37:22] Jumbo Sledgehammer suicided!
+[19:37:22] Jumbo Sledgehammer suicided!
+[19:37:28] SG_KaAp respawned Themself
+[19:37:28] SG_KaAp: !frespawn ^
+[19:37:29] Яичка: кап
+[19:37:51] boris suicided!
+[19:37:57] Solder_Storu suicided!
+[19:37:57] Яичка<STEAM_0:0:709713214> spawned ragdoll models/vortigaunt_blue.mdl
+[19:37:58] Мику: дай мне
+[19:38:00] Client "Den_Fil" connected.
+[19:38:08] Яичка<STEAM_0:0:709713214> spawned model models/food/burger.mdl
+[19:38:17] SG_KaAp suicided!
+[19:38:26] Яичка: кап ко мне плез
+[19:38:37] Яичка: кап
+[19:38:51] boris suicided!
+[19:38:52] SG_KaAp suicided!
+[19:38:55] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:39:03] Client "Den_Fil" spawned in server <STEAM_0:0:630536070> (took 63 seconds).
+[19:39:17] Jumbo Sledgehammer suicided!
+[19:39:59] Мику suicided!
+[19:40:32] Дед Щукарь suicided!
+[19:41:02] Яичка suicided!
+[19:41:10] Яичка: кап ко мне плез
+[19:41:15] Яичка: а
+[19:41:28] БулочкаСмаком suicided!
+[19:41:35] Дед Щукарь set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[19:41:35] Дед Щукарь: !setmodel ^ models/lightshoro_workshop/goofycat/boykisser_v2o.mdl
+[19:41:56] Jumbo Sledgehammer suicided!
+[19:42:06] Client "c4s | qRRaz11cHHH" connected.
+[19:42:07] Den_Fil suicided!
+[19:43:11] Дед Щукарь: models/player/dod_german.mdl
+[19:43:25] Client "c4s | qRRaz11cHHH" connected.
+[19:43:27] Дед Щукарь set Themself's model to models/player/dod_german.mdl with colors R:255, G:255, B:255
+[19:43:27] Дед Щукарь: !setmodel ^ models/player/dod_german.mdl
+[19:43:59] Den_Fil suicided!
+[19:44:08] Solder_Storu suicided!
+[19:44:10] Мику suicided!
+[19:44:13] Яичка suicided!
+[19:44:47] Client "Sayzz" connected.
+[19:44:50] Jumbo Sledgehammer suicided!
+[19:44:56] Client "Modular" connected.
+[19:45:10] Яичка suicided!
+[19:45:20] БулочкаСмаком suicided!
+[19:45:30] Яичка<STEAM_0:0:709713214> spawned sent ent_hgjack_stielhandgranate24
+[19:45:31] Яичка<STEAM_0:0:709713214> spawned sent ent_hgjack_40mm_contact
+[19:45:34] boris suicided!
+[19:45:34] Den_Fil suicided!
+[19:45:37] Дед Щукарь suicided!
+[19:45:37] Яичка<STEAM_0:0:709713214> spawned sent ent_hgjack_40mm_contact
+[19:45:38] Яичка<STEAM_0:0:709713214> spawned sent ent_hgjack_40mm_contact
+[19:45:38] Яичка<STEAM_0:0:709713214> spawned sent ent_hgjack_40mm_contact
+[19:45:38] Яичка<STEAM_0:0:709713214> spawned sent ent_hgjack_40mm_contact
+[19:45:38] Яичка<STEAM_0:0:709713214> spawned sent ent_hgjack_40mm_contact
+[19:45:41] Dropped "БулочкаСмаком" from server<STEAM_0:1:49357881>
+[19:45:41] БулочкаСмаком suicided!
+[19:46:09] Дед Щукарь suicided!
+[19:46:09] Дед Щукарь suicided!
+[19:46:11] Яичка suicided!
+[19:46:22] Client "c4s | qRRaz11cHHH" connected.
+[19:46:30] Мику suicided!
+[19:46:59] Jumbo Sledgehammer suicided!
+[19:47:03] Client "c4s | qRRaz11cHHH" connected.
+[19:47:24] boris suicided!
+[19:47:26] Solder_Storu suicided!
+[19:48:04] boris suicided!
+[19:48:07] Мику suicided!
+[19:48:07] Мику suicided!
+[19:48:13] Яичка: да
+[19:48:16] Jumbo Sledgehammer suicided!
+[19:48:17] Яичка suicided!
+[19:48:37] Яичка suicided!
+[19:48:39] Jumbo Sledgehammer suicided!
+[19:48:44] Дед Щукарь suicided!
+[19:48:44] (csay from Console)     
+[19:48:48] Server is shutting down/changing levels.
+
+
+
+[19:49:57] New map: gm_bbicotka_hmcd
+[19:49:57] Client "Modular" connected.
+[19:49:57] Client "c4s | qRRaz11cHHH" connected.
+[19:50:19] Client "Дед Щукарь" connected.
+[19:50:25] Client "Яичка" connected.
+[19:50:40] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 43 seconds).
+[19:50:41] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 44 seconds).
+[19:50:56] Modular suicided!
+[19:51:16] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 51 seconds).
+[19:51:18] Client "SG_KaAp" connected.
+[19:51:38] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[19:51:48] Client "Solder_Storu" connected.
+[19:52:16] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[19:52:16] Яичка suicided!
+[19:52:17] Client "Яичка" connected.
+[19:52:19] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 120 seconds).
+[19:52:42] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 25 seconds).
+[19:52:43] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:52:43] SG_KaAp suicided!
+[19:52:59] c4s | qRRaz11cHHH suicided!
+[19:53:04] Яичка: !menu
+[19:53:25] c4s | qRRaz11cHHH suicided!
+[19:53:29] Дед Щукарь: 62.122.213.37:20000
+[19:53:35] Яичка сменил карту на ttt_terrortrain_2020_b5
+[19:53:35] Server is shutting down/changing levels.
+
+
+
+[19:53:45] New map: ttt_terrortrain_2020_b5
+[19:53:46] Client "S.T.A.L.K.E.R" connected.
+[19:54:13] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 31 seconds).
+[19:54:16] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 34 seconds).
+[19:54:26] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 44 seconds).
+[19:54:31] Client "ПАПОЙ" connected.
+[19:54:38] Client "S.T.A.L.K.E.R" spawned in server <STEAM_0:0:580668777> (took 52 seconds).
+[19:54:47] c4s | qRRaz11cHHH suicided!
+[19:54:47] c4s | qRRaz11cHHH suicided!
+[19:55:06] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 84 seconds).
+[19:55:32] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 110 seconds).
+[19:55:49] Яичка suicided!
+[19:56:11] S.T.A.L.K.E.R suicided!
+[19:56:11] S.T.A.L.K.E.R suicided!
+[19:56:21] Modular killed c4s | qRRaz11cHHH using player
+[19:57:16] Яичка: хз
+[19:57:30] Modular suicided!
+[19:57:34] Solder_Storu suicided!
+[19:57:53] c4s | qRRaz11cHHH suicided!
+[19:58:15] S.T.A.L.K.E.R suicided!
+[19:58:19] Дед Щукарь suicided!
+[19:58:22] Яичка suicided!
+[19:58:38] S.T.A.L.K.E.R голосует за Да
+[19:58:40] c4s | qRRaz11cHHH голосует за Нет
+[19:58:40] Modular голосует за Нет
+[19:58:42] Яичка голосует за Нет
+[19:58:44] Дед Щукарь голосует за Да
+[19:58:44] Solder_Storu голосует за Нет
+[19:58:59] c4s | qRRaz11cHHH suicided!
+[19:59:23] Яичка suicided!
+[19:59:23] Яичка suicided!
+[19:59:44] Modular suicided!
+[20:00:32] Яичка suicided!
+[20:00:53] S.T.A.L.K.E.R suicided!
+[20:01:30] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001.mdl
+[20:01:31] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001.mdl
+[20:01:32] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001.mdl
+[20:01:34] Яичка<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001.mdl
+[20:01:36] Дед Щукарь suicided!
+[20:02:05] Яичка: лол
+[20:02:10] Яичка: с4 его не найдет
+[20:02:12] Яичка: Да
+[20:02:21] Яичка: Нет
+[20:02:26] Яичка: Я проверить хотел
+[20:03:11] Яичка<STEAM_0:0:709713214> spawned model models/props_docks/dock01_cleat01a.mdl
+[20:03:57] Client "SG_KaAp" connected.
+[20:04:46] Modular suicided!
+[20:04:59] c4s | qRRaz11cHHH suicided!
+[20:05:03] S.T.A.L.K.E.R suicided!
+[20:05:03] S.T.A.L.K.E.R suicided!
+[20:05:03] Дед Щукарь suicided!
+[20:05:05] Яичка suicided!
+[20:05:21] Modular suicided!
+[20:05:45] Дед Щукарь set Themself's model to models/player/Donald_Trump.mdl with colors R:255, G:255, B:255
+[20:05:45] Дед Щукарь: !setmodel ^ models/player/Donald_Trump.mdl
+[20:05:55] Solder_Storu suicided!
+[20:05:58] Дед Щукарь suicided!
+[20:06:11] Яичка suicided!
+[20:06:13] c4s | qRRaz11cHHH suicided!
+[20:06:21] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:06:21] c4s | qRRaz11cHHH suicided!
+[20:06:23] Дед Щукарь переместился к Solder_Storu
+[20:06:38] Client "[Чизмен}{PiROjOK}" connected.
+[20:07:04] Яичка suicided!
+[20:07:06] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 189 seconds).
+[20:07:06] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:07:21] Solder_Storu suicided!
+[20:07:22] Client "ПАПОЙ" spawned in server <STEAM_0:1:648331689> (took 771 seconds).
+[20:07:24] Дед Щукарь suicided!
+[20:07:51] Modular suicided!
+[20:08:04] ПАПОЙ suicided!
+[20:08:09] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[20:08:09] Дед Щукарь suicided!
+[20:08:29] Client "[Чизмен}{PiROjOK}" spawned in server <STEAM_0:0:112679301> (took 111 seconds).
+[20:08:39] Solder_Storu suicided!
+[20:08:39] Solder_Storu suicided!
+[20:08:50] S.T.A.L.K.E.R suicided!
+[20:08:54] Яичка suicided!
+[20:09:17] Solder_Storu suicided!
+[20:09:22] Modular suicided!
+[20:09:22] Dropped "ПАПОЙ" from server<STEAM_0:1:648331689>
+[20:09:22] ПАПОЙ suicided!
+[20:09:46] Modular suicided!
+[20:10:04] S.T.A.L.K.E.R suicided!
+[20:10:13] Яичка suicided!
+[20:10:17] Client "Sigma" connected.
+[20:10:49] Server is shutting down/changing levels.
+
+
+
+[20:10:58] New map: de_port
+[20:10:58] Server is shutting down/changing levels.
+
+
+
+[20:11:06] New map: de_port
+[20:11:06] Client "[Чизмен}{PiROjOK}" connected.
+[20:11:06] Client "[Чизмен}{PiROjOK}" connected.
+[20:11:06] Client "S.T.A.L.K.E.R" connected.
+[20:11:06] Client "S.T.A.L.K.E.R" connected.
+[20:11:06] Client "Sigma" connected.
+[20:11:06] Client "Modular" connected.
+[20:11:06] Client "Modular" connected.
+[20:11:06] Client "Яичка" connected.
+[20:11:06] Client "Яичка" connected.
+[20:11:06] Client "Solder_Storu" connected.
+[20:11:06] Client "Solder_Storu" connected.
+
+
+
+[20:11:39] New map: gm_bbicotka_hmcd
+[20:11:44] Client "[Чизмен}{PiROjOK}" connected.
+[20:12:11] Client "Modular" connected.
+[20:12:29] Client "[Чизмен}{PiROjOK}" spawned in server <STEAM_0:0:112679301> (took 45 seconds).
+[20:12:40] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 29 seconds).
+[20:13:07] Client "Яичка" connected.
+[20:13:20] Client "Sigma" connected.
+[20:13:35] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 28 seconds).
+[20:13:36] Modular suicided!
+[20:14:25] Client "Sigma" connected.
+[20:14:50] Client "_XxX_Stasik_XxX_" connected.
+[20:15:19] Client "Стив Бабгкинс" connected.
+[20:15:56] Client "Стив Бабгкинс" connected.
+[20:16:10] Client "S.T.A.L.K.E.R" connected.
+[20:16:15] Яичка suicided!
+[20:16:38] Client "Sigma" spawned in server <STEAM_0:1:461269433> (took 133 seconds).
+[20:16:41] Client "Solder_Storu" connected.
+[20:16:49] Client "S.T.A.L.K.E.R" spawned in server <STEAM_0:0:580668777> (took 39 seconds).
+[20:17:30] Modular suicided!
+[20:18:48] Client "анекдоты.ru" connected.
+[20:18:50] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 129 seconds).
+[20:19:09] S.T.A.L.K.E.R suicided!
+[20:19:11] Modular suicided!
+[20:19:21] Sigma suicided!
+[20:20:56] Client "Plastilin" connected.
+[20:20:57] Яичка: ты где сука
+[20:21:42] Яичка: !explode *
+[20:21:46] [Чизмен}{PiROjOK} suicided!
+[20:21:46] Яичка suicided!
+[20:21:46] Яичка убил Themself,[Чизмен}{PiROjOK}
+[20:21:46] Яичка: !slay *
+[20:22:21] Яичка suicided!
+[20:22:43] Client "мистер белый52" connected.
+[20:22:48] Sigma suicided!
+[20:23:04] S.T.A.L.K.E.R suicided!
+[20:23:10] Client "анекдоты.ru" spawned in server <STEAM_0:1:55742269> (took 262 seconds).
+[20:23:29] Client "indianrizz19" connected.
+[20:23:30] Solder_Storu suicided!
+[20:23:39] Client "shift_sex456" connected.
+[20:24:28] анекдоты.ru suicided!
+[20:25:05] Sigma suicided!
+[20:25:05] Sigma suicided!
+[20:25:09] Modular suicided!
+[20:25:31] Client "Plastilin" spawned in server <STEAM_0:0:595587219> (took 275 seconds).
+[20:25:53] Sigma: .ьутг
+[20:26:05] Sigma rolled (1) 1
+[20:26:07] Sigma rolled (42) 16
+[20:26:07] Sigma rolled (42) 12
+[20:26:08] Sigma rolled (42) 13
+[20:26:09] Яичка suicided!
+[20:26:27] Solder_Storu suicided!
+[20:26:38] Яичка suicided!
+[20:26:44] анекдоты.ru: а как тут какать
+[20:26:44] Яичка: Что ебать
+[20:27:09] Modular suicided!
+[20:27:09] Modular suicided!
+[20:27:14] анекдоты.ru suicided!
+[20:27:16] анекдоты.ru: дауны
+[20:27:21] Client "KILLMILL" connected.
+[20:27:25] Client "мистер белый52" spawned in server <STEAM_0:0:740537191> (took 282 seconds).
+[20:27:54] Solder_Storu suicided!
+[20:27:58] Яичка: Бинд?
+[20:28:01] анекдоты.ru: :cold_face:
+[20:28:01] Яичка: bind g fake
+[20:28:01] Client "Стив Бабгкинс" spawned in server <STEAM_0:1:515167843> (took 725 seconds).
+[20:28:02] Dropped "Sigma" from server<STEAM_0:1:461269433>
+[20:28:02] Sigma suicided!
+[20:28:03] Dropped "мистер белый52" from server<STEAM_0:0:740537191>
+[20:28:04] Яичка: в консоль
+[20:28:06] Client "shift_sex456" spawned in server <STEAM_0:1:856746083> (took 267 seconds).
+[20:28:21] анекдоты.ru: какой нахуй бинд гэ
+[20:28:37] анекдоты.ru: !motd
+[20:28:47] Client "мистер белый52" connected.
+[20:29:53] анекдоты.ru: как встать ?
+[20:29:56] Plastilin suicided!
+[20:29:59] Dropped "Plastilin" from server<STEAM_0:0:595587219>
+[20:30:21] Client "_XxX_Stasik_XxX_" spawned in server <STEAM_0:0:780126214> (took 931 seconds).
+[20:31:16] shift_sex456 suicided!
+[20:31:31] Client "KILLMILL" spawned in server <STEAM_0:0:147343569> (took 250 seconds).
+[20:32:08] S.T.A.L.K.E.R suicided!
+[20:32:24] Client "Neil Breen" connected.
+[20:32:42] Client "снайпур" connected.
+[20:32:47] Яичка suicided!
+[20:32:53] _XxX_Stasik_XxX_ suicided!
+[20:32:54] Яичка: регдолл чени
+[20:33:05] Яичка: Домаг
+[20:33:11] Яичка: Большой слишком
+[20:33:31] shift_sex456 suicided!
+[20:33:36] Яичка respawned Themself
+[20:33:36] Яичка: !frespawn ^
+[20:33:37] Яичка: !noclip ^
+[20:33:37] Solder_Storu suicided!
+[20:33:43] Яичка: !noclip ^
+[20:33:46] Яичка respawned Themself
+[20:33:46] Яичка: !frespawn ^
+[20:33:47] Client "SKIBIDI" connected.
+[20:33:47] Яичка: !noclip ^
+[20:33:59] Яичка suicided!
+[20:34:01] Яичка respawned Themself
+[20:34:01] Яичка: !frespawn ^
+[20:34:02] Яичка: !noclip ^
+[20:34:23] Client "Neil Breen" spawned in server <STEAM_0:1:241388176> (took 119 seconds).
+[20:34:23] Яичка suicided!
+[20:34:51] [Чизмен}{PiROjOK} suicided!
+[20:34:53] Modular suicided!
+[20:34:55] Dropped "KILLMILL" from server<STEAM_0:0:147343569>
+[20:34:55] KILLMILL suicided!
+[20:35:03] Client "KILLMILL" connected.
+[20:35:09] анекдоты.ru suicided!
+[20:35:10] _XxX_Stasik_XxX_ suicided!
+[20:35:13] Modular suicided!
+[20:35:15] анекдоты.ru: и че за нахуй
+[20:35:20] анекдоты.ru: спавн от бога
+[20:35:28] [Чизмен}{PiROjOK} suicided!
+[20:35:35] анекдоты.ru: тебя плохо слышно с хуем во рту
+[20:35:41] shift_sex456 suicided!
+[20:35:43] Neil Breen suicided!
+[20:35:48] анекдоты.ru: нет
+[20:35:52] Dropped "shift_sex456" from server<STEAM_0:1:856746083>
+[20:37:00] _XxX_Stasik_XxX_: !motd
+[20:37:33] Client "Bладик Kириешки" connected.
+[20:37:48] Client "KILLMILL" spawned in server <STEAM_0:0:147343569> (took 165 seconds).
+[20:38:05] анекдоты.ru suicided!
+[20:38:11] анекдоты.ru: ахуенный урон
+[20:38:18] анекдоты.ru: я в чела весь магаз всадил
+[20:38:32] KILLMILL suicided!
+[20:38:32] Яичка suicided!
+[20:38:32] _XxX_Stasik_XxX_ suicided!
+[20:38:33] S.T.A.L.K.E.R suicided!
+[20:38:34] Solder_Storu suicided!
+[20:38:34] анекдоты.ru suicided!
+[20:38:38] Яичка: !levelend
+[20:38:43] Neil Breen suicided!
+[20:38:43] анекдоты.ru: почему я сдох
+[20:38:47] Яичка: !noclip ^
+[20:38:59] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:00] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:02] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:06] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:11] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:14] анекдоты.ru was killed by npc_sjg_howlers_maze
+[20:39:24] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:24] Neil Breen suicided!
+[20:39:26] _XxX_Stasik_XxX_ suicided!
+[20:39:33] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:35] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:35] Solder_Storu suicided!
+[20:39:43] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:39:44] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:39:47] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:39:52] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:40:01] Яичка was killed by npc_sjg_howlers_maze
+[20:40:04] _XxX_Stasik_XxX_: !motd
+[20:40:11] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:40:12] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:40:14] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:40:15] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[20:40:19] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:40:19] Neil Breen: АДМИН ВОСКРЕСИ ПЖ
+[20:40:20] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:40:23] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:40:26] Neil Breen: МЕНЯ УБИЛИ
+[20:40:27] Modular suicided!
+[20:40:27] Стив Бабгкинс suicided!
+[20:40:29] Client "Bладик Kириешки" spawned in server <STEAM_0:0:533979726> (took 176 seconds).
+[20:40:33] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:40:34] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:40:40] Яичка: !noclip ^
+[20:40:43] Яичка respawned Themself
+[20:40:43] Яичка: !frespawn ^
+[20:40:44] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:40:45] Яичка was killed by npc_sjg_howlers_battle
+[20:40:46] S.T.A.L.K.E.R suicided!
+[20:40:46] KILLMILL suicided!
+[20:40:52] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[20:40:55] [Чизмен}{PiROjOK} suicided!
+[20:41:18] Яичка запустил голосование (Го-потом-бекрумс?)
+[20:41:18] Яичка: !vote Го-потом-бекрумс? Дааа НЕЕЕТ
+[20:41:19] Яичка голосует за Дааа
+[20:41:20] Modular голосует за НЕЕЕТ
+[20:41:20] Стив Бабгкинс голосует за НЕЕЕТ
+[20:41:21] Neil Breen голосует за НЕЕЕТ
+[20:41:21] [Чизмен}{PiROjOK} голосует за Дааа
+[20:41:22] анекдоты.ru голосует за Дааа
+[20:41:22] S.T.A.L.K.E.R голосует за Дааа
+[20:41:23] Bладик Kириешки голосует за НЕЕЕТ
+[20:41:24] _XxX_Stasik_XxX_ голосует за Дааа
+[20:41:25] KILLMILL голосует за Дааа
+[20:41:26] Solder_Storu: та бля верните нексбот
+[20:41:30] Solder_Storu голосует за Дааа
+[20:41:30] Результат: 'Дааа' . (7/11)
+[20:41:33] S.T.A.L.K.E.R suicided!
+[20:41:56] Modular suicided!
+[20:41:59] [Чизмен}{PiROjOK} suicided!
+[20:41:59] Яичка: ХАХАХАХАХА
+[20:42:13] Bладик Kириешки suicided!
+[20:42:13] Bладик Kириешки suicided!
+[20:42:40] _XxX_Stasik_XxX_ suicided!
+[20:43:01] Яичка: !menu
+[20:43:02] Dropped "анекдоты.ru" from server<STEAM_0:1:55742269>
+[20:43:02] анекдоты.ru suicided!
+[20:43:09] Bладик Kириешки: rtv
+[20:43:31] _XxX_Stasik_XxX_: rtv
+[20:44:02] Dropped "Neil Breen" from server<STEAM_0:1:241388176>
+[20:44:02] Neil Breen suicided!
+[20:44:02] Client "Neil Breen" connected.
+[20:44:06] Server is shutting down/changing levels.
+
+
+
+[20:44:16] New map: ttt_upstate
+[20:44:16] Server is shutting down/changing levels.
+
+
+
+[20:44:24] New map: ttt_upstate
+[20:44:24] Client "Neil Breen" connected.
+[20:44:24] Client "Neil Breen" connected.
+[20:44:24] Client "_XxX_Stasik_XxX_" connected.
+[20:44:24] Client "_XxX_Stasik_XxX_" connected.
+[20:44:24] Client "Bладик Kириешки" connected.
+[20:44:24] Client "[Чизмен}{PiROjOK}" connected.
+[20:44:24] Client "Bладик Kириешки" connected.
+[20:44:24] Client "[Чизмен}{PiROjOK}" connected.
+[20:44:24] Client "Стив Бабгкинс" connected.
+[20:44:24] Client "S.T.A.L.K.E.R" connected.
+[20:44:24] Client "Стив Бабгкинс" connected.
+[20:44:24] Client "S.T.A.L.K.E.R" connected.
+[20:44:24] Client "KILLMILL" connected.
+[20:44:24] Client "KILLMILL" connected.
+[20:44:24] Client "Яичка" connected.
+[20:44:24] Client "Яичка" connected.
+[20:44:24] Client "Modular" connected.
+[20:44:24] Client "Modular" connected.
+[20:44:24] Client "Solder_Storu" connected.
+[20:44:24] Client "Solder_Storu" connected.
+[20:45:24] Client "Falc" connected.
+[20:45:39] Client "Neil Breen" spawned in server <STEAM_0:1:241388176> (took 75 seconds).
+[20:45:54] Client "Bладик Kириешки" spawned in server <STEAM_0:0:533979726> (took 90 seconds).
+[20:46:09] Client "KILLMILL" spawned in server <STEAM_0:0:147343569> (took 105 seconds).
+[20:46:23] Neil Breen suicided!
+[20:46:27] Bладик Kириешки suicided!
+[20:46:59] KILLMILL suicided!
+[20:47:51] Neil Breen suicided!
+[20:48:25] Neil Breen suicided!
+[20:48:32] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 248 seconds).
+[20:49:45] Client "[Чизмен}{PiROjOK}" spawned in server <STEAM_0:0:112679301> (took 321 seconds).
+[20:49:55] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 331 seconds).
+[20:50:11] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 287 seconds).
+[20:50:34] Client "Бедный зилибобка" connected.
+[20:50:46] Neil Breen suicided!
+[20:50:47] KILLMILL: !menu
+[20:50:57] Bладик Kириешки: bind g fake
+[20:52:04] Bладик Kириешки suicided!
+[20:52:27] Dropped "Bладик Kириешки" from server<STEAM_0:0:533979726>
+[20:52:40] [Чизмен}{PiROjOK} suicided!
+[20:52:45] Яичка suicided!
+[20:53:06] Falc suicided!
+[20:53:30] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 546 seconds).
+[20:54:27] Client "Стив Бабгкинс" spawned in server <STEAM_0:1:515167843> (took 603 seconds).
+[20:54:47] Modular: афк 9999999
+[20:54:47] Dropped "Modular" from server<STEAM_0:1:443036265>
+[20:54:47] Modular suicided!
+[20:54:59] [Чизмен}{PiROjOK} suicided!
+[20:55:00] Neil Breen suicided!
+[20:55:46] Яичка suicided!
+[20:56:36] Яичка suicided!
+[20:56:38] Яичка: хПХПАХАХАХАХпхпх
+[20:58:26] [Чизмен}{PiROjOK} suicided!
+[20:58:26] KILLMILL suicided!
+[20:58:50] Solder_Storu suicided!
+[20:58:50] Стив Бабгкинс suicided!
+[20:58:57] Яичка: БЛЯЯ
+[20:59:00] Яичка: СРАТЬ ПИЗДЕЦ
+[20:59:10] [Чизмен}{PiROjOK} suicided!
+[20:59:28] Neil Breen suicided!
+[20:59:28] Neil Breen suicided!
+[20:59:30] [Чизмен}{PiROjOK} suicided!
+[20:59:34] Яичка suicided!
+[20:59:37] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[20:59:37] Яичка suicided!
+[20:59:43] Client "SG_KaAp" connected.
+[20:59:51] [Чизмен}{PiROjOK} suicided!
+[20:59:53] Neil Breen suicided!
+[21:00:01] Solder_Storu suicided!
+[21:00:08] Neil Breen suicided!
+[21:00:27] Стив Бабгкинс suicided!
+[21:00:27] Стив Бабгкинс suicided!
+[21:00:31] [Чизмен}{PiROjOK} suicided!
+[21:00:43] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 60 seconds).
+[21:00:51] Neil Breen suicided!
+[21:00:59] KILLMILL suicided!
+[21:01:10] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:01:10] SG_KaAp suicided!
+[21:01:37] Falc suicided!
+[21:01:51] [Чизмен}{PiROjOK} suicided!
+[21:01:56] Neil Breen suicided!
+[21:02:14] Стив Бабгкинс suicided!
+[21:02:27] Falc suicided!
+[21:02:36] [Чизмен}{PiROjOK} killed Falc using player
+[21:02:40] Solder_Storu suicided!
+[21:02:49] KILLMILL suicided!
+[21:02:50] Falc suicided!
+[21:02:53] Solder_Storu suicided!
+[21:02:53] Solder_Storu suicided!
+[21:02:56] KILLMILL suicided!
+[21:03:01] Стив Бабгкинс suicided!
+[21:03:02] [Чизмен}{PiROjOK} suicided!
+[21:03:25] [Чизмен}{PiROjOK} suicided!
+[21:03:52] Solder_Storu suicided!
+[21:04:39] KILLMILL suicided!
+[21:04:46] Falc suicided!
+[21:04:50] Neil Breen suicided!
+[21:05:05] [Чизмен}{PiROjOK} suicided!
+[21:05:45] Solder_Storu suicided!
+[21:05:52] Стив Бабгкинс suicided!
+[21:06:10] KILLMILL suicided!
+[21:06:12] Client "SG_KaAp" connected.
+[21:06:16] [Чизмен}{PiROjOK} suicided!
+[21:06:32] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[21:06:34] Solder_Storu suicided!
+[21:07:16] Dropped "Falc" from server<STEAM_0:1:624344922>
+[21:07:16] Falc suicided!
+[21:07:17] Solder_Storu suicided!
+[21:07:17] Solder_Storu suicided!
+[21:07:28] Dropped "Neil Breen" from server<STEAM_0:1:241388176>
+[21:07:28] Neil Breen suicided!
+[21:07:45] Стив Бабгкинс suicided!
+[21:07:47] Client "МЕФЧИК" connected.
+[21:08:06] SG_KaAp suicided!
+[21:08:07] SG_KaAp suicided!
+[21:08:42] SG_KaAp suicided!
+[21:08:59] SG_KaAp suicided!
+[21:09:36] Server is shutting down/changing levels.
+
+
+
+[21:09:44] New map: de_dust2
+[21:09:44] Server is shutting down/changing levels.
+
+
+
+[21:09:52] New map: de_dust2
+
+
+
+[21:13:27] New map: gm_bbicotka_hmcd
+[21:13:57] Client "Falc" connected.
+[21:14:10] Client "SG_KaAp" connected.
+[21:14:38] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 28 seconds).
+[21:14:55] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 58 seconds).
+[21:15:10] Client "Solder_Storu" connected.
+[21:15:22] Client "Жук" connected.
+[21:16:43] SG_KaAp suicided!
+[21:17:30] Client "Zkibidi Adventures" connected.
+[21:17:49] Client "[Чизмен}{PiROjOK}" connected.
+[21:18:01] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[21:18:30] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 200 seconds).
+[21:18:30] SG_KaAp suicided!
+[21:18:35] Client "[Чизмен}{PiROjOK}" spawned in server <STEAM_0:0:112679301> (took 46 seconds).
+[21:18:46] Solder_Storu suicided!
+[21:19:02] Solder_Storu suicided!
+[21:19:08] [Чизмен}{PiROjOK} suicided!
+[21:19:08] [Чизмен}{PiROjOK} suicided!
+[21:19:31] Client "Zkibidi Adventures" connected.
+[21:20:26] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 55 seconds).
+[21:21:43] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:21:43] SG_KaAp suicided!
+[21:21:58] Client "Жук" spawned in server <STEAM_0:0:581430925> (took 396 seconds).
+[21:21:58] Client "SG_KaAp" connected.
+[21:22:56] Falc: как?
+[21:23:09] Solder_Storu suicided!
+[21:23:26] Falc suicided!
+[21:23:31] Falc: ХАХАХА
+[21:23:41] Falc: Только я кинул
+[21:23:45] Client "Modular" connected.
+[21:23:48] Falc: тебе сразу бошку снесли
+[21:23:52] Falc голосует за Да
+[21:23:52] Solder_Storu голосует за Да
+[21:23:52] Zkibidi Adventures голосует за Да
+[21:23:53] [Чизмен}{PiROjOK} голосует за Да
+[21:24:06] Dropped "Жук" from server<STEAM_0:0:581430925>
+[21:24:41] Solder_Storu suicided!
+[21:24:47] Zkibidi Adventures suicided!
+[21:25:22] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 97 seconds).
+[21:25:23] Client "Sergeant Harrison" connected.
+[21:25:41] Client "Стив Бабгкинс" connected.
+[21:25:44] Falc suicided!
+[21:25:54] Zkibidi Adventures: где нексботы
+[21:26:12] Zkibidi Adventures: так да
+[21:26:17] Modular: цццц
+[21:26:24] Zkibidi Adventures: ЗКАХАХАХА
+[21:26:24] Solder_Storu suicided!
+[21:26:35] Zkibidi Adventures suicided!
+[21:26:47] [Чизмен}{PiROjOK} suicided!
+[21:27:59] Client "SG_KaAp" connected.
+[21:28:27] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 28 seconds).
+[21:28:30] [Чизмен}{PiROjOK} suicided!
+[21:28:43] SG_KaAp respawned Themself
+[21:28:43] SG_KaAp: !frespawn ^
+[21:29:32] Falc голосует за Нет
+[21:29:32] [Чизмен}{PiROjOK} голосует за Да
+[21:29:33] Zkibidi Adventures голосует за Да
+[21:29:34] Solder_Storu голосует за Да
+[21:29:37] Modular голосует за Нет
+[21:29:47] Falc: ай
+[21:29:54] Falc suicided!
+[21:29:59] Modular suicided!
+[21:30:09] (TEAM) SG_KaAp: !noclip
+[21:30:17] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:21] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:22] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:25] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:26] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:27] Client "Стив Бабгкинс" spawned in server <STEAM_0:1:515167843> (took 286 seconds).
+[21:30:27] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:34] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:35] Dropped "Modular" from server<STEAM_0:1:443036265>
+[21:30:35] Modular suicided!
+[21:30:37] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:39] Zkibidi Adventures: нам пизда
+[21:30:41] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:43] Client "Sergeant Harrison" spawned in server <STEAM_0:1:420543076> (took 320 seconds).
+[21:30:45] Falc: щас нас будут ебать
+[21:30:49] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:50] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:30:52] Zkibidi Adventures: ОНИ ТАМ
+[21:30:58] Falc was killed by npc_sjg_howlers_battle
+[21:30:59] Client "Modular" connected.
+[21:31:05] SG_KaAp: !noclip
+[21:31:14] SG_KaAp suicided!
+[21:31:16] SG_KaAp respawned Themself
+[21:31:16] SG_KaAp: !frespawn ^
+[21:31:33] [Чизмен}{PiROjOK} was killed by npc_sjg_howlers_battle
+[21:31:34] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 35 seconds).
+[21:31:55] SG_KaAp suicided!
+[21:31:58] Solder_Storu suicided!
+[21:32:12] Falc: боты на крышу не лезут
+[21:32:17] Zkibidi Adventures: это история
+[21:32:18] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:32:19] Zkibidi Adventures: об том
+[21:32:20] Zkibidi Adventures: как я попал
+[21:32:24] Zkibidi Adventures: в зомби апокалипсис
+[21:32:25] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:32:32] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:32:36] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:32:42] SG_KaAp: !noclip
+[21:32:45] SG_KaAp respawned Themself
+[21:32:45] SG_KaAp: !frespawn ^
+[21:32:46] SG_KaAp: !noclip
+[21:32:50] SG_KaAp: !noclip
+[21:32:53] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_sjg_howlers_battle
+[21:32:56] SG_KaAp suicided!
+[21:33:06] SG_KaAp respawned Themself
+[21:33:06] SG_KaAp: !frespawn ^
+[21:33:14] Zkibidi Adventures: а че все умерли?
+[21:33:21] SG_KaAp: !noclip
+[21:33:30] Zkibidi Adventures suicided!
+[21:33:34] SG_KaAp suicided!
+[21:33:34] SG_KaAp убил Themself
+[21:33:34] SG_KaAp: !slay ^
+[21:34:39] Solder_Storu suicided!
+[21:35:20] Falc suicided!
+[21:35:21] Dropped "Sergeant Harrison" from server<STEAM_0:1:420543076>
+[21:35:21] Sergeant Harrison suicided!
+[21:35:25] Стив Бабгкинс suicided!
+[21:35:36] Client "S.T.A.L.K.E.R" connected.
+[21:35:54] Solder_Storu suicided!
+[21:35:58] Falc suicided!
+[21:36:26] Modular suicided!
+[21:36:28] Falc: у меня арсенал целый
+[21:36:30] Falc suicided!
+[21:36:35] Solder_Storu suicided!
+[21:36:36] SG_KaAp suicided!
+[21:36:44] [Чизмен}{PiROjOK} suicided!
+[21:36:46] Modular suicided!
+[21:36:51] SG_KaAp suicided!
+[21:37:00] SG_KaAp suicided!
+[21:37:01] SG_KaAp suicided!
+[21:37:26] SG_KaAp suicided!
+[21:37:29] Modular suicided!
+[21:37:34] SG_KaAp suicided!
+[21:37:36] Solder_Storu suicided!
+[21:37:54] Falc suicided!
+[21:38:20] [Чизмен}{PiROjOK} suicided!
+[21:38:28] Modular suicided!
+[21:38:36] Falc: Екарный
+[21:38:59] Solder_Storu suicided!
+[21:39:07] Client "Sergeant Harrison" connected.
+[21:39:09] Client "БулочкаСмаком" connected.
+[21:39:15] Falc: солдат ты меня ударил
+[21:39:17] Falc: я улетел
+[21:39:19] Zkibidi Adventures suicided!
+[21:39:21] Zkibidi Adventures: ХУЛИ Я ОДИН
+[21:39:23] Zkibidi Adventures: СУКА
+[21:39:26] Client "спанч бо славянин" connected.
+[21:39:30] Client "Яичка" connected.
+[21:39:35] Client "Sergeant Harrison" spawned in server <STEAM_0:1:420543076> (took 28 seconds).
+[21:39:48] Solder_Storu suicided!
+[21:39:59] Dropped "Sergeant Harrison" from server<STEAM_0:1:420543076>
+[21:40:01] Falc suicided!
+[21:40:17] Client "Sergeant Harrison" connected.
+[21:40:29] Zkibidi Adventures suicided!
+[21:40:29] Zkibidi Adventures suicided!
+[21:40:40] SG_KaAp suicided!
+[21:40:42] Zkibidi Adventures: чурка
+[21:40:43] Client "Sergeant Harrison" spawned in server <STEAM_0:1:420543076> (took 26 seconds).
+[21:40:43] Modular suicided!
+[21:40:46] Zkibidi Adventures: как ты меня увидел
+[21:40:56] SG_KaAp: !menu
+[21:40:57] Zkibidi Adventures: почему нас троя
+[21:41:01] Zkibidi Adventures: какого хуя
+[21:41:05] Zkibidi Adventures: че с балансом ваще
+[21:41:06] Modular: че с камерой блин
+[21:41:15] SG_KaAp voted for gm_school (1/4)
+[21:41:22] Zkibidi Adventures voted for gm_school (2/4)
+[21:41:22] Zkibidi Adventures: !votemap 68
+[21:41:32] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 122 seconds).
+[21:41:43] [Чизмен}{PiROjOK} suicided!
+[21:41:44] Falc suicided!
+[21:41:44] Falc suicided!
+[21:42:11] Zkibidi Adventures suicided!
+[21:42:11] Zkibidi Adventures suicided!
+[21:42:25] SG_KaAp suicided!
+[21:42:26] Solder_Storu suicided!
+[21:42:34] Стив Бабгкинс suicided!
+[21:42:34] Стив Бабгкинс suicided!
+[21:42:42] Falc suicided!
+[21:42:47] SG_KaAp: !csay "Го шкилу"
+[21:42:49] Modular suicided!
+[21:42:50] Modular suicided!
+[21:42:50] Яичка suicided!
+[21:43:04] SG_KaAp suicided!
+[21:43:06] Solder_Storu suicided!
+[21:43:06] Solder_Storu suicided!
+[21:43:07] Sergeant Harrison suicided!
+[21:43:07] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 238 seconds).
+[21:43:16] Falc suicided!
+[21:43:36] Zkibidi Adventures suicided!
+[21:43:36] Zkibidi Adventures suicided!
+[21:43:36] Яичка suicided!
+[21:43:40] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[21:43:40] Client "Яичка" connected.
+[21:43:52] Zkibidi Adventures: а зачем меня свой убил
+[21:44:04] Zkibidi Adventures: стив даун просто
+[21:44:06] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 26 seconds).
+[21:44:18] Falc: Он выжил
+[21:44:23] Falc: после падения
+[21:44:35] Zkibidi Adventures: ебать все заруинил
+[21:44:36] Falc: Вот он настоящий джон
+[21:44:39] Zkibidi Adventures: какой же уебок
+[21:44:51] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[21:44:56] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[21:44:59] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[21:45:01] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[21:45:01] Стив Бабгкинс suicided!
+[21:45:03] Zkibidi Adventures: стив ты такой гений
+[21:45:05] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[21:45:07] Zkibidi Adventures: я просто аплодирую тебе
+[21:45:09] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[21:45:14] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_battle
+[21:45:17] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[21:45:19] Яичка<STEAM_0:0:709713214> spawned NPC npc_sjg_howlers_maze
+[21:45:23] [Чизмен}{PiROjOK} was killed by npc_sjg_howlers_maze
+[21:45:39] Яичка: Дс
+[21:45:40] [Чизмен}{PiROjOK} голосует за Да
+[21:45:40] Zkibidi Adventures голосует за Да
+[21:45:41] Falc голосует за Да
+[21:45:41] Modular голосует за Да
+[21:45:41] Яичка голосует за Да
+[21:45:41] Стив Бабгкинс голосует за Да
+[21:45:42] Sergeant Harrison голосует за Да
+[21:45:47] Solder_Storu голосует за Да
+[21:45:49] БулочкаСмаком голосует за Нет
+[21:45:52] Solder_Storu suicided!
+[21:46:36] Falc suicided!
+[21:46:48] Client "Мику" connected.
+[21:47:03] Стив Бабгкинс suicided!
+[21:47:15] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:47:15] SG_KaAp suicided!
+[21:47:32] [Чизмен}{PiROjOK} suicided!
+[21:47:36] Falc suicided!
+[21:47:42] Dropped "Modular" from server<STEAM_0:1:443036265>
+[21:47:42] Modular suicided!
+[21:47:51] Falc: я плакать хочу
+[21:48:06] Falc: я даже не успел заспавниться
+[21:48:09] Falc: как сразу
+[21:48:14] Client "Modular" connected.
+[21:48:14] Client "Lekis" connected.
+[21:48:40] Falc suicided!
+[21:48:49] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 35 seconds).
+[21:48:51] Sergeant Harrison suicided!
+[21:48:53] БулочкаСмаком suicided!
+[21:48:56] Solder_Storu suicided!
+[21:48:56] Solder_Storu suicided!
+[21:48:57] Стив Бабгкинс suicided!
+[21:48:57] Стив Бабгкинс suicided!
+[21:49:27] Яичка suicided!
+[21:49:38] Яичка: !noclip ^
+[21:49:56] Falc: я ногу сломал
+[21:50:15] Яичка suicided!
+[21:50:16] Solder_Storu suicided!
+[21:50:18] Sergeant Harrison suicided!
+[21:50:21] Falc: нога
+[21:50:22] Falc: сломана
+[21:50:40] Client "Особо Опасен" connected.
+[21:50:42] БулочкаСмаком suicided!
+[21:50:52] Стив Бабгкинс suicided!
+[21:51:13] Яичка suicided!
+[21:51:21] Solder_Storu suicided!
+[21:51:42] Falc suicided!
+[21:51:43] Sergeant Harrison suicided!
+[21:51:43] Sergeant Harrison suicided!
+[21:51:56] Стив Бабгкинс suicided!
+[21:52:23] Client "Lekis" spawned in server <STEAM_0:0:88662267> (took 249 seconds).
+[21:52:42] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 354 seconds).
+[21:52:51] Стив Бабгкинс suicided!
+[21:52:58] Яичка suicided!
+[21:53:02] Solder_Storu suicided!
+[21:53:27] Яичка<STEAM_0:0:709713214> spawned NPC npc_combine_s
+[21:53:28] Modular suicided!
+[21:53:42] Solder_Storu suicided!
+[21:53:43] БулочкаСмаком suicided!
+[21:53:43] Falc suicided!
+[21:53:52] Sergeant Harrison suicided!
+[21:54:22] [Чизмен}{PiROjOK} suicided!
+[21:54:29] Яичка suicided!
+[21:54:29] Яичка suicided!
+[21:54:30] Lekis suicided!
+[21:54:31] Modular suicided!
+[21:54:37] Zkibidi Adventures: даун тупой
+[21:54:49] Zkibidi Adventures suicided!
+[21:54:49] Zkibidi Adventures suicided!
+[21:54:52] Яичка<STEAM_0:0:709713214> spawned NPC npc_combine_s
+[21:54:58] Zkibidi Adventures: тимейты от бога просто
+[21:55:21] Яичка<STEAM_0:0:709713214> spawned NPC npc_combine_s
+[21:55:27] Яичка<STEAM_0:0:709713214> spawned NPC npc_combine_s
+[21:55:29] Стив Бабгкинс suicided!
+[21:55:33] Мику suicided!
+[21:55:36] Яичка suicided!
+[21:55:43] [Чизмен}{PiROjOK} suicided!
+[21:55:49] Sergeant Harrison suicided!
+[21:55:53] Falc suicided!
+[21:55:56] Яичка<STEAM_0:0:709713214> spawned NPC npc_combine_s
+[21:56:00] БулочкаСмаком suicided!
+[21:56:03] Яичка<STEAM_0:0:709713214> spawned NPC npc_combine_s
+[21:56:09] Стив Бабгкинс suicided!
+[21:56:12] Falc: ну екарный бабай
+[21:56:38] Яичка запустил голосование (Евент?)
+[21:56:38] Яичка: !vote Евент? ДААА НЕЕЕТ
+[21:56:38] Яичка: !noclip ^
+[21:56:39] Zkibidi Adventures голосует за ДААА
+[21:56:39] Яичка голосует за ДААА
+[21:56:40] БулочкаСмаком голосует за ДААА
+[21:56:40] Falc голосует за ДААА
+[21:56:40] [Чизмен}{PiROjOK} голосует за ДААА
+[21:56:40] Modular голосует за ДААА
+[21:56:41] Solder_Storu голосует за ДААА
+[21:56:43] Стив Бабгкинс голосует за ДААА
+[21:56:44] Falc suicided!
+[21:56:47] Modular suicided!
+[21:56:51] Falc: БЛЯТЬ
+[21:56:58] Результат: 'ДААА' . (8/11)
+[21:56:58] Falc: Конченые чтоле
+[21:57:01] БулочкаСмаком suicided!
+[21:57:04] Яичка suicided!
+[21:57:06] Falc suicided!
+[21:57:06] Modular suicided!
+[21:57:06] Solder_Storu suicided!
+[21:57:06] Sergeant Harrison suicided!
+[21:57:06] Zkibidi Adventures suicided!
+[21:57:06] [Чизмен}{PiROjOK} suicided!
+[21:57:06] Стив Бабгкинс suicided!
+[21:57:06] Lekis suicided!
+[21:57:06] БулочкаСмаком suicided!
+[21:57:06] Яичка suicided!
+[21:57:06] Мику suicided!
+[21:57:24] Dropped "Lekis" from server<STEAM_0:0:88662267>
+[21:57:24] Lekis suicided!
+[21:57:36] Server is shutting down/changing levels.
+
+
+
+[21:57:45] New map: gm_bigcity
+[21:57:45] Server is shutting down/changing levels.
+
+
+
+[21:57:53] New map: gm_bigcity
+[21:57:54] Client "Zkibidi Adventures" connected.
+[21:57:54] Client "Zkibidi Adventures" connected.
+[21:57:54] Client "БулочкаСмаком" connected.
+[21:57:54] Client "БулочкаСмаком" connected.
+[21:57:54] Client "Falc" connected.
+[21:57:54] Client "Falc" connected.
+[21:57:54] Client "[Чизмен}{PiROjOK}" connected.
+[21:57:54] Client "[Чизмен}{PiROjOK}" connected.
+[21:57:54] Client "Особо Опасен" connected.
+[21:57:54] Client "Особо Опасен" connected.
+[21:57:54] Client "Modular" connected.
+[21:57:54] Client "Modular" connected.
+[21:57:54] Client "Sergeant Harrison" connected.
+[21:57:54] Client "Sergeant Harrison" connected.
+[21:57:54] Client "Solder_Storu" connected.
+[21:57:54] Client "Solder_Storu" connected.
+[21:57:54] Client "Мику" connected.
+[21:57:54] Client "Мику" connected.
+[21:57:54] Client "Стив Бабгкинс" connected.
+[21:57:54] Client "Стив Бабгкинс" connected.
+[21:57:54] Client "Яичка" connected.
+[21:57:54] Client "Яичка" connected.
+
+
+
+[21:58:37] New map: gm_bbicotka_hmcd
+[21:58:37] Client "Яичка" connected.
+[21:58:37] Client "Яичка" connected.
+[21:58:41] Client "Modular" connected.
+[21:58:47] Client "Solder_Storu" connected.
+[21:59:02] Client "Modular" connected.
+[21:59:03] Client "БулочкаСмаком" connected.
+[21:59:06] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 29 seconds).
+[21:59:23] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 21 seconds).
+[21:59:24] Client "Falc" connected.
+[21:59:28] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 25 seconds).
+[21:59:34] Яичка: !menu
+[21:59:43] Яичка сменил карту на gm_hmcd_rooftops
+[21:59:43] Server is shutting down/changing levels.
+
+
+
+[21:59:51] New map: gm_hmcd_rooftops
+[22:00:13] Client "БулочкаСмаком" spawned in server <STEAM_0:1:49357881> (took 25 seconds).
+[22:00:16] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 28 seconds).
+[22:00:28] Modular suicided!
+[22:00:29] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 41 seconds).
+[22:00:45] Falc killed БулочкаСмаком using player
+[22:00:54] Falc: Упырь
+[22:00:58] БулочкаСмаком suicided!
+[22:01:07] Falc: Бетер кол сол
+[22:01:18] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 90 seconds).
+[22:02:30] БулочкаСмаком killed Modular using player
+[22:02:47] Client "Стив Бабгкинс" connected.
+[22:02:53] Client "Стив Бабгкинс" connected.
+[22:02:56] Client "[Чизмен}{PiROjOK}" connected.
+[22:03:14] БулочкаСмаком suicided!
+[22:03:27] Solder_Storu suicided!
+[22:03:55] Modular suicided!
+[22:03:56] Client "[Чизмен}{PiROjOK}" spawned in server <STEAM_0:0:112679301> (took 60 seconds).
+[22:04:04] Client "Особо Опасен" connected.
+[22:04:10] БулочкаСмаком suicided!
+[22:04:21] Client "SG_KaAp" connected.
+[22:04:32] Client "Яичка" connected.
+[22:04:47] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 26 seconds).
+[22:04:57] Modular suicided!
+[22:05:14] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 42 seconds).
+[22:05:36] Solder_Storu suicided!
+[22:05:38] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[22:05:39] БулочкаСмаком suicided!
+[22:05:39] Client "Яичка" connected.
+[22:05:40] Falc: НЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕТ
+[22:05:43] Falc: Он умер
+[22:06:00] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 21 seconds).
+[22:06:07] Falc suicided!
+[22:06:16] Client "Особо Опасен" spawned in server <STEAM_0:0:155535480> (took 132 seconds).
+[22:06:33] Falc suicided!
+[22:06:33] Falc suicided!
+[22:07:01] Solder_Storu suicided!
+[22:07:02] SG_KaAp suicided!
+[22:07:05] Client "Стив Бабгкинс" spawned in server <STEAM_0:1:515167843> (took 252 seconds).
+[22:07:13] Яичка suicided!
+[22:07:41] Client "спанч бо славянин" connected.
+[22:07:41] БулочкаСмаком suicided!
+[22:07:41] БулочкаСмаком suicided!
+[22:07:53] Falc голосует за Да
+[22:07:53] Modular голосует за Нет
+[22:07:53] Яичка голосует за Нет
+[22:07:53] Стив Бабгкинс голосует за Нет
+[22:07:54] Solder_Storu голосует за Да
+[22:07:55] [Чизмен}{PiROjOK} голосует за Да
+[22:07:55] БулочкаСмаком голосует за Да
+[22:08:02] БулочкаСмаком suicided!
+[22:08:02] Особо Опасен голосует за Да
+[22:08:09] [Чизмен}{PiROjOK} suicided!
+[22:08:15] Яичка respawned БулочкаСмаком
+[22:08:15] Яичка: !frespawn Бул
+[22:08:49] Яичка suicided!
+[22:08:50] SG_KaAp suicided!
+[22:09:08] Стив Бабгкинс suicided!
+[22:09:30] Solder_Storu suicided!
+[22:10:09] Modular suicided!
+[22:10:34] Falc suicided!
+[22:10:35] Яичка suicided!
+[22:10:51] БулочкаСмаком suicided!
+[22:11:02] Dropped "БулочкаСмаком" from server<STEAM_0:1:49357881>
+[22:11:03] Dropped "Особо Опасен" from server<STEAM_0:0:155535480>
+[22:11:03] Особо Опасен suicided!
+[22:11:06] SG_KaAp suicided!
+[22:11:21] SG_KaAp suicided!
+[22:11:30] Яичка suicided!
+[22:11:50] Стив Бабгкинс suicided!
+[22:11:59] Solder_Storu suicided!
+[22:12:16] Solder_Storu: бля каков дун меня скинул
+[22:12:35] Стив Бабгкинс suicided!
+[22:12:36] Falc suicided!
+[22:12:40] [Чизмен}{PiROjOK} suicided!
+[22:12:47] SG_KaAp: !noclip
+[22:13:00] Яичка suicided!
+[22:13:12] SG_KaAp: !noclip
+[22:13:14] SG_KaAp: !point control_point
+[22:13:16] SG_KaAp: !noclip
+[22:13:25] SG_KaAp: !noclip
+[22:13:33] Modular: ХА*** ГИТ***
+[22:13:37] SG_KaAp suicided!
+[22:13:49] Яичка set Themself's model to models/player/group01/male_03.mdl with colors R:255, G:255, B:255
+[22:14:14] SG_KaAp: !menu
+[22:14:22] Falc suicided!
+[22:14:28] Стив Бабгкинс suicided!
+[22:14:52] Solder_Storu suicided!
+[22:14:55] Client "De1uxe" connected.
+[22:15:29] Яичка suicided!
+[22:15:36] Client "спанч бо славянин" spawned in server <STEAM_0:1:534802898> (took 475 seconds).
+[22:16:08] Solder_Storu killed [Чизмен}{PiROjOK} using base_shell
+[22:16:27] Solder_Storu suicided!
+[22:16:27] Solder_Storu suicided!
+[22:16:34] Яичка: ТП
+[22:16:37] Modular suicided!
+[22:16:39] Яичка: ТП
+[22:16:39] Яичка: ТП
+[22:16:40] Яичка: ТП
+[22:16:42] SG_KaAp изменил доступ "ulx setmodel" к группе admin
+[22:16:46] SG_KaAp suicided!
+[22:16:52] спанч бо славянин suicided!
+[22:16:54] Стив Бабгкинс suicided!
+[22:17:16] Falc suicided!
+[22:17:18] Modular suicided!
+[22:17:32] SG_KaAp killed Яичка using player
+[22:17:33] Стив Бабгкинс suicided!
+[22:17:35] спанч бо славянин suicided!
+[22:17:48] Falc: Это не реально
+[22:18:14] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_metalbucket
+[22:18:19] Стив Бабгкинс suicided!
+[22:18:32] Modular suicided!
+[22:18:34] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[22:18:42] Dropped "спанч бо славянин" from server<STEAM_0:1:534802898>
+[22:18:42] спанч бо славянин suicided!
+[22:18:42] SG_KaAp suicided!
+[22:18:53] Modular: ГУБКА БОБ?!
+[22:19:16] Falc suicided!
+[22:19:26] Solder_Storu suicided!
+[22:19:51] Client "Tallowy" connected.
+[22:20:09] Client "спанч бо славянин" connected.
+[22:20:09] Яичка suicided!
+[22:20:17] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[22:20:25] Client "Sergeant Harrison" connected.
+[22:20:29] Яичка suicided!
+[22:20:29] Client "De1uxe" spawned in server <STEAM_0:1:444031686> (took 334 seconds).
+[22:20:43] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_metalbucket
+[22:20:48] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_metalbucket
+[22:20:49] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_metalbucket
+[22:20:50] Client "Sergeant Harrison" spawned in server <STEAM_0:1:420543076> (took 25 seconds).
+[22:20:53] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_metalbucket
+[22:20:56] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_metalbucket
+[22:20:59] Client "спанч бо славянин" spawned in server <STEAM_0:1:534802898> (took 50 seconds).
+[22:21:11] SG_KaAp suicided!
+[22:21:11] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_eztnt
+[22:21:20] Яичка set Themself's model to models/player/group01/male_04.mdl with colors R:255, G:255, B:255
+[22:21:22] [Чизмен}{PiROjOK} suicided!
+[22:21:28] Modular suicided!
+[22:21:30] Яичка suicided!
+[22:21:36] Стив Бабгкинс suicided!
+[22:21:41] Dropped "спанч бо славянин" from server<STEAM_0:1:534802898>
+[22:21:41] спанч бо славянин suicided!
+[22:21:44] Client "спанч бо славянин" connected.
+[22:21:55] Яичка: !point red
+[22:21:58] Яичка: !point red
+[22:21:59] Яичка: !point red
+[22:22:08] Яичка: !point blue
+[22:22:15] Client "спанч бо славянин" spawned in server <STEAM_0:1:534802898> (took 31 seconds).
+[22:22:18] Falc suicided!
+[22:22:22] Falc: Вах
+[22:22:32] Sergeant Harrison suicided!
+[22:22:33] Стив Бабгкинс suicided!
+[22:22:36] SG_KaAp suicided!
+[22:22:46] [Чизмен}{PiROjOK} suicided!
+[22:22:49] De1uxe suicided!
+[22:22:49] Яичка suicided!
+[22:23:05] Dropped "De1uxe" from server<STEAM_0:1:444031686>
+[22:23:12] Solder_Storu suicided!
+[22:23:21] Solder_Storu: админ сука
+[22:23:21] Яичка: !noclip ^
+[22:23:31] Client "Tallowy" spawned in server <STEAM_0:0:566748849> (took 220 seconds).
+[22:23:44] Solder_Storu suicided!
+[22:23:48] Sergeant Harrison suicided!
+[22:23:54] Стив Бабгкинс suicided!
+[22:23:56] SG_KaAp suicided!
+[22:24:00] SG_KaAp suicided!
+[22:24:04] SG_KaAp suicided!
+[22:24:07] SG_KaAp suicided!
+[22:24:12] SG_KaAp suicided!
+[22:24:14] Solder_Storu suicided!
+[22:24:17] Яичка suicided!
+[22:24:23] Falc suicided!
+[22:24:23] Solder_Storu suicided!
+[22:24:25] Solder_Storu suicided!
+[22:24:28] Tallowy suicided!
+[22:24:28] SG_KaAp suicided!
+[22:24:31] Яичка: !noclip ^
+[22:24:32] Falc suicided!
+[22:24:39] Яичка: !point blue
+[22:24:40] Яичка: !point blue
+[22:24:42] Яичка: !point blue
+[22:24:44] Яичка: !point blue
+[22:24:46] Яичка: !point blue
+[22:24:47] Яичка: !point blue
+[22:24:49] Яичка: !point blue
+[22:24:53] [Чизмен}{PiROjOK} suicided!
+[22:24:54] Modular suicided!
+[22:24:55] Яичка: !point red
+[22:24:56] Яичка: !point red
+[22:24:59] Яичка: \!point red
+[22:25:00] Яичка: \!point red
+[22:25:01] Яичка: \!point red
+[22:25:03] Яичка: !point red
+[22:25:04] Яичка: !point red
+[22:25:06] Яичка: !point red
+[22:25:08] Modular suicided!
+[22:25:09] Яичка: !point red
+[22:25:10] Tallowy suicided!
+[22:25:17] Solder_Storu suicided!
+[22:25:21] Яичка suicided!
+[22:25:28] [Чизмен}{PiROjOK} suicided!
+[22:25:28] [Чизмен}{PiROjOK} suicided!
+[22:25:43] SG_KaAp suicided!
+[22:25:44] Sergeant Harrison suicided!
+[22:25:50] Tallowy suicided!
+[22:25:50] Tallowy suicided!
+[22:26:09] Sergeant Harrison suicided!
+[22:26:09] Sergeant Harrison suicided!
+[22:26:16] Tallowy suicided!
+[22:26:17] Client "Zkibidi Adventures" connected.
+[22:26:22] спанч бо славянин suicided!
+[22:26:26] Яичка suicided!
+[22:26:38] Solder_Storu suicided!
+[22:26:38] Solder_Storu suicided!
+[22:26:40] Dropped "спанч бо славянин" from server<STEAM_0:1:534802898>
+[22:26:40] спанч бо славянин suicided!
+[22:26:42] Solder_Storu suicided!
+[22:26:42] Solder_Storu suicided!
+[22:26:59] SG_KaAp: !menu
+[22:27:00] Яичка suicided!
+[22:27:04] [Чизмен}{PiROjOK} suicided!
+[22:27:06] Яичка: !levelend
+[22:27:09] Яичка suicided!
+[22:27:18] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 61 seconds).
+[22:27:41] Falc suicided!
+[22:27:41] Falc suicided!
+[22:27:48] Sergeant Harrison suicided!
+[22:27:52] Яичка suicided!
+[22:27:53] Client "𝙨𝙡𝙖𝙨𝙝" connected.
+[22:27:54] SG_KaAp suicided!
+[22:27:54] SG_KaAp suicided!
+[22:28:06] Solder_Storu suicided!
+[22:28:09] [Чизмен}{PiROjOK} голосует за Да
+[22:28:10] Яичка голосует за Да
+[22:28:10] Sergeant Harrison голосует за Да
+[22:28:10] Modular голосует за Нет
+[22:28:12] Стив Бабгкинс голосует за Да
+[22:28:15] Falc голосует за Да
+[22:28:15] Solder_Storu голосует за Да
+[22:28:18] Zkibidi Adventures голосует за Нет
+[22:28:19] SG_KaAp голосует за Да
+[22:28:21] Яичка<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezstickynade
+[22:28:28] Яичка suicided!
+[22:28:30] Modular suicided!
+[22:28:32] Tallowy suicided!
+[22:28:36] Dropped "Tallowy" from server<STEAM_0:0:566748849>
+[22:28:47] Falc suicided!
+[22:29:08] SG_KaAp suicided!
+[22:29:12] [Чизмен}{PiROjOK} suicided!
+[22:29:54] Zkibidi Adventures suicided!
+[22:30:11] Zkibidi Adventures: я ебал
+[22:30:14] Zkibidi Adventures: ноль урона
+[22:30:19] Modular: ок
+[22:30:25] Client "спанч бо славянин" connected.
+[22:30:25] Modular: научись стрелять
+[22:30:27] Modular: гений
+[22:30:37] Стив Бабгкинс suicided!
+[22:30:39] Zkibidi Adventures: научись выпрыгивать в окно
+[22:31:12] Client "спанч бо славянин" spawned in server <STEAM_0:1:534802898> (took 47 seconds).
+[22:31:28] Modular suicided!
+[22:31:44] Sergeant Harrison suicided!
+[22:31:49] Dropped "Sergeant Harrison" from server<STEAM_0:1:420543076>
+[22:32:00] SG_KaAp suicided!
+[22:32:00] Falc suicided!
+[22:32:14] Solder_Storu suicided!
+[22:32:40] SG_KaAp: !menu
+[22:32:57] Стив Бабгкинс killed Яичка using player
+[22:33:03] Стив Бабгкинс suicided!
+[22:33:03] Modular suicided!
+[22:33:03] Solder_Storu suicided!
+[22:33:03] Zkibidi Adventures suicided!
+[22:33:03] Falc suicided!
+[22:33:03] [Чизмен}{PiROjOK} suicided!
+[22:33:03] спанч бо славянин suicided!
+[22:33:03] SG_KaAp suicided!
+[22:33:03] Яичка suicided!
+[22:33:07] SG_KaAp voted for gm_backrooms (1/4)
+[22:33:08] Dropped "[Чизмен}{PiROjOK}" from server<STEAM_0:0:112679301>
+[22:33:33] Server is shutting down/changing levels.
+
+
+
+[22:33:42] New map: gm_eliden_hmcd
+[22:33:42] Server is shutting down/changing levels.
+
+
+
+[22:33:51] New map: gm_eliden_hmcd
+[22:33:51] Client "спанч бо славянин" connected.
+[22:33:51] Client "спанч бо славянин" connected.
+[22:33:51] Client "SG_KaAp" connected.
+[22:33:51] Client "SG_KaAp" connected.
+[22:33:51] Client "Стив Бабгкинс" connected.
+[22:33:51] Client "Стив Бабгкинс" connected.
+[22:33:51] Client "Zkibidi Adventures" connected.
+[22:33:51] Client "Zkibidi Adventures" connected.
+[22:33:51] Client "Solder_Storu" connected.
+[22:33:51] Client "Solder_Storu" connected.
+[22:33:51] Client "Modular" connected.
+[22:33:51] Client "Modular" connected.
+[22:33:51] Client "Яичка" connected.
+[22:33:51] Client "Яичка" connected.
+[22:34:08] Client "Falc" connected.
+[22:34:11] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[22:34:24] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 33 seconds).
+[22:34:30] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 39 seconds).
+[22:34:31] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 40 seconds).
+[22:34:43] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 35 seconds).
+[22:34:47] Client "спанч бо славянин" spawned in server <STEAM_0:1:534802898> (took 56 seconds).
+[22:34:55] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 64 seconds).
+[22:35:01] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:35:40] Яичка: КАК ВЫЙТИ С РЕЖИМА УПРАВЛЕНИЯ Я МИССКЛИК СДЕЛАЛ
+[22:35:47] Client "Джузеппе" connected.
+[22:35:54] SG_KaAp suicided!
+[22:35:54] SG_KaAp suicided!
+[22:36:05] Client "Стив Бабгкинс" spawned in server <STEAM_0:1:515167843> (took 134 seconds).
+[22:36:16] SG_KaAp suicided!
+[22:36:29] Modular suicided!
+[22:36:34] Яичка: ХАХАХАХАХАХА
+[22:36:42] Яичка: ТУТ ТИП ТАКОЙ ОПА НИВИГА
+[22:36:51] Solder_Storu: это что халф лайф 3?
+[22:36:51] Яичка suicided!
+[22:37:11] Zkibidi Adventures suicided!
+[22:37:20] Яичка: ЗАЗАЗАЗАаъАХАЪщзва-хза\
+[22:37:34] Яичка: ТЫ такой типо нифига
+[22:37:38] Яичка: И умир
+[22:37:48] Zkibidi Adventures: бля убейте его уже
+[22:38:01] Falc suicided!
+[22:38:07] Яичка: Ящики
+[22:38:10] Яичка: Ломайте
+[22:38:17] Falc: а че там
+[22:38:17] Solder_Storu suicided!
+[22:38:20] Zkibidi Adventures: хули вы не пиздите маньяка
+[22:38:20] спанч бо славянин suicided!
+[22:38:28] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:38:34] SG_KaAp suicided!
+[22:38:43] Zkibidi Adventures: ХВХАВХАХ
+[22:38:46] Яичка suicided!
+[22:39:08] Стив Бабгкинс suicided!
+[22:39:27] спанч бо славянин suicided!
+[22:39:28] Яичка: ТУДОО
+[22:39:30] Zkibidi Adventures suicided!
+[22:39:41] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:39:44] Стив Бабгкинс suicided!
+[22:39:47] Яичка suicided!
+[22:39:47] спанч бо славянин suicided!
+[22:39:58] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:40:14] Яичка suicided!
+[22:40:16] Zkibidi Adventures: НАХУЯ
+[22:40:18] Zkibidi Adventures: НЕБЛАН
+[22:40:21] Стив Бабгкинс suicided!
+[22:40:27] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:40:27] SG_KaAp suicided!
+[22:40:30] Solder_Storu suicided!
+[22:40:30] Zkibidi Adventures suicided!
+[22:40:42] Яичка: !homicide_get
+[22:40:57] Falc suicided!
+[22:41:01] Falc: СУКА
+[22:41:31] спанч бо славянин suicided!
+[22:41:35] Client "SG_KaAp" connected.
+[22:41:37] Solder_Storu suicided!
+[22:41:43] Стив Бабгкинс suicided!
+[22:41:46] Яичка: !noclip ^
+[22:41:47] Яичка: !noclip ^
+[22:41:55] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[22:42:03] Яичка suicided!
+[22:42:09] Стив Бабгкинс suicided!
+[22:42:09] Solder_Storu suicided!
+[22:42:29] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:42:37] Falc suicided!
+[22:42:37] Falc suicided!
+[22:42:47] Zkibidi Adventures suicided!
+[22:42:51] спанч бо славянин suicided!
+[22:42:52] SG_KaAp suicided!
+[22:42:59] Zkibidi Adventures: да почему вы его не пиздите
+[22:43:08] Яичка: Rfg
+[22:43:09] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:43:09] Falc suicided!
+[22:43:18] спанч бо славянин suicided!
+[22:43:19] Яичка: ЛЕВЫЙ ВЕРХНИЙ УГОЛ
+[22:43:20] Zkibidi Adventures suicided!
+[22:43:24] Dropped "Falc" from server<STEAM_0:1:624344922>
+[22:43:24] Стив Бабгкинс suicided!
+[22:43:24] Стив Бабгкинс suicided!
+[22:43:27] SG_KaAp suicided!
+[22:43:32] Яичка: ЛЕВЫЙ ВЕРХНИЙ УГОЛ
+[22:43:33] Zkibidi Adventures: и нахуй ты меня убил
+[22:43:34] Яичка: ЛЕВЫЙ ВЕРХНИЙ УГОЛ
+[22:43:37] Яичка: ТАМ ОШИБКА
+[22:43:45] Яичка: ЧТО НЕ ПРАВЕЛЬНО СКАЗАН
+[22:43:49] Яичка: ПАК3
+[22:44:00] Solder_Storu suicided!
+[22:44:31] Яичка: Черепахе
+[22:45:12] Zkibidi Adventures: админы аннигилируйте
+[22:45:38] SG_KaAp запустил голосование (Рестартнуть сервак на 5 сек для фикса прицелов?)
+[22:45:38] SG_KaAp: !vote "Рестартнуть сервак на 5 сек для фикса прицелов?" Да Нет
+[22:45:40] Zkibidi Adventures голосует за Да
+[22:45:40] Solder_Storu голосует за Да
+[22:45:41] Яичка голосует за Да
+[22:45:41] Стив Бабгкинс голосует за Нет
+[22:45:43] Modular голосует за Нет
+[22:45:44] спанч бо славянин голосует за Да
+[22:45:48] Modular suicided!
+[22:45:49] Zkibidi Adventures: го стар варс
+[22:45:50] SG_KaAp голосует за Да
+[22:45:50] Результат: 'Да' . (5/7)
+[22:45:51] Яичка suicided!
+[22:46:06] Server is shutting down/changing levels.
+
+
+
+[22:46:40] New map: gm_bbicotka_hmcd
+[22:46:40] Client "Modular" connected.
+[22:46:40] Client "Modular" connected.
+[22:47:02] Client "Стив Бабгкинс" connected.
+[22:47:04] Client "SG_KaAp" connected.
+[22:47:08] Client "Modular" spawned in server <STEAM_0:1:443036265> (took 28 seconds).
+[22:47:08] Client "Solder_Storu" connected.
+[22:47:30] Client "Яичка" connected.
+[22:47:32] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 28 seconds).
+[22:47:53] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:48:04] Client "Яичка" spawned in server <STEAM_0:0:709713214> (took 34 seconds).
+[22:48:20] Client "Zkibidi Adventures" connected.
+[22:48:23] Яичка<STEAM_0:0:709713214> spawned NPC npc_combine_s
+[22:48:33] SG_KaAp suicided!
+[22:48:38] Яичка: раунде
+[22:48:41] Яичка: А
+[22:48:46] Яичка: НАС МАЛО СОРРИ
+[22:48:51] Client "Solder_Storu" spawned in server <STEAM_0:1:627138888> (took 103 seconds).
+[22:49:29] Client "Zkibidi Adventures" connected.
+[22:49:29] SG_KaAp suicided!
+[22:49:40] Modular suicided!
+[22:49:43] Яичка suicided!
+[22:49:58] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:50:08] Яичка suicided!
+[22:50:09] SG_KaAp suicided!
+[22:50:13] Яичка: "nj\
+[22:50:28] Client "Zkibidi Adventures" spawned in server <STEAM_0:1:110354214> (took 59 seconds).
+[22:50:40] Яичка: Ало
+[22:50:42] SG_KaAp: !forcerespawn ^
+[22:50:46] Zkibidi Adventures: го стар варс
+[22:50:50] SG_KaAp: !frcrespawn ^
+[22:50:55] Modular suicided!
+[22:50:55] Modular suicided!
+[22:50:56] SG_KaAp respawned Themself
+[22:50:56] SG_KaAp: !frespawn ^
+[22:51:04] Client "Стив Бабгкинс" spawned in server <STEAM_0:1:515167843> (took 242 seconds).
+[22:51:08] SG_KaAp respawned Themself
+[22:51:08] SG_KaAp: !frespawn ^
+[22:51:25] Яичка suicided!
+[22:51:39] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:51:39] SG_KaAp: !setmodel ^ models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl
+[22:52:12] Zkibidi Adventures suicided!
+[22:52:24] Zkibidi Adventures: ну охуительно
+[22:52:35] Zkibidi Adventures: как обычно предатель рядом со мной
+[22:52:42] Zkibidi Adventures: просто ебал в рот этот режим
+[22:53:40] Zkibidi Adventures: Яичка поставь стар варс
+[22:53:55] SG_KaAp suicided!
+[22:54:21] Modular suicided!
+[22:54:21] Modular suicided!
+[22:54:32] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:54:32] SG_KaAp: !setmodel ^ models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl
+[22:54:50] Zkibidi Adventures suicided!
+[22:54:58] Dropped "Modular" from server<STEAM_0:1:443036265>
+[22:54:58] Modular suicided!
+[22:55:05] SG_KaAp suicided!
+[22:55:10] Яичка suicided!
+[22:55:15] SG_KaAp set Themself's model to models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl with colors R:255, G:255, B:255
+[22:55:15] SG_KaAp: !setmodel ^ models/pacagma/vocaloid/hatsune_miku_v4xv1/hatsune_miku_v4xv1_player.mdl
+[22:55:46] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:55:46] SG_KaAp suicided!
+[22:56:02] Стив Бабгкинс suicided!
+[22:56:40] Яичка suicided!
+[22:56:54] Zkibidi Adventures suicided!
+[22:56:59] Solder_Storu suicided!
+[22:57:18] Zkibidi Adventures suicided!
+[22:57:23] Стив Бабгкинс suicided!
+[22:58:22] Solder_Storu suicided!
+[22:58:25] Zkibidi Adventures: охуенно играешь
+[22:58:26] Яичка suicided!
+[22:59:20] Стив Бабгкинс suicided!
+[22:59:37] Dropped "Solder_Storu" from server<STEAM_0:1:627138888>
+[22:59:37] Solder_Storu suicided!
+[22:59:53] Zkibidi Adventures suicided!
+[22:59:59] Zkibidi Adventures: ну и хуйня
+[23:00:07] Dropped "Zkibidi Adventures" from server<STEAM_0:1:110354214>
+[23:00:07] Zkibidi Adventures suicided!
+[23:00:13] Dropped "Яичка" from server<STEAM_0:0:709713214>
+[23:00:13] Яичка suicided!
+[23:01:21] Dropped "Стив Бабгкинс" from server<STEAM_0:1:515167843>
+[23:01:21] Стив Бабгкинс suicided!
+[23:23:11] Client "SG_KaAp" connected.
+[23:24:15] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 64 seconds).
+[23:29:23] SG_KaAp suicided!
+[23:30:13] SG_KaAp suicided!
+[23:30:13] SG_KaAp убил Themself
+[23:30:13] SG_KaAp: !slay ^
+[23:30:18] SG_KaAp suicided!
+[23:30:18] SG_KaAp respawned Themself
+[23:30:18] SG_KaAp: !frespawn ^
+[23:30:55] SG_KaAp suicided!
+[23:30:55] SG_KaAp убил Themself
+[23:30:55] SG_KaAp: !slay ^
+[23:30:57] SG_KaAp respawned Themself
+[23:30:57] SG_KaAp: !frespawn ^
+[23:32:23] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/jessev92/pd2/vehicles/metrobus_chassis.mdl
+[23:32:24] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/jessev92/pd2/vehicles/metrobus_chassis.mdl
+[23:32:49] Client "Ce1azz" connected.
+[23:32:49] SG_KaAp<STEAM_0:1:566748347> spawned sent lvs_repulsorlift_dropship
+[23:34:01] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_phx/sp_screen.mdl
+[23:34:33] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[23:34:33] SG_KaAp suicided!
+[23:56:41] Client "zagoskin11" connected.
+<Logging continued in "data/ulx_logs/10-25-24.txt">

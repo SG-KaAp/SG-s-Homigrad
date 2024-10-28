@@ -4,11 +4,13 @@ local red, blue, gray = Color(255,75,75), Color(75,75,255), Color(200, 200, 200)
 local upvector = Vector(0, 0, 128)
 local playsound = false
 
+ww2.points = ww2.points or {}
+ww2.WinPoints = ww2.WinPoints or {}
+
 gameevent.Listen("player_activate")
 hook.Add("player_activate","Bamhut_SendData",function(data)
-    ww2.points = {}
-
-    ww2.WinPoints = {}
+    ww2.points = ww2.points or {}
+    ww2.WinPoints = ww2.WinPoints or {}
 
     for i = 1, 2 do
         ww2.WinPoints[i] = GetGlobalInt("ww2_Winpoints" .. i)
@@ -25,6 +27,7 @@ hook.Add("player_activate","Bamhut_SendData",function(data)
 end)
 
 function ww2.PointsThink()
+    ww2.WinPoints = ww2.WinPoints or {}
     for i = 1, 3 do
         ww2.WinPoints[i] = GetGlobalInt("ww2_Winpoints" .. i, 0)
     end

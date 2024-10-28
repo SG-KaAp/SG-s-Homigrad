@@ -1,8 +1,8 @@
 ww2.ragdolls = {}
 
 function ww2.SpawnsTwoCommand()
-	local spawnsT = ReadDataMap("ww2_redarmy")
-	local spawnsCT = ReadDataMap("ww2_wermacht")
+	local spawnsT = ReadDataMap("spawnpointst")
+	local spawnsCT = ReadDataMap("spawnpointsct")
 
 	if #spawnsT == 0 then
 		for i, ent in RandomPairs(ents.FindByClass("info_player_terrorist")) do
@@ -301,5 +301,4 @@ function ww2.PlayerDeath(ply,inf,att)
     ww2.ragdolls[ply:GetNWEntity("Ragdoll")] = true
     return false
 end
-function ww2.NoSelectRandom() return #ReadDataMap("control_point") < 1 end
 function ww2.ShouldSpawnLoot() return false end

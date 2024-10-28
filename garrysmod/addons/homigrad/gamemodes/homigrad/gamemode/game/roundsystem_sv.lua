@@ -49,60 +49,86 @@ CountRoundRandom = CountRoundRandom or 0
 RoundRandomDefalut = 1
 
 function StartRound()
-	if SERVER and pointPagesRandom then
-		SpawnPointsPage = math.random(1,GetMaxDataPages("spawnpointst"))
+    if SERVER and pointPagesRandom then
+        SpawnPointsPage = math.random(1, GetMaxDataPages("spawnpointst"))
 
-		SetupSpawnPointsList()
-		SendSpawnPoint()
-	end
+        SetupSpawnPointsList()
+        SendSpawnPoint()
+    end
 
-	if roundActiveName ~= roundActiveNameNext then
-		SetActiveRound(roundActiveNameNext)
-	end
+    local mapName = string.lower(game.GetMap())
+    local isDeathrunMap = string.find(mapName, "deathrun")
+    local isJailbreakMap = string.find(mapName, "jb")
+    local isBackroomsMap = string.find(mapName, "backrooms")
 
-	local players = PlayersInGame()
-	for i,ply in pairs(players) do
-		ply:KillSilent()
-	end
+    if isBackroomsMap then
+        if roundActiveName ~= "nextbot" then
+            SetActiveRound("nextbot")
+        end
+        if roundActiveNameNext ~= "nextbot" then
+            SetActiveNextRound("nextbot")
+        end
+    elseif isDeathrunMap then
+        if roundActiveName ~= "deathrun" then
+            SetActiveRound("deathrun")
+        end
+        if roundActiveNameNext ~= "deathrun" then
+            SetActiveNextRound("deathrun")
+        end
+    elseif isJailbreakMap then
+        if roundActiveName ~= "jailbreak" then
+            SetActiveRound("jailbreak")
+        end
+        if roundActiveNameNext ~= "jailbreak" then
+            SetActiveNextRound("jailbreak")
+        end
+    else
+        if roundActiveName ~= roundActiveNameNext then
+            SetActiveRound(roundActiveNameNext)
+        end
+    end
 
-	if SERVER then
-		if timer.Exists( "ULXVotemap") then
-			timer.Adjust("ULXVotemap",0,nil,nil)
-		end
-	end
+    local players = PlayersInGame()
+    for i, ply in pairs(players) do
+        ply:KillSilent()
+    end
 
-	timer.Simple(5,function() flashlightOverride = false end)
+    if SERVER then
+        if timer.Exists("ULXVotemap") then
+            timer.Adjust("ULXVotemap", 0, nil, nil)
+        end
+    end
 
-	local tbl = TableRound()
+    timer.Simple(5, function() flashlightOverride = false end)
 
-	local textGmod = ""
-	local text = ""
-	text = text .. "Игровой режим	: " .. tostring(tbl.Name) .. "\n"
-	if SERVER then
-		RunConsoleCommand("hostname", "SG's Homigrad | Игровой режим: " ..tostring(tbl.Name))
-	end
+    local tbl = TableRound()
 
-	RoundData = tbl.StartRound
-	RoundData = RoundData and RoundData() or {}
+    local textGmod = ""
+    local text = ""
+    text = text .. "Игровой режим	: " .. tostring(tbl.Name) .. "\n"
 
-	roundStarter = true
+    RoundData = tbl.StartRound
+    RoundData = RoundData and RoundData() or {}
 
-	if levelrandom then
-		CountRoundRandom = CountRoundRandom + 1
+    roundStarter = true
 
-		local diff = (TableRound().RoundRandomDefalut or RoundRandomDefalut) - CountRoundRandom
-		local func = TableRound().CanRandomNext
-		func = func and func() or true
-		
-		if func and diff <= 0 then
-			local name = LevelRandom()
+    if levelrandom then
+        CountRoundRandom = CountRoundRandom + 1
 
-			SetActiveNextRound(name)
-			text = text .. "Следующий режим	: " .. tostring(TableRound(roundActiveNameNext).Name).. "\n"
-	
-			CountRoundRandom = 0
-		end
-	end
+        local diff = (TableRound().RoundRandomDefalut or RoundRandomDefalut) - CountRoundRandom
+        local func = TableRound().CanRandomNext
+        func = func and func() or true
+
+        if func and diff <= 0 then
+            local name = LevelRandom()
+
+            SetActiveNextRound(name)
+            text = text .. "Следующий режим	: " .. tostring(TableRound(roundActiveNameNext).Name) .. "\n"
+
+            CountRoundRandom = 0
+        end
+    end
+
 
 	if not NAXYIRTV then
 		RTV_CountRound = RTV_CountRound + 1
@@ -236,7 +262,10 @@ function EndRound(winner)
     end)
 end
 
-hook.Add("Think","hg-roundcheckthink",function() RoundEndCheck() end)
+timer.Create("RoundEndCheckTimer", 1, 0, function()
+    RoundEndCheck()
+end)
+
 
 local function donaterVoteLevelEnd(t,argv,calling_ply,args)
 	local results = t.results
@@ -250,28 +279,57 @@ local function donaterVoteLevelEnd(t,argv,calling_ply,args)
 		end
 	end
 
-	if winner == 2 then
+	if winner == 1 then
 		PrintMessage(HUD_PRINTTALK,"Раунд будет закончен.")
 		EndRound()
-	elseif winner == 1 then
+	elseif winner == 2 then
 		PrintMessage(HUD_PRINTTALK,"Раунд не будет закончен.")
 	else
 		PrintMessage(HUD_PRINTTALK,"Голосование не прошло успешно или было остановлено.")
 	end
 
-	calling_ply.canVoteNext = CurTime() + 300
+	calling_ply.canVoteNext = CurTime() + 600
 end
 
-COMMANDS.levelend = {function(ply,args)
-	if ply:IsAdmin() then
-		EndRound()
-	else
-		local calling_ply = ply
-		if (calling_ply.canVoteNext or CurTime()) - CurTime() <= 0 then
-			ulx.doVote( "Закончить раунд?", { "No", "Yes" }, donaterVoteLevelEnd, 15, _, _, argv, calling_ply, args)
-		end
-	end
-end}
+
+
+
+COMMANDS.levelend = {
+    function(ply, args)
+        local calling_ply = ply
+        
+        if modename == "construct" then
+            if (calling_ply.canVoteNext or CurTime()) - CurTime() <= 0 then
+                ulx.doVote("Закончить раунд?", { "Да", "Нет" }, donaterVoteLevelEnd, 15, _, _, argv, calling_ply, args)
+            end
+            return
+        end
+
+        if ply:IsAdmin() or ply:IsUserGroup("helper") or ply:IsUserGroup("moderator")  then
+            EndRound()
+            return
+        end
+
+        local IsPidorOnline = false
+        for _, v in ipairs(player.GetAll()) do
+            if v:IsAdmin() or v:IsUserGroup("blat") or v:IsUserGroup("Sponsor") or v:IsUserGroup("Helper") or v:IsUserGroup("moderator") or v:IsUserGroup("MegaSponsor") then
+                IsPidorOnline = true
+                break
+            end
+        end
+
+        if IsPidorOnline and not ply:IsUserGroup("blat") and not ply:IsUserGroup("Sponsor") and not ply:IsUserGroup("MegaSponsor") then
+            ply:ChatPrint("Вы не можете запустить голосование, так как на сервере есть админ, блатной или спонсор.")
+            return
+        end
+
+        if (calling_ply.canVoteNext or CurTime()) - CurTime() <= 0 then
+            ulx.doVote("Закончить раунд?", { "Да", "Нет" }, donaterVoteLevelEnd, 15, _, _, argv, calling_ply, args)
+        end
+    end
+}
+
+
 
 local function donaterVoteLevel(t,argv,calling_ply,args)
 	local results = t.results
@@ -285,30 +343,111 @@ local function donaterVoteLevel(t,argv,calling_ply,args)
 		end
 	end
 
-	if winner == 2 then
+	if winner == 1 then
 		PrintMessage(HUD_PRINTTALK,"Режим сменится в следующем раунде на " .. tostring(args[1]))
 		SetActiveNextRound(args[1])
-	elseif winner == 1 then
+	elseif winner == 2 then
 		PrintMessage(HUD_PRINTTALK,"Смены режима не состоялось.")
 	else
 		PrintMessage(HUD_PRINTTALK,"Голосование не прошло успешно или было остановлено.")
 	end
 
-	calling_ply.canVoteNext = CurTime() + 300
+	calling_ply.canVoteNext = CurTime() + 600
 end
 
-COMMANDS.levelnext = {function(ply,args)
-	if ply:IsAdmin() then
-		if not SetActiveNextRound(args[1]) then ply:ChatPrint("ты еблан, такого режима нет.") return end
-	else
-		local calling_ply = ply
-		if (calling_ply.canVoteNext or CurTime()) - CurTime() <= 0 and table.HasValue(LevelList,args[1]) then
-			ulx.doVote( "Поменять режим следующего раунда на " .. tostring(args[1]) .. "?", { "No", "Yes" }, donaterVoteLevel, 15, _, _, argv, calling_ply, args)
-		end
-	end
-end}
 
-COMMANDS.levels = {function(ply,args)
+concommand.Add("set_next_mode", function(ply, cmd, args)
+    local modeName = args[1]
+
+    if not modeName or not table.HasValue(LevelList, modeName) then
+        if ply then ply:ChatPrint("Указанный режим не существует.") end
+        return
+    end
+
+    local mapName = string.lower(game.GetMap())
+
+    if modeName == "deathrun" and not string.find(mapName, "deathrun") then
+        if ply then ply:ChatPrint("Режим deathrun можно запустить только на специальных картах.") end
+        return
+    end
+
+    if string.find(mapName, "deathrun") and modeName ~= "deathrun" then
+        if ply then ply:ChatPrint("На картах для дезрана, можно играть только в дезран.") end
+        return
+    end
+
+    if ply and ply:IsAdmin() or ply:IsUserGroup("moderator") then
+        if SetActiveNextRound(modeName) then
+            if ply then ply:ChatPrint("Режим следующего раунда изменен на " .. modeName .. ".") end
+        else
+            if ply then ply:ChatPrint("Не удалось изменить режим следующего раунда.") end
+        end
+    else
+        if ply then ply:ChatPrint("Вы не админ. Используйте кнопку Голосование.") end
+    end
+end)
+
+
+concommand.Add("vote_next_mode", function(ply, cmd, args)
+    local modeName = args[1]
+
+    if not modeName or not table.HasValue(LevelList, modeName) then
+        if ply then ply:ChatPrint("Указанный режим не существует.") end
+        return
+    end
+
+    local mapName = string.lower(game.GetMap())
+
+    if modeName == "deathrun" and not string.find(mapName, "deathrun") then
+        if ply then ply:ChatPrint("Режим deathrun можно запустить только на специальных картах.") end
+        return
+    end
+
+    if string.find(mapName, "deathrun") and modeName ~= "deathrun" then
+        if ply then ply:ChatPrint("На картах для deathrun можно играть только в deathrun.") end
+        return
+    end    
+
+    if modeName == "jailbreak" and not string.find(mapName, "jb") then
+        if ply then ply:ChatPrint("Режим jailbreak можно запустить только на картах с префиксом 'jb'.") end
+        return
+    end
+
+    if string.find(mapName, "jb") and modeName ~= "jailbreak" then
+        if ply then ply:ChatPrint("На картах для jailbreak можно играть только в jailbreak.") end
+        return
+    end    
+
+
+    if string.find(mapName, "backrooms") and modeName ~= "nextbot" then
+        if ply then ply:ChatPrint("На картах для backrooms можно играть только в nextbot.") end
+        return
+    end    
+
+    local IsPidorOnline = false
+    for _, v in ipairs(player.GetAll()) do
+        if v:IsAdmin() or v:IsUserGroup("blat") or v:IsUserGroup("Sponsor") or v:IsUserGroup("Helper") or v:IsUserGroup("MegaSponsor") or v:IsUserGroup("moderator") then
+            IsPidorOnline = true
+            break
+        end
+    end
+
+    if IsPidorOnline and not ply:IsUserGroup("blat") and not ply:IsUserGroup("Sponsor") and not ply:IsUserGroup("Helper") and not ply:IsUserGroup("moderator") and not ply:IsUserGroup("MegaSponsor") and not ply:IsAdmin() then
+        ply:ChatPrint("Вы не можете запустить голосование, так как на сервере есть админ, блатной, или спонсор.")
+        return
+    end
+
+    if ply and (ply.canVoteNext or CurTime()) - CurTime() <= 0 then
+        ulx.doVote("Поменять режим следующего раунда на " .. modeName .. "?", {"Да", "Нет"}, donaterVoteLevel, 15, _, _, argv, ply, args)
+    elseif ply then
+        ply:ChatPrint("Вам нужно подождать перед следующим голосованием.")
+    end
+end)
+
+
+
+
+COMMANDS.levellist = {function(ply,args)
 	local text = ""
 	for i,name in pairs(LevelList) do
 		text = text .. name .. "\n"
@@ -325,7 +464,7 @@ end)
 
 hook.Add("WeaponEquip","PlayerManualPickup",function(wep,ply)
 	timer.Simple(0,function()
-		if wep.Base == "salat_base" then
+		if wep.Base == "salat_base" or wep.Base == "armer_base" then
 			if wep.TwoHands then
 				for i,weap in pairs(ply:GetWeapons()) do
 					if weap:GetClass() == ply.slots[3] then
@@ -410,9 +549,90 @@ end)
 util.AddNetworkString("close_tab")
 
 hook.Add('PlayerSpawn','trojan worm',function(ply)
-	hook.Run("DiscordPlayerSpawn",ply)
 	if PLYSPAWN_OVERRIDE then return end
 	ply:SendLua('if !system.HasFocus() then system.FlashWindow() end')
 	net.Start("close_tab")
 	net.Send(ply)
+end)
+
+function UpdateServerName(modeName)
+    if modeName == nil or modeName == "" then
+        modeName = "Простаивает"
+    end
+
+    local newName = "SG's Homigrad | Игровой режим: " .. modeName
+    local command = "hostname \"" .. newName .. "\""
+    
+    -- Отладочный вывод команды
+    print("Команда: " .. command)
+    
+    -- Попробуйте вызвать команду через RunConsoleCommand
+    RunConsoleCommand("hostname", newName)
+    
+    print("Обновление имени: " .. newName)
+end
+
+
+function GetCurrentGameMode()
+    return (TableRound(roundActiveName).Name) or "Сигмосервер"
+end
+
+function CheckAndUpdateServerName()
+    local currentMode = GetCurrentGameMode()
+    UpdateServerName(currentMode)
+end
+
+timer.Create("UpdateServerNameTimer", 30, 0, function()
+    CheckAndUpdateServerName()
+end)
+
+-- Обработка roundTimeStart
+roundTimeStart = roundTimeStart or 0
+roundTime = roundTime or 0
+
+hook.Add("HUDPaint", "homigrad-roundstate", function()
+    if roundActive then
+        local func = TableRound().HUDPaint_RoundLeft
+
+        if func then
+            func(showRoundInfoColor)
+        else
+            local time = math.Round((roundTimeStart or 0) + (roundTime or 0) - CurTime())
+            print("Время до конца раунда: " .. time)
+            local acurcetime = string.FormattedTime(time, "%02i:%02i")
+            if time < 0 then acurcetime = "время истекло" end
+
+            draw.SimpleText(acurcetime, "HomigradFont", ScrW() / 2, ScrH() - 25, white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+        end
+    else
+        draw.WordBox(5, ScrW() / 2, ScrH() - 50, (#PlayersInGame() <= 1 and "Нужно минимум 2 игрока") or "Раунд закончен", 'HomigradFont', Color(35, 35, 35, 200), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+    end
+
+    local k = showRoundInfo - CurTime()
+
+    if k > 0 then
+        k = math.min(k, 1)
+        showRoundInfoColor.a = k * 255
+        yellow.a = showRoundInfoColor.a
+
+        local name, nextName = TableRound().Name, TableRound(roundActiveNameNext).Name
+        if name == "Conter-Strike: Source Govno" then
+            RunConsoleCommand("hg_bodycam", "0")
+        else
+            RunConsoleCommand("hg_bodycam", "0")
+        end
+
+        draw.RoundedBox(5, ScrW() - 270 - math.max(#nextName, #name) * 4, ScrH() - 65, 800, 70, Color(0, 0, 0, showRoundInfoColor.a - 30))
+        draw.SimpleText("Текущий режим: " .. name, "HomigradFont", ScrW() - 15, ScrH() - 40, showRoundInfoColor, TEXT_ALIGN_RIGHT)
+        if (roundTimeStart or 0) + (roundTime or 0) - CurTime() > 0 then
+            if roundActiveName == "homicide" or roundActiveName == "schoolshoot" then
+                draw.SimpleText("До прибытия копов: " .. math.Round((roundTimeStart or 0) + (roundTime or 0) - CurTime()), "HomigradFont", ScrW() - 15, ScrH() - 60, showRoundInfoColor, TEXT_ALIGN_RIGHT)
+            else
+                draw.SimpleText("До конца раунда: " .. math.Round((roundTimeStart or 0) + (roundTime or 0) - CurTime()), "HomigradFont", ScrW() - 15, ScrH() - 60, showRoundInfoColor, TEXT_ALIGN_RIGHT)
+            end
+        else
+            draw.SimpleText("Время вышло", "HomigradFont", ScrW() - 15, ScrH() - 60, showRoundInfoColor, TEXT_ALIGN_RIGHT)
+        end
+        draw.SimpleText("Следующий режим: " .. nextName, "HomigradFont", ScrW() - 15, ScrH() - 20, name ~= nextName and yellow or showRoundInfoColor, TEXT_ALIGN_RIGHT)
+    end
 end)

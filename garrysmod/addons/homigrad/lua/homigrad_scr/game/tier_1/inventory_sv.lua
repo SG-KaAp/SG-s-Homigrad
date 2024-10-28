@@ -32,7 +32,7 @@ end)
 hook.Add("Player Think","Looting",function(ply)
 	local key = ply:KeyDown(IN_USE)
 
-	if not ply.fake and ply:Alive() and ply:KeyDown(IN_ATTACK2) then
+	if not ply.fake and ply:Alive()--[[] and [[ply:KeyDown(IN_ATTACK2) ]] then
 		if ply.okeloot ~= key and key then
 			local tr = {}
 			tr.start = ply:GetAttachment(ply:LookupAttachment("eyes")).Pos
@@ -73,6 +73,8 @@ net.Receive("inventory",function(len,ply)
 end)
 
 net.Receive("ply_take_item",function(len,ply)
+	RoundActiveName = tostring(roundActiveName)
+	if RoundActiveName == "zombo" then return end
 	--if ply:Team() ~= 1002 then return end
 
 	local lootEnt = net.ReadEntity()

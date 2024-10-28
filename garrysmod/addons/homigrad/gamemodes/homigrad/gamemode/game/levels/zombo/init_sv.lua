@@ -114,19 +114,6 @@ function zombo.PlayerSpawn(ply,teamID)
     tdm.GiveSwep(ply,teamTbl.main_weapon,teamID == 1 and 16 or 4)
     tdm.GiveSwep(ply,teamTbl.secondary_weapon,teamID == 1 and 8 or 2)
 
-    if math.random(1,4) == 4 then ply:Give("weapon_braaains") end
-    if math.random(1,8) == 8 then ply:Give("weapon_braaains") end
-    if math.random(1,7) == 7 then ply:Give("weapon_braaains") end
-    if math.random(1,6) == 6 then ply:Give("weapon_braaains") end
-    if math.random(1,5) == 5 then ply:Give("weapon_braaains") end
-    if math.random(1,8) == 8 then ply:Give("weapon_braaains") end
-
-    local r = math.random(1,3)
-    ply:Give(r == 1 and "weapon_braaains" or r == 2 and "weapon_braaains" or r == 3 and "weapon_braaains")
-
-    if math.random(1,3) == 3 then ply:Give("weapon_braaains") end
-    if math.random(1,5) == 5 then ply:Give("weapon_braaains") end
-
     if teamID == 1 then
         JMod.EZ_Equip_Armor(ply,"Medium-Helmet",color)
         JMod.EZ_Equip_Armor(ply,"Light-Vest",color)
@@ -193,9 +180,4 @@ function zombo.PlayerDeath(ply,inf,att) return false end
 
 function zombo.GuiltLogic(ply,att,dmgInfo)
     if att.isContr and ply:Team() == 2 then return dmgInfo:GetDamage() * 3 end
-end
-
-function zombo.NoSelectRandom()
-    local a,b,c = string.find(string.lower(game.GetMap()),"school")
-    return a ~= nil
 end

@@ -3,8 +3,8 @@ bahmut = {}
 bahmut.Name = "Конфликт Хомиграда"
 
 bahmut.red = {"ЧВК\"ВАГНЕР\"",Color(60,75,60),
-	weapons = {"megamedkit","weapon_binokle","weapon_gurkha","weapon_hands","med_band_big","med_band_small","medkit","painkiller","weapon_hg_rgd5","weapon_handcuffs","weapon_radio"},
-	main_weapon = {"weapon_ak74u","weapon_akm","weapon_galil","weapon_rpk","weapon_galilsar"},
+	weapons = {"megamedkit","weapon_binokle","weapon_gurkha","weapon_hands","med_band_big","med_band_small","medkit","painkiller","weapon_hg_rgd5","weapon_handcuffs","weapon_radio","shina"},
+	main_weapon = {"weapon_ak74u","weapon_akm","weapon_galil","weapon_rpk","weapon_galilsar","weapon_slb_g3sg1","weapon_slb_sg550","weapon_slb_awp"},
 	secondary_weapon = {"weapon_p220", "weapon_deagle","weapon_glock"},
 	models = {"models/knyaje pack/sso_politepeople/sso_politepeople.mdl"}
 }
@@ -13,8 +13,8 @@ local models = {}
 for i = 1,9 do table.insert(models,"models/player/rusty/natguard/male_0" .. i .. ".mdl") end
 
 bahmut.blue = {"НАТО",Color(125,125,60),
-	weapons = {"megamedkit","weapon_binokle","weapon_hands","weapon_kabar","med_band_small","med_band_big","med_band_small","painkiller","weapon_hg_f1","weapon_handcuffs","weapon_radio"},
-	main_weapon = {"weapon_mk18","weapon_m4a1","weapon_xm1014","weapon_m249"},
+	weapons = {"megamedkit","weapon_binokle","weapon_hands","weapon_kabar","med_band_small","med_band_big","med_band_small","painkiller","weapon_hg_f1","weapon_handcuffs","weapon_radio","shina"},
+	main_weapon = {"weapon_mk18","weapon_m4a1","weapon_xm1014","weapon_m249","weapon_slb_awp","weapon_slb_sg552","weapon_slb_aug","weapon_slb_scout" },
 	secondary_weapon = {"weapon_beretta","weapon_fiveseven","weapon_hk_usp"},
 	models = models
 }

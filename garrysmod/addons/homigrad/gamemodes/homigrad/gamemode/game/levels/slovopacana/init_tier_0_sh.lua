@@ -16,7 +16,8 @@ slovopacana.red = {"Октябрьские",Color(66, 135, 245),
 		"weapon_molotok",
 		"med_band_big",
 		"med_band_small",
-		"weapon_per4ik"
+		"weapon_per4ik",
+		"shina"
 	},
 	secondary_weapon = {"weapon_hg_metalbat", "weapon_knife", "weapon_bat","weapon_pipe", "weapon_hg_metalbat", "weapon_bat","weapon_pipe","weapon_hg_metalbat", "weapon_bat","weapon_pipe"},
 	models = {
@@ -41,7 +42,8 @@ slovopacana.blue = {"Шароваровы",Color(105, 196, 59),
 		"weapon_molotok",
 		"med_band_big",
 		"med_band_small",
-		"weapon_per4ik"
+		"weapon_per4ik",
+		"shina"
 	},
 
 	secondary_weapon = {"weapon_hg_metalbat", "weapon_knife", "weapon_bat","weapon_pipe", "weapon_hg_metalbat", "weapon_bat","weapon_pipe","weapon_hg_metalbat", "weapon_bat","weapon_pipe"},

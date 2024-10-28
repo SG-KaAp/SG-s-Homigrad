@@ -1,6 +1,7 @@
 if engine.ActiveGamemode() == "homigrad" then
 
 SWEP.PrintName = "Полицейская Дубинка"
+SWEP.Author = "Homigrad"
 SWEP.Instructions = "Дубинка, используемая полицейскими подразделениями"
 SWEP.Category = "Ближний Бой"
 
@@ -32,7 +33,7 @@ SWEP.DrawAmmo = true
 SWEP.Base = "weapon_base"
 
 SWEP.Primary.Sound = Sound( "physics/metal/metal_sheet_impact_hard2.wav" )
-SWEP.Primary.Damage = 15
+SWEP.Primary.Damage = 17
 SWEP.Primary.Ammo = "none"
 SWEP.Primary.DefaultClip = 0
 SWEP.Primary.Automatic = true

@@ -1,0 +1,127 @@
+[20:03:08] New map: gm_construct
+[20:06:43] Client "SG_KaAp" connected.
+[20:07:23] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 40 seconds).
+[20:07:40] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:09:57] Server is shutting down/changing levels.
+
+
+
+[20:11:19] New map: gm_construct
+[20:12:11] Client "SG_KaAp" connected.
+[20:12:24] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 13 seconds).
+[20:12:38] SG_KaAp: !menu
+[20:12:55] (Console) added SG_KaAp to group superadmin
+[20:12:59] SG_KaAp: !menu
+[20:14:11] SG_KaAp respawned Themself
+[20:14:11] SG_KaAp: !forcerespawn sg_kaap
+[20:15:58] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:15:58] SG_KaAp suicided!
+[20:16:36] Server is shutting down/changing levels.
+
+
+
+[20:20:01] New map: gm_bbicotka_hmcd
+[20:30:28] Server is shutting down/changing levels.
+
+
+
+[20:30:51] New map: gm_bbicotka_hmcd
+[20:34:23] Client "SG_KaAp" connected.
+[20:34:43] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[20:34:51] SG_KaAp: !menu
+[20:38:27] SG_KaAp respawned Themself
+[20:38:59] (TEAM) SG_KaAp: !menu
+[20:39:00] SG_KaAp suicided!
+[20:39:00] SG_KaAp respawned Themself
+[20:39:07] SG_KaAp: !menu
+[20:40:42] SG_KaAp: !menu
+[20:40:43] SG_KaAp suicided!
+[20:40:44] SG_KaAp respawned Themself
+[20:42:34] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezammobox_a
+[20:42:35] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezammobox_a
+[20:42:35] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezammobox_a
+[20:43:00] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezmbhg
+[20:44:00] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezbombbay
+[20:44:11] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezbombbay
+[20:44:13] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezbombbay
+[20:44:13] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezbombbay
+[20:44:32] SG_KaAp suicided!
+[20:44:36] SG_KaAp: !menu
+[20:44:38] SG_KaAp respawned Themself
+[20:44:56] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezvirusbomb
+[20:45:00] SG_KaAp<STEAM_0:1:566748347> spawned sent ent_jack_gmod_ezflashbang
+[20:45:31] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_monk
+[20:46:21] SG_KaAp granted god mode upon Themself
+[20:46:21] SG_KaAp: !god
+[20:49:00] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:49:00] SG_KaAp suicided!
+[20:55:52] Client "SG_KaAp" connected.
+[20:56:08] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 16 seconds).
+[20:56:14] SG_KaAp: !menu
+[20:56:28] SG_KaAp: !menu
+[20:56:45] SG_KaAp voted for de_school2 (1/3)
+[20:57:03] SG_KaAp changed the map to de_school2 with gamemode homigrad
+[20:57:03] Server is shutting down/changing levels.
+
+
+
+[20:57:09] New map: de_school2
+[20:57:30] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[20:58:01] SG_KaAp respawned Themself
+[20:58:01] SG_KaAp: !forcerespawn sg_kaap
+[21:00:32] SG_KaAp suicided!
+[21:00:32] SG_KaAp respawned Themself
+[21:00:32] SG_KaAp: !forcerespawn sg_kaap
+[21:01:48] SG_KaAp: !levelnext hideandseek
+[21:03:19] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/source_vehicles/van001a_01_nodoor.mdl
+[21:03:22] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/source_vehicles/van001a_01_nodoor.mdl
+[21:03:26] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/source_vehicles/van001a_01_nodoor.mdl
+[21:06:44] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:06:44] SG_KaAp suicided!
+[21:33:42] Server is shutting down/changing levels.
+
+
+
+[21:34:06] New map: gm_bbicotka_hmcd
+[21:35:05] Client "SG_KaAp" connected.
+[21:35:22] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[21:40:15] Server is shutting down/changing levels.
+
+
+
+[21:40:38] New map: gm_bbicotka_hmcd
+[21:40:59] Client "SG_KaAp" connected.
+[21:41:11] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 12 seconds).
+[21:41:31] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:42:25] Client "SG_KaAp" connected.
+[21:42:40] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 15 seconds).
+[21:42:46] SG_KaAp: !menu
+[21:43:01] SG_KaAp created group donate_setmodel which inherits rights from group user
+[21:43:48] SG_KaAp granted access "ulx setmodel" to group donate_setmodel
+[21:47:45] SG_KaAp: !donate
+[21:48:03] Server is shutting down/changing levels.
+
+
+
+[21:48:26] New map: gm_bbicotka_hmcd
+[21:48:51] Server is shutting down/changing levels.
+
+
+
+[21:49:14] New map: gm_bbicotka_hmcd
+[21:49:15] Client "SG_KaAp" connected.
+[21:49:28] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 13 seconds).
+[21:50:18] (Console) added SG_KaAp to group donate_setmodel
+[21:50:24] SG_KaAp: !menu
+[21:51:00] SG_KaAp: !setmodel
+[21:51:56] SG_KaAp: !setmodel STEAM_0:1:566748347 male_07
+[21:52:03] SG_KaAp: !setmodel sg_kaap male_07
+[21:52:34] (Console) added SG_KaAp to group superadmin
+[21:52:42] SG_KaAp: !menu
+[21:53:00] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:53:23] Server is shutting down/changing levels.
+
+
+
+[21:53:46] New map: gm_bbicotka_hmcd
+<Logging continued in "data/ulx_logs/10-03-24.txt">

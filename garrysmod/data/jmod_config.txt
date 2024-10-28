@@ -1,0 +1,2643 @@
+{
+	"MinePower": 1.0,
+	"Hints": true,
+	"SentryPerformanceMult": 1.0,
+	"WeaponAmmoBlacklist": [
+		"XBowBolt",
+		"AR2AltFire"
+	],
+	"ArmorProtectionMult": 1.0,
+	"FumigatorGasAmount": 1.0,
+	"ArmorDegredationMult": 1.0,
+	"Note": "radio packages must have all lower-case names, see http://wiki.garrysmod.com/page/Enums/IN for key numbers",
+	"AltFunctionKey": 262144.0,
+	"WeaponDamageMult": 1.0,
+	"ToolboxDeWeldSpeed": 1.0,
+	"DoorBreachResetTimeMult": 1.0,
+	"NukePowerMult": 1.0,
+	"ArmorWeightMult": 1.0,
+	"ToolKitUpgradeMult": 1.0,
+	"AmmoTypesThatAreMunitions": [
+		"RPG_Round",
+		"RPG_Rocket",
+		"SMG1_Grenade",
+		"Grenade",
+		"GrenadeHL1",
+		"MP5_Grenade",
+		"slam"
+	],
+	"BombDisarmSpeed": 1.0,
+	"SalvagingBlacklist": [
+		"func_"
+	],
+	"AmmoCarryLimitMult": 1.0,
+	"ToolboxDeconstructSpeedMult": 1.0,
+	"MicroBlackHoleGeneratorChargeSpeed": 1.0,
+	"FragExplosions": true,
+	"Craftables": {
+		"EZ Big Bomb": {
+			"craftingReqs": {
+				"steel": 400.0,
+				"explosives": 400.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezbigbomb",
+			"sizescale": 1.5,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Bigger than the EZ bomb, but smaller than the Mega."
+		},
+		"HL2 Buggy": {
+			"craftingReqs": {
+				"steel": 300.0,
+				"ammo": 200.0,
+				"basic parts": 200.0,
+				"precision parts": 100.0,
+				"fuel": 300.0,
+				"power": 50.0
+			},
+			"results": "FUNC spawnHL2buggy",
+			"sizeScale": 2.0,
+			"category": "Other",
+			"craftingType": "toolbox",
+			"description": "Gordon, remember to bring back the scout car."
+		},
+		"EZ Precision Parts, x100": {
+			"craftingReqs": {
+				"ceramic": 50.0,
+				"titanium": 100.0,
+				"basic parts": 300.0,
+				"tungsten": 100.0,
+				"silver": 50.0
+			},
+			"results": "ent_jack_gmod_ezprecparts",
+			"category": "Resources",
+			"craftingType": "fabricator",
+			"description": "1 box of precision parts used for use in high-powered machines and weapons."
+		},
+		"EZ Gas Grenade": {
+			"craftingReqs": {
+				"gas": 20.0,
+				"chemicals": 15.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_ezgasnade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Portable way of gassing j- enemies."
+		},
+		"EZ Ultra Heavy Helmet": {
+			"craftingReqs": {
+				"ceramic": 20.0,
+				"tungsten": 10.0,
+				"advanced textiles": 10.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezarmor_maska",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Strongest helmet avaliable, at the cost of weight and vision."
+		},
+		"EZ Nano Nuclear Bomb": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"explosives": 100.0,
+				"fissile material": 25.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_eznuke_small",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "as the Mega bomb, while also having radiation as a bonus."
+		},
+		"EZ Shot Revolver": {
+			"craftingReqs": {
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezweapon_shotrevolver",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "Small shotgun, ready to tear faces off at very close range."
+		},
+		"EZ Light Right Shoulder Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_lrshoulder",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Decent protection for your shoulders."
+		},
+		"EZ Revolver": {
+			"craftingReqs": {
+				"wood": 5.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezweapon_revolver",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A simple revolver. Fires 6 shots"
+		},
+		"EZ Auger Drill": {
+			"craftingReqs": {
+				"steel": 150.0,
+				"tungsten": 100.0,
+				"precision parts": 25.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezaugerdrill",
+			"sizeScale": 1.5,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "A drill for extracting ores from the ground."
+		},
+		"EZ Flintlock Musket": {
+			"craftingReqs": {
+				"steel": 25.0,
+				"wood": 25.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_ezweapon_flm",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "Cumbersome musket that comes with a bayonet."
+		},
+		"EZ Heavy Right Shoulder Armor": {
+			"craftingReqs": {
+				"ceramic": 20.0,
+				"cloth": 20.0,
+				"advanced textiles": 20.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_hrshoulder",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "You must care about your shoulders if you wear this."
+		},
+		"EZ Road Flare": {
+			"craftingReqs": {
+				"chemicals": 5.0,
+				"propellant": 5.0,
+				"paper": 10.0
+			},
+			"results": "ent_jack_gmod_ezroadflare",
+			"category": "Other",
+			"craftingType": "workbench",
+			"description": "Colorable road flare, for signalling and illumination."
+		},
+		"EZ Pump-action Shotgun": {
+			"craftingReqs": {
+				"basic parts": 125.0
+			},
+			"results": "ent_jack_gmod_ezweapon_pas",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "Pump action shotgun, More shotgun shells."
+		},
+		"EZ Battle Rifle": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 150.0
+			},
+			"results": "ent_jack_gmod_ezweapon_br",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A battle rifle. Powerful semi-auto rifle to dispatch assailants at medium range."
+		},
+		"EZ Pistol": {
+			"craftingReqs": {
+				"precision parts": 25.0,
+				"basic parts": 75.0
+			},
+			"results": "ent_jack_gmod_ezweapon_pistol",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A pistol. Great sidearm to have."
+		},
+		"EZ Sniper Rifle": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezweapon_sr",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A sniper rifle. Pick off targets at long range."
+		},
+		"EZ Oil Refinery": {
+			"craftingReqs": {
+				"steel": 400.0,
+				"rubber": 200.0,
+				"ceramic": 200.0,
+				"basic parts": 400.0
+			},
+			"results": "ent_jack_gmod_ezrefinery",
+			"sizeScale": 3.0,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Performs fractional distillation of crude oil, creating all kinds of cool products."
+		},
+		"EZ Break-Action Shotgun": {
+			"craftingReqs": {
+				"wood": 25.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezweapon_bas",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A double barrel O/U shotgun."
+		},
+		"EZ Chemicals": {
+			"craftingReqs": {
+				"oil": 50.0,
+				"water": 100.0,
+				"gas": 200.0
+			},
+			"results": "ent_jack_gmod_ezchemicals",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "Caustic burns and choking smoke."
+		},
+		"EZ Thermobaric Bomb": {
+			"craftingReqs": {
+				"explosives": 20.0,
+				"propellant": 300.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezthermobaricbomb",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Bunker buster, will cause more damage if you place it indoors."
+		},
+		"EZ Fuel Lantern": {
+			"craftingReqs": {
+				"fuel": 10.0,
+				"cloth": 10.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezfuellantern",
+			"sizeScale": 1.0,
+			"category": "Other",
+			"craftingType": "workbench",
+			"description": "Produces light when fuelled and ignited."
+		},
+		"EZ Nail": {
+			"craftingReqs": {
+				"basic parts": 5.0
+			},
+			"results": "ez nail",
+			"sizeScale": 0.2,
+			"category": "Other",
+			"craftingType": "toolbox",
+			"description": "binds the object you're looking at to the object behind it"
+		},
+		"EZ Fabricator": {
+			"craftingReqs": {
+				"precision parts": 600.0,
+				"titanium": 200.0,
+				"glass": 100.0,
+				"basic parts": 300.0
+			},
+			"results": "ent_jack_gmod_ezfabricator",
+			"sizeScale": 1.5,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Craft parts here. Only for advanced players."
+		},
+		"EZ Nutrients": {
+			"craftingReqs": {
+				"paper": 50.0,
+				"organics": 25.0,
+				"water": 25.0
+			},
+			"results": "ent_jack_gmod_eznutrients",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "Tasty food! 99% Plastic Free!"
+		},
+		"EZ Mini Timed Grenade": {
+			"craftingReqs": {
+				"explosives": 5.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_eznade_timed",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Arm it on a bomb, and run like hell."
+		},
+		"EZ Smoke Grenade": {
+			"craftingReqs": {
+				"chemicals": 25.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezsmokenade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Smokescreen so nobody knows who they're shooting."
+		},
+		"EZ Anti-Materiel Rifle": {
+			"craftingReqs": {
+				"precision parts": 150.0,
+				"titanium": 50.0,
+				"basic parts": 250.0
+			},
+			"results": "ent_jack_gmod_ezweapon_amr",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "An Anti-materiel rifle. Use to obliterate your enemies and their property in quick succession."
+		},
+		"EZ Dynamite": {
+			"craftingReqs": {
+				"explosives": 10.0,
+				"paper": 10.0
+			},
+			"results": "ent_jack_gmod_ezdynamite",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Good for blastmining and blasting idiots."
+		},
+		"EZ Vehicle Mine": {
+			"craftingReqs": {
+				"explosives": 100.0,
+				"basic parts": 40.0
+			},
+			"results": "ent_jack_gmod_ezatmine",
+			"sizeScale": 0.75,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "A good way of stopping enemy vehicles from passing through."
+		},
+		"EZ Fougasse Mine": {
+			"craftingReqs": {
+				"fuel": 100.0,
+				"explosives": 10.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezfougasse",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Focus fire on the flammable targets."
+		},
+		"EZ Mini Bounding Mine": {
+			"craftingReqs": {
+				"explosives": 10.0,
+				"propellant": 5.0,
+				"basic parts": 15.0
+			},
+			"results": "ent_jack_gmod_ezboundingmine",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Bury this in the soil around your base, and you got a very hidden defense option."
+		},
+		"EZ Semiautomatic Shotgun": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 150.0
+			},
+			"results": "ent_jack_gmod_ezweapon_sas",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A semi-automatic shotgun. Fast firing tube-fed shotgun for close range battle."
+		},
+		"EZ Heavy Left Thigh Armor": {
+			"craftingReqs": {
+				"ceramic": 10.0,
+				"cloth": 20.0,
+				"advanced textiles": 10.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_hlthigh",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "i'm not making that joke."
+		},
+		"EZ Night Vision Goggles": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"power": 25.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezarmor_nvgs",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "See at night, be blinded by bright light."
+		},
+		"EZ Impact Grenade": {
+			"craftingReqs": {
+				"explosives": 15.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezimpactnade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "For the aggressive type. Explodes on impact."
+		},
+		"EZ Pocket Pistol": {
+			"craftingReqs": {
+				"precision parts": 25.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezweapon_pocketpistol",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A pocket pistol. It's concealable, allowing you to seem unarmed to others."
+		},
+		"EZ Ground Scanner": {
+			"craftingReqs": {
+				"steel": 50.0,
+				"precision parts": 25.0,
+				"copper": 50.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezgroundscanner",
+			"sizeScale": 1.0,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Scans the ground for resource deposits"
+		},
+		"EZ Heavy Left Shoulder Armor": {
+			"craftingReqs": {
+				"ceramic": 10.0,
+				"cloth": 20.0,
+				"advanced textiles": 20.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_hlshoulder",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "You must care about your shoulders if you wear this."
+		},
+		"EZ Medium Machine Gun": {
+			"craftingReqs": {
+				"precision parts": 125.0,
+				"tungsten": 25.0,
+				"basic parts": 200.0
+			},
+			"results": "ent_jack_gmod_ezweapon_mmg",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A medium machine gun. Powerful machine gun with decent fire rate for dealing serious damage."
+		},
+		"EZ Thin-Skinned Bomb": {
+			"craftingReqs": {
+				"explosives": 250.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezhebomb",
+			"sizescale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Standard HE bomb with a very thin shell that produces no significant fragmentation."
+		},
+		"EZ Heavy Right Thigh Armor": {
+			"craftingReqs": {
+				"ceramic": 10.0,
+				"cloth": 20.0,
+				"advanced textiles": 10.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_hrthigh",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "I'm not making that joke."
+		},
+		"EZ Tear Gas Grenade": {
+			"craftingReqs": {
+				"gas": 20.0,
+				"chemicals": 10.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_ezcsnade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Effective area denial for those without gasmasks. Might be a warcrime."
+		},
+		"EZ Cluster Buster": {
+			"craftingReqs": {
+				"precision parts": 300.0,
+				"explosives": 200.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezclusterbuster",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Cluster bomb that can pierce multiple hard targets from the air."
+		},
+		"EZ Light Right Thigh Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_lrthigh",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Keep your thigh."
+		},
+		"EZ Light Helmet": {
+			"craftingReqs": {
+				"ceramic": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_lhead",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Simple lightweight helmet that doesn't block much damage."
+		},
+		"EZ Medical Supplies": {
+			"craftingReqs": {
+				"precision parts": 5.0,
+				"chemicals": 25.0,
+				"cloth": 50.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezmedsupplies",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "Necessities to heal anyone."
+		},
+		"EZ Basic Parts, x300": {
+			"craftingReqs": {
+				"steel": 300.0,
+				"aluminum": 150.0,
+				"rubber": 30.0,
+				"copper": 30.0,
+				"plastic": 90.0,
+				"wood": 30.0,
+				"glass": 60.0
+			},
+			"results": [
+				[
+					"ent_jack_gmod_ezbasicparts",
+					3.0
+				]
+			],
+			"category": "Resources",
+			"craftingType": "fabricator",
+			"description": "3 boxes of parts used for crafting and repairs."
+		},
+		"EZ Right Forearm Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_srforearm",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Convenient armor for the limbs hanging in front of your chest."
+		},
+		"EZ Fully-Automatic Shotgun": {
+			"craftingReqs": {
+				"precision parts": 75.0,
+				"basic parts": 125.0
+			},
+			"results": "ent_jack_gmod_ezweapon_fas",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A fully-automatic shotgun. Fast firing magazine-fed automatic shotgun for close range deletion."
+		},
+		"EZ Medium Helmet": {
+			"craftingReqs": {
+				"ceramic": 10.0,
+				"advanced textiles": 10.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezarmor_mhead",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Well-rounded helmet with balanced protection and weight."
+		},
+		"EZ Light Left Shoulder Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_llshoulder",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Decent protection for your shoulders."
+		},
+		"EZ Satchel Charge": {
+			"craftingReqs": {
+				"explosives": 100.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezsatchelcharge",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "we wile e coyote now, meep meep"
+		},
+		"EZ Multiple Grenade Launcher": {
+			"craftingReqs": {
+				"precision parts": 100.0,
+				"titanium": 50.0,
+				"basic parts": 150.0
+			},
+			"results": "ent_jack_gmod_ezweapon_mgl",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A Multiple Grenade Launcher. Use wisely to wreak havoc at close-medium range."
+		},
+		"EZ Mini Proximity Grenade": {
+			"craftingReqs": {
+				"explosives": 5.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_eznade_proximity",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Useful for turning big bombs into traps. Very weak on its own however."
+		},
+		"EZ Small Bomb": {
+			"craftingReqs": {
+				"steel": 100.0,
+				"explosives": 100.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezsmallbomb",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "A small alternative to the EZ Bomb, it has airbrakes for low altitude bombing."
+		},
+		"EZ Resource Crate": {
+			"craftingReqs": {
+				"wood": 100.0
+			},
+			"results": "ent_jack_gmod_ezcrate",
+			"sizeScale": 1.5,
+			"category": "Other",
+			"craftingType": "toolbox",
+			"description": "Store your resources here, so you don't have to stack em so much in the warehouse."
+		},
+		"EZ HE Rocket": {
+			"craftingReqs": {
+				"explosives": 50.0,
+				"propellant": 100.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezherocket",
+			"sizescale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Pointy end goes forward towards soon to be explosion. Stay away from rear unless you want 3rd degree burns."
+		},
+		"EZ Fumigator": {
+			"craftingReqs": {
+				"gas": 100.0,
+				"chemicals": 50.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezfumigator",
+			"category": "Other",
+			"craftingType": "workbench",
+			"description": "Go ahead, tell your hitler jokes. We'll wait."
+		},
+		"EZ Heavy Riot Helmet": {
+			"craftingReqs": {
+				"ceramic": 15.0,
+				"advanced textiles": 10.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_rioth",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Heavy riot helmet with proper ballistic protection."
+		},
+		"EZ Magnum Pistol": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 75.0
+			},
+			"results": "ent_jack_gmod_ezweapon_magpistol",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A magnum pistol. Strong semi-auto pistol."
+		},
+		"EZ Rocket Launcher": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 200.0
+			},
+			"results": "ent_jack_gmod_ezweapon_rocketlauncher",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A rocket launcher. Launches rockets. What else did you think it did?"
+		},
+		"EZ Mini Impact Grenade": {
+			"craftingReqs": {
+				"explosives": 5.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_eznade_impact",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "You could throw it, but it's much better for making sure that bumping a bomb is a death sentence."
+		},
+		"EZ Fragmentation Grenade": {
+			"craftingReqs": {
+				"explosives": 10.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezfragnade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Frag nade, for sending hundreds of fragments into your enemy."
+		},
+		"EZ Thermal Goggles": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"power": 25.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezarmor_thermals",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Allows you to visualize most heat signatures."
+		},
+		"EZ Riot Helmet": {
+			"1": "The light helmet, but with cheap glass attached to the front. Light face defense.",
+			"craftingReqs": {
+				"advanced textiles": 10.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_riot",
+			"category": "Apparel",
+			"craftingType": "workbench"
+		},
+		"EZ Medkit": {
+			"craftingReqs": {
+				"medical supplies": 50.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezmedkit",
+			"category": "Tools",
+			"craftingType": "workbench",
+			"description": "Go help em doc. Watch your head, you're gonna be a target."
+		},
+		"EZ Supply Radio": {
+			"craftingReqs": {
+				"copper": 100.0,
+				"diamond": 1.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezaidradio",
+			"sizeScale": 1.0,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Order more supplies for free. Just place it outside and watch for the package."
+		},
+		"EZ Crossbow": {
+			"craftingReqs": {
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezweapon_crossbow",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A crossbow. Can be very efficient if you hit all your shots."
+		},
+		"EZ Stick Grenade": {
+			"craftingReqs": {
+				"explosives": 15.0,
+				"basic parts": 15.0
+			},
+			"results": "ent_jack_gmod_ezsticknade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "An old-fashioned Stielhandgranate with a toggleable frag sleeve."
+		},
+		"EZ Box": {
+			"craftingReqs": {
+				"basic parts": 15.0
+			},
+			"results": "ez box",
+			"sizeScale": 1.0,
+			"category": "Other",
+			"craftingType": "toolbox",
+			"description": "stores the object you're looking at in a box for transportation or storage"
+		},
+		"EZ Mini Remote Grenade": {
+			"craftingReqs": {
+				"explosives": 5.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_eznade_remote",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Set it on a bomb, and trigger it from afar. Good if you want to ensure you're out of blast range."
+		},
+		"EZ Arrows": {
+			"craftingReqs": {
+				"steel": 15.0,
+				"plastic": 15.0
+			},
+			"results": "ent_jack_gmod_ezammobox_a",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "Modern broadhead hunting arrows for cheap armor-piercing capability."
+		},
+		"EZ Ammo": {
+			"craftingReqs": {
+				"propellant": 50.0,
+				"lead": 25.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezammo",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "General purpose bullets. Don't ask how we got so many types of ammo in one box."
+		},
+		"EZ Time Bomb": {
+			"craftingReqs": {
+				"explosives": 100.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_eztimebomb",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "The longer you set the time, the harder it is to defuse."
+		},
+		"EZ TNT": {
+			"craftingReqs": {
+				"explosives": 30.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_eztnt",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Simple breaching device. Reacts to powder from the powder keg."
+		},
+		"EZ Medium-Heavy Torso Armor": {
+			"craftingReqs": {
+				"ceramic": 25.0,
+				"cloth": 25.0,
+				"advanced textiles": 25.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezarmor_mhtorso",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "It's in the name, for when you need a bit more protection than the medium provides."
+		},
+		"EZ Sticky Bomb": {
+			"craftingReqs": {
+				"explosives": 20.0,
+				"chemicals": 10.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezstickynade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Don't get yourself stuck on it! Very good for sticking to vehicles and stationary objects."
+		},
+		"EZ Signal Grenade": {
+			"craftingReqs": {
+				"chemicals": 25.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezsignalnade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Send smoke signals to your team, and probably be ignored or brutally murdered by the enemy."
+		},
+		"EZ Pumpjack": {
+			"craftingReqs": {
+				"steel": 300.0,
+				"precision parts": 25.0,
+				"rubber": 300.0,
+				"basic parts": 400.0
+			},
+			"results": "ent_jack_gmod_ezpumpjack",
+			"sizeScale": 1.5,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "A pump for extracting liquids from the ground."
+		},
+		"EZ Left Forearm Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_slforearm",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Convenient armor for the limbs hanging in front of your chest."
+		},
+		"EZ Explosives": {
+			"craftingReqs": {
+				"chemicals": 100.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezexplosives",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "No bomb is complete without explosives!"
+		},
+		"EZ Headset": {
+			"craftingReqs": {
+				"copper": 5.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_headset",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Headset that allows you to remotely communicate with radios and your friends."
+		},
+		"EZ Light Left Thigh Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_llthigh",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Keep your thigh."
+		},
+		"EZ Solar Panel": {
+			"craftingReqs": {
+				"copper": 50.0,
+				"silver": 100.0,
+				"glass": 200.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezsolargenerator",
+			"sizeScale": 4.0,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Generates power via the sun"
+		},
+		"EZ Right Calf Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_srcalf",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "For your legs."
+		},
+		"EZ SLAM": {
+			"craftingReqs": {
+				"explosives": 15.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezslam",
+			"category": "Munitions",
+			"description": "Fires an armor-piercing mega bullet at any enemy vehicle to cross the laser beam."
+		},
+		"EZ Coolant": {
+			"craftingReqs": {
+				"water": 100.0,
+				"chemicals": 10.0
+			},
+			"results": "ent_jack_gmod_ezcoolant",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "For cooling down machines. Do not drink."
+		},
+		"EZ Thermonuclear Bomb": {
+			"craftingReqs": {
+				"precision parts": 100.0,
+				"explosives": 600.0,
+				"fissile material": 200.0,
+				"basic parts": 400.0
+			},
+			"results": "ent_jack_gmod_eznuke_big",
+			"sizeScale": 1.5,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Now we are all sons of bitches."
+		},
+		"EZ Propellant": {
+			"craftingReqs": {
+				"chemicals": 50.0,
+				"cloth": 25.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezpropellant",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "Propellant for guns and other things."
+		},
+		"CONE": {
+			"craftingReqs": {
+				"rubber": 10.0,
+				"plastic": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_trafficcone",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "yo you ever played Garry's Mod?"
+		},
+		"EZ Powder Keg": {
+			"craftingReqs": {
+				"propellant": 400.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezpowderkeg",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Become bugs bunny and kill yosemite sam with a black-powder line!"
+		},
+		"EZ Medium Torso Armor": {
+			"craftingReqs": {
+				"cloth": 25.0,
+				"advanced textiles": 25.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezarmor_mtorso",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "A vest, that while somewhat heavy, will provide appreciable over-all protection to your torso."
+		},
+		"EZ Magnum Revolver": {
+			"craftingReqs": {
+				"precision parts": 10.0,
+				"basic parts": 75.0
+			},
+			"results": "ent_jack_gmod_ezweapon_magrevolver",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "Revolver, but with a more powerful round."
+		},
+		"EZ Criticality Weapon": {
+			"craftingReqs": {
+				"precision parts": 10.0,
+				"tungsten": 100.0,
+				"fissile material": 25.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezcriticalityweapon",
+			"sizeScale": 1.0,
+			"category": "Other",
+			"craftingType": "workbench",
+			"description": "They say Slotin was often in his trademark blue jeans and cowboy boots..."
+		},
+		"EZ Heavy Torso Armor": {
+			"craftingReqs": {
+				"ceramic": 50.0,
+				"cloth": 20.0,
+				"advanced textiles": 50.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_htorso",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Turtle shell. Heavy defense."
+		},
+		"CERAMIC POT": {
+			"craftingReqs": {
+				"ceramic": 30.0
+			},
+			"results": "ent_jack_gmod_ezarmor_ceramicpot",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "will stop a bullet once"
+		},
+		"EZ Sentry": {
+			"craftingReqs": {
+				"steel": 100.0,
+				"precision parts": 50.0,
+				"basic parts": 200.0
+			},
+			"results": "ent_jack_gmod_ezsentry",
+			"sizeScale": 1.0,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Shoots enemies so you don't have to! Just remember to refill the ammo and power."
+		},
+		"EZ Single-Shot Rifle": {
+			"craftingReqs": {
+				"wood": 25.0,
+				"basic parts": 75.0
+			},
+			"results": "ent_jack_gmod_ezweapon_ssr",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A simple rifle. Fires one bullet at a time."
+		},
+		"EZ General Purpose Crate": {
+			"craftingReqs": {
+				"wood": 50.0
+			},
+			"results": "ent_jack_gmod_ezcrate_uni",
+			"sizeScale": 1.0,
+			"category": "Other",
+			"craftingType": "toolbox",
+			"description": "It's a box, tap it with whatever you want to store. Only works with JMod items."
+		},
+		"BUCKET": {
+			"craftingReqs": {
+				"steel": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_metalbucket",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "im am smart put buket on head for protecton"
+		},
+		"EZ Micro Nuclear Bomb": {
+			"craftingReqs": {
+				"precision parts": 100.0,
+				"explosives": 300.0,
+				"fissile material": 50.0,
+				"basic parts": 300.0
+			},
+			"results": "ent_jack_gmod_eznuke",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Half the map is gonna be gone along with the bunker."
+		},
+		"EZ Mega Bomb": {
+			"craftingReqs": {
+				"steel": 380.0,
+				"explosives": 1200.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezmoab",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Anything on the surface of the enemy bunker is gonna be gone, and they'll need to cleanup the bunker."
+		},
+		"EZ Incendiary Bomb": {
+			"craftingReqs": {
+				"chemicals": 20.0,
+				"explosives": 10.0,
+				"fuel": 300.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezincendiarybomb",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Fire bomb. Detonates in the air to ensure max spread of napalm."
+		},
+		"EZ HEAT Rocket": {
+			"craftingReqs": {
+				"explosives": 50.0,
+				"propellant": 100.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezheatrocket",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "EZ HE Rocket, except it's a lot more effective against armored vehicles with less boom."
+		},
+		"EZ Medium-Light Torso Armor": {
+			"craftingReqs": {
+				"cloth": 20.0,
+				"advanced textiles": 15.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezarmor_mltorso",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "A lightweight balance between the Light and Medium vests."
+		},
+		"EZ Advanced Parts, x5": {
+			"craftingReqs": {
+				"precision parts": 15.0,
+				"platinum": 3.0,
+				"diamond": 3.0,
+				"gold": 5.0
+			},
+			"results": [
+				[
+					"ent_jack_gmod_ezadvparts",
+					1.0,
+					5.0
+				]
+			],
+			"category": "Resources",
+			"craftingType": "fabricator",
+			"description": "5 Advanced Parts for use in hyper-advanced technology"
+		},
+		"EZ Gas Mask": {
+			"craftingReqs": {
+				"chemicals": 10.0,
+				"cloth": 20.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_gasmask",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Protect yourself against the enemies' warcrimes."
+		},
+		"EZ Automated Field Hospital": {
+			"craftingReqs": {
+				"steel": 100.0,
+				"advanced parts": 5.0,
+				"basic parts": 200.0,
+				"rubber": 100.0,
+				"plastic": 100.0,
+				"precision parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezfieldhospital",
+			"sizeScale": 2.0,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Heals players so you don't have to get more blood on you."
+		},
+		"EZ Mini Naval Mine": {
+			"craftingReqs": {
+				"explosives": 200.0,
+				"basic parts": 150.0
+			},
+			"results": "ent_jack_gmod_eznavalmine",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Ships beware! This mine is ready to send em to davy jones' locker!"
+		},
+		"EZ Left Calf Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 5.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_slcalf",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "For your legs."
+		},
+		"EZ Designated Marksman Rifle": {
+			"craftingReqs": {
+				"precision parts": 35.0,
+				"basic parts": 150.0
+			},
+			"results": "ent_jack_gmod_ezweapon_dmr",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A designated marksman rifle. Strong semi-auto rifle equipped with a scope for long range target removal."
+		},
+		"EZ Grenade Launcher": {
+			"craftingReqs": {
+				"precision parts": 10.0,
+				"basic parts": 125.0
+			},
+			"results": "ent_jack_gmod_ezweapon_gl",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "First grenade launcher. A single grenade to turn shit into scrap."
+		},
+		"EZ Pelvis Armor": {
+			"craftingReqs": {
+				"cloth": 10.0,
+				"advanced textiles": 10.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezarmor_spelvis",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Prevent annihilation of your family jewels."
+		},
+		"EZ Bolt-Action Rifle": {
+			"craftingReqs": {
+				"basic parts": 125.0
+			},
+			"results": "ent_jack_gmod_ezweapon_bar",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A bolt action rifle. First practical high-power repeating rifle."
+		},
+		"EZ Cluster Bomb": {
+			"craftingReqs": {
+				"explosives": 150.0,
+				"basic parts": 150.0
+			},
+			"results": "ent_jack_gmod_ezclusterbomb",
+			"sizeScale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "For when you need to send hundreds of tiny bombs rather than a big one."
+		},
+		"EZ Liquid Fuel Generator": {
+			"craftingReqs": {
+				"rubber": 100.0,
+				"oil": 20.0,
+				"precision parts": 10.0,
+				"basic parts": 400.0
+			},
+			"results": "ent_jack_gmod_ezlfg",
+			"sizeScale": 1.5,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Produces Power from Fuel. Very noisy."
+		},
+		"EZ Basic Parts, x100": {
+			"craftingReqs": {
+				"steel": 100.0,
+				"aluminum": 50.0,
+				"rubber": 10.0,
+				"copper": 10.0,
+				"plastic": 30.0,
+				"wood": 10.0,
+				"glass": 20.0
+			},
+			"results": "ent_jack_gmod_ezbasicparts",
+			"category": "Resources",
+			"craftingType": "fabricator",
+			"description": "1 box of parts used for crafting and repairs."
+		},
+		"EZ Ballistic Mask": {
+			"craftingReqs": {
+				"advanced textiles": 5.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezarmor_balmask",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Face protection for the narcissists."
+		},
+		"EZ Flintlock Blunderbuss": {
+			"craftingReqs": {
+				"copper": 25.0,
+				"wood": 25.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_ezweapon_flb",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "Prehistoric shotgun that you can delete enemies with! (unless they have armor)"
+		},
+		"EZ Multiple Rocket Launcher": {
+			"craftingReqs": {
+				"precision parts": 100.0,
+				"tungsten": 50.0,
+				"basic parts": 250.0
+			},
+			"results": "ent_jack_gmod_ezweapon_mrl",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A Multiple Rocket Launcher. The holy grail. Use this to strike down the deserving."
+		},
+		"EZ Cap and Ball Revolver": {
+			"craftingReqs": {
+				"steel": 10.0,
+				"wood": 5.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezweapon_cabr",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A very inaccurate, outdated revolver. Fires 6 shots."
+		},
+		"EZ Toolbox": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"power": 100.0,
+				"gas": 100.0,
+				"basic parts": 200.0
+			},
+			"results": "ent_jack_gmod_eztoolbox",
+			"category": "Tools",
+			"craftingType": "workbench",
+			"description": "Build, Upgrade, Salvage. All you need to build the big machines."
+		},
+		"EZ Micro Black Hole Generator": {
+			"craftingReqs": {
+				"advanced parts": 25.0,
+				"basic parts": 300.0,
+				"precision parts": 100.0,
+				"antimatter": 25.0,
+				"power": 600.0
+			},
+			"results": "ent_jack_gmod_ezmbhg",
+			"sizeScale": 1.5,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Takes a couple minutes to spin up, and then creates an impossibly weak black hole."
+		},
+		"EZ Smelting Furnace": {
+			"craftingReqs": {
+				"steel": 400.0,
+				"ceramic": 400.0,
+				"basic parts": 200.0
+			},
+			"results": "ent_jack_gmod_ezfurnace",
+			"sizeScale": 2.0,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Pulls chunks of coal and metallic ore out of the ground."
+		},
+		"EZ Assault Rifle": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 125.0
+			},
+			"results": "ent_jack_gmod_ezweapon_ar",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "An assault rifle. Reliable automatic rifle to dispatch assailants at medium range."
+		},
+		"EZ Detpack": {
+			"craftingReqs": {
+				"explosives": 25.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_ezdetpack",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "A Versatile breaching tool."
+		},
+		"EZ Submachine Gun": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 125.0
+			},
+			"results": "ent_jack_gmod_ezweapon_smg",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A submachine gun. Fast automatic SMG for short-medium range engagements."
+		},
+		"EZ Light Machine Gun": {
+			"craftingReqs": {
+				"precision parts": 100.0,
+				"titanium": 25.0,
+				"basic parts": 150.0
+			},
+			"results": "ent_jack_gmod_ezweapon_lmg",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A light machine gun. Fast firing LMG capable of laying down suppressive fire at medium range."
+		},
+		"EZ Advanced Parts, x50": {
+			"craftingReqs": {
+				"precision parts": 150.0,
+				"platinum": 25.0,
+				"diamond": 25.0,
+				"gold": 50.0
+			},
+			"results": [
+				[
+					"ent_jack_gmod_ezadvparts",
+					1.0,
+					50.0
+				]
+			],
+			"category": "Resources",
+			"craftingType": "fabricator",
+			"description": "50 Advanced Parts for use in hyper-advanced technology"
+		},
+		"EZ Landmine": {
+			"craftingReqs": {
+				"explosives": 10.0,
+				"basic parts": 15.0
+			},
+			"results": "ent_jack_gmod_ezlandmine",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Anti-personnel land mine. Try your best to match the color with the ground."
+		},
+		"EZ Glow Stick": {
+			"craftingReqs": {
+				"chemicals": 5.0,
+				"plastic": 5.0
+			},
+			"results": "ent_jack_gmod_ezglowstick",
+			"category": "Other",
+			"craftingType": "workbench",
+			"description": "Colorable glowstick, for identification, low-power illumination, and raves."
+		},
+		"EZ Anti-Materiel Sniper Rifle": {
+			"craftingReqs": {
+				"precision parts": 100.0,
+				"basic parts": 200.0
+			},
+			"results": "ent_jack_gmod_ezweapon_amsr",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "An Anti-materiel sniper rifle. Use to obliterate your enemies and their property at long range."
+		},
+		"EZ Lever-Action Carbine": {
+			"craftingReqs": {
+				"wood": 20.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezweapon_lac",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A Lever action carbine, less power than bolt action rifle, but more ammo."
+		},
+		"EZ Carbine": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezweapon_car",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A carbine. Like the assault rifle, but with a shorter barrel."
+		},
+		"EZ Munitions": {
+			"craftingReqs": {
+				"explosives": 50.0,
+				"propellant": 100.0,
+				"lead": 50.0,
+				"basic parts": 100.0
+			},
+			"results": "ent_jack_gmod_ezmunitions",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "Ammo for your explosive toys."
+		},
+		"EZ Incendiary Grenade": {
+			"craftingReqs": {
+				"explosives": 10.0,
+				"fuel": 30.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezfirenade",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Portable fire bomb, try cooking it before throwing to spread it more."
+		},
+		"EZ Bomb": {
+			"craftingReqs": {
+				"steel": 250.0,
+				"explosives": 250.0,
+				"basic parts": 10.0
+			},
+			"results": "ent_jack_gmod_ezbomb",
+			"sizescale": 1.0,
+			"category": "Explosives",
+			"craftingType": "toolbox",
+			"description": "Ol' reliable, a good way to send the enemy running for the bunkers."
+		},
+		"EZ Respirator": {
+			"craftingReqs": {
+				"chemicals": 5.0,
+				"cloth": 10.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_ezarmor_respirator",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "You can wear goggles while protecting your lungs, but you'll have to retreat."
+		},
+		"EZ Machine Pistol": {
+			"craftingReqs": {
+				"precision parts": 50.0,
+				"basic parts": 75.0
+			},
+			"results": "ent_jack_gmod_ezweapon_machinepistol",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A machine pistol. Extremely fast automatic pistol for short range encounters."
+		},
+		"EZ Mini Claymore": {
+			"craftingReqs": {
+				"explosives": 10.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezminimore",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Simple way to trap corners and the like."
+		},
+		"EZ Flashbang": {
+			"craftingReqs": {
+				"explosives": 5.0,
+				"propellant": 5.0,
+				"basic parts": 5.0
+			},
+			"results": "ent_jack_gmod_ezflashbang",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "Look away unless you want to be blinded."
+		},
+		"EZ Black Powder Paper Cartridges": {
+			"craftingReqs": {
+				"paper": 20.0,
+				"lead": 20.0,
+				"propellant": 25.0
+			},
+			"results": "ent_jack_gmod_ezammobox_bppc",
+			"category": "Resources",
+			"craftingType": "workbench",
+			"description": "Ancient black powder ammo for the similarly ancient guns."
+		},
+		"EZ Workbench": {
+			"craftingReqs": {
+				"steel": 100.0,
+				"precision parts": 50.0,
+				"basic parts": 400.0
+			},
+			"results": "ent_jack_gmod_ezworkbench",
+			"sizeScale": 1.5,
+			"category": "Machines",
+			"craftingType": "toolbox",
+			"description": "Craft all your smaller items here."
+		},
+		"EZ Bomb Bay": {
+			"craftingReqs": {
+				"steel": 400.0,
+				"basic parts": 20.0
+			},
+			"results": "ent_jack_gmod_ezbombbay",
+			"sizescale": 1.5,
+			"category": "Other",
+			"craftingType": "toolbox",
+			"description": "A bay for safely holding large amounts of bombs."
+		},
+		"COOKIN POT": {
+			"craftingReqs": {
+				"steel": 30.0
+			},
+			"results": "ent_jack_gmod_ezarmor_metalpot",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "congrats you are now 5"
+		},
+		"EZ Plinking Pistol": {
+			"craftingReqs": {
+				"precision parts": 10.0,
+				"basic parts": 50.0
+			},
+			"results": "ent_jack_gmod_ezweapon_plinkingpistol",
+			"category": "Weapons",
+			"craftingType": "workbench",
+			"description": "A plinking pistol. Great if you want to deal with that bird that's annoying you."
+		},
+		"EZ Precision Parts, x10": {
+			"craftingReqs": {
+				"ceramic": 5.0,
+				"titanium": 10.0,
+				"basic parts": 30.0,
+				"tungsten": 10.0,
+				"silver": 5.0
+			},
+			"results": [
+				[
+					"ent_jack_gmod_ezprecparts",
+					1.0,
+					10.0
+				]
+			],
+			"category": "Resources",
+			"craftingType": "fabricator",
+			"description": "10 precision parts used for use in high-powered machines and weapons."
+		},
+		"EZ Light Torso Armor": {
+			"craftingReqs": {
+				"cloth": 20.0,
+				"advanced textiles": 10.0,
+				"basic parts": 15.0
+			},
+			"results": "ent_jack_gmod_ezarmor_ltorso",
+			"category": "Apparel",
+			"craftingType": "workbench",
+			"description": "Will provide light damage protection at little cost to mobility."
+		},
+		"EZ Gebalte Ladung": {
+			"craftingReqs": {
+				"explosives": 50.0,
+				"basic parts": 25.0
+			},
+			"results": "ent_jack_gmod_ezsticknadebundle",
+			"category": "Munitions",
+			"craftingType": "workbench",
+			"description": "A very heavy and very explosive stick grenade."
+		}
+	},
+	"QoL": {
+		"GiveHandsOnSpawn": false,
+		"ExtinguishUnderwater": false,
+		"RealisticLocationalDamage": false,
+		"BleedSpeedMult": 0.0,
+		"Drowning": false,
+		"BleedDmgMult": 0.0,
+		"RealisticFallDamage": false
+	},
+	"NuclearRadiationMult": 1.0,
+	"NuclearRadiationSickness": true,
+	"ExplosionPropDestroyPower": 1.0,
+	"RadioSpecs": {
+		"RestrictedPackageShipTime": 600.0,
+		"RestrictedPackages": [
+			"antimatter",
+			"fissile material"
+		],
+		"ParachuteDragMult": 1.0,
+		"AvailablePackages": {
+			"steel": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezsteel",
+						2.0
+					]
+				],
+				"description": "Steel in a quantity of 200, used in basic parts and some weapons."
+			},
+			"aluminum": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezaluminum",
+						2.0
+					]
+				],
+				"description": "Aluminum in a quantity of 200, used in basic parts."
+			},
+			"explosives": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezexplosives",
+						2.0
+					]
+				],
+				"description": "2 boxes of explosives used for crafting explosives."
+			},
+			"mini bounding mines": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezboundingmine",
+						8.0
+					]
+				],
+				"description": "8 landmines that can only be planted in soft surfaces."
+			},
+			"satchel charges": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezsatchelcharge",
+						4.0
+					]
+				],
+				"description": "4 explosives with comical detonator plungers used for making things go boom."
+			},
+			"fuel": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezfuel",
+						4.0
+					]
+				],
+				"description": "4 cans of fuel used for crafting items and running generators."
+			},
+			"tnt": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_eztnt",
+						3.0
+					]
+				],
+				"description": "WW2-era explosives with fuse."
+			},
+			"impact grenades": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezimpactnade",
+						10.0
+					]
+				],
+				"description": "10 grenades that explode upon impact."
+			},
+			"wood": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezwood",
+						2.0
+					]
+				],
+				"description": "Wood in a quantity of 200, used in paper and electricity production."
+			},
+			"coolant": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezcoolant",
+						5.0
+					]
+				],
+				"description": "5 bottles of coolant for preventing machines from overheating."
+			},
+			"toolboxes": {
+				"category": "Tools",
+				"results": [
+					[
+						"ent_jack_gmod_eztoolbox",
+						2.0
+					]
+				],
+				"description": "Two toolboxes for crafting, nailing, salvaging and packaging items. "
+			},
+			"storage crate": {
+				"category": "Other",
+				"results": "ent_jack_gmod_ezcrate_uni",
+				"description": "A box used exclusively for storing Jmod items. Can hold a volume of up to 100 units."
+			},
+			"gold": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezgold",
+						1.0,
+						20.0
+					]
+				],
+				"description": "Gold in a quantity of 20, used in advanced parts."
+			},
+			"fumigators": {
+				"category": "Other",
+				"results": [
+					[
+						"ent_jack_gmod_ezfumigator",
+						2.0
+					]
+				],
+				"description": "2 fumigators that emit poison gas."
+			},
+			"thermal goggles": {
+				"category": "Apparel",
+				"results": [
+					[
+						"ent_jack_gmod_ezarmor_thermals",
+						2.0
+					]
+				],
+				"description": "2 thermal goggles that highlight heat-sources for the user. Consumes battery."
+			},
+			"supply radio": {
+				"category": "Machines",
+				"results": "ent_jack_gmod_ezaidradio",
+				"description": "You're looking at one. No shame in having a backup radio."
+			},
+			"tear gas grenades": {
+				"category": "Other",
+				"results": [
+					[
+						"ent_jack_gmod_ezcsnade",
+						6.0
+					]
+				],
+				"description": "Tear gas used to disperse riots."
+			},
+			"lead": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezlead",
+						2.0
+					]
+				],
+				"description": "Lead in a quantity of 200, very useful in ammo production for fending off other players."
+			},
+			"mini claymores": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezminimore",
+						4.0
+					]
+				],
+				"description": "4 small AP mines."
+			},
+			"chemicals": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezchemicals",
+						2.0
+					]
+				],
+				"description": "2 boxes of chemicals used for crafting items and reloading filters in HAZMAT suits, gasmasks, and respirators."
+			},
+			"advanced parts": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezadvparts",
+						1.0,
+						5.0
+					]
+				],
+				"description": "1 box of advparts used for crafting and upgrading."
+			},
+			"gas grenades": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezgasnade",
+						6.0
+					]
+				],
+				"description": "6 gas grenades that can suffocate their victims."
+			},
+			"stick grenades": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezsticknade",
+						4.0
+					],
+					"ent_jack_gmod_ezsticknadebundle"
+				],
+				"description": "4 German stick grenades and one big bundle of sticks to make a fabulous explosion."
+			},
+			"landmines": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezlandmine",
+						10.0
+					]
+				],
+				"description": "10 landmines that trigger when an enemy steps near them."
+			},
+			"sticky bomb": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezstickynade",
+						6.0
+					]
+				],
+				"description": "6 grenades that stick to things on contact."
+			},
+			"flashbangs": {
+				"category": "Other",
+				"results": [
+					[
+						"ent_jack_gmod_ezflashbang",
+						8.0
+					]
+				],
+				"description": "8 flashbangs that stun targets."
+			},
+			"silver": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezsilver",
+						1.0,
+						50.0
+					]
+				],
+				"description": "Silver in a quantity of 50, used for high tier stuff."
+			},
+			"powder kegs": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezpowderkeg",
+						4.0
+					]
+				],
+				"description": "4 powder kegs for funny explosions."
+			},
+			"titanium": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_eztitanium",
+						1.0,
+						50.0
+					]
+				],
+				"description": "Titanium in a quantity of 50, used in high-tier weaponry."
+			},
+			"gas": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezgas",
+						3.0
+					]
+				],
+				"description": "3 canisters of gas used for crafting items and powering the EZ Workbench"
+			},
+			"food supplies": {
+				"category": "Homigrad",
+				"results": [
+					[
+						"food_fishcan",
+						5.0
+					],
+					[
+						"food_spongebob_home",
+						8.0
+					],
+					[
+						"food_lays",
+						12.0
+					],
+					[
+						"food_monster",
+						4.0
+					]
+				],
+				"description": "Some food."
+			},
+			"munitions": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezmunitions",
+						2.0
+					]
+				],
+				"description": "2 boxes of munitions used for crafting items and reloading explosive weapons and HE grenade sentries."
+			},
+			"arms": {
+				"category": "Weapons",
+				"results": [
+					[
+						"RAND",
+						"ent_jack_gmod_ezweapon_pistol",
+						"ent_jack_gmod_ezweapon_ar",
+						"ent_jack_gmod_ezweapon_bar",
+						"ent_jack_gmod_ezweapon_br",
+						"ent_jack_gmod_ezweapon_car",
+						"ent_jack_gmod_ezweapon_dmr",
+						"ent_jack_gmod_ezweapon_sr",
+						"ent_jack_gmod_ezweapon_amsr",
+						"ent_jack_gmod_ezweapon_sas",
+						"ent_jack_gmod_ezweapon_pas",
+						"ent_jack_gmod_ezweapon_bas",
+						"ent_jack_gmod_ezweapon_pocketpistol",
+						"ent_jack_gmod_ezweapon_plinkingpistol",
+						"ent_jack_gmod_ezweapon_machinepistol",
+						"ent_jack_gmod_ezweapon_smg",
+						"ent_jack_gmod_ezweapon_lmg",
+						"ent_jack_gmod_ezweapon_mmg",
+						"ent_jack_gmod_ezweapon_magrevolver",
+						"ent_jack_gmod_ezweapon_magpistol",
+						"ent_jack_gmod_ezweapon_revolver",
+						"ent_jack_gmod_ezweapon_shotrevolver",
+						"ent_jack_gmod_ezweapon_lac",
+						"ent_jack_gmod_ezweapon_ssr",
+						"ent_jack_gmod_ezweapon_amr",
+						"ent_jack_gmod_ezweapon_fas",
+						"ent_jack_gmod_ezweapon_gl",
+						"ent_jack_gmod_ezweapon_mgl",
+						"ent_jack_gmod_ezweapon_rocketlauncher",
+						"ent_jack_gmod_ezweapon_mrl",
+						3.0
+					],
+					[
+						"ent_jack_gmod_ezammo",
+						2.0
+					],
+					"ent_jack_gmod_ezmunitions"
+				],
+				"description": "buncha random guns, good luck getting what you want."
+			},
+			"frag grenades": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezfragnade",
+						10.0
+					]
+				],
+				"description": "10 frag grenades used for explosions."
+			},
+			"ceramic": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezceramic",
+						2.0
+					]
+				],
+				"description": "Ceramic in a quantity of 200, used in armor."
+			},
+			"weapon supplies": {
+				"category": "Homigrad",
+				"results": [
+					[
+						"weapon_ar15",
+						3.0
+					]
+				],
+				"description": "Some weapons."
+			},
+			"fissile material": {
+				"category": "Resources",
+				"results": "ent_jack_gmod_ezfissilematerial",
+				"description": "A box filled with fissile material used to craft nuclear devices."
+			},
+			"sentry": {
+				"category": "Machines",
+				"results": "ent_jack_gmod_ezsentry",
+				"description": "Consumes ammo, power and coolant. Produces casualties."
+			},
+			"crossbow": {
+				"category": "Weapons",
+				"results": [
+					[
+						"ent_jack_gmod_ezammobox_a",
+						2.0
+					],
+					"ent_jack_gmod_ezweapon_crossbow"
+				],
+				"description": "A crossbow and 2 boxes of arrows, enjoy."
+			},
+			"slams": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezslam",
+						5.0
+					]
+				],
+				"description": "5 SLAMs that can be planted on walls."
+			},
+			"glass": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezglass",
+						2.0
+					]
+				],
+				"description": "Glass in a quantity of 200, used in basic parts."
+			},
+			"basic parts": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezbasicparts",
+						2.0
+					]
+				],
+				"description": "3 boxes of parts used for crafting and repairs."
+			},
+			"rubber": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezrubber",
+						2.0
+					]
+				],
+				"description": "Rubber in a quantity of 200, used in basic parts."
+			},
+			"rations": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_eznutrients",
+						5.0
+					]
+				],
+				"description": "5 boxes of nutrients to be eaten by players. Can overcharge health."
+			},
+			"cloth": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezcloth",
+						2.0
+					]
+				],
+				"description": "Cloth in a quantity of 200, used in advanced textiles."
+			},
+			"oil": {
+				"category": "Resources",
+				"results": "ent_jack_gmod_ezoil",
+				"description": "Oil in a quantity of 100, used in plastic, fuel, and rubber."
+			},
+			"organics": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezorganics",
+						2.0,
+						100.0
+					]
+				],
+				"description": "Organics in a quantity of 200, used in nutrients."
+			},
+			"plastic": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezplastic",
+						2.0
+					]
+				],
+				"description": "Plastic in a quantity of 200, used in basic parts."
+			},
+			"paper": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezpaper",
+						2.0
+					]
+				],
+				"description": "Paper in a quantity of 200, used in nutrients."
+			},
+			"water": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezwater",
+						3.0
+					]
+				],
+				"description": "Water in a quantity of 300, used in coolant, chemicals, and nutrients."
+			},
+			"precision parts": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezprecparts",
+						1.0,
+						50.0
+					]
+				],
+				"description": "1 box of precision parts used for advanced parts, advanced textiles, and weapons."
+			},
+			"propellant": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezpropellant",
+						4.0
+					]
+				],
+				"description": "4 cans of propellant used for crafting items."
+			},
+			"armor": {
+				"category": "Apparel",
+				"results": [
+					[
+						"RAND",
+						"ent_jack_gmod_ezarmor_gasmask",
+						"ent_jack_gmod_ezarmor_balmask",
+						"ent_jack_gmod_ezarmor_nvgs",
+						"ent_jack_gmod_ezarmor_thermals",
+						"ent_jack_gmod_ezarmor_respirator",
+						"ent_jack_gmod_ezarmor_lhead",
+						"ent_jack_gmod_ezarmor_mhead",
+						"ent_jack_gmod_ezarmor_hhead",
+						"ent_jack_gmod_ezarmor_riot",
+						"ent_jack_gmod_ezarmor_rioth",
+						"ent_jack_gmod_ezarmor_maska",
+						"ent_jack_gmod_ezarmor_metalbucket",
+						"ent_jack_gmod_ezarmor_metalpot",
+						"ent_jack_gmod_ezarmor_ceramicpot",
+						"ent_jack_gmod_ezarmor_trafficcone",
+						"ent_jack_gmod_ezarmor_ltorso",
+						"ent_jack_gmod_ezarmor_mltorso",
+						"ent_jack_gmod_ezarmor_mtorso",
+						"ent_jack_gmod_ezarmor_mhtorso",
+						"ent_jack_gmod_ezarmor_htorso",
+						"ent_jack_gmod_ezarmor_spelvis",
+						"ent_jack_gmod_ezarmor_llshoulder",
+						"ent_jack_gmod_ezarmor_hlshoulder",
+						"ent_jack_gmod_ezarmor_lrshoulder",
+						"ent_jack_gmod_ezarmor_hrshoulder",
+						"ent_jack_gmod_ezarmor_slforearm",
+						"ent_jack_gmod_ezarmor_srforearm",
+						"ent_jack_gmod_ezarmor_llthigh",
+						"ent_jack_gmod_ezarmor_hlthigh",
+						"ent_jack_gmod_ezarmor_lrthigh",
+						"ent_jack_gmod_ezarmor_hrthigh",
+						"ent_jack_gmod_ezarmor_slcalf",
+						"ent_jack_gmod_ezarmor_srcalf",
+						"ent_jack_gmod_ezarmor_hazmat",
+						6.0
+					]
+				],
+				"description": "A random collection of armor*. *Jackarunda Industries outsources package sorting. We are not liable for any unusual items."
+			},
+			"diamond": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezdiamond",
+						1.0,
+						10.0
+					]
+				],
+				"description": "diamond in a quantity of 10, used in advanced parts."
+			},
+			"uranium": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezuranium",
+						1.0,
+						20.0
+					]
+				],
+				"description": "Uranium in a quantity of 20, used in fissile material enrichment."
+			},
+			"platinum": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezplatinum",
+						1.0,
+						10.0
+					]
+				],
+				"description": "Platinum in a quantity of 10, used in advanced parts."
+			},
+			"ammo": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezammo",
+						3.0
+					]
+				],
+				"description": "3 boxes of ammo for crafting and resupplying weapons and entities."
+			},
+			"tungsten": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_eztungsten",
+						1.0,
+						50.0
+					]
+				],
+				"description": "Tungsten in a quantity of 50, used in high-tier weaponry."
+			},
+			"copper": {
+				"category": "Resources",
+				"results": "ent_jack_gmod_ezcopper",
+				"description": "Copper in a quantity of 100, used in basic parts."
+			},
+			"smoke grenades": {
+				"category": "Other",
+				"results": [
+					[
+						"ent_jack_gmod_ezsmokenade",
+						4.0
+					],
+					[
+						"ent_jack_gmod_ezsignalnade",
+						4.0
+					]
+				],
+				"description": "4 smoke grenades to signal smokes and 4 signal grenades which emit a colourable smoke to help signal positions."
+			},
+			"advanced textiles": {
+				"category": "Resources",
+				"results": "ent_jack_gmod_ezadvtextiles",
+				"description": "1 box of advtextiles used for armor."
+			},
+			"antimatter": {
+				"category": "Resources",
+				"results": "ent_jack_gmod_ezantimatter",
+				"description": "A can of antimatter. Be careful with it, unless you want to evaporate everything within 20km!"
+			},
+			"incendiary grenades": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezfirenade",
+						6.0
+					]
+				],
+				"description": "6 grenades that produce fire upon explosion."
+			},
+			"fougasse mines": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezfougasse",
+						4.0
+					]
+				],
+				"description": "4 fougasse mines. Blasts napalm at whoever triggers it."
+			},
+			"batteries": {
+				"category": "Resources",
+				"results": [
+					[
+						"ent_jack_gmod_ezbattery",
+						4.0
+					]
+				],
+				"description": "4 battery cells used for crafting and recharging electronics."
+			},
+			"resource crate": {
+				"category": "Other",
+				"results": "ent_jack_gmod_ezcrate",
+				"description": "A box used for exclusively storing EZ Resources."
+			},
+			"black powder weaponry": {
+				"category": "Weapons",
+				"results": [
+					[
+						"ent_jack_gmod_ezammobox_bppc",
+						3.0
+					],
+					"ent_jack_gmod_ezweapon_flm",
+					"ent_jack_gmod_ezweapon_cabr",
+					"ent_jack_gmod_ezweapon_flb"
+				],
+				"description": "Beginner weaponry, the mucket, cap 'n ball revolver and blunderbuss, with some boxes of ammo."
+			},
+			"flares": {
+				"category": "Other",
+				"results": [
+					[
+						"ent_jack_gmod_ezroadflare",
+						15.0
+					]
+				],
+				"description": "15 road flares used for signalling and illumination."
+			},
+			"timebombs": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_eztimebomb",
+						3.0
+					]
+				],
+				"description": "Timed explosives with configurable timers. Can be defused with parts and Toolbox."
+			},
+			"headsets": {
+				"category": "Apparel",
+				"results": [
+					[
+						"ent_jack_gmod_ezarmor_headset",
+						8.0
+					]
+				],
+				"description": "8 headsets for players to communicate and make orders from linked radios. Consumes battery."
+			},
+			"medical supplies": {
+				"category": "Homigrad",
+				"results": [
+					[
+						"medkit",
+						5.0
+					],
+					[
+						"bandage",
+						12.0
+					],
+					[
+						"painkiller",
+						8.0
+					]
+				],
+				"description": "Some medical."
+			},
+			"medkits": {
+				"category": "Tools",
+				"results": [
+					[
+						"ent_jack_gmod_ezmedkit",
+						3.0
+					]
+				],
+				"description": "3 medical kits that use medical supplies to heal players."
+			},
+			"night vision goggles": {
+				"category": "Apparel",
+				"results": [
+					[
+						"ent_jack_gmod_ezarmor_nvgs",
+						4.0
+					]
+				],
+				"description": "4 night-vision goggles to help players see in the dark. Consumes battery."
+			},
+			"glowsticks": {
+				"category": "Other",
+				"results": [
+					[
+						"ent_jack_gmod_ezglowstick",
+						20.0
+					]
+				],
+				"description": "20 glowsticks for identification, low-power illumination, and raves."
+			},
+			"detpacks": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezdetpack",
+						8.0
+					]
+				],
+				"description": "8 detpacks used for breaching doors and general explosive damage."
+			},
+			"dynamite": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_ezdynamite",
+						12.0
+					]
+				],
+				"description": "12 dynamite sticks for comical explosions."
+			},
+			"hl2 ammo": {
+				"category": "Other",
+				"results": [
+					"item_ammo_357",
+					"item_ammo_357_large",
+					"item_ammo_ar2",
+					"item_ammo_ar2_large",
+					[
+						"item_ammo_ar2_altfire",
+						3.0
+					],
+					"item_ammo_crossbow",
+					"item_ammo_pistol",
+					"item_ammo_pistol_large",
+					[
+						"item_rpg_round",
+						3.0
+					],
+					"item_box_buckshot",
+					"item_ammo_smg1",
+					"item_ammo_smg1_large",
+					[
+						"item_ammo_smg1_grenade",
+						3.0
+					],
+					[
+						"weapon_frag",
+						3.0
+					]
+				],
+				"description": "An assortment of ammunition for keeping your men going during battle."
+			},
+			"mini grenades": {
+				"category": "Explosives",
+				"results": [
+					[
+						"ent_jack_gmod_eznade_impact",
+						5.0
+					],
+					[
+						"ent_jack_gmod_eznade_proximity",
+						5.0
+					],
+					[
+						"ent_jack_gmod_eznade_remote",
+						5.0
+					],
+					[
+						"ent_jack_gmod_eznade_timed",
+						5.0
+					]
+				],
+				"description": "5 impact, proximity, remote, and timed grenades. These can be attached to larger explosives to override their primary functions."
+			}
+		},
+		"DeliveryTimeMult": 1.0,
+		"RestrictedPackagesAllowed": true,
+		"StartingOutpostCount": 1.0
+	},
+	"FoodSpecs": {
+		"EatSpeed": 1.0,
+		"ConversionEfficiency": 1.0,
+		"DigestSpeed": 1.0,
+		"BoostMult": 1.0
+	},
+	"ResourceEconomy": {
+		"ResourceRichness": 1.0,
+		"ExtractionSpeed": 1.0
+	},
+	"VirusSpreadMult": 1.0,
+	"MedBayHealMult": 1.0,
+	"ArmorChargeDepletionMult": 1.0,
+	"PoisonGasLingerTime": 1.0,
+	"WeaponSwayMult": 1.0,
+	"HandGrabStrength": 1.0,
+	"Author": "Jackarunda",
+	"MedKitHealMult": 1.0,
+	"SupplyEffectMult": 1.0,
+	"NukeRangeMult": 1.0,
+	"MicroBlackHoleGravityStrength": 1.0,
+	"PoisonGasDamage": 1.0,
+	"MicroBlackHoleEvaporateSpeed": 1.0,
+	"MineDelay": 1.0,
+	"DetpackPowerMult": 1.0,
+	"Version": 40.6
+}

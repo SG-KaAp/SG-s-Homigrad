@@ -1,7 +1,7 @@
 SWEP.Base                   = "weapon_base"
 
 SWEP.PrintName 				= "Шакидка"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "homigrad"
 SWEP.Instructions			= "Пояс смертника, исход всегда один"
 SWEP.Category 				= "Примочки убийцы"
 

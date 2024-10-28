@@ -1,8 +1,8 @@
 bahmut.ragdolls = {}
 
 function bahmut.SpawnsTwoCommand()
-	local spawnsT = ReadDataMap("bahmut_vagner")
-	local spawnsCT = ReadDataMap("bahmut_nato")
+	local spawnsT = ReadDataMap("spawnpointst")
+	local spawnsCT = ReadDataMap("spawnpointsct")
 
 	if #spawnsT == 0 then
 		for i, ent in RandomPairs(ents.FindByClass("info_player_terrorist")) do
@@ -31,14 +31,15 @@ local function GetTeamSpawns(ply)
     end
 end
 
-function bahmut.SelectRandomPlayers(list,div,func)
-	for i = 1,math.floor(#list / div) do
-		local ply,key = table.Random(list)
-		table.remove(list,key)
-
-		func(ply)
-	end
+function bahmut.SelectRandomPlayers(list, div, func)
+    if not list or #list == 0 then return end  -- Add this check
+    for i = 1, math.floor(#list / div) do
+        local ply, key = table.Random(list)
+        table.remove(list, key)
+        func(ply)
+    end
 end
+
 
 function bahmut.GiveMimomet(ply)
     ply:Give("weapon_gredmimomet")
@@ -72,8 +73,8 @@ function bahmut.SpawnVehicle()
 
 	--bahmut.SpawnEnt(ReadDataMap("car_red_btr"),"lvs_wheeldrive_dodwillyjeep") -- later
     --bahmut.SpawnEnt(ReadDataMap("car_blue_btr"),"lvs_wheeldrive_dodwillyjeep")
-    bahmut.SpawnEnt(ReadDataMap("car_red_tank"),"lvs_wheeldrive_t34_57")
-    bahmut.SpawnEnt(ReadDataMap("car_blue_tank"),"lvs_wheeldrive_dodsherman")
+    bahmut.SpawnSimfphys(ReadDataMap("car_red_tank"),"sim_fphys_tank3")
+    bahmut.SpawnSimfphys(ReadDataMap("car_blue_tank"),"sim_fphys_tank4")
 end
 
 function bahmut.SpawnEnt(list,name,func)
@@ -303,5 +304,4 @@ function bahmut.PlayerDeath(ply,inf,att)
     bahmut.ragdolls[ply:GetNWEntity("Ragdoll")] = true
     return false
 end
-function bahmut.NoSelectRandom() return #ReadDataMap("control_point") < 1 end
 function bahmut.ShouldSpawnLoot() return false end

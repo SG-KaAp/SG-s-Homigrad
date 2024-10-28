@@ -1,0 +1,21 @@
+<Logging continued from "data/ulx_logs/10-26-24.txt">
+[00:00:47] Иван Русский: !levelend
+[00:00:54] Иван Русский suicided!
+[00:01:30] Иван Русский suicided!
+[00:03:01] Гомоградец suicided!
+[00:03:01] Гомоградец suicided!
+[00:03:18] Гомоградец suicided!
+[00:04:07] Bot01 suicided!
+[00:04:07] Bot01 suicided!
+[00:04:47] Гомоградец suicided!
+[00:05:21] Dropped "Гомоградец" from server<STEAM_0:0:709713214>
+[00:05:21] Гомоградец suicided!
+[00:05:28] Dropped "Иван Русский" from server<STEAM_0:1:555096876>
+[00:05:28] Иван Русский suicided!
+[00:05:28] Dropped "Bot01" from server<BOT>
+[00:05:28] Bot01 suicided!
+[01:04:38] Client "SG_KaAp" connected.
+[10:24:13] Client "batonic1234" connected.
+[10:28:02] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 229 seconds).
+[10:29:10] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[10:29:10] batonic1234 suicided!

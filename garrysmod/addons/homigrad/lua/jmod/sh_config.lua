@@ -219,7 +219,7 @@ function JMod.InitGlobalConfig(forceNew)
 				},
 				["food supplies"] = {
 					description = "Some food.",
-					category = "Homigrad",
+					category = "homigrad",
 					results = {
 						{"food_fishcan", 5},
 						{"food_spongebob_home", 8},
@@ -229,7 +229,7 @@ function JMod.InitGlobalConfig(forceNew)
 				},
 				["medical supplies"] = {
 					description = "Some medical.",
-					category = "Homigrad",
+					category = "homigrad",
 					results = {
 						{"medkit", 5},
 						{"bandage", 12},
@@ -238,7 +238,7 @@ function JMod.InitGlobalConfig(forceNew)
 				},
 				["weapon supplies"] = {
 					description = "Some weapons.",
-					category = "Homigrad",
+					category = "homigrad",
 					results = {
 						{"weapon_ar15", 3}
 					}

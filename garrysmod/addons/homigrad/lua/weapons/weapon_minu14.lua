@@ -2,7 +2,8 @@ if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base 
 
 SWEP.PrintName 				= "M590"
-SWEP.Instructions			= ""
+SWEP.Author = "Homigrad"
+SWEP.Instructions			= "Американский дробовик, разработанный компанией Mossberg & Sons в 1987 году. Калибр 12/70"
 SWEP.Category 				= "Оружие"
 
 SWEP.Spawnable 				= true

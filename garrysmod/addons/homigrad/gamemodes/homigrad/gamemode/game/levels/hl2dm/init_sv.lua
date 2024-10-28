@@ -1,4 +1,5 @@
 function hl2dm.StartRoundSV()
+	RunConsoleCommand("sv_gravity", "600")
 	tdm.RemoveItems()
 
 	roundTimeStart = CurTime()

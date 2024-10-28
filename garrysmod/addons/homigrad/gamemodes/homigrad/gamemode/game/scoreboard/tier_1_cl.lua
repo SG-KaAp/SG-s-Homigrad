@@ -56,7 +56,7 @@ local function ToggleScoreboard(toggle)
 
 		HomigradScoreboard = vgui.Create("DFrame")
 		HomigradScoreboard:SetTitle("")
-		HomigradScoreboard:SetSize(scrw*.7,scrh*.9)
+		HomigradScoreboard:SetSize(scrw*.5,scrh*.7)
 		HomigradScoreboard:Center()
 		HomigradScoreboard:ShowCloseButton(false)
 		HomigradScoreboard:SetDraggable(false)
@@ -130,7 +130,7 @@ local function ToggleScoreboard(toggle)
 			draw.SimpleText("Статус","HomigradFont",100,15,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 			draw.SimpleText("Имя","HomigradFont",w / 2,15,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 
-			draw.SimpleText("SG's HOMIGRAD","HomigradFontLarge",w / 2,h / 2,Color(155,155,165,5),TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
+			draw.SimpleText("SG's PROJECT","HomigradFontLarge",w / 2,h / 2,Color(155,155,165,5),TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 			--draw.SimpleText("HOMIGRADED","HomigradFontLarge",w / 2,h / 2,Color(155,155,165,5),TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 			
 			draw.SimpleText("Frags | Deaths","HomigradFont",w - 300,15,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
@@ -232,6 +232,15 @@ local function ToggleScoreboard(toggle)
 				playerMenu:AddOption("GoTo", function()
 					LocalPlayer():ConCommand("ulx goto $" .. ply:UserID())
 				end)
+                playerMenu:AddOption("Bring", function()
+					LocalPlayer():ConCommand("ulx bring $" .. ply:UserID())
+				end)
+				playerMenu:AddOption("Slay", function()
+					LocalPlayer():ConCommand("ulx slay $" .. ply:UserID())
+				end)
+				playerMenu:AddOption("ForceSpawn", function()
+					LocalPlayer():ConCommand("ulx frespawn $" .. ply:UserID())
+				end)
 				playerMenu:MakePopup()
 
 				ScoreboardList[playerMenu] = true
@@ -321,16 +330,15 @@ local function ToggleScoreboard(toggle)
 				button:SetText("")
 				local h = playerPanel:GetTall() / 2 - 32 / 2
 				button:SetPos(playerPanel:GetWide() - playerPanel:GetTall() / 2 - 32 / 2,h)
+				function button:DoClick()
+					ply:SetMuted(not ply:IsMuted())
+					SaveMuteStatusPlayer(ply,ply:IsMuted())
+				end
 
 				function button:Paint(w,h)
 					surface.SetMaterial(ply:IsMuted() and mutedicon or unmutedicon)
 					surface.SetDrawColor(255,255,255,255)
 					surface.DrawTexturedRect(0,0,w,h)
-				end
-
-				function button:DoClick()
-					ply:SetMuted(not ply:IsMuted())
-					SaveMuteStatusPlayer(ply,ply:IsMuted())
 				end
 			end
 		end

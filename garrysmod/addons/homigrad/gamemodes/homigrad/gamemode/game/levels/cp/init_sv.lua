@@ -59,7 +59,7 @@ function cp.StartRoundSV()
     tdm.RemoveItems()
 
 	roundTimeStart = CurTime()
-	roundTime = 60*15 --15 минут
+	roundTime = 60*7 --15 минут
 
 	for i,ply in pairs(team.GetPlayers(3)) do ply:SetTeam(math.random(1,2)) end
 
@@ -82,7 +82,7 @@ function cp.StartRoundSV()
 end
 
 function cp.Think()
-    cp.LastWave = cp.LastWave or CurTime() + 60
+    cp.LastWave = cp.LastWave or 60
 
     if CurTime() >= cp.LastWave then
         SetGlobalInt("CP_respawntime", CurTime())
@@ -117,7 +117,7 @@ function cp.Think()
             cp.ragdolls[ent] = nil
         end
 
-        cp.LastWave = CurTime() + 60
+        cp.LastWave = 60
     end
 end
 
@@ -245,8 +245,4 @@ function cp.PlayerDeath(ply,inf,att)
     cp.ragdolls[ply:GetNWEntity("Ragdoll")] = true
 
     return false
-end
-
-function cp.NoSelectRandom()
-    return #ReadDataMap("control_point") < 1
 end

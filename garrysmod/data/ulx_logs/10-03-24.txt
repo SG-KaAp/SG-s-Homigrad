@@ -1,0 +1,27 @@
+<Logging continued from "data/ulx_logs/10-02-24.txt">
+[06:59:00] Client "SG_KaAp" connected.
+[07:01:38] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 158 seconds).
+[07:01:39] (Console) added SG_KaAp to group donate_setmodel
+[07:01:48] SG_KaAp: !menu
+[07:06:51] (Console) added SG_KaAp to group superadmin
+[07:07:05] SG_KaAp respawned Themself
+[07:07:05] SG_KaAp: !forcerespawn sg_kaap
+[07:07:49] SG_KaAp suicided!
+[07:07:49] SG_KaAp respawned Themself
+[07:07:49] SG_KaAp: !forcerespawn sg_kaap
+[07:08:12] SG_KaAp suicided!
+[07:08:12] SG_KaAp respawned Themself
+[07:08:12] SG_KaAp: !forcerespawn sg_kaap
+[07:10:59] SG_KaAp<STEAM_0:1:566748347> spawned sent npc_igs
+[07:16:27] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[07:16:27] SG_KaAp suicided!
+[09:34:04] Server is shutting down/changing levels.
+
+
+
+[09:34:43] New map: gm_bbicotka_hmcd
+[21:29:07] Client "layzer" connected.
+[21:31:42] Client "RicardoS" connected.
+[21:40:37] Client "RicardoS" spawned in server <STEAM_0:0:720049263> (took 535 seconds).
+[21:41:35] Dropped "RicardoS" from server<STEAM_0:0:720049263>
+<Logging continued in "data/ulx_logs/10-04-24.txt">

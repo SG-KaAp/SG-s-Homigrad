@@ -125,7 +125,7 @@ function OpenHomigradMenu()
         surface.SetDrawColor(0,0,0,200)
         surface.DrawRect(0,0,w,h)
 
-        draw.SimpleText("Homigrad Menu","HomigradFont",10,15,white,TEXT_ALIGN_LEFT,TEXT_ALIGN_CENTER)
+        draw.SimpleText("homigrad Menu","HomigradFont",10,15,white,TEXT_ALIGN_LEFT,TEXT_ALIGN_CENTER)
 
         surface.SetDrawColor(255,255,255,128)
 		surface.DrawOutlinedRect(1,1,w - 2,h - 2)

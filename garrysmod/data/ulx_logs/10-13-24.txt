@@ -1,0 +1,408 @@
+<Logging continued from "data/ulx_logs/10-12-24.txt">
+[00:29:04] Client "imyourdeath" connected.
+[00:30:19] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 75 seconds).
+[00:30:51] imyourdeath: !menu
+[00:31:32] imyourdeath voted for gm_trainride_v1 (1/3)
+[00:38:05] imyourdeath voted for gm_trainride_v1 (1/3)
+[00:38:05] imyourdeath: !votemap 71
+[00:38:35] imyourdeath: !menu
+[00:49:31] Dropped "imyourdeath" from server<STEAM_0:0:776481062>
+[01:29:10] Client "DarkStels777" connected.
+[05:29:50] Client "Кириешка" connected.
+[05:41:42] Client "Кириешка" spawned in server <STEAM_0:0:448270965> (took 712 seconds).
+[05:55:12] Dropped "Кириешка" from server<STEAM_0:0:448270965>
+[07:00:45] Client "Uroccit 667" connected.
+[10:07:22] Client "냥스터치" connected.
+[10:07:41] Client "냥스터치" connected.
+[11:23:37] Client "gzgarrysmode2" connected.
+[11:52:48] Client "Dandy" connected.
+[12:26:07] Client "S.M.I.L.E" connected.
+[14:09:49] Client "erkingali.t_02" connected.
+[14:50:39] Client "FAC" connected.
+[15:54:15] Client "lario" connected.
+[17:01:21] Client "SG_KaAp" connected.
+[17:06:20] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 299 seconds).
+[17:07:29] SG_KaAp respawned Themself
+[17:07:29] SG_KaAp: !forcerespawn sg_kaap
+[17:08:20] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[17:08:21] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[17:16:27] Client "Мэйнер спермы" connected.
+[17:19:06] Client "unk1l" connected.
+[17:21:09] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 123 seconds).
+[17:21:24] SG_KaAp set Themself's model to models/monolithservers/mpd/male_02.mdl with colors R:255, G:255, B:255
+[17:21:32] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[17:21:58] unk1l: !noclip
+[17:22:04] unk1l: !noclip
+[17:22:08] unk1l: Такси
+[17:22:09] unk1l: Такси
+[17:22:22] unk1l suicided!
+[17:22:40] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/van/pw_van.mdl
+[17:23:06] unk1l set Themself's model to models/theboys/homelander.mdl with colors R:255, G:255, B:255
+[17:23:16] SG_KaAp set Themself's model to models/player/osaka_pm/osaka_pm.mdl with colors R:255, G:255, B:255
+[17:23:27] unk1l suicided!
+[17:23:30] unk1l: сучка
+[17:23:31] unk1l: БЛЯЯЯ
+[17:23:44] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gaz52/gaz52.mdl
+[17:24:26] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[17:24:43] unk1l: yf[eq
+[17:24:44] unk1l: да
+[17:24:51] SG_KaAp set Themself's model to models/player/osaka_pm/osaka_pm.mdl with colors R:255, G:255, B:255
+[17:25:14] unk1l suicided!
+[17:25:34] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[17:25:44] unk1l: !menu
+[17:26:45] unk1l suicided!
+[17:26:50] SG_KaAp suicided!
+[17:26:50] unk1l suicided!
+[17:26:50] unk1l: щас я перезайду
+[17:26:55] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[17:26:56] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[17:27:46] Client "unk1l" connected.
+[17:27:51] Server is shutting down/changing levels.
+
+
+
+[17:27:59] New map: cs_italy
+[17:28:01] Server is shutting down/changing levels.
+
+
+
+[17:28:07] New map: cs_italy
+[17:28:08] Client "unk1l" connected.
+[17:29:18] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 70 seconds).
+[17:29:24] unk1l: !menu
+[17:29:33] unk1l changed the map to dod_okop
+[17:29:33] Server is shutting down/changing levels.
+
+
+
+[17:29:39] New map: dod_okop
+[17:30:07] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 30 seconds).
+[17:30:50] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[18:16:39] Client "Кириешка" connected.
+[18:17:42] Client "Кириешка" spawned in server <STEAM_0:0:448270965> (took 63 seconds).
+[18:19:37] Server is shutting down/changing levels.
+
+
+
+[18:19:44] New map: de_nuke
+[18:19:45] Server is shutting down/changing levels.
+
+
+
+[18:19:52] New map: de_nuke
+[18:19:52] Client "Кириешка" connected.
+[18:22:14] Client "Кириешка" spawned in server <STEAM_0:0:448270965> (took 142 seconds).
+[18:25:19] Client "ゲイフェムボーイ" connected.
+[18:28:52] Client "ゲイフェムボーイ" spawned in server <STEAM_0:0:671164743> (took 213 seconds).
+[18:29:17] Кириешка: даров
+[18:30:30] Кириешка: меня слышно?
+[18:30:41] ゲイフェムボーイ suicided!
+[18:31:35] ゲイフェムボーイ: not russian sorry
+[18:32:01] Кириешка: play?
+[18:32:06] ゲイフェムボーイ: ok
+[18:32:09] ゲイフェムボーイ suicided!
+[18:33:18] ゲイフェムボーイ suicided!
+[18:33:59] ゲイフェムボーイ suicided!
+[18:34:17] Кириешка suicided!
+[18:34:38] Кириешка: stop please
+[18:36:59] Кириешка suicided!
+[18:37:05] Кириешка: are you interested in playing?
+[18:37:14] ゲイフェムボーイ: sure
+[18:38:00] ゲイフェムボーイ suicided!
+[18:38:23] Кириешка suicided!
+[18:39:41] Кириешка suicided!
+[18:39:41] Кириешка suicided!
+[18:40:24] Кириешка suicided!
+[18:43:27] ゲイフェムボーイ suicided!
+[18:46:50] Кириешка suicided!
+[18:48:08] ゲイフェムボーイ suicided!
+[18:48:08] ゲイフェムボーイ suicided!
+[18:48:47] ゲイフェムボーイ suicided!
+[18:48:49] Dropped "ゲイフェムボーイ" from server<STEAM_0:0:671164743>
+[18:51:38] Client "progamer" connected.
+[18:51:46] Client "imyourdeath" connected.
+[18:52:28] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 42 seconds).
+[18:52:28] Кириешка suicided!
+[18:52:28] imyourdeath suicided!
+[18:52:54] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 76 seconds).
+[18:52:58] Server is shutting down/changing levels.
+
+
+
+[18:53:05] New map: de_nuke
+[18:53:06] Server is shutting down/changing levels.
+
+
+
+[18:53:13] New map: de_nuke
+[18:53:35] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 22 seconds).
+[18:53:37] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 24 seconds).
+[18:54:00] Client "Кириешка" spawned in server <STEAM_0:0:448270965> (took 48 seconds).
+[18:54:04] imyourdeath suicided!
+[18:54:04] imyourdeath suicided!
+[18:54:09] progamer suicided!
+[18:54:27] Кириешка: здаров
+[18:55:15] progamer suicided!
+[18:58:46] Client "SG_KaAp" connected.
+[18:59:37] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 51 seconds).
+[18:59:49] Кириешка suicided!
+[19:00:02] Dropped "Кириешка" from server<STEAM_0:0:448270965>
+[19:00:03] SG_KaAp: Здарова
+[19:01:52] progamer suicided!
+[19:02:20] SG_KaAp set Themself's model to models/player/police.mdl with colors R:255, G:255, B:255
+[19:02:54] SG_KaAp suicided!
+[19:03:31] imyourdeath suicided!
+[19:04:02] Client "unk1l" connected.
+[19:05:15] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 73 seconds).
+[19:05:37] unk1l respawned Themself
+[19:05:37] unk1l: !forcerespawn unk1l
+[19:05:37] unk1l: !noclip
+[19:05:39] unk1l granted god mode upon Themself
+[19:05:39] unk1l: !god
+[19:05:47] unk1l: !noclip
+[19:05:52] unk1l: скинь айпи
+[19:05:55] unk1l: скинь айпи
+[19:05:58] unk1l: челику в чате
+[19:05:59] unk1l: !noclip
+[19:06:12] Client "lario" connected.
+[19:06:23] imyourdeath suicided!
+[19:06:23] imyourdeath suicided!
+[19:06:26] unk1l: !noclip
+[19:06:50] unk1l set Themself's model to models/player/minyon.mdl with colors R:255, G:255, B:255
+[19:06:51] unk1l: !noclip
+[19:06:52] unk1l: !noclip
+[19:06:55] unk1l: !noclip
+[19:07:10] progamer suicided!
+[19:08:31] unk1l: ХАХАХАХ ПИЗДЕЦ ТЕБЯ ЗАБИЛИ ПРОСТО
+[19:08:57] unk1l: !noclip
+[19:08:58] unk1l: !noclip
+[19:09:40] unk1l: !noclip
+[19:09:47] unk1l: !noclip
+[19:10:27] SG_KaAp suicided!
+[19:10:53] Client "lario" spawned in server <STEAM_0:1:600372492> (took 281 seconds).
+[19:11:34] unk1l suicided!
+[19:12:03] SG_KaAp suicided!
+[19:12:19] unk1l: ларио гей
+[19:12:21] unk1l: ларио гей
+[19:12:22] unk1l: ларио гей
+[19:12:23] unk1l: ларио гей
+[19:12:23] unk1l: ларио гей
+[19:13:16] unk1l suicided!
+[19:13:29] SG_KaAp suicided!
+[19:13:29] SG_KaAp suicided!
+[19:13:39] lario: соси мой член
+[19:13:41] unk1l: сам
+[19:13:45] lario: симпатию он ащущает
+[19:13:53] SG_KaAp: Ебать
+[19:13:57] SG_KaAp: 5 челов
+[19:14:00] unk1l: дыыы
+[19:14:00] SG_KaAp: Охуеть
+[19:14:00] lario suicided!
+[19:14:07] lario: анкил я тебя не навижу
+[19:14:07] SG_KaAp: F6 нажмите
+[19:14:19] lario suicided!
+[19:14:19] (Console) banned lario for 10 minute(s) (Kicked and Banned for RDM)
+[19:14:20] imyourdeath suicided!
+[19:14:21] progamer suicided!
+[19:14:23] unk1l: ХАХАХАХАХАХА
+[19:14:24] unk1l: ДАУНЫ
+[19:14:33] lario: это за то что убил
+[19:14:34] lario: сука
+[19:14:51] lario: дай дробовик
+[19:14:55] lario: позязя
+[19:14:57] unk1l set Themself's model to models/walter/playermodels/walter.mdl with colors R:255, G:255, B:255
+[19:15:14] imyourdeath suicided!
+[19:15:14] imyourdeath suicided!
+[19:15:14] progamer suicided!
+[19:15:14] progamer suicided!
+[19:15:24] lario: косой
+[19:15:25] lario: нахуй
+[19:15:28] unk1l: в попу дии
+[19:15:41] lario: донт шут
+[19:15:42] unk1l: соси о дааа
+[19:15:47] lario: глок глок
+[19:15:54] lario: оо да
+[19:15:57] SG_KaAp suicided!
+[19:16:06] lario: я предатель
+[19:16:30] unk1l: да да
+[19:16:34] unk1l: дада
+[19:16:36] unk1l: на дарю
+[19:17:08] unk1l: !noclip
+[19:17:08] progamer was killed by gb_rocket_rp3
+[19:17:08] lario was killed by gb_rocket_rp3
+[19:17:08] imyourdeath was killed by gb_rocket_rp3
+[19:17:09] unk1l: !noclip
+[19:17:11] unk1l: !noclip
+[19:17:14] unk1l suicided!
+[19:17:14] imyourdeath suicided!
+[19:17:14] progamer suicided!
+[19:17:14] SG_KaAp suicided!
+[19:17:14] lario suicided!
+[19:17:18] lario: блять скиньте бинд на суицид
+[19:17:26] unk1l: bind / suicide
+[19:17:31] lario: спасибо
+[19:17:44] Server is shutting down/changing levels.
+
+
+
+[19:17:52] New map: gm_mansion
+[19:17:52] Server is shutting down/changing levels.
+
+
+
+[19:17:59] New map: gm_mansion
+[19:17:59] Client "SG_KaAp" connected.
+[19:17:59] Client "lario" connected.
+[19:17:59] Client "lario" connected.
+[19:17:59] Client "imyourdeath" connected.
+[19:17:59] Client "imyourdeath" connected.
+[19:17:59] Client "unk1l" connected.
+[19:17:59] Client "unk1l" connected.
+[19:17:59] Client "progamer" connected.
+[19:18:25] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 26 seconds).
+[19:18:26] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 27 seconds).
+[19:18:30] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 31 seconds).
+[19:18:31] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 32 seconds).
+[19:18:40] unk1l set Themself's model to models/minecraft/steve/steve.mdl with colors R:255, G:255, B:255
+[19:18:41] unk1l: !noclip
+[19:18:42] unk1l: !noclip
+[19:18:44] Client "lario" spawned in server <STEAM_0:1:600372492> (took 45 seconds).
+[19:19:20] lario: ебать нахуй стив
+[19:19:52] Dropped "progamer" from server<STEAM_0:1:578766727>
+[19:19:56] Dropped "imyourdeath" from server<STEAM_0:0:776481062>
+[19:20:06] unk1l suicided!
+[19:20:21] unk1l: !noclip
+[19:20:22] unk1l: !noclip
+[19:21:15] lario: не регает
+[19:21:21] lario: утюги
+[19:21:22] lario: блять
+[19:21:23] lario: надо
+[19:21:24] lario: купить
+[19:21:40] lario suicided!
+[19:21:49] SG_KaAp: !menu
+[19:22:54] lario suicided!
+[19:23:01] lario: блять
+[19:23:04] lario: инпутлаг
+[19:23:05] unk1l: хохохо
+[19:23:05] lario: ебаный
+[19:23:08] lario: утюги
+[19:23:13] unk1l: !noclip
+[19:23:14] unk1l: !noclip
+[19:23:44] SG_KaAp suicided!
+[19:24:07] lario suicided!
+[19:24:09] lario: сука
+[19:24:15] unk1l: слабенький ларионич
+[19:26:09] SG_KaAp suicided!
+[19:26:47] Client "ПЕТУХ В КЕДАХ" connected.
+[19:27:14] lario suicided!
+[19:27:28] unk1l: !noclip
+[19:27:30] unk1l: !noclip
+[19:28:07] unk1l: !noclip
+[19:28:10] unk1l: !noclip
+[19:28:29] unk1l: !noclip
+[19:28:30] unk1l: !noclip
+[19:29:01] lario suicided!
+[19:29:01] (Console) banned lario for 10 minute(s) (Kicked and Banned for RDM)
+[19:29:14] unk1l: !noclip
+[19:29:16] unk1l: !noclip
+[19:29:27] Client "gattsu" connected.
+[19:29:38] unk1l suicided!
+[19:29:38] unk1l suicided!
+[19:29:58] unk1l: !noclip
+[19:30:01] unk1l: !noclip
+[19:30:17] lario: Мусора бляди
+[19:30:46] unk1l suicided!
+[19:30:48] unk1l: СУКАИИИ
+[19:30:50] unk1l: КАК НАХУЙ
+[19:31:18] unk1l suicided!
+[19:31:32] unk1l: !noclip
+[19:31:40] unk1l: !noclip
+[19:31:54] unk1l: привет
+[19:31:58] lario suicided!
+[19:33:20] unk1l suicided!
+[19:33:45] unk1l: !noclip
+[19:33:48] unk1l: !noclip
+[19:34:13] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:34:13] SG_KaAp suicided!
+[19:34:42] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[19:34:42] unk1l suicided!
+[19:34:56] Dropped "lario" from server<STEAM_0:1:600372492>
+[19:34:56] lario suicided!
+[19:42:25] Server is shutting down/changing levels.
+
+
+
+[19:48:09] New map: gm_bbicotka_hmcd
+[19:54:57] Client "ИльяПро1487" connected.
+[19:57:31] Client "ИльяПро1487" spawned in server <STEAM_0:1:636109000> (took 154 seconds).
+[20:01:15] Dropped "ИльяПро1487" from server<STEAM_0:1:636109000>
+[20:12:06] Server is shutting down/changing levels.
+
+
+
+[20:12:51] New map: gm_bbicotka_hmcd
+[20:16:57] Client "SG_KaAp" connected.
+[20:17:38] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 41 seconds).
+[20:17:49] SG_KaAp respawned Themself
+[20:19:02] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[20:19:14] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:19:14] SG_KaAp suicided!
+[20:19:24] Server is shutting down/changing levels.
+
+
+
+[20:20:00] New map: gm_bbicotka_hmcd
+[20:37:17] Client "SG_KaAp" connected.
+[20:37:56] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 39 seconds).
+[20:38:08] SG_KaAp respawned Themself
+[20:38:08] SG_KaAp: !forcerespawn sg_kaap
+[20:38:29] SG_KaAp set Themself's model to models/player/gman_high.mdl with colors R:255, G:255, B:255
+[20:38:34] SG_KaAp set Themself's model to models/minecraft/alex/alex.mdl with colors R:255, G:255, B:255
+[20:38:49] SG_KaAp set Themself's model to models/patrickbateman/playermodels/patrickbateman.mdl with colors R:255, G:255, B:255
+[20:39:12] SG_KaAp set Themself's model to models/cmbfdr/rashkinsk/bodrov.mdl with colors R:255, G:255, B:255
+[20:40:32] SG_KaAp set Themself's model to models/walter/playermodels/walter.mdl with colors R:255, G:255, B:255
+[20:40:35] SG_KaAp set Themself's model to models/vinrax/player/billy_herrington.mdl with colors R:255, G:255, B:255
+[20:40:40] SG_KaAp set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[20:40:45] SG_KaAp set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[20:41:02] SG_KaAp suicided!
+[20:41:02] SG_KaAp respawned Themself
+[20:41:02] SG_KaAp: !forcerespawn sg_kaap
+[20:41:08] SG_KaAp suicided!
+[20:41:08] SG_KaAp respawned Themself
+[20:41:08] SG_KaAp: !forcerespawn sg_kaap
+[20:42:01] SG_KaAp suicided!
+[20:42:01] SG_KaAp respawned Themself
+[20:42:01] SG_KaAp: !forcerespawn sg_kaap
+[20:43:17] SG_KaAp: !noclip
+[20:43:21] SG_KaAp: !noclip
+[20:43:29] SG_KaAp: !noclip
+[20:43:33] SG_KaAp: !noclip
+[20:43:48] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:43:48] SG_KaAp suicided!
+[21:39:45] Client "SG_KaAp" connected.
+[21:40:01] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 16 seconds).
+[21:40:16] SG_KaAp: !menu
+[21:40:27] SG_KaAp revoked access "ulx setmodel" to group admin
+[21:58:44] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:58:54] Client "SG_KaAp" connected.
+[21:59:07] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 13 seconds).
+[22:00:34] SG_KaAp: !menu
+[22:08:48] SG_KaAp: !forcerespawn
+[22:08:52] SG_KaAp respawned Themself
+[22:08:52] SG_KaAp: !forcerespawn sg_kaap
+[22:09:41] SG_KaAp: !menu
+[22:09:48] SG_KaAp granted access "ulx setmodel" to group superadmin
+[22:09:56] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[22:10:20] SG_KaAp<STEAM_0:1:566748347> spawned NPC npc_citizen
+[22:16:52] SG_KaAp suicided!
+[22:16:52] SG_KaAp respawned Themself
+[22:16:52] SG_KaAp: !forcerespawn sg_kaap
+[22:16:56] SG_KaAp suicided!
+[22:16:56] SG_KaAp respawned Themself
+[22:16:56] SG_KaAp: !forcerespawn sg_kaap
+[22:16:57] SG_KaAp suicided!
+[22:16:57] SG_KaAp respawned Themself
+[22:16:57] SG_KaAp: !forcerespawn sg_kaap
+[22:17:11] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:17:11] SG_KaAp suicided!
+<Logging continued in "data/ulx_logs/10-14-24.txt">

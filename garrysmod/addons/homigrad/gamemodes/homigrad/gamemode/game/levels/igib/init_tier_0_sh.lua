@@ -3,7 +3,6 @@ igib = {}
 igib.Name = "InstaGib"
 igib.LoadScreenTime = 2.5
 igib.RoundRandomDefalut = 1
-igib.NoSelectRandom = true
 
 local red = Color(155,155,255)
 

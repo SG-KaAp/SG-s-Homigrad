@@ -4,7 +4,7 @@ AddCSLuaFile()
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Обезболивающее"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Повышает скорость понижения боли"
 
 SWEP.Spawnable = true

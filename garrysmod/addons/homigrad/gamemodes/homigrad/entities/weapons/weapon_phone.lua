@@ -1,7 +1,7 @@
 SWEP.Base                   = "medkit"
 
 SWEP.PrintName 				= "Заказчик"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "homigrad"
 SWEP.Instructions			= "Закажи все вещи из JMOD!"
 SWEP.Category 				= "Разное"
 

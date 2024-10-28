@@ -1,15 +1,19 @@
 if engine.ActiveGamemode() == "homigrad" then
 local validUserGroup = {
 	--meagsponsor = true,
-	megapenis = true
+	megapenis = true,
+    admin = true
 }
 
 if SERVER then
-
-    COMMANDS.accessspawn = {function(ply,args)
-        SetGlobalBool("AccessSpawn",tonumber(args[1]) > 0)
-
-        PrintMessage(3,"Разрешение на взаимодействие Q меню : " .. tostring(GetGlobalBool("AccessSpawn")))
+        COMMANDS.accessspawn = {function(ply, args)
+          if not ply:IsAdmin() then
+             ply:ChatPrint("саси писю")
+            return
+         end
+         
+        SetGlobalBool("AccessSpawn", tonumber(args[1]) > 0)
+        PrintMessage(3, "Разрешение на взаимодействие Q меню : " .. tostring(GetGlobalBool("AccessSpawn")))
     end}
 
     local function CanUseSpawnMenu(ply,class)
@@ -43,6 +47,9 @@ if SERVER then
     hook.Add("PlayerSpawnedProp","sv_round",function(ply,model,ent) spawn(ply,"prop",ent) end)
     hook.Add("PlayerSpawnedSENT","sv_round",function(ply,model,ent) spawn(ply,"sent",ent) end)
     hook.Add("PlayerSpawnedNPC","sv_round",function(ply,model,ent) spawn(ply,"npc",ent) end)
+    hook.Add("CanTool", "sv_round", function(ply, tr, toolname, tool, button)
+         return CanUseSpawnMenu(ply, "tool", toolname, tr)
+    end)
 
     --hook.Add("PlayerSpawnObject","dontspawn!!!",cant)--salat eblan
 else

@@ -1,0 +1,91 @@
+<Logging continued from "data/ulx_logs/10-16-24.txt">
+[01:29:26] Client "Panzerschreck1337" connected.
+[01:29:53] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 27 seconds).
+[01:30:00] Client "progamer" connected.
+[01:30:13] Client "imyourdeath" connected.
+[01:30:57] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 44 seconds).
+[01:31:02] Panzerschreck1337 suicided!
+[01:31:02] imyourdeath suicided!
+[01:31:14] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 74 seconds).
+[01:31:32] Server is shutting down/changing levels.
+
+
+
+[01:31:39] New map: ttt_lifetheroof
+[01:31:40] Server is shutting down/changing levels.
+
+
+
+[01:31:45] New map: ttt_lifetheroof
+[01:31:46] Client "Panzerschreck1337" connected.
+[01:31:46] Client "imyourdeath" connected.
+[01:31:46] Client "progamer" connected.
+[01:32:15] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 29 seconds).
+[01:32:16] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 30 seconds).
+[01:32:35] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 49 seconds).
+[01:35:01] imyourdeath suicided!
+[01:36:28] imyourdeath suicided!
+[01:36:28] imyourdeath suicided!
+[01:37:14] imyourdeath suicided!
+[01:37:16] progamer suicided!
+[01:38:54] imyourdeath suicided!
+[01:39:49] progamer suicided!
+[01:40:34] imyourdeath suicided!
+[01:40:35] Panzerschreck1337 suicided!
+[01:41:27] progamer suicided!
+[01:42:13] Panzerschreck1337 suicided!
+[01:42:54] imyourdeath suicided!
+[01:44:14] progamer suicided!
+[01:45:22] progamer suicided!
+[01:46:31] imyourdeath suicided!
+[01:46:53] progamer suicided!
+[01:49:14] progamer: афк 9999999
+[01:49:20] imyourdeath: афк 9999999
+[01:49:21] Panzerschreck1337: афк 9999999
+[01:51:21] Dropped "Panzerschreck1337" from server<STEAM_0:1:575526983>
+[01:51:21] Client "Panzerschreck1337" connected.
+[01:51:22] Dropped "progamer" from server<STEAM_0:1:578766727>
+[01:51:23] Client "progamer" connected.
+[01:51:37] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 16 seconds).
+[01:51:45] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 22 seconds).
+[01:52:19] progamer suicided!
+[01:52:42] Dropped "imyourdeath" from server<STEAM_0:0:776481062>
+[01:52:47] Client "imyourdeath" connected.
+[01:52:50] Panzerschreck1337 suicided!
+[01:53:12] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 25 seconds).
+[01:53:31] Panzerschreck1337 suicided!
+[01:53:37] Panzerschreck1337 suicided!
+[01:53:37] imyourdeath suicided!
+[01:53:37] progamer suicided!
+[01:54:07] Server is shutting down/changing levels.
+
+
+
+[01:54:13] New map: gm_zabroshka
+[01:54:14] Server is shutting down/changing levels.
+
+
+
+[01:54:19] New map: gm_zabroshka
+[01:54:20] Client "Panzerschreck1337" connected.
+[01:54:20] Client "imyourdeath" connected.
+[01:54:20] Client "progamer" connected.
+[01:54:55] Client "imyourdeath" connected.
+[01:55:02] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 42 seconds).
+[01:55:24] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 64 seconds).
+[01:57:06] Panzerschreck1337 suicided!
+[01:57:06] Panzerschreck1337 suicided!
+[01:57:06] progamer suicided!
+[01:57:25] Client "imyourdeath" connected.
+[01:57:29] Panzerschreck1337 suicided!
+[01:57:48] Dropped "progamer" from server<STEAM_0:1:578766727>
+[01:57:48] progamer suicided!
+[01:58:01] Dropped "Panzerschreck1337" from server<STEAM_0:1:575526983>
+[01:58:01] Panzerschreck1337 suicided!
+[21:28:45] Client "яблоко" connected.
+[21:31:50] Client "яблоко" connected.
+[22:09:29] Client "brain implosion" connected.
+[22:16:32] Client "brain implosion" spawned in server <STEAM_0:1:711449140> (took 423 seconds).
+[22:17:23] Dropped "brain implosion" from server<STEAM_0:1:711449140>
+[22:49:28] Client "Wise./>" connected.
+<Logging continued in "data/ulx_logs/10-18-24.txt">

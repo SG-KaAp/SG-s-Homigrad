@@ -96,3 +96,8 @@ function igib.PlayerDeath()
     net.Start("dm die")
     net.Broadcast()
 end
+
+function igib.NoSelectRandom()
+    local a,b,c = string.find(string.lower(game.GetMap()),"jopasisa")
+    return a ~= nil
+end

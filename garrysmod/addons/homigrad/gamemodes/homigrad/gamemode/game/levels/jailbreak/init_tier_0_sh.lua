@@ -3,7 +3,7 @@ jailbreak = {}
 jailbreak.Name = "JailBreak"
 
 jailbreak.red = {"ФСИН",Color(55,55,255),
-    weapons = {"weapon_radio","weapon_police_bat","weapon_hands","weapon_taser","weapon_handcuffs","weapon_glock"},
+    weapons = {"weapon_radio","weapon_police_bat","weapon_hands","weapon_taser","weapon_handcuffs","weapon_glock","med_band_big","shina"},
     main_weapon = {"weapon_hands"},
     secondary_weapon = {"weapon_hands"},
     models = {"models/rashkinsk/fsin/camo/camo_07.mdl","models/rashkinsk/fsin/camo/camo_06.mdl","models/rashkinsk/fsin/camo/camo_07.mdl",}
@@ -16,7 +16,7 @@ jailbreak.green = {"Заключенный",Color(255,170,0),
 }
 
 jailbreak.blue = {"ФСИН",Color(55,55,255),
-    weapons = {"weapon_radio","weapon_hands","weapon_kabar","med_band_big","med_band_small","medkit","painkiller","weapon_hg_f1","weapon_handcuffs","weapon_taser","weapon_hg_flashbang"},
+    weapons = {"weapon_radio","weapon_hands","weapon_kabar","med_band_big","med_band_small","medkit","painkiller","weapon_hg_f1","weapon_handcuffs","weapon_taser","weapon_hg_flashbang","shina"},
     main_weapon = {"weapon_mk18","weapon_m4a1","weapon_m3super","weapon_mp7","weapon_xm1014","weapon_fal","weapon_galilsar","weapon_m249","weapon_mp5","weapon_mp40"},
     secondary_weapon = {"weapon_beretta","weapon_fiveseven","weapon_hk_usp"},
     models = tdm.models

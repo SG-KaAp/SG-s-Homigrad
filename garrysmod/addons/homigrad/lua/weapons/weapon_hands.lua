@@ -267,14 +267,23 @@ function SWEP:SecondaryAttack()
 		elseif IsValid(tr.Entity) and tr.Entity:IsPlayer() then
 			local Dist = (self:GetOwner():GetShootPos() - tr.HitPos):Length()
 
-			if Dist < self.ReachDistance then
-				sound.Play("Flesh.ImpactSoft", self:GetOwner():GetShootPos(), 65, math.random(90, 110))
-				self:GetOwner():SetVelocity(self:GetOwner():GetAimVector() * 20)
-				tr.Entity:SetVelocity(-self:GetOwner():GetAimVector() * 50)
-				self:SetNextSecondaryFire(CurTime() + .25)
-			end
-		end
-	end
+            if Dist < self.ReachDistance then
+                if not self.LastPushTime or CurTime() - self.LastPushTime >= 0.7 then
+                    sound.Play("Flesh.ImpactSoft", ply:GetShootPos(), 65, math.random(90, 110))
+
+                    local velocityStrength = -150
+                    if ply:KeyDown(IN_WALK) then
+                        velocityStrength = 150
+                    end
+
+                    ply:SetVelocity(ply:GetAimVector() * 0)
+                    tr.Entity:SetVelocity(-ply:GetAimVector() * velocityStrength)
+                    self.LastPushTime = CurTime()
+                    self:SetNextSecondaryFire(CurTime() + .25)
+                end
+            end
+        end
+    end
 end
 
 

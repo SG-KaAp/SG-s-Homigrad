@@ -1,0 +1,211 @@
+<Logging continued from "data/ulx_logs/10-06-24.txt">
+[00:05:01] Client "Panzerschreck1337" connected.
+[00:07:40] Client "imyourdeath" connected.
+[00:13:17] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 337 seconds).
+[00:13:47] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 526 seconds).
+[00:14:14] imyourdeath suicided!
+[00:15:17] imyourdeath suicided!
+[00:17:25] imyourdeath suicided!
+[00:18:58] imyourdeath suicided!
+[00:20:18] imyourdeath suicided!
+[00:30:07] Panzerschreck1337 suicided!
+[00:30:34] imyourdeath suicided!
+[00:30:34] imyourdeath suicided!
+[00:31:01] imyourdeath suicided!
+[00:31:26] imyourdeath suicided!
+[00:31:31] Panzerschreck1337 suicided!
+[00:31:31] imyourdeath suicided!
+[00:32:01] Server is shutting down/changing levels.
+
+
+
+[00:32:06] New map: de_school2
+[00:32:07] Server is shutting down/changing levels.
+
+
+
+[00:32:12] New map: de_school2
+[00:32:12] Client "Panzerschreck1337" connected.
+[00:32:12] Client "imyourdeath" connected.
+[00:32:40] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 28 seconds).
+[00:32:41] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 29 seconds).
+[00:35:26] imyourdeath suicided!
+[00:37:07] Panzerschreck1337: ay
+[00:38:59] imyourdeath suicided!
+[00:40:55] Panzerschreck1337 suicided!
+[00:41:27] imyourdeath suicided!
+[00:41:27] imyourdeath suicided!
+[00:43:16] Panzerschreck1337 suicided!
+[00:47:00] Panzerschreck1337 suicided!
+[00:47:01] imyourdeath suicided!
+[00:48:44] imyourdeath suicided!
+[00:51:16] Panzerschreck1337 suicided!
+[00:52:20] Panzerschreck1337 suicided!
+[00:52:20] imyourdeath suicided!
+[00:53:13] imyourdeath suicided!
+[00:53:27] Dropped "imyourdeath" from server<STEAM_0:0:776481062>
+[00:53:27] imyourdeath suicided!
+[00:53:29] Dropped "Panzerschreck1337" from server<STEAM_0:1:575526983>
+[00:53:29] Panzerschreck1337 suicided!
+[20:24:13] Client "unk1l" connected.
+[20:30:06] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 353 seconds).
+[20:32:18] unk1l: !menu
+[20:33:09] unk1l: !menu
+[20:35:43] (Console) changed the map to gm_trainride_v1_day with gamemode homigrad
+[20:35:43] Server is shutting down/changing levels.
+
+
+
+[20:35:48] New map: gm_trainride_v1_day
+[20:36:13] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 27 seconds).
+[20:39:37] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[22:33:08] Client "Panzerschreck1337" connected.
+[22:33:11] Client "_CXRSE_" connected.
+[22:33:33] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 25 seconds).
+[22:34:17] Client "imyourdeath" connected.
+[22:36:07] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 110 seconds).
+[22:37:21] Client "_CXRSE_" spawned in server <STEAM_0:0:572896213> (took 250 seconds).
+[22:37:43] imyourdeath was killed by trigger_hurt
+[22:38:10] imyourdeath suicided!
+[22:40:16] Panzerschreck1337 was killed by trigger_hurt
+[22:40:24] Client "progamer" connected.
+[22:41:15] Panzerschreck1337 killed imyourdeath using player
+[22:43:36] imyourdeath was killed by trigger_hurt
+[22:43:44] _CXRSE_ was killed by trigger_hurt
+[22:44:12] Client "Blade0fHD" connected.
+[22:44:45] _CXRSE_ was killed by trigger_hurt
+[22:46:43] imyourdeath was killed by trigger_hurt
+[22:46:48] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 384 seconds).
+[22:47:35] Panzerschreck1337 suicided!
+[22:47:35] Panzerschreck1337 suicided!
+[22:48:34] progamer suicided!
+[22:48:56] _CXRSE_ suicided!
+[22:48:56] _CXRSE_ suicided!
+[22:49:03] Panzerschreck1337 was killed by trigger_hurt
+[22:50:32] imyourdeath suicided!
+[22:50:32] imyourdeath suicided!
+[22:51:12] Panzerschreck1337 suicided!
+[22:51:35] imyourdeath suicided!
+[22:51:50] progamer was killed by trigger_hurt
+[22:52:49] Panzerschreck1337 suicided!
+[22:52:55] _CXRSE_ suicided!
+[22:53:46] (TEAM) progamer: nig
+[22:53:51] imyourdeath: x
+[22:54:13] _CXRSE_ suicided!
+[22:55:05] imyourdeath suicided!
+[22:56:24] _CXRSE_ suicided!
+[22:56:24] _CXRSE_ suicided!
+[22:58:04] imyourdeath was killed by trigger_hurt
+[22:58:06] Panzerschreck1337 suicided!
+[22:59:43] Panzerschreck1337 suicided!
+[23:00:28] _CXRSE_ was killed by trigger_hurt
+[23:00:43] progamer suicided!
+[23:00:49] Panzerschreck1337 suicided!
+[23:00:49] _CXRSE_ suicided!
+[23:00:49] imyourdeath suicided!
+[23:00:49] progamer suicided!
+[23:01:19] Server is shutting down/changing levels.
+
+
+
+[23:01:30] New map: gm_russia
+[23:01:31] Server is shutting down/changing levels.
+
+
+
+[23:01:40] New map: gm_russia
+[23:01:41] Client "Panzerschreck1337" connected.
+[23:01:41] Client "Panzerschreck1337" connected.
+[23:01:41] Client "Blade0fHD" connected.
+[23:01:41] Client "Blade0fHD" connected.
+[23:01:41] Client "imyourdeath" connected.
+[23:01:41] Client "imyourdeath" connected.
+[23:01:41] Client "_CXRSE_" connected.
+[23:01:41] Client "_CXRSE_" connected.
+[23:01:41] Client "progamer" connected.
+[23:01:41] Client "progamer" connected.
+[23:02:22] Client "_CXRSE_" spawned in server <STEAM_0:0:572896213> (took 41 seconds).
+[23:02:47] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 66 seconds).
+[23:02:50] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 69 seconds).
+[23:03:09] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 88 seconds).
+[23:03:53] _CXRSE_ suicided!
+[23:04:48] Client "Blade0fHD" spawned in server <STEAM_0:1:634422568> (took 187 seconds).
+[23:05:11] Blade0fHD: /whisper
+[23:05:13] Blade0fHD: sorry
+[23:05:31] Blade0fHD: ich weiss wer diddy ist
+[23:06:04] Blade0fHD: arian ist diddy
+[23:08:24] Blade0fHD: robert
+[23:09:20] _CXRSE_ suicided!
+[23:09:24] imyourdeath suicided!
+[23:11:53] Panzerschreck1337: <
+[23:14:19] Blade0fHD suicided!
+[23:17:03] Panzerschreck1337 suicided!
+[23:17:11] progamer suicided!
+[23:19:27] Blade0fHD suicided!
+[23:19:27] Panzerschreck1337 suicided!
+[23:19:33] imyourdeath suicided!
+[23:19:33] imyourdeath suicided!
+[23:23:05] imyourdeath suicided!
+[23:23:05] imyourdeath suicided!
+[23:24:44] Client "tactical rat" connected.
+[23:25:20] Blade0fHD suicided!
+[23:25:23] imyourdeath suicided!
+[23:25:25] Panzerschreck1337 suicided!
+[23:25:36] _CXRSE_ suicided!
+[23:33:30] Client "tactical rat" spawned in server <STEAM_0:0:506955269> (took 526 seconds).
+[23:33:47] imyourdeath suicided!
+[23:34:23] Blade0fHD suicided!
+[23:34:23] Blade0fHD suicided!
+[23:35:22] imyourdeath suicided!
+[23:35:44] _CXRSE_ suicided!
+[23:35:44] _CXRSE_ suicided!
+[23:36:36] tactical rat suicided!
+[23:36:36] tactical rat suicided!
+[23:37:08] Panzerschreck1337: how can you heal your self?
+[23:37:36] progamer suicided!
+[23:37:45] Dropped "_CXRSE_" from server<STEAM_0:0:572896213>
+[23:38:08] Panzerschreck1337: supply radio: satchel charges
+[23:40:17] progamer suicided!
+[23:40:17] progamer suicided!
+[23:41:03] tactical rat suicided!
+[23:41:03] tactical rat suicided!
+[23:41:20] Dropped "tactical rat" from server<STEAM_0:0:506955269>
+[23:43:59] Blade0fHD: bind (...) fake
+[23:45:30] imyourdeath suicided!
+[23:45:37] progamer suicided!
+[23:46:22] Blade0fHD suicided!
+[23:48:28] imyourdeath suicided!
+[23:50:01] progamer: supply radio: sticky bomb
+[23:51:41] Blade0fHD: test
+[23:51:43] Blade0fHD: test
+[23:51:58] Blade0fHD: test
+[23:53:38] Blade0fHD suicided!
+[23:53:54] imyourdeath suicided!
+[23:54:07] Dropped "Blade0fHD" from server<STEAM_0:1:634422568>
+[23:55:01] Panzerschreck1337 suicided!
+[23:55:07] Panzerschreck1337 suicided!
+[23:55:07] imyourdeath suicided!
+[23:55:07] progamer suicided!
+[23:55:37] Server is shutting down/changing levels.
+
+
+
+[23:55:44] New map: gm_csgosafehouse
+[23:55:45] Server is shutting down/changing levels.
+
+
+
+[23:55:52] New map: gm_csgosafehouse
+[23:55:52] Client "Panzerschreck1337" connected.
+[23:55:52] Client "Panzerschreck1337" connected.
+[23:55:52] Client "imyourdeath" connected.
+[23:55:52] Client "imyourdeath" connected.
+[23:55:52] Client "progamer" connected.
+[23:55:52] Client "progamer" connected.
+[23:56:23] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 31 seconds).
+[23:56:28] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 36 seconds).
+[23:56:47] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 55 seconds).
+[23:57:28] Panzerschreck1337 suicided!
+[23:59:02] progamer suicided!
+[23:59:40] imyourdeath suicided!
+<Logging continued in "data/ulx_logs/10-08-24.txt">

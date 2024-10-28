@@ -1,7 +1,7 @@
 SWEP.Base                   = "weapon_base"
 
 SWEP.PrintName 				= "Рация"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "homigrad"
 SWEP.Instructions			= "Используется для того чтобы координироваться со своей командой"
 SWEP.Category 				= "Разное"
 

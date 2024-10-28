@@ -108,7 +108,7 @@ SolidMapVote[ 'Config' ][ 'Enable Chat' ] = true
 
 -- Here you can specify what players can force the mapvote to appear.
 SolidMapVote[ 'Config' ][ 'Force Vote Permission' ] = function( ply )
-    return ply:IsAdmin()
+    return ply:IsAdmin() or ply:IsUserGroup("MegaSponsor")
 end
 
 -- These commands can be used by players specified above to
@@ -119,7 +119,7 @@ SolidMapVote[ 'Config' ][ 'Force Vote Commands' ] = {
 
 -- This is the percentage of players that need to rtv in order for the vote
 -- to come up
-SolidMapVote[ 'Config' ][ 'RTV Percentage' ] = 0.6
+SolidMapVote[ 'Config' ][ 'RTV Percentage' ] = 0.4
 
 -- This is the time in seconds that must pass before players can begin to RTV
 SolidMapVote[ 'Config' ][ 'RTV Delay' ] = 60
@@ -135,7 +135,7 @@ SolidMapVote[ 'Config' ][ 'Vote Commands' ] = {
 
 -- Set this option to true if you want to ignore the
 -- prefix and just use all the maps in your maps folder.
-SolidMapVote[ 'Config' ][ 'Ignore Prefix' ] = false
+SolidMapVote[ 'Config' ][ 'Ignore Prefix' ] = true
 
 -- These commands will open the nomination menu
 SolidMapVote[ 'Config' ][ 'Nomination Commands' ] = {
@@ -168,11 +168,19 @@ SolidMapVote[ 'Config' ][ 'Random Mode' ] = 2
 SolidMapVote[ 'Config' ][ 'Random Image' ] = 'http://i.imgur.com/oqeqWhl.png'
 
 -- This is the image for maps that are missing an image
-SolidMapVote[ 'Config' ][ 'Missing Image' ] = ''
+SolidMapVote[ 'Config' ][ 'Missing Image' ] = 'https://cdn.discordapp.com/attachments/1277643678910910554/1277643818618851410/uViBbc8.png?ex=66eb93c7&is=66ea4247&hm=66cd7f6aadd1c4aec5571a3b1c5b95f1c4433de9569312425187bd35344937e1&'
 SolidMapVote[ 'Config' ][ 'Missing Image Size' ] = { width = 1920, height = 1080 }
 
 -- In this table you can add information for the map to make it more
 -- appealing on the mapvote.
 SolidMapVote[ 'Config' ][ 'Specific Maps' ] = {
+    { filename = 'gm_bbicotka_hmcd', displayname = 'ВЫСООООТКА', image = 'https://steamuserimages-a.akamaihd.net/ugc/1848170935364481145/CD1409C3D0FC4A5F538B75C1BE9506F19DC80FF6/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true', width = 1920, height = 1080 },
+    { filename = 'cs_apartments', displayname = 'CS_Apartments', image = 'https://gamebanana.com/mods/embeddables/99498?variant=sd_image', width = 1920, height = 1080 },
+    { filename = 'gm_hmcd_rooftops', displayname = 'gm_hmcd_rooftops', image = 'https://steamuserimages-a.akamaihd.net/ugc/574565056145859159/06E58BDE9EF0C629D8D82BA4BD6827291173245E/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true', width = 1920, height = 1080 },
+    { filename = 'hmcd_rooftops', displayname = 'hmcd_rooftops', image = 'https://steamuserimages-a.akamaihd.net/ugc/574565056145859159/06E58BDE9EF0C629D8D82BA4BD6827291173245E/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true', width = 1920, height = 1080 },
+    { filename = 'de_school', displayname = 'de_school', image = 'https://steamuserimages-a.akamaihd.net/ugc/477771277038241495/2426F62DCEB155AB73A642C74653A8E50D699365/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true', width = 1920, height = 1080 },
+    { filename = 'de_school2', displayname = 'de_school2', image = 'https://steamuserimages-a.akamaihd.net/ugc/477771277038257194/1B32EA910F16BFEAC17E80F174FC7FE9F920657E/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true', width = 1920, height = 1080 },
+    { filename = 'cs_office', displayname = 'cs_office', image = 'https://static.wikia.nocookie.net/counterstrike/images/7/78/Office.png/revision/latest?cb=20150503121944&path-prefix=ru', width = 1920, height = 1080 },
+    { filename = 'ttt_skyscraper', displayname = 'ttt_skyscraper', image = 'https://steamuserimages-a.akamaihd.net/ugc/451793768186031535/588EE152F7ECB18368C9C9E8A7A714459D55402A/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true', width = 1920, height = 1080 },
     { filename = 'ttt_minecraft_b5', displayname = 'Minecraft B5', image = 'http://i2.imgbus.com/doimg/3co1mmfoncb63a7.jpg', width = 1920, height = 1080 },
 }

@@ -76,7 +76,7 @@ local tblNil = {}
 
 deadBodies = deadBodies or {}
 net.Receive("send_deadbodies",function(len)
-    deadBodies = net.ReadTable()
+--    deadBodies = net.ReadTable()
 end)
 
 hook.Add("PostDrawOpaqueRenderables","draw_weapons",function()--почему-то два раза вызывается, и это даже с RenderScene не связано..

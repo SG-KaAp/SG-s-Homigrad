@@ -1,0 +1,141 @@
+; These settings describe the default configuration and text to be shown on the MOTD. This only applies if ulx showMotd is set to 1.
+; All style configuration is set, and the values must be valid CSS.
+; Under info, you may have as many sections as you like. Valid types include "text", "ordered_list", "list".
+; Special type "mods" will automatically list workshop and regular addons in an unordered list.
+; Special type "admins" will automatically list all users within the groups specified in contents.
+; For an example of all of these items, please see the default file generated in ulx\lua\data.lua
+
+"info"	
+{
+	
+	{
+		"type"	"text"
+		"title"	"Как лазить?!"
+		"contents"	
+		{
+			"Для падения в регдол есть бинд - bind key fake"
+			"ПКМ - Правая Рука (+attack2)"
+			"ЛКМ - Левая Рука (+attack)"
+			"E - Управление головой (+use)"
+			"Shift - Хват правой рукой (+speed)"
+			"Alt - Хват левой рукой (+walk)"
+			"W - Подтянуться (+forward)"
+			"S - Подтянуться в обратную сторону (+back)"
+		}
+	}
+	
+	{
+		"type"	"text"
+		"title"	"Ссылки"
+		"contents"	
+		{
+			"Контент: https://steamcommunity.com/workshop/filedetails/?id=3339891812"
+			"Discord: https://discord.gg/MCsdQEMmgs"
+			"Обход блокировки Discord: https://github.com/Flowseal/zapret-discord-youtube/releases"
+			"Донат: https://gm-donate.net/donate/18847"
+		}
+	}
+	
+	{
+		"type"	"text"
+		"title"	"Правила"
+		"contents"	
+		{
+			"Общие правила"
+			"Пользователи"
+			"1.2 Запрещено обходить правила / наказания"
+			"1.3 Запрещена реклама без согласования @SG_KaAp ."
+			"1.4 Запрещено провоцировать на нарушение правил."
+			"1.5 Запрещена дезинформация."
+			"1.6 Запрещено использовать ники, аватарки, баннеры или описания с сексуальным, шокирующим, террористическим, фашистский, нацистским характером."
+			"Текстовые каналы"
+			"2.1 Запрещено отправлять текст или медиафайлы с сексуальным характером."
+			"2.2 Запрещено отправлять текст или медиафайлы с террористическим, фашистский, нацистским, шокирующим, нелегальным характером и т. д."
+			"2.3 Запрещена политика и всё, что с ней связанно."
+			"2.4 Запрещено крайне токсичное поведения."
+			"2.5 Запрещено тегать людей / роли без всякой на то причины."
+			"2.6 Запрещено оскорблять участников сервера (SG_KaAp оскорблять можно)."
+			"2.7 Запрещено переходить на личности без согласия человека (его болезни, родственников и другое)."
+			"Голосовые каналы"
+			"3.1 Запрещено орать / издавать неприятные звуки."
+			"3.2 Запрещено говорить / агитировать политику и всё, что с ней связанно."
+			"3.3 Запрещена оскорбление участников сервера (SG_KaAp оскорблять можно)."
+			"3.4 Запрещено спамить звуковой панелью."
+			"Доп. правила"
+			"4.1 Не знание правил не освобождает от наказания"
+			"Наказания"
+			"Мут 1 час => Мут 1 час => Мут 1 день => Мут неделя => Бан"
+			""
+			"Игровые правила"
+			"Правила в игре (Общие все равно там работают)"
+			"Взаимодействие с людьми"
+			"1.1 Запрещен FreeKill > 3 человек (Homicide исключение) - Пред. - Кик - Бан на час - Бан на день - Бан на неделю"
+			"1.2 Запрещен багаюз - Пред. - Кик - Бан на час - Бан на день - Бан на неделю"
+			"1.3 Запрещен соундпад в глобальные чаты (рация, наблюдатели) - Мут 15 мин."
+		}
+	}
+	
+	{
+		"type"	"list"
+		"title"	"Правила доната"
+		"contents"	
+		{
+			"Разрешено менять модель ТОЛЬКО в режимах где это не влияет на геймплей (Homicide и HideandSeek, когда вы прячьтесь)."
+			"Другим игрокам можно менять модель."
+		}
+	}
+	
+	{
+		"type"	"admins"
+		"title"	"Наши админы"
+		"contents"	
+		{
+			"superadmin"
+			"admin"
+		}
+	}
+	"description"	"Приветствуем на нашем сервере!"
+}
+"style"	
+{
+	"borders"	
+	{
+		"border_color"	"#000000"
+		"border_thickness"	"2px"
+	}
+	"colors"	
+	{
+		"header_text_color"	"#ffffff"
+		"header_color"	"#82a0c8"
+		"text_color"	"#000000"
+		"background_color"	"#dddddd"
+		"section_text_color"	"#000000"
+	}
+	"fonts"	
+	{
+		"server_name"	
+		{
+			"weight"	"normal"
+			"family"	"Helvetica"
+			"size"	"32px"
+		}
+		"regular"	
+		{
+			"weight"	"normal"
+			"family"	"Helvetica"
+			"size"	"12px"
+		}
+		"subtitle"	
+		{
+			"weight"	"normal"
+			"family"	"Helvetica"
+			"size"	"20px"
+		}
+		"section_title"	
+		{
+			"weight"	"normal"
+			"family"	"Helvetica"
+			"size"	"26px"
+		}
+	}
+}

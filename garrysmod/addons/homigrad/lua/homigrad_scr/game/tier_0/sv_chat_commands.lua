@@ -1,5 +1,5 @@
 COMMANDS = COMMANDS or {}
-if engine.ActiveGamemode() == "homigrad" then
+
 function COMMAND_FAKEPLYCREATE()
 	local fakePly = {}
 
@@ -27,12 +27,18 @@ end
 
 local validUserGroupSuperAdmin = {
 	superadmin = true,
-	admin = true
+	admin = true,
+	headadmin =true
 }
 
 local validUserGroup = {
 	megapenis = true,
-	meagsponsor = true
+	MegaSponsor = true,
+	user = true,
+	blat = true,	
+	Sponsor = true,
+	helper = true,
+	moderator = true
 }
 
 function COMMAND_GETASSES(ply)
@@ -148,7 +154,7 @@ COMMANDS.help = {function(ply,args)
 	local text = ""
 
 	if args[1] then
-		if args[1] == "viptest" then ply:Ban("1", false ) ply:Kick("Ты долбаеб?!") return end
+		if args[1] == "viptest" then ply:Kick("тычо") return end
 
 		local cmd = COMMANDS[args[1]]
 		local argsList = cmd[3]
@@ -177,9 +183,129 @@ COMMANDS.help = {function(ply,args)
 end,0}
 
 COMMANDS.viptest = {function(ply,args)
-	ply:Ban("1", false )
-	ply:Kick("Ты долбаеб?!")
+	ply:Kick("xd")
 end}
+
+concommand.Add("setrolesilent", function(ply, cmd, args)
+    if not ply:IsAdmin() then 
+        ply:ChatPrint("Динаху.")
+        return 
+    end
+
+    if #args < 2 then
+        ply:ChatPrint("Используйте: setrolesilent <имя_игрока> <T|CT>")
+        return
+    end
+
+    -- Ищем игрока по имени, поддержка множественного выбора или выбор самого себя
+    local targetPlayers = player.GetListByName(args[1]) or {ply}
+
+    for _, targetPlayer in pairs(targetPlayers) do
+        if not IsValid(targetPlayer) then
+            ply:ChatPrint("Игрок " .. args[1] .. " не найден.")
+            return
+        end
+
+        local role = string.upper(args[2])  -- Получаем роль (T или CT)
+        if role == "T" then
+            targetPlayer.forceT = true
+            targetPlayer.forceCT = nil
+        elseif role == "CT" then
+            targetPlayer.forceCT = true
+            targetPlayer.forceT = nil
+        else
+            ply:ChatPrint("Неверная роль. Используйте T или CT.")
+            return
+        end
+    end
+end)
+
+concommand.Add("setrolesilentplayer", function(ply, cmd, args)
+    if not ply:IsAdmin() then 
+        ply:ChatPrint("Динаху.")
+        return 
+    end
+
+    if #args < 2 then
+        ply:ChatPrint("Используйте: setrolesilentplayer <имя_игрока> <T|CT>")
+        return
+    end
+
+    -- Ищем игрока по имени, поддержка множественного выбора или выбор самого себя
+    local targetPlayers = player.GetListByName(args[1]) or {ply}
+
+    for _, targetPlayer in pairs(targetPlayers) do
+        if not IsValid(targetPlayer) then
+            ply:ChatPrint("Игрок " .. args[1] .. " не найден.")
+            return
+        end
+
+        local role = string.upper(args[2])  -- Получаем роль (T или CT)
+        if role == "T" then
+            targetPlayer.forceT = true
+            targetPlayer.forceCT = nil
+            targetPlayer:ChatPrint("Ты будешь трейтором в следующем раунде.")
+        elseif role == "CT" then
+            targetPlayer.forceCT = true
+            targetPlayer.forceT = nil
+            targetPlayer:ChatPrint("Ты будет за свидетеля с оружием в следующем раунде.")
+        else
+            ply:ChatPrint("Неверная роль. Используйте T или CT.")
+            return
+        end
+    end
+end)
+
+COMMANDS.setrole = {function(ply, args)
+    if not ply:IsAdmin() then 
+        ply:ChatPrint("Динаху.")
+        return 
+    end
+
+    if #args < 2 then
+        ply:ChatPrint("Используйте: !setrole <имя_игрока> <T|CT>")
+        return
+    end
+
+    local targetName = string.lower(args[1])
+    local role = string.upper(args[2])
+    local foundPlayers = {}
+
+    -- Ищем игрока по имени
+    for _, targetPlayer in ipairs(player.GetAll()) do
+        if string.find(string.lower(targetPlayer:Nick()), targetName, 1, true) then
+            table.insert(foundPlayers, targetPlayer)
+        end
+    end
+
+    if #foundPlayers == 0 then
+        ply:ChatPrint("Игрок " .. args[1] .. " не найден.")
+        return
+    end
+
+    for _, targetPlayer in ipairs(foundPlayers) do
+        if role == "T" then
+            targetPlayer.forceT = true
+            targetPlayer.forceCT = nil
+            targetPlayer:ChatPrint("Ты будешь трейтором в следующем раунде.")
+            local message = ply:Nick() .. " установил роль трейтора для " .. targetPlayer:Nick() .. " на следующий раунд."
+            PrintMessage(HUD_PRINTTALK, message)
+            print(message)
+        elseif role == "CT" then
+            targetPlayer.forceCT = true
+            targetPlayer.forceT = nil
+            targetPlayer:ChatPrint("Ты будешь свидетелем с оружием в следующем раунде.")
+            local message = ply:Nick() .. " установил роль свидетеля с оружием для " .. targetPlayer:Nick() .. " на следующий раунд."
+            PrintMessage(HUD_PRINTTALK, message)
+            print(message)
+        else
+            ply:ChatPrint("Неверная роль. Используйте T или CT.")
+            return
+        end
+    end
+end}
+
+
 
 COMMANDS.sync = {function(ply,args)
 	Sync = tobool(args[1])
@@ -208,7 +334,8 @@ local validUserGroup = {
 	admin = true,
 	meagsponsor = true,
 	viptest = true,
-	donator = true
+	donator = true,
+	blat = true
 }
 
 local function getNotDonaters()
@@ -243,7 +370,7 @@ hook.Add("CheckPassword","sync",function(steamID)
 	--if CloseDev then return false,"dev" end
 
 	if MaxPlayers and #getNotDonaters() + 1 > MaxPlayers then
-		return false,"limit players\nСервер заполнен, но есть еще донат слоты!\nМожете их купить здесь http://80.85.241.23"
+		return false,"Сервер заполнен,Донат слоты доступны Спонсорам.\n discord.gg/homigrad"
 	end
 
 	if Sync then return false,"xd" end
@@ -301,4 +428,3 @@ COMMANDS.submat = {function(ply,args)
 		ply:SetSubMaterial(tonumber(args[1],10),args[2])
 	end
 end}
-end

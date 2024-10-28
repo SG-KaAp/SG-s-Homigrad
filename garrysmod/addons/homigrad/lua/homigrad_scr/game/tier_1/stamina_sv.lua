@@ -52,7 +52,7 @@ hook.Add("Player Think","saystamina",function(ply,time)
 	end
 
 	if ply.stamina < 100 and not ply:IsSprinting() and ply:WaterLevel() <= 2  then
-		ply.stamina = ply.stamina + 3 + (ply.hungryregen / 2)
+		ply.stamina = ply.stamina + 3
 		ply:SetNWInt("stamina",ply.stamina)
 	end
 

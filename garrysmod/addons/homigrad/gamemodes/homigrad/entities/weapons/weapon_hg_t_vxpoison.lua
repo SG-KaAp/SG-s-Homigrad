@@ -1,7 +1,7 @@
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Ампула VX"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Используй это на предмете, чтобы отравить подбирающего"
 
 SWEP.Spawnable = true

@@ -40,10 +40,16 @@ function bahmut.StartRoundCL()
 end
 
 function bahmut.HUDPaint_RoundLeft(white)
+    -- Инициализация переменной WinPoints, если она еще не была инициализирована
+    bahmut.WinPoints = bahmut.WinPoints or {}
+    bahmut.WinPoints[1] = bahmut.WinPoints[1] or 0
+    bahmut.WinPoints[2] = bahmut.WinPoints[2] or 0
+    bahmut.WinPoints[3] = bahmut.WinPoints[3] or 0
+    
     local lply = LocalPlayer()
-	local name,color = bahmut.GetTeamName(lply)
+    local name,color = bahmut.GetTeamName(lply)
 
-	local startRound = roundTimeStart + 7 - CurTime()
+    local startRound = roundTimeStart + 7 - CurTime()
     if startRound > 0 and lply:Alive() then
         if playsound then
             playsound = false
@@ -84,9 +90,9 @@ function bahmut.HUDPaint_RoundLeft(white)
     --время раунда
     local time = math.Round(roundTimeStart + roundTime - CurTime())
     local acurcetime = string.FormattedTime( time, "%02i:%02i" )
-	if time < 0 then acurcetime = "Иди нахуй" end
+    if time < 0 then acurcetime = "Иди нахуй" end
 
-	draw.SimpleText(acurcetime,"HomigradFont",ScrW()/2,ScrH()-25,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
+    draw.SimpleText(acurcetime,"HomigradFont",ScrW()/2,ScrH()-25,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 
     local respawntime = GetGlobalInt("Bahmut_respawntime", CurTime())
     

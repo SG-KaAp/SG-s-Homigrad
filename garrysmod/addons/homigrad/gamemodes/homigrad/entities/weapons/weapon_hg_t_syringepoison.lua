@@ -1,7 +1,7 @@
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Тетродотоксин"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Вколоть в позвоночник и ждать..."
 
 SWEP.Spawnable = true

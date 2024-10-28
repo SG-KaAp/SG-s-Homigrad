@@ -75,9 +75,12 @@ hook.Add("HUDPaint","homigrad-roundstate",function()
 		local name,nextName = TableRound().Name,TableRound(roundActiveNameNext).Name
 		if name == "Conter-Strike: Source Govno" then
 			RunConsoleCommand("hg_bodycam", "0")
+		elseif name == "Bodycam" then
+			RunConsoleCommand("hg_bodycam", "1")
 		else
-			RunConsoleCommand("hg_bodycam", "0")
+		    RunConsoleCommand("hg_bodycam", "0")
 		end
+
 
 		draw.RoundedBox(5, ScrW() - 270 - math.max(#nextName, #name) * 4, ScrH() - 65, 800, 70, Color(0, 0, 0, showRoundInfoColor.a - 30))
 		draw.SimpleText("Текущий режим: " .. name,"HomigradFont",ScrW() - 15, ScrH() - 40, showRoundInfoColor, TEXT_ALIGN_RIGHT)

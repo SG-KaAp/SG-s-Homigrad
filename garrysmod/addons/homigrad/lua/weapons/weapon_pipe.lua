@@ -1,6 +1,7 @@
 if engine.ActiveGamemode() == "homigrad" then
 
 SWEP.PrintName = "Труба"
+SWEP.Author = "Homigrad"
 SWEP.Instructions = "Вырванная из чьей-то канализационной системы труба"
 SWEP.Category = "Ближний Бой"
 

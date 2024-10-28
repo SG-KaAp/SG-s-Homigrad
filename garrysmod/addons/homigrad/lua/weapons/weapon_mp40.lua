@@ -2,6 +2,7 @@ if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "FN P90"
+SWEP.Author = "Homigrad"
 SWEP.Instructions			= "Пистолет-пулемёт под калибр 5,7×28"
 SWEP.Category 				= "Оружие"
 

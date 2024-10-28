@@ -1,0 +1,91 @@
+"STEAM_0:0:709713214"	
+{
+	"allow"	
+	{
+		"ulx setmodel"
+	}
+	"name"	"Гомоградец"
+	"deny"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:566748347"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"SG_KaAp"
+	"group"	"superadmin"
+}
+"STEAM_0:1:34526941"	
+{
+	"name"	"c4s | qRRaz11cHHH"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:0:798151674"	
+{
+	"name"	"?who are you"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:0:206797798"	
+{
+	"allow"	
+	{
+	}
+	"name"	"ДимASS"
+	"deny"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:740599899"	
+{
+	"name"	"Дед Щукарь"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+	}
+	"group"	"admin"
+}

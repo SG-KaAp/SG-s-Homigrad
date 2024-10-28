@@ -2,7 +2,8 @@ if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "TMP"
-SWEP.Instructions			= ""
+SWEP.Author = "Homigrad"
+SWEP.Instructions			= "Автоматический пистолет под патрон 9×19 мм Парабеллум, производства австрийской компании Steyr Arms."
 SWEP.Category 				= "Оружие"
 
 SWEP.Spawnable 				= true

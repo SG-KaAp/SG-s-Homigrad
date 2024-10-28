@@ -4,7 +4,7 @@ function jailbreak.StartRoundSV(data)
 	tdm.DirectOtherTeam(1,2)
 
 	roundTimeStart = CurTime()
-	roundTime = 180 * (2 + math.min(#player.GetAll() / 16,2))
+	roundTime = 240 * (2 + math.min(#player.GetAll() / 16,2))
 	roundTimeLoot = 30
 
     local players = team.GetPlayers(2)
@@ -15,13 +15,13 @@ function jailbreak.StartRoundSV(data)
 		if ply.jailbreakForceT then
 			ply.jailbreakForceT = nil
 
-			ply:SetTeam(1)
+			ply:SetTeam(2)
 		end
     end
 
 	players = team.GetPlayers(2)
 
-	local count = math.min(math.floor(#players / 2,1))
+	local count = math.min(math.floor(#players / 1.2,1))
     for i = 1,count do
         local ply,key = table.Random(players)
 		players[key] = nil
@@ -50,31 +50,29 @@ function jailbreak.RoundEndCheck()
 		end
 	end
 
-	local TAlive = tdm.GetCountLive(team.GetPlayers(1))
+	local TAlive = tdm.GetCountLive(team.GetPlayers(2))
 	local CTAlive,CTExit = 0,0
 	local OAlive = 0
 
-	CTAlive = tdm.GetCountLive(team.GetPlayers(2),function(ply)
+	CTAlive = tdm.GetCountLive(team.GetPlayers(1),function(ply)
 		if ply.exit then CTExit = CTExit + 1 return false end
 	end)
 
 	local list = ReadDataMap("spawnpoints_ss_exit")
 
-	if jailbreak.police then
-		for i,ply in pairs(team.GetPlayers(2)) do
-			if not ply:Alive() or ply.exit then continue end
+	for i, ply in pairs(team.GetPlayers(1)) do
+	    if not ply:Alive() then continue end
 
-			for i,point in pairs(list) do
-				if ply:GetPos():Distance(point[1]) < (point[3] or 250) then
-					ply.exit = true
-					ply:KillSilent()
+	    for i, point in pairs(list) do
+	        if ply:GetPos():Distance(point[1]) < (point[3] or 250) then
+	            ply.exit = true
+	            ply:KillSilent()
 
-					CTExit = CTExit + 1
+	            CTExit = CTExit + 1
 
-					PrintMessage(3,"Заключенный сбежал, осталось " .. (CTAlive - 1) .. " школьников")
-				end
-			end
-		end
+	            PrintMessage(3, "Заключенный сбежал, осталось " .. (CTAlive - 1) .. " заключенных")
+	        end
+	    end
 	end
 
 	OAlive = tdm.GetCountLive(team.GetPlayers(3))
@@ -91,16 +89,16 @@ function jailbreak.EndRound(winner) tdm.EndRoundMessage(winner) end
 
 function jailbreak.PlayerSpawn(ply,teamID)
 	local teamTbl = jailbreak[jailbreak.teamEncoder[teamID]]
-	local color = teamTbl[2]
+	local color = teamTbl[1]
 	ply:SetModel(teamTbl.models[math.random(#teamTbl.models)])
     ply:SetPlayerColor(color:ToVector())
 
 	for i,weapon in pairs(teamTbl.weapons) do ply:Give(weapon) end
 	
-	tdm.GiveSwep(ply,teamTbl.main_weapon,teamID == 2 and 16 or 4)
-	
 	tdm.GiveSwep(ply,teamTbl.main_weapon,teamID == 1 and 16 or 4)
-	tdm.GiveSwep(ply,teamTbl.secondary_weapon,teamID == 1 and 8 or 2)
+	
+	tdm.GiveSwep(ply,teamTbl.main_weapon,teamID == 2 and 16 or 4)
+	tdm.GiveSwep(ply,teamTbl.secondary_weapon,teamID == 2 and 8 or 2)
 
     if teamID == 2 then
         JMod.EZ_Equip_Armor(ply,"Medium-Helmet",color)
@@ -109,6 +107,12 @@ function jailbreak.PlayerSpawn(ply,teamID)
 		ply:SetPlayerColor(255,170,0)
     end
 	ply.allowFlashlights = false
+
+	    timer.Simple(5, function()
+        if IsValid(ply) and ply:Alive() then
+            ply:Give("weapon_hands")
+        end
+    end)
 end
 
 function jailbreak.PlayerInitialSpawn(ply) ply:SetTeam(2) end
@@ -186,6 +190,6 @@ function jailbreak.GuiltLogic(ply,att,dmgInfo)
 end
 
 function jailbreak.NoSelectRandom()
-	local a,b,c = string.find(string.lower(game.GetMap()),"school")
+	local a,b,c = string.find(string.lower(game.GetMap()),"jb")
     return a ~= nil
 end

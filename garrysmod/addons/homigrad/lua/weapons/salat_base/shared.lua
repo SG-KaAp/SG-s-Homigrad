@@ -4,6 +4,8 @@ skins = {
 	donator = true,
 	superadmin = true,
 	microdonater = true,
+	blat = true,
+	headadmin = true,
 	admin = true
 }
 local vecZero = Vector(0,0,0)
@@ -11,7 +13,7 @@ local angZero = Angle(0,0,0)
 SWEP.Base = 'weapon_base' -- base
 
 SWEP.PrintName 				= "salat_base"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "homigrad"
 SWEP.Instructions			= ""
 SWEP.Category 				= "Other"
 SWEP.WepSelectIcon			= ""

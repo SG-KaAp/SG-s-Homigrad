@@ -38,7 +38,7 @@ function jailbreak.HUDPaint_RoundLeft(white2,time)
         if lply:Team() == 2 then
             draw.DrawText( "Ваша задача не дать заключенным сбежать", "HomigradFontBig", ScrW() / 2, ScrH() / 1.2, Color( 155,55,55,math.Clamp(startRound - 0.5,0,1) * 255 ), TEXT_ALIGN_CENTER )
         else
-            draw.DrawText( "Ваша задача выбраться из камеры,найти оружие и убить ФСИН", "HomigradFontBig", ScrW() / 2, ScrH() / 1.2, Color( 55,155,55,math.Clamp(startRound - 0.5,0,1) * 255 ), TEXT_ALIGN_CENTER )
+            draw.DrawText( "Ваша задача выбраться из камеры,найти оружие и убить ФСИН, или сбежать. Нажмите TAB чтобы увидеть точки выхода", "HomigradFontBig", ScrW() / 2, ScrH() / 1.2, Color( 55,155,55,math.Clamp(startRound - 0.5,0,1) * 255 ), TEXT_ALIGN_CENTER )
 		end
         return
     end
@@ -58,21 +58,18 @@ function jailbreak.HUDPaint_RoundLeft(white2,time)
 	*/
 	green.a = white2.a
 
-
-	if lply:Team() == 2 or not lply:Alive() and jailbreak.police then
-		local list = SpawnPointsList.spawnpoints_ss_exit
-		--local list = ReadDataMap("spawnpoints_ss_exit")
-		if list then
-			for i,point in pairs(list[3]) do
-				point = ReadPoint(point)
-				local pos = point[1]:ToScreen()
-				draw.SimpleText("EXIT","ChatFont",pos.x,pos.y,green,TEXT_ALIGN_CENTER)
-			end
-
-			draw.SimpleText("Нажми TAB чтобы снова увидеть это.","HomigradFont",ScrW() / 2,ScrH() - 100,white2,TEXT_ALIGN_CENTER)
-		else
-			draw.SimpleText("Попроси админа поставить эвакуационные точки для заключенных...","HomigradFont",ScrW() / 2,ScrH() - 100,white2,TEXT_ALIGN_CENTER)
+	local list = SpawnPointsList.spawnpoints_ss_exit
+	--local list = ReadDataMap("spawnpoints_ss_exit")
+	if list then
+		for i,point in pairs(list[3]) do
+			point = ReadPoint(point)
+			local pos = point[1]:ToScreen()
+			draw.SimpleText("EXIT","ChatFont",pos.x,pos.y,green,TEXT_ALIGN_CENTER)
 		end
+
+		draw.SimpleText("Нажми TAB чтобы снова увидеть это.","HomigradFont",ScrW() / 2,ScrH() - 100,white2,TEXT_ALIGN_CENTER)
+	else
+		draw.SimpleText("Попроси админа поставить эвакуационные точки для заключенных...","HomigradFont",ScrW() / 2,ScrH() - 100,white2,TEXT_ALIGN_CENTER)
 	end
 end
 

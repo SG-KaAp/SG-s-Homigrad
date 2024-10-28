@@ -3,7 +3,7 @@ SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Обрез ИЖ-43"
 SWEP.Author 				= "Homigrad"
-SWEP.Instructions			= "Пацанский вариант гладкоствольного ружья под калибр 12/70."
+SWEP.Instructions			= "Советский двуствольный охотничее ружьё под калибр 12/70."
 SWEP.Category 				= "Оружие 2"
 SWEP.WepSelectIcon			= "pwb2/vgui/weapons/m4super90"
 

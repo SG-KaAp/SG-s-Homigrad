@@ -9,30 +9,30 @@ KOROBKA_HUYNYI={
 	"models/props_junk/wood_crate001a_damaged.mdl",
 	"models/props_junk/wood_crate001a_damagedmax.mdl",
 	"models/props_junk/wood_crate002a.mdl",
-	"models/props_c17/furnituredrawer001a.mdl",
-	"models/props_c17/furnituredrawer003a.mdl",
-	"models/props_c17/furnituredresser001a.mdl",
-	"models/props_c17/woodbarrel001.mdl",
+--	"models/props_c17/furnituredrawer001a.mdl",
+--	"models/props_c17/furnituredrawer003a.mdl",
+--	"models/props_c17/furnituredresser001a.mdl",
+--	"models/props_c17/woodbarrel001.mdl",
 	"models/props_lab/dogobject_wood_crate001a_damagedmax.mdl",
 	"models/items/item_item_crate.mdl",
-	"models/props/de_inferno/claypot02.mdl",
-	"models/props/de_inferno/claypot01.mdl",
-	"models/props_junk/terracotta01.mdl",
+--	"models/props/de_inferno/claypot02.mdl",
+--	"models/props/de_inferno/claypot01.mdl",
+--	"models/props_junk/terracotta01.mdl",
 	"models/props_junk/wood_crate002a.mdl",
 	"models/props_junk/wood_crate001a_damagedmax.mdl",
-	"models/props_combine/breenbust.mdl",
-	"models/props_interiors/Furniture_chair01a.mdl",
-	"models/props_c17/FurnitureShelf001a.mdl",
+--	"models/props_combine/breenbust.mdl",
+--	"models/props_interiors/Furniture_chair01a.mdl",
+--	"models/props_c17/FurnitureShelf001a.mdl",
 	"models/props_junk/cardboard_box004a.mdl",
-	"models/props_junk/wood_pallet001a.mdl",
+--	"models/props_junk/wood_pallet001a.mdl",
 	--"models/props_wasteland/controlroom_chair001a.mdl",
-	"models/props_junk/gascan001a.mdl",
-	"models/props_wasteland/cafeteria_bench001a.mdl",
-	"models/props_c17/furnituredrawer002a.mdl",
-	"models/props_interiors/furniture_cabinetdrawer02a.mdl",
-	"models/props_c17/furniturecupboard001a.mdl",
-	"models/props_interiors/furniture_desk01a.mdl",
-	"models/props_interiors/furniture_vanity01a.mdl"
+--	"models/props_junk/gascan001a.mdl",
+--	"models/props_wasteland/cafeteria_bench001a.mdl",
+--	"models/props_c17/furnituredrawer002a.mdl",
+--	"models/props_interiors/furniture_cabinetdrawer02a.mdl",
+--	"models/props_c17/furniturecupboard001a.mdl",
+--	"models/props_interiors/furniture_desk01a.mdl",
+--	"models/props_interiors/furniture_vanity01a.mdl"
 }
 
 local newTbl = {}
@@ -224,13 +224,13 @@ hook.Add("PostCleanupMap","addboxs",function()
 
 	if timer.Exists("SpawnTheBoxes") then timer.Remove("SpawnTheBoxes") end
 
-	timer.Create("SpawnTheBoxes", 15, 0 ,function()
+	timer.Create("SpawnTheBoxes", 30, 0 ,function()
 		hook_Run("Boxes Think")
 	end)--lol4ik?
 end)--насрал, сожри
 
 if timer.Exists("SpawnTheBoxes") then timer.Remove("SpawnTheBoxes") end
-timer.Create("SpawnTheBoxes", 15, 0 ,function()
+timer.Create("SpawnTheBoxes", 30, 0 ,function()
 	hook_Run("Boxes Think")
 end)
 
@@ -244,9 +244,9 @@ local function randomLoot()
 		entName = table.Random(weaponsveryrare)
 	elseif gunchance < 15 then
 		entName = table.Random(weaponsrare)
-	elseif gunchance < 35 then
+	elseif gunchance < 25 then
 		entName = table.Random(weaponsuncommon)
-	elseif gunchance < 55 then
+	elseif gunchance < 35 then
 		entName = table.Random(weaponscommon)
 	end
 
@@ -263,7 +263,7 @@ end
 
 local vec = Vector(0,0,32)
 hook.Add("Boxes Think", "SpawnBoxes",function()
-	if #player.GetAll() == 0 or not roundActive then return end
+	--[[if #player.GetAll() == 0 or not roundActive then return end
 	
 	local func = TableRound().ShouldSpawnLoot
 	if func and func() == false then return end
@@ -275,8 +275,13 @@ hook.Add("Boxes Think", "SpawnBoxes",function()
 	if not randomWep then
 		ent:SetModel(KOROBKA_HUYNYI[math.random(#KOROBKA_HUYNYI)])
 	else
-		ent.Spawned = true
+		ent:SetModel(KOROBKA_HUYNYI[math.random(#KOROBKA_HUYNYI)])
 	end
+	if IsValid(ent) then
+		ent:SetPos(spawns[math.random(#spawns)] + vec)
+		ent:Spawn()
+	end--]]
+	ent = ents.Create("box_normal")
 	if IsValid(ent) then
 		ent:SetPos(spawns[math.random(#spawns)] + vec)
 		ent:Spawn()

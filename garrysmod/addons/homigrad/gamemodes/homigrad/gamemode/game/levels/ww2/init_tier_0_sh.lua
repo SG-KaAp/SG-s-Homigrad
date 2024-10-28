@@ -13,7 +13,7 @@ ww2.red = {"Красная Армия",Color(255,75,60),
 --for i = 1,9 do table.insert(models,"models/player/rusty/natguard/male_0" .. i .. ".mdl") end
 
 ww2.blue = {"Вермахт",Color(125,125,255),
-	weapons = {"megamedkit","weapon_binokle","weapon_hands","weapon_kabar","med_band_small","med_band_big", "weapon_hg_f1", "med_band_small", "medkit", "weapon_hg_crowbar"},
+	weapons = {"megamedkit","weapon_binokle","weapon_hands","weapon_kabar","med_band_small","med_band_big", "weapon_hg_stielhandgranate24", "med_band_small", "medkit", "weapon_hg_crowbar", "sieghail" },
 	main_weapon = {"weapon_ck98", "weapon_csmg40"},
 	--secondary_weapon = {"weapon_kabar", "weapon_hg_f1", "weapon_hg_crowbar", "weapon_hg_hatchet"},
 	models = {"models/gerconscript7.mdl"}

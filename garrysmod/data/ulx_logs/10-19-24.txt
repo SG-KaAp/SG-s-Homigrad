@@ -1,0 +1,1955 @@
+<Logging continued from "data/ulx_logs/10-18-24.txt">
+[00:32:47] Server is shutting down/changing levels.
+
+
+
+[00:33:32] New map: gm_bbicotka_hmcd
+[11:01:15] Client "Wertz_BB" connected.
+[14:41:28] Client "m.senel57" connected.
+[15:22:11] Client "Foning" connected.
+[15:28:03] Client "Foning" connected.
+[17:21:50] Client "Баобаба" connected.
+[18:21:15] Client "Foning" connected.
+[18:22:14] Client "Foning" connected.
+[18:27:54] Client "SG_KaAp" connected.
+
+
+
+[18:36:40] New map: gm_bbicotka_hmcd
+[18:44:54] Client "SG_KaAp" connected.
+[18:45:06] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 12 seconds).
+[18:52:11] SG_KaAp respawned Themself
+[18:52:11] SG_KaAp: !forcerespawn sG_kaap
+[18:52:43] SG_KaAp: !donate
+[18:55:34] SG_KaAp: !donate
+[18:55:38] SG_KaAp suicided!
+[18:55:38] SG_KaAp respawned Themself
+[18:55:38] SG_KaAp: !forcerespawn sG_kaap
+[18:57:31] Client "unk1l" connected.
+[18:58:11] SG_KaAp suicided!
+[18:58:11] SG_KaAp respawned Themself
+[18:58:11] SG_KaAp: !forcerespawn sG_kaap
+[18:58:40] SG_KaAp suicided!
+[18:58:42] SG_KaAp respawned Themself
+[18:58:42] SG_KaAp: !forcerespawn sG_kaap
+[18:58:50] SG_KaAp suicided!
+[18:58:50] SG_KaAp respawned Themself
+[18:58:50] SG_KaAp: !forcerespawn sG_kaap
+[18:59:17] SG_KaAp suicided!
+[18:59:19] SG_KaAp respawned Themself
+[18:59:19] SG_KaAp: !forcerespawn sG_kaap
+[18:59:38] SG_KaAp suicided!
+[18:59:40] SG_KaAp respawned Themself
+[18:59:40] SG_KaAp: !forcerespawn sG_kaap
+[18:59:53] SG_KaAp suicided!
+[18:59:53] SG_KaAp respawned Themself
+[18:59:53] SG_KaAp: !forcerespawn sG_kaap
+[19:00:01] SG_KaAp suicided!
+[19:00:03] SG_KaAp respawned Themself
+[19:00:03] SG_KaAp: !forcerespawn sG_kaap
+[19:00:19] SG_KaAp suicided!
+[19:00:21] SG_KaAp respawned Themself
+[19:00:21] (TEAM) SG_KaAp: !forcerespawn sG_kaap
+[19:00:52] SG_KaAp suicided!
+[19:00:55] SG_KaAp respawned Themself
+[19:00:55] SG_KaAp: !forcerespawn sG_kaap
+[19:00:58] SG_KaAp suicided!
+[19:00:58] SG_KaAp respawned Themself
+[19:00:58] SG_KaAp: !forcerespawn sG_kaap
+[19:02:49] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 318 seconds).
+[19:03:28] unk1l suicided!
+[19:04:00] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[19:04:01] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[19:04:02] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[19:04:02] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[19:04:03] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[19:04:03] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[19:05:03] unk1l suicided!
+[19:05:08] unk1l: да ты твар
+[19:05:28] SG_KaAp suicided!
+[19:05:28] SG_KaAp suicided!
+[19:05:37] unk1l: у меня не робит гс
+[19:06:04] unk1l suicided!
+[19:06:06] unk1l: че скачать
+[19:06:13] unk1l: чече
+[19:06:19] unk1l: !noclip
+[19:06:21] unk1l: !noclip
+[19:07:10] SG_KaAp suicided!
+[19:07:10] SG_KaAp suicided!
+[19:07:15] SG_KaAp: !menu\
+[19:07:18] SG_KaAp: !menu
+[19:07:33] unk1l suicided!
+[19:07:49] unk1l: !noclip
+[19:07:53] unk1l: !noclip
+[19:08:09] Client "PISSLord35" connected.
+[19:08:44] SG_KaAp suicided!
+[19:09:19] SG_KaAp suicided!
+[19:09:35] unk1l: !noclip
+[19:09:36] unk1l: !noclip
+[19:09:48] unk1l: !noclip
+[19:09:49] unk1l: !noclip
+[19:09:52] unk1l: !noclip
+[19:09:57] unk1l: !noclip
+[19:10:03] unk1l suicided!
+[19:11:09] SG_KaAp suicided!
+[19:11:10] Client "flyisik" connected.
+[19:11:27] unk1l: !noclip
+[19:11:31] unk1l: !noclip
+[19:11:46] unk1l: !noclip
+[19:11:48] unk1l: !noclip
+[19:11:49] SG_KaAp: !menu
+[19:11:56] unk1l suicided!
+[19:11:59] SG_KaAp: !menu
+[19:12:19] SG_KaAp changed the map to gm_school with gamemode homigrad
+[19:12:19] Server is shutting down/changing levels.
+
+
+
+[19:12:28] New map: gm_school
+[19:12:49] Client "flyisik" connected.
+[19:12:54] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 30 seconds).
+[19:12:57] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 33 seconds).
+[19:13:09] SG_KaAp: !levelnext hideandseek
+[19:13:12] SG_KaAp: !levelrandom 0
+[19:13:42] unk1l suicided!
+[19:13:52] SG_KaAp suicided!
+[19:14:09] unk1l: !noclip
+[19:14:10] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 81 seconds).
+[19:14:16] unk1l: !noclip
+[19:14:26] Client "•Rampa|Lada•" connected.
+[19:14:32] unk1l: !noclip
+[19:14:36] unk1l: !noclip
+[19:14:38] SG_KaAp suicided!
+[19:14:48] unk1l: ТА ВСИСЛЕ
+[19:14:50] unk1l: ЭТО НЕ Я
+[19:14:53] SG_KaAp suicided!
+[19:14:53] unk1l: эта неп я
+[19:14:54] unk1l: эта неп я
+[19:14:57] unk1l: это не я
+[19:15:09] unk1l suicided!
+[19:15:47] SG_KaAp set Themself's model to models/player/osaka_pm/osaka_pm.mdl with colors R:255, G:255, B:255
+[19:15:52] flyisik: dddddd
+[19:16:06] flyisik<STEAM_0:0:716276782> spawned sent ent_jack_gmod_ezarmor_balmask
+[19:16:16] flyisik: !noclip
+[19:16:19] flyisik: !noclip
+[19:17:46] flyisik suicided!
+[19:17:46] unk1l suicided!
+[19:18:00] unk1l suicided!
+[19:18:19] (TEAM) flyisik: !noclip
+[19:18:23] flyisik: !noclip
+[19:18:45] SG_KaAp suicided!
+[19:19:15] unk1l suicided!
+[19:19:15] unk1l suicided!
+[19:19:19] unk1l: ватафак
+[19:19:25] SG_KaAp suicided!
+[19:19:26] flyisik suicided!
+[19:19:32] unk1l: двое искателей бля
+[19:19:47] SG_KaAp killed unk1l using wep
+[19:19:51] unk1l: та вы чо ахуели
+[19:19:57] flyisik suicided!
+[19:20:17] unk1l suicided!
+[19:20:44] SG_KaAp suicided!
+[19:21:33] unk1l suicided!
+[19:21:33] SG_KaAp suicided!
+[19:21:39] SG_KaAp suicided!
+[19:21:39] unk1l suicided!
+[19:21:39] flyisik suicided!
+[19:22:09] Server is shutting down/changing levels.
+
+
+
+[19:22:16] New map: de_nuke
+[19:22:16] Server is shutting down/changing levels.
+
+
+
+[19:22:23] New map: de_nuke
+[19:22:23] Client "SG_KaAp" connected.
+[19:22:23] Client "SG_KaAp" connected.
+[19:22:23] Client "unk1l" connected.
+[19:22:23] Client "unk1l" connected.
+[19:22:23] Client "flyisik" connected.
+[19:23:04] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 41 seconds).
+[19:23:16] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 53 seconds).
+[19:23:21] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 58 seconds).
+[19:23:32] unk1l: !levelend
+[19:23:48] flyisik suicided!
+[19:23:50] unk1l: !forcerespawn unk1l
+[19:23:59] flyisik: !levelend
+[19:24:02] unk1l: пизде
+[19:24:36] Server is shutting down/changing levels.
+
+
+
+[19:25:05] New map: gm_bbicotka_hmcd
+[19:25:06] Client "unk1l" connected.
+[19:25:09] Client "SG_KaAp" connected.
+[19:25:24] Client "flyisik" connected.
+[19:25:27] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 21 seconds).
+[19:25:43] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 34 seconds).
+[19:26:00] unk1l: !noclip
+[19:26:04] unk1l: !noclip
+[19:26:23] SG_KaAp suicided!
+[19:26:23] SG_KaAp respawned Themself
+[19:26:26] SG_KaAp: !noclip
+[19:26:30] unk1l: !noclip
+[19:26:31] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 67 seconds).
+[19:26:33] unk1l: !noclip
+[19:26:42] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70beanbag
+[19:26:43] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:44] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:45] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:45] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:46] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:46] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[19:26:47] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:47] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:47] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:48] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:26:50] unk1l: !noclip
+[19:26:51] SG_KaAp: !noclip
+[19:26:51] unk1l: !noclip
+[19:26:58] SG_KaAp: !kill
+[19:27:00] SG_KaAp suicided!
+[19:27:16] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[19:27:19] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:19] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:19] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:19] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:20] Client "Lemon says oh  shoot" connected.
+[19:27:20] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:21] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:22] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:22] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:23] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:27:43] unk1l killed SG_KaAp using player
+[19:27:44] flyisik: !noclip
+[19:27:55] (TEAM) flyisik: !noclip
+[19:28:12] unk1l suicided!
+[19:28:19] unk1l: да откдуа бля
+[19:28:32] flyisik suicided!
+[19:28:46] unk1l suicided!
+[19:28:48] unk1l: ты ахуел
+[19:28:56] Client "Lemon says oh  shoot" connected.
+[19:28:59] flyisik suicided!
+[19:28:59] unk1l slayed flyisik
+[19:28:59] unk1l: !slay flyisik
+[19:29:19] unk1l suicided!
+[19:29:20] Client "c4s | qRRaz11cHHH" connected.
+[19:29:23] unk1l: та ты твар
+[19:29:26] SG_KaAp banned unk1l for 10 minute(s) (pidoras)
+[19:29:29] unk1l: ЧЕЕЕЕ
+[19:29:43] SG_KaAp suicided!
+[19:29:44] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 24 seconds).
+[19:29:54] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:29:55] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:29:55] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:29:55] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:29:57] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:29:58] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:29:58] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_12/70gauge
+[19:30:13] flyisik suicided!
+[19:30:50] unk1l suicided!
+[19:32:11] SG_KaAp banned unk1l for 10 minute(s) (pidoras)
+[19:32:17] flyisik banned unk1l for 10 minutes (pidoras)
+[19:32:17] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[19:32:30] Client "unk1l" connected.
+[19:32:37] SG_KaAp: !unban unk1l
+[19:32:51] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 21 seconds).
+[19:32:53] flyisik suicided!
+[19:33:01] SG_KaAp: !noclip
+[19:33:05] c4s | qRRaz11cHHH suicided!
+[19:33:29] flyisik suicided!
+[19:33:57] SG_KaAp: !noclip
+[19:34:00] SG_KaAp: !noclip
+[19:34:00] c4s | qRRaz11cHHH suicided!
+[19:34:27] SG_KaAp: !noclip
+[19:34:31] unk1l suicided!
+[19:34:31] unk1l suicided!
+[19:34:33] unk1l: да ты чмо
+[19:34:35] unk1l: флейсик
+[19:35:18] Client "batonic1234" connected.
+[19:35:23] Client "SKIBIDI" connected.
+[19:35:38] flyisik: Игрок batonic1234 вступает в игру
+Игрок SKIBIDI вступает в игру
+[19:35:57] unk1l: !noclip
+[19:35:59] unk1l: !noclip
+[19:36:35] c4s | qRRaz11cHHH suicided!
+[19:36:41] unk1l suicided!
+[19:37:15] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 499 seconds).
+[19:37:21] Client "PISSLord35" connected.
+[19:37:33] flyisik suicided!
+[19:37:33] flyisik suicided!
+[19:37:36] unk1l: шот фаер
+[19:37:36] unk1l: шот фаер
+[19:37:37] unk1l: шот фаер
+[19:37:38] unk1l suicided!
+[19:37:44] unk1l: шот фаер флейсик
+[19:37:50] SG_KaAp: Все, арбузить запрещаю
+[19:38:27] Lemon says oh  shoot suicided!
+[19:38:34] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 196 seconds).
+[19:39:20] SG_KaAp suicided!
+[19:39:29] unk1l: туда
+[19:39:33] flyisik suicided!
+[19:39:37] unk1l suicided!
+[19:39:45] unk1l: хахахаха
+[19:40:45] batonic1234 suicided!
+[19:40:46] SG_KaAp teleported to flyisik
+[19:40:48] unk1l suicided!
+[19:41:07] Client "Tallowy" connected.
+[19:41:18] c4s | qRRaz11cHHH suicided!
+[19:41:21] flyisik suicided!
+[19:41:32] SG_KaAp suicided!
+[19:42:00] SG_KaAp teleported to flyisik
+[19:42:03] SG_KaAp teleported to batonic1234
+[19:42:14] SG_KaAp: !levelnext hl2dm
+[19:42:35] flyisik suicided!
+[19:42:49] unk1l suicided!
+[19:42:54] unk1l: флейсик снят
+[19:42:56] unk1l: админ абуз
+[19:43:08] SG_KaAp: !menu
+[19:43:40] Lemon says oh  shoot: лоз
+[19:43:46] batonic1234 suicided!
+[19:44:47] SG_KaAp suicided!
+[19:44:47] batonic1234 suicided!
+[19:44:57] Lemon says oh  shoot suicided!
+[19:45:19] unk1l: ох шит
+[19:45:21] unk1l: они сдохли
+[19:45:21] flyisik killed unk1l using player
+[19:46:31] c4s | qRRaz11cHHH suicided!
+[19:46:31] c4s | qRRaz11cHHH suicided!
+[19:46:35] flyisik suicided!
+[19:46:35] batonic1234 suicided!
+[19:46:35] batonic1234 suicided!
+[19:46:38] unk1l: ХАХАХАХАХА
+[19:46:42] unk1l: Я ИХ ГРАНАТОЙ ЕБНУЛ
+[19:47:12] Lemon says oh  shoot: Это свой сукаа
+[19:47:16] Client "Tallowy" spawned in server <STEAM_0:0:566748849> (took 369 seconds).
+[19:47:27] unk1l suicided!
+[19:47:42] Client "PISSLord35" spawned in server <STEAM_0:0:795491646> (took 621 seconds).
+[19:47:47] Client "кицка моя любима" connected.
+[19:47:50] c4s | qRRaz11cHHH suicided!
+[19:48:13] SG_KaAp suicided!
+[19:48:25] Lemon says oh  shoot suicided!
+[19:48:31] unk1l suicided!
+[19:48:31] SG_KaAp suicided!
+[19:48:31] flyisik suicided!
+[19:48:31] Lemon says oh  shoot suicided!
+[19:48:31] c4s | qRRaz11cHHH suicided!
+[19:48:31] batonic1234 suicided!
+[19:48:31] PISSLord35 suicided!
+[19:48:31] Tallowy suicided!
+[19:48:32] Lemon says oh  shoot: за что
+[19:48:56] Client "ꑭdeity falls" connected.
+[19:49:01] Server is shutting down/changing levels.
+
+
+
+[19:49:06] New map: ttt_greenhouse
+[19:49:07] Server is shutting down/changing levels.
+
+
+
+[19:49:12] New map: ttt_greenhouse
+[19:49:13] Client "Tallowy" connected.
+[19:49:13] Client "batonic1234" connected.
+[19:49:13] Client "c4s | qRRaz11cHHH" connected.
+[19:49:13] Client "unk1l" connected.
+[19:49:13] Client "ꑭdeity falls" connected.
+[19:49:13] Client "SG_KaAp" connected.
+[19:49:13] Client "flyisik" connected.
+[19:49:13] Client "Lemon says oh  shoot" connected.
+[19:49:13] Client "PISSLord35" connected.
+[19:49:27] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 14 seconds).
+[19:49:28] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 15 seconds).
+[19:49:34] Client "Tallowy" spawned in server <STEAM_0:0:566748849> (took 21 seconds).
+[19:49:38] Client "SKIBIDI" connected.
+[19:49:39] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 26 seconds).
+[19:49:39] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 26 seconds).
+[19:49:46] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 33 seconds).
+[19:49:53] Client "PISSLord35" spawned in server <STEAM_0:0:795491646> (took 40 seconds).
+[19:49:57] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 44 seconds).
+[19:50:16] PISSLord35: мне ноги оторвали и в жопу запихнули
+[19:50:22] c4s | qRRaz11cHHH suicided!
+[19:50:32] Lemon says oh  shoot: админы
+[19:50:45] PISSLord35: ай
+[19:50:51] SG_KaAp suicided!
+[19:50:51] c4s | qRRaz11cHHH suicided!
+[19:50:51] flyisik suicided!
+[19:51:03] Lemon says oh  shoot: KaAp
+[19:51:05] PISSLord35 suicided!
+[19:51:09] Lemon says oh  shoot: Как адинку мполучить
+[19:51:11] batonic1234 suicided!
+[19:51:15] Tallowy suicided!
+[19:51:36] Lemon says oh  shoot: ХВАТИТ
+[19:51:54] Lemon says oh  shoot: ДА СУКА
+[19:51:56] SG_KaAp: !menu
+[19:52:17] Lemon says oh  shoot suicided!
+[19:52:17] SG_KaAp: !menuОбход блокировки Discord: https://github.com/Flowseal/zapret-discord-youtube/releases
+[19:52:22] unk1l suicided!
+[19:52:22] Lemon says oh  shoot: мда
+[19:52:23] PISSLord35: мужчина какие красивые у вас ножки
+[19:52:33] batonic1234 suicided!
+[19:53:13] Tallowy suicided!
+[19:53:20] PISSLord35: мужык
+[19:53:24] PISSLord35: ты жывой?
+[19:53:34] flyisik<STEAM_0:0:716276782> spawned vehicle models/source_vehicles/car004a.mdl
+[19:53:34] PISSLord35: давайте я вам писюн подправлю
+[19:54:15] PISSLord35 suicided!
+[19:54:17] Lemon says oh  shoot suicided!
+[19:54:50] PISSLord35: меня соблазнил красивый лисый мужчина своим нежным голоском про хомячка и ножои
+[19:54:54] PISSLord35: ножом*
+[19:56:30] c4s | qRRaz11cHHH suicided!
+[19:56:33] PISSLord35: умри
+[19:56:51] PISSLord35: прыгай
+[19:56:55] flyisik suicided!
+[19:56:55] flyisik suicided!
+[19:57:01] SG_KaAp suicided!
+[19:57:01] SG_KaAp suicided!
+[19:57:09] Tallowy suicided!
+[19:57:33] c4s | qRRaz11cHHH suicided!
+[19:57:35] batonic1234 suicided!
+[19:57:39] PISSLord35: вы меня напугали мисс
+[19:57:43] Client "lario" connected.
+[19:57:44] PISSLord35: чо
+[19:57:48] PISSLord35: блят
+[19:57:49] Lemon says oh  shoot: лол
+[19:58:01] PISSLord35 suicided!
+[19:58:05] Lemon says oh  shoot suicided!
+[19:58:05] unk1l: соло
+[19:58:05] Lemon says oh  shoot: уебаны сука тупые
+[19:58:06] unk1l: ез
+[19:58:08] unk1l suicided!
+[19:58:11] PISSLord35: как я в небо взлетел
+[19:58:16] Lemon says oh  shoot: админы
+[19:58:35] unk1l<STEAM_0:1:460734357> spawned vehicle models/source_vehicles/car003a.mdl
+[19:58:53] Client "lario" spawned in server <STEAM_0:1:600372492> (took 70 seconds).
+[19:58:55] Client "Foning" connected.
+[19:58:58] PISSLord35: обученый бегать пизды не получит
+[19:59:32] unk1l: купил в автосалоне
+[19:59:46] flyisik suicided!
+[19:59:50] Lemon says oh  shoot suicided!
+[20:00:05] lario: не хватит
+[20:00:35] unk1l suicided!
+[20:00:35] unk1l suicided!
+[20:00:43] Client "Foning" spawned in server <STEAM_0:0:635118415> (took 108 seconds).
+[20:00:47] lario suicided!
+[20:00:52] Lemon says oh  shoot suicided!
+[20:00:57] PISSLord35: ебать
+[20:01:10] Lemon says oh  shoot suicided!
+[20:01:18] flyisik suicided!
+[20:01:18] c4s | qRRaz11cHHH killed lario using player
+[20:01:19] Foning suicided!
+[20:01:34] PISSLord35 suicided!
+[20:01:42] batonic1234 suicided!
+[20:01:43] c4s | qRRaz11cHHH suicided!
+[20:01:45] unk1l suicided!
+[20:01:48] Tallowy suicided!
+[20:01:50] SG_KaAp suicided!
+[20:01:59] SG_KaAp: !menu
+[20:02:07] SG_KaAp removed all access rights from unk1l
+[20:02:08] unk1l suicided!
+[20:02:08] batonic1234 suicided!
+[20:02:08] batonic1234 suicided!
+[20:02:08] Foning suicided!
+[20:02:17] unk1l: а че блять
+[20:02:19] PISSLord35: хуй
+[20:02:19] unk1l: за что
+[20:02:30] lario: пихекцд
+[20:02:31] lario: беги
+[20:02:31] lario: нахуй
+[20:02:32] SG_KaAp suicided!
+[20:02:33] Tallowy suicided!
+[20:02:34] lario: дальбабе
+[20:02:35] c4s | qRRaz11cHHH suicided!
+[20:02:45] PISSLord35 suicided!
+[20:02:45] PISSLord35 suicided!
+[20:02:48] flyisik suicided!
+[20:02:58] Lemon says oh  shoot suicided!
+[20:03:03] lario suicided!
+[20:03:03] lario suicided!
+[20:03:13] SG_KaAp suicided!
+[20:03:13] SG_KaAp suicided!
+[20:03:16] flyisik suicided!
+[20:03:17] flyisik suicided!
+[20:03:21] Tallowy suicided!
+[20:04:13] batonic1234 suicided!
+[20:04:18] unk1l suicided!
+[20:04:46] c4s | qRRaz11cHHH suicided!
+[20:04:56] SG_KaAp: !menu
+[20:05:01] SG_KaAp added unk1l to group admin
+[20:05:04] Lemon says oh  shoot: А
+[20:05:07] PISSLord35 suicided!
+[20:05:13] Lemon says oh  shoot: Чел
+[20:05:13] c4s | qRRaz11cHHH: !menu
+[20:05:17] Lemon says oh  shoot: Кап
+[20:05:20] Foning suicided!
+[20:05:23] PISSLord35: а какие клавишы клавы за что отвечают
+[20:05:25] PISSLord35: как лазить
+[20:05:31] Lemon says oh  shoot: Как админку
+[20:05:44] Tallowy suicided!
+[20:05:48] batonic1234 suicided!
+[20:05:48] PISSLord35 suicided!
+[20:05:49] Foning suicided!
+[20:05:49] Foning suicided!
+[20:05:57] Lemon says oh  shoot suicided!
+[20:05:57] Lemon says oh  shoot suicided!
+[20:06:00] c4s | qRRaz11cHHH suicided!
+[20:06:00] c4s | qRRaz11cHHH suicided!
+[20:06:07] lario suicided!
+[20:06:07] lario suicided!
+[20:06:12] flyisik suicided!
+[20:06:12] flyisik suicided!
+[20:06:17] unk1l suicided!
+[20:06:18] PISSLord35: жоскей
+[20:06:26] Lemon says oh  shoot: Кап а как запулучить админку
+[20:06:33] Lemon says oh  shoot: Кап а как запулучить админку
+[20:06:36] Tallowy suicided!
+[20:06:37] unk1l suicided!
+[20:06:42] lario suicided!
+[20:06:57] flyisik suicided!
+[20:06:57] c4s | qRRaz11cHHH suicided!
+[20:07:04] Lemon says oh  shoot suicided!
+[20:07:15] Foning suicided!
+[20:07:39] Client "Gart1n" connected.
+[20:07:50] SG_KaAp suicided!
+[20:07:59] Lemon says oh  shoot: как админку получить?
+[20:08:00] PISSLord35: я покакал
+[20:08:12] c4s | qRRaz11cHHH suicided!
+[20:08:32] Lemon says oh  shoot: У меня
+[20:08:36] Lemon says oh  shoot: Телефон
+[20:08:42] Lemon says oh  shoot: Веревикация
+[20:08:42] Client "SKIBIDI" spawned in server <STEAM_0:1:608560606> (took 1144 seconds).
+[20:08:44] Lemon says oh  shoot: Не робит
+[20:08:59] lario suicided!
+[20:09:20] batonic1234 suicided!
+[20:09:39] Dropped "lario" from server<STEAM_0:1:600372492>
+[20:09:47] Lemon says oh  shoot: Я не вижу канал с
+[20:10:06] Client "pokumeka" connected.
+[20:10:27] SG_KaAp suicided!
+[20:10:29] flyisik suicided!
+[20:10:45] unk1l suicided!
+[20:10:52] Lemon says oh  shoot: ЭЭЭ
+[20:11:05] Lemon says oh  shoot: НУ ЧТО ЗА ХУЕСОСЫ БЛЯТЬ
+[20:11:10] Lemon says oh  shoot: Как играть
+[20:11:13] Client "Бот стори" connected.
+[20:11:23] PISSLord35: блять
+[20:11:25] PISSLord35: как встать
+[20:11:33] SG_KaAp: fka
+[20:11:35] SG_KaAp: fake
+[20:11:59] Tallowy suicided!
+[20:12:00] unk1l suicided!
+[20:12:06] PISSLord35 suicided!
+[20:12:08] batonic1234 suicided!
+[20:12:15] PISSLord35: как вставать
+[20:12:20] SKIBIDI suicided!
+[20:12:36] PISSLord35: есть гайд как играть я просто на одном месте падают даже не знаю как встать
+[20:12:41] Client "Sebas" connected.
+[20:12:42] Tallowy: в концоль пропеши bind f fake
+[20:12:48] SG_KaAp granted access "ulx setmodel" to group admin
+[20:12:51] Client "rafaebelem2020" connected.
+[20:13:36] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[20:13:36] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[20:13:36] Dropped "Foning" from server<STEAM_0:0:635118415>
+[20:13:36] Foning suicided!
+[20:13:36] Dropped "flyisik" from server<STEAM_0:0:716276782>
+[20:13:36] flyisik suicided!
+[20:13:36] Dropped "Tallowy" from server<STEAM_0:0:566748849>
+[20:13:36] Dropped "PISSLord35" from server<STEAM_0:0:795491646>
+[20:13:36] SG_KaAp suicided!
+[20:13:36] SG_KaAp revoked access "ulx setmodel" to group admin
+[20:13:37] SG_KaAp: !menu
+[20:13:38] Client "Foning" connected.
+[20:13:40] Client "flyisik" connected.
+[20:13:43] Client "PISSLord35" connected.
+[20:13:52] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:13:52] c4s | qRRaz11cHHH suicided!
+[20:13:52] Client "c4s | qRRaz11cHHH" connected.
+[20:13:57] SKIBIDI suicided!
+[20:13:57] SG_KaAp suicided!
+[20:13:57] Lemon says oh  shoot suicided!
+[20:14:06] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 14 seconds).
+[20:14:11] Client "PISSLord35" spawned in server <STEAM_0:0:795491646> (took 28 seconds).
+[20:14:11] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 31 seconds).
+[20:14:14] Client "Foning" spawned in server <STEAM_0:0:635118415> (took 36 seconds).
+[20:14:16] SG_KaAp granted access "ulx setmodel" to group admin
+[20:14:22] Dropped "SKIBIDI" from server<STEAM_0:1:608560606>
+[20:14:27] Server is shutting down/changing levels.
+
+
+
+[20:14:39] New map: gm_sentimental98v1
+[20:14:42] Server is shutting down/changing levels.
+
+
+
+[20:14:50] New map: gm_sentimental98v1
+[20:14:52] Client "Foning" connected.
+[20:14:52] Client "Foning" connected.
+[20:14:52] Client "SG_KaAp" connected.
+[20:14:52] Client "SG_KaAp" connected.
+[20:14:52] Client "c4s | qRRaz11cHHH" connected.
+[20:14:52] Client "c4s | qRRaz11cHHH" connected.
+[20:14:52] Client "flyisik" connected.
+[20:14:52] Client "flyisik" connected.
+[20:14:52] Client "PISSLord35" connected.
+[20:14:52] Client "PISSLord35" connected.
+[20:14:52] Client "unk1l" connected.
+[20:14:52] Client "unk1l" connected.
+[20:14:52] Client "Lemon says oh  shoot" connected.
+[20:14:52] Client "Lemon says oh  shoot" connected.
+[20:14:52] Client "Sebas" connected.
+[20:14:52] Client "Sebas" connected.
+[20:14:52] Client "rafaebelem2020" connected.
+[20:14:52] Client "rafaebelem2020" connected.
+[20:14:52] Client "Gart1n" connected.
+[20:14:52] Client "Gart1n" connected.
+
+
+
+[20:15:35] New map: gm_bbicotka_hmcd
+[20:15:36] Client "c4s | qRRaz11cHHH" connected.
+[20:15:36] Client "c4s | qRRaz11cHHH" connected.
+[20:15:37] Client "c4s | qRRaz11cHHH" connected.
+[20:15:45] Client "unk1l" connected.
+[20:15:52] Client "flyisik" connected.
+[20:15:52] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 15 seconds).
+[20:15:56] Client "SKIBIDI" connected.
+[20:16:06] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 21 seconds).
+[20:16:18] unk1l: !menu
+[20:16:34] unk1l changed the map to gm_school
+[20:16:34] Server is shutting down/changing levels.
+
+
+
+[20:16:44] New map: gm_school
+[20:16:45] Client "c4s | qRRaz11cHHH" connected.
+[20:16:58] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 13 seconds).
+[20:16:59] Client "Raiden Kitrov" connected.
+[20:17:05] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 25 seconds).
+[20:17:23] unk1l: !levelnext hide and seek
+[20:17:28] unk1l: !levelnext hide
+[20:17:33] Client "SG_KaAp" connected.
+[20:17:55] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[20:17:55] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 75 seconds).
+[20:18:30] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[20:18:31] unk1l suicided!
+[20:18:31] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:18:31] c4s | qRRaz11cHHH suicided!
+[20:18:32] Client "c4s | qRRaz11cHHH" connected.
+[20:18:32] Client "Lemon says oh  shoot" connected.
+[20:18:32] flyisik: !menu\
+[20:18:32] SG_KaAp: !levelnext hideandseek
+[20:18:34] flyisik: !menu
+[20:18:44] SG_KaAp: !levelrandom 0
+[20:18:56] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 24 seconds).
+[20:19:54] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:19:54] Server is shutting down/changing levels.
+
+
+
+[20:20:38] New map: gm_bbicotka_hmcd
+[20:20:40] Client "c4s | qRRaz11cHHH" connected.
+[20:20:40] Client "c4s | qRRaz11cHHH" connected.
+[20:20:40] Client "c4s | qRRaz11cHHH" connected.
+[20:20:45] Client "flyisik" connected.
+[20:20:55] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 15 seconds).
+[20:21:06] Client "Lemon says oh  shoot" connected.
+[20:21:09] Client "SG_KaAp" connected.
+[20:21:23] c4s | qRRaz11cHHH: !MENU
+[20:21:28] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 19 seconds).
+[20:21:36] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 30 seconds).
+[20:21:36] SG_KaAp: !menu
+[20:21:41] c4s | qRRaz11cHHH suicided!
+[20:21:41] c4s | qRRaz11cHHH suicided!
+[20:21:45] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 60 seconds).
+[20:23:08] c4s | qRRaz11cHHH suicided!
+[20:23:08] Lemon says oh  shoot suicided!
+[20:24:09] Client "batonic1234" connected.
+[20:24:11] flyisik suicided!
+[20:24:36] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 27 seconds).
+[20:24:39] Lemon says oh  shoot suicided!
+[20:24:41] SG_KaAp suicided!
+[20:25:20] batonic1234 suicided!
+[20:25:20] batonic1234 suicided!
+[20:25:35] Client "lario" connected.
+[20:26:02] SG_KaAp suicided!
+[20:26:05] SG_KaAp: !menu
+[20:26:07] Client "lario" spawned in server <STEAM_0:1:600372492> (took 32 seconds).
+[20:26:39] c4s | qRRaz11cHHH suicided!
+[20:26:39] c4s | qRRaz11cHHH suicided!
+[20:26:39] flyisik suicided!
+[20:27:29] lario suicided!
+[20:27:33] lario: алле нахуй
+[20:27:36] lario: как вы не сдохли
+[20:27:37] lario: блять
+[20:28:03] SG_KaAp suicided!
+[20:28:14] Lemon says oh  shoot: k
+[20:28:19] Lemon says oh  shoot: ляж
+[20:28:23] Lemon says oh  shoot: баг
+[20:28:56] SG_KaAp respawned Themself
+[20:29:08] SG_KaAp set Themself's model to models/player/gman_high.mdl with colors R:255, G:255, B:255
+[20:29:12] SG_KaAp: !noclip
+[20:29:16] SG_KaAp: !noclip
+[20:29:19] Lemon says oh  shoot suicided!
+[20:29:31] SG_KaAp suicided!
+[20:29:40] SG_KaAp respawned Themself
+[20:29:46] SG_KaAp set Themself's model to models/player/gman_high.mdl with colors R:255, G:255, B:255
+[20:29:49] SG_KaAp: !noclip
+[20:29:49] flyisik<STEAM_0:0:716276782> spawned model models/props_borealis/bluebarrel001.mdl
+[20:29:58] SG_KaAp: !noclip
+[20:30:44] SG_KaAp suicided!
+[20:30:45] SG_KaAp respawned Themself
+[20:30:45] SG_KaAp: !forcerespawn sg_kaap
+[20:30:47] SG_KaAp: !noclip
+[20:30:52] SG_KaAp set Themself's model to models/player/gman_high.mdl with colors R:255, G:255, B:255
+[20:30:56] c4s | qRRaz11cHHH suicided!
+[20:30:56] c4s | qRRaz11cHHH suicided!
+[20:30:57] SG_KaAp: !noclip
+[20:31:12] SG_KaAp suicided!
+[20:31:12] SG_KaAp respawned Themself
+[20:31:13] batonic1234 suicided!
+[20:31:15] Lemon says oh  shoot suicided!
+[20:31:22] Lemon says oh  shoot: нахуй админы в стену
+[20:31:30] SG_KaAp: !noclip
+[20:31:37] (TEAM) SG_KaAp: !noclip
+[20:31:39] SG_KaAp: !menu
+[20:31:46] batonic1234 suicided!
+[20:31:46] SG_KaAp brought c4s | qRRaz11cHHH
+[20:31:54] SG_KaAp: !noclip
+[20:31:58] Lemon says oh  shoot: меня
+[20:32:02] lario: афк 9999999
+[20:32:10] SG_KaAp: !noclip
+[20:32:19] SG_KaAp: !noclip
+[20:32:20] SG_KaAp: !menu
+[20:32:21] SG_KaAp brought c4s | qRRaz11cHHH
+[20:32:25] SG_KaAp: !menu
+[20:32:26] SG_KaAp brought c4s | qRRaz11cHHH
+[20:32:30] SG_KaAp teleported c4s | qRRaz11cHHH
+[20:32:34] (TEAM) SG_KaAp: !noclip
+[20:32:34] c4s | qRRaz11cHHH suicided!
+[20:32:40] SG_KaAp: !noclip
+[20:32:42] batonic1234 suicided!
+[20:32:42] SG_KaAp: !menu
+[20:32:45] (SILENT) SG_KaAp Respawned c4s | qRRaz11cHHH
+[20:32:48] SG_KaAp brought c4s | qRRaz11cHHH
+[20:34:13] Lemon says oh  shoot: Ты еблан
+[20:34:38] Lemon says oh  shoot: тварь ебаня
+[20:34:44] Lemon says oh  shoot: Админ абузит
+[20:34:47] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:34:47] SG_KaAp suicided!
+[20:35:27] Client "..." connected.
+[20:35:45] Client "Tallowy" connected.
+[20:35:47] *** flyisik начал щекотать
+[20:36:10] Client "Tallowy" spawned in server <STEAM_0:0:566748849> (took 25 seconds).
+[20:36:14] batonic1234 suicided!
+[20:36:43] Dropped "flyisik" from server<STEAM_0:0:716276782>
+[20:36:43] flyisik suicided!
+[20:37:03] Dropped "lario" from server<STEAM_0:1:600372492>
+[20:37:31] Client "SG_KaAp" connected.
+[20:37:55] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 24 seconds).
+[20:38:03] SG_KaAp: !menu
+[20:39:17] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:39:17] c4s | qRRaz11cHHH suicided!
+[20:39:17] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:39:17] Dropped "Tallowy" from server<STEAM_0:0:566748849>
+[20:39:17] Client "SG_KaAp" connected.
+[20:39:17] Client "c4s | qRRaz11cHHH" connected.
+[20:39:17] Client "Gart1n" connected.
+[20:39:19] Client "c4s | qRRaz11cHHH" connected.
+[20:39:47] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 30 seconds).
+[20:39:48] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 29 seconds).
+[20:40:15] SG_KaAp: !menu
+[20:40:25] SG_KaAp: Discord: https://discord.gg/MCsdQEMmgs
+[20:40:37] Client "lario" connected.
+[20:40:43] Dropped "Lemon says oh  shoot" from server<STEAM_0:0:709713214>
+[20:40:43] Lemon says oh  shoot suicided!
+[20:40:43] Client "Lemon says oh  shoot" connected.
+[20:40:47] c4s | qRRaz11cHHH suicided!
+[20:41:19] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 36 seconds).
+[20:41:23] Client "lario" spawned in server <STEAM_0:1:600372492> (took 46 seconds).
+[20:41:30] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[20:41:30] batonic1234 suicided!
+[20:41:31] Client "batonic1234" connected.
+[20:41:45] Client "..." spawned in server <STEAM_0:0:795582610> (took 378 seconds).
+[20:41:55] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 24 seconds).
+[20:41:59] lario: заткнись
+[20:42:00] lario: нахуй
+[20:42:14] Dropped "lario" from server<STEAM_0:1:600372492>
+[20:42:14] lario suicided!
+[20:42:41] Client "Coплячок" connected.
+[20:43:32] Client "lario" connected.
+[20:43:44] c4s | qRRaz11cHHH suicided!
+[20:44:10] Client "lario" spawned in server <STEAM_0:1:600372492> (took 38 seconds).
+[20:44:33] SG_KaAp suicided!
+[20:44:36] Lemon says oh  shoot suicided!
+[20:45:40] Client "flyisik" connected.
+[20:45:53] Dropped "lario" from server<STEAM_0:1:600372492>
+[20:45:53] lario suicided!
+[20:46:22] Client "lario" connected.
+[20:46:41] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 61 seconds).
+[20:46:47] SG_KaAp suicided!
+[20:46:47] Client "lario" spawned in server <STEAM_0:1:600372492> (took 25 seconds).
+[20:47:45] lario suicided!
+[20:47:46] Lemon says oh  shoot suicided!
+[20:48:19] c4s | qRRaz11cHHH suicided!
+[20:48:19] c4s | qRRaz11cHHH suicided!
+[20:48:23] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:48:37] ... suicided!
+[20:48:42] SG_KaAp suicided!
+[20:48:42] Lemon says oh  shoot suicided!
+[20:48:42] ... suicided!
+[20:48:42] batonic1234 suicided!
+[20:48:42] flyisik suicided!
+[20:48:42] lario suicided!
+[20:49:12] Server is shutting down/changing levels.
+
+
+
+[20:49:24] New map: de_tides
+[20:49:27] Server is shutting down/changing levels.
+
+
+
+[20:49:34] New map: de_tides
+[20:49:35] Client "SG_KaAp" connected.
+[20:49:35] Client "SG_KaAp" connected.
+[20:49:35] Client "batonic1234" connected.
+[20:49:35] Client "batonic1234" connected.
+[20:49:35] Client "..." connected.
+[20:49:35] Client "..." connected.
+[20:49:35] Client "flyisik" connected.
+[20:49:35] Client "flyisik" connected.
+[20:49:35] Client "lario" connected.
+[20:49:35] Client "lario" connected.
+[20:49:35] Client "Lemon says oh  shoot" connected.
+[20:49:35] Client "Lemon says oh  shoot" connected.
+[20:49:35] Client "Gart1n" connected.
+[20:49:35] Client "Gart1n" connected.
+[20:49:51] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 16 seconds).
+[20:49:58] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 23 seconds).
+[20:49:58] Client "lario" spawned in server <STEAM_0:1:600372492> (took 23 seconds).
+[20:50:11] lario set Themself's model to models/monolithservers/mpd/female_05.mdl with colors R:255, G:255, B:255
+[20:50:15] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 40 seconds).
+[20:50:16] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 41 seconds).
+[20:50:27] batonic1234 suicided!
+[20:50:34] SG_KaAp suicided!
+[20:50:37] Client "..." spawned in server <STEAM_0:0:795582610> (took 62 seconds).
+[20:50:38] lario suicided!
+[20:51:27] lario set Themself's model to models/rashkinsk/fsin/parad/parad_04.mdl with colors R:255, G:255, B:255
+[20:51:44] flyisik suicided!
+[20:51:48] batonic1234 suicided!
+[20:52:08] lario: а как он сдох
+[20:52:25] lario suicided!
+[20:52:26] Dropped "lario" from server<STEAM_0:1:600372492>
+[20:52:42] SG_KaAp suicided!
+[20:52:45] Lemon says oh  shoot suicided!
+[20:53:19] ... suicided!
+[20:53:20] Lemon says oh  shoot suicided!
+[20:53:34] ... suicided!
+[20:54:03] flyisik suicided!
+[20:54:18] batonic1234 suicided!
+[20:54:31] Client "секс-министр" connected.
+[20:55:02] SG_KaAp suicided!
+[20:55:04] Client "Barsik2421" connected.
+[20:55:08] Lemon says oh  shoot: иди нахуй
+[20:55:17] Lemon says oh  shoot: еблан сука хватит кидать в стену
+[20:55:21] batonic1234 killed ... using player
+[20:55:34] SG_KaAp suicided!
+[20:56:04] flyisik suicided!
+[20:56:09] Lemon says oh  shoot suicided!
+[20:56:11] Client "mlh-smhッ" connected.
+[20:56:23] (TEAM) ...: JJJJJJJJJJJJJ4
+[20:56:58] (TEAM) ...: P
+[20:57:11] batonic1234 suicided!
+[20:57:46] Lemon says oh  shoot suicided!
+[20:57:52] Client "Gart1n" spawned in server <STEAM_0:1:187453064> (took 497 seconds).
+[20:58:09] SG_KaAp suicided!
+[20:58:55] SG_KaAp: не вставай
+[20:59:17] flyisik suicided!
+[20:59:21] Lemon says oh  shoot suicided!
+[20:59:23] *** SG_KaAp выполнил воинское приветствие
+[20:59:44] Client "♛NïkmΛn:3 /A4Tech★" connected.
+[21:00:06] Client "gordnAfremn" connected.
+[21:01:49] Lemon says oh  shoot suicided!
+[21:02:02] SG_KaAp voted for gm_trainride_v1 (1/3)
+[21:02:09] Gart1n: афк 9999999
+[21:02:19] flyisik suicided!
+[21:02:34] Client "Reggie" connected.
+[21:02:39] Lemon says oh  shoot voted for gm_trainride_v1 (2/3)
+[21:02:39] Lemon says oh  shoot: !votemap 71
+[21:02:50] Lemon says oh  shoot killed batonic1234 using player
+[21:03:07] flyisik suicided!
+[21:03:50] Lemon says oh  shoot suicided!
+[21:03:50] Lemon says oh  shoot suicided!
+[21:03:53] SG_KaAp suicided!
+[21:04:24] SG_KaAp suicided!
+[21:04:24] SG_KaAp suicided!
+[21:04:30] Client "EmeraldFox" connected.
+[21:05:11] batonic1234 suicided!
+[21:05:11] batonic1234 suicided!
+[21:05:38] ... suicided!
+[21:05:39] flyisik suicided!
+[21:05:56] flyisik: !menu
+[21:06:13] flyisik started a votemap for de_school2
+[21:06:15] SG_KaAp suicided!
+[21:06:15] SG_KaAp suicided!
+[21:06:17] Lemon says oh  shoot voted for: No
+[21:06:17] batonic1234 voted for: No
+[21:06:20] ... suicided!
+[21:06:20] ... suicided!
+[21:06:27] batonic1234 suicided!
+[21:06:27] batonic1234 suicided!
+[21:06:33] Vote results: Vote was unsuccessful.
+[21:06:45] SG_KaAp suicided!
+[21:06:48] SG_KaAp: !menu
+[21:07:01] SG_KaAp started a vote (Менять)
+[21:07:01] SG_KaAp: !vote Менять карту на шкилу?
+[21:07:02] batonic1234 voted for: карту
+[21:07:03] flyisik voted for: карту
+[21:07:04] Lemon says oh  shoot voted for: карту
+[21:07:04] ... suicided!
+[21:07:08] Gart1n voted for: карту
+[21:07:18] SG_KaAp voted for: карту
+[21:07:21] Vote results: Option 'карту' won. (5/6)
+[21:07:58] SG_KaAp voted for gm_trainride_v1 (2/3)
+[21:08:01] Dropped "..." from server<STEAM_0:0:795582610>
+[21:08:02] batonic1234 suicided!
+[21:08:02] batonic1234 suicided!
+[21:08:11] flyisik voted for gm_trainride_v1 (3/3)
+[21:08:11] Votemap for gm_trainride_v1 won. Pending admin veto.
+[21:08:11] flyisik: !votemap 71
+[21:08:13] Lemon says oh  shoot: мнея
+[21:08:19] Lemon says oh  shoot suicided!
+[21:08:40] batonic1234 suicided!
+[21:08:41] Server is shutting down/changing levels.
+
+
+
+[21:08:48] New map: gm_trainride_v1
+[21:09:09] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 24 seconds).
+[21:09:12] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 27 seconds).
+[21:09:21] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 36 seconds).
+[21:09:46] Client "Gart1n" spawned in server <STEAM_0:1:187453064> (took 61 seconds).
+[21:09:52] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 67 seconds).
+[21:10:11] Client "MR DRAGONS XD" connected.
+[21:10:30] SG_KaAp suicided!
+[21:10:33] flyisik was killed by trigger_hurt
+[21:11:04] Lemon says oh  shoot: Прив
+[21:11:09] Gart1n was killed by trigger_hurt
+[21:11:20] Client "Blackwhite" connected.
+[21:11:23] SG_KaAp set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:12:09] Lemon says oh  shoot was killed by trigger_hurt
+[21:12:22] Client "MR DRAGONS XD" connected.
+[21:12:55] SG_KaAp suicided!
+[21:13:08] flyisik: !menu
+[21:13:15] flyisik set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:13:19] SG_KaAp was killed by trigger_hurt
+[21:13:24] flyisik set batonic1234's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:13:24] flyisik set Lemon says oh  shoot's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:13:25] flyisik set Gart1n's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:13:29] flyisik suicided!
+[21:13:45] batonic1234 suicided!
+[21:14:02] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:14:37] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:14:43] Lemon says oh  shoot suicided!
+[21:14:44] Gart1n suicided!
+[21:15:49] flyisik: !menu
+[21:15:50] flyisik set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:15:57] flyisik set batonic1234's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:15:58] flyisik set Gart1n's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:16:04] flyisik suicided!
+[21:16:06] Client "mlh-smhッ" spawned in server <STEAM_0:0:162256501> (took 441 seconds).
+[21:16:12] SG_KaAp started a vote (Шкулшут?)
+[21:16:13] Lemon says oh  shoot voted for: Да
+[21:16:14] flyisik voted for: Нет
+[21:16:14] batonic1234 suicided!
+[21:16:15] Gart1n voted for: Да
+[21:16:21] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 239 seconds).
+[21:16:25] batonic1234 voted for: Да
+[21:16:27] SG_KaAp voted for: Да
+[21:16:32] Vote results: Option 'Да' won. (4/6)
+[21:16:44] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:46] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:46] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:46] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:46] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:47] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:47] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:47] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:16:52] SG_KaAp suicided!
+[21:17:05] SG_KaAp changed the map to gm_school
+[21:17:05] Server is shutting down/changing levels.
+
+
+
+[21:17:12] New map: gm_school
+[21:17:32] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[21:17:35] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 26 seconds).
+[21:17:42] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 33 seconds).
+[21:17:48] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 39 seconds).
+[21:17:50] SG_KaAp: !levelnext hideandseek
+[21:17:56] SG_KaAp: !levelrandom 0
+[21:18:11] Client "mlh-smhッ" spawned in server <STEAM_0:0:162256501> (took 62 seconds).
+[21:18:33] batonic1234 suicided!
+[21:18:36] SG_KaAp: !menu
+[21:18:48] flyisik: !menu
+[21:19:03] flyisik set batonic1234's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:19:17] SG_KaAp suicided!
+[21:19:17] SG_KaAp suicided!
+[21:19:24] batonic1234 suicided!
+[21:19:30] flyisik suicided!
+[21:19:36] SG_KaAp suicided!
+[21:19:42] mlh-smhッ suicided!
+[21:19:42] flyisik suicided!
+[21:19:48] SG_KaAp suicided!
+[21:19:57] flyisik: !menu
+[21:19:58] flyisik set batonic1234's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[21:20:00] mlh-smhッ suicided!
+[21:20:01] batonic1234 suicided!
+[21:20:07] Lemon says oh  shoot suicided!
+[21:21:12] flyisik: !menu
+[21:21:19] Lemon says oh  shoot: !menu
+[21:22:00] Lemon says oh  shoot: !menu
+[21:22:10] batonic1234 suicided!
+[21:22:27] Lemon says oh  shoot to admins: Меня на спавне убило
+[21:22:36] Dropped "mlh-smhッ" from server<STEAM_0:0:162256501>
+[21:22:36] mlh-smhッ suicided!
+[21:22:51] Client "Tallowy" connected.
+[21:22:53] SG_KaAp suicided!
+[21:22:55] Lemon says oh  shoot suicided!
+[21:22:57] flyisik suicided!
+[21:22:59] flyisik suicided!
+[21:23:08] flyisik: !menu
+[21:23:13] Client "Tallowy" spawned in server <STEAM_0:0:566748849> (took 22 seconds).
+[21:23:27] flyisik: !menu
+[21:23:29] (SILENT) flyisik Respawned Themself
+[21:23:48] Lemon says oh  shoot: !menu
+[21:24:21] flyisik suicided!
+[21:24:22] Lemon says oh  shoot to admins: Ныска имбааааа
+[21:24:26] Lemon says oh  shoot to admins: Нычка
+[21:24:28] Client "..." connected.
+[21:24:37] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:39] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:39] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:40] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:40] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:40] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:41] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:41] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:41] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:42] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:42] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:42] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:43] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:43] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:43] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:44] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:44] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:44] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:45] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:45] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:46] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:46] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:46] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:47] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:47] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:47] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:48] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:48] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:48] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:49] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:49] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:49] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:49] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:50] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:50] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:50] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:50] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:50] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:51] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:51] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:51] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:52] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:52] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:52] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:52] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:53] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:53] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:53] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:53] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:54] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:54] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:54] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:54] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:54] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:55] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:55] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:55] Lemon says oh  shoot to batonic1234: Яйца
+[21:24:55] Lemon says oh  shoot to batonic1234: Яйца
+[21:25:00] Lemon says oh  shoot to batonic1234: Застрелис чел
+[21:25:04] Client "..." spawned in server <STEAM_0:0:795582610> (took 36 seconds).
+[21:25:05] Lemon says oh  shoot to batonic1234: Ты 1
+[21:25:09] Lemon says oh  shoot to batonic1234: иззо бага
+[21:25:16] Lemon says oh  shoot to batonic1234: bindd p suicide
+[21:25:27] ... suicided!
+[21:25:27] ... suicided!
+[21:25:30] Lemon says oh  shoot suicided!
+[21:25:36] SG_KaAp suicided!
+[21:25:36] Tallowy suicided!
+[21:25:37] Client "ишак" connected.
+[21:25:56] Lemon says oh  shoot: !menu
+[21:26:00] Lemon says oh  shoot to batonic1234: bindd p suicide
+[21:26:05] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:05] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:06] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:06] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:06] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:07] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:07] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:07] Lemon says oh  shoot to batonic1234: bind p suicide
+[21:26:09] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 32 seconds).
+[21:26:18] Lemon says oh  shoot to flyisik: ishak
+[21:26:20] Lemon says oh  shoot to flyisik: ishak
+[21:26:33] ишак: дарова всем
+[21:26:44] ишак: привет sg
+[21:27:08] ишак: понятно
+[21:27:11] ... suicided!
+[21:27:19] SG_KaAp respawned Themself
+[21:27:19] SG_KaAp: !forcerespawn sg_kaap
+[21:27:25] batonic1234 suicided!
+[21:27:25] SG_KaAp: !point red
+[21:27:26] SG_KaAp: !point red
+[21:27:29] SG_KaAp: !point red
+[21:27:40] SG_KaAp: !noclip
+[21:27:43] SG_KaAp: !noclip
+[21:27:47] SG_KaAp: !point blue
+[21:27:49] SG_KaAp: !noclip
+[21:27:52] Lemon says oh  shoot suicided!
+[21:27:52] SG_KaAp: !noclip
+[21:27:56] SG_KaAp: !point blue
+[21:27:58] SG_KaAp: !noclip
+[21:28:01] SG_KaAp: !noclip
+[21:28:15] SG_KaAp: !noclip
+[21:28:18] SG_KaAp: !noclip
+[21:28:20] SG_KaAp: !point blue
+[21:28:22] SG_KaAp: !noclip
+[21:28:26] SG_KaAp: !noclip
+[21:28:26] ... suicided!
+[21:28:28] SG_KaAp: !point blue
+[21:28:29] SG_KaAp: !noclip
+[21:28:33] SG_KaAp: !noclip
+[21:28:36] SG_KaAp: !point blue
+[21:28:37] SG_KaAp: !noclip
+[21:28:44] SG_KaAp: !noclip
+[21:28:46] SG_KaAp: !point blue
+[21:28:48] SG_KaAp: !noclip
+[21:28:56] SG_KaAp: !noclip
+[21:28:58] SG_KaAp: !point blue
+[21:28:58] ишак: захахаха
+[21:28:59] SG_KaAp: !noclip
+[21:29:02] SG_KaAp: !noclip
+[21:29:04] SG_KaAp: !point blue
+[21:29:05] SG_KaAp: !noclip
+[21:29:09] SG_KaAp: !noclip
+[21:29:11] SG_KaAp: !point blue
+[21:29:13] SG_KaAp: !noclip
+[21:29:19] SG_KaAp: !noclip
+[21:29:21] SG_KaAp: !point blue
+[21:29:22] SG_KaAp: !noclip
+[21:29:26] SG_KaAp: !noclip
+[21:29:27] flyisik suicided!
+[21:29:28] SG_KaAp: !point blue
+[21:29:29] SG_KaAp: !noclip
+[21:29:32] SG_KaAp: !noclip
+[21:29:34] SG_KaAp: !point blue
+[21:29:36] SG_KaAp: !noclip
+[21:29:39] SG_KaAp: !noclip
+[21:29:50] SG_KaAp suicided!
+[21:30:42] Lemon says oh  shoot suicided!
+[21:30:47] ... suicided!
+[21:30:50] Lemon says oh  shoot: плеермодельки
+[21:30:52] Lemon says oh  shoot: как
+[21:31:11] ишак: ты ахуел
+[21:31:21] ишак suicided!
+[21:31:34] (SILENT) ишак Respawned Themself
+[21:31:40] SG_KaAp set Themself's model to models/player/odessa.mdl with colors R:255, G:255, B:255
+[21:31:48] ишак: !noclip иш
+[21:31:49] Tallowy suicided!
+[21:31:51] (TEAM) ишак: '
+[21:31:54] ишак teleported to flyisik
+[21:31:58] Client "nome" connected.
+[21:32:05] ишак: jты не ахуел
+[21:32:16] ишак: ну за что ты меня убил
+[21:32:23] ишак: я потом кильнусь
+[21:32:25] ... suicided!
+[21:32:33] ишак: ладно
+[21:32:40] ишак suicided!
+[21:33:07] SG_KaAp: !menu
+[21:33:10] (SILENT) ишак Respawned Themself
+[21:33:10] flyisik suicided!
+[21:33:12] batonic1234 suicided!
+[21:33:18] SG_KaAp granted access "ulx setmodel" to group user
+[21:33:20] SG_KaAp revoked access "ulx setmodel" to group user
+[21:33:30] Tallowy suicided!
+[21:33:31] ишак: тчо
+[21:33:39] ишак: там челиу меня убивает
+[21:33:50] flyisik suicided!
+[21:34:09] ... suicided!
+[21:34:23] Lemon says oh  shoot suicided!
+[21:34:27] ишак suicided!
+[21:34:29] Lemon says oh  shoot: а как
+[21:34:33] Lemon says oh  shoot: я опять
+[21:34:48] (SILENT) ишак Respawned Themself
+[21:34:58] batonic1234 suicided!
+[21:35:01] ... suicided!
+[21:35:19] Tallowy suicided!
+[21:35:27] flyisik suicided!
+[21:35:27] flyisik suicided!
+[21:35:51] SG_KaAp suicided!
+[21:35:54] ишак suicided!
+[21:35:56] Lemon says oh  shoot suicided!
+[21:36:10] SG_KaAp set Themself's model to models/player/odessa.mdl with colors R:255, G:255, B:255
+[21:36:20] ...: г
+[21:36:20] Tallowy killed flyisik using player
+[21:36:31] ишак set Themself's model to models/player/odessa.mdl with colors R:255, G:255, B:255
+[21:36:43] ...: !menu
+[21:36:51] ... voted for ba_jail_hellsgamers_se_r2 (1/3)
+[21:36:54] Lemon says oh  shoot: !menu
+[21:36:57] ... suicided!
+[21:37:02] Lemon says oh  shoot voted for ba_jail_hellsgamers_se_r2 (2/3)
+[21:37:25] Lemon says oh  shoot to Tallowy: Чел на кухне!!!
+[21:37:25] Lemon says oh  shoot to Tallowy: Чел на кухне!!!
+[21:37:37] Lemon says oh  shoot to Tallowy: и на 2 этаже!!!
+[21:37:37] Lemon says oh  shoot to Tallowy: и на 2 этаже!!!
+[21:37:47] Client "nome" spawned in server <STEAM_0:1:765971289> (took 349 seconds).
+[21:38:23] Lemon says oh  shoot: Лох бля
+[21:38:24] ишак suicided!
+[21:38:38] Tallowy suicided!
+[21:38:43] batonic1234 suicided!
+[21:38:50] SG_KaAp set Themself's model to models/player/odessa.mdl with colors R:255, G:255, B:255
+[21:39:02] ишак set Themself's model to models/player/combine_super_soldier.mdl with colors R:255, G:255, B:255
+[21:39:18] ишак suicided!
+[21:39:20] nome suicided!
+[21:39:43] batonic1234 suicided!
+[21:39:57] Client "Jacob" connected.
+[21:40:15] flyisik suicided!
+[21:40:45] flyisik<STEAM_0:0:716276782> spawned model models/props_c17/oildrum001_explosive.mdl
+[21:40:45] ... suicided!
+[21:40:53] SG_KaAp suicided!
+[21:40:59] SG_KaAp suicided!
+[21:40:59] batonic1234 suicided!
+[21:40:59] Tallowy suicided!
+[21:40:59] flyisik suicided!
+[21:40:59] ... suicided!
+[21:40:59] Lemon says oh  shoot suicided!
+[21:40:59] ишак suicided!
+[21:40:59] nome suicided!
+[21:41:28] Server is shutting down/changing levels.
+
+
+
+[21:41:36] New map: cs_drugbust_winter
+[21:41:37] Server is shutting down/changing levels.
+
+
+
+[21:41:43] New map: cs_drugbust_winter
+[21:41:44] Client "nome" connected.
+[21:41:44] Client "Tallowy" connected.
+[21:41:44] Client "Jacob" connected.
+[21:41:44] Client "ишак" connected.
+[21:41:44] Client "batonic1234" connected.
+[21:41:44] Client "..." connected.
+[21:41:44] Client "Lemon says oh  shoot" connected.
+[21:41:44] Client "flyisik" connected.
+[21:41:44] Client "SG_KaAp" connected.
+[21:42:05] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 21 seconds).
+[21:42:07] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 23 seconds).
+[21:42:20] batonic1234 suicided!
+[21:42:22] Client "nome" spawned in server <STEAM_0:1:765971289> (took 38 seconds).
+[21:42:23] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 39 seconds).
+[21:42:35] Client "Tallowy" spawned in server <STEAM_0:0:566748849> (took 51 seconds).
+[21:42:42] Client "..." spawned in server <STEAM_0:0:795582610> (took 58 seconds).
+[21:42:43] Client "ишак" spawned in server <STEAM_0:1:663861216> (took 59 seconds).
+[21:42:43] Lemon says oh  shoot: стой
+[21:43:07] batonic1234 suicided!
+[21:43:23] nome suicided!
+[21:43:23] nome suicided!
+[21:43:30] Client "flyisik" spawned in server <STEAM_0:0:716276782> (took 106 seconds).
+[21:43:36] Lemon says oh  shoot suicided!
+[21:44:23] Lemon says oh  shoot: Giving flyisik a weapon_vape_dragon
+[21:44:24] Lemon says oh  shoot: Giving flyisik a weapon_vape_dragon
+[21:44:26] (TEAM) Lemon says oh  shoot: Giving flyisik a weapon_vape_dragon
+[21:44:40] Client "Jacob" spawned in server <STEAM_0:0:132341554> (took 176 seconds).
+[21:44:49] Tallowy suicided!
+[21:44:49] Tallowy suicided!
+[21:45:02] Client "Пирожено" connected.
+[21:45:04] ишак suicided!
+[21:45:07] batonic1234 suicided!
+[21:45:08] Lemon says oh  shoot: дау
+[21:45:13] Lemon says oh  shoot: Giving flyisik a weapon_vape_dragon
+[21:45:15] (TEAM) Lemon says oh  shoot: Giving flyisik a weapon_vape_dragon
+[21:45:38] Lemon says oh  shoot: лох
+[21:46:04] Client "S̵̳̦̋c̵̼̈́͗C̴̰͐̑à̶" connected.
+[21:46:27] Lemon says oh  shoot: даун сука
+[21:46:30] ишак: а за что лемон
+[21:46:34] Lemon says oh  shoot: хватит абузить
+[21:46:34] ишак: бьет всех
+[21:46:45] Lemon says oh  shoot: он абузит
+[21:46:50] flyisik suicided!
+[21:47:14] Lemon says oh  shoot: вааау
+[21:47:17] Client "kl1menko161" connected.
+[21:48:15] ... suicided!
+[21:48:21] nome suicided!
+[21:48:31] Lemon says oh  shoot: when models
+[21:48:57] nome suicided!
+[21:48:57] ... suicided!
+[21:48:57] Jacob suicided!
+[21:49:05] Lemon says oh  shoot: МОЯ КРЫША
+[21:49:27] Tallowy suicided!
+[21:49:49] flyisik suicided!
+[21:50:04] Client "Wasted" connected.
+[21:50:09] batonic1234 suicided!
+[21:50:11] ишак set Themself's model to models/rashkinsk/fsin/camo/camo_04.mdl with colors R:255, G:255, B:255
+[21:50:48] SG_KaAp set Themself's model to models/knyaje pack/sso_politepeople/sso_politepeople.mdl with colors R:255, G:255, B:255
+[21:51:04] ишак set Themself's model to models/player/combine_super_soldier.mdl with colors R:255, G:255, B:255
+[21:51:07] Jacob suicided!
+[21:51:33] SG_KaAp set Themself's model to models/monolithservers/mpd/male_02.mdl with colors R:255, G:255, B:255
+[21:51:36] flyisik: !noclip
+[21:51:38] SG_KaAp suicided!
+[21:51:40] flyisik: !noclip
+[21:51:45] Client "CTapbIU cock" connected.
+[21:51:49] Tallowy suicided!
+[21:51:49] batonic1234 suicided!
+[21:51:53] Tallowy: bind f fake
+[21:51:58] SG_KaAp: hg_playermodels
+[21:52:00] Lemon says oh  shoot: лох
+[21:52:10] flyisik suicided!
+[21:52:39] Lemon says oh  shoot: :fire:
+[21:52:43] ... suicided!
+[21:52:44] Lemon says oh  shoot suicided!
+[21:52:47] Lemon says oh  shoot: эм
+[21:52:53] Lemon says oh  shoot: А ок
+[21:52:59] Lemon says oh  shoot: bind g fake
+[21:53:12] Lemon says oh  shoot: bind g fake
+[21:53:14] Lemon says oh  shoot: bind g fake
+[21:53:15] Lemon says oh  shoot: bind g fake
+[21:53:17] Lemon says oh  shoot: bind g fake
+[21:53:31] nome suicided!
+[21:53:33] Lemon says oh  shoot: jgf
+[21:53:35] Lemon says oh  shoot: опа
+[21:53:55] ишак suicided!
+[21:53:59] batonic1234 suicided!
+[21:54:18] ишак: батоник
+[21:54:24] flyisik suicided!
+[21:54:24] ишак: извини
+[21:54:27] ишак: нет
+[21:54:38] ишак: за что
+[21:54:41] SG_KaAp suicided!
+[21:54:42] Client "kl1menko161" spawned in server <STEAM_0:0:547899537> (took 445 seconds).
+[21:54:51] ишак: я тебя тоже буду убивать
+[21:54:57] ишак: я
+[21:55:04] SG_KaAp: !menu
+[21:55:17] nome suicided!
+[21:55:17] nome suicided!
+[21:55:25] ишак: а за что ты меняч убил
+[21:55:28] ишак: ?
+[21:55:34] ишак: ахаххаа
+[21:55:40] ишак: только заспавнилисьт
+[21:55:44] Tallowy suicided!
+[21:55:59] ишак: ну он меня просто так сразу
+[21:56:13] Lemon says oh  shoot: Кап
+[21:56:14] Lemon says oh  shoot: е
+[21:56:18] Lemon says oh  shoot: А если я
+[21:56:24] Lemon says oh  shoot: видео на ютуб
+[21:56:27] Lemon says oh  shoot: бахать буду
+[21:56:34] Lemon says oh  shoot: Во
+[21:56:38] Lemon says oh  shoot: Я ролик пишу
+[21:56:43] Client "Wasted" spawned in server <STEAM_0:1:908619976> (took 399 seconds).
+[21:56:52] Client "Dr04iLa_Pr0_2006" connected.
+[21:57:18] kl1menko161 suicided!
+[21:57:28] Dropped "kl1menko161" from server<STEAM_0:0:547899537>
+[21:57:29] ишак: jw
+[21:57:31] ишак: ой
+[21:57:46] SG_KaAp suicided!
+[21:57:50] ишак: ой
+[21:57:53] ... suicided!
+[21:57:55] ишак: а че сним
+[21:58:00] ишак: с ним
+[21:58:03] Tallowy suicided!
+[21:58:04] ишак: незнаю
+[21:58:10] Lemon says oh  shoot suicided!
+[21:58:14] ишак: ну блиг
+[21:58:38] batonic1234 suicided!
+[21:58:38] ишак suicided!
+[21:58:52] ишак: нифига
+[21:58:59] ишак: куда флусик залез
+[22:00:06] Client "EgorKa" connected.
+[22:00:17] nome suicided!
+[22:00:31] flyisik suicided!
+[22:00:33] ишак: можно
+[22:00:50] Tallowy killed ... using player
+[22:01:11] Lemon says oh  shoot suicided!
+[22:01:34] ишак set Themself's model to models/player/oguzok.mdl with colors R:255, G:255, B:255
+[22:01:40] SG_KaAp set Themself's model to models/player/odessa.mdl with colors R:255, G:255, B:255
+[22:02:14] Dropped "Wasted" from server<STEAM_0:1:908619976>
+[22:02:14] Wasted suicided!
+[22:02:18] ишак suicided!
+[22:02:25] Client "k1rvin" connected.
+[22:02:50] nome suicided!
+[22:03:09] Jacob suicided!
+[22:03:22] SG_KaAp suicided!
+[22:03:47] Client "CTapbIU cock" spawned in server <STEAM_0:0:439939028> (took 722 seconds).
+[22:04:07] Dropped "CTapbIU cock" from server<STEAM_0:0:439939028>
+[22:04:42] batonic1234 suicided!
+[22:04:50] Lemon says oh  shoot: Имба раунд
+[22:05:03] Client "ByBarth" connected.
+[22:05:05] Lemon says oh  shoot: !menu
+[22:05:15] Lemon says oh  shoot to Tallowy: message
+[22:05:17] SG_KaAp started a vote (КончатьРаунд)
+[22:05:17] SG_KaAp: !vote КончатьРаунд да нет
+[22:05:18] Jacob voted for: да
+[22:05:18] ишак voted for: да
+[22:05:19] batonic1234 voted for: да
+[22:05:19] flyisik suicided!
+[22:05:19] nome voted for: да
+[22:05:21] Lemon says oh  shoot to Tallowy: Чел на вверху
+[22:05:22] flyisik voted for: нет
+[22:05:22] SG_KaAp voted for: да
+[22:05:24] Lemon says oh  shoot voted for: да
+[22:05:26] ... voted for: да
+[22:05:37] Vote results: Option 'да' won. (7/9)
+[22:05:46] flyisik suicided!
+[22:05:59] Jacob: hg_bodycam 1
+[22:06:06] Client "k1rvin" spawned in server <STEAM_0:1:538547922> (took 221 seconds).
+[22:06:06] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[22:06:19] Client "EgorKa" spawned in server <STEAM_0:0:834967869> (took 373 seconds).
+[22:06:46] Client "kl1menko161" connected.
+[22:06:50] ... suicided!
+[22:06:54] ишак suicided!
+[22:06:55] batonic1234 suicided!
+[22:07:03] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[22:07:23] Dropped "EgorKa" from server<STEAM_0:0:834967869>
+[22:07:23] EgorKa suicided!
+[22:07:25] ишак: !setmodel models/player/joe/k_pm.mdl
+[22:07:25] Lemon says oh  shoot: Я снимаю
+[22:07:30] Client "kl1menko161" spawned in server <STEAM_0:0:547899537> (took 44 seconds).
+[22:07:33] SG_KaAp suicided!
+[22:07:35] Lemon says oh  shoot suicided!
+[22:07:38] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:07:46] ишак set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[22:08:03] nome suicided!
+[22:08:32] ишак suicided!
+[22:08:50] kl1menko161 suicided!
+[22:08:50] kl1menko161 suicided!
+[22:09:05] Dropped "kl1menko161" from server<STEAM_0:0:547899537>
+[22:09:07] k1rvin suicided!
+[22:09:21] Dropped "k1rvin" from server<STEAM_0:1:538547922>
+[22:09:26] ... suicided!
+[22:09:28] Lemon says oh  shoot: Дарова!
+[22:09:34] Lemon says oh  shoot: Пиздец...
+[22:09:42] Lemon says oh  shoot: Руфим дальше!
+[22:09:54] batonic1234 suicided!
+[22:09:55] Jacob suicided!
+[22:10:08] ...: bind g fake
+[22:10:32] ...: ytt
+[22:10:40] ишак: !menu
+[22:10:56] Lemon says oh  shoot: фух..
+[22:11:08] flyisik suicided!
+[22:11:11] ишак started a vote (закончить раунд)
+[22:11:12] Jacob voted for: не
+[22:11:12] batonic1234 voted for: не
+[22:11:12] Lemon says oh  shoot voted for: не
+[22:11:13] flyisik voted for: дооо
+[22:11:13] ишак voted for: дооо
+[22:11:19] Lemon says oh  shoot: Ты где!
+[22:11:26] ...: !menu
+[22:11:31] Vote results: Option 'не' won. (3/8)
+[22:11:40] ... voted for cs_havana (1/4)
+[22:11:41] Tallowy suicided!
+[22:11:47] ишак: ну ладно\\\
+[22:12:19] ишак suicided!
+[22:12:19] Client "Murzynkiler88" connected.
+[22:12:23] (SILENT) ишак Respawned Themself
+[22:12:36] ишак suicided!
+[22:13:27] Lemon says oh  shoot: Кап
+[22:13:35] ... suicided!
+[22:13:43] batonic1234 suicided!
+[22:14:10] Lemon says oh  shoot suicided!
+[22:14:15] Lemon says oh  shoot: хаха
+[22:14:23] Lemon says oh  shoot: Это
+[22:14:27] Lemon says oh  shoot: Кап ты тут?
+[22:14:31] Lemon says oh  shoot: А
+[22:14:34] ишак: онт вышел
+[22:14:38] flyisik suicided!
+[22:14:42] ишак: ахахаха
+[22:14:43] Lemon says oh  shoot: Окей
+[22:14:57] Lemon says oh  shoot: Сын мияги
+[22:15:06] ишак: флусик
+[22:15:12] ишак: ты админ?
+[22:15:15] Lemon says oh  shoot: Да
+[22:15:19] Lemon says oh  shoot: Он админ
+[22:15:21] ишак: а
+[22:15:28] ишак: флусик реально
+[22:15:40] Dropped "Jacob" from server<STEAM_0:0:132341554>
+[22:15:41] Jacob suicided!
+[22:15:43] Dropped "ишак" from server<STEAM_0:1:663861216>
+[22:16:06] Dropped "flyisik" from server<STEAM_0:0:716276782>
+[22:16:52] Dropped "Tallowy" from server<STEAM_0:0:566748849>
+[22:16:52] Tallowy suicided!
+[22:16:52] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[22:16:52] Dropped "..." from server<STEAM_0:0:795582610>
+[22:16:58] Client "batonic1234" connected.
+[22:17:10] Client "SG_KaAp" connected.
+[22:17:17] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 19 seconds).
+[22:17:24] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 14 seconds).
+[22:17:42] Lemon says oh  shoot: Пиздить их
+[22:17:46] Lemon says oh  shoot: Чушпанов
+[22:18:01] Lemon says oh  shoot: ХАХАХАХ
+[22:19:10] Lemon says oh  shoot: Туда чушпана
+[22:19:44] *** Lemon says oh  shoot достал сигоретку
+[22:19:51] *** Lemon says oh  shoot закурил
+[22:20:01] Lemon says oh  shoot: Эй!
+[22:20:04] Lemon says oh  shoot: тихо
+[22:20:08] Lemon says oh  shoot: я сдамся
+[22:20:57] Lemon says oh  shoot: Я его прибил
+[22:22:12] nome suicided!
+[22:22:12] batonic1234 suicided!
+[22:22:12] SG_KaAp suicided!
+[22:22:12] Lemon says oh  shoot suicided!
+[22:22:24] Lemon says oh  shoot: Я пойду монтировать
+[22:22:26] Dropped "Lemon says oh  shoot" from server<STEAM_0:0:709713214>
+[22:22:42] Server is shutting down/changing levels.
+
+
+
+[22:22:58] New map: de_school
+[22:22:59] Server is shutting down/changing levels.
+
+
+
+[22:23:07] New map: de_school
+[22:23:29] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 22 seconds).
+[22:23:36] Client "nome" spawned in server <STEAM_0:1:765971289> (took 29 seconds).
+[22:23:36] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 29 seconds).
+[22:23:49] Client "PISSLord35" connected.
+[22:24:20] SG_KaAp: !levelrandom 0
+[22:24:27] SG_KaAp: !levelnext hideandseek
+[22:24:55] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[22:25:05] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[22:25:08] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[22:25:17] Client "порядок нормы" connected.
+[22:25:20] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[22:25:43] Client "PISSLord35" spawned in server <STEAM_0:0:795491646> (took 114 seconds).
+[22:25:56] Client "gOOD_ Must Live!" connected.
+[22:26:15] batonic1234 suicided!
+[22:26:23] PISSLord35: есть тутор по управлению? я даже не знаю как подняться
+[22:26:32] SG_KaAp suicided!
+[22:26:52] PISSLord35: СУКАА
+[22:26:56] PISSLord35: СУКААААААААААААААА
+[22:27:28] PISSLord35: ДА БЛЯЯ
+[22:27:31] batonic1234: я в сталовой
+[22:27:50] PISSLord35: сукааа
+[22:29:18] batonic1234: афк 9999999
+[22:29:26] SG_KaAp suicided!
+[22:29:26] SG_KaAp suicided!
+[22:29:34] PISSLord35: ui
+[22:29:38] PISSLord35: бляять
+[22:29:42] Client "Dr04iLa_Pr0_2006" spawned in server <STEAM_0:0:663877064> (took 395 seconds).
+[22:30:24] SG_KaAp suicided!
+[22:30:34] SG_KaAp respawned Themself
+[22:30:39] SG_KaAp: !noclip
+[22:30:46] SG_KaAp: !noclip
+[22:30:47] PISSLord35: спасите
+[22:30:52] SG_KaAp: !point exit
+[22:30:54] SG_KaAp: !point exit
+[22:30:59] PISSLord35: блять
+[22:30:59] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[22:31:05] SG_KaAp: !point exit
+[22:31:18] SG_KaAp suicided!
+[22:31:18] SG_KaAp respawned Themself
+[22:31:20] SG_KaAp: !point exit
+[22:31:28] SG_KaAp: !noclip
+[22:31:34] PISSLord35: блять
+[22:31:39] SG_KaAp: !noclip
+[22:31:39] PISSLord35: помогите
+[22:31:43] SG_KaAp: !point exit
+[22:31:47] Client "gOOD_ Must Live!" spawned in server <STEAM_0:0:536959314> (took 351 seconds).
+[22:32:07] SG_KaAp suicided!
+[22:32:09] SG_KaAp respawned Themself
+[22:32:09] SG_KaAp: !forcerespawn sg_Kaap
+[22:32:11] SG_KaAp: !noclip
+[22:32:16] SG_KaAp: !noclip
+[22:32:35] PISSLord35: блять
+[22:32:37] PISSLord35: админы спасите
+[22:32:38] SG_KaAp respawned Themself
+[22:32:38] SG_KaAp: !forcerespawn sg_Kaap
+[22:32:39] SG_KaAp: !noclip
+[22:32:49] PISSLord35: чо
+[22:32:50] SG_KaAp: !noclip
+[22:32:53] PISSLord35: спасите
+[22:32:59] PISSLord35: меня опять в стене заспавнило
+[22:33:08] PISSLord35 suicided!
+[22:33:10] nome suicided!
+[22:33:12] SG_KaAp: !noclip
+[22:33:18] PISSLord35: админ ты щовел
+[22:33:43] SG_KaAp: !point exit
+[22:35:48] nome suicided!
+[22:35:48] nome suicided!
+[22:36:49] Client "..." connected.
+[22:36:52] PISSLord35 suicided!
+[22:37:20] Dr04iLa_Pr0_2006 suicided!
+[22:37:39] Client "..." spawned in server <STEAM_0:0:795582610> (took 50 seconds).
+[22:37:44] (TEAM) Dr04iLa_Pr0_2006: Как в гс говорить?
+[22:38:09] SG_KaAp suicided!
+[22:39:19] Client "CTapbIU cock" connected.
+[22:39:32] Dr04iLa_Pr0_2006 suicided!
+[22:39:59] gOOD_ Must Live!: /name Ob ebos goreina
+[22:40:01] Client "CTapbIU cock" spawned in server <STEAM_0:0:439939028> (took 42 seconds).
+[22:40:57] Client "Otis potis" connected.
+[22:41:00] SG_KaAp suicided!
+[22:41:08] Client "ZYN" connected.
+[22:41:32] ... suicided!
+[22:41:32] ... suicided!
+[22:42:58] Client "Otis potis" spawned in server <STEAM_0:0:215293974> (took 121 seconds).
+[22:42:59] Client "ZYN" spawned in server <STEAM_0:1:509184367> (took 111 seconds).
+[22:43:07] gOOD_ Must Live! suicided!
+[22:43:35] Dropped "Otis potis" from server<STEAM_0:0:215293974>
+[22:43:45] SG_KaAp respawned Themself
+[22:43:48] SG_KaAp: !noclip
+[22:43:54] SG_KaAp: !noclip
+[22:44:09] PISSLord35: ты щовел?
+[22:44:11] Dropped "ZYN" from server<STEAM_0:1:509184367>
+[22:44:25] SG_KaAp suicided!
+[22:44:40] Dr04iLa_Pr0_2006 suicided!
+[22:44:56] SG_KaAp started a vote (РаундуКОНЧАТЬ)
+[22:44:56] SG_KaAp: !vote РаундуКОНЧАТЬ да Нет
+[22:44:58] nome voted for: Нет
+[22:44:58] SG_KaAp voted for: да
+[22:45:00] PISSLord35 voted for: да
+[22:45:03] Client "batonic1234" connected.
+[22:45:04] ... voted for: да
+[22:45:05] gOOD_ Must Live! voted for: да
+[22:45:11] CTapbIU cock voted for: да
+[22:45:16] Vote results: Option 'да' won. (5/7)
+[22:45:21] SG_KaAp: !levelend
+[22:45:26] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 23 seconds).
+[22:47:19] (TEAM) ...: RYTUIKOP[]
+[22:49:12] nome suicided!
+[22:49:25] (TEAM) ...: !MENU
+[22:49:39] ... voted for de_shanty_v3_fix (1/4)
+[22:50:01] SG_KaAp suicided!
+[22:50:06] ...: афк 9999999
+[22:50:42] PISSLord35: bind f fake
+[22:51:26] Client "NEXSTOR" connected.
+[22:51:33] gOOD_ Must Live!: афк 9999999
+[22:51:34] gOOD_ Must Live!: афк 9999999
+[22:53:58] gOOD_ Must Live!: da
+[22:54:14] SG_KaAp: !slay STEAM_0:0:439939028
+[22:54:18] SG_KaAp: !levelend
+[22:55:11] SG_KaAp suicided!
+[22:58:41] PISSLord35 suicided!
+[22:58:50] CTapbIU cock: афк 9999999
+[22:59:22] SG_KaAp: !noclip
+[22:59:27] SG_KaAp: !noclip
+[22:59:30] Dr04iLa_Pr0_2006 suicided!
+[22:59:59] CTapbIU cock: f
+[23:00:53] Client "Пирожено" spawned in server <STEAM_0:1:671099108> (took 2267 seconds).
+[23:01:34] SG_KaAp suicided!
+[23:03:36] PISSLord35 suicided!
+[23:03:48] Dropped "Пирожено" from server<STEAM_0:1:671099108>
+[23:03:48] Пирожено suicided!
+[23:03:54] Client "Пирожено" connected.
+[23:04:51] Client "Пирожено" spawned in server <STEAM_0:1:671099108> (took 57 seconds).
+[23:05:39] CTapbIU cock suicided!
+[23:06:11] ...: афк 9999999
+[23:06:24] PISSLord35 suicided!
+[23:06:43] Dr04iLa_Pr0_2006 suicided!
+[23:07:20] Client "порядок нормы" spawned in server <STEAM_0:1:459884165> (took 2523 seconds).
+[23:07:57] gOOD_ Must Live! suicided!
+[23:07:57] gOOD_ Must Live! suicided!
+[23:09:05] Client "SmokingDuck" connected.
+[23:09:54] PISSLord35: гшщшоргпнмр
+[23:10:10] gOOD_ Must Live! suicided!
+[23:10:56] Client "SmokingDuck" spawned in server <STEAM_0:1:50521254> (took 111 seconds).
+[23:11:21] Dropped "SmokingDuck" from server<STEAM_0:1:50521254>
+[23:11:21] SmokingDuck suicided!
+[23:11:24] SG_KaAp suicided!
+[23:11:57] ... suicided!
+[23:13:04] Пирожено suicided!
+[23:13:24] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[23:13:24] batonic1234 suicided!
+[23:13:48] CTapbIU cock suicided!
+[23:13:53] nome suicided!
+[23:15:00] PISSLord35 suicided!
+[23:15:45] PISSLord35 suicided!
+[23:15:47] ...: eru
+[23:15:47] Пирожено suicided!
+[23:15:51] SG_KaAp suicided!
+[23:16:15] Dropped "Пирожено" from server<STEAM_0:1:671099108>
+[23:16:56] порядок нормы suicided!
+[23:16:57] gOOD_ Must Live!: /kill
+[23:17:13] gOOD_ Must Live! suicided!
+[23:18:01] порядок нормы suicided!
+[23:18:10] Client "Lemon says oh  shoot" connected.
+[23:18:25] Dropped "..." from server<STEAM_0:0:795582610>
+[23:18:25] ... suicided!
+[23:18:51] nome suicided!
+[23:18:56] Dr04iLa_Pr0_2006 suicided!
+[23:19:01] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 51 seconds).
+[23:19:06] Client "ByBarth" connected.
+[23:20:12] Client "Morudekai" connected.
+[23:20:44] SG_KaAp suicided!
+[23:21:01] PISSLord35 suicided!
+[23:21:05] Lemon says oh  shoot killed порядок нормы using player
+[23:22:18] nome suicided!
+[23:22:32] Lemon says oh  shoot suicided!
+[23:22:44] CTapbIU cock suicided!
+[23:22:47] gOOD_ Must Live! suicided!
+[23:23:54] Lemon says oh  shoot set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[23:23:57] Dr04iLa_Pr0_2006 suicided!
+[23:24:09] Lemon says oh  shoot set Themself's model to models/rashkinsk/fsin/spetsnaz/spetsnaz_02.mdl with colors R:255, G:255, B:255
+[23:24:14] Lemon says oh  shoot suicided!
+[23:24:16] PISSLord35 suicided!
+[23:24:27] Lemon says oh  shoot set Themself's model to models/player/viktor/giga_chad.mdl with colors R:255, G:255, B:255
+[23:25:09] Dr04iLa_Pr0_2006 suicided!
+[23:25:11] SG_KaAp suicided!
+[23:25:53] Lemon says oh  shoot set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[23:26:09] nome suicided!
+[23:26:24] Lemon says oh  shoot suicided!
+[23:26:24] Lemon says oh  shoot suicided!
+[23:26:33] Lemon says oh  shoot: ХАХАХ
+[23:26:45] порядок нормы suicided!
+[23:26:46] Lemon says oh  shoot: На чем?
+[23:26:55] Lemon says oh  shoot suicided!
+[23:27:04] Lemon says oh  shoot: Так
+[23:27:10] Lemon says oh  shoot: Вы про какой сервер
+[23:27:24] Lemon says oh  shoot: номе
+[23:27:29] gOOD_ Must Live! suicided!
+[23:27:31] Lemon says oh  shoot: Про какой вы сервер
+[23:27:42] Lemon says oh  shoot: ОПа
+[23:27:48] Lemon says oh  shoot: Я
+[23:27:51] Lemon says oh  shoot: МОГУ
+ц
+[23:28:03] Lemon says oh  shoot: стой
+[23:28:10] Lemon says oh  shoot: кап
+[23:28:19] Lemon says oh  shoot suicided!
+[23:28:23] PISSLord35 suicided!
+[23:28:40] Client "САЛЯРА 712" connected.
+[23:28:48] Client "САЛЯРА 712" connected.
+[23:29:49] gOOD_ Must Live! suicided!
+[23:30:45] Lemon says oh  shoot set Themself's model to models/monolithservers/mpd/male_02_2.mdl with colors R:255, G:255, B:255
+[23:30:50] порядок нормы suicided!
+[23:30:58] Lemon says oh  shoot suicided!
+[23:31:03] Dr04iLa_Pr0_2006 suicided!
+[23:31:03] Dr04iLa_Pr0_2006 suicided!
+[23:31:09] SG_KaAp suicided!
+[23:31:09] nome suicided!
+[23:31:09] Dr04iLa_Pr0_2006 suicided!
+[23:31:09] PISSLord35 suicided!
+[23:31:09] порядок нормы suicided!
+[23:31:09] gOOD_ Must Live! suicided!
+[23:31:09] CTapbIU cock suicided!
+[23:31:13] Dropped "gOOD_ Must Live!" from server<STEAM_0:0:536959314>
+[23:31:18] Dropped "порядок нормы" from server<STEAM_0:1:459884165>
+[23:31:32] Client "SmokingDuck" connected.
+[23:31:39] Server is shutting down/changing levels.
+
+
+
+[23:31:47] New map: gm_mdach
+[23:31:48] Server is shutting down/changing levels.
+
+
+
+[23:31:54] New map: gm_mdach
+[23:31:55] Client "CTapbIU cock" connected.
+[23:31:55] Client "nome" connected.
+[23:31:55] Client "SG_KaAp" connected.
+[23:31:55] Client "SmokingDuck" connected.
+[23:31:55] Client "Dr04iLa_Pr0_2006" connected.
+[23:31:55] Client "PISSLord35" connected.
+[23:31:55] Client "Lemon says oh  shoot" connected.
+[23:32:22] Client "nome" spawned in server <STEAM_0:1:765971289> (took 27 seconds).
+[23:32:28] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 33 seconds).
+[23:32:42] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 47 seconds).
+[23:32:42] Client "CTapbIU cock" spawned in server <STEAM_0:0:439939028> (took 47 seconds).
+[23:32:56] Lemon says oh  shoot suicided!
+[23:32:58] Client "SmokingDuck" spawned in server <STEAM_0:1:50521254> (took 63 seconds).
+[23:33:27] Client "PISSLord35" spawned in server <STEAM_0:0:795491646> (took 92 seconds).
+[23:33:50] SmokingDuck suicided!
+[23:34:41] SG_KaAp set Themself's model to models/player/osaka_pm/osaka_pm.mdl with colors R:255, G:255, B:255
+[23:34:55] Client "reidar" connected.
+[23:35:46] Dropped "CTapbIU cock" from server<STEAM_0:0:439939028>
+[23:35:46] CTapbIU cock suicided!
+[23:35:51] Client "Dr04iLa_Pr0_2006" spawned in server <STEAM_0:0:663877064> (took 236 seconds).
+[23:35:52] SG_KaAp suicided!
+[23:36:49] nome suicided!
+[23:37:20] SmokingDuck suicided!
+[23:37:21] PISSLord35 suicided!
+[23:37:21] PISSLord35 suicided!
+[23:37:50] Dr04iLa_Pr0_2006 suicided!
+[23:39:01] Client "Daniilhohol" connected.
+[23:39:44] Client "SKIBIDI" connected.
+[23:40:02] Lemon says oh  shoot suicided!
+[23:40:04] SG_KaAp suicided!
+[23:40:13] SG_KaAp: !forcerespawn sg_kap
+[23:40:19] SG_KaAp respawned Themself
+[23:40:26] SG_KaAp: !noclip
+[23:40:36] Lemon says oh  shoot: я в спеках
+[23:40:37] SG_KaAp: !menu
+[23:40:47] SG_KaAp added Lemon says oh  shoot to group admin
+[23:40:52] PISSLord35 suicided!
+[23:40:54] SG_KaAp: !noclip
+[23:40:56] Lemon says oh  shoot respawned Themself
+[23:40:56] Lemon says oh  shoot: !forcerespawn ^
+[23:40:59] Lemon says oh  shoot: !noclip
+[23:41:00] Client "SKIBIDI" spawned in server <STEAM_0:1:608560606> (took 76 seconds).
+[23:41:05] SG_KaAp: !noclip
+[23:41:11] SG_KaAp: !noclip
+[23:41:21] Lemon says oh  shoot: Кхм
+[23:41:34] SG_KaAp granted god mode upon Themself
+[23:41:34] SG_KaAp: !god
+[23:41:37] Lemon says oh  shoot: Иммено хомиграда?
+[23:41:41] Lemon says oh  shoot granted god mode upon Themself
+[23:41:41] Lemon says oh  shoot: !god ^
+[23:41:51] Lemon says oh  shoot: nfr
+[23:41:54] Lemon says oh  shoot: так
+[23:41:57] PISSLord35 suicided!
+[23:42:06] Lemon says oh  shoot: Дс или хомиграда
+[23:42:22] Lemon says oh  shoot: Запрещено
+[23:42:32] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:42:33] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:42:34] Lemon says oh  shoot: Нарушать TDOS дискорда
+[23:42:36] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:42:38] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:42:46] Lemon says oh  shoot: В гс нельзя кричать
+[23:42:50] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:42:53] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:42:56] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:43:04] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/metal_paintcan001a.mdl
+[23:43:09] Sigma set Lemon says oh  shoot Name to Sigma
+[23:43:09] Sigma: !setname Lemon Sigma
+[23:43:20] SG_KaAp: !menu
+[23:43:30] Lemons shit set Sigma Name to Lemons shit
+[23:43:30] Lemons shit: !setname Sigma Lemons shit
+[23:43:39] Lemons shit: Воут?
+[23:43:55] Dropped "SmokingDuck" from server<STEAM_0:1:50521254>
+[23:43:55] SmokingDuck suicided!
+[23:44:16] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_combine/combine_fence01a.mdl
+[23:44:16] Lemons shit started a vote (Админ-ли-я?)
+[23:44:16] Lemons shit: !vote Админ-ли-я? Да Нет
+[23:44:18] Lemons shit voted for: Да
+[23:44:19] SKIBIDI voted for: Нет
+[23:44:20] SG_KaAp voted for: Да
+[23:44:20] PISSLord35 voted for: Нет
+[23:44:22] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_combine/combine_fence01a.mdl
+[23:44:25] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_combine/combine_fence01b.mdl
+[23:44:32] nome voted for: Да
+[23:44:36] Vote results: Option 'Да' won. (3/6)
+[23:44:49] PISSLord35: hn
+[23:44:51] nome suicided!
+[23:44:51] nome suicided!
+[23:44:55] Dr04iLa_Pr0_2006: афк 9999999
+[23:44:55] PISSLord35 suicided!
+[23:45:11] SG_KaAp suicided!
+[23:45:11] SG_KaAp slayed Themself
+[23:45:11] SG_KaAp: !slay ^
+[23:45:21] SG_KaAp respawned Themself
+[23:45:21] SG_KaAp: !forcerespawn sg_kaap
+[23:45:27] SG_KaAp respawned Themself
+[23:45:27] SG_KaAp: !forcerespawn sg_kaap
+[23:45:43] Lemons shit: !noclip ^
+[23:45:44] Lemons shit: !noclip ^
+[23:45:56] Lemons shit respawned Themself
+[23:45:56] Lemons shit: !forcerespawn ^
+[23:46:22] Lemons shit set Themself's model to models/player/group02/male_02.mdl with colors R:255, G:255, B:255
+[23:46:35] SG_KaAp set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[23:47:21] Lemons shit: Мне
+[23:47:22] Dropped "Dr04iLa_Pr0_2006" from server<STEAM_0:0:663877064>
+[23:47:24] Lemons shit: Киреешки
+[23:47:38] Lemons shit: Да?
+[23:47:50] SG_KaAp suicided!
+[23:48:05] Client "Dr04iLa_Pr0_2006" connected.
+[23:48:11] SKIBIDI suicided!
+[23:48:16] nome suicided!
+[23:48:20] Lemons shit: !noclip ^
+[23:49:02] Lemons shit suicided!
+[23:49:21] SKIBIDI suicided!
+[23:49:28] Client "Dr04iLa_Pr0_2006" spawned in server <STEAM_0:0:663877064> (took 83 seconds).
+[23:49:39] PISSLord35 suicided!
+[23:49:55] Lemons shit: !levels
+[23:50:11] Client "John" connected.
+[23:50:25] SKIBIDI suicided!
+[23:50:59] SG_KaAp suicided!
+[23:51:00] Dr04iLa_Pr0_2006 suicided!
+[23:51:02] SG_KaAp: !levelnext hideandseek
+[23:51:13] Client "Daniilhohol" spawned in server <STEAM_0:1:741045402> (took 732 seconds).
+[23:52:02] Lemons shit suicided!
+[23:52:02] Lemons shit exploded Themself
+[23:52:02] Lemons shit: !explode ^
+[23:52:33] PISSLord35 suicided!
+[23:52:54] Daniilhohol suicided!
+[23:53:05] Lemons shit set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[23:53:21] nome suicided!
+[23:53:23] Lemons shit suicided!
+[23:53:55] PISSLord35 suicided!
+[23:54:07] SG_KaAp suicided!
+[23:54:15] Lemons shit: Нифа
+[23:54:20] Lemons shit: !menu
+[23:54:26] Lemons shit: !levels
+[23:54:29] Lemons shit: !menu
+[23:54:33] Lemons shit voted for ba_jail_electric_vip_v2 (1/3)
+[23:54:35] Lemons shit started a votemap for ba_jail_electric_vip_v2
+[23:54:37] Lemons shit voted for: Yes
+[23:54:37] nome voted for: No
+[23:54:38] PISSLord35 voted for: Yes
+[23:54:39] SKIBIDI voted for: Yes
+[23:54:40] SG_KaAp voted for: No
+[23:54:40] Dr04iLa_Pr0_2006 voted for: Yes
+[23:54:45] Lemons shit: А хорошо
+[23:54:55] Vote results: Option 'Yes' won, changemap pending approval. (4/7)
+[23:54:58] Lemons shit voted for: Yes
+[23:54:58] Lemons shit approved the votemap
+[23:54:58] Server is shutting down/changing levels.
+
+
+
+[23:55:06] New map: ba_jail_electric_vip_v2
+[23:55:33] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 31 seconds).
+[23:55:41] Client "Lemon says oh  shoot" spawned in server <STEAM_0:0:709713214> (took 39 seconds).
+[23:55:53] Client "Daniilhohol" spawned in server <STEAM_0:1:741045402> (took 51 seconds).
+[23:55:58] Lemon says oh  shoot: !levelnext jailbreak
+[23:56:00] Client "nome" spawned in server <STEAM_0:1:765971289> (took 58 seconds).
+[23:56:03] Lemon says oh  shoot: !levelrandom 0
+[23:56:05] SG_KaAp: !levelrandom 0
+[23:56:05] Client "PISSLord35" spawned in server <STEAM_0:0:795491646> (took 63 seconds).
+[23:56:07] Lemon says oh  shoot: !levelend
+[23:56:09] Lemon says oh  shoot suicided!
+[23:56:22] Client "John" spawned in server <STEAM_0:1:245418790> (took 80 seconds).
+[23:56:39] Lemon says oh  shoot: !noclip ^
+[23:56:42] Lemon says oh  shoot: !noclip ^
+[23:57:07] Lemon says oh  shoot: !menu
+[23:57:21] Client "Dr04iLa_Pr0_2006" spawned in server <STEAM_0:0:663877064> (took 139 seconds).
+[23:57:31] Lemon says oh  shoot: кап
+[23:57:37] Lemon says oh  shoot: Много фсин
+[23:58:00] Lemon says oh  shoot: ф2
+[23:58:03] Lemon says oh  shoot: Другая
+[23:58:03] Daniilhohol suicided!
+[23:58:40] Dropped "John" from server<STEAM_0:1:245418790>
+[23:58:40] Dropped "PISSLord35" from server<STEAM_0:0:795491646>
+[23:58:40] PISSLord35 suicided!
+[23:58:40] Dropped "Daniilhohol" from server<STEAM_0:1:741045402>
+[23:58:41] Client "John" connected.
+[23:58:43] Client "PISSLord35" connected.
+[23:58:52] Lemon says oh  shoot: ДРУГЁ
+[23:59:01] Client "John" spawned in server <STEAM_0:1:245418790> (took 20 seconds).
+[23:59:04] Lemon says oh  shoot suicided!
+[23:59:11] Client "PISSLord35" spawned in server <STEAM_0:0:795491646> (took 28 seconds).
+[23:59:50] Lemon says oh  shoot started a vote (ф2-другая-команда)
+[23:59:50] Lemon says oh  shoot: !vote ф2-другая-команда ЗАШЛИ БЫСТРО
+[23:59:52] Lemon says oh  shoot voted for: ЗАШЛИ
+[23:59:53] SG_KaAp voted for: ЗАШЛИ
+[23:59:57] nome voted for: БЫСТРО
+<Logging continued in "data/ulx_logs/10-20-24.txt">

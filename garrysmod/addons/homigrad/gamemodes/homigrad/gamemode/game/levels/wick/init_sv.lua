@@ -10,7 +10,7 @@ local function makeT(ply)
 
     ply:Give("weapon_hg_rgd5")
 
-    local wep = ply:Give("weapon_ar15")
+    local wep = ply:Give("weapon_slb_g3sg1")
     wep:SetClip1(wep:GetMaxClip1())
     ply:GiveAmmo(2 * wep:GetMaxClip1(),wep:GetPrimaryAmmoType())
     ply.nopain = true
@@ -168,8 +168,4 @@ end
 
 function wick.GuiltLogic(ply,att,dmgInfo)
     return (not ply.roleT) == (not att.roleT) and 20 or 0
-end
-
-function wick.NoSelectRandom()
-    return #ReadDataMap("spawnpointswick") < 1
 end

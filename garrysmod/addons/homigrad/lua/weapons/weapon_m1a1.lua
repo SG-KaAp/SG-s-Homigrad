@@ -2,7 +2,8 @@ if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Scorpion vz. 68"
-SWEP.Instructions			= ""
+SWEP.Author = "Homigrad"
+SWEP.Instructions			= "Редкая экспортная модификация под патрон 9х19мм в пехотном исполнении, с фиксированным прикладом."
 SWEP.Category 				= "Оружие"
 
 SWEP.Spawnable 				= true

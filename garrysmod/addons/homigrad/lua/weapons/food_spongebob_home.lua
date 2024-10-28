@@ -3,7 +3,7 @@ SWEP.Base = 'weapon_base'
 AddCSLuaFile()
 
 SWEP.PrintName = "Банка ананасов"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Purpose = "Консервированные ананасы"
 SWEP.Category = "Вкусности"
 
@@ -85,7 +85,6 @@ function SWEP:PrimaryAttack()
 	self:GetOwner():SetAnimation(PLAYER_ATTACK1)
 
 	if(SERVER)then
-		self:GetOwner().hungryregen = self:GetOwner().hungryregen + 1
 		self:Remove()
 		sound.Play(healsound, self:GetPos(),75,100,0.5)
 		self:GetOwner():SelectWeapon("weapon_hands")

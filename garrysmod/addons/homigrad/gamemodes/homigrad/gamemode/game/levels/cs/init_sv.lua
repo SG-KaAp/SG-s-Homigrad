@@ -314,7 +314,6 @@ function css.PlayerSpawn(ply,teamID)
 	JMod.EZ_Equip_Armor(ply,(r == 1 and "Medium-Vest") or (r == 2 and "Light-Vest"),color)
 end
 
-function css.NoSelectRandom() return #ReadDataMap("control_point") < 1 end
 
 function css.PlayerInitialSpawn(ply) ply:SetTeam(math.random(2)) end
 

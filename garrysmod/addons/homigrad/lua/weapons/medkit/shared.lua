@@ -4,7 +4,7 @@ AddCSLuaFile()
 SWEP.Base = "weapon_base"
 
 SWEP.PrintName = "Аптечка"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Имеет в себе бинты и обезболивающие"
 
 SWEP.Spawnable = true

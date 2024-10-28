@@ -1,6 +1,6 @@
 DeriveGamemode("sandbox")
 
-GM.Name = "Homigrad"
+GM.Name = "homigrad"
 GM.Author = "loh"
 GM.Email = "N/A"
 GM.Website = "N/A"

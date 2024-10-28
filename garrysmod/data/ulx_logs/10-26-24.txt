@@ -1,0 +1,751 @@
+<Logging continued from "data/ulx_logs/10-25-24.txt">
+[00:32:20] Client "shawwyz" connected.
+[00:32:26] Client "sheiiki" connected.
+[00:36:43] Client "shawwyz" spawned in server <STEAM_0:1:442065004> (took 263 seconds).
+[00:41:46] Client "sheiiki" spawned in server <STEAM_0:0:829736996> (took 560 seconds).
+[00:42:14] sheiiki: афк 9999999
+[00:42:14] Dropped "sheiiki" from server<STEAM_0:0:829736996>
+[00:42:14] sheiiki suicided!
+[00:42:36] shawwyz: !r
+[00:42:43] Client "sheiiki" connected.
+[00:47:11] Dropped "shawwyz" from server<STEAM_0:1:442065004>
+[00:47:11] shawwyz suicided!
+[08:02:44] Client "c4s | qRRaz11cHHH" connected.
+[08:03:15] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 31 seconds).
+[08:03:34] c4s | qRRaz11cHHH respawned Themself
+[08:03:34] c4s | qRRaz11cHHH: !respawn c4s
+[08:03:47] c4s | qRRaz11cHHH suicided!
+[08:03:59] c4s | qRRaz11cHHH respawned Themself
+[08:03:59] c4s | qRRaz11cHHH: !frespawn c4s
+[08:04:18] c4s | qRRaz11cHHH: !noclip
+[08:04:45] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car005b_armored/vehicle.mdl
+[08:05:00] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car005b_armored/vehicle.mdl
+[08:05:07] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car004a.mdl
+[08:05:19] c4s | qRRaz11cHHH: !noclip
+[08:05:37] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car005a.mdl
+[08:05:45] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[08:05:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/cranes/crane_frame.mdl
+[08:05:58] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/props_c17/furnituremattress001a.mdl
+[08:06:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_c17/furnituredrawer001a.mdl
+[08:07:41] c4s | qRRaz11cHHH: !noclip
+[08:08:32] Client "Martliad" connected.
+[08:13:18] c4s | qRRaz11cHHH: !levelend
+[08:13:49] c4s | qRRaz11cHHH respawned Themself
+[08:13:49] c4s | qRRaz11cHHH: !respawn c4s
+[08:14:27] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:14:31] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_maze
+[08:14:46] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:14:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[08:15:10] c4s | qRRaz11cHHH suicided!
+[08:15:15] c4s | qRRaz11cHHH: !res me
+[08:15:25] c4s | qRRaz11cHHH: !fres c4s
+[08:15:36] c4s | qRRaz11cHHH respawned Themself
+[08:15:36] c4s | qRRaz11cHHH: !frespawn c4s
+[08:15:47] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testhuman
+[08:16:04] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[08:16:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testhuman
+[08:16:43] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_headcrab
+[08:16:45] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_zombie
+[08:16:47] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testsprite
+[08:16:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_antlion
+[08:16:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_combine_s
+[08:17:13] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:17:16] c4s | qRRaz11cHHH suicided!
+[08:17:26] c4s | qRRaz11cHHH cleaned up map
+[08:17:26] c4s | qRRaz11cHHH: !cleanmap
+[08:17:36] c4s | qRRaz11cHHH respawned Themself
+[08:17:36] c4s | qRRaz11cHHH: !respawn c4s
+[08:17:45] c4s | qRRaz11cHHH: !noclip
+[08:17:51] (TEAM) c4s | qRRaz11cHHH: !noclip
+[08:18:10] (TEAM) c4s | qRRaz11cHHH: !noclip
+[08:19:07] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/kleiner.mdl
+[08:22:36] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hlthigh
+[08:22:37] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hrthigh
+[08:22:37] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hlthigh
+[08:22:44] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_maska
+[08:22:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezmoab
+[08:23:23] c4s | qRRaz11cHHH: bomb
+[08:23:47] (TEAM) c4s | qRRaz11cHHH: !noclip
+[08:24:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eztimebomb
+[08:24:31] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eznuke_small
+[08:24:52] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eznuke
+[08:25:43] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eznuke
+[08:25:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezimpactnade
+[08:26:06] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezincendiarybomb
+[08:26:32] (TEAM) c4s | qRRaz11cHHH: !noclip
+[08:26:36] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eznavalmine
+[08:26:44] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezlandmine
+[08:26:58] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/alyx.mdl
+[08:27:12] c4s | qRRaz11cHHH предоставил режим бога Themself
+[08:27:12] c4s | qRRaz11cHHH: !god c4s
+[08:28:20] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezatmine
+[08:28:36] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/barney.mdl
+[08:28:59] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/vortigaunt_slave.mdl
+[08:29:09] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eztnt
+[08:29:27] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eznuke_big
+[08:30:02] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezpowderkeg
+[08:30:30] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eztnt
+[08:30:57] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_eztnt
+[08:31:18] c4s | qRRaz11cHHH suicided!
+[08:33:15] c4s | qRRaz11cHHH cleaned up map
+[08:33:15] (TEAM) c4s | qRRaz11cHHH: !cleanmap
+[08:33:25] (TEAM) c4s | qRRaz11cHHH: !frespawn
+[08:33:35] c4s | qRRaz11cHHH respawned Themself
+[08:33:35] (TEAM) c4s | qRRaz11cHHH: !frespawn c4s
+[08:33:45] (TEAM) c4s | qRRaz11cHHH: !noclip
+[08:33:50] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezroadflare
+[08:34:07] c4s | qRRaz11cHHH предоставил режим бога Themself
+[08:34:07] c4s | qRRaz11cHHH: !god
+[08:34:10] Client "гробовщик" connected.
+[08:34:11] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezvirusbomb
+[08:34:17] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezfissilematerial
+[08:34:44] c4s | qRRaz11cHHH cleaned up map
+[08:34:44] c4s | qRRaz11cHHH: !cleanmap
+[08:34:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezsalatgas
+[08:34:52] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ammo_base
+[08:34:57] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_lightsaber
+[08:35:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[08:35:54] (TEAM) c4s | qRRaz11cHHH: !noclip
+[08:36:02] (TEAM) c4s | qRRaz11cHHH: !cleanchat
+[08:36:14] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:36:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:36:28] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:36:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:36:37] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:37:06] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_maze
+[08:37:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_maze
+[08:37:11] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[08:37:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_combine_s
+[08:37:41] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/truck001c_01.mdl
+[08:38:03] c4s | qRRaz11cHHH respawned Themself
+[08:38:03] c4s | qRRaz11cHHH: !frespawn c4s
+[08:38:10] c4s | qRRaz11cHHH: !menu
+[08:38:49] c4s | qRRaz11cHHH: !men
+[08:38:54] c4s | qRRaz11cHHH: !menu
+[08:39:34] c4s | qRRaz11cHHH set the walk speed for Themself to 100
+[08:39:39] c4s | qRRaz11cHHH set the walk speed for Themself to 4000
+[08:39:42] c4s | qRRaz11cHHH suicided!
+[08:39:54] c4s | qRRaz11cHHH respawned Themself
+[08:40:11] Client "гробовщик" spawned in server <STEAM_0:0:805739644> (took 361 seconds).
+[08:40:54] гробовщик suicided!
+[08:41:02] (TEAM) c4s | qRRaz11cHHH: !menu
+[08:41:15] c4s | qRRaz11cHHH set the walk speed for Themself to 1500
+[08:41:21] c4s | qRRaz11cHHH suicided!
+[08:41:36] (TEAM) c4s | qRRaz11cHHH: !menu
+[08:41:42] c4s | qRRaz11cHHH set the walk speed for Themself to 1000
+[08:42:00] c4s | qRRaz11cHHH suicided!
+[08:42:33] (TEAM) c4s | qRRaz11cHHH: !menu
+[08:42:35] c4s | qRRaz11cHHH set the walk speed for Themself to 1000
+[08:43:11] Dropped "гробовщик" from server<STEAM_0:0:805739644>
+[08:43:11] гробовщик suicided!
+[08:44:04] c4s | qRRaz11cHHH предоставил режим бога Themself
+[08:44:04] (TEAM) c4s | qRRaz11cHHH: !god
+[08:44:23] c4s | qRRaz11cHHH: !menu
+[08:44:33] c4s | qRRaz11cHHH set the run speed for Themself to 2500
+[08:44:42] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car003a.mdl
+[08:44:53] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_trailers/trailer_test.mdl
+[08:44:58] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/buggy.mdl
+[08:46:01] c4s | qRRaz11cHHH suicided!
+[08:46:23] c4s | qRRaz11cHHH: !fres c4s
+[08:46:35] c4s | qRRaz11cHHH respawned Themself
+[08:46:35] c4s | qRRaz11cHHH: !frespawn c4s
+[08:46:45] (TEAM) c4s | qRRaz11cHHH: !menu
+[08:46:47] c4s | qRRaz11cHHH set the run speed for Themself to 2500
+[08:47:05] c4s | qRRaz11cHHH: !menu
+[08:47:12] c4s | qRRaz11cHHH set the walk speed for Themself to 1000
+[08:48:51] Client "Burning-Citizen" connected.
+[08:50:54] c4s | qRRaz11cHHH suicided!
+[08:51:12] c4s | qRRaz11cHHH cleaned up map
+[08:51:12] c4s | qRRaz11cHHH: !cleanmap
+[08:52:14] c4s | qRRaz11cHHH: !csay я гей
+[08:52:31] c4s | qRRaz11cHHH: !csay тайно-дергал
+[08:52:52] c4s | qRRaz11cHHH: levelend
+[08:53:08] c4s | qRRaz11cHHH: !levelend
+[08:53:47] c4s | qRRaz11cHHH голосует за Да
+[08:54:06] c4s | qRRaz11cHHH: !res c4s
+[08:54:14] c4s | qRRaz11cHHH respawned Themself
+[08:54:14] c4s | qRRaz11cHHH: !frespawn c4s
+[08:54:20] c4s | qRRaz11cHHH suicided!
+[08:54:34] c4s | qRRaz11cHHH respawned Themself
+[08:54:34] c4s | qRRaz11cHHH: !frespawn c4s
+[08:54:55] c4s | qRRaz11cHHH предоставил режим бога Themself
+[08:54:55] c4s | qRRaz11cHHH: !god c4s
+[08:55:07] c4s | qRRaz11cHHH suicided!
+[08:55:36] c4s | qRRaz11cHHH: !levelend
+[08:56:01] c4s | qRRaz11cHHH respawned Themself
+[08:56:01] c4s | qRRaz11cHHH: !frespawn c4s
+[08:56:25] c4s | qRRaz11cHHH предоставил режим бога Themself
+[08:56:25] c4s | qRRaz11cHHH: !god c4s
+[08:56:59] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezbombbay
+[08:57:12] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezsticknadebundle
+[08:57:16] Client "Burning-Citizen" spawned in server <STEAM_0:1:567933661> (took 505 seconds).
+[08:57:20] c4s | qRRaz11cHHH suicided!
+[08:57:35] Dropped "Burning-Citizen" from server<STEAM_0:1:567933661>
+[08:57:35] Burning-Citizen suicided!
+[08:58:35] (TEAM) c4s | qRRaz11cHHH: !menu
+[08:58:38] c4s | qRRaz11cHHH set the walk speed for Themself to 1000
+[08:59:05] (TEAM) c4s | qRRaz11cHHH: !hp c4s 100000000000000000
+[08:59:24] c4s | qRRaz11cHHH установил здоровье Themself на 100
+[08:59:24] (TEAM) c4s | qRRaz11cHHH: !hp c4s 100
+[09:01:50] c4s | qRRaz11cHHH установил здоровье Themself на 100
+[09:01:50] c4s | qRRaz11cHHH: !hp c4s 100
+[09:02:06] c4s | qRRaz11cHHH установил здоровье Themself на 1000
+[09:02:06] c4s | qRRaz11cHHH: !hp c4s 1000
+[09:02:29] c4s | qRRaz11cHHH suicided!
+[09:03:04] c4s | qRRaz11cHHH respawned Themself
+[09:03:04] c4s | qRRaz11cHHH: !frespawn c4s
+[09:03:35] c4s | qRRaz11cHHH установил здоровье Themself на 10000
+[09:03:35] c4s | qRRaz11cHHH: !hp c4s 10000
+[09:03:37] c4s | qRRaz11cHHH suicided!
+[09:04:08] (TEAM) c4s | qRRaz11cHHH: !respawn c4sa
+[09:04:16] c4s | qRRaz11cHHH respawned Themself
+[09:04:16] c4s | qRRaz11cHHH: !respawn c4s
+[09:04:29] c4s | qRRaz11cHHH: !пщв\
+[09:04:29] c4s | qRRaz11cHHH suicided!
+[09:05:14] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[09:23:23] Client "c4s | qRRaz11cHHH" connected.
+[09:23:47] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 24 seconds).
+[09:30:47] c4s | qRRaz11cHHH respawned Themself
+[09:30:47] (TEAM) c4s | qRRaz11cHHH: !frespawn c4s
+[09:30:57] (TEAM) c4s | qRRaz11cHHH: !noclip
+[09:31:35] c4s | qRRaz11cHHH установил здоровье Themself на 150
+[09:31:35] c4s | qRRaz11cHHH: !hp c4s 150
+[09:31:48] c4s | qRRaz11cHHH предоставил режим бога Themself
+[09:31:48] c4s | qRRaz11cHHH: !god
+[09:31:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[09:31:57] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_maze
+[09:36:36] Client "VRNVadim" connected.
+[09:38:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testhuman
+[09:38:35] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:38:50] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:39:04] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:39:13] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:39:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:39:22] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:39:26] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:39:30] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:40:38] Client "VRNVadim" connected.
+[09:40:53] c4s | qRRaz11cHHH cleaned up map
+[09:40:53] (TEAM) c4s | qRRaz11cHHH: !cleanmap
+[10:00:25] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[10:24:42] Client "c4s | qRRaz11cHHH" connected.
+[10:25:19] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 37 seconds).
+[10:25:37] c4s | qRRaz11cHHH respawned Themself
+[10:25:37] (TEAM) c4s | qRRaz11cHHH: !respawn c4s
+[10:25:45] c4s | qRRaz11cHHH: !noclip
+[10:26:45] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[10:27:07] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[10:27:22] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_maze
+[10:27:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_combine_s
+[10:27:41] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[10:28:02] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gb_rocket_nebel
+[10:28:08] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gred_emp_2a65
+[10:29:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gred_emp_nebelwerfer
+[10:29:50] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent 9x19mm_mag
+[10:29:52] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent 7.62x54_stripper
+[10:30:12] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ammo_base
+[10:30:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezsalatgas
+[10:30:25] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezcrate
+[10:30:49] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent 9x19mm_mag
+[10:30:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent 9x19mm_box
+[10:31:01] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent lvs_item_ammocrate
+[10:31:09] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:09] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:11] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:15] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9x39mm
+[10:31:24] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_monk
+[10:31:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_monk
+[10:31:44] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_crow
+[10:31:49] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:32:39] (TEAM) c4s | qRRaz11cHHH: !noclip
+[10:33:37] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:33:38] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:33:38] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:33:38] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:33:38] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:35] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:35] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:35] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:35] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:35] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:36] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:36] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:34:36] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[10:35:34] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[10:35:34] c4s | qRRaz11cHHH suicided!
+[11:41:22] Client "07868" connected.
+[11:48:22] Client "07868" spawned in server <STEAM_0:0:102534512> (took 420 seconds).
+[11:50:27] Dropped "07868" from server<STEAM_0:0:102534512>
+[13:24:21] Client "Rariry" connected.
+[13:25:32] Client "Rariry" spawned in server <STEAM_0:0:59257294> (took 71 seconds).
+[13:25:44] Client "XACAH12281" connected.
+[13:25:55] Dropped "Rariry" from server<STEAM_0:0:59257294>
+[13:27:30] Client "Чикатило" connected.
+[13:31:40] Client "XACAH12281" spawned in server <STEAM_0:0:819333482> (took 356 seconds).
+[13:32:39] Client "Чикатило" spawned in server <STEAM_0:0:596086515> (took 309 seconds).
+[13:33:12] Чикатило suicided!
+[13:33:47] Чикатило suicided!
+[13:33:55] Dropped "Чикатило" from server<STEAM_0:0:596086515>
+[13:37:00] Client "boris" connected.
+[13:40:07] XACAH12281 suicided!
+[13:40:43] Client "boris" spawned in server <STEAM_0:0:621478469> (took 223 seconds).
+[13:41:19] Server is shutting down/changing levels.
+
+
+
+[13:41:31] New map: cs_christ_borough
+[13:41:31] Server is shutting down/changing levels.
+
+
+
+[13:41:41] New map: cs_christ_borough
+[13:42:20] Client "XACAH12281" spawned in server <STEAM_0:0:819333482> (took 39 seconds).
+[13:42:36] Dropped "XACAH12281" from server<STEAM_0:0:819333482>
+[13:44:09] Client "boris" spawned in server <STEAM_0:0:621478469> (took 151 seconds).
+[13:45:18] Dropped "boris" from server<STEAM_0:0:621478469>
+[13:46:42] Client "galey" connected.
+[13:50:41] Client "galey" spawned in server <STEAM_0:1:167391015> (took 239 seconds).
+[13:52:25] Dropped "galey" from server<STEAM_0:1:167391015>
+[13:56:46] Client "Kiki" connected.
+[14:06:31] Client "Kiki" spawned in server <STEAM_0:1:658218819> (took 585 seconds).
+[14:07:49] Dropped "Kiki" from server<STEAM_0:1:658218819>
+[16:13:20] Client "boris" connected.
+[16:16:05] Client "boris" spawned in server <STEAM_0:0:621478469> (took 165 seconds).
+[16:17:23] Dropped "boris" from server<STEAM_0:0:621478469>
+[16:26:08] Client "SG_KaAp" connected.
+[16:26:56] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 48 seconds).
+[16:27:58] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[17:11:07] Client "SG_KaAp" connected.
+[17:11:25] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 18 seconds).
+[17:12:51] Server is shutting down/changing levels.
+
+
+
+[17:13:59] New map: gm_mdach
+[17:14:20] Client "SG_KaAp" connected.
+[17:14:37] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[17:15:30] Server is shutting down/changing levels.
+
+
+
+[17:16:00] New map: gm_mdach
+[17:16:42] Server is shutting down/changing levels.
+
+
+
+[17:17:13] New map: gm_mdach
+[17:22:14] Client "SG_KaAp" connected.
+[17:22:28] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 14 seconds).
+[17:22:45] SG_KaAp respawned Themself
+[17:22:45] SG_KaAp: !frespawn ^
+[17:23:38] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[17:23:38] SG_KaAp suicided!
+[17:23:55] Server is shutting down/changing levels.
+
+
+
+[17:24:28] New map: gm_mdach
+[17:30:19] Server is shutting down/changing levels.
+
+
+
+[17:30:51] New map: gm_mdach
+[17:31:48] Server is shutting down/changing levels.
+
+
+
+[17:32:19] New map: gm_mdach
+[17:32:58] Client "SG_KaAp" connected.
+[17:33:12] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 14 seconds).
+[17:36:52] Server is shutting down/changing levels.
+
+
+
+[17:37:23] New map: gm_mdach
+[17:37:32] Client "SG_KaAp" connected.
+[17:37:47] Server is shutting down/changing levels.
+
+
+
+[17:38:17] New map: gm_mdach
+[17:39:18] Client "SG_KaAp" connected.
+[17:39:33] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 15 seconds).
+[17:47:30] Server is shutting down/changing levels.
+
+
+
+[17:48:06] New map: gm_mdach
+[17:48:25] Client "SG_KaAp" connected.
+[17:48:40] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 15 seconds).
+[17:48:59] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[17:48:59] SG_KaAp suicided!
+[17:51:31] Server is shutting down/changing levels.
+
+
+
+[17:52:02] New map: gm_mdach
+[17:52:36] Client "SG_KaAp" connected.
+[17:52:55] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 19 seconds).
+[17:53:08] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[17:53:12] Server is shutting down/changing levels.
+
+
+
+[17:54:12] New map: gm_mdach
+[17:54:31] Server is shutting down/changing levels.
+
+
+
+[17:55:05] New map: gm_mdach
+[17:55:32] Server is shutting down/changing levels.
+
+
+
+[17:56:01] New map: gm_mdach
+[17:56:11] Client "SG_KaAp" connected.
+[17:56:28] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[17:56:58] Server is shutting down/changing levels.
+
+
+
+[17:57:29] New map: gm_mdach
+[18:01:22] Client "Сын Арбуза" connected.
+[18:10:00] Client "SG_KaAp" connected.
+[18:10:15] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 15 seconds).
+[18:11:34] SG_KaAp respawned Themself
+[18:14:28] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[18:14:28] SG_KaAp suicided!
+[18:15:41] Client "Сын Арбуза" spawned in server <STEAM_0:1:798536330> (took 859 seconds).
+[18:16:59] Сын Арбуза voted for gm_apartments_hl2 (1/3)
+[18:16:59] Сын Арбуза: !votemap 41
+[18:27:47] Dropped "Сын Арбуза" from server<STEAM_0:1:798536330>
+[20:27:56] Client "SG_KaAp" connected.
+[20:28:03] Client "Falc" connected.
+[20:28:25] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 29 seconds).
+[20:29:10] Client "Falc" spawned in server <STEAM_0:1:624344922> (took 67 seconds).
+[20:29:41] SG_KaAp suicided!
+[20:30:41] SG_KaAp suicided!
+[20:31:32] Falc suicided!
+[20:32:17] Falc suicided!
+[20:33:18] Falc suicided!
+[20:33:18] Falc suicided!
+[20:33:22] Falc: бля
+[20:33:27] Falc: у меня руки застряли
+[20:34:08] SG_KaAp suicided!
+[20:35:28] Falc suicided!
+[20:36:02] Falc: че молчишь
+[20:36:42] SG_KaAp suicided!
+[20:37:35] SG_KaAp suicided!
+[20:38:50] Falc suicided!
+[20:38:50] Falc suicided!
+[20:39:17] Falc suicided!
+[20:39:17] Falc suicided!
+[20:40:29] SG_KaAp suicided!
+[20:42:10] SG_KaAp suicided!
+[20:43:46] SG_KaAp suicided!
+[20:44:26] SG_KaAp suicided!
+[20:45:25] Falc suicided!
+[20:45:50] SG_KaAp suicided!
+[20:46:58] Falc suicided!
+[20:47:39] Falc suicided!
+[20:47:39] Falc suicided!
+[20:48:36] SG_KaAp suicided!
+[20:48:40] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:51:15] Client "Гомоградец" connected.
+[20:51:48] Client "SG_KaAp" connected.
+[20:52:09] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 21 seconds).
+[20:52:13] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 58 seconds).
+[20:52:34] SG_KaAp suicided!
+[20:53:09] Гомоградец suicided!
+[20:53:54] Гомоградец suicided!
+[20:54:18] Falc suicided!
+[20:54:25] Гомоградец suicided!
+[20:54:34] Falc: бахмут бахмут
+[20:54:40] Falc: нас сегодня трахнут
+[20:54:51] SG_KaAp suicided!
+[20:55:14] Dropped "Гомоградец" from server<STEAM_0:0:709713214>
+[21:00:12] Falc suicided!
+[21:01:16] Dropped "Falc" from server<STEAM_0:1:624344922>
+[21:01:16] Falc suicided!
+[21:12:48] Client "SOMPLE" connected.
+[21:13:02] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:14:13] Client "SOMPLE" spawned in server <STEAM_0:1:604217571> (took 85 seconds).
+[21:14:49] Dropped "SOMPLE" from server<STEAM_0:1:604217571>
+[21:14:49] SOMPLE suicided!
+[22:16:47] Client "SG_KaAp" connected.
+[22:17:05] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 18 seconds).
+[22:20:59] SG_KaAp: !menu
+[22:23:07] Client "Zkibidi Adventures" connected.
+[22:27:31] Client "VRNVadim" connected.
+[22:28:24] Client "Гомоградец" connected.
+[22:29:06] Client "VRNVadim" spawned in server <STEAM_0:0:743351716> (took 95 seconds).
+[22:29:08] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 44 seconds).
+[22:29:13] SG_KaAp suicided!
+[22:29:13] VRNVadim suicided!
+[22:29:13] Гомоградец suicided!
+[22:29:42] Server is shutting down/changing levels.
+
+
+
+[22:29:53] New map: gm_waa_pizzaplace_2010
+[22:29:53] Server is shutting down/changing levels.
+
+
+
+[22:30:01] New map: gm_waa_pizzaplace_2010
+[22:30:01] Client "VRNVadim" connected.
+[22:30:01] Client "VRNVadim" connected.
+[22:30:01] Client "SG_KaAp" connected.
+[22:30:01] Client "SG_KaAp" connected.
+[22:30:01] Client "Гомоградец" connected.
+[22:30:01] Client "Гомоградец" connected.
+[22:30:22] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 21 seconds).
+[22:30:30] Client "VRNVadim" spawned in server <STEAM_0:0:743351716> (took 29 seconds).
+[22:30:34] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 33 seconds).
+[22:31:04] VRNVadim suicided!
+[22:31:05] Dropped "Гомоградец" from server<STEAM_0:0:709713214>
+[22:31:29] VRNVadim suicided!
+[22:32:54] SG_KaAp suicided!
+[22:32:59] VRNVadim suicided!
+[22:33:32] SG_KaAp suicided!
+[22:34:52] Client "Гомоградец" connected.
+[22:35:07] SG_KaAp suicided!
+[22:35:07] SG_KaAp suicided!
+[22:35:26] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 34 seconds).
+[22:36:21] Dropped "Гомоградец" from server<STEAM_0:0:709713214>
+[22:36:21] Гомоградец suicided!
+[22:37:30] SG_KaAp suicided!
+[22:37:35] VRNVadim suicided!
+[22:38:44] SG_KaAp suicided!
+[22:38:53] SG_KaAp suicided!
+[22:39:41] Client "solovuv432" connected.
+[22:41:07] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[22:41:08] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[22:41:25] VRNVadim suicided!
+[22:42:20] Dropped "VRNVadim" from server<STEAM_0:0:743351716>
+[22:54:35] Client "Гомоградец" connected.
+[22:55:15] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 40 seconds).
+[22:57:12] Гомоградец: !
+[22:57:24] SG_KaAp respawned Гомоградец
+[22:58:11] Client "VRNVadim" connected.
+[22:58:45] Client "VRNVadim" spawned in server <STEAM_0:0:743351716> (took 34 seconds).
+[23:00:11] SG_KaAp rocketed Гомоградец
+[23:00:11] Гомоградец suicided!
+[23:00:12] Гомоградец suicided!
+[23:01:53] Гомоградец suicided!
+[23:01:56] VRNVadim suicided!
+[23:02:04] Dropped "VRNVadim" from server<STEAM_0:0:743351716>
+[23:02:04] VRNVadim suicided!
+[23:02:51] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[23:02:51] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[23:02:54] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[23:03:25] SG_KaAp suicided!
+[23:03:25] SG_KaAp suicided!
+[23:03:30] Гомоградец suicided!
+[23:03:51] SG_KaAp suicided!
+[23:03:57] Гомоградец suicided!
+[23:03:57] SG_KaAp suicided!
+[23:04:27] Server is shutting down/changing levels.
+
+
+
+[23:04:37] New map: hmcd_rooftops_snow
+[23:04:37] Server is shutting down/changing levels.
+
+
+
+[23:04:45] New map: hmcd_rooftops_snow
+[23:04:45] Client "SG_KaAp" connected.
+[23:04:45] Client "SG_KaAp" connected.
+[23:04:45] Client "Гомоградец" connected.
+[23:04:45] Client "Гомоградец" connected.
+
+
+
+[23:05:21] New map: gm_mdach
+[23:05:21] Client "Гомоградец" connected.
+[23:05:21] Client "Гомоградец" connected.
+[23:05:51] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 30 seconds).
+[23:07:33] Client "VRNVadim" connected.
+[23:07:58] Client "VRNVadim" spawned in server <STEAM_0:0:743351716> (took 25 seconds).
+[23:09:32] Client "SG_KaAp" connected.
+[23:09:49] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[23:09:59] SG_KaAp: !menu
+[23:10:05] SG_KaAp снял бан с steamid STEAM_0:0:524039862 (C4FF31N3)
+[23:10:07] SG_KaAp снял бан с steamid STEAM_0:0:527356361 (мразиш)
+[23:10:09] SG_KaAp снял бан с steamid STEAM_0:1:804960504 (Gremlen)
+[23:10:10] VRNVadim set Themself's model to models/david/miztov/cyber/david.mdl with colors R:255, G:255, B:255
+[23:12:13] Client "[Чизмен}{PiROjOK}" connected.
+[23:12:25] Гомоградец suicided!
+[23:12:46] VRNVadim suicided!
+[23:12:55] Гомоградец suicided!
+[23:12:55] Гомоградец suicided!
+[23:13:16] SG_KaAp: !menu
+[23:13:22] SG_KaAp добавил Гомоградец в группу admin
+[23:13:24] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[23:13:25] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gtav/dukes/dukes.mdl
+[23:13:25] Client "[Чизмен}{PiROjOK}" spawned in server <STEAM_0:0:112679301> (took 72 seconds).
+[23:13:31] Гомоградец: !noclip
+[23:13:42] VRNVadim set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[23:13:53] VRNVadim suicided!
+[23:13:59] VRNVadim: !setmodel models/lightshoro_workshop/goofycat/boykisser_v2.mdl
+[23:14:16] VRNVadim: !setmodel VRN models/lightshoro_workshop/goofycat/boykisser_v2.mdl
+[23:14:23] SG_KaAp suicided!
+[23:14:44] [Чизмен}{PiROjOK} suicided!
+[23:14:52] Dropped "Гомоградец" from server<STEAM_0:0:709713214>
+[23:14:52] Гомоградец suicided!
+[23:14:55] Client "Гомоградец" connected.
+[23:15:03] VRNVadim set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[23:15:03] VRNVadim: !setmodel VRN models/lightshoro_workshop/goofycat/boykisser_v2.mdl
+[23:15:16] VRNVadim suicided!
+[23:15:27] VRNVadim set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[23:15:27] VRNVadim: !setmodel VRN models/lightshoro_workshop/goofycat/boykisser_v2.mdl
+[23:15:27] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 32 seconds).
+[23:15:38] SG_KaAp suicided!
+[23:15:42] [Чизмен}{PiROjOK} suicided!
+[23:15:42] [Чизмен}{PiROjOK} suicided!
+[23:15:46] VRNVadim suicided!
+[23:15:51] VRNVadim set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[23:15:51] VRNVadim: !setmodel VRN models/lightshoro_workshop/goofycat/boykisser_v2.mdl
+[23:15:58] VRNVadim suicided!
+[23:16:10] [Чизмен}{PiROjOK} suicided!
+[23:16:20] VRNVadim: V
+[23:16:23] VRNVadim set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[23:16:23] VRNVadim: !setmodel VRN models/lightshoro_workshop/goofycat/boykisser_v2.mdl
+[23:16:30] Гомоградец: !noclip
+[23:16:46] SG_KaAp suicided!
+[23:16:46] SG_KaAp suicided!
+[23:16:48] [Чизмен}{PiROjOK} suicided!
+[23:16:57] VRNVadim set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[23:16:57] VRNVadim: !setmodel VRN models/lightshoro_workshop/goofycat/boykisser_v2.mdl
+[23:17:10] Гомоградец suicided!
+[23:17:12] SG_KaAp suicided!
+[23:18:01] VRNVadim suicided!
+[23:18:21] Гомоградец set Themself's model to models/rashkinsk/fsin/parad/parad_09.mdl with colors R:255, G:255, B:255
+[23:18:24] Гомоградец: !noclip
+[23:18:32] VRNVadim suicided!
+[23:18:34] SG_KaAp suicided!
+[23:19:19] [Чизмен}{PiROjOK} suicided!
+[23:19:41] VRNVadim set Themself's model to models/player/kuma/taliban_bomber.mdl with colors R:255, G:255, B:255
+[23:19:41] VRNVadim: !setmodel VRN models/player/kuma/taliban_bomber.mdl
+[23:19:45] SG_KaAp suicided!
+[23:19:48] [Чизмен}{PiROjOK} suicided!
+[23:19:48] [Чизмен}{PiROjOK} suicided!
+[23:19:56] VRNVadim suicided!
+[23:20:36] VRNVadim suicided!
+[23:20:48] Гомоградец suicided!
+[23:21:10] Гомоградец suicided!
+[23:21:11] Гомоградец suicided!
+[23:21:18] SG_KaAp suicided!
+[23:21:29] SG_KaAp suicided!
+[23:21:40] VRNVadim suicided!
+[23:21:41] VRNVadim suicided!
+[23:21:41] SG_KaAp suicided!
+[23:21:54] [Чизмен}{PiROjOK} suicided!
+[23:21:54] [Чизмен}{PiROjOK} suicided!
+[23:22:05] VRNVadim suicided!
+[23:22:06] VRNVadim suicided!
+[23:22:06] VRNVadim suicided!
+[23:22:31] VRNVadim suicided!
+[23:22:47] SG_KaAp suicided!
+[23:23:04] VRNVadim suicided!
+[23:23:04] VRNVadim suicided!
+[23:23:24] VRNVadim suicided!
+[23:23:47] [Чизмен}{PiROjOK} suicided!
+[23:24:14] Server is shutting down/changing levels.
+
+
+
+[23:24:49] New map: gm_mdach
+[23:24:49] Client "Трубоёб Виталя" connected.
+[23:24:49] Client "Трубоёб Виталя" connected.
+[23:24:55] Client "SG_KaAp" connected.
+[23:25:12] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[23:26:02] Client "Гомоградец" connected.
+[23:26:46] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 44 seconds).
+[23:29:14] Гомоградец suicided!
+[23:29:49] SG_KaAp suicided!
+[23:29:53] Гомоградец suicided!
+[23:30:38] Гомоградец suicided!
+[23:32:44] Гомоградец killed SG_KaAp using player
+[23:33:37] Гомоградец: !noclip
+[23:34:53] Server is shutting down/changing levels.
+
+
+
+[23:35:26] New map: gm_mdach
+[23:36:28] Client "SG_KaAp" connected.
+[23:36:43] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 15 seconds).
+[23:36:50] Client "Гомоградец" connected.
+[23:36:58] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:37:18] Client "Гомоградец" spawned in server <STEAM_0:0:709713214> (took 28 seconds).
+[23:37:26] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:37:27] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:37:27] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:37:27] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:37:28] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:37:28] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:37:41] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:39:30] Гомоградец: !noclip
+[23:42:13] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_junk/plasticcrate01a.mdl
+[23:42:23] Гомоградец: !noclip
+[23:42:28] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_interiors/furniture_shelf01a.mdl
+[23:42:44] SG_KaAp: Я ебал мать шурика
+[23:42:56] Гомоградец: О да
+[23:43:03] Гомоградец: секс порна
+[23:43:07] SG_KaAp: Ой, не шурика (он топ), а шарика
+[23:43:34] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[23:43:34] SG_KaAp suicided!
+[23:46:49] Гомоградец: !noclip
+[23:46:59] Гомоградец: !noclip
+[23:47:20] Гомоградец: !noclip
+[23:48:14] Гомоградец: !noclip
+[23:50:45] (TEAM) Гомоградец: !explode
+[23:50:59] Гомоградец: !menu
+[23:51:12] Гомоградец: !menu
+[23:51:20] Гомоградец created 1 bots
+[23:51:20] Client "Bot01" connected.
+[23:51:20] Client "Bot01" spawned in server <BOT> (took 960 seconds).
+[23:51:48] Гомоградец: !noclip
+[23:52:25] Гомоградец killed Bot01 using weapon_slb_admin_deagle
+[23:52:32] Client "Иван Русский Паре" connected.
+[23:52:44] Гомоградец: !noclip
+[23:52:48] Client "SG_KaAp" connected.
+[23:53:16] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 28 seconds).
+[23:53:39] Bot01 suicided!
+[23:53:50] Гомоградец: !noclip
+[23:54:00] Гомоградец: !noclip
+[23:54:35] SG_KaAp killed Гомоградец using player
+[23:55:01] Гомоградец: !noclip
+[23:56:34] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[23:56:34] SG_KaAp suicided!
+[23:56:38] Bot01 suicided!
+[23:56:52] Гомоградец: !noclip
+[23:56:58] Bot01 suicided!
+[23:57:17] Гомоградец: !noclip
+[23:57:41] Bot01 suicided!
+[23:57:41] Bot01 suicided!
+[23:57:52] Гомоградец respawned Bot01
+[23:57:52] Гомоградец: !frespawn Bot01
+[23:58:38] Гомоградец: !noclip
+[23:58:44] Client "Иван Русский" spawned in server <STEAM_0:1:555096876> (took 372 seconds).
+[23:59:30] Bot01 suicided!
+[23:59:30] Bot01 suicided!
+[23:59:47] Гомоградец suicided!
+<Logging continued in "data/ulx_logs/10-27-24.txt">

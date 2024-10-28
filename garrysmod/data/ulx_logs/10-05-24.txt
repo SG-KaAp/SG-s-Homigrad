@@ -1,0 +1,9 @@
+<Logging continued from "data/ulx_logs/10-04-24.txt">
+[22:28:14] Client "SG_KaAp" connected.
+[23:09:57] Client "SG_KaAp" connected.
+[23:10:37] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 40 seconds).
+[23:11:57] SG_KaAp respawned Themself
+[23:11:57] SG_KaAp: !forcerespawn sg_kaap
+[23:12:12] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[23:12:12] SG_KaAp suicided!
+<Logging continued in "data/ulx_logs/10-06-24.txt">

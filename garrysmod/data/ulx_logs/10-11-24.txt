@@ -1,0 +1,345 @@
+<Logging continued from "data/ulx_logs/10-10-24.txt">
+[00:00:54] imyourdeath suicided!
+[00:01:21] progamer suicided!
+[00:01:21] progamer suicided!
+[00:03:04] Panzerschreck1337 suicided!
+[00:03:16] imyourdeath suicided!
+[00:06:14] Panzerschreck1337 suicided!
+[00:06:14] (Console) banned Panzerschreck1337 for 10 minute(s) (Kicked and Banned for RDM)
+[00:06:14] imyourdeath suicided!
+[00:08:36] imyourdeath suicided!
+[00:09:03] progamer suicided!
+[00:10:25] progamer suicided!
+[00:10:25] progamer suicided!
+[00:11:25] imyourdeath suicided!
+[00:12:43] Client "Nyako" connected.
+[00:12:50] imyourdeath suicided!
+[00:12:50] imyourdeath suicided!
+[00:13:02] progamer suicided!
+[00:13:02] progamer suicided!
+[00:13:06] Panzerschreck1337 suicided!
+[00:14:55] progamer suicided!
+[00:15:50] Panzerschreck1337 suicided!
+[00:15:50] (Console) banned Panzerschreck1337 for 10 minute(s) (Kicked and Banned for RDM)
+[00:16:20] imyourdeath suicided!
+[00:17:11] progamer: hgzfdusohu7sdvfhduzfnszhgbzedgfzukewdhnvfhzluihzfuohdzufhushnfzshfzdsfzghzusgdfzuhsdfuhnszhgfzuohewzfgzuesgftgsduofgz7dshbfzgisduhfzgvhsdvzcbzhdsgvtzudsbv
+[00:18:51] Panzerschreck1337 suicided!
+[00:20:02] progamer suicided!
+[00:20:07] progamer suicided!
+[00:20:07] imyourdeath suicided!
+[00:20:07] Panzerschreck1337 suicided!
+[00:20:37] Server is shutting down/changing levels.
+
+
+
+[00:20:43] New map: cs_drugbust_winter
+[00:20:44] Server is shutting down/changing levels.
+
+
+
+[00:20:49] New map: cs_drugbust_winter
+[00:20:50] Client "Panzerschreck1337" connected.
+[00:20:50] Client "progamer" connected.
+[00:20:50] Client "imyourdeath" connected.
+[00:21:25] Client "Panzerschreck1337" spawned in server <STEAM_0:1:575526983> (took 35 seconds).
+[00:21:31] Client "imyourdeath" spawned in server <STEAM_0:0:776481062> (took 41 seconds).
+[00:21:41] Client "progamer" spawned in server <STEAM_0:1:578766727> (took 51 seconds).
+[00:22:16] imyourdeath suicided!
+[00:23:27] imyourdeath suicided!
+[00:24:20] Panzerschreck1337 suicided!
+[00:27:08] Panzerschreck1337 suicided!
+[00:28:17] progamer suicided!
+[00:30:16] imyourdeath suicided!
+[00:30:21] Panzerschreck1337 killed Panzerschreck1337
+[00:34:03] Server is shutting down/changing levels.
+
+
+
+[09:30:52] New map: gm_bbicotka_hmcd
+[09:32:42] Client "SG_KaAp" connected.
+[09:33:02] Server is shutting down/changing levels.
+
+
+
+[09:35:20] New map: gm_bbicotka_hmcd
+[09:35:26] Client "SG_KaAp" connected.
+[09:35:45] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 19 seconds).
+[09:35:57] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[09:37:05] Server is shutting down/changing levels.
+
+
+
+[09:37:46] New map: gm_bbicotka_hmcd
+[09:39:20] Client "SG_KaAp" connected.
+[09:39:32] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 12 seconds).
+[09:39:40] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[09:42:07] Server is shutting down/changing levels.
+
+
+
+[09:42:43] New map: gm_bbicotka_hmcd
+[09:52:51] Server is shutting down/changing levels.
+
+
+
+[09:53:32] New map: gm_bbicotka_hmcd
+[10:10:26] Client "SG_KaAp" connected.
+[10:10:43] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[10:10:58] SG_KaAp respawned Themself
+[10:10:58] SG_KaAp: !forcerespawn sg_kaap
+[10:11:00] SG_KaAp<STEAM_0:1:566748347> spawned model models/props_canal/canal_bridge02.mdl
+[10:16:48] Client "deadMemories" connected.
+[10:17:56] Server is shutting down/changing levels.
+
+
+
+[19:53:35] New map: gm_bbicotka_hmcd
+[19:54:34] Client "unk1l" connected.
+[19:55:17] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 43 seconds).
+[19:55:28] unk1l: !forcerespawn
+[19:55:34] unk1l respawned Themself
+[19:55:34] unk1l: !forcerespawn unk1l
+[19:55:37] unk1l granted god mode upon Themself
+[19:55:37] unk1l: !god
+[19:55:38] unk1l: !noclip
+[19:55:40] unk1l: !noclip
+[19:57:33] unk1l set Themself's model to models/player/minyon.mdl with colors R:255, G:255, B:255
+[19:57:58] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezsatchelcharge
+[19:58:32] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezimpactnade
+[19:58:39] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezdynamite
+[19:58:40] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezdetpack
+[19:59:01] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezfragnade
+[19:59:15] unk1l cleared decals
+[19:59:15] unk1l: !cleardecals
+[20:00:17] unk1l cleared decals
+[20:00:17] unk1l: !cleardecals
+[20:00:42] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezcsnade
+[20:00:44] unk1l: !noclip
+[20:00:49] unk1l: !noclip
+[20:00:54] unk1l: !noclip
+[20:00:57] unk1l: !noclip
+[20:01:01] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezfumigator
+[20:01:11] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezfuellantern
+[20:01:12] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezgasnade
+[20:01:20] unk1l: !noclip
+[20:01:24] unk1l: !noclip
+[20:01:24] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezgasnade
+[20:01:26] unk1l: !noclip
+[20:01:33] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezgasnade
+[20:01:44] unk1l cleared decals
+[20:01:44] unk1l: !cleardecals
+[20:01:58] unk1l: !noclip
+[20:02:07] unk1l suicided!
+[20:02:07] unk1l respawned Themself
+[20:02:07] unk1l: !forcerespawn unk1l
+[20:02:08] unk1l: !noclip
+[20:02:15] unk1l: !noclip
+[20:02:29] unk1l: !noclip
+[20:02:31] unk1l: !noclip
+[20:02:34] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezbombbay
+[20:02:38] unk1l<STEAM_0:1:460734357> spawned sent ent_jack_gmod_ezaugerdrill
+[20:03:03] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_3inchmortar
+[20:03:04] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_3inchmortar
+[20:03:23] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_sc100
+[20:03:28] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_250gp
+[20:03:35] unk1l suicided!
+[20:03:35] unk1l respawned Themself
+[20:03:35] unk1l: !forcerespawn unk1l
+[20:03:37] unk1l cleared decals
+[20:03:37] unk1l: !cleardecals
+[20:03:37] unk1l: !noclip
+[20:03:41] unk1l: !noclip
+[20:04:10] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_hvar
+[20:04:22] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_rp3
+[20:04:30] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_bofors
+[20:04:32] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_flak36
+[20:04:36] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_kwk
+[20:04:45] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_pak38
+[20:05:01] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_sc100
+[20:05:06] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_sc250
+[20:05:09] unk1l: !noclip
+[20:05:11] unk1l: !noclip
+[20:05:15] unk1l cleared decals
+[20:05:15] unk1l: !cleardecals
+[20:05:18] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_v1
+[20:05:25] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_pm41
+[20:05:53] unk1l cleared decals
+[20:05:53] unk1l: !cleardecals
+[20:05:56] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_breda35
+[20:06:24] unk1l: !noclip
+[20:06:25] unk1l: !noclip
+[20:06:27] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m5
+[20:06:41] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_bren
+[20:06:49] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_grw34
+[20:07:02] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_flak36
+[20:07:04] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_bofors
+[20:07:06] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_flak36
+[20:07:37] unk1l cleared decals
+[20:07:37] unk1l: !cleardecals
+[20:07:39] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_flak36
+[20:07:51] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_zsu23
+[20:08:08] unk1l: !noclip
+[20:08:09] unk1l: !noclip
+[20:08:10] unk1l cleared decals
+[20:08:10] unk1l: !cleardecals
+[20:08:17] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_breda35
+[20:08:26] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_flakvierling38
+[20:08:48] unk1l: !noclip
+[20:08:48] unk1l: !noclip
+[20:08:49] unk1l cleared decals
+[20:08:49] unk1l: !cleardecals
+[20:09:03] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_cbu
+[20:09:14] unk1l cleared decals
+[20:09:14] unk1l: !cleardecals
+[20:09:16] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_cbu
+[20:09:27] unk1l cleared decals
+[20:09:27] unk1l: !cleardecals
+[20:09:30] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_gbu12
+[20:09:38] unk1l cleared decals
+[20:09:38] unk1l: !cleardecals
+[20:09:40] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_gbu38
+[20:09:45] unk1l: !noclip
+[20:09:49] unk1l: !noclip
+[20:09:52] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_mk82
+[20:09:59] unk1l cleared decals
+[20:09:59] unk1l: !cleardecals
+[20:10:03] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_hvar
+[20:10:05] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_nebel
+[20:10:10] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_nebel
+[20:10:14] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_nebel
+[20:10:20] unk1l<STEAM_0:1:460734357> spawned sent gb_rocket_nebel
+[20:10:26] unk1l cleared decals
+[20:10:26] unk1l: !cleardecals
+[20:10:33] unk1l<STEAM_0:1:460734357> spawned sent gb_bomb_sc500
+[20:10:43] unk1l cleared decals
+[20:10:43] unk1l: !cleardecals
+[20:10:47] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_dshk
+[20:10:49] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_kord
+[20:11:03] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m1919
+[20:11:04] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m2
+[20:11:15] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m2_low
+[20:11:22] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m240b
+[20:11:49] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_phalanx
+[20:12:11] unk1l: !noclip
+[20:12:13] unk1l: !noclip
+[20:12:14] unk1l cleared decals
+[20:12:14] unk1l: !cleardecals
+[20:12:21] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m2a1
+[20:12:31] unk1l: !noclip
+[20:12:37] unk1l: !noclip
+[20:12:43] unk1l: !noclip
+[20:12:48] unk1l: !noclip
+[20:12:52] unk1l: !noclip
+[20:12:54] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m777
+[20:12:57] unk1l: !noclip
+[20:12:57] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m777
+[20:13:27] Client "Начальник склада" connected.
+[20:13:31] unk1l: !noclip
+[20:13:34] unk1l: !noclip
+[20:13:38] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_3inchmortar
+[20:13:47] unk1l: !noclip
+[20:13:54] unk1l: !noclip
+[20:14:02] unk1l: !noclip
+[20:14:10] unk1l: !noclip
+[20:14:19] unk1l cleared decals
+[20:14:19] unk1l: !cleardecals
+[20:14:23] unk1l: !noclip
+[20:14:23] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_pak43
+[20:14:25] unk1l: !noclip
+[20:14:29] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_pak38
+[20:14:32] unk1l: !noclip
+[20:14:44] unk1l: !noclip
+[20:14:50] unk1l: !noclip
+[20:14:51] unk1l: !noclip
+[20:14:53] unk1l: !noclip
+[20:14:54] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_pak38
+[20:15:13] unk1l: !noclip
+[20:15:21] unk1l: !noclip
+[20:15:26] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_zis3
+[20:15:31] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_m5
+[20:15:34] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_pak40
+[20:15:44] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_6pdr
+[20:15:45] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_zis2
+[20:15:47] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_bofors
+[20:15:49] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_artemis30
+[20:15:50] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_flak36
+[20:15:52] unk1l: !noclip
+[20:15:54] unk1l: !noclip
+[20:15:55] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_flak36
+[20:15:56] unk1l: !noclip
+[20:15:58] unk1l<STEAM_0:1:460734357> spawned sent gred_emp_bofors
+[20:15:59] unk1l: !noclip
+[20:16:14] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[20:16:14] unk1l suicided!
+[20:16:56] Client "SG_KaAp" connected.
+[20:17:15] Client "unk1l" connected.
+[20:17:55] Client "unk1l" spawned in server <STEAM_0:1:460734357> (took 40 seconds).
+[20:18:00] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 64 seconds).
+[20:18:53] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:18:53] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:18:53] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:18:53] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:18:55] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:18:55] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:18:55] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:19:03] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:19:04] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:19:04] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:19:05] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:19:05] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:19:05] unk1l<STEAM_0:1:460734357> spawned sent ent_ammo_9х19mm
+[20:19:40] SG_KaAp suicided!
+[20:20:31] Client "дима утка" connected.
+[20:22:34] unk1l suicided!
+[20:22:34] unk1l suicided!
+[20:22:38] unk1l: блен
+[20:22:38] Client "nome" connected.
+[20:22:44] unk1l: ура люди
+[20:22:46] unk1l: заъодят
+[20:23:45] SG_KaAp suicided!
+[20:24:39] unk1l suicided!
+[20:24:41] unk1l: ауч
+[20:25:59] SG_KaAp suicided!
+[20:25:59] SG_KaAp suicided!
+[20:26:54] unk1l: хамстер
+[20:27:00] SG_KaAp: !levelnext bahmut
+[20:29:50] SG_KaAp suicided!
+[20:29:53] SG_KaAp: !levelnext bahmut
+[20:30:54] SG_KaAp suicided!
+[20:33:27] SG_KaAp suicided!
+[20:33:27] SG_KaAp suicided!
+[20:33:44] (TEAM) SG_KaAp: !noclip
+[20:33:50] SG_KaAp respawned Themself
+[20:33:53] (TEAM) SG_KaAp: !noclip
+[20:34:01] unk1l suicided!
+[20:34:01] unk1l suicided!
+[20:34:03] unk1l: эээ
+[20:34:05] unk1l: ничестна
+[20:34:11] SG_KaAp suicided!
+[20:34:11] SG_KaAp slayed Themself
+[20:34:11] SG_KaAp: !slay sg_kaap
+[20:34:47] SG_KaAp suicided!
+[20:34:47] SG_KaAp respawned Themself
+[20:34:50] SG_KaAp: !noclip
+[20:34:59] SG_KaAp: !noclip
+[20:35:13] SG_KaAp: !noclip
+[20:35:17] SG_KaAp: !noclip
+[20:35:28] SG_KaAp suicided!
+[20:35:28] SG_KaAp respawned Themself
+[20:35:30] SG_KaAp: !noclip
+[20:35:37] SG_KaAp: !noclip
+[20:36:11] SG_KaAp suicided!
+[20:36:13] SG_KaAp respawned Themself
+[20:36:13] SG_KaAp: !forcerespawn sg_kaap
+[20:36:17] SG_KaAp: !noclip
+[20:36:24] SG_KaAp: !noclip
+[20:36:36] unk1l suicided!
+[20:36:36] unk1l respawned Themself
+[20:36:47] unk1l suicided!
+[20:36:50] unk1l respawned Themself
+[20:37:44] SG_KaAp suicided!
+[20:37:45] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:37:52] unk1l: !menu
+[20:39:13] Dropped "unk1l" from server<STEAM_0:1:460734357>
+[20:39:13] unk1l suicided!
+<Logging continued in "data/ulx_logs/10-12-24.txt">

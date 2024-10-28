@@ -4,7 +4,7 @@ AddCSLuaFile()
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Маленький бинт"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Лечит мелкую кровопотерю"
 
 SWEP.Spawnable = true

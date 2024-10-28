@@ -1,43 +1,43 @@
-SWEP.Base = 'salat_base' -- base
+SWEP.Base = "medkit"
 SWEP.PrintName = "Электрошокер"
-SWEP.Author = "Homigrad"
+SWEP.Author = "homigrad"
 SWEP.Instructions = "Электрическое возбуждение передается нервным клеткам, вызывая в основном болевой шок, а также кратковременные судороги и состояние «ошарашенности», дезориентации."
 SWEP.Slot = 2
 SWEP.SlotPos = 4
 SWEP.Spawnable = true
 SWEP.Category = "Разное"
 
-------------------------------------------
+SWEP.ViewModel = "models/realistic_police/taser/w_taser.mdl"
+SWEP.WorldModel = "models/realistic_police/taser/w_taser.mdl"
 
-SWEP.Primary.ClipSize		= 1
-SWEP.Primary.DefaultClip	= 1
-SWEP.Primary.Automatic		= false
+SWEP.Primary.ClipSize = 1
+SWEP.Primary.DefaultClip = 1
+SWEP.Primary.Automatic = false
 SWEP.Primary.Ammo = "AR2AltFire"
-
 
 SWEP.Secondary.ClipSize = -1
 SWEP.Secondary.DefaultClip = -1
 SWEP.Secondary.Automatic = false
 SWEP.Secondary.Ammo = "none"
 
-------------------------------------------
+SWEP.DrawWeaponSelection = DrawWeaponSelection
+SWEP.OverridePaintIcon = OverridePaintIcon
 
-SWEP.Weight					= 5
-SWEP.AutoSwitchTo			= false
-SWEP.AutoSwitchFrom			= false
+SWEP.dwmUp = 0.5
+SWEP.dwmRight = 0
+SWEP.dwmForward = 0
 
-SWEP.HoldType = "revolver"
+SWEP.dwmARight = 180
+SWEP.dwmAUp = 200
+SWEP.dwmAForward = 0
 
-------------------------------------------
-SWEP.DrawAmmo				= false
-SWEP.DrawCrosshair			= false
 
-SWEP.ViewModel = "models/realistic_police/taser/w_taser.mdl"
-SWEP.WorldModel = "models/realistic_police/taser/w_taser.mdl"
-SWEP.vbw = true
-SWEP.vbwPos = Vector(30,30,30)
-SWEP.vbwAng = Angle(30,30,30)
+function SWEP:Initialize()
+	self:SetHoldType("revolver")
+end
+
 local hull = Vector(10,10,10)
+
 function SWEP:PrimaryAttack()
 	if CLIENT then return end
 
