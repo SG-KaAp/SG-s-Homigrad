@@ -1,0 +1,2 @@
+player_manager.AddValidModel( "pzsurvivor", 				"models/moderatortaco/player/pzsurvivor.mdl" )
+list.Set( "PlayerOptionsModel",  "Project Zomboid Survivor",				"models/moderatortaco/player/pzsurvivor.mdl" )

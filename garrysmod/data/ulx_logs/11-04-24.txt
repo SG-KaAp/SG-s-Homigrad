@@ -1,0 +1,3885 @@
+<Logging continued from "data/ulx_logs/11-03-24.txt">
+[08:43:12] Client "?who are you" connected.
+[08:44:30] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 78 seconds).
+[08:44:47] ?who are you respawned Themself
+[08:46:20] Client "жоски" connected.
+[08:52:04] ?who are you<STEAM_0:0:798151674> spawned model models/props_lab/crematorcase.mdl
+[08:52:09] ?who are you<STEAM_0:0:798151674> spawned model models/props_fortifications/sandbags_corner2.mdl
+[08:52:21] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_office/table_meeting.mdl
+[08:52:24] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_office/table_meeting.mdl
+[08:52:28] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_office/table_meeting.mdl
+[08:52:58] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:02] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:02] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:03] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:03] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:03] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:03] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:03] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:03] ?who are you<STEAM_0:0:798151674> spawned model models/props/cs_militia/vent01.mdl
+[08:53:28] Client "жоски" spawned in server <STEAM_0:0:697901271> (took 428 seconds).
+[08:54:32] ?who are you переместился к жоски
+[08:54:32] ?who are you: !goto ж
+[08:55:49] Client "Buzia130#RAVERAST" connected.
+[08:56:24] Client "rostischka" connected.
+[08:57:24] жоски suicided!
+[08:57:27] Client "SlimmyFuck" connected.
+[08:57:29] ?who are you suicided!
+[08:57:30] ?who are you suicided!
+[08:57:30] жоски suicided!
+[08:58:00] Server is shutting down/changing levels.
+
+
+
+[08:58:07] New map: mu_smallotown_v2_13_night
+[08:58:07] Server is shutting down/changing levels.
+
+
+
+[08:58:12] New map: mu_smallotown_v2_13_night
+[08:58:13] Client "Buzia130#RAVERAST" connected.
+[08:58:13] Client "?who are you" connected.
+[08:58:13] Client "жоски" connected.
+[08:58:13] Client "rostischka" connected.
+[08:58:47] Client "жоски" spawned in server <STEAM_0:0:697901271> (took 34 seconds).
+[08:58:52] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 39 seconds).
+[09:00:18] ?who are you suicided!
+[09:00:55] ?who are you: !noclip
+[09:01:27] жоски suicided!
+[09:01:43] Client "Buzia130#RAVERAST" spawned in server <STEAM_0:1:806947659> (took 210 seconds).
+[09:01:54] жоски suicided!
+[09:01:58] ?who are you suicided!
+[09:03:27] жоски suicided!
+[09:03:34] ?who are you respawned жоски
+[09:03:40] жоски suicided!
+[09:03:55] ?who are you respawned жоски
+[09:05:01] ?who are you suicided!
+[09:05:01] ?who are you respawned Themself
+[09:05:32] Buzia130#RAVERAST suicided!
+[09:05:36] жоски suicided!
+[09:05:36] жоски suicided!
+[09:06:48] ?who are you<STEAM_0:0:798151674> spawned vehicle models/chaos126p/chaos126p.mdl
+[09:06:50] ?who are you<STEAM_0:0:798151674> spawned vehicle models/chaos126p/chaos126p.mdl
+[09:07:36] ?who are you<STEAM_0:0:798151674> spawned vehicle models/blu/tanks/tiger.mdl
+[09:08:05] Client "kunsinviktor" connected.
+[09:08:17] жоски suicided!
+[09:08:40] Buzia130#RAVERAST suicided!
+[09:09:05] жоски suicided!
+[09:09:14] Buzia130#RAVERAST suicided!
+[09:09:16] ?who are you: !levelend
+[09:09:35] Dropped "Buzia130#RAVERAST" from server<STEAM_0:1:806947659>
+[09:09:35] Buzia130#RAVERAST suicided!
+[09:09:40] ?who are you: !levelnext homicide
+[09:09:44] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 99 seconds).
+[09:09:51] ?who are you: !levelend
+[09:09:53] жоски suicided!
+[09:10:32] жоски suicided!
+[09:10:32] жоски suicided!
+[09:11:06] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 773 seconds).
+[09:11:08] жоски suicided!
+[09:11:37] Dropped "rostischka" from server<STEAM_0:1:753339504>
+[09:11:37] rostischka suicided!
+[09:12:01] ?who are you suicided!
+[09:12:35] ?who are you suicided!
+[09:12:48] жоски suicided!
+[09:12:52] kunsinviktor suicided!
+[09:13:26] Client "rostischka" connected.
+[09:13:28] жоски suicided!
+[09:13:58] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 32 seconds).
+[09:14:04] ?who are you suicided!
+[09:14:10] Client "Чипсон" connected.
+[09:14:23] ?who are you: !levelend
+[09:14:25] жоски suicided!
+[09:14:33] ?who are you: !levelend
+[09:14:58] Server is shutting down/changing levels.
+
+
+
+[09:15:04] New map: cs_militia
+[09:15:04] Server is shutting down/changing levels.
+
+
+
+[09:15:09] New map: cs_militia
+[09:15:09] Client "жоски" connected.
+[09:15:09] Client "rostischka" connected.
+[09:15:44] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 35 seconds).
+[09:15:50] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 41 seconds).
+[09:15:57] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 48 seconds).
+[09:15:57] Client "жоски" spawned in server <STEAM_0:0:697901271> (took 48 seconds).
+[09:16:01] ?who are you respawned жоски
+[09:16:04] ?who are you respawned rostischka
+[09:16:13] Client "Чипсон" connected.
+[09:16:41] ?who are you<STEAM_0:0:798151674> spawned vehicle models/blu/tanks/sherman.mdl
+[09:16:44] ?who are you<STEAM_0:0:798151674> spawned vehicle models/vehicles/buggy_elite.mdl
+[09:16:49] ?who are you<STEAM_0:0:798151674> spawned vehicle models/source_vehicles/car004a.mdl
+[09:17:26] Client "Чипсон" spawned in server <STEAM_0:0:721560350> (took 73 seconds).
+[09:18:50] жоски: Левый Шифт - Зацепиться Левой Рукой
+Левый Альт - Зацепиться Правой Рукой
+Левая Кнопка Мыши - Тянуть Левую Руку
+Правая Кнопка Мыши - Тянуть Правую Руку
+E - Тянуть голову
+W - Тянуться Вперед
+S - Тянуться Назад
+[09:18:58] kunsinviktor suicided!
+[09:18:58] ?who are you respawned kunsinviktor
+[09:19:22] жоски was killed by box_normal
+[09:19:22] ?who are you was killed by box_normal
+[09:19:22] rostischka suicided!
+[09:19:38] жоски suicided!
+[09:19:38] ?who are you respawned жоски
+[09:19:39] rostischka suicided!
+[09:19:39] ?who are you respawned rostischka
+[09:19:41] Чипсон suicided!
+[09:19:41] ?who are you respawned Чипсон
+[09:20:08] жоски suicided!
+[09:20:08] ?who are you respawned жоски
+[09:20:09] rostischka suicided!
+[09:20:09] ?who are you respawned rostischka
+[09:20:11] Чипсон suicided!
+[09:20:11] ?who are you respawned Чипсон
+[09:20:12] kunsinviktor suicided!
+[09:20:12] ?who are you respawned kunsinviktor
+[09:20:14] rostischka suicided!
+[09:20:54] ?who are you suicided!
+[09:23:26] kunsinviktor suicided!
+[09:23:26] rostischka suicided!
+[09:23:37] жоски killed ?who are you using player
+[09:24:28] ?who are you suicided!
+[09:24:56] Чипсон killed kunsinviktor using player
+[09:25:32] жоски suicided!
+[09:26:16] kunsinviktor suicided!
+[09:26:20] rostischka suicided!
+[09:26:20] rostischka suicided!
+[09:26:59] жоски suicided!
+[09:27:17] Чипсон suicided!
+[09:27:20] ?who are you suicided!
+[09:27:31] жоски suicided!
+[09:27:34] kunsinviktor suicided!
+[09:27:37] rostischka suicided!
+[09:27:53] ?who are you: !levelend
+[09:27:57] kunsinviktor suicided!
+[09:27:58] жоски suicided!
+[09:28:04] Client "влад doza" connected.
+[09:28:52] rostischka suicided!
+[09:28:54] ?who are you suicided!
+[09:29:05] жоски suicided!
+[09:29:44] kunsinviktor suicided!
+[09:30:30] жоски suicided!
+[09:30:30] жоски suicided!
+[09:30:54] ?who are you suicided!
+[09:31:02] rostischka suicided!
+[09:31:37] kunsinviktor suicided!
+[09:31:54] ?who are you suicided!
+[09:32:03] жоски suicided!
+[09:32:03] жоски suicided!
+[09:32:34] kunsinviktor suicided!
+[09:32:34] kunsinviktor suicided!
+[09:32:37] rostischka suicided!
+[09:32:39] Чипсон suicided!
+[09:33:23] ?who are you suicided!
+[09:33:33] rostischka suicided!
+[09:33:33] rostischka suicided!
+[09:33:43] kunsinviktor suicided!
+[09:34:09] жоски: на гору посмотри
+[09:34:33] жоски suicided!
+[09:34:45] Dropped "Чипсон" from server<STEAM_0:0:721560350>
+[09:34:45] Чипсон suicided!
+[09:35:03] kunsinviktor suicided!
+[09:35:14] ?who are you suicided!
+[09:35:36] rostischka suicided!
+[09:36:14] kunsinviktor suicided!
+[09:36:20] ?who are you suicided!
+[09:36:20] Client "влад doza" spawned in server <STEAM_0:0:849969262> (took 496 seconds).
+[09:37:59] жоски suicided!
+[09:38:04] rostischka suicided!
+[09:38:14] ?who are you: !levelend
+[09:38:19] kunsinviktor suicided!
+[09:38:19] ?who are you suicided!
+[09:38:19] жоски suicided!
+[09:38:19] rostischka suicided!
+[09:38:19] влад doza suicided!
+[09:38:29] Client "Чипсон" connected.
+[09:38:49] Server is shutting down/changing levels.
+
+
+
+[09:38:54] New map: ttt_terrortown
+[09:38:54] Server is shutting down/changing levels.
+
+
+
+[09:38:58] New map: ttt_terrortown
+[09:38:59] Client "kunsinviktor" connected.
+[09:38:59] Client "?who are you" connected.
+[09:38:59] Client "жоски" connected.
+[09:38:59] Client "Чипсон" connected.
+[09:38:59] Client "rostischka" connected.
+[09:38:59] Client "влад doza" connected.
+[09:39:21] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 22 seconds).
+[09:39:25] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 26 seconds).
+[09:39:29] Client "жоски" spawned in server <STEAM_0:0:697901271> (took 30 seconds).
+[09:39:33] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 34 seconds).
+[09:39:35] Client "Чипсон" spawned in server <STEAM_0:0:721560350> (took 36 seconds).
+[09:40:26] Client "киберхрюк" connected.
+[09:40:30] rostischka suicided!
+[09:40:50] Client "влад doza" connected.
+[09:41:40] Client "влад doza" spawned in server <STEAM_0:0:849969262> (took 50 seconds).
+[09:41:51] жоски suicided!
+[09:41:59] ?who are you: !nextlevel tdm
+[09:42:11] kunsinviktor suicided!
+[09:42:14] ?who are you: !levelnext tdm
+[09:42:18] Dropped "влад doza" from server<STEAM_0:0:849969262>
+[09:42:32] ?who are you suicided!
+[09:42:45] rostischka suicided!
+[09:43:13] жоски suicided!
+[09:43:17] Чипсон suicided!
+[09:43:49] ?who are you suicided!
+[09:44:13] rostischka suicided!
+[09:45:29] жоски suicided!
+[09:45:29] kunsinviktor suicided!
+[09:46:08] rostischka suicided!
+[09:46:38] Чипсон suicided!
+[09:46:43] ?who are you suicided!
+[09:47:11] rostischka killed Чипсон using player
+[09:47:24] kunsinviktor suicided!
+[09:48:17] Client "киберхрюк" spawned in server <STEAM_0:0:857614733> (took 471 seconds).
+[09:48:43] rostischka suicided!
+[09:49:05] киберхрюк: !levelend
+[09:49:56] Чипсон suicided!
+[09:49:56] Чипсон suicided!
+[09:50:00] Dropped "rostischka" from server<STEAM_0:1:753339504>
+[09:50:00] rostischka suicided!
+[09:50:22] жоски suicided!
+[09:50:25] ?who are you suicided!
+[09:51:16] ?who are you suicided!
+[09:51:51] kunsinviktor suicided!
+[09:51:57] жоски suicided!
+[09:52:01] киберхрюк suicided!
+[09:52:39] Чипсон suicided!
+[09:52:41] Dropped "киберхрюк" from server<STEAM_0:0:857614733>
+[09:52:41] киберхрюк suicided!
+[09:53:42] жоски suicided!
+[09:54:35] ?who are you suicided!
+[09:54:47] ?who are you: !levelend
+[09:55:22] kunsinviktor suicided!
+[09:55:22] kunsinviktor suicided!
+[09:55:25] жоски suicided!
+[09:55:25] ?who are you respawned жоски
+[09:55:26] Чипсон suicided!
+[09:55:26] ?who are you respawned Чипсон
+[09:55:28] ?who are you respawned kunsinviktor
+[09:55:40] ?who are you suicided!
+[09:55:48] жоски suicided!
+[09:55:48] жоски suicided!
+[09:55:55] kunsinviktor suicided!
+[09:56:29] kunsinviktor suicided!
+[09:56:35] ?who are you suicided!
+[09:57:30] kunsinviktor suicided!
+[09:58:05] ?who are you suicided!
+[09:59:00] жоски suicided!
+[09:59:02] kunsinviktor suicided!
+[09:59:25] Чипсон suicided!
+[09:59:25] Чипсон suicided!
+[09:59:32] жоски suicided!
+[10:00:50] ?who are you suicided!
+[10:01:34] kunsinviktor suicided!
+[10:02:04] ?who are you suicided!
+[10:02:09] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[10:02:11] Dropped "жоски" from server<STEAM_0:0:697901271>
+[10:02:11] жоски suicided!
+[10:02:22] kunsinviktor suicided!
+[10:02:22] kunsinviktor suicided!
+[10:03:18] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[10:03:18] kunsinviktor suicided!
+[10:03:19] Client "kunsinviktor" connected.
+[10:03:39] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 20 seconds).
+[10:05:26] Чипсон suicided!
+[10:05:44] kunsinviktor suicided!
+[10:07:50] kunsinviktor suicided!
+[10:11:00] kunsinviktor suicided!
+[10:12:32] kunsinviktor suicided!
+[10:12:32] Чипсон suicided!
+[10:13:02] Server is shutting down/changing levels.
+
+
+
+[10:13:09] New map: gm_eliden_hmcd
+[10:13:09] Server is shutting down/changing levels.
+
+
+
+[10:13:14] New map: gm_eliden_hmcd
+[10:13:15] Client "kunsinviktor" connected.
+[10:13:15] Client "Чипсон" connected.
+[10:13:52] Client "Чипсон" spawned in server <STEAM_0:0:721560350> (took 37 seconds).
+[10:13:53] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 38 seconds).
+[10:14:43] kunsinviktor was killed by box_normal
+[10:14:59] kunsinviktor suicided!
+[10:15:32] kunsinviktor suicided!
+[10:16:48] Чипсон suicided!
+[10:17:20] kunsinviktor suicided!
+[10:17:57] kunsinviktor suicided!
+[10:19:29] Чипсон suicided!
+[10:21:47] Client "c4s | qRRaz11cHHH" connected.
+[10:21:58] Чипсон suicided!
+[10:21:58] Чипсон suicided!
+[10:22:34] kunsinviktor suicided!
+[10:24:27] kunsinviktor suicided!
+[10:26:05] kunsinviktor suicided!
+[10:26:49] Dropped "Чипсон" from server<STEAM_0:0:721560350>
+[10:26:49] Чипсон suicided!
+[10:27:19] Server is shutting down/changing levels.
+
+
+
+[10:27:32] New map: gm_russia
+[10:27:32] Server is shutting down/changing levels.
+
+
+
+[10:27:43] New map: gm_russia
+[10:27:43] Client "kunsinviktor" connected.
+[10:27:43] Client "kunsinviktor" connected.
+[10:29:13] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 90 seconds).
+[10:30:12] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[10:33:00] Client "c4s | qRRaz11cHHH" connected.
+[10:33:22] Client "Harrison" connected.
+[10:33:43] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 43 seconds).
+[10:34:06] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[10:36:55] Client "?who are you" connected.
+[11:21:11] Client "kunsinviktor" connected.
+[11:21:56] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 45 seconds).
+[11:27:20] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[11:28:59] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 99 seconds).
+[11:29:08] Dropped "ᴋоʙᴀᴩныᴇ яйцᴀ" from server<STEAM_0:1:638498957>
+[11:29:08] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[11:29:31] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[11:30:07] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 36 seconds).
+[11:30:26] ᴋоʙᴀᴩныᴇ яйцᴀ: бу
+[11:30:59] kunsinviktor: афк 9999999
+[11:30:59] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[11:30:59] kunsinviktor suicided!
+[11:31:00] ᴋоʙᴀᴩныᴇ яйцᴀ: ты где
+[11:48:12] Client "Кириешка" connected.
+[11:49:07] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[11:51:35] Client "Черный Вульфич" connected.
+[11:53:29] Client "thislove78" connected.
+[11:54:34] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 382 seconds).
+[11:54:39] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 184 seconds).
+[11:54:48] ᴋоʙᴀᴩныᴇ яйцᴀ: ее я пол часа человеков ждал
+[11:55:01] Кириешка: всем ку
+[11:56:55] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[11:58:27] Кириешка killed Черный Вульфич using player
+[11:59:02] Кириешка: !motd
+[12:00:44] ᴋоʙᴀᴩныᴇ яйцᴀ: даа
+[12:00:44] Черный Вульфич: меня слышно,
+[12:02:08] Client "thislove78" spawned in server <STEAM_0:1:839377702> (took 519 seconds).
+[12:02:11] Client "Rarirury" connected.
+[12:03:14] Кириешка suicided!
+[12:03:21] Черный Вульфич: я какать
+[12:03:26] Черный Вульфич suicided!
+[12:05:37] Client "kunsinviktor" connected.
+[12:06:19] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 42 seconds).
+[12:06:31] Черный Вульфич: я вернулся
+[12:06:52] Client "c4s | qRRaz11cHHH" connected.
+[12:07:31] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 39 seconds).
+[12:07:49] thislove78 suicided!
+[12:08:07] thislove78 suicided!
+[12:08:34] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:08:39] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 388 seconds).
+[12:09:27] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:09:47] thislove78 suicided!
+[12:10:07] kunsinviktor: !motd
+[12:10:08] Кириешка suicided!
+[12:10:39] Client "Fimozzz" connected.
+[12:10:54] thislove78 suicided!
+[12:10:55] Rarirury: афк 9999999
+[12:10:55] Dropped "Rarirury" from server<STEAM_0:0:59257294>
+[12:10:55] Rarirury suicided!
+[12:11:15] Черный Вульфич suicided!
+[12:11:16] Черный Вульфич suicided!
+[12:11:27] thislove78 suicided!
+[12:11:39] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[12:11:39] kunsinviktor suicided!
+[12:11:56] Черный Вульфич suicided!
+[12:11:56] Черный Вульфич suicided!
+[12:11:59] Черный Вульфич suicided!
+[12:12:07] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[12:12:07] Черный Вульфич suicided!
+[12:12:34] thislove78 suicided!
+[12:12:40] thislove78 suicided!
+[12:12:40] thislove78 suicided!
+[12:12:50] Dropped "thislove78" from server<STEAM_0:1:839377702>
+[12:12:50] thislove78 suicided!
+[12:12:54] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:13:00] Кириешка suicided!
+[12:13:27] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:14:30] Client "n3ft0re" connected.
+[12:15:09] Кириешка suicided!
+[12:15:09] Кириешка suicided!
+[12:15:39] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:15:53] Кириешка suicided!
+[12:15:53] Кириешка suicided!
+[12:17:19] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:17:19] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:17:29] Dropped "Кириешка" from server<STEAM_0:0:702824973>
+[12:17:29] Кириешка suicided!
+[12:17:41] ᴋоʙᴀᴩныᴇ яйцᴀ: кириешка идиот нахуй ты меня расстрелял
+[12:18:28] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:19:41] Server is shutting down/changing levels.
+
+
+
+[12:19:48] New map: gm_zabroshka
+[12:19:49] Server is shutting down/changing levels.
+
+
+
+[12:19:54] New map: gm_zabroshka
+[12:20:10] Client "Fimozzz" connected.
+[12:20:19] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 25 seconds).
+[12:20:20] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 26 seconds).
+[12:21:18] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 68 seconds).
+[12:21:20] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[12:22:08] Client "Дед Щукарь" connected.
+[12:22:14] Client "Дед Щукарь" connected.
+[12:22:26] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:22:47] c4s | qRRaz11cHHH set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[12:22:58] c4s | qRRaz11cHHH suicided!
+[12:24:47] Fimozzz suicided!
+[12:24:52] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:24:56] Fimozzz: idi nahui pidor
+[12:25:04] ᴋоʙᴀᴩныᴇ яйцᴀ: plaki plaki
+[12:25:22] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[12:25:22] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:25:39] c4s | qRRaz11cHHH set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[12:26:10] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 236 seconds).
+[12:26:51] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:27:03] ᴋоʙᴀᴩныᴇ яйцᴀ: я 3 раз подряд предател
+[12:27:18] c4s | qRRaz11cHHH set Themself's model to models/vinrax/player/billy_herrington.mdl with colors R:255, G:255, B:255
+[12:27:55] Дед Щукарь suicided!
+[12:28:19] c4s | qRRaz11cHHH suicided!
+[12:28:40] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:28:43] Fimozzz suicided!
+[12:29:42] Дед Щукарь привел к Fimozzz
+[12:29:53] c4s | qRRaz11cHHH set Themself's model to models/player/megamind/megamind.mdl with colors R:255, G:255, B:255
+[12:29:56] Дед Щукарь set Themself's model to models/Player/Donald_Trump.mdl with colors R:255, G:255, B:255
+[12:29:56] Дед Щукарь: !setmodel ^ models/Player/Donald_Trump.mdl
+[12:30:08] Client "SG_KaAp" connected.
+[12:30:19] Дед Щукарь set Themself's model to models/characters/puze/pu.mdl with colors R:255, G:255, B:255
+[12:30:19] Дед Щукарь: !setmodel ^ models/characters/puze/pu.mdl
+[12:30:26] Дед Щукарь set Fimozzz's model to models/characters/puze/ze.mdl with colors R:255, G:255, B:255
+[12:30:26] Дед Щукарь: !setmodel fimo models/characters/puze/ze.mdl
+[12:31:08] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 60 seconds).
+[12:31:38] Fimozzz suicided!
+[12:32:01] c4s | qRRaz11cHHH suicided!
+[12:32:04] Дед Щукарь suicided!
+[12:32:19] ᴋоʙᴀᴩныᴇ яйцᴀ: SIEG HAIL
+[12:33:19] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:33:44] c4s | qRRaz11cHHH suicided!
+[12:33:46] Client "Rarirury" connected.
+[12:34:25] Fimozzz suicided!
+[12:34:32] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 46 seconds).
+[12:34:36] c4s | qRRaz11cHHH suicided!
+[12:34:39] SG_KaAp suicided!
+[12:35:06] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:35:16] Fimozzz suicided!
+[12:35:25] Дед Щукарь suicided!
+[12:36:14] SG_KaAp suicided!
+[12:36:14] SG_KaAp suicided!
+[12:36:32] Rarirury suicided!
+[12:36:34] SG_KaAp: !menu
+[12:36:51] ᴋоʙᴀᴩныᴇ яйцᴀ: что вы сделали
+[12:36:55] ᴋоʙᴀᴩныᴇ яйцᴀ: оанаеи
+[12:36:59] ᴋоʙᴀᴩныᴇ яйцᴀ: лагает
+[12:37:03] SG_KaAp voted for de_school2 (1/3)
+[12:37:04] c4s | qRRaz11cHHH suicided!
+[12:37:11] ᴋоʙᴀᴩныᴇ яйцᴀ voted for de_school2 (2/3)
+[12:37:11] ᴋоʙᴀᴩныᴇ яйцᴀ: !votemap 34
+[12:37:19] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:37:31] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[12:37:31] Fimozzz suicided!
+[12:38:03] Дед Щукарь suicided!
+[12:38:03] Дед Щукарь suicided!
+[12:38:14] Дед Щукарь voted for de_school2 (3/3)
+[12:38:14] Votemap for de_school2 won. Pending admin veto.
+[12:38:14] Дед Щукарь: !votemap 34
+[12:38:35] SG_KaAp suicided!
+[12:38:37] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:38:44] Server is shutting down/changing levels.
+
+
+
+[12:38:50] New map: de_school2
+[12:39:14] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 26 seconds).
+[12:39:18] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 30 seconds).
+[12:39:19] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 31 seconds).
+[12:39:19] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 31 seconds).
+[12:39:44] SG_KaAp: !menu
+[12:39:52] SG_KaAp сменил карту на de_school
+[12:39:52] Server is shutting down/changing levels.
+
+
+
+[12:39:58] New map: de_school
+[12:40:19] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 23 seconds).
+[12:40:23] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 27 seconds).
+[12:40:23] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 27 seconds).
+[12:40:37] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 41 seconds).
+[12:41:00] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:41:21] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 85 seconds).
+[12:41:43] c4s | qRRaz11cHHH killed Rarirury using player
+[12:42:13] SG_KaAp: !noclip
+[12:42:16] SG_KaAp: \!noclip
+[12:42:18] SG_KaAp: !noclip
+[12:42:21] SG_KaAp: !noclip
+[12:42:23] SG_KaAp: !noclip
+[12:42:26] SG_KaAp suicided!
+[12:43:42] SG_KaAp respawned Themself
+[12:43:42] SG_KaAp: !frespawn ^
+[12:43:45] SG_KaAp: !noclip
+[12:43:51] SG_KaAp: !noclip
+[12:43:58] SG_KaAp: !point blue
+[12:43:59] SG_KaAp: !point blue
+[12:44:02] SG_KaAp: !point blue
+[12:44:04] SG_KaAp: !point blue
+[12:44:05] SG_KaAp: !point blue
+[12:44:07] SG_KaAp: !point blue
+[12:44:09] SG_KaAp: !point blue
+[12:44:11] SG_KaAp: !point blue
+[12:44:13] SG_KaAp: !point blue
+[12:44:15] SG_KaAp: !point blue
+[12:44:16] c4s | qRRaz11cHHH: афк 9999999
+[12:44:16] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[12:44:16] c4s | qRRaz11cHHH suicided!
+[12:44:17] SG_KaAp: !point blue
+[12:44:19] SG_KaAp: !point blue
+[12:44:19] Client "c4s | qRRaz11cHHH" connected.
+[12:44:21] SG_KaAp: !point blue
+[12:44:27] SG_KaAp: !point blue
+[12:44:29] SG_KaAp: !point blue
+[12:44:31] SG_KaAp: !point blue
+[12:44:33] SG_KaAp: !point blue
+[12:44:35] Дед Щукарь suicided!
+[12:44:35] Дед Щукарь suicided!
+[12:44:35] SG_KaAp: !point blue
+[12:44:37] SG_KaAp: !point blue
+[12:44:40] SG_KaAp: !point blue
+[12:44:42] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 23 seconds).
+[12:44:42] SG_KaAp: !point blue
+[12:44:50] SG_KaAp respawned Themself
+[12:44:50] (TEAM) SG_KaAp: !frespawn ^
+[12:44:54] Дед Щукарь suicided!
+[12:45:26] SG_KaAp suicided!
+[12:45:36] Rarirury suicided!
+[12:45:41] c4s | qRRaz11cHHH suicided!
+[12:45:41] Client "Cock Tail" connected.
+[12:46:29] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:46:31] Дед Щукарь suicided!
+[12:46:51] c4s | qRRaz11cHHH was killed by box_normal
+[12:46:51] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:47:21] Rarirury suicided!
+[12:47:50] Client "Cock Tail" spawned in server <STEAM_0:1:91419152> (took 129 seconds).
+[12:48:06] c4s | qRRaz11cHHH was killed by box_normal
+[12:48:18] SG_KaAp suicided!
+[12:48:20] Rarirury was killed by box_normal
+[12:48:20] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:48:20] Дед Щукарь suicided!
+[12:48:48] Rarirury was killed by box_normal
+[12:48:48] SG_KaAp suicided!
+[12:48:48] c4s | qRRaz11cHHH suicided!
+[12:48:52] SG_KaAp: !menu
+[12:48:52] Client "Combine soldeir" connected.
+[12:49:16] Client "?who are you" connected.
+[12:49:17] SG_KaAp забанил Rarirury на 15 minutes (Оскорбление администрации)
+[12:49:17] Dropped "Rarirury" from server<STEAM_0:0:59257294>
+[12:50:32] Дед Щукарь suicided!
+[12:50:36] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 80 seconds).
+[12:50:41] SG_KaAp suicided!
+[12:50:41] SG_KaAp suicided!
+[12:50:49] Дед Щукарь suicided!
+[12:50:50] c4s | qRRaz11cHHH was killed by box_normal
+[12:50:50] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:50:57] SG_KaAp: !levelend
+[12:51:26] Client "Combine soldeir" spawned in server <STEAM_0:1:641354394> (took 154 seconds).
+[12:51:33] SG_KaAp set Themself's model to models/dannio/pm/joebiden.mdl with colors R:255, G:255, B:255
+[12:51:56] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[12:52:21] c4s | qRRaz11cHHH suicided!
+[12:53:08] Combine soldeir: бро реально скулшутер
+[12:53:11] ?who are you suicided!
+[12:53:11] ?who are you suicided!
+[12:53:48] ?who are you suicided!
+[12:53:48] Дед Щукарь suicided!
+[12:54:24] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:54:43] Cock Tail suicided!
+[12:55:02] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:55:27] c4s | qRRaz11cHHH suicided!
+[12:55:43] ?who are you suicided!
+[12:55:49] Дед Щукарь suicided!
+[12:56:18] Cock Tail suicided!
+[12:56:23] Combine soldeir suicided!
+[12:56:56] Дед Щукарь suicided!
+[12:56:56] c4s | qRRaz11cHHH suicided!
+[12:57:02] Cock Tail suicided!
+[12:57:15] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[12:57:15] SG_KaAp suicided!
+[12:57:45] c4s | qRRaz11cHHH suicided!
+[12:57:52] Дед Щукарь suicided!
+[12:58:00] ?who are you suicided!
+[12:58:12] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[12:58:36] Cock Tail suicided!
+[12:59:32] ?who are you suicided!
+[12:59:32] ?who are you suicided!
+[13:00:02] c4s | qRRaz11cHHH suicided!
+[13:00:15] Дед Щукарь suicided!
+[13:00:28] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:00:28] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:00:29] ?who are you suicided!
+[13:01:07] Combine soldeir suicided!
+[13:01:18] Дед Щукарь suicided!
+[13:01:18] Дед Щукарь suicided!
+[13:01:24] ?who are you suicided!
+[13:01:39] ?who are you respawned Themself
+[13:02:01] c4s | qRRaz11cHHH suicided!
+[13:02:15] Client "Fimozzz" connected.
+[13:02:22] ?who are you suicided!
+[13:02:27] Дед Щукарь suicided!
+[13:02:40] Combine soldeir suicided!
+[13:02:43] c4s | qRRaz11cHHH suicided!
+[13:02:48] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 33 seconds).
+[13:03:06] (TEAM) Combine soldeir: я СВОй был ебланы
+[13:03:17] c4s | qRRaz11cHHH: /levelend
+[13:03:24] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:03:25] ?who are you suicided!
+[13:03:35] Дед Щукарь suicided!
+[13:03:36] ᴋоʙᴀᴩныᴇ яйцᴀ: вы меня инвалидом сделали
+[13:03:48] ?who are you: !levelend
+[13:03:51] Fimozzz suicided!
+[13:04:57] Дед Щукарь suicided!
+[13:05:17] c4s | qRRaz11cHHH suicided!
+[13:05:20] Fimozzz suicided!
+[13:05:21] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:05:29] ᴋоʙᴀᴩныᴇ яйцᴀ: ьэээ масгии
+[13:05:36] Client "_DUDE_" connected.
+[13:05:47] c4s | qRRaz11cHHH suicided!
+[13:06:00] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:06:47] Combine soldeir suicided!
+[13:06:52] Fimozzz suicided!
+[13:07:05] Дед Щукарь: !levelnext hineandseek
+[13:07:17] Дед Щукарь: !levelnext hideandseek
+[13:07:46] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:08:26] Дед Щукарь suicided!
+[13:08:33] Combine soldeir suicided!
+[13:09:07] Cock Tail suicided!
+[13:09:08] (TEAM) Combine soldeir: плотную кидает
+[13:09:16] ᴋоʙᴀᴩныᴇ яйцᴀ: масги
+[13:09:23] ᴋоʙᴀᴩныᴇ яйцᴀ: мне нушны масги прячущихся
+[13:09:28] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[13:09:48] ?who are you: !levelrandom 0
+[13:09:58] Cock Tail suicided!
+[13:10:53] Дед Щукарь set Themself's model to models/dih/Miku_rabbit_hole.mdl with colors R:255, G:255, B:255
+[13:10:53] Дед Щукарь: !setmodel ^ models/dih/Miku_rabbit_hole.mdl
+[13:10:59] Дед Щукарь suicided!
+[13:11:03] ?who are you suicided!
+[13:11:12] c4s | qRRaz11cHHH suicided!
+[13:11:43] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:11:47] ?who are you suicided!
+[13:11:53] ᴋоʙᴀᴩныᴇ яйцᴀ: админы руина
+[13:12:02] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:12:02] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:12:16] Cock Tail suicided!
+[13:12:28] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[13:13:36] ?who are you suicided!
+[13:13:38] Fimozzz killed Combine soldeir using player
+[13:13:45] c4s | qRRaz11cHHH suicided!
+[13:14:33] Дед Щукарь gave weapon weapon_cumgun to Fimozzz
+[13:14:33] Дед Щукарь: !giveweapon fi weapon_cumgun
+[13:14:34] Дед Щукарь suicided!
+[13:14:35] Fimozzz suicided!
+[13:15:02] Дед Щукарь gave weapon weapon_cumgun to Fimozzz
+[13:15:02] Дед Щукарь: !giveweapon fi weapon_cumgun
+[13:15:08] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:15:08] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:15:32] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[13:15:50] Дед Щукарь set Fimozzz's model to models/player/viktor/giga_chad.mdl with colors R:255, G:255, B:255
+[13:15:50] Дед Щукарь: !setmodel fi models/player/viktor/giga_chad.mdl
+[13:16:39] Cock Tail suicided!
+[13:17:16] Client "влад doza" connected.
+[13:17:21] Client "влад doza" connected.
+[13:18:03] c4s | qRRaz11cHHH suicided!
+[13:18:09] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:18:09] c4s | qRRaz11cHHH suicided!
+[13:18:09] Cock Tail suicided!
+[13:18:09] Дед Щукарь suicided!
+[13:18:09] Fimozzz suicided!
+[13:18:09] Combine soldeir suicided!
+[13:18:09] ?who are you suicided!
+[13:18:26] Dropped "Cock Tail" from server<STEAM_0:1:91419152>
+[13:18:39] Server is shutting down/changing levels.
+
+
+
+[13:18:45] New map: ttt_greenhouse
+[13:18:45] Server is shutting down/changing levels.
+
+
+
+[13:18:50] New map: ttt_greenhouse
+[13:18:50] Client "пиницелиноед" connected.
+[13:18:50] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[13:18:50] Client "?who are you" connected.
+[13:18:50] Client "Дед Щукарь" connected.
+[13:18:50] Client "c4s | qRRaz11cHHH" connected.
+[13:18:50] Client "Combine soldeir" connected.
+[13:18:50] Client "влад doza" connected.
+[13:18:50] Client "Fimozzz" connected.
+[13:19:15] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 25 seconds).
+[13:19:16] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 26 seconds).
+[13:19:17] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 27 seconds).
+[13:19:25] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 35 seconds).
+[13:19:34] Client "влад doza" spawned in server <STEAM_0:0:849969262> (took 44 seconds).
+[13:19:35] Client "Combine soldeir" spawned in server <STEAM_0:1:641354394> (took 45 seconds).
+[13:19:56] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:19:56] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:20:01] Fimozzz suicided!
+[13:20:12] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[13:20:13] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 83 seconds).
+[13:21:25] влад doza suicided!
+[13:21:28] Combine soldeir suicided!
+[13:21:31] ?who are you suicided!
+[13:22:10] c4s | qRRaz11cHHH set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[13:22:13] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:22:13] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:22:30] Dropped "влад doza" from server<STEAM_0:0:849969262>
+[13:22:30] влад doza suicided!
+[13:22:51] Combine soldeir suicided!
+[13:22:53] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:23:11] c4s | qRRaz11cHHH set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[13:23:11] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:23:11] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:23:57] Дед Щукарь suicided!
+[13:24:16] ?who are you suicided!
+[13:24:40] c4s | qRRaz11cHHH suicided!
+[13:24:45] ?who are you respawned c4s | qRRaz11cHHH
+[13:24:50] Fimozzz suicided!
+[13:24:56] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:25:19] c4s | qRRaz11cHHH set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[13:25:33] ?who are you suicided!
+[13:25:53] c4s | qRRaz11cHHH suicided!
+[13:26:16] Combine soldeir suicided!
+[13:26:16] Combine soldeir suicided!
+[13:26:37] Client "пиницелиноед" spawned in server <STEAM_0:0:770322894> (took 467 seconds).
+[13:27:10] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:27:16] Дед Щукарь killed Fimozzz using player
+[13:27:20] Дед Щукарь suicided!
+[13:27:36] ᴋоʙᴀᴩныᴇ яйцᴀ: давайте
+[13:27:41] ᴋоʙᴀᴩныᴇ яйцᴀ: я чур первый
+[13:27:46] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:27:46] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:27:54] *** пиницелиноед показал военный билет: Соколов С.С. | РЯД | 102-й МСП | МОБИЛ | - | - |
+[13:28:00] Дед Щукарь: отойди
+[13:28:15] c4s | qRRaz11cHHH set Themself's model to models/player/megamind/megamind.mdl with colors R:255, G:255, B:255
+[13:28:19] Дед Щукарь: подойдите
+[13:28:19] ?who are you: bind g fake
+[13:28:26] Дед Щукарь: она не взырвается
+[13:28:34] Дед Щукарь: все к бочке
+[13:28:38] Дед Щукарь: веселуха
+[13:29:24] c4s | qRRaz11cHHH suicided!
+[13:29:46] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[13:29:52] Combine soldeir suicided!
+[13:29:59] Дед Щукарь: СТой
+[13:30:03] Дед Щукарь: буть ту
+[13:30:05] Дед Щукарь: т
+[13:30:16] Дед Щукарь suicided!
+[13:30:41] Client "Черный Вульфич" connected.
+[13:30:47] Дед Щукарь: supply radio: timebombs
+[13:30:48] Fimozzz suicided!
+[13:30:48] Fimozzz suicided!
+[13:30:51] Дед Щукарь: supply radio: sentry
+[13:31:14] Дед Щукарь suicided!
+[13:31:14] Дед Щукарь suicided!
+[13:31:18] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[13:31:18] ?who are you suicided!
+[13:31:40] Дед Щукарь suicided!
+[13:31:40] Дед Щукарь suicided!
+[13:31:43] Fimozzz suicided!
+[13:31:43] Fimozzz suicided!
+[13:31:56] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:32:19] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[13:32:27] Client "Fimozzz" connected.
+[13:32:29] пиницелиноед suicided!
+[13:32:46] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 19 seconds).
+[13:32:47] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 126 seconds).
+[13:33:07] Дед Щукарь: ладно
+[13:33:11] Дед Щукарь suicided!
+[13:33:34] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[13:33:34] Дед Щукарь suicided!
+[13:33:35] Черный Вульфич голосует за Да
+[13:33:36] Fimozzz голосует за Нет
+[13:33:37] пиницелиноед голосует за Да
+[13:33:40] Client "SG_KaAp" connected.
+[13:33:41] ᴋоʙᴀᴩныᴇ яйцᴀ: У МЕНЯ зига не убирается
+[13:33:44] Combine soldeir suicided!
+[13:34:01] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 21 seconds).
+[13:34:05] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:34:05] Дед Щукарь: !levelend
+[13:34:32] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[13:34:32] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[13:34:36] Дед Щукарь: не бей
+[13:34:44] Дед Щукарь: дайте тазер
+[13:36:27] Дед Щукарь suicided!
+[13:37:00] Дед Щукарь: убей его
+[13:37:14] Черный Вульфич suicided!
+[13:37:17] пиницелиноед suicided!
+
+
+
+[13:38:22] New map: gm_mdach
+[13:38:24] Client "Черный Вульфич" connected.
+[13:38:26] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[13:38:36] Client "Дед Щукарь" connected.
+[13:38:40] Client "SG_KaAp" connected.
+[13:38:51] Client "пиницелиноед" connected.
+[13:38:56] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 30 seconds).
+[13:39:02] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[13:39:02] Client "Fimozzz" connected.
+[13:39:15] Client "Combine soldeir" connected.
+[13:39:21] Client "пиницелиноед" spawned in server <STEAM_0:0:770322894> (took 30 seconds).
+[13:39:22] Client "Combine soldeir" connected.
+[13:39:33] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 31 seconds).
+[13:39:35] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 71 seconds).
+[13:40:06] SG_KaAp suicided!
+[13:40:06] SG_KaAp suicided!
+[13:40:12] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 96 seconds).
+[13:40:27] Client "Combine soldeir" spawned in server <STEAM_0:1:641354394> (took 65 seconds).
+[13:40:51] Fimozzz suicided!
+[13:40:51] Fimozzz suicided!
+[13:40:54] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:40:57] Черный Вульфич suicided!
+[13:41:04] Fimozzz: оварные яйца я тебе яйца оторву черт бля
+[13:41:46] Fimozzz suicided!
+[13:41:59] Combine soldeir suicided!
+[13:42:15] пиницелиноед suicided!
+[13:42:54] Черный Вульфич suicided!
+[13:43:02] Дед Щукарь suicided!
+[13:43:17] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:43:20] Fimozzz suicided!
+[13:43:33] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:43:54] пиницелиноед suicided!
+[13:44:07] Дед Щукарь suicided!
+[13:44:44] SG_KaAp suicided!
+[13:45:31] Дед Щукарь: !menu
+[13:45:38] Дед Щукарь заткнул пиницелиноед
+[13:46:52] Client "киберхрюк" connected.
+[13:47:04] SG_KaAp запустил голосование (Кончаем?)
+[13:47:04] SG_KaAp: !vote Кончаем? Да Нет
+[13:47:05] Дед Щукарь голосует за Да
+[13:47:06] Combine soldeir голосует за Да
+[13:47:07] Черный Вульфич голосует за Да
+[13:47:07] Fimozzz голосует за Нет
+[13:47:09] SG_KaAp голосует за Да
+[13:47:10] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[13:47:20] пиницелиноед голосует за Да
+[13:47:20] Результат: 'Да' . (6/7)
+[13:47:31] Fimozzz suicided!
+[13:47:33] SG_KaAp suicided!
+[13:47:36] Client "киберхрюк" spawned in server <STEAM_0:0:857614733> (took 44 seconds).
+[13:47:45] Дед Щукарь set Themself's model to models/player/megamind/megamind.mdl with colors R:255, G:255, B:255
+[13:47:45] Дед Щукарь: !setmodel ^ models/player/megamind/megamind.mdl
+[13:47:54] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[13:47:55] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[13:48:20] Черный Вульфич suicided!
+[13:48:20] Черный Вульфич suicided!
+[13:48:40] Client "Broken Angel" connected.
+[13:48:44] Client "JUDAS" connected.
+[13:48:54] Дед Щукарь suicided!
+[13:49:30] Client "JUDAS" spawned in server <STEAM_0:0:172951444> (took 46 seconds).
+[13:49:45] SG_KaAp suicided!
+[13:49:55] Fimozzz suicided!
+[13:50:02] Client "c4s | qRRaz11cHHH" connected.
+[13:50:13] киберхрюк suicided!
+[13:50:16] Dropped "киберхрюк" from server<STEAM_0:0:857614733>
+[13:50:31] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 29 seconds).
+[13:50:32] Client "Broken Angel" spawned in server <STEAM_0:0:150851511> (took 112 seconds).
+[13:50:37] SG_KaAp запустил голосование (Кончаем?)
+[13:50:37] SG_KaAp: !vote Кончаем? Да Нет
+[13:50:39] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Нет
+[13:50:39] Дед Щукарь голосует за Да
+[13:50:40] Fimozzz голосует за Да
+[13:50:40] Combine soldeir голосует за Да
+[13:50:45] c4s | qRRaz11cHHH голосует за Да
+[13:50:45] SG_KaAp голосует за Да
+[13:50:46] JUDAS голосует за Да
+[13:50:48] пиницелиноед голосует за Да
+[13:50:52] Черный Вульфич голосует за Да
+[13:50:57] Результат: 'Да' . (8/10)
+[13:50:59] Client "Vladius" connected.
+[13:51:03] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:51:03] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:51:06] Дед Щукарь suicided!
+[13:51:22] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:51:22] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:51:30] c4s | qRRaz11cHHH set Themself's model to models/player/megamind/megamind.mdl with colors R:255, G:255, B:255
+[13:52:01] SG_KaAp suicided!
+[13:52:03] Fimozzz: не надо
+[13:52:04] c4s | qRRaz11cHHH suicided!
+[13:52:04] c4s | qRRaz11cHHH suicided!
+[13:52:13] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:52:13] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:52:17] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[13:52:23] SG_KaAp set Themself's model to models/player/magnusson.mdl with colors R:255, G:255, B:255
+[13:52:35] Дед Щукарь suicided!
+[13:52:53] Fimozzz suicided!
+[13:53:36] пиницелиноед: афк 9999999
+[13:53:36] Dropped "пиницелиноед" from server<STEAM_0:0:770322894>
+[13:53:36] пиницелиноед suicided!
+[13:53:41] ᴋоʙᴀᴩныᴇ яйцᴀ: в соло
+[13:53:46] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:53:46] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:53:46] Client "пиницелиноед" connected.
+[13:53:50] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[13:53:52] SG_KaAp set Themself's model to models/ful76/player/vladimir_lenin_redux.mdl with colors R:255, G:255, B:255
+[13:54:07] Дед Щукарь suicided!
+[13:54:10] Client "пиницелиноед" spawned in server <STEAM_0:0:770322894> (took 24 seconds).
+[13:55:09] Broken Angel suicided!
+[13:55:29] c4s | qRRaz11cHHH suicided!
+[13:55:45] Черный Вульфич suicided!
+[13:56:32] SG_KaAp suicided!
+[13:57:15] пиницелиноед: !motd
+[13:57:21] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[13:57:54] Fimozzz suicided!
+[13:58:00] SG_KaAp запустил голосование (Кончаем?)
+[13:58:00] SG_KaAp: !vote Кончаем? Да Нет
+[13:58:01] Черный Вульфич голосует за Да
+[13:58:01] Дед Щукарь голосует за Да
+[13:58:01] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[13:58:01] пиницелиноед голосует за Да
+[13:58:01] JUDAS голосует за Да
+[13:58:02] Combine soldeir голосует за Да
+[13:58:02] SG_KaAp голосует за Да
+[13:58:04] c4s | qRRaz11cHHH голосует за Нет
+[13:58:11] Combine soldeir suicided!
+[13:58:17] Broken Angel голосует за Да
+[13:58:20] Результат: 'Да' . (8/10)
+[13:58:26] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[13:58:27] SG_KaAp set Themself's model to models/player/police_fem.mdl with colors R:255, G:255, B:255
+[13:58:28] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:58:28] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:59:27] Дед Щукарь killed Fimozzz using player
+[13:59:32] Дед Щукарь killed c4s | qRRaz11cHHH using player
+[13:59:41] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[13:59:43] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[13:59:43] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[13:59:48] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[13:59:52] JUDAS suicided!
+[13:59:52] SG_KaAp suicided!
+[14:00:02] пиницелиноед suicided!
+[14:00:02] пиницелиноед suicided!
+[14:00:03] Fimozzz suicided!
+[14:00:04] Combine soldeir suicided!
+[14:00:05] Broken Angel suicided!
+[14:00:05] Дед Щукарь suicided!
+[14:00:13] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[14:00:13] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[14:00:14] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[14:00:18] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[14:01:12] Combine soldeir suicided!
+[14:01:21] Client "cocat3339" connected.
+[14:01:24] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[14:01:25] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[14:01:25] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[14:01:26] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[14:01:31] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[14:02:00] Client "cocat3339" spawned in server <STEAM_0:0:628322001> (took 39 seconds).
+[14:02:50] JUDAS suicided!
+[14:02:55] Дед Щукарь suicided!
+[14:03:23] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[14:03:56] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[14:04:01] c4s | qRRaz11cHHH suicided!
+[14:04:09] Fimozzz suicided!
+[14:04:09] cocat3339 suicided!
+[14:04:09] Черный Вульфич suicided!
+[14:04:50] SG_KaAp suicided!
+[14:04:58] Дед Щукарь suicided!
+[14:05:04] Черный Вульфич suicided!
+[14:05:04] Дед Щукарь suicided!
+[14:05:04] SG_KaAp suicided!
+[14:05:04] пиницелиноед suicided!
+[14:05:04] Fimozzz suicided!
+[14:05:04] Combine soldeir suicided!
+[14:05:04] cocat3339 suicided!
+[14:05:04] Broken Angel suicided!
+[14:05:04] JUDAS suicided!
+[14:05:04] c4s | qRRaz11cHHH suicided!
+[14:05:33] Server is shutting down/changing levels.
+
+
+
+[14:05:40] New map: gm_waa_pizzaplace_2010
+[14:05:40] Server is shutting down/changing levels.
+
+
+
+[14:05:45] New map: gm_waa_pizzaplace_2010
+[14:05:45] Client "Дед Щукарь" connected.
+[14:05:45] Client "c4s | qRRaz11cHHH" connected.
+[14:05:45] Client "Combine soldeir" connected.
+[14:05:45] Client "Fimozzz" connected.
+[14:06:02] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[14:06:07] Client "cocat3339" spawned in server <STEAM_0:0:628322001> (took 22 seconds).
+[14:06:09] Client "JUDAS" spawned in server <STEAM_0:0:172951444> (took 24 seconds).
+[14:06:10] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 25 seconds).
+[14:06:13] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 28 seconds).
+[14:06:13] Client "пиницелиноед" spawned in server <STEAM_0:0:770322894> (took 28 seconds).
+[14:06:17] Client "Broken Angel" spawned in server <STEAM_0:0:150851511> (took 32 seconds).
+[14:06:18] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[14:06:26] SG_KaAp suicided!
+[14:06:29] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 44 seconds).
+[14:06:32] Client "Combine soldeir" spawned in server <STEAM_0:1:641354394> (took 47 seconds).
+[14:06:47] Fimozzz suicided!
+[14:07:13] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 88 seconds).
+[14:07:38] JUDAS suicided!
+[14:07:38] JUDAS suicided!
+[14:07:43] c4s | qRRaz11cHHH suicided!
+[14:07:43] пиницелиноед suicided!
+[14:07:48] SG_KaAp suicided!
+[14:07:48] JUDAS suicided!
+[14:08:00] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[14:08:02] SG_KaAp respawned Themself
+[14:08:04] SG_KaAp respawned JUDAS
+[14:08:16] Combine soldeir suicided!
+[14:08:22] c4s | qRRaz11cHHH suicided!
+[14:08:27] Fimozzz suicided!
+[14:08:46] JUDAS suicided!
+[14:08:59] Broken Angel suicided!
+[14:09:02] cocat3339 suicided!
+[14:09:48] SG_KaAp suicided!
+[14:10:26] SG_KaAp запустил голосование (Кончаем на Мику?!)
+[14:10:26] SG_KaAp: !VOTE  "Кончаем на Мику?!" Да Нет
+[14:10:27] JUDAS голосует за Да
+[14:10:27] Дед Щукарь голосует за Да
+[14:10:27] SG_KaAp голосует за Да
+[14:10:28] Черный Вульфич голосует за Да
+[14:10:28] c4s | qRRaz11cHHH голосует за Да
+[14:10:28] Broken Angel голосует за Да
+[14:10:29] cocat3339 голосует за Да
+[14:10:29] Fimozzz голосует за Да
+[14:10:29] Combine soldeir голосует за Да
+[14:10:30] пиницелиноед голосует за Нет
+[14:10:30] Результат: 'Да' . (9/10)
+[14:10:49] пиницелиноед suicided!
+[14:10:54] пиницелиноед suicided!
+[14:10:54] Combine soldeir suicided!
+[14:11:04] SG_KaAp set Themself's model to models/player/megamind/megamind.mdl with colors R:255, G:255, B:255
+[14:11:15] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[14:11:21] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[14:11:23] Fimozzz suicided!
+[14:11:25] SG_KaAp suicided!
+[14:11:38] Combine soldeir: как менять модельку?
+[14:11:40] Черный Вульфич suicided!
+[14:12:25] Дед Щукарь suicided!
+[14:12:26] JUDAS suicided!
+[14:12:27] cocat3339 suicided!
+[14:12:30] пиницелиноед suicided!
+[14:12:30] Broken Angel suicided!
+[14:12:33] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[14:12:33] c4s | qRRaz11cHHH suicided!
+[14:12:37] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[14:12:38] Fimozzz suicided!
+[14:12:53] SG_KaAp suicided!
+[14:13:00] Dropped "пиницелиноед" from server<STEAM_0:0:770322894>
+[14:13:12] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[14:13:30] Черный Вульфич suicided!
+[14:13:33] JUDAS suicided!
+[14:13:39] cocat3339 suicided!
+[14:13:39] cocat3339 suicided!
+[14:14:41] Дед Щукарь<STEAM_0:1:740599899> spawned vehicle models/blu/zaz/zaz.mdl
+[14:14:51] Дед Щукарь<STEAM_0:1:740599899> spawned vehicle models/blu/zaz/zaz.mdl
+[14:15:29] Combine soldeir suicided!
+[14:15:29] Combine soldeir suicided!
+[14:15:33] Дед Щукарь suicided!
+[14:16:10] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[14:16:10] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[14:16:15] Combine soldeir: !motd
+[14:16:30] Broken Angel suicided!
+[14:17:06] Fimozzz suicided!
+[14:17:17] Combine soldeir suicided!
+[14:17:17] Combine soldeir suicided!
+[14:17:32] Client "pypsuk" connected.
+[14:17:37] JUDAS suicided!
+[14:18:25] cocat3339 suicided!
+[14:18:38] Combine soldeir: !motd
+[14:19:12] Dropped "JUDAS" from server<STEAM_0:0:172951444>
+[14:19:13] Dropped "Broken Angel" from server<STEAM_0:0:150851511>
+[14:20:56] Дед Щукарь killed Fimozzz using player
+[14:21:10] Дед Щукарь suicided!
+[14:21:44] cocat3339 suicided!
+[14:21:58] Combine soldeir suicided!
+[14:22:09] Дед Щукарь suicided!
+[14:22:24] Client "c4s | qRRaz11cHHH" connected.
+[14:22:33] Дед Щукарь: s
+[14:22:51] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 27 seconds).
+[14:23:04] Combine soldeir: да
+[14:23:05] Fimozzz suicided!
+[14:23:28] Дед Щукарь<STEAM_0:1:740599899> spawned vehicle models/blu/van/pw_van.mdl
+[14:23:38] Combine soldeir suicided!
+[14:23:40] Client "Д-р Тобиас Риппер" connected.
+[14:23:53] cocat3339 suicided!
+[14:23:54] Fimozzz suicided!
+[14:24:29] Combine soldeir: я идиот сука я с прошлого раунда думал я шаровары и в итоге своего убил
+[14:25:17] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[14:25:29] Дед Щукарь: нет
+[14:26:17] cocat3339 suicided!
+[14:26:25] cocat3339 suicided!
+[14:26:37] cocat3339 suicided!
+[14:26:51] c4s | qRRaz11cHHH suicided!
+[14:26:51] cocat3339 suicided!
+[14:27:13] Combine soldeir suicided!
+[14:27:34] Client "Fimozzz" connected.
+[14:27:45] Combine soldeir suicided!
+[14:28:07] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[14:28:07] Дед Щукарь suicided!
+[14:28:24] Dropped "cocat3339" from server<STEAM_0:0:628322001>
+[14:28:24] cocat3339 suicided!
+[14:28:28] Dropped "Combine soldeir" from server<STEAM_0:1:641354394>
+[14:28:28] Combine soldeir suicided!
+[14:28:44] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[14:28:44] Черный Вульфич suicided!
+[14:28:45] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 71 seconds).
+[14:28:47] Client "Черный Вульфич" connected.
+[14:29:08] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[14:29:08] c4s | qRRaz11cHHH suicided!
+[14:29:08] Client "cocat3339" connected.
+[14:29:08] Client "c4s | qRRaz11cHHH" connected.
+[14:29:32] Client "c4s | qRRaz11cHHH" connected.
+[14:30:14] Client "cocat3339" spawned in server <STEAM_0:0:628322001> (took 66 seconds).
+[14:30:20] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 48 seconds).
+[14:30:24] Client "Д-р Тобиас Риппер" spawned in server <STEAM_0:0:846971240> (took 404 seconds).
+[14:30:36] cocat3339 suicided!
+[14:30:38] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 111 seconds).
+[14:30:48] Client "50 ммр ценности" connected.
+[14:31:05] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[14:31:09] Fimozzz голосует за Да
+[14:31:09] cocat3339 голосует за Да
+[14:31:13] Д-р Тобиас Риппер голосует за Да
+[14:31:15] c4s | qRRaz11cHHH голосует за Да
+[14:31:23] Д-р Тобиас Риппер suicided!
+[14:31:26] cocat3339 suicided!
+[14:32:04] Dropped "cocat3339" from server<STEAM_0:0:628322001>
+[14:32:06] Dropped "Д-р Тобиас Риппер" from server<STEAM_0:0:846971240>
+[14:33:44] c4s | qRRaz11cHHH suicided!
+[14:34:17] Fimozzz suicided!
+[14:34:17] Fimozzz suicided!
+[14:34:37] Fimozzz: ми вдвоем остались
+[14:35:03] Client "piska" connected.
+[14:35:46] Client "piska" spawned in server <STEAM_0:0:464386000> (took 43 seconds).
+[14:36:17] c4s | qRRaz11cHHH suicided!
+[14:36:41] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[14:37:01] piska suicided!
+[14:37:07] Dropped "piska" from server<STEAM_0:0:464386000>
+[14:38:17] Fimozzz голосует за Да
+[14:38:43] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[14:38:43] Fimozzz suicided!
+[14:38:49] Client "cocat3339" connected.
+[14:39:10] Client "cocat3339" spawned in server <STEAM_0:0:628322001> (took 21 seconds).
+[14:39:25] Dropped "cocat3339" from server<STEAM_0:0:628322001>
+[14:39:25] cocat3339 suicided!
+[14:39:49] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 541 seconds).
+[14:40:11] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[15:11:10] Client "Черный Вульфич" connected.
+[15:11:52] Client "kunsinviktor" connected.
+[15:13:12] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 122 seconds).
+[15:13:12] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 80 seconds).
+[15:14:09] Черный Вульфич suicided!
+[15:16:14] kunsinviktor was killed by box_normal
+[15:16:14] Черный Вульфич suicided!
+[15:20:48] Client "SG_KaAp" connected.
+[15:21:08] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[15:21:18] SG_KaAp suicided!
+[15:22:34] Черный Вульфич suicided!
+[15:22:40] Черный Вульфич suicided!
+[15:22:40] kunsinviktor suicided!
+[15:23:10] Server is shutting down/changing levels.
+
+
+
+[15:23:18] New map: de_chateau
+[15:23:18] Server is shutting down/changing levels.
+
+
+
+[15:23:23] New map: de_chateau
+[15:23:23] Client "Черный Вульфич" connected.
+[15:23:23] Client "kunsinviktor" connected.
+[15:23:23] Client "SG_KaAp" connected.
+[15:23:45] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[15:23:47] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 24 seconds).
+[15:23:53] SG_KaAp suicided!
+[15:24:06] Client "Gyzery" connected.
+[15:24:37] Client "Кириешка" connected.
+[15:24:39] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 76 seconds).
+[15:24:53] Client "c4s | qRRaz11cHHH" connected.
+[15:25:19] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 26 seconds).
+[15:25:25] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 48 seconds).
+[15:25:56] Черный Вульфич suicided!
+[15:26:25] Кириешка suicided!
+[15:26:31] c4s | qRRaz11cHHH suicided!
+[15:26:49] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[15:27:26] Кириешка suicided!
+[15:27:28] kunsinviktor suicided!
+[15:27:37] c4s | qRRaz11cHHH suicided!
+[15:27:55] kunsinviktor suicided!
+[15:28:11] c4s | qRRaz11cHHH set Themself's model to models/player/donald_trump.mdl with colors R:255, G:255, B:255
+[15:28:53] Черный Вульфич suicided!
+[15:28:54] c4s | qRRaz11cHHH set Themself's model to models/player/viktor/giga_chad.mdl with colors R:255, G:255, B:255
+[15:29:12] c4s | qRRaz11cHHH suicided!
+[15:29:18] kunsinviktor suicided!
+[15:30:20] Черный Вульфич suicided!
+[15:30:55] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[15:30:55] kunsinviktor suicided!
+[15:31:03] Кириешка suicided!
+[15:31:55] c4s | qRRaz11cHHH suicided!
+[15:32:19] Client "Fimozzz" connected.
+[15:32:26] Кириешка suicided!
+[15:32:26] Кириешка suicided!
+[15:33:16] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 57 seconds).
+[15:33:36] c4s | qRRaz11cHHH suicided!
+[15:34:19] Черный Вульфич: supply radio: weapon supplies
+[15:35:10] Client "Мэтью" connected.
+[15:35:19] Fimozzz suicided!
+[15:35:21] Client "Мику" connected.
+[15:35:56] Черный Вульфич suicided!
+[15:36:01] Кириешка suicided!
+[15:36:18] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[15:36:52] Кириешка suicided!
+[15:37:01] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 100 seconds).
+[15:37:12] Черный Вульфич suicided!
+[15:38:38] c4s | qRRaz11cHHH suicided!
+[15:39:26] Fimozzz suicided!
+[15:39:30] Черный Вульфич suicided!
+[15:39:53] Кириешка suicided!
+[15:39:58] c4s | qRRaz11cHHH suicided!
+[15:40:12] Черный Вульфич suicided!
+[15:40:22] Client "анивонацейноу" connected.
+[15:40:29] Fimozzz suicided!
+[15:40:50] Черный Вульфич suicided!
+[15:40:50] Черный Вульфич suicided!
+[15:40:57] Fimozzz suicided!
+[15:40:57] Fimozzz suicided!
+[15:40:58] Client "Nikolai" connected.
+[15:41:07] Черный Вульфич suicided!
+[15:41:15] c4s | qRRaz11cHHH suicided!
+[15:41:16] Мику suicided!
+[15:41:16] Мику suicided!
+[15:41:34] Кириешка suicided!
+[15:41:34] Кириешка suicided!
+[15:42:00] Fimozzz suicided!
+[15:42:00] Fimozzz suicided!
+[15:42:04] Черный Вульфич suicided!
+[15:42:18] Мику: я в соло ебашу их вы о чем
+[15:42:22] Fimozzz suicided!
+[15:42:36] Кириешка suicided!
+[15:42:42] c4s | qRRaz11cHHH suicided!
+[15:43:10] Fimozzz suicided!
+[15:43:10] Fimozzz suicided!
+[15:43:14] Client "shkiper" connected.
+[15:43:22] Мику suicided!
+[15:43:25] c4s | qRRaz11cHHH suicided!
+[15:43:43] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 201 seconds).
+[15:43:47] Кириешка suicided!
+[15:43:48] c4s | qRRaz11cHHH suicided!
+[15:43:56] анивонацейноу suicided!
+[15:44:45] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[15:44:45] Fimozzz suicided!
+[15:44:45] Client "Fimozzz" connected.
+[15:45:10] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 25 seconds).
+[15:45:32] Мику: а че с хуя 1 рука в рэгдоле
+[15:45:43] c4s | qRRaz11cHHH suicided!
+[15:46:28] c4s | qRRaz11cHHH suicided!
+[15:46:42] Fimozzz: ti pidorw
+[15:46:44] Client "Nikolai" spawned in server <STEAM_0:1:90358762> (took 346 seconds).
+[15:46:47] Черный Вульфич: вы где
+[15:46:47] Мику suicided!
+[15:46:51] Черный Вульфич: я в доме
+[15:47:01] Nikolai suicided!
+[15:47:03] Nikolai suicided!
+[15:47:07] Dropped "Мику" from server<STEAM_0:0:50399502>
+[15:47:07] Мику suicided!
+[15:47:22] анивонацейноу suicided!
+[15:47:42] Client "Дед Щукарь" connected.
+[15:47:58] c4s | qRRaz11cHHH suicided!
+[15:48:03] Черный Вульфич suicided!
+[15:48:06] Nikolai suicided!
+[15:48:31] Client "Мику" connected.
+[15:49:08] Nikolai suicided!
+[15:49:23] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 52 seconds).
+[15:49:36] анивонацейноу suicided!
+[15:49:50] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 128 seconds).
+[15:50:13] Dropped "Nikolai" from server<STEAM_0:1:90358762>
+[15:50:45] Client "rostischka" connected.
+[15:51:16] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[15:51:20] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[15:51:20] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[15:51:23] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 38 seconds).
+[15:52:04] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[15:52:20] Дед Щукарь suicided!
+[15:52:20] Дед Щукарь suicided!
+[15:52:41] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 37 seconds).
+[15:53:14] Мику: блять
+[15:54:27] Fimozzz suicided!
+[15:54:29] анивонацейноу: афк 9999999
+[15:54:29] Dropped "анивонацейноу" from server<STEAM_0:1:781331779>
+[15:54:29] анивонацейноу suicided!
+[15:54:30] c4s | qRRaz11cHHH suicided!
+[15:54:33] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[15:54:35] Fimozzz: pidor ti
+[15:54:37] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[15:54:37] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[15:54:39] Черный Вульфич suicided!
+[15:54:39] Fimozzz suicided!
+[15:54:39] Кириешка suicided!
+[15:54:39] c4s | qRRaz11cHHH suicided!
+[15:54:39] Дед Щукарь suicided!
+[15:54:39] rostischka suicided!
+[15:54:39] Мику suicided!
+[15:55:09] Server is shutting down/changing levels.
+
+
+
+[15:55:15] New map: ttt_terrortown
+[15:55:15] Server is shutting down/changing levels.
+
+
+
+[15:55:19] New map: ttt_terrortown
+[15:55:19] Client "Черный Вульфич" connected.
+[15:55:19] Client "Кириешка" connected.
+[15:55:19] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[15:55:19] Client "SG_KaAp" connected.
+[15:55:19] Client "shkiper" connected.
+[15:55:19] Client "Мику" connected.
+[15:55:19] Client "c4s | qRRaz11cHHH" connected.
+[15:55:19] Client "Дед Щукарь" connected.
+[15:55:19] Client "Fimozzz" connected.
+[15:55:19] Client "rostischka" connected.
+[15:55:20] Client "анивонацейноу" connected.
+[15:55:39] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 20 seconds).
+[15:55:47] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 28 seconds).
+[15:55:51] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 32 seconds).
+[15:55:52] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 32 seconds).
+[15:56:06] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 47 seconds).
+[15:56:09] c4s | qRRaz11cHHH set Themself's model to models/dannio/pm/joebiden.mdl with colors R:255, G:255, B:255
+[15:56:10] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 51 seconds).
+[15:56:14] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 55 seconds).
+[15:57:03] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 104 seconds).
+[15:57:35] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 136 seconds).
+[15:57:36] c4s | qRRaz11cHHH suicided!
+[15:57:41] анивонацейноу suicided!
+[15:57:46] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[15:57:46] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[15:57:51] Мику: ебать я ахуеная
+[15:57:59] c4s | qRRaz11cHHH suicided!
+[15:58:12] Дед Щукарь: 13
+[15:58:19] Мику: чее
+[15:58:24] Мику: войс ченджер
+[15:58:36] rostischka suicided!
+[15:58:41] Мику suicided!
+[15:59:06] анивонацейноу suicided!
+[16:00:05] Fimozzz suicided!
+[16:00:12] Fimozzz: syka
+[16:00:17] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:00:17] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:00:22] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:00:26] c4s | qRRaz11cHHH suicided!
+[16:00:44] анивонацейноу suicided!
+[16:00:44] анивонацейноу suicided!
+[16:01:21] Черный Вульфич suicided!
+[16:01:24] Дед Щукарь suicided!
+[16:01:30] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:01:30] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:01:35] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:02:11] Мику: афк 9999999
+[16:02:11] Dropped "Мику" from server<STEAM_0:0:50399502>
+[16:02:11] Мику suicided!
+[16:02:28] анивонацейноу suicided!
+[16:02:29] Fimozzz: act dance
+[16:02:41] Fimozzz killed Кириешка using player
+[16:03:52] Fimozzz suicided!
+[16:04:01] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:04:01] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:04:07] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:04:26] анивонацейноу suicided!
+[16:05:12] c4s | qRRaz11cHHH suicided!
+[16:05:31] Черный Вульфич suicided!
+[16:05:39] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:05:39] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:05:46] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:05:50] Кириешка suicided!
+[16:06:00] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[16:06:08] Черный Вульфич suicided!
+[16:06:25] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 25 seconds).
+[16:06:36] c4s | qRRaz11cHHH suicided!
+[16:06:42] Дед Щукарь suicided!
+[16:06:42] Дед Щукарь suicided!
+[16:06:46] ᴋоʙᴀᴩныᴇ яйцᴀ: мощни сиске
+[16:06:46] rostischka suicided!
+[16:07:56] анивонацейноу killed Fimozzz using player
+[16:09:13] Fimozzz: как нож кидать
+[16:09:21] c4s | qRRaz11cHHH suicided!
+[16:09:25] анивонацейноу suicided!
+[16:09:25] анивонацейноу suicided!
+[16:10:05] Client "50 ммр ценности" connected.
+[16:10:52] Fimozzz suicided!
+[16:10:58] ᴋоʙᴀᴩныᴇ яйцᴀ: supply radio: medkits
+[16:11:09] Client "Манюня" connected.
+[16:11:33] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 88 seconds).
+[16:12:02] Черный Вульфич suicided!
+[16:12:02] Черный Вульфич suicided!
+[16:12:02] Client "Мику" connected.
+[16:12:03] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:12:26] Fimozzz: я суицид сделаю
+[16:12:27] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:12:31] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 29 seconds).
+[16:12:35] Дед Щукарь suicided!
+[16:12:35] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:12:35] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:12:38] Fimozzz suicided!
+[16:12:47] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:12:47] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:12:49] Мику: я вернулась
+[16:12:51] Мику: я кушала
+[16:12:56] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:12:56] ᴋоʙᴀᴩныᴇ яйцᴀ: бу
+[16:13:00] Мику: ооо
+[16:13:01] Черный Вульфич suicided!
+[16:13:02] Мику: и ты тут
+[16:13:05] ᴋоʙᴀᴩныᴇ яйцᴀ: до
+[16:13:07] Дед Щукарь: TX
+[16:13:15] ᴋоʙᴀᴩныᴇ яйцᴀ: я сасатель
+[16:14:03] Дед Щукарь suicided!
+[16:14:06] Кириешка suicided!
+[16:14:13] 50 ммр ценности suicided!
+[16:15:04] Мику suicided!
+[16:15:05] Мику: СУКА
+[16:15:08] Мику: ПОТРОН НЕ БЫЛО
+[16:15:14] Мику: а что
+[16:15:18] Мику: за что
+[16:15:22] Мику: а ну ок
+[16:15:24] Мику: можно
+[16:15:25] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:15:29] Fimozzz: эу
+[16:15:29] Мику: приятно
+[16:15:40] Мику: я с поездки приехала полна сил
+[16:15:45] Мику: рабогтать дальше
+[16:15:45] анивонацейноу suicided!
+[16:15:48] Дед Щукарь suicided!
+[16:15:48] Дед Щукарь suicided!
+[16:15:53] c4s | qRRaz11cHHH set Themself's model to models/player/sgg/starwars/battledroid_commander.mdl with colors R:255, G:255, B:255
+[16:16:18] Мику suicided!
+[16:16:43] rostischka suicided!
+[16:17:50] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:18:21] 50 ммр ценности suicided!
+[16:18:25] Fimozzz suicided!
+[16:18:27] Мику suicided!
+[16:18:34] c4s | qRRaz11cHHH suicided!
+[16:18:39] анивонацейноу suicided!
+[16:18:39] анивонацейноу suicided!
+[16:18:45] Мику: а
+[16:18:50] Client "Манюня" spawned in server <STEAM_0:0:206992351> (took 461 seconds).
+[16:18:51] Мику: как  активировать
+[16:18:53] Мику: говорилку
+[16:18:59] Мику: я тупенькая чучуть
+[16:19:09] 50 ммр ценности killed Кириешка using player
+[16:19:11] Мику suicided!
+[16:19:13] Fimozzz suicided!
+[16:19:24] Дед Щукарь: G
+[16:19:27] SG_KaAp suicided!
+[16:19:31] Манюня suicided!
+[16:20:09] Дед Щукарь suicided!
+[16:20:36] Мику suicided!
+[16:20:40] Дед Щукарь suicided!
+[16:21:09] анивонацейноу suicided!
+[16:21:29] SG_KaAp suicided!
+[16:21:30] Мику: ВЫ ЕБУ ДАЛИ КАКОЙ ГИЛД 10К
+[16:21:30] Кириешка suicided!
+[16:21:30] c4s | qRRaz11cHHH suicided!
+[16:21:37] Дед Щукарь suicided!
+[16:21:37] SG_KaAp respawned Themself
+[16:21:37] SG_KaAp: !frespawn ^
+[16:21:40] SG_KaAp переместился к Мику
+[16:21:47] Мику: сяб
+[16:21:50] Fimozzz suicided!
+[16:21:51] Мику: я босин
+[16:21:55] SG_KaAp suicided!
+[16:21:55] SG_KaAp убил Themself
+[16:22:10] Манюня suicided!
+[16:22:45] 50 ммр ценности suicided!
+[16:22:54] Манюня suicided!
+[16:23:04] анивонацейноу suicided!
+[16:23:04] c4s | qRRaz11cHHH suicided!
+[16:23:12] ᴋоʙᴀᴩныᴇ яйцᴀ: я жон
+[16:23:27] c4s | qRRaz11cHHH suicided!
+[16:23:27] c4s | qRRaz11cHHH suicided!
+[16:23:33] анивонацейноу suicided!
+[16:23:45] Client "SmallHedgehog" connected.
+[16:23:50] Fimozzz suicided!
+[16:23:50] Fimozzz suicided!
+[16:23:51] Дед Щукарь suicided!
+[16:23:54] Кириешка suicided!
+[16:23:54] Мику: сукаа
+[16:24:02] Мику suicided!
+[16:24:05] Мику: блять
+[16:24:06] Мику: я ебала
+[16:24:07] rostischka suicided!
+[16:24:16] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:24:29] Client "shkiper" spawned in server <STEAM_0:0:69620426> (took 1750 seconds).
+[16:24:34] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[16:24:40] Мику: я сосала я ебала мы кинг конга толпой таптали
+[16:24:43] rostischka suicided!
+[16:24:44] Кириешка suicided!
+[16:24:46] Манюня suicided!
+[16:24:48] SG_KaAp suicided!
+[16:24:51] Дед Щукарь suicided!
+[16:24:53] Мику suicided!
+[16:25:10] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[16:25:12] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[16:25:21] анивонацейноу suicided!
+[16:25:25] 50 ммр ценности suicided!
+[16:25:27] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[16:26:43] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:26:47] c4s | qRRaz11cHHH suicided!
+[16:26:49] Кириешка suicided!
+[16:26:49] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:26:49] SG_KaAp suicided!
+[16:26:49] shkiper suicided!
+[16:26:49] 50 ммр ценности suicided!
+[16:26:49] c4s | qRRaz11cHHH suicided!
+[16:26:49] Дед Щукарь suicided!
+[16:26:49] Fimozzz suicided!
+[16:26:49] rostischka suicided!
+[16:26:49] анивонацейноу suicided!
+[16:26:49] Манюня suicided!
+[16:26:49] Мику suicided!
+[16:27:03] Client "SmallHedgehog" spawned in server <STEAM_0:0:521626735> (took 198 seconds).
+[16:27:19] Server is shutting down/changing levels.
+
+
+
+[16:27:24] New map: ttt_greenhouse
+[16:27:24] Server is shutting down/changing levels.
+
+
+
+[16:27:29] New map: ttt_greenhouse
+[16:27:29] Client "Кириешка" connected.
+[16:27:29] Client "50 ммр ценности" connected.
+[16:27:29] Client "Мику" connected.
+[16:27:29] Client "shkiper" connected.
+
+
+
+[16:27:50] New map: gm_mdach
+[16:27:50] Client "Черный Вульфич" connected.
+[16:27:50] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[16:27:50] Client "Манюня" connected.
+[16:27:50] Client "rostischka" connected.
+[16:27:50] Client "SG_KaAp" connected.
+[16:27:50] Client "Дед Щукарь" connected.
+[16:27:50] Client "анивонацейноу" connected.
+[16:27:50] Client "c4s | qRRaz11cHHH" connected.
+[16:27:50] Client "Fimozzz" connected.
+[16:27:57] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[16:28:13] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[16:28:17] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 27 seconds).
+[16:28:19] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 29 seconds).
+[16:28:20] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 23 seconds).
+[16:28:23] Client "Манюня" spawned in server <STEAM_0:0:206992351> (took 33 seconds).
+[16:28:23] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 33 seconds).
+[16:28:26] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 36 seconds).
+[16:28:41] SG_KaAp: !menu
+[16:28:50] SG_KaAp сменил карту на ttt_greenhouse
+[16:28:50] Server is shutting down/changing levels.
+
+
+
+[16:28:54] New map: ttt_greenhouse
+[16:29:15] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[16:29:16] Client "rostischka" spawned in server <STEAM_0:1:753339504> (took 24 seconds).
+[16:29:18] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 26 seconds).
+[16:29:20] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 28 seconds).
+[16:29:23] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 31 seconds).
+[16:29:25] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 33 seconds).
+[16:29:25] Client "Манюня" spawned in server <STEAM_0:0:206992351> (took 33 seconds).
+[16:30:01] c4s | qRRaz11cHHH suicided!
+[16:30:05] SG_KaAp suicided!
+[16:30:10] rostischka suicided!
+[16:30:25] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 93 seconds).
+[16:30:44] rostischka suicided!
+[16:30:47] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:30:52] Dropped "Манюня" from server<STEAM_0:0:206992351>
+[16:30:52] Манюня suicided!
+[16:30:53] c4s | qRRaz11cHHH suicided!
+[16:31:05] анивонацейноу suicided!
+[16:31:22] Дед Щукарь: !motd
+[16:31:43] Client "50 ммр ценности" connected.
+[16:31:48] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:32:07] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 24 seconds).
+[16:32:13] SG_KaAp suicided!
+[16:32:13] SG_KaAp suicided!
+[16:32:32] Client "Кириешка" connected.
+[16:32:32] Client "shkiper" connected.
+[16:32:48] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 236 seconds).
+[16:32:49] rostischka suicided!
+[16:32:51] Fimozzz suicided!
+[16:33:18] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 46 seconds).
+[16:33:48] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:33:58] SG_KaAp suicided!
+[16:34:24] Client "Мику" connected.
+[16:34:46] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/hatchback/pw_hatchback.mdl
+[16:34:47] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/hatchback/pw_hatchback.mdl
+[16:34:55] c4s | qRRaz11cHHH suicided!
+[16:35:00] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:35:05] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 41 seconds).
+[16:35:09] Кириешка suicided!
+[16:35:09] ᴋоʙᴀᴩныᴇ яйцᴀ: ээ
+[16:35:11] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[16:35:21] rostischka suicided!
+[16:35:23] c4s | qRRaz11cHHH suicided!
+[16:35:26] SG_KaAp suicided!
+[16:35:35] анивонацейноу suicided!
+[16:35:52] Client "shkiper" spawned in server <STEAM_0:0:69620426> (took 200 seconds).
+[16:35:56] 50 ммр ценности suicided!
+[16:36:11] Черный Вульфич suicided!
+[16:36:32] Кириешка suicided!
+[16:36:33] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[16:36:33] Мику: ПИЗДА ЧУШПАНАМ
+[16:36:40] ᴋоʙᴀᴩныᴇ яйцᴀ: ДААА
+[16:36:40] Мику suicided!
+[16:36:45] 50 ммр ценности suicided!
+[16:36:46] анивонацейноу suicided!
+[16:36:46] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:36:59] Дед Щукарь suicided!
+[16:37:03] Кириешка: Fimozz чтоб у тя порвало жопу
+[16:37:09] ᴋоʙᴀᴩныᴇ яйцᴀ: уже
+[16:37:10] rostischka suicided!
+[16:37:23] анивонацейноу: !motd
+[16:37:23] 50 ммр ценности: !motd
+[16:37:33] shkiper suicided!
+[16:37:36] Мику: хуйня
+[16:37:38] Мику: а не игра
+[16:37:39] 50 ммр ценности: +
+[16:37:41] shkiper: сука
+[16:37:45] Мику: лучше рдр купить
+[16:37:48] Мику: или пз
+[16:37:48] shkiper: да
+[16:37:51] Мику: или дейзи
+[16:37:53] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:37:56] Мику: ЛЕШГ
+[16:37:58] 50 ммр ценности suicided!
+[16:37:59] Мику: ЛЕЖАТЬ
+[16:38:04] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:38:04] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:38:12] Мику: ЧЕРНЫЙ
+[16:38:14] Мику suicided!
+[16:38:36] ᴋоʙᴀᴩныᴇ яйцᴀ: епучий фимозз
+[16:38:45] Fimozzz suicided!
+[16:39:00] ᴋоʙᴀᴩныᴇ яйцᴀ: фимоз ты конч нахуй ты меня убил
+[16:39:34] rostischka suicided!
+[16:39:36] анивонацейноу suicided!
+[16:40:11] Dropped "shkiper" from server<STEAM_0:0:69620426>
+[16:40:11] shkiper suicided!
+[16:40:17] SG_KaAp suicided!
+[16:40:30] Черный Вульфич голосует за Да
+[16:40:30] 50 ммр ценности голосует за Нет
+[16:40:30] SG_KaAp голосует за Да
+[16:40:31] Дед Щукарь голосует за Нет
+[16:40:31] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Нет
+[16:40:32] Кириешка suicided!
+[16:40:32] Кириешка голосует за Да
+[16:40:34] анивонацейноу голосует за Да
+[16:40:35] rostischka голосует за Да
+[16:40:35] c4s | qRRaz11cHHH голосует за Да
+[16:41:26] Черный Вульфич suicided!
+[16:41:29] Дед Щукарь was killed by box_normal
+[16:41:37] ᴋоʙᴀᴩныᴇ яйцᴀ: гойдо
+[16:41:47] анивонацейноу suicided!
+[16:41:54] Мику suicided!
+[16:41:55] 50 ммр ценности suicided!
+[16:41:56] Кириешка suicided!
+[16:42:08] Дед Щукарь suicided!
+[16:42:12] Черный Вульфич suicided!
+[16:42:22] rostischka suicided!
+[16:42:39] c4s | qRRaz11cHHH suicided!
+[16:42:44] Кириешка suicided!
+[16:42:44] Кириешка suicided!
+[16:42:48] анивонацейноу suicided!
+[16:42:56] Дед Щукарь suicided!
+[16:42:56] Дед Щукарь suicided!
+[16:43:13] rostischka suicided!
+[16:43:19] SG_KaAp: !noclip
+[16:43:29] SG_KaAp: !point control_point
+[16:43:34] SG_KaAp: !noclip
+[16:43:40] c4s | qRRaz11cHHH was killed by box_normal
+[16:43:40] rostischka was killed by box_normal
+[16:43:41] SG_KaAp: !point control_point
+[16:43:45] Кириешка suicided!
+[16:43:50] SG_KaAp: !point control_point
+[16:43:52] анивонацейноу suicided!
+[16:43:53] SG_KaAp: !noclip
+[16:43:53] ᴋоʙᴀᴩныᴇ яйцᴀ was killed by box_normal
+[16:43:55] Мику suicided!
+[16:44:06] Дед Щукарь suicided!
+[16:44:09] Dropped "Мику" from server<STEAM_0:0:50399502>
+[16:44:33] SG_KaAp was killed by box_normal
+[16:44:34] Черный Вульфич suicided!
+[16:44:35] rostischka suicided!
+[16:44:39] анивонацейноу suicided!
+[16:44:42] ᴋоʙᴀᴩныᴇ яйцᴀ was killed by box_normal
+[16:44:42] Дед Щукарь suicided!
+[16:44:48] Fimozzz suicided!
+[16:44:52] Кириешка suicided!
+[16:44:52] Кириешка suicided!
+[16:44:54] SG_KaAp запустил голосование (Кончать?)
+[16:44:54] SG_KaAp: !vote Кончать? Да Нет
+[16:44:55] SG_KaAp голосует за Да
+[16:44:56] c4s | qRRaz11cHHH голосует за Да
+[16:44:56] 50 ммр ценности голосует за Нет
+[16:44:56] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[16:44:56] Кириешка голосует за Да
+[16:44:56] Дед Щукарь голосует за Да
+[16:44:58] rostischka голосует за Да
+[16:45:10] Черный Вульфич голосует за Да
+[16:45:14] Результат: 'Да' . (7/10)
+[16:45:28] SG_KaAp: !levelend
+[16:45:33] c4s | qRRaz11cHHH suicided!
+[16:45:46] 50 ммр ценности suicided!
+[16:45:47] Черный Вульфич suicided!
+[16:45:55] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[16:46:00] c4s | qRRaz11cHHH suicided!
+[16:46:15] SG_KaAp suicided!
+[16:46:16] rostischka suicided!
+[16:46:16] Дед Щукарь suicided!
+[16:46:20] Кириешка suicided!
+[16:46:32] SG_KaAp: !levelend
+[16:46:34] Черный Вульфич suicided!
+[16:46:44] Fimozzz suicided!
+[16:46:45] Дед Щукарь suicided!
+[16:46:45] Dropped "rostischka" from server<STEAM_0:1:753339504>
+[16:46:45] Кириешка suicided!
+[16:46:45] SG_KaAp respawned Themself
+[16:46:50] SG_KaAp suicided!
+[16:46:56] Черный Вульфич suicided!
+[16:46:56] Дед Щукарь suicided!
+[16:47:02] SG_KaAp suicided!
+[16:47:06] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:47:07] c4s | qRRaz11cHHH suicided!
+[16:47:10] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:47:10] SG_KaAp suicided!
+[16:47:13] SG_KaAp запустил голосование (Кончать?)
+[16:47:13] SG_KaAp: !vote Кончать? Да Нет
+[16:47:13] Дед Щукарь голосует за Да
+[16:47:13] Fimozzz голосует за Да
+[16:47:13] Черный Вульфич голосует за Да
+[16:47:14] Кириешка голосует за Да
+[16:47:14] c4s | qRRaz11cHHH голосует за Да
+[16:47:14] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[16:47:18] Дед Щукарь suicided!
+[16:47:19] SG_KaAp голосует за Да
+[16:47:24] Черный Вульфич suicided!
+[16:47:24] c4s | qRRaz11cHHH suicided!
+[16:47:25] SG_KaAp suicided!
+[16:47:25] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:47:31] Client "shkiper" connected.
+[16:47:33] Результат: 'Да' . (7/8)
+[16:47:37] Кириешка suicided!
+[16:47:39] Черный Вульфич suicided!
+[16:47:41] анивонацейноу suicided!
+[16:47:42] Fimozzz suicided!
+[16:47:51] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:47:53] Fimozzz suicided!
+[16:47:54] анивонацейноу suicided!
+[16:47:55] c4s | qRRaz11cHHH suicided!
+[16:47:55] Черный Вульфич suicided!
+[16:48:01] SG_KaAp suicided!
+[16:48:01] SG_KaAp убил Themself
+[16:48:03] SG_KaAp: !levelend
+[16:48:12] SG_KaAp: !levelend
+[16:48:15] Fimozzz suicided!
+[16:48:15] SG_KaAp suicided!
+[16:48:31] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:48:33] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:48:33] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:48:56] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:49:17] Дед Щукарь suicided!
+[16:49:19] Кириешка suicided!
+[16:49:19] Кириешка suicided!
+[16:49:20] анивонацейноу suicided!
+[16:49:30] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:49:30] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:49:32] Client "shkiper" spawned in server <STEAM_0:0:69620426> (took 121 seconds).
+[16:49:37] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:49:38] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:49:47] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[16:49:55] Fimozzz suicided!
+[16:50:06] Черный Вульфич suicided!
+[16:50:34] Кириешка suicided!
+[16:50:42] Дед Щукарь suicided!
+[16:50:54] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[16:50:56] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[16:50:57] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:50:57] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:51:26] анивонацейноу: афк 9999999
+[16:51:26] Dropped "анивонацейноу" from server<STEAM_0:1:781331779>
+[16:51:26] анивонацейноу suicided!
+[16:51:38] SG_KaAp suicided!
+[16:51:43] Черный Вульфич suicided!
+[16:51:43] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:51:43] shkiper suicided!
+[16:51:43] SG_KaAp suicided!
+[16:51:43] Дед Щукарь suicided!
+[16:51:43] c4s | qRRaz11cHHH suicided!
+[16:51:43] Fimozzz suicided!
+[16:51:43] Кириешка suicided!
+[16:52:13] Server is shutting down/changing levels.
+
+
+
+[16:52:19] New map: gm_mc_grieferhouse
+[16:52:19] Server is shutting down/changing levels.
+
+
+
+[16:52:23] New map: gm_mc_grieferhouse
+[16:52:23] Client "Fimozzz" connected.
+[16:52:43] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[16:52:45] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 22 seconds).
+[16:52:56] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 33 seconds).
+[16:53:02] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 39 seconds).
+[16:53:16] SG_KaAp set Themself's model to models/player/oguzok.mdl with colors R:255, G:255, B:255
+[16:53:17] Client "Fimozzz" connected.
+[16:53:24] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 61 seconds).
+[16:53:42] SG_KaAp suicided!
+[16:53:42] SG_KaAp suicided!
+[16:53:42] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 25 seconds).
+[16:53:44] c4s | qRRaz11cHHH was killed by box_normal
+[16:53:53] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:53:53] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:53:58] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:53:59] SG_KaAp set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:54:00] SG_KaAp suicided!
+[16:54:00] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 97 seconds).
+[16:54:08] Client "shkiper" connected.
+[16:54:55] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[16:54:57] Client "shkiper" spawned in server <STEAM_0:0:69620426> (took 49 seconds).
+[16:55:16] Кириешка suicided!
+[16:55:35] c4s | qRRaz11cHHH suicided!
+[16:55:37] Дед Щукарь suicided!
+[16:55:48] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:55:48] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:55:52] SG_KaAp set Themself's model to models/player/donald_trump.mdl with colors R:255, G:255, B:255
+[16:55:59] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:56:43] shkiper suicided!
+[16:56:45] Fimozzz suicided!
+[16:57:06] Кириешка suicided!
+[16:57:59] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[16:58:16] SG_KaAp suicided!
+[16:58:27] Дед Щукарь: v
+[16:58:29] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[16:58:29] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[16:58:30] SG_KaAp set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[16:58:46] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[16:59:22] Дед Щукарь suicided!
+[16:59:45] Черный Вульфич suicided!
+[17:01:01] Кириешка suicided!
+[17:01:04] Fimozzz suicided!
+[17:01:52] c4s | qRRaz11cHHH suicided!
+[17:01:55] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:02:07] Дед Щукарь suicided!
+[17:02:27] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:02:49] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[17:03:03] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[17:03:06] Кириешка suicided!
+[17:03:40] Client "анивонацейноу" connected.
+[17:03:43] Fimozzz suicided!
+[17:04:08] shkiper suicided!
+[17:04:10] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 30 seconds).
+[17:04:38] Client "batonic1234" connected.
+[17:04:46] Client "batonic1234" connected.
+[17:05:55] shkiper: !mtd
+[17:06:13] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 87 seconds).
+[17:06:17] Дед Щукарь: ДА Я ЭЛЕКТРОНЫЙЙЙ МАЛЬЧЕК
+[17:06:20] shkiper: !motd
+[17:06:56] Черный Вульфич suicided!
+[17:06:59] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:07:08] shkiper: !motd
+[17:07:50] shkiper suicided!
+[17:08:10] Дед Щукарь suicided!
+[17:08:14] batonic1234 suicided!
+[17:08:17] Fimozzz suicided!
+[17:08:21] shkiper: !motd
+[17:08:25] Кириешка suicided!
+[17:08:29] Черный Вульфич suicided!
+[17:08:32] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:08:35] анивонацейноу suicided!
+[17:08:54] анивонацейноу suicided!
+[17:09:06] Client "| LSD |бро нефр#MAGMARUST" connected.
+[17:09:08] Fimozzz suicided!
+[17:09:18] c4s | qRRaz11cHHH suicided!
+[17:09:19] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:09:29] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[17:09:51] shkiper suicided!
+[17:09:54] Черный Вульфич suicided!
+[17:09:59] Дед Щукарь suicided!
+[17:10:06] Dropped "shkiper" from server<STEAM_0:0:69620426>
+[17:10:06] Кириешка suicided!
+[17:10:08] Fimozzz suicided!
+[17:10:08] batonic1234 suicided!
+[17:10:08] batonic1234 suicided!
+[17:10:44] SG_KaAp suicided!
+[17:11:14] Кириешка suicided!
+[17:11:16] Fimozzz suicided!
+[17:11:23] Дед Щукарь suicided!
+[17:11:47] batonic1234 suicided!
+[17:11:47] batonic1234 suicided!
+[17:11:50] Fimozzz suicided!
+[17:11:51] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[17:11:53] SG_KaAp suicided!
+[17:12:08] анивонацейноу suicided!
+[17:12:08] Кириешка suicided!
+[17:12:41] анивонацейноу suicided!
+[17:12:41] анивонацейноу suicided!
+[17:12:53] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:12:54] Черный Вульфич suicided!
+[17:13:02] Fimozzz suicided!
+[17:13:02] SG_KaAp suicided!
+[17:13:18] SG_KaAp respawned Themself
+[17:13:20] SG_KaAp: !noclip
+[17:13:29] SG_KaAp: !point control_point
+[17:13:36] SG_KaAp: !point control_point
+[17:13:44] SG_KaAp: !point control_point
+[17:13:47] SG_KaAp: !noclip
+[17:13:56] SG_KaAp suicided!
+[17:13:56] SG_KaAp suicided!
+[17:14:11] Черный Вульфич suicided!
+[17:14:30] анивонацейноу suicided!
+[17:14:31] Дед Щукарь suicided!
+[17:14:44] Кириешка suicided!
+[17:14:44] Кириешка suicided!
+[17:14:56] Дед Щукарь suicided!
+[17:14:56] Дед Щукарь suicided!
+[17:15:13] Черный Вульфич suicided!
+[17:16:03] анивонацейноу suicided!
+[17:16:16] Fimozzz suicided!
+[17:16:16] Fimozzz suicided!
+[17:16:31] Кириешка suicided!
+[17:16:31] Кириешка suicided!
+[17:16:36] Дед Щукарь suicided!
+[17:16:42] ᴋоʙᴀᴩныᴇ яйцᴀ: у меня ящики
+[17:16:45] SG_KaAp suicided!
+[17:16:45] ᴋоʙᴀᴩныᴇ яйцᴀ: это ерроркиэ
+[17:17:00] Черный Вульфич suicided!
+[17:17:21] Кириешка suicided!
+[17:17:45] Fimozzz suicided!
+[17:18:05] анивонацейноу suicided!
+[17:18:07] SG_KaAp suicided!
+[17:18:10] SG_KaAp: !menu
+[17:18:25] Дед Щукарь suicided!
+[17:18:45] Дед Щукарь suicided!
+[17:18:54] анивонацейноу suicided!
+[17:18:54] анивонацейноу suicided!
+[17:18:57] Кириешка suicided!
+[17:19:04] Черный Вульфич suicided!
+[17:19:25] SG_KaAp: !menu
+[17:19:31] SG_KaAp voted for gm_bbicotka_hmcd (1/3)
+[17:19:39] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:19:45] Дед Щукарь suicided!
+[17:19:46] Кириешка suicided!
+[17:19:51] Client "50 ммр ценности" connected.
+[17:19:53] Дед Щукарь voted for gm_bbicotka_hmcd (2/3)
+[17:19:53] Дед Щукарь: !votemap 44
+[17:20:26] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 35 seconds).
+[17:20:31] Fimozzz suicided!
+[17:20:31] Fimozzz suicided!
+[17:20:33] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[17:20:34] Дед Щукарь suicided!
+[17:20:34] Дед Щукарь suicided!
+[17:20:52] SG_KaAp suicided!
+[17:20:55] Client "c4s | qRRaz11cHHH" connected.
+[17:21:04] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[17:21:17] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 22 seconds).
+[17:21:28] Дед Щукарь suicided!
+[17:21:39] Дед Щукарь respawned Themself
+[17:21:42] Дед Щукарь: !noclip ^
+[17:21:52] Дед Щукарь привел к Fimozzz
+[17:22:13] Dropped "анивонацейноу" from server<STEAM_0:1:781331779>
+[17:22:13] анивонацейноу suicided!
+[17:22:23] Дед Щукарь: ты почему своих убиваешь
+[17:22:28] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[17:22:28] Черный Вульфич suicided!
+[17:23:02] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:23:14] Дед Щукарь привел к Fimozzz
+[17:23:25] Дед Щукарь: !menu
+[17:23:27] Client "анивонацейноу" connected.
+[17:23:36] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:23:48] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 21 seconds).
+[17:23:48] c4s | qRRaz11cHHH suicided!
+[17:23:59] Дед Щукарь забанил Fimozzz на 1 hour (freekilling)
+[17:23:59] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[17:23:59] Fimozzz suicided!
+[17:24:08] ᴋоʙᴀᴩныᴇ яйцᴀ: туда фимоза
+[17:24:19] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:24:43] Client "i11ushenka" connected.
+[17:24:43] анивонацейноу suicided!
+[17:25:09] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 26 seconds).
+[17:25:14] Дед Щукарь: .!votemap 44
+[17:25:16] Дед Щукарь voted for gm_bbicotka_hmcd (1/3)
+[17:25:16] Дед Щукарь: !votemap 44
+[17:25:21] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[17:25:21] c4s | qRRaz11cHHH suicided!
+[17:25:51] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:25:53] Дед Щукарь suicided!
+[17:25:56] ᴋоʙᴀᴩныᴇ яйцᴀ voted for gm_bbicotka_hmcd (2/3)
+[17:25:56] ᴋоʙᴀᴩныᴇ яйцᴀ: !votemap 44
+[17:26:16] Дед Щукарь suicided!
+[17:26:17] анивонацейноу suicided!
+[17:26:44] Dropped "Кириешка" from server<STEAM_0:0:702824973>
+[17:26:44] Кириешка suicided!
+[17:26:56] Дед Щукарь: !LEVELEND
+[17:26:59] Дед Щукарь: !levelend
+[17:27:19] Дед Щукарь: !menu
+[17:28:00] Server is shutting down/changing levels.
+
+
+
+[17:28:06] New map: de_school
+[17:28:06] Server is shutting down/changing levels.
+
+
+
+[17:28:12] New map: de_school
+[17:28:12] Client "Дед Щукарь" connected.
+[17:28:12] Client "анивонацейноу" connected.
+[17:28:12] Client "i11ushenka" connected.
+[17:28:12] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[17:28:32] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 20 seconds).
+[17:28:45] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 33 seconds).
+[17:28:45] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 33 seconds).
+[17:28:46] Dropped "i11ushenka" from server<STEAM_0:1:789318958>
+[17:29:31] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 79 seconds).
+[17:30:34] Дед Щукарь suicided!
+[17:31:12] Дед Щукарь: !menu
+[17:32:12] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:32:39] Дед Щукарь запустил голосование (Хотите)
+[17:32:39] Дед Щукарь: !vote Хотите веселуху? Да Нет
+[17:32:40] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за веселуху?
+[17:32:41] анивонацейноу голосует за веселуху?
+[17:32:45] Дед Щукарь голосует за Да
+[17:32:45] Результат: 'веселуху?' . (2/3)
+[17:32:49] анивонацейноу suicided!
+[17:33:00] Дед Щукарь: !menu
+[17:33:21] Дед Щукарь: !menu
+[17:33:40] Дед Щукарь запустил голосование (точно веселуху хотите?)
+[17:33:42] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за веселуху
+[17:33:42] Дед Щукарь голосует за нет
+[17:33:47] Дед Щукарь killed ᴋоʙᴀᴩныᴇ яйцᴀ using player
+[17:34:00] Результат: 'веселуху' . (1/3)
+[17:34:10] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:34:14] Дед Щукарь: !noclip
+[17:34:18] Дед Щукарь привел к анивонацейноу
+[17:34:33] Дед Щукарь: !menu
+[17:34:52] Дед Щукарь respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:34:56] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:36:52] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:36:52] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:37:04] Дед Щукарь respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:37:08] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:38:05] ᴋоʙᴀᴩныᴇ яйцᴀ rolled (100) 51
+[17:38:05] ᴋоʙᴀᴩныᴇ яйцᴀ: !roll 100
+[17:38:57] Дед Щукарь<STEAM_0:1:740599899> spawned vehicle models/nova/chair_office02.mdl
+[17:39:05] Дед Щукарь<STEAM_0:1:740599899> spawned vehicle models/blu/zaz/zaz.mdl
+[17:39:08] Дед Щукарь<STEAM_0:1:740599899> spawned vehicle models/blu/zaz/zaz.mdl
+[17:39:23] анивонацейноу suicided!
+[17:39:42] Дед Щукарь suicided!
+[17:39:50] анивонацейноу suicided!
+[17:39:50] Дед Щукарь respawned Themself
+[17:39:50] Дед Щукарь: !respawn ^
+[17:41:05] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:41:09] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:41:15] Дед Щукарь: !noclip
+[17:41:18] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:41:24] Дед Щукарь привел к анивонацейноу
+[17:41:28] ᴋоʙᴀᴩныᴇ яйцᴀ: чо вы хочешь щукарь
+[17:41:34] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:41:34] ᴋоʙᴀᴩныᴇ яйцᴀ: я в кольце откисаю
+[17:41:39] ᴋоʙᴀᴩныᴇ яйцᴀ: в  спортзале
+[17:41:56] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:41:57] ᴋоʙᴀᴩныᴇ яйцᴀ: што вам нада
+[17:42:01] Дед Щукарь: !noclip ^
+[17:42:29] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:42:51] Дед Щукарь respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:42:55] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:43:00] Дед Щукарь: !noclip ^
+[17:43:53] Client "Черный Вульфич" connected.
+[17:45:48] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 115 seconds).
+[17:45:56] Дед Щукарь respawned Черный Вульфич
+[17:45:56] Дед Щукарь: !respawn Черный
+[17:46:01] Дед Щукарь привел к Черный Вульфич
+[17:46:09] Client "50 ммр ценности" connected.
+[17:46:36] Client "♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠" connected.
+[17:46:48] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 39 seconds).
+[17:47:09] Дед Щукарь respawned 50 ммр ценности
+[17:47:09] Дед Щукарь: !respawn 50
+[17:47:13] Дед Щукарь привел к 50 ммр ценности
+[17:47:39] Черный Вульфич killed ᴋоʙᴀᴩныᴇ яйцᴀ using player
+[17:47:48] Дед Щукарь respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:47:53] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:48:00] Дед Щукарь: !noclip ^
+[17:48:15] Client "exont__11" connected.
+[17:48:25] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:48:42] Дед Щукарь заткнул анивонацейноу
+[17:48:42] Дед Щукарь: !gag ани
+[17:49:04] анивонацейноу: разгагните пажэ
+[17:49:11] анивонацейноу: :(
+[17:49:25] Дед Щукарь заткнул анивонацейноу
+[17:49:25] Дед Щукарь: !gag ани
+[17:49:30] Дед Щукарь: !menu
+[17:49:35] Дед Щукарь вернул голос анивонацейноу
+[17:49:38] анивонацейноу: :cry:
+[17:49:50] Дед Щукарь заткнул Черный Вульфич
+[17:49:50] Дед Щукарь: !gag Черный
+[17:49:55] Client "exont__11" spawned in server <STEAM_0:1:783483958> (took 100 seconds).
+[17:50:11] Client "?who are you" connected.
+[17:50:29] Черный Вульфич: миниган
+[17:50:42] Дед Щукарь: !levelend
+[17:50:44] Dropped "exont__11" from server<STEAM_0:1:783483958>
+[17:50:45] Черный Вульфич killed анивонацейноу using player
+[17:50:46] Client "?who are you" spawned in server <STEAM_0:0:798151674> (took 35 seconds).
+[17:51:02] Dropped "?who are you" from server<STEAM_0:0:798151674>
+[17:51:02] ?who are you suicided!
+[17:51:14] Дед Щукарь: !noclip ^
+[17:51:42] 50 ммр ценности suicided!
+[17:51:45] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:51:48] 50 ммр ценности: ХАПХПХАХПАХХАПХ
+[17:52:03] Дед Щукарь respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:52:10] Черный Вульфич suicided!
+[17:52:12] Дед Щукарь: !noclip ^
+[17:52:22] Дед Щукарь respawned 50 ммр ценности
+[17:52:22] Дед Щукарь: !respawn 50
+[17:52:25] Черный Вульфич: возырадите меня
+[17:53:12] Дед Щукарь: !noclip ^
+[17:53:25] Дед Щукарь respawned Черный Вульфич
+[17:53:25] Дед Щукарь: !respawn Чер
+[17:53:29] Дед Щукарь привел к Черный Вульфич
+[17:54:02] Дед Щукарь: !noclip ^
+[17:54:10] Дед Щукарь: !menu
+[17:54:18] Client "♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠" spawned in server <STEAM_0:0:59583451> (took 462 seconds).
+[17:54:20] 50 ммр ценности suicided!
+[17:54:24] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[17:54:25] Черный Вульфич suicided!
+[17:54:31] Черный Вульфич: я умер
+[17:54:38] Черный Вульфич: хелп
+[17:54:45] (csay from Дед Щукарь) разбегаемся
+[17:54:46] (csay from Дед Щукарь) разбегаемся
+[17:54:55] Дед Щукарь respawned Черный Вульфич
+[17:54:55] Дед Щукарь: !respawn Черный
+[17:55:02] Дед Щукарь: !noclip ^
+[17:55:06] Client "SG_KaAp" connected.
+[17:55:13] Дед Щукарь переместился к Черный Вульфич
+[17:55:25] Дед Щукарь: !noclip ^
+[17:55:29] Дед Щукарь: !menu
+[17:55:32] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 26 seconds).
+[17:55:32] (csay from Дед Щукарь) 1
+[17:55:34] (csay from Дед Щукарь) 1
+[17:55:37] Дед Щукарь: !menu
+[17:55:39] (csay from Дед Щукарь) 2
+[17:55:40] (csay from Дед Щукарь) 2
+[17:55:49] Черный Вульфич killed анивонацейноу using wep
+[17:55:52] (csay from Дед Щукарь) 3
+[17:55:53] (csay from Дед Щукарь) 3
+[17:55:55] (csay from Дед Щукарь) НАЧАЛИ
+[17:55:56] (csay from Дед Щукарь) НАЧАЛИ
+[17:56:08] SG_KaAp: !levelend
+[17:56:11] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:56:30] Client "kunsinviktor" connected.
+[17:56:52] SG_KaAp suicided!
+[17:56:54] Client "Глотательхуев2000" connected.
+[17:57:11] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 41 seconds).
+[17:57:17] ♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠ suicided!
+[17:57:34] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[17:57:34] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[17:57:37] Черный Вульфич: меня слышно?
+[17:57:43] Дед Щукарь: !menu
+[17:57:47] Дед Щукарь вернул голос Черный Вульфич
+[17:57:48] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:57:48] SG_KaAp respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[17:58:20] Дед Щукарь gave weapon weapon_cumgun to Черный Вульфич
+[17:58:20] Дед Щукарь: !giveweapon Чер weapon_cumgun
+[17:58:31] Дед Щукарь gave weapon weapon_cumgun to анивонацейноу
+[17:58:31] Дед Щукарь: !giveweapon ани weapon_cumgun
+[17:58:44] Client "zh0r1k" connected.
+[17:58:49] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[17:58:56] анивонацейноу suicided!
+[18:00:12] Дед Щукарь suicided!
+[18:00:15] Client "c4s | qRRaz11cHHH" connected.
+[18:00:44] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 29 seconds).
+[18:01:03] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:01:18] kunsinviktor suicided!
+[18:01:39] SG_KaAp запустил голосование (Кончить?)
+[18:01:39] SG_KaAp: !vote Кончить? Да Нет
+[18:01:39] c4s | qRRaz11cHHH голосует за Да
+[18:01:40] SG_KaAp голосует за Да
+[18:01:40] kunsinviktor голосует за Да
+[18:01:40] Дед Щукарь голосует за Да
+[18:01:40] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[18:01:40] анивонацейноу голосует за Да
+[18:01:41] Черный Вульфич голосует за Нет
+[18:01:59] Результат: 'Да' . (6/8)
+[18:02:03] kunsinviktor suicided!
+[18:02:03] kunsinviktor suicided!
+[18:02:27] c4s | qRRaz11cHHH: я кончаю
+[18:02:31] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:02:31] c4s | qRRaz11cHHH: дааааа...
+[18:02:35] SG_KaAp suicided!
+[18:02:35] SG_KaAp убил Themself
+[18:02:41] SG_KaAp: !levelend
+[18:02:44] Черный Вульфич suicided!
+[18:02:50] Дед Щукарь: weapon_cumgun
+[18:04:01] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:04:01] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:04:41] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:04:57] Дед Щукарь suicided!
+[18:05:14] c4s | qRRaz11cHHH suicided!
+[18:05:33] Черный Вульфич suicided!
+[18:05:39] SG_KaAp suicided!
+[18:05:44] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[18:05:53] ♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠ suicided!
+[18:06:10] анивонацейноу: афк 9999999
+[18:06:10] Dropped "анивонацейноу" from server<STEAM_0:1:781331779>
+[18:06:10] анивонацейноу suicided!
+[18:06:14] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:06:20] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:06:20] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:06:23] Client "анивонацейноу" connected.
+[18:06:35] kunsinviktor suicided!
+[18:06:45] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 22 seconds).
+[18:06:50] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:06:53] Дед Щукарь suicided!
+[18:07:00] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:07:00] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:07:21] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:08:18] kunsinviktor suicided!
+[18:08:21] c4s | qRRaz11cHHH set Черный Вульфич's model to models/modelname.mdl with colors R:255, G:255, B:255
+[18:08:40] c4s | qRRaz11cHHH set Черный Вульфич's model to models/modelname.mdl with colors R:255, G:184, B:233
+[18:08:45] Дед Щукарь set Черный Вульфич's model to models/cmbfdr/rashkinsk/bodrov.mdl with colors R:255, G:255, B:255
+[18:08:45] Дед Щукарь: !setmodel Чер models/cmbfdr/rashkinsk/bodrov.mdl
+[18:09:20] Дед Щукарь set Черный Вульфич's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[18:09:20] Дед Щукарь: !setmodel Чер models/player/joe/k_pm.mdl
+[18:09:28] Черный Вульфич suicided!
+[18:09:50] Дед Щукарь respawned Черный Вульфич
+[18:09:50] Дед Щукарь: !respawn Чер
+[18:10:13] Дед Щукарь: !menu
+[18:10:26] Дед Щукарь: килл
+[18:10:33] Дед Щукарь: !respawn Чер
+[18:10:39] Дед Щукарь: сделал:
+[18:10:41] Черный Вульфич suicided!
+[18:10:43] Дед Щукарь: ?
+[18:10:49] Черный Вульфич: меня застрелили
+[18:10:55] Дед Щукарь: не смогу
+[18:11:26] c4s | qRRaz11cHHH suicided!
+[18:11:28] Дед Щукарь suicided!
+[18:11:57] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:11:57] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:12:02] kunsinviktor suicided!
+[18:12:02] kunsinviktor suicided!
+[18:12:06] ♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠ suicided!
+[18:12:06] ♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠ suicided!
+[18:12:10] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[18:12:22] Дед Щукарь set Черный Вульфич's model to models/characters/puze/pu.mdl with colors R:255, G:255, B:255
+[18:12:22] Дед Щукарь: !setmodel Чер models/characters/puze/pu.mdl
+[18:12:45] ♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠ suicided!
+[18:12:50] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:12:50] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:12:55] Дед Щукарь: третий этаж
+[18:13:06] kunsinviktor suicided!
+[18:13:22] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:13:22] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:13:58] анивонацейноу suicided!
+[18:14:25] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:14:25] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:14:41] ♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠ suicided!
+[18:14:49] Дед Щукарь: 3 этаж
+[18:14:54] Дед Щукарь: на втором трейтор
+[18:15:10] Черный Вульфич suicided!
+[18:15:17] анивонацейноу suicided!
+[18:16:35] Dropped "♠●●.Ď.Ĵ.Ŏ.Ņ.●●♠" from server<STEAM_0:0:59583451>
+[18:16:55] Client "c4s | qRRaz11cHHH" connected.
+[18:17:05] kunsinviktor killed Дед Щукарь using player
+[18:17:17] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 22 seconds).
+[18:17:41] Дед Щукарь запустил голосование (Скип?)
+[18:17:41] Дед Щукарь: !vote Скип? Да Нет
+[18:17:41] kunsinviktor suicided!
+[18:17:42] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Нет
+[18:17:42] Черный Вульфич голосует за Да
+[18:17:42] c4s | qRRaz11cHHH голосует за Да
+[18:17:45] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:17:48] Дед Щукарь голосует за Да
+[18:17:54] анивонацейноу голосует за Да
+[18:17:55] Дед Щукарь: !setmodel ^
+[18:17:58] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:17:58] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:17:59] Черный Вульфич suicided!
+[18:18:00] Результат: 'Да' . (4/6)
+[18:18:04] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:18:05] Дед Щукарь suicided!
+[18:18:05] анивонацейноу suicided!
+[18:18:05] Черный Вульфич suicided!
+[18:18:05] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:18:05] c4s | qRRaz11cHHH suicided!
+[18:18:05] kunsinviktor suicided!
+[18:18:35] Server is shutting down/changing levels.
+
+
+
+[18:18:41] New map: de_school
+[18:18:41] Server is shutting down/changing levels.
+
+
+
+[18:18:46] New map: de_school
+[18:18:47] Client "Черный Вульфич" connected.
+[18:18:47] Client "kunsinviktor" connected.
+[18:18:47] Client "анивонацейноу" connected.
+[18:18:47] Client "c4s | qRRaz11cHHH" connected.
+[18:18:47] Client "Дед Щукарь" connected.
+[18:18:47] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[18:19:08] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 21 seconds).
+[18:19:08] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 21 seconds).
+[18:19:09] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 22 seconds).
+[18:19:09] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 22 seconds).
+[18:19:34] c4s | qRRaz11cHHH suicided!
+[18:19:45] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 58 seconds).
+[18:19:48] анивонацейноу suicided!
+[18:20:08] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 81 seconds).
+[18:20:14] kunsinviktor suicided!
+[18:20:16] Дед Щукарь suicided!
+[18:20:19] анивонацейноу suicided!
+[18:20:21] Дед Щукарь: !menu
+[18:20:43] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:20:55] Дед Щукарь запустил голосование (хотите рп ивент? (Кухня))
+[18:20:55] c4s | qRRaz11cHHH голосует за Я чо далбаеб
+[18:20:56] kunsinviktor голосует за Да
+[18:20:57] Черный Вульфич голосует за Да
+[18:20:57] анивонацейноу голосует за Да
+[18:20:58] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Я чо далбаеб
+[18:21:03] c4s | qRRaz11cHHH suicided!
+[18:21:09] Дед Щукарь голосует за Да
+[18:21:09] Результат: 'Да' . (4/6)
+[18:21:24] Дед Щукарь: !levelend
+[18:21:26] c4s | qRRaz11cHHH suicided!
+[18:21:27] kunsinviktor suicided!
+[18:21:27] kunsinviktor suicided!
+[18:21:38] Дед Щукарь: !noclip ^
+[18:21:39] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:21:49] Дед Щукарь привел к c4s | qRRaz11cHHH
+[18:21:51] Дед Щукарь привел к Черный Вульфич
+[18:21:54] Дед Щукарь привел к kunsinviktor
+[18:21:57] Дед Щукарь привел к Черный Вульфич
+[18:22:00] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[18:22:01] Дед Щукарь привел к анивонацейноу
+[18:22:13] Дед Щукарь привел к ᴋоʙᴀᴩныᴇ яйцᴀ
+[18:23:27] Черный Вульфич: у меня микро выключился
+[18:23:28] kunsinviktor: ножницы
+[18:23:28] анивонацейноу: ножницы
+[18:23:28] Черный Вульфич: шяс
+[18:23:31] Черный Вульфич: камень
+[18:23:49] анивонацейноу: ножницы
+[18:23:49] kunsinviktor: бумага
+[18:23:49] Черный Вульфич: камень
+[18:24:05] Черный Вульфич: камень
+[18:24:05] kunsinviktor: камень
+[18:24:05] анивонацейноу: камень
+[18:24:14] Черный Вульфич: бумага
+[18:24:15] анивонацейноу: камень
+[18:24:15] kunsinviktor: ножницы
+[18:24:27] анивонацейноу: камень
+[18:24:27] kunsinviktor: камень
+[18:24:27] Черный Вульфич: бумагагагагага
+[18:24:46] Дед Щукарь set Черный Вульфич's model to models/player/oguzok.mdl with colors R:255, G:255, B:255
+[18:24:46] Дед Щукарь: !setmodel Чер models/player/oguzok.mdl
+[18:25:11] c4s | qRRaz11cHHH: афк 9999999
+[18:25:11] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[18:25:11] c4s | qRRaz11cHHH suicided!
+[18:25:19] ᴋоʙᴀᴩныᴇ яйцᴀ: как круто в спорт зале
+[18:25:27] Client "Мику" connected.
+[18:25:44] Дед Щукарь set анивонацейноу's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:25:44] Дед Щукарь: !setmodel ани models/kuhnya/barinov.mdl
+[18:26:57] Client "c4s | qRRaz11cHHH" connected.
+[18:27:12] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 105 seconds).
+[18:27:20] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 23 seconds).
+[18:27:39] Client "Bashmak752" connected.
+[18:27:45] Черный Вульфич suicided!
+[18:27:54] c4s | qRRaz11cHHH suicided!
+[18:27:55] c4s | qRRaz11cHHH suicided!
+[18:27:59] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:27:59] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:28:13] Дед Щукарь: !csay Кароче ивента не будет из-за наших любимых повароффф
+[18:28:22] Мику: скип
+[18:28:23] анивонацейноу suicided!
+[18:28:28] Дед Щукарь: !menu
+[18:28:34] (csay from Дед Щукарь) Кароче ивента не будет из-за наших любимых повароффф
+[18:28:36] (csay from Дед Щукарь) Кароче ивента не будет из-за наших любимых повароффф
+[18:28:39] Dropped "анивонацейноу" from server<STEAM_0:1:781331779>
+[18:28:39] анивонацейноу suicided!
+[18:28:43] Client "анивонацейноу" connected.
+[18:28:47] Дед Щукарь: !levelend
+[18:28:49] Черный Вульфич: [dfmnn
+[18:29:04] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 21 seconds).
+[18:29:06] ᴋоʙᴀᴩныᴇ яйцᴀ: пр мику
+[18:29:16] Черный Вульфич suicided!
+[18:29:23] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:30:16] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:30:32] Client "Barsik2421" connected.
+[18:31:29] Мику suicided!
+[18:31:29] Мику suicided!
+[18:31:36] Дед Щукарь suicided!
+[18:31:55] ᴋоʙᴀᴩныᴇ яйцᴀ: спецназ в первую очередь шефа заебашил
+[18:31:58] ᴋоʙᴀᴩныᴇ яйцᴀ: (я)
+[18:32:20] Дед Щукарь запустил голосование (Скип?)
+[18:32:20] Дед Щукарь: !vote Скип? Да Нет
+[18:32:21] Черный Вульфич голосует за Да
+[18:32:21] c4s | qRRaz11cHHH голосует за Да
+[18:32:21] kunsinviktor голосует за Да
+[18:32:22] анивонацейноу голосует за Да
+[18:32:22] Дед Щукарь голосует за Да
+[18:32:23] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Нет
+[18:32:27] Client "Barsik2421" connected.
+[18:32:37] анивонацейноу suicided!
+[18:32:40] Результат: 'Да' . (5/7)
+[18:32:46] Дед Щукарь: !levelend
+[18:33:00] Мику: ыхыххы
+[18:33:05] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:33:09] Мику: искатель пидр
+[18:33:17] Client "Barsik2421" spawned in server <STEAM_0:0:834834392> (took 50 seconds).
+[18:33:35] Client "braveaztec" connected.
+[18:33:49] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель гомик
+[18:34:00] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель лашок
+[18:34:04] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель агузак
+[18:34:10] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель сосун
+[18:34:24] анивонацейноу suicided!
+[18:34:24] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель щавель
+[18:34:36] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель лашок
+[18:34:39] ᴋоʙᴀᴩныᴇ яйцᴀ: не нашел
+[18:34:48] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель плаки плаки
+[18:35:11] Дед Щукарь suicided!
+[18:35:21] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель писькочуъ
+[18:35:25] c4s | qRRaz11cHHH killed kunsinviktor using player
+[18:35:31] Черный Вульфич suicided!
+[18:35:52] Client "SG_KaAp" connected.
+[18:35:53] ᴋоʙᴀᴩныᴇ яйцᴀ: искатель агузак не додумался за шкафом посмотретьцф
+[18:36:01] Дед Щукарь suicided!
+[18:36:03] анивонацейноу suicided!
+[18:36:12] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 20 seconds).
+[18:36:13] c4s | qRRaz11cHHH suicided!
+[18:36:16] Мику suicided!
+[18:36:18] ᴋоʙᴀᴩныᴇ яйцᴀ: мику кросава
+[18:36:21] ᴋоʙᴀᴩныᴇ яйцᴀ: кросавица
+[18:36:32] Client "пердохряк" connected.
+[18:36:55] анивонацейноу suicided!
+[18:36:55] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:36:56] Дед Щукарь suicided!
+[18:36:56] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:37:09] Дед Щукарь respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[18:37:09] Мику: НАСВАЙ
+[18:37:15] Client "пердохряк" spawned in server <STEAM_0:0:841265035> (took 43 seconds).
+[18:37:16] Дед Щукарь respawned Themself
+[18:37:16] Дед Щукарь: !respawn ^
+[18:37:17] SG_KaAp suicided!
+[18:37:17] Мику suicided!
+[18:37:17] kunsinviktor suicided!
+[18:37:27] Client "braveaztec" spawned in server <STEAM_0:1:636778118> (took 232 seconds).
+[18:37:29] анивонацейноу suicided!
+[18:37:36] Barsik2421 suicided!
+[18:37:49] Мику: хыъхыхы
+[18:37:52] Мику: нормальный
+[18:37:59] Мику: иии
+[18:37:59] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:37:59] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:38:05] Мику: затьо у меня тут говорилка
+[18:38:13] Мику: когда игра
+[18:38:15] Мику: я пишу
+[18:38:17] Мику: и ботом
+[18:38:18] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:38:20] Мику: текст озвучивается
+[18:39:39] Мику: щя поиграем и пойдем на реворк
+[18:39:40] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:39:49] Мику: ну тогда тут
+[18:39:53] Мику: тк я майн не хачу
+[18:39:54] Мику: чета
+[18:39:59] ᴋоʙᴀᴩныᴇ яйцᴀ: бюубубу
+[18:40:32] ᴋоʙᴀᴩныᴇ яйцᴀ: как карты посмотреть
+[18:40:39] ᴋоʙᴀᴩныᴇ яйцᴀ: !menu
+[18:40:51] Черный Вульфич suicided!
+[18:40:52] Дед Щукарь suicided!
+[18:41:06] Дед Щукарь suicided!
+[18:41:07] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:41:12] Мику: АХАХА
+[18:41:16] Мику: ПИЦА
+[18:41:24] Dropped "braveaztec" from server<STEAM_0:1:636778118>
+[18:41:24] braveaztec suicided!
+[18:41:24] Мику: барсик
+[18:41:32] пердохряк suicided!
+[18:41:33] Мику: у тебя анальный глазик
+[18:41:38] Client "braveaztec" connected.
+[18:41:39] c4s | qRRaz11cHHH suicided!
+[18:41:48] Client "SpokkkBrooo" connected.
+[18:42:12] Client "braveaztec" spawned in server <STEAM_0:1:636778118> (took 34 seconds).
+[18:42:21] Мику suicided!
+[18:42:21] Мику suicided!
+[18:42:23] Barsik2421 suicided!
+[18:42:24] анивонацейноу suicided!
+[18:42:50] Client "Skilliton" connected.
+[18:42:50] SG_KaAp suicided!
+[18:42:54] Дед Щукарь<STEAM_0:1:740599899> spawned sent ent_drop_flashlight
+[18:43:01] Мику: f
+[18:43:03] Мику: f
+[18:43:05] Мику: ааа
+[18:43:09] Мику: как хоч
+[18:43:29] Дед Щукарь<STEAM_0:1:740599899> spawned sent ent_drop_flashlight
+[18:43:35] Дед Щукарь<STEAM_0:1:740599899> spawned sent ent_drop_flashlight
+[18:43:55] Client "ben10hm" connected.
+[18:43:55] Dropped "пердохряк" from server<STEAM_0:0:841265035>
+[18:43:56] Client "пердохряк" connected.
+[18:44:02] Client "ben10hm" connected.
+[18:44:31] SG_KaAp respawned Barsik2421
+[18:44:31] Client "пердохряк" spawned in server <STEAM_0:0:841265035> (took 35 seconds).
+[18:44:43] Barsik2421 suicided!
+[18:44:43] SG_KaAp убил Barsik2421
+[18:45:08] SG_KaAp запустил голосование (Кончаем?)
+[18:45:08] SG_KaAp: !vote Кончаем? Да Нет
+[18:45:09] Dropped "braveaztec" from server<STEAM_0:1:636778118>
+[18:45:09] Черный Вульфич голосует за Нет
+[18:45:09] c4s | qRRaz11cHHH голосует за Да
+[18:45:10] Мику голосует за Да
+[18:45:10] Дед Щукарь голосует за Да
+[18:45:10] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Нет
+[18:45:10] kunsinviktor голосует за Да
+[18:45:11] Barsik2421 голосует за Да
+[18:45:12] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 1053 seconds).
+[18:45:28] Результат: 'Да' . (5/11)
+[18:45:39] (TEAM) SG_KaAp: !levelen
+[18:45:42] (TEAM) SG_KaAp: !levelend
+[18:45:43] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:46:02] анивонацейноу suicided!
+[18:46:04] Дед Щукарь suicided!
+[18:46:06] kunsinviktor suicided!
+[18:46:06] Мику suicided!
+[18:46:06] Barsik2421 suicided!
+[18:46:06] пердохряк suicided!
+[18:46:06] SG_KaAp suicided!
+[18:46:29] Bashmak752 suicided!
+[18:46:31] Черный Вульфич suicided!
+[18:46:56] Мику: он мне  говорилку дал за точто мне айпишник сливать собирались
+[18:46:59] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:47:00] Черный Вульфич was killed by box_normal
+[18:47:03] c4s | qRRaz11cHHH suicided!
+[18:47:09] Мику was killed by box_normal
+[18:47:09] kunsinviktor suicided!
+[18:47:09] SG_KaAp suicided!
+[18:47:27] Barsik2421 suicided!
+[18:47:36] Bashmak752 suicided!
+[18:47:48] Мику: мне бы щя сэт модел
+[18:47:53] Мику: чтобы я эенщин себе ставлика
+[18:47:59] Client "TENSE1983" connected.
+[18:48:05] Мику suicided!
+[18:48:05] kunsinviktor suicided!
+[18:48:05] Черный Вульфич suicided!
+[18:48:05] пердохряк suicided!
+[18:48:07] c4s | qRRaz11cHHH suicided!
+[18:48:08] SG_KaAp was killed by box_normal
+[18:48:08] Barsik2421 suicided!
+[18:48:10] Дед Щукарь was killed by box_normal
+[18:48:32] Bashmak752 suicided!
+[18:48:51] SG_KaAp: !noclip
+[18:48:55] анивонацейноу suicided!
+[18:48:57] c4s | qRRaz11cHHH was killed by box_normal
+[18:48:57] Черный Вульфич was killed by box_normal
+[18:48:58] Дед Щукарь suicided!
+[18:49:02] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:49:03] SG_KaAp: !point control_poit
+[18:49:07] SG_KaAp: !point control_point
+[18:49:14] SG_KaAp: !point control_point
+[18:49:26] Мику suicided!
+[18:49:30] SG_KaAp: !point control_point
+[18:49:37] SG_KaAp: !noclip
+[18:49:50] Мику suicided!
+[18:50:15] Дед Щукарь suicided!
+[18:50:25] Bashmak752 suicided!
+[18:50:28] kunsinviktor suicided!
+[18:50:28] c4s | qRRaz11cHHH was killed by box_normal
+[18:50:35] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:50:53] Черный Вульфич was killed by box_normal
+[18:50:53] пердохряк suicided!
+[18:51:12] Мику suicided!
+[18:51:28] kunsinviktor suicided!
+[18:51:28] Дед Щукарь was killed by box_normal
+[18:51:28] анивонацейноу suicided!
+[18:51:28] Bashmak752 suicided!
+[18:51:57] Черный Вульфич was killed by box_normal
+[18:51:57] kunsinviktor suicided!
+[18:51:57] Bashmak752 suicided!
+[18:51:57] пердохряк suicided!
+[18:52:06] Дед Щукарь: !noclip ^
+[18:52:40] анивонацейноу suicided!
+[18:52:44] Дед Щукарь suicided!
+[18:53:06] Дед Щукарь suicided!
+[18:53:08] Черный Вульфич was killed by box_normal
+[18:53:08] пердохряк suicided!
+[18:53:09] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:53:38] SG_KaAp was killed by box_normal
+[18:53:47] Мику: афк 9999999
+[18:53:47] Dropped "Мику" from server<STEAM_0:0:50399502>
+[18:53:47] Мику suicided!
+[18:53:51] SG_KaAp suicided!
+[18:53:51] Дед Щукарь suicided!
+[18:53:52] Черный Вульфич suicided!
+[18:54:33] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[18:54:38] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[18:54:38] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[18:54:45] Дед Щукарь suicided!
+[18:54:52] SG_KaAp suicided!
+[18:54:53] Client "Анархист" connected.
+[18:55:33] Client "Skilliton" spawned in server <STEAM_0:1:613336493> (took 763 seconds).
+[18:55:38] c4s | qRRaz11cHHH suicided!
+[18:55:39] Barsik2421 suicided!
+[18:55:43] Bashmak752: /buyar
+[18:55:48] пердохряк: !motd
+[18:56:23] kunsinviktor suicided!
+[18:56:31] ᴋоʙᴀᴩныᴇ яйцᴀ: это мне
+[18:57:21] c4s | qRRaz11cHHH suicided!
+[18:57:39] Черный Вульфич suicided!
+[18:57:43] Дед Щукарь suicided!
+[18:57:44] Черный Вульфич suicided!
+[18:57:44] kunsinviktor suicided!
+[18:57:44] анивонацейноу suicided!
+[18:57:44] Дед Щукарь suicided!
+[18:57:44] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[18:57:44] c4s | qRRaz11cHHH suicided!
+[18:57:44] Bashmak752 suicided!
+[18:57:44] Barsik2421 suicided!
+[18:57:44] SG_KaAp suicided!
+[18:57:44] пердохряк suicided!
+[18:57:44] Skilliton suicided!
+[18:58:14] Server is shutting down/changing levels.
+
+
+
+[18:58:19] New map: gm_waa_pizzaplace_2010
+[18:58:19] Server is shutting down/changing levels.
+
+
+
+[18:58:24] New map: gm_waa_pizzaplace_2010
+[18:58:24] Client "Черный Вульфич" connected.
+[18:58:24] Client "Barsik2421" connected.
+[18:58:24] Client "Skilliton" connected.
+[18:58:24] Client "kunsinviktor" connected.
+[18:58:24] Client "Анархист" connected.
+[18:58:24] Client "анивонацейноу" connected.
+[18:58:24] Client "пердохряк" connected.
+[18:58:24] Client "SG_KaAp" connected.
+[18:58:24] Client "Bashmak752" connected.
+[18:58:24] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[18:58:24] Client "Дед Щукарь" connected.
+[18:58:24] Client "c4s | qRRaz11cHHH" connected.
+[18:58:45] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 21 seconds).
+[18:58:46] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[18:58:46] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 22 seconds).
+[18:58:56] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 32 seconds).
+[18:58:58] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 34 seconds).
+[18:58:58] Client "пердохряк" spawned in server <STEAM_0:0:841265035> (took 34 seconds).
+[18:59:03] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 39 seconds).
+[18:59:21] kunsinviktor suicided!
+[18:59:37] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 73 seconds).
+[19:00:00] Client "Skilliton" spawned in server <STEAM_0:1:613336493> (took 96 seconds).
+[19:00:01] Bashmak752: bind key g
+[19:00:25] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/volga/volga.mdl
+[19:00:26] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/volga/volga.mdl
+[19:00:31] Dropped "пердохряк" from server<STEAM_0:0:841265035>
+[19:00:43] SG_KaAp was killed by trigger_hurt
+[19:00:55] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:00:55] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:01:03] ᴋоʙᴀᴩныᴇ яйцᴀ: e vtyz 368
+[19:01:05] ᴋоʙᴀᴩныᴇ яйцᴀ: у меня
+[19:01:05] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:01:14] ᴋоʙᴀᴩныᴇ яйцᴀ: дайте  машину
+[19:01:20] анивонацейноу suicided!
+[19:01:28] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 184 seconds).
+[19:01:28] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:01:39] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:01:49] SG_KaAp suicided!
+[19:02:18] Дед Щукарь suicided!
+[19:02:18] Дед Щукарь suicided!
+[19:02:24] Дед Щукарь suicided!
+[19:02:24] анивонацейноу suicided!
+[19:02:32] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:02:32] Дед Щукарь respawned анивонацейноу
+[19:02:32] Дед Щукарь: !respawn ани
+[19:02:35] Дед Щукарь respawned Themself
+[19:02:35] Дед Щукарь: !respawn Дед
+[19:02:38] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:02:42] Skilliton suicided!
+[19:03:11] Черный Вульфич suicided!
+[19:03:17] Bashmak752 suicided!
+[19:03:17] kunsinviktor suicided!
+[19:03:22] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:03:22] анивонацейноу suicided!
+[19:03:24] ᴋоʙᴀᴩныᴇ яйцᴀ: у меня большие яйца
+[19:03:24] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:03:25] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:03:25] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:03:26] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:03:28] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:03:28] ᴋоʙᴀᴩныᴇ яйцᴀ: ээ а че я сдох
+[19:03:33] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/avia/avia.mdl
+[19:03:38] Дед Щукарь respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[19:03:40] Bashmak752 suicided!
+[19:04:04] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gaz52/gaz52.mdl
+[19:04:07] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gaz52/gaz52.mdl
+[19:04:10] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gaz52/gaz52.mdl
+[19:04:13] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/gaz52/gaz52.mdl
+[19:04:14] Client "Мику" connected.
+[19:04:19] kunsinviktor suicided!
+[19:04:23] Skilliton suicided!
+[19:04:38] Bashmak752: /buyar
+[19:04:40] SG_KaAp suicided!
+[19:04:50] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 36 seconds).
+[19:04:57] ᴋоʙᴀᴩныᴇ яйцᴀ was killed by trigger_hurt
+[19:06:50] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[19:06:51] Client "Bashmak752" connected.
+[19:06:57] Client "Bashmak752" connected.
+[19:06:58] SG_KaAp запустил голосование (Кончить?)
+[19:06:58] SG_KaAp: !vote Кончить? Да Нет
+[19:06:59] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[19:07:00] Черный Вульфич голосует за Нет
+[19:07:00] Дед Щукарь голосует за Да
+[19:07:06] SG_KaAp голосует за Да
+[19:07:07] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[19:07:07] c4s | qRRaz11cHHH suicided!
+[19:07:10] Дед Щукарь suicided!
+[19:07:10] Client "c4s | qRRaz11cHHH" connected.
+[19:07:12] kunsinviktor голосует за Нет
+[19:07:18] Результат: 'Да' . (3/9)
+[19:07:18] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:07:18] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:07:18] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:07:27] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 17 seconds).
+[19:07:27] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 30 seconds).
+[19:07:29] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/avia/avia.mdl
+[19:07:38] Черный Вульфич suicided!
+[19:07:44] kunsinviktor suicided!
+[19:07:44] SG_KaAp suicided!
+[19:07:49] SG_KaAp respawned kunsinviktor
+[19:07:52] SG_KaAp respawned Themself
+[19:07:55] Skilliton suicided!
+[19:07:55] Дед Щукарь suicided!
+[19:08:01] c4s | qRRaz11cHHH suicided!
+[19:08:03] анивонацейноу suicided!
+[19:08:03] анивонацейноу suicided!
+[19:08:06] Bashmak752 suicided!
+[19:08:09] ᴋоʙᴀᴩныᴇ яйцᴀ killed Мику using player
+[19:08:12] SG_KaAp suicided!
+[19:08:18] Client "пердохряк" connected.
+[19:08:27] kunsinviktor suicided!
+[19:08:32] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:08:33] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:08:33] Skilliton suicided!
+[19:08:39] ᴋоʙᴀᴩныᴇ яйцᴀ: f z
+[19:08:40] ᴋоʙᴀᴩныᴇ яйцᴀ: а я
+[19:08:46] Мику: ураа
+[19:08:47] Черный Вульфич suicided!
+[19:08:48] Client "пердохряк" spawned in server <STEAM_0:0:841265035> (took 30 seconds).
+[19:08:48] Мику suicided!
+[19:08:51] Bashmak752 suicided!
+[19:08:52] kunsinviktor suicided!
+[19:08:52] c4s | qRRaz11cHHH suicided!
+[19:08:53] ᴋоʙᴀᴩныᴇ яйцᴀ: что за неспавредливост
+[19:09:01] анивонацейноу suicided!
+[19:09:01] Мику: я тольцо написала ураа
+[19:09:03] Dropped "пердохряк" from server<STEAM_0:0:841265035>
+[19:09:05] Client "Анархист" spawned in server <STEAM_0:0:97324894> (took 641 seconds).
+[19:09:06] Мику: карта хуйня
+[19:09:07] Skilliton suicided!
+[19:09:07] SG_KaAp suicided!
+[19:09:07] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:09:13] SG_KaAp respawned ᴋоʙᴀᴩныᴇ яйцᴀ
+[19:09:14] ᴋоʙᴀᴩныᴇ яйцᴀ: я опять не заспавнился ее
+[19:09:15] SG_KaAp respawned Skilliton
+[19:09:16] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:09:16] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:09:17] ᴋоʙᴀᴩныᴇ яйцᴀ: о сап
+[19:09:17] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:09:19] SG_KaAp respawned Themself
+[19:09:20] Мику: i regret nothing
+[19:09:23] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:09:28] Мику: вульфич пидрила
+[19:09:33] Мику: ДЕД ПИДР
+[19:09:38] c4s | qRRaz11cHHH suicided!
+[19:09:43] ᴋоʙᴀᴩныᴇ яйцᴀ: вульфич красава ты чо
+[19:09:52] Мику suicided!
+[19:10:03] SG_KaAp suicided!
+[19:10:11] анивонацейноу suicided!
+[19:11:16] Skilliton: афк 9999999
+[19:11:16] Dropped "Skilliton" from server<STEAM_0:1:613336493>
+[19:11:16] Skilliton suicided!
+[19:11:48] kunsinviktor suicided!
+[19:12:00] Черный Вульфич suicided!
+[19:12:00] Bashmak752 suicided!
+[19:12:02] SG_KaAp запустил голосование (Кончить?)
+[19:12:02] SG_KaAp: !vote Кончить? Да Нет
+[19:12:03] Черный Вульфич голосует за Да
+[19:12:03] Мику голосует за Да
+[19:12:03] kunsinviktor голосует за Да
+[19:12:03] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Нет
+[19:12:04] c4s | qRRaz11cHHH голосует за Да
+[19:12:04] Дед Щукарь голосует за Нет
+[19:12:06] Bashmak752 голосует за Да
+[19:12:17] анивонацейноу голосует за Да
+[19:12:22] Результат: 'Да' . (6/10)
+[19:12:30] SG_KaAp respawned Themself
+[19:12:34] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:12:34] SG_KaAp: !noclip
+[19:12:51] Дед Щукарь suicided!
+[19:12:57] kunsinviktor suicided!
+[19:12:57] c4s | qRRaz11cHHH suicided!
+[19:12:59] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:12:59] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:13:02] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:13:06] Дед Щукарь respawned kunsinviktor
+[19:13:06] Дед Щукарь: !respawn kun
+[19:13:07] SG_KaAp respawned c4s | qRRaz11cHHH
+[19:13:12] Мику: NEGR
+[19:13:12] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/avia/avia.mdl
+[19:13:14] Мику: НЕГРЫ
+[19:13:19] Мику: ПИДОРЫ
+[19:13:20] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:13:31] Мику: кто юзает соундкланд тот пидр
+[19:13:43] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:14:16] Мику suicided!
+[19:14:49] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:14:55] Анархист suicided!
+[19:14:55] Мику suicided!
+[19:15:06] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:15:11] Мику: я умерла
+[19:15:13] Мику: заспавнь
+[19:15:18] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:15:21] Bashmak752 suicided!
+[19:15:21] c4s | qRRaz11cHHH suicided!
+[19:15:23] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:15:23] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:15:34] Дед Щукарь suicided!
+[19:15:34] Дед Щукарь suicided!
+[19:15:38] анивонацейноу suicided!
+[19:15:44] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:15:44] Анархист suicided!
+[19:15:48] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:15:48] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:15:49] Дед Щукарь suicided!
+[19:15:49] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:15:50] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:15:50] Мику: я не навижу толшько спавн и сразу мертва
+[19:15:50] ᴋоʙᴀᴩныᴇ яйцᴀ: dpgf[g
+[19:15:51] Анархист: да бля
+[19:15:51] ᴋоʙᴀᴩныᴇ яйцᴀ: азпхха
+[19:15:52] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:15:54] kunsinviktor suicided!
+[19:15:54] Черный Вульфич suicided!
+[19:15:55] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:15:58] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:15:58] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:15:58] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:15:59] Client "Terminatorejek" connected.
+[19:16:09] Черный Вульфич: я умер
+[19:16:09] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/avia/avia.mdl
+[19:16:14] Мику: дай руль
+[19:16:14] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/avia/avia.mdl
+[19:16:19] Мику: да почему
+[19:16:20] Черный Вульфич: я умер
+[19:16:25] Дед Щукарь respawned Черный Вульфич
+[19:16:25] Дед Щукарь: !respawn Чер
+[19:17:00] Bashmak752 suicided!
+[19:17:04] Черный Вульфич: МЕНЯ НЕ СЛЫШНО?
+[19:17:10] Мику suicided!
+[19:17:18] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:17:19] Анархист: :cold_sweat:
+[19:18:26] Дед Щукарь suicided!
+[19:18:32] Мику suicided!
+[19:18:32] Анархист suicided!
+[19:19:02] Server is shutting down/changing levels.
+
+
+
+[19:19:09] New map: ttt_blocc
+[19:19:09] Server is shutting down/changing levels.
+
+
+
+[19:19:40] New map: gm_mdach
+[19:19:40] Client "Черный Вульфич" connected.
+[19:19:40] Client "Черный Вульфич" connected.
+[19:19:40] Client "kunsinviktor" connected.
+[19:19:40] Client "kunsinviktor" connected.
+[19:19:40] Client "Мику" connected.
+[19:19:40] Client "Мику" connected.
+[19:19:40] Client "c4s | qRRaz11cHHH" connected.
+[19:19:40] Client "Terminatorejek" connected.
+[19:19:40] Client "Terminatorejek" connected.
+[19:19:40] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[19:19:40] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[19:19:40] Client "анивонацейноу" connected.
+[19:19:40] Client "анивонацейноу" connected.
+[19:19:40] Client "Анархист" connected.
+[19:19:40] Client "SG_KaAp" connected.
+[19:19:40] Client "SG_KaAp" connected.
+[19:19:40] Client "Дед Щукарь" connected.
+[19:19:40] Client "Дед Щукарь" connected.
+[19:19:57] Client "c4s | qRRaz11cHHH" connected.
+[19:20:06] Client "SG_KaAp" connected.
+[19:20:18] Client "анивонацейноу" spawned in server <STEAM_0:1:781331779> (took 38 seconds).
+[19:20:19] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 22 seconds).
+[19:20:19] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 39 seconds).
+[19:20:20] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 40 seconds).
+[19:20:23] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 17 seconds).
+[19:20:28] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 48 seconds).
+[19:20:50] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:21:01] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 81 seconds).
+[19:21:04] Client "Анархист" spawned in server <STEAM_0:0:97324894> (took 84 seconds).
+[19:21:04] Client "♡Đėαŧℏ♡" connected.
+[19:21:17] SG_KaAp: !menu
+[19:21:31] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 111 seconds).
+[19:21:34] (csay from SG_KaAp) ПО КАРТЕ Я РАЗБРАЗАЛ ДОНАТ!
+[19:21:34] Client "Bashmak752" connected.
+[19:21:52] SG_KaAp: !menu
+[19:21:53] (csay from SG_KaAp) ПО КАРТЕ Я РАЗБРАЗАЛ ДОНАТ!
+[19:21:54] (csay from SG_KaAp) ПО КАРТЕ Я РАЗБРАЗАЛ ДОНАТ!
+[19:21:54] (csay from SG_KaAp) ПО КАРТЕ Я РАЗБРАЗАЛ ДОНАТ!
+[19:21:54] (csay from SG_KaAp) ПО КАРТЕ Я РАЗБРАЗАЛ ДОНАТ!
+[19:22:17] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 43 seconds).
+[19:22:22] SG_KaAp: !menu
+[19:22:35] Мику: тшшш
+[19:22:44] анивонацейноу suicided!
+[19:22:46] kunsinviktor suicided!
+[19:22:46] kunsinviktor suicided!
+[19:23:04] Черный Вульфич suicided!
+[19:23:06] Client "Terminatorejek" spawned in server <STEAM_0:0:570553002> (took 206 seconds).
+[19:23:27] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:23:39] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:23:40] Анархист: :cold_sweat:
+[19:23:42] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:23:42] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:23:43] Мику: ой я бабка бабка
+[19:23:50] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:23:57] Мику: мой двор
+[19:24:11] SG_KaAp: hg_playermodels
+[19:24:23] анивонацейноу suicided!
+[19:24:24] Мику: че ты делаешь внучок в моем дворе
+[19:24:29] Мику: темболее дома
+[19:24:47] Черный Вульфич suicided!
+[19:24:47] c4s | qRRaz11cHHH suicided!
+[19:24:47] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:25:15] ᴋоʙᴀᴩныᴇ яйцᴀ: у меня пояс смертница был я хотел мику уебать
+[19:25:33] Client "†  †  †" connected.
+[19:25:43] SG_KaAp suicided!
+[19:25:58] kunsinviktor suicided!
+[19:26:36] Мику: МОЙ ДОМ СУЧАРА СКОТОБАЗА
+[19:26:42] Мику: ЖИВОТИНА ГРЯЗНАЯ
+[19:26:50] Мику: Я ВИДЕЛА КАК ТЫ ПИЗДЕЛ МОИ ЯБЛОКИ
+[19:26:59] Дед Щукарь suicided!
+[19:27:15] Анархист suicided!
+[19:27:30] Bashmak752 suicided!
+[19:27:40] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:27:40] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:27:50] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:27:52] kunsinviktor set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[19:27:59] Мику suicided!
+[19:27:59] Мику suicided!
+[19:28:03] ᴋоʙᴀᴩныᴇ яйцᴀ: я хошу быть шашликом
+[19:28:27] Terminatorejek suicided!
+[19:28:30] kunsinviktor suicided!
+[19:28:33] Анархист: :cold_sweat:
+[19:28:39] Bashmak752 suicided!
+[19:28:43] анивонацейноу suicided!
+[19:28:43] анивонацейноу suicided!
+[19:28:47] Дед Щукарь suicided!
+[19:28:54] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:28:54] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:28:57] kunsinviktor set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[19:28:58] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:29:00] Черный Вульфич suicided!
+[19:29:24] Мику: ОТКРЫЛСЯ МАГАЗИН Я СОСАЛА МЕНЯ ЕБАЛА ВСЕ БЕСПЛАТНО ТОЛЬКО СЕГОДНЯ
+[19:29:33] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:29:33] Мику: вамчего
+[19:29:35] анивонацейноу suicided!
+[19:29:45] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:29:45] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:29:45] ᴋоʙᴀᴩныᴇ яйцᴀ: суки
+[19:29:47] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:29:47] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:29:48] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:29:49] kunsinviktor set Themself's model to models/rashkinsk/fsin/camo/camo_04.mdl with colors R:255, G:255, B:255
+[19:29:56] Client "Skilliton" connected.
+[19:29:56] Bashmak752 suicided!
+[19:30:01] анивонацейноу suicided!
+[19:30:05] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:30:05] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:30:06] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:30:09] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:30:09] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:30:11] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:30:21] Дед Щукарь suicided!
+[19:30:26] Анархист suicided!
+[19:30:56] Client "Skilliton" spawned in server <STEAM_0:1:613336493> (took 60 seconds).
+[19:31:09] kunsinviktor suicided!
+[19:31:12] Мику: ЕЙ
+[19:31:15] Мику: красавчик иди суда
+[19:31:21] Terminatorejek suicided!
+[19:31:23] Мику: красавчик
+[19:31:24] Мику: идем
+[19:31:31] Мику: ИДЕМ Я БЛЯТЬ СКАЗАЛА
+[19:31:36] Мику: СУКА ТУПАЯ
+[19:31:37] c4s | qRRaz11cHHH suicided!
+[19:31:41] Мику: ИДИ СУДА
+[19:31:42] Bashmak752 suicided!
+[19:31:47] Мику: идем домой сладкий
+[19:31:56] Мику: хотя не в бане
+[19:32:04] Мику suicided!
+[19:32:09] Мику: СУКА ПОЧТИ РАЗБАЙТИЛА
+[19:32:47] Черный Вульфич: афк 9999999
+[19:32:47] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[19:32:47] Черный Вульфич suicided!
+[19:33:00] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:33:03] ᴋоʙᴀᴩныᴇ яйцᴀ: джон кок
+[19:33:06] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:33:11] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:33:25] Bashmak752 suicided!
+[19:33:31] Анархист suicided!
+[19:33:43] c4s | qRRaz11cHHH suicided!
+[19:33:46] анивонацейноу suicided!
+[19:33:50] Дед Щукарь suicided!
+[19:33:55] Дед Щукарь voted for gm_bbicotka_hmcd (1/5)
+[19:33:55] Дед Щукарь: !votemap 44
+[19:34:14] kunsinviktor suicided!
+[19:34:45] SG_KaAp запустил голосование (Кончаем?!)
+[19:34:45] SG_KaAp: !vote Кончаем?! Да Нет
+[19:34:47] kunsinviktor голосует за Да
+[19:34:47] c4s | qRRaz11cHHH голосует за Да
+[19:34:47] Дед Щукарь голосует за Да
+[19:34:47] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[19:34:48] Мику голосует за Да
+[19:34:48] Terminatorejek голосует за Да
+[19:34:49] анивонацейноу голосует за Да
+[19:34:49] Анархист голосует за Да
+[19:34:50] Мику suicided!
+[19:34:50] Bashmak752 голосует за Да
+[19:34:53] Skilliton: афк 9999999
+[19:34:53] Dropped "Skilliton" from server<STEAM_0:1:613336493>
+[19:34:53] Skilliton suicided!
+[19:34:54] SG_KaAp голосует за Да
+[19:35:04] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:35:05] ᴋоʙᴀᴩныᴇ яйцᴀ: виктор сиске
+[19:35:05] Результат: 'Да' . (10/11)
+[19:35:16] Terminatorejek suicided!
+[19:35:19] c4s | qRRaz11cHHH suicided!
+[19:35:20] SG_KaAp suicided!
+[19:35:24] Анархист suicided!
+[19:35:31] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:35:33] Bashmak752 suicided!
+[19:35:35] Client "garik xarlamov" connected.
+[19:35:50] Мику suicided!
+[19:36:09] Дед Щукарь suicided!
+[19:36:21] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:36:21] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:36:28] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[19:36:29] SG_KaAp<STEAM_0:1:566748347> spawned vehicle models/blu/zaz/zaz.mdl
+[19:36:32] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:36:36] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[19:36:46] kunsinviktor suicided!
+[19:37:04] Мику: ДАВАЙ
+[19:37:07] Мику: идем за  мной
+[19:37:55] SG_KaAp suicided!
+[19:37:57] анивонацейноу suicided!
+[19:38:11] Мику: нету
+[19:38:16] Мику: сам
+[19:38:25] SG_KaAp запустил голосование (Кончаем?!)
+[19:38:25] SG_KaAp: !vote Кончаем?! Да Нет
+[19:38:25] Мику: сучка моя
+[19:38:26] Дед Щукарь голосует за Да
+[19:38:26] Мику голосует за Нет
+[19:38:26] SG_KaAp голосует за Да
+[19:38:26] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[19:38:27] Анархист голосует за Нет
+[19:38:28] c4s | qRRaz11cHHH голосует за Да
+[19:38:29] Terminatorejek голосует за Да
+[19:38:30] Bashmak752 голосует за Да
+[19:38:32] kunsinviktor голосует за Да
+[19:38:44] Результат: 'Да' . (7/10)
+[19:39:07] SG_KaAp killed Мику using player
+[19:39:44] анивонацейноу suicided!
+[19:39:44] анивонацейноу suicided!
+[19:39:47] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:39:48] Terminatorejek suicided!
+[19:39:48] Terminatorejek suicided!
+[19:40:04] SG_KaAp suicided!
+[19:40:04] SG_KaAp suicided!
+[19:40:04] Дед Щукарь: !menu
+[19:40:05] kunsinviktor suicided!
+[19:40:16] Дед Щукарь заткнул ᴋоʙᴀᴩныᴇ яйцᴀ
+[19:40:32] анивонацейноу suicided!
+[19:40:34] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[19:40:34] Bashmak752 suicided!
+[19:40:34] Client "Bashmak752" connected.
+[19:40:39] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:41:08] Мику suicided!
+[19:41:11] Terminatorejek suicided!
+[19:41:12] Анархист suicided!
+[19:41:19] анивонацейноу suicided!
+[19:41:21] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 47 seconds).
+[19:41:26] Terminatorejek suicided!
+[19:41:39] Мику suicided!
+[19:42:14] Анархист suicided!
+[19:42:14] kunsinviktor suicided!
+[19:42:16] Terminatorejek suicided!
+[19:42:16] Мику suicided!
+[19:42:19] Bashmak752 suicided!
+[19:42:28] Dropped "Анархист" from server<STEAM_0:0:97324894>
+[19:42:51] SG_KaAp запустил голосование (Кончаем?!)
+[19:42:51] SG_KaAp: !vote Кончаем?! Да Нет
+[19:42:52] Дед Щукарь голосует за Да
+[19:42:52] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за Да
+[19:42:53] kunsinviktor голосует за Да
+[19:42:55] Bashmak752 голосует за Да
+[19:42:56] c4s | qRRaz11cHHH голосует за Да
+[19:42:59] Terminatorejek голосует за Нет
+[19:43:10] SG_KaAp голосует за Да
+[19:43:11] Результат: 'Да' . (6/9)
+[19:43:17] анивонацейноу suicided!
+[19:43:27] c4s | qRRaz11cHHH suicided!
+[19:43:34] Мику suicided!
+[19:43:44] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:43:51] kunsinviktor killed Terminatorejek using player
+[19:43:58] kunsinviktor suicided!
+[19:44:05] SG_KaAp: !levelend
+[19:44:09] Мику suicided!
+[19:44:10] Bashmak752 suicided!
+[19:44:17] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:44:17] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:44:31] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:44:33] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:44:37] Bashmak752 suicided!
+[19:44:38] анивонацейноу suicided!
+[19:44:38] анивонацейноу suicided!
+[19:44:59] kunsinviktor suicided!
+[19:44:59] kunsinviktor suicided!
+[19:45:04] c4s | qRRaz11cHHH suicided!
+[19:45:04] Terminatorejek killed Мику using player
+[19:45:22] Client "Анархист" connected.
+[19:45:28] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:45:28] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:46:01] Дед Щукарь suicided!
+[19:46:01] Дед Щукарь suicided!
+[19:46:17] SG_KaAp: !levelend
+[19:46:27] SG_KaAp: !levelend
+[19:46:29] анивонацейноу suicided!
+[19:46:32] kunsinviktor suicided!
+[19:46:32] Мику suicided!
+[19:46:32] c4s | qRRaz11cHHH suicided!
+[19:46:32] Terminatorejek suicided!
+[19:46:32] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:46:32] анивонацейноу suicided!
+[19:46:32] SG_KaAp suicided!
+[19:46:32] Дед Щукарь suicided!
+[19:46:32] Bashmak752 suicided!
+[19:47:02] Server is shutting down/changing levels.
+
+
+
+[19:47:10] New map: rp_deadcity
+[19:47:11] Server is shutting down/changing levels.
+
+
+
+[19:47:18] New map: rp_deadcity
+[19:47:18] Client "Мику" connected.
+[19:47:18] Client "Мику" connected.
+[19:47:18] Client "Дед Щукарь" connected.
+[19:47:18] Client "c4s | qRRaz11cHHH" connected.
+[19:47:18] Client "c4s | qRRaz11cHHH" connected.
+[19:47:18] Client "Дед Щукарь" connected.
+[19:47:18] Client "Terminatorejek" connected.
+[19:47:18] Client "Terminatorejek" connected.
+[19:47:18] Client "SG_KaAp" connected.
+[19:47:18] Client "SG_KaAp" connected.
+[19:47:18] Client "анивонацейноу" connected.
+[19:47:18] Client "анивонацейноу" connected.
+[19:47:18] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[19:47:18] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+
+
+
+[19:47:41] New map: gm_mdach
+[19:47:41] Client "c4s | qRRaz11cHHH" connected.
+[19:47:41] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[19:47:41] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[19:47:50] Client "Bashmak752" connected.
+[19:47:51] Server is shutting down/changing levels.
+
+
+
+[19:48:00] New map: rp_deadcity
+[19:48:00] Client "Bashmak752" connected.
+[19:48:08] Client "c4s | qRRaz11cHHH" connected.
+[19:48:17] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[19:48:32] Client "SG_KaAp" connected.
+[19:48:57] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 25 seconds).
+[19:49:32] Client "kunsinviktor" connected.
+[19:49:40] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 92 seconds).
+[19:49:43] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 86 seconds).
+[19:49:45] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 105 seconds).
+[19:50:03] ᴋоʙᴀᴩныᴇ яйцᴀ: пуки
+[19:50:33] Client "Дед Щукарь" connected.
+[19:50:49] c4s | qRRaz11cHHH set Themself's model to models/ful76/player/vladimir_lenin_redux.mdl with colors R:255, G:255, B:255
+[19:51:06] Client "kunsinviktor" connected.
+[19:51:38] SG_KaAp suicided!
+[19:51:50] SG_KaAp set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[19:52:02] c4s | qRRaz11cHHH set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[19:52:10] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 64 seconds).
+[19:52:13] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 100 seconds).
+[19:52:35] Client "Terminatorejek" connected.
+[19:52:51] SG_KaAp: Лодись!
+[19:52:57] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:53:00] Client "Анархист" connected.
+[19:53:14] c4s | qRRaz11cHHH suicided!
+[19:53:14] c4s | qRRaz11cHHH suicided!
+[19:53:16] Client "Terminatorejek" spawned in server <STEAM_0:0:570553002> (took 41 seconds).
+[19:53:20] ᴋоʙᴀᴩныᴇ яйцᴀ: упол отжолсо
+[19:53:28] SG_KaAp set Themself's model to models/player/joe/k_pm.mdl with colors R:255, G:255, B:255
+[19:53:31] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:53:31] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:53:55] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:54:08] c4s | qRRaz11cHHH set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:55:21] SG_KaAp suicided!
+[19:55:30] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[19:55:32] Terminatorejek suicided!
+[19:55:47] kunsinviktor killed Дед Щукарь using player
+[19:56:06] SG_KaAp set c4s | qRRaz11cHHH's model to models/player/police.mdl with colors R:255, G:255, B:255
+[19:56:06] SG_KaAp: !setmodel c4s models/player/police.mdl
+[19:56:18] Bashmak752: /buyar
+[19:56:33] SG_KaAp запустил голосование (Кончить?)
+[19:56:33] SG_KaAp: !vote Кончить? ДА НЕТ
+[19:56:34] Дед Щукарь голосует за ДА
+[19:56:34] kunsinviktor голосует за ДА
+[19:56:35] ᴋоʙᴀᴩныᴇ яйцᴀ голосует за ДА
+[19:56:35] Terminatorejek голосует за ДА
+[19:56:36] SG_KaAp голосует за ДА
+[19:56:36] Bashmak752 голосует за ДА
+[19:56:37] c4s | qRRaz11cHHH голосует за ДА
+[19:56:37] Результат: 'ДА' . (7/7)
+[19:56:43] SG_KaAp respawned Themself
+[19:56:44] ᴋоʙᴀᴩныᴇ яйцᴀ: кончаем в каапа
+[19:56:47] SG_KaAp: !noclip
+[19:56:52] SG_KaAp переместился к kunsinviktor
+[19:57:07] Дед Щукарь<STEAM_0:1:740599899> spawned sent sent_ball
+[19:57:17] SG_KaAp rocketed kunsinviktor
+[19:57:17] SG_KaAp: !rocket kun
+[19:57:18] Дед Щукарь<STEAM_0:1:740599899> spawned sent sent_airdropcrate
+[19:57:18] kunsinviktor suicided!
+[19:57:22] Дед Щукарь<STEAM_0:1:740599899> spawned sent sent_soccerball
+[19:57:22] Bashmak752 suicided!
+[19:57:26] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:57:26] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:57:30] SG_KaAp set Themself's model to models/player/donald_trump.mdl with colors R:255, G:255, B:255
+[19:57:33] (TEAM) Terminatorejek: !motd
+[19:57:34] kunsinviktor set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:57:36] c4s | qRRaz11cHHH set Themself's model to models/kuhnya/barinov.mdl with colors R:255, G:255, B:255
+[19:57:43] c4s | qRRaz11cHHH suicided!
+[19:57:43] c4s | qRRaz11cHHH suicided!
+[19:57:44] Дед Щукарь<STEAM_0:1:740599899> spawned sent sent_soccerball
+[19:57:47] kunsinviktor suicided!
+[19:57:55] Client "Анархист" connected.
+[19:57:56] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[19:58:05] Bashmak752 suicided!
+[19:58:05] Bashmak752 suicided!
+[19:58:06] (TEAM) Terminatorejek: !motd
+[19:58:17] kunsinviktor set Themself's model to models/dannio/pm/joebiden.mdl with colors R:255, G:255, B:255
+[19:58:17] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[19:58:17] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[19:58:18] SG_KaAp set Themself's model to models/player/breen.mdl with colors R:255, G:255, B:255
+[19:58:19] (TEAM) Terminatorejek: !motd
+[19:58:25] Дед Щукарь<STEAM_0:1:740599899> spawned sent sent_soccerball
+[19:59:36] Terminatorejek: крутой
+[19:59:43] Terminatorejek suicided!
+[20:00:12] SG_KaAp set Themself's model to models/player/minyon.mdl with colors R:255, G:255, B:255
+[20:00:17] kunsinviktor set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[20:00:32] Дед Щукарь: !Setmodel ^ models/player/open season/boog.mdl
+[20:00:39] (TEAM) Terminatorejek: !motd
+[20:00:39] Дед Щукарь: !setmodel ^ models/player/open season/boog.mdl
+[20:00:54] Дед Щукарь: !setmodel ^ models/player/open season/boog.mdl
+[20:01:04] Дед Щукарь set Themself's model to models/player/openseason/boog.mdl with colors R:255, G:255, B:255
+[20:01:04] Дед Щукарь: !setmodel ^ models/player/openseason/boog.mdl
+[20:01:14] Client "Анархист" connected.
+[20:01:15] Дед Щукарь set Themself's model to models/player/jesus/jesus.mdl with colors R:255, G:255, B:255
+[20:01:15] Дед Щукарь: !setmodel ^ models/player/jesus/jesus.mdl
+[20:01:41] SG_KaAp suicided!
+[20:01:53] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:03:32] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[20:03:32] Bashmak752 suicided!
+[20:03:37] Client "Bashmak752" connected.
+[20:04:02] (TEAM) Terminatorejek: !motd
+[20:04:34] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 57 seconds).
+[20:04:35] Terminatorejek suicided!
+[20:04:57] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[20:05:22] Дед Щукарь suicided!
+[20:05:23] kunsinviktor suicided!
+[20:05:34] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[20:05:34] Дед Щукарь suicided!
+[20:05:40] kunsinviktor set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[20:06:29] Client "Черный Вульфич" connected.
+[20:06:29] Terminatorejek: !motd
+[20:07:30] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[20:09:26] Bashmak752: /buyar
+[20:09:54] kunsinviktor set Themself's model to models/player/charple.mdl with colors R:255, G:255, B:255
+[20:10:15] Terminatorejek: !motd
+[20:10:47] Client "Okey_lets" connected.
+[20:10:55] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 266 seconds).
+[20:11:42] kunsinviktor set Themself's model to models/player/skeleton.mdl with colors R:255, G:255, B:255
+[20:12:00] ᴋоʙᴀᴩныᴇ яйцᴀ suicided!
+[20:12:05] kunsinviktor suicided!
+[20:12:19] Dropped "ᴋоʙᴀᴩныᴇ яйцᴀ" from server<STEAM_0:1:638498957>
+[20:12:34] Client "Анархист" connected.
+[20:12:43] Bashmak752 suicided!
+[20:13:04] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[20:13:04] Черный Вульфич suicided!
+[20:13:09] Client "Okey_lets" spawned in server <STEAM_0:1:834737331> (took 142 seconds).
+[20:13:22] kunsinviktor suicided!
+[20:14:06] kunsinviktor set Themself's model to models/player/donald_trump.mdl with colors R:255, G:255, B:255
+[20:15:31] kunsinviktor suicided!
+[20:15:55] Client "F@rt Dur$t :-3" connected.
+[20:17:10] Client "Черный Вульфич" connected.
+[20:17:26] Terminatorejek suicided!
+[20:19:16] Bashmak752 suicided!
+[20:19:23] kunsinviktor: афк 9999999
+[20:19:23] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[20:19:23] kunsinviktor suicided!
+[20:19:33] Okey_lets suicided!
+[20:19:51] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 161 seconds).
+[20:20:53] Client "kunsinviktor" connected.
+[20:21:21] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 28 seconds).
+[20:21:36] Bashmak752 suicided!
+[20:22:17] Okey_lets suicided!
+[20:22:17] Okey_lets suicided!
+[20:22:18] Okey_lets suicided!
+[20:22:23] Terminatorejek: брат все норм?
+[20:22:40] kunsinviktor set Themself's model to models/dannio/pm/joebiden.mdl with colors R:255, G:255, B:255
+[20:23:00] Bashmak752 suicided!
+[20:23:04] Terminatorejek: патрон нету
+[20:23:13] Terminatorejek: го
+[20:23:30] Bashmak752 suicided!
+[20:23:37] Terminatorejek: харош
+[20:23:52] Okey_lets suicided!
+[20:25:22] Okey_lets suicided!
+[20:26:01] Bashmak752 suicided!
+[20:26:12] Terminatorejek: спасибо
+[20:26:20] Черный Вульфич suicided!
+[20:26:21] Terminatorejek suicided!
+[20:26:27] Terminatorejek: верю
+[20:26:33] kunsinviktor set Themself's model to models/player/donald_trump.mdl with colors R:255, G:255, B:255
+[20:26:34] Okey_lets suicided!
+[20:26:42] Terminatorejek suicided!
+[20:26:49] Черный Вульфич suicided!
+[20:26:54] Terminatorejek: Да пиздец
+[20:27:10] kunsinviktor set Themself's model to models/dannio/pm/joebiden.mdl with colors R:255, G:255, B:255
+[20:28:22] kunsinviktor suicided!
+[20:28:42] Terminatorejek: привет
+[20:28:49] Terminatorejek: я не трейтор
+[20:28:59] kunsinviktor set Themself's model to models/monolithservers/mpd/male_04_2.mdl with colors R:255, G:255, B:255
+[20:29:08] Terminatorejek suicided!
+[20:29:08] Terminatorejek suicided!
+[20:29:36] kunsinviktor set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[20:30:23] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[20:30:23] Черный Вульфич suicided!
+[20:30:24] kunsinviktor set Themself's model to models/volk/volk.mdl with colors R:255, G:255, B:255
+[20:31:29] kunsinviktor set Themself's model to models/player/skeleton.mdl with colors R:255, G:255, B:255
+[20:32:26] Terminatorejek: шутка
+[20:32:31] Terminatorejek: я знаю кто трейтор
+[20:33:13] Terminatorejek: хз
+[20:33:14] Terminatorejek: не вы
+[20:33:20] Terminatorejek: трейтор меня убил
+[20:33:24] Terminatorejek: у тебя только вейп
+[20:33:35] Terminatorejek: ыыы
+[20:33:38] Okey_lets suicided!
+[20:33:47] Terminatorejek: ууыыы
+[20:34:19] kunsinviktor set Themself's model to models/player/corpse1.mdl with colors R:255, G:255, B:255
+[20:35:36] Terminatorejek: ЗА ЧТО
+[20:36:00] Bashmak752 suicided!
+[20:36:00] Bashmak752 suicided!
+[20:36:07] Terminatorejek: ДАА
+[20:36:19] kunsinviktor killed Okey_lets using player
+[20:36:22] Bashmak752 suicided!
+[20:36:30] Terminatorejek: ууу я трейток
+[20:36:32] Terminatorejek: трейтор
+[20:36:34] kunsinviktor suicided!
+[20:36:49] Okey_lets suicided!
+[20:36:53] Terminatorejek: прости
+[20:36:56] Terminatorejek: и
+[20:36:57] Dropped "Okey_lets" from server<STEAM_0:1:834737331>
+[20:37:00] Terminatorejek: на b
+[20:37:04] Terminatorejek: на B
+[20:37:08] Terminatorejek: я хз тогда
+[20:37:44] kunsinviktor set Themself's model to models/player/star wars battlefront 2/republic/rep_inf_ep3jettrooper.mdl with colors R:255, G:255, B:255
+[20:37:50] Terminatorejek suicided!
+[20:37:57] kunsinviktor suicided!
+[20:38:03] Terminatorejek: лучший
+[20:38:29] Terminatorejek: ДА ахуеть
+[20:38:54] Bashmak752: rtv
+[20:39:26] Server is shutting down/changing levels.
+
+
+
+[20:39:31] New map: cs_fallingliquid
+[20:39:31] Server is shutting down/changing levels.
+
+
+
+[20:39:36] New map: cs_fallingliquid
+[20:39:36] Client "kunsinviktor" connected.
+[20:39:36] Client "Bashmak752" connected.
+[20:39:42] Client "Terminatorejek" connected.
+[20:40:01] Client "Terminatorejek" spawned in server <STEAM_0:0:570553002> (took 19 seconds).
+[20:40:05] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 29 seconds).
+[20:40:23] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 47 seconds).
+[20:40:31] kunsinviktor suicided!
+[20:40:35] Terminatorejek: ыыы
+[20:40:37] Terminatorejek: го
+[20:40:40] Terminatorejek: гоо
+[20:40:48] Client "Анархист" connected.
+[20:41:11] Bashmak752 suicided!
+[20:41:19] Terminatorejek: дружноо
+[20:41:49] kunsinviktor set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[20:41:53] Terminatorejek: все украл
+[20:42:02] Terminatorejek: да не надо
+[20:42:08] Terminatorejek suicided!
+[20:42:38] kunsinviktor suicided!
+[20:43:00] kunsinviktor set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2.mdl with colors R:255, G:255, B:255
+[20:43:03] Bashmak752 suicided!
+[20:43:23] Bashmak752 suicided!
+[20:43:36] kunsinviktor suicided!
+[20:43:36] Terminatorejek suicided!
+[20:43:44] Terminatorejek: нихуя дружно
+[20:44:22] Bashmak752 suicided!
+[20:44:33] kunsinviktor set Themself's model to models/player/skeleton.mdl with colors R:255, G:255, B:255
+[20:45:18] kunsinviktor suicided!
+[20:45:23] Terminatorejek: ЧТО КАК?
+[20:45:43] kunsinviktor suicided!
+[20:45:52] Bashmak752 suicided!
+[20:46:27] Terminatorejek suicided!
+[20:47:37] Client "Анархист" spawned in server <STEAM_0:0:97324894> (took 409 seconds).
+[20:47:47] kunsinviktor suicided!
+[20:47:47] kunsinviktor suicided!
+[20:47:47] Bashmak752 suicided!
+[20:48:00] Client "ayiebowski" connected.
+[20:48:38] Анархист suicided!
+[20:48:42] kunsinviktor suicided!
+[20:49:26] Terminatorejek killed kunsinviktor using player
+[20:49:28] Анархист suicided!
+[20:49:49] Client "otata" connected.
+[20:50:38] Bashmak752 suicided!
+[20:50:38] Анархист suicided!
+[20:52:18] Client "ayiebowski" spawned in server <STEAM_0:0:801198634> (took 258 seconds).
+[20:52:38] Анархист suicided!
+[20:52:39] kunsinviktor suicided!
+[20:52:47] Bashmak752 suicided!
+[20:52:47] Bashmak752 suicided!
+[20:53:39] Dropped "Анархист" from server<STEAM_0:0:97324894>
+[20:53:39] Анархист suicided!
+[20:53:45] Client "ASTIX" connected.
+[20:53:46] ayiebowski suicided!
+[20:54:25] Dropped "Terminatorejek" from server<STEAM_0:0:570553002>
+[20:54:25] Terminatorejek suicided!
+[20:54:39] ayiebowski suicided!
+[20:55:37] ayiebowski suicided!
+[20:55:53] kunsinviktor: афк 9999999
+[20:55:53] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[20:55:53] kunsinviktor suicided!
+[20:57:00] Client "Кэсыч" connected.
+[20:57:56] Client "otata" spawned in server <STEAM_0:0:823223725> (took 487 seconds).
+[20:58:35] ayiebowski suicided!
+[20:58:57] Bashmak752 suicided!
+[20:59:37] otata suicided!
+[21:00:02] Dropped "ayiebowski" from server<STEAM_0:0:801198634>
+[21:00:02] ayiebowski suicided!
+[21:02:13] otata suicided!
+[21:02:39] Bashmak752 killed otata using player
+[21:03:01] otata suicided!
+[21:05:06] Dropped "otata" from server<STEAM_0:0:823223725>
+[21:05:06] otata suicided!
+[21:06:34] Client "alexmaster" connected.
+[21:07:21] Bashmak752 suicided!
+[21:09:12] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[21:09:13] Client "Bashmak752" connected.
+[21:09:46] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 33 seconds).
+[21:10:04] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[21:13:35] Client "ayiebowski" connected.
+[21:13:55] Client "ASTIX" connected.
+[21:14:09] Client "ayiebowski" spawned in server <STEAM_0:0:801198634> (took 34 seconds).
+[21:17:40] Client "Кэсыч" connected.
+[21:20:44] Client "Кэсыч" spawned in server <STEAM_0:0:627433249> (took 184 seconds).
+[21:21:43] Кэсыч suicided!
+[21:22:23] ayiebowski suicided!
+[21:23:08] ayiebowski suicided!
+[21:24:33] ayiebowski suicided!
+[21:24:33] ayiebowski suicided!
+[21:25:19] Кэсыч suicided!
+[21:26:07] ayiebowski suicided!
+[21:26:53] Кэсыч suicided!
+[21:28:08] ayiebowski suicided!
+[21:29:42] Кэсыч suicided!
+[21:30:21] Кэсыч suicided!
+[21:31:03] Client "Bashmak752" connected.
+[21:31:13] ayiebowski: /kli
+[21:31:46] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 43 seconds).
+[21:31:52] Client "Стасик" connected.
+[21:32:10] Bashmak752 suicided!
+[21:32:12] ayiebowski: /kill
+[21:32:38] Dropped "ayiebowski" from server<STEAM_0:0:801198634>
+[21:32:38] ayiebowski suicided!
+[21:32:43] Client "ayiebowski" connected.
+[21:33:03] Client "ayiebowski" spawned in server <STEAM_0:0:801198634> (took 20 seconds).
+[21:33:11] Bashmak752 suicided!
+[21:33:25] Bashmak752: rtv
+[21:35:33] Bashmak752 suicided!
+[21:35:33] Bashmak752 suicided!
+[21:36:05] ayiebowski suicided!
+[21:36:55] ayiebowski suicided!
+[21:36:55] Кэсыч suicided!
+[21:36:55] Bashmak752 suicided!
+[21:37:25] Server is shutting down/changing levels.
+
+
+
+[21:37:30] New map: ttt_waterworld
+[21:37:30] Server is shutting down/changing levels.
+
+
+
+[21:37:35] New map: ttt_waterworld
+[21:37:35] Client "ASTIX" connected.
+[21:37:55] Client "Кэсыч" spawned in server <STEAM_0:0:627433249> (took 20 seconds).
+[21:38:05] Client "ayiebowski" spawned in server <STEAM_0:0:801198634> (took 30 seconds).
+[21:38:20] Client "Bashmak752" connected.
+[21:39:06] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 46 seconds).
+[21:39:12] ayiebowski suicided!
+[21:39:23] Client "Okey_lets" connected.
+[21:39:52] Кэсыч suicided!
+[21:40:00] Client "Okey_lets" spawned in server <STEAM_0:1:834737331> (took 37 seconds).
+[21:42:44] Bashmak752 suicided!
+[21:43:27] ayiebowski suicided!
+[21:43:51] Bashmak752 suicided!
+[21:43:51] Bashmak752 suicided!
+[21:45:07] Кэсыч suicided!
+[21:45:34] Okey_lets suicided!
+[21:46:00] ayiebowski killed Okey_lets using player
+[21:46:24] Client "Кружевной Пидора" connected.
+[21:47:29] Client "Кружевной Пидора" connected.
+[21:47:34] Client "ASTIX" spawned in server <STEAM_0:1:774084004> (took 599 seconds).
+[21:47:56] Bashmak752 suicided!
+[21:48:02] ayiebowski suicided!
+[21:48:30] Кэсыч suicided!
+[21:49:21] Кэсыч suicided!
+[21:49:24] Client "MR DRAGONS XD" connected.
+[21:49:36] ASTIX suicided!
+[21:50:42] Client "Ержан" connected.
+[21:51:08] ayiebowski suicided!
+[21:51:34] ASTIX suicided!
+[21:51:34] ASTIX suicided!
+[21:51:58] Кэсыч suicided!
+[21:52:27] Client "Ержан" spawned in server <STEAM_0:1:657576647> (took 105 seconds).
+[21:52:34] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 190 seconds).
+[21:52:35] Okey_lets suicided!
+[21:52:42] Ержан suicided!
+[21:52:43] ayiebowski suicided!
+[21:52:52] ASTIX suicided!
+[21:52:52] ASTIX suicided!
+[21:54:02] Client "TIMON_Z1535" connected.
+[21:54:17] MR DRAGONS XD suicided!
+[21:54:33] Кэсыч suicided!
+[21:55:06] Ержан suicided!
+[21:55:55] Client "Joe candy" connected.
+[21:56:15] ASTIX suicided!
+[21:56:17] Ержан killed MR DRAGONS XD using player
+[21:56:47] Ержан suicided!
+[21:56:47] Ержан suicided!
+[21:57:16] Bashmak752 suicided!
+[21:58:54] MR DRAGONS XD: /me
+[21:58:59] (TEAM) MR DRAGONS XD: !skip
+[22:02:53] Кэсыч: !motd
+[22:03:41] Ержан: !levelend
+[22:03:42] Ержан голосует за Да
+[22:03:44] MR DRAGONS XD голосует за Да
+[22:03:45] ASTIX голосует за Да
+[22:03:45] Кэсыч голосует за Да
+[22:03:46] Bashmak752 голосует за Да
+[22:03:50] ayiebowski голосует за Да
+[22:04:12] Bashmak752 suicided!
+[22:04:27] Okey_lets suicided!
+[22:04:34] Dropped "Okey_lets" from server<STEAM_0:1:834737331>
+[22:04:34] Bashmak752 suicided!
+[22:04:34] Bashmak752 suicided!
+[22:05:37] ASTIX suicided!
+[22:07:35] Кэсыч suicided!
+[22:08:18] MR DRAGONS XD suicided!
+[22:08:18] Client "kunsinviktor" connected.
+[22:08:23] ayiebowski suicided!
+[22:08:41] Ержан suicided!
+[22:08:47] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 29 seconds).
+[22:08:59] ayiebowski suicided!
+[22:09:42] MR DRAGONS XD suicided!
+[22:10:09] Кэсыч suicided!
+[22:10:30] Ержан suicided!
+[22:10:35] Bashmak752 suicided!
+[22:10:51] kunsinviktor suicided!
+[22:10:53] ayiebowski suicided!
+[22:11:05] kunsinviktor set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[22:11:22] ASTIX suicided!
+[22:11:54] Ержан suicided!
+[22:12:02] Client "SG_KaAp" connected.
+[22:12:21] kunsinviktor suicided!
+[22:12:27] Кэсыч suicided!
+[22:12:27] ayiebowski suicided!
+[22:12:27] ASTIX suicided!
+[22:12:27] Bashmak752 suicided!
+[22:12:27] kunsinviktor suicided!
+[22:12:27] MR DRAGONS XD suicided!
+[22:12:27] Ержан suicided!
+[22:12:29] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 27 seconds).
+[22:12:30] Dropped "Кэсыч" from server<STEAM_0:0:627433249>
+[22:12:57] Server is shutting down/changing levels.
+
+
+
+[22:13:06] New map: gm_csgoinsertion
+[22:13:06] Server is shutting down/changing levels.
+
+
+
+[22:13:15] New map: gm_csgoinsertion
+[22:13:15] Client "ayiebowski" connected.
+[22:13:15] Client "ayiebowski" connected.
+[22:13:29] Client "Bashmak752" connected.
+[22:13:37] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[22:14:01] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 46 seconds).
+[22:14:09] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 54 seconds).
+[22:14:10] Client "Ержан" spawned in server <STEAM_0:1:657576647> (took 55 seconds).
+[22:14:28] kunsinviktor set Themself's model to models/dannio/pm/joebiden.mdl with colors R:255, G:255, B:255
+[22:14:36] Client "ayiebowski" spawned in server <STEAM_0:0:801198634> (took 81 seconds).
+[22:14:50] Ержан: !levelend
+[22:14:58] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 89 seconds).
+[22:15:38] ayiebowski suicided!
+[22:15:43] Dropped "ayiebowski" from server<STEAM_0:0:801198634>
+[22:15:48] Client "ASTIX" spawned in server <STEAM_0:1:774084004> (took 153 seconds).
+[22:16:07] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:16:07] SG_KaAp suicided!
+[22:16:31] kunsinviktor set Themself's model to models/player/charple.mdl with colors R:255, G:255, B:255
+[22:17:03] ASTIX suicided!
+[22:17:27] Bashmak752 suicided!
+[22:18:07] kunsinviktor set Themself's model to models/player/donald_trump.mdl with colors R:255, G:255, B:255
+[22:18:54] MR DRAGONS XD suicided!
+[22:18:57] kunsinviktor suicided!
+[22:19:19] MR DRAGONS XD suicided!
+[22:19:51] kunsinviktor was killed by box_normal
+[22:19:51] ASTIX was killed by box_normal
+[22:20:34] ASTIX killed Bashmak752 using player
+[22:20:43] kunsinviktor set Themself's model to models/player/charple.mdl with colors R:255, G:255, B:255
+[22:20:51] Client "Terminatorejek" connected.
+[22:21:11] kunsinviktor: bind zoom b
+[22:21:20] Client "Terminatorejek" spawned in server <STEAM_0:0:570553002> (took 29 seconds).
+[22:21:35] kunsinviktor set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[22:21:37] Bashmak752: WW
+[22:22:52] Dropped "ASTIX" from server<STEAM_0:1:774084004>
+[22:22:52] ASTIX suicided!
+[22:22:55] MR DRAGONS XD: /me
+[22:23:11] kunsinviktor set Themself's model to models/player/viktor/giga_chad.mdl with colors R:255, G:255, B:255
+[22:24:04] kunsinviktor suicided!
+[22:24:24] Bashmak752 suicided!
+[22:24:31] Ержан suicided!
+[22:25:01] Ержан: !levelend
+[22:25:02] Ержан голосует за Да
+[22:25:03] MR DRAGONS XD голосует за Да
+[22:25:03] Terminatorejek голосует за Да
+[22:25:05] Bashmak752 голосует за Да
+[22:25:07] kunsinviktor голосует за Да
+[22:25:44] Bashmak752 suicided!
+[22:26:13] kunsinviktor set Themself's model to models/lightshoro_workshop/goofycat/boykisser_v2o.mdl with colors R:255, G:255, B:255
+[22:26:45] Terminatorejek suicided!
+[22:27:07] kunsinviktor suicided!
+[22:27:13] Ержан suicided!
+[22:27:40] kunsinviktor suicided!
+[22:27:55] MR DRAGONS XD suicided!
+[22:28:06] Terminatorejek suicided!
+[22:28:06] Terminatorejek suicided!
+[22:28:06] Terminatorejek suicided!
+[22:28:22] Bashmak752 suicided!
+[22:28:22] Bashmak752 suicided!
+[22:28:22] Bashmak752 suicided!
+[22:28:23] Bashmak752 suicided!
+[22:28:30] Bashmak752 suicided!
+[22:28:30] MR DRAGONS XD suicided!
+[22:28:34] MR DRAGONS XD suicided!
+[22:29:02] kunsinviktor suicided!
+[22:29:05] Ержан suicided!
+[22:29:23] kunsinviktor suicided!
+[22:29:30] Bashmak752 suicided!
+[22:30:33] Bashmak752: rtv
+[22:30:46] Ержан: !levelend
+[22:30:52] Dropped "MR DRAGONS XD" from server<STEAM_0:0:12823366>
+[22:30:52] MR DRAGONS XD suicided!
+[22:31:11] Ержан: rtv
+[22:31:13] Terminatorejek: !rtv/
+[22:31:47] Server is shutting down/changing levels.
+
+
+
+[22:31:53] New map: cs_christ_borough
+[22:31:53] Server is shutting down/changing levels.
+
+
+
+[22:31:58] New map: cs_christ_borough
+[22:31:58] Client "kunsinviktor" connected.
+[22:31:58] Client "Bashmak752" connected.
+[22:31:58] Client "Terminatorejek" connected.
+[22:31:58] Client "Ержан" connected.
+[22:32:21] Client "Terminatorejek" spawned in server <STEAM_0:0:570553002> (took 23 seconds).
+[22:32:37] Client "Ержан" spawned in server <STEAM_0:1:657576647> (took 39 seconds).
+[22:32:57] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 59 seconds).
+[22:33:22] Terminatorejek: окей
+[22:34:04] Terminatorejek: боюсь
+[22:34:04] Terminatorejek suicided!
+[22:34:15] Bashmak752 suicided!
+[22:36:11] Ержан suicided!
+[22:36:11] Ержан suicided!
+[22:36:40] Bashmak752 suicided!
+[22:37:09] Client "kunsinviktor" connected.
+[22:37:17] Terminatorejek suicided!
+[22:37:21] Terminatorejek: осуждаю
+[22:37:31] Terminatorejek: ержан вставай
+[22:37:38] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 29 seconds).
+[22:38:40] Terminatorejek: ыыы
+[22:39:06] Bashmak752 suicided!
+[22:39:20] kunsinviktor suicided!
+[22:39:43] Terminatorejek suicided!
+[22:41:01] kunsinviktor suicided!
+[22:41:26] Bashmak752 suicided!
+[22:42:04] Ержан: !levelend
+[22:42:05] Ержан голосует за Да
+[22:42:07] Terminatorejek голосует за Да
+[22:42:09] Bashmak752 голосует за Да
+[22:42:33] kunsinviktor suicided!
+[22:42:42] Ержан suicided!
+[22:42:52] Ержан: !levelend
+[22:43:03] (TEAM) Terminatorejek: !motd
+[22:43:11] Ержан: !motd
+[22:43:14] (TEAM) Terminatorejek: !motd
+[22:43:31] Ержан: !model
+[22:43:53] (TEAM) Ержан: !levelend
+[22:45:02] Ержан: !levelend
+[22:46:24] Ержан suicided!
+[22:46:32] Terminatorejek suicided!
+[22:46:55] Terminatorejek: да
+[22:47:28] Bashmak752 suicided!
+[22:47:40] Bashmak752 suicided!
+[22:48:00] Client "ультанул в крипа" connected.
+[22:48:06] Bashmak752 suicided!
+[22:48:46] Bashmak752 suicided!
+[22:49:05] Client "MR DRAGONS XD" connected.
+[22:49:20] kunsinviktor suicided!
+[22:49:31] Bashmak752 suicided!
+[22:49:51] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 46 seconds).
+[22:50:09] Terminatorejek: конечно
+[22:51:09] Terminatorejek suicided!
+[22:51:43] Ержан suicided!
+[22:52:13] Terminatorejek suicided!
+[22:52:22] MR DRAGONS XD suicided!
+[22:53:27] kunsinviktor suicided!
+[22:53:41] Bashmak752 suicided!
+[22:53:51] Terminatorejek: ыы
+[22:54:13] kunsinviktor suicided!
+[22:54:19] kunsinviktor suicided!
+[22:54:19] Bashmak752 suicided!
+[22:54:19] Terminatorejek suicided!
+[22:54:19] Ержан suicided!
+[22:54:19] MR DRAGONS XD suicided!
+[22:54:49] Server is shutting down/changing levels.
+
+
+
+[22:54:53] New map: ttt_metropolis
+[22:54:54] Server is shutting down/changing levels.
+
+
+
+[22:54:58] New map: ttt_metropolis
+[22:54:58] Client "kunsinviktor" connected.
+[22:54:58] Client "Bashmak752" connected.
+[22:54:58] Client "Terminatorejek" connected.
+[22:54:58] Client "MR DRAGONS XD" connected.
+[22:54:58] Client "Ержан" connected.
+[22:55:04] Client "Terminatorejek" connected.
+[22:55:23] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 25 seconds).
+[22:55:29] Client "Ержан" spawned in server <STEAM_0:1:657576647> (took 31 seconds).
+[22:55:33] Client "Terminatorejek" spawned in server <STEAM_0:0:570553002> (took 29 seconds).
+[22:55:54] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 56 seconds).
+[22:55:55] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 57 seconds).
+[22:56:26] Ержан suicided!
+[22:56:44] kunsinviktor suicided!
+[22:56:52] Bashmak752 suicided!
+[22:57:23] Terminatorejek: АХПХАХАХХАХАХ
+[22:57:30] Terminatorejek: ничего
+[22:59:24] Terminatorejek: да ты вообще
+[22:59:30] Terminatorejek: ты чуть не убил меня
+[23:00:00] MR DRAGONS XD killed Bashmak752 using player
+[23:00:08] Terminatorejek killed Ержан using player
+[23:00:11] Terminatorejek: шутка
+[23:00:35] MR DRAGONS XD suicided!
+[23:00:37] Ержан: !levelend
+[23:00:38] Ержан голосует за Да
+[23:00:38] Terminatorejek suicided!
+[23:00:51] Dropped "Terminatorejek" from server<STEAM_0:0:570553002>
+[23:00:51] Terminatorejek suicided!
+[23:01:13] Bashmak752 suicided!
+[23:03:57] Ержан suicided!
+[23:04:26] kunsinviktor: афк 9999999
+[23:04:26] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[23:04:26] kunsinviktor suicided!
+[23:04:40] Bashmak752 suicided!
+[23:04:40] Bashmak752 suicided!
+[23:05:13] Bashmak752 suicided!
+[23:05:13] Bashmak752 suicided!
+[23:06:47] Ержан suicided!
+[23:07:02] Bashmak752 suicided!
+[23:09:07] MR DRAGONS XD suicided!
+[23:11:01] Bashmak752 suicided!
+[23:11:33] MR DRAGONS XD suicided!
+[23:11:51] Ержан suicided!
+[23:14:35] MR DRAGONS XD suicided!
+[23:16:02] Bashmak752 suicided!
+[23:17:05] MR DRAGONS XD suicided!
+[23:18:13] Bashmak752 suicided!
+[23:18:53] Ержан suicided!
+[23:19:06] Dropped "Ержан" from server<STEAM_0:1:657576647>
+[23:23:37] MR DRAGONS XD suicided!
+[23:23:51] Bashmak752: ТФ ГДЕ
+[23:27:00] Bashmak752: я устал, я ухожу
+[23:27:04] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[23:27:18] MR DRAGONS XD suicided!
+[23:34:29] Dropped "MR DRAGONS XD" from server<STEAM_0:0:12823366>
+<Logging continued in "data/ulx_logs/11-05-24.txt">

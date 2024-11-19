@@ -1,0 +1,438 @@
+<Logging continued from "data/ulx_logs/11-08-24.txt">
+[04:17:38] Client "adam.deane" connected.
+[09:51:59] Client "assem__kz" connected.
+[11:03:08] Client "R0m-an-0ff" connected.
+[11:45:37] Client "Черный Вульфич" connected.
+[11:48:56] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 199 seconds).
+[11:49:25] Client "Хлебушук" connected.
+[11:51:12] Черный Вульфич: афк 9999999
+[11:51:12] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[11:51:12] Черный Вульфич suicided!
+[11:51:25] Client "Черный Вульфич" connected.
+[11:53:06] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 101 seconds).
+[11:55:48] Client "Хлебушук" spawned in server <STEAM_0:0:713648050> (took 383 seconds).
+[11:57:43] Черный Вульфич: хлеьушек
+[11:57:45] Черный Вульфич suicided!
+[11:57:50] Черный Вульфич: я умер
+[11:58:44] Черный Вульфич: ты адм?
+[11:58:54] Черный Вульфич: нет?
+[11:59:09] (TEAM) Хлебушук: не
+[11:59:17] (TEAM) Хлебушук: не
+[11:59:26] Черный Вульфич: ing
+[12:00:03] Client "Мику" connected.
+[12:00:23] Хлебушук: оооооооооооооооооооооооооооооооооооооооо
+[12:00:30] Черный Вульфич: щооооооооооооооо
+[12:01:10] Черный Вульфич suicided!
+[12:01:59] Хлебушук: нппппппппппппппп
+[12:02:01] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 118 seconds).
+[12:02:26] Client "Кириешка" connected.
+[12:04:02] Черный Вульфич suicided!
+[12:04:52] Мику: афк 9999999
+[12:04:52] Dropped "Мику" from server<STEAM_0:0:50399502>
+[12:04:52] Мику suicided!
+[12:05:43] Client "Кириешка" connected.
+[12:07:47] Хлебушук suicided!
+[12:09:15] Хлебушук suicided!
+[12:09:34] Dropped "Хлебушук" from server<STEAM_0:0:713648050>
+[12:10:46] Черный Вульфич suicided!
+[12:11:29] Server is shutting down/changing levels.
+
+
+
+[12:11:37] New map: gm_cqb2
+[12:11:37] Server is shutting down/changing levels.
+
+
+
+[12:11:43] New map: gm_cqb2
+[12:11:43] Client "Черный Вульфич" connected.
+
+
+
+[12:12:06] New map: gm_mdach
+[12:12:16] Client "Мику" connected.
+[12:12:39] Client "Черный Вульфич" connected.
+[12:12:47] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 31 seconds).
+[12:13:28] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 49 seconds).
+[12:14:18] Мику suicided!
+[12:14:21] Черный Вульфич suicided!
+[12:15:35] Черный Вульфич suicided!
+[12:15:35] Черный Вульфич suicided!
+[12:16:41] Черный Вульфич suicided!
+[12:19:57] Мику suicided!
+[12:20:16] Мику: я знала
+[12:20:22] Мику: иза этого сразу не ебашила
+[12:20:28] Мику: го в виктарину
+[12:20:46] Мику: не правильный ответ выстрел в ногу
+[12:21:14] Мику: что лучше 1 кг ваты или 1 кг железа
+[12:21:24] Мику: да
+[12:21:26] Мику: тепер ьты
+[12:21:40] Черный Вульфич suicided!
+[12:21:44] Мику suicided!
+[12:23:05] Мику suicided!
+[12:24:31] Мику suicided!
+[12:25:08] Мику suicided!
+[12:26:41] Черный Вульфич suicided!
+[12:28:01] Мику suicided!
+[12:29:14] Черный Вульфич suicided!
+[12:30:06] Черный Вульфич suicided!
+[12:30:16] Черный Вульфич suicided!
+[12:30:27] Мику suicided!
+[12:30:27] Черный Вульфич suicided!
+[12:30:57] Server is shutting down/changing levels.
+
+
+
+[12:31:04] New map: gm_ploschadka
+[12:31:04] Server is shutting down/changing levels.
+
+
+
+[12:31:10] New map: gm_ploschadka
+[12:31:11] Client "Черный Вульфич" connected.
+[12:31:11] Client "Мику" connected.
+[12:31:48] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 37 seconds).
+[12:32:07] Dropped "Мику" from server<STEAM_0:0:50399502>
+[12:32:30] Client "Черный Вульфич" spawned in server <STEAM_0:1:770259809> (took 79 seconds).
+[12:41:30] Черный Вульфич: !setmodel ч
+[12:42:19] Черный Вульфич: !setmodel ч
+[12:44:45] Dropped "Черный Вульфич" from server<STEAM_0:1:770259809>
+[13:38:23] Client "Fimozzz" connected.
+[13:38:52] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 29 seconds).
+[13:42:22] Client "СВО монстр" connected.
+[13:43:38] Client "PIPA2107" connected.
+[13:46:16] Client "kepka" connected.
+[13:48:57] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[14:59:56] Client "Fimozzz" connected.
+[15:00:25] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 29 seconds).
+[15:02:55] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[15:36:16] Client "Fimozzz" connected.
+[15:36:44] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 28 seconds).
+[16:19:39] Client "Artemon" connected.
+[16:29:26] Client "Кириешка" connected.
+[16:30:52] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 86 seconds).
+[16:33:00] Fimozzz: афк 9999999
+[16:33:00] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[16:33:00] Fimozzz suicided!
+[16:33:06] Client "Fimozzz" connected.
+[16:33:32] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 26 seconds).
+[16:37:24] Кириешка suicided!
+[16:41:41] Fimozzz suicided!
+[16:41:41] Fimozzz suicided!
+[16:41:46] Кириешка suicided!
+[16:42:23] Client "c4s | qRRaz11cHHH" connected.
+[16:43:06] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 43 seconds).
+[16:44:09] Кириешка suicided!
+[16:44:09] Кириешка suicided!
+[16:45:03] Кириешка suicided!
+[16:45:16] Кириешка: АПХАХПАПХАХПАХП
+[16:45:42] Client "Bashmak752" connected.
+[16:46:05] c4s | qRRaz11cHHH suicided!
+[16:46:17] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[16:46:17] Fimozzz suicided!
+[16:46:19] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[16:46:23] Client "Fimozzz" connected.
+[16:46:44] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 21 seconds).
+[16:47:05] Fimozzz suicided!
+[16:47:37] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 115 seconds).
+[16:47:49] Bashmak752 suicided!
+[16:48:02] Fimozzz suicided!
+[16:49:43] Client "Kroliltex" connected.
+[16:49:56] Bashmak752 suicided!
+[16:51:15] Bashmak752 suicided!
+[16:52:57] Client "Kirilo777" connected.
+[16:53:19] Bashmak752 suicided!
+[16:53:27] Кириешка suicided!
+[16:54:29] Fimozzz suicided!
+[16:54:44] Fimozzz: нафиг ты меня убил
+[16:54:54] Fimozzz: зачем
+[16:55:20] Fimozzz: нафиг ты меня убил
+[16:55:42] Bashmak752 suicided!
+[16:57:07] Bashmak752 suicided!
+[16:57:24] Fimozzz suicided!
+[16:59:14] Fimozzz suicided!
+[16:59:29] Client "maxim" connected.
+[17:01:33] Fimozzz suicided!
+[17:01:37] Bashmak752 suicided!
+[17:01:37] Bashmak752 suicided!
+[17:02:58] Fimozzz suicided!
+[17:02:58] Fimozzz suicided!
+[17:03:03] Кириешка suicided!
+[17:03:34] Server is shutting down/changing levels.
+
+
+
+[17:03:45] New map: gm_stage_6
+[17:03:45] Server is shutting down/changing levels.
+
+
+
+[17:03:52] New map: gm_stage_6
+[17:03:52] Client "Fimozzz" connected.
+[17:03:57] Client "Kirilo777" connected.
+[17:04:03] Client "Bashmak752" connected.
+[17:04:15] Client "серега шататель200" connected.
+[17:04:49] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 57 seconds).
+[17:05:24] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 92 seconds).
+[17:05:41] Client "серега шататель200" spawned in server <STEAM_0:0:797299274> (took 86 seconds).
+[17:05:47] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 104 seconds).
+[17:07:00] Bashmak752 suicided!
+[17:07:16] Кириешка suicided!
+[17:08:43] Fimozzz suicided!
+[17:08:43] Fimozzz suicided!
+[17:08:53] серега шататель200 suicided!
+[17:08:53] серега шататель200 suicided!
+[17:09:12] серега шататель200: а сколько тут людей?
+[17:10:02] Client "AmOnGuS 2016" connected.
+[17:10:06] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[17:10:27] Bashmak752 suicided!
+[17:10:27] Bashmak752 suicided!
+[17:10:30] Fimozzz suicided!
+[17:11:49] Кириешка suicided!
+[17:11:49] Кириешка suicided!
+[17:11:55] Client "Stenly427" connected.
+[17:12:15] Fimozzz suicided!
+[17:12:15] Fimozzz suicided!
+[17:12:49] Bashmak752 suicided!
+[17:12:54] Fimozzz suicided!
+[17:13:01] серега шататель200: ахахах
+[17:13:21] Bashmak752 suicided!
+[17:15:07] серега шататель200: ахахахах
+[17:15:10] Fimozzz suicided!
+[17:16:28] серега шататель200 was killed by box_normal
+[17:16:36] серега шататель200: ахахах
+[17:16:43] Кириешка: камикадзе сломался
+[17:16:58] Bashmak752 suicided!
+[17:17:27] Fimozzz suicided!
+[17:17:34] серега шататель200: как дела
+[17:20:15] серега шататель200 suicided!
+[17:20:55] серега шататель200 suicided!
+[17:21:34] Кириешка suicided!
+[17:21:59] серега шататель200: это я его убил
+[17:22:18] серега шататель200: а почему тут мало народа
+[17:22:28] Fimozzz suicided!
+[17:22:28] Fimozzz suicided!
+[17:23:10] Кириешка suicided!
+[17:23:46] Fimozzz suicided!
+[17:23:46] Fimozzz suicided!
+[17:23:48] серега шататель200 suicided!
+[17:24:24] Кириешка suicided!
+[17:24:32] серега шататель200: хахаах
+[17:24:46] Bashmak752 suicided!
+[17:24:46] Bashmak752 suicided!
+[17:25:02] Кириешка suicided!
+[17:25:21] Bashmak752 suicided!
+[17:25:33] Fimozzz suicided!
+[17:25:37] Bashmak752 suicided!
+[17:25:37] Bashmak752 suicided!
+[17:25:38] Fimozzz suicided!
+[17:26:36] Fimozzz suicided!
+[17:26:42] Кириешка suicided!
+[17:26:51] серега шататель200 suicided!
+[17:27:00] Fimozzz suicided!
+[17:27:07] Bashmak752 suicided!
+[17:27:21] Кириешка suicided!
+[17:27:31] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[17:27:31] Fimozzz suicided!
+[17:27:39] Bashmak752 suicided!
+[17:28:03] Кириешка suicided!
+[17:28:19] Bashmak752 suicided!
+[17:28:19] Bashmak752 suicided!
+[17:28:59] Bashmak752 suicided!
+[17:29:12] серега шататель200 suicided!
+[17:29:12] серега шататель200 suicided!
+[17:30:02] серега шататель200: может карту поменять ?
+[17:30:21] Кириешка suicided!
+[17:30:24] Dropped "серега шататель200" from server<STEAM_0:0:797299274>
+[17:30:24] серега шататель200 suicided!
+[17:31:24] Bashmak752 was killed by box_normal
+[17:31:24] Кириешка suicided!
+[17:32:49] Кириешка suicided!
+[17:32:49] Кириешка suicided!
+[17:33:57] Bashmak752 was killed by box_normal
+[17:33:57] Кириешка was killed by box_normal
+[17:34:24] Кириешка suicided!
+[17:36:35] Bashmak752 suicided!
+[17:36:35] Bashmak752 suicided!
+[17:37:38] Кириешка suicided!
+[17:39:12] Кириешка suicided!
+[17:39:55] Кириешка suicided!
+[17:39:58] Кириешка suicided!
+[17:39:58] Кириешка suicided!
+[17:39:58] Bashmak752 suicided!
+[17:42:47] Кириешка suicided!
+[17:42:47] Кириешка suicided!
+[17:44:11] Кириешка suicided!
+[17:45:27] Кириешка suicided!
+[17:45:27] Кириешка suicided!
+[17:46:48] Bashmak752 was killed by box_normal
+[17:46:48] Кириешка suicided!
+[17:48:21] Кириешка suicided!
+[17:48:56] Bashmak752 suicided!
+[17:49:55] Bashmak752 was killed by box_normal
+[17:49:55] Кириешка suicided!
+[17:50:46] Кириешка suicided!
+[17:50:46] Bashmak752 suicided!
+[17:51:15] Server is shutting down/changing levels.
+
+
+
+[17:51:29] New map: gm_mansion
+[17:51:29] Server is shutting down/changing levels.
+
+
+
+[17:51:37] New map: gm_mansion
+[17:51:37] Client "Кириешка" connected.
+[17:51:37] Client "Кириешка" connected.
+[17:51:37] Client "Bashmak752" connected.
+[17:51:37] Client "Bashmak752" connected.
+[17:52:09] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 32 seconds).
+[17:52:33] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 56 seconds).
+[17:53:10] Client "kunsinviktor" connected.
+[17:55:54] Кириешка: назад иди
+[17:56:37] Кириешка suicided!
+[17:57:43] Bashmak752 killed Кириешка using player
+[17:57:44] Кириешка: иди на моси
+[17:57:47] Кириешка: блять
+[18:00:21] Bashmak752 suicided!
+[18:01:10] Кириешка killed Bashmak752 using player
+[18:03:28] Кириешка suicided!
+[18:04:45] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 695 seconds).
+[18:05:14] Bashmak752 suicided!
+[18:07:09] Кириешка suicided!
+[18:07:40] Кириешка suicided!
+[18:08:40] kunsinviktor suicided!
+[18:12:04] Кириешка suicided!
+[18:13:16] Bashmak752 suicided!
+[18:13:16] Bashmak752 suicided!
+[18:13:29] Кириешка suicided!
+[18:14:34] Client "nefedov" connected.
+[18:15:46] Bashmak752 suicided!
+[18:15:52] Кириешка suicided!
+[18:15:52] Bashmak752 suicided!
+[18:15:52] kunsinviktor suicided!
+[18:16:22] Server is shutting down/changing levels.
+
+
+
+[18:16:30] New map: cs_market_2_gc
+[18:16:30] Server is shutting down/changing levels.
+
+
+
+[18:16:35] New map: cs_market_2_gc
+[18:16:35] Client "Кириешка" connected.
+[18:16:35] Client "Bashmak752" connected.
+[18:16:35] Client "kunsinviktor" connected.
+[18:17:19] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 44 seconds).
+[18:17:25] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 50 seconds).
+[18:17:32] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 57 seconds).
+[18:17:55] Кириешка suicided!
+[18:17:55] Кириешка suicided!
+[18:18:25] Bashmak752 suicided!
+[18:18:28] Кириешка suicided!
+[18:18:51] Кириешка suicided!
+[18:18:51] Кириешка suicided!
+[18:19:06] kunsinviktor suicided!
+[18:19:06] kunsinviktor suicided!
+[18:20:07] kunsinviktor suicided!
+[18:21:21] kunsinviktor suicided!
+[18:23:15] kunsinviktor suicided!
+[18:23:23] Bashmak752 killed Кириешка using player
+[18:23:45] Bashmak752 suicided!
+[18:24:06] kunsinviktor: !skip
+[18:24:46] kunsinviktor suicided!
+[18:24:47] Кириешка suicided!
+[18:26:34] Кириешка suicided!
+[18:27:28] kunsinviktor suicided!
+[18:27:31] Кириешка suicided!
+[18:28:17] Bashmak752 was killed by box_normal
+[18:29:31] kunsinviktor suicided!
+[18:30:49] Bashmak752 suicided!
+[18:30:54] Кириешка suicided!
+[18:34:21] kunsinviktor suicided!
+[18:34:41] Кириешка suicided!
+[18:35:13] Bashmak752 suicided!
+[18:36:10] kunsinviktor suicided!
+[18:36:14] Кириешка suicided!
+[18:36:14] Кириешка suicided!
+[18:37:20] Bashmak752 suicided!
+[18:37:21] kunsinviktor suicided!
+[18:37:35] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[18:38:25] kunsinviktor suicided!
+[18:38:25] kunsinviktor suicided!
+[18:38:52] Client "MERTY" connected.
+[18:40:09] kunsinviktor suicided!
+[18:41:23] kunsinviktor suicided!
+[18:42:20] kunsinviktor suicided!
+[18:43:33] kunsinviktor suicided!
+[18:43:41] Client "ivanito_eblanito42" connected.
+[18:43:44] Кириешка suicided!
+[18:43:44] kunsinviktor suicided!
+[18:44:14] Server is shutting down/changing levels.
+
+
+
+[18:44:21] New map: gm_csgolake
+[18:44:21] Server is shutting down/changing levels.
+
+
+
+[18:44:27] New map: gm_csgolake
+[18:44:27] Client "Кириешка" connected.
+[18:44:27] Client "Кириешка" connected.
+[18:44:27] Client "kunsinviktor" connected.
+[18:44:27] Client "kunsinviktor" connected.
+[18:45:01] Client "Кириешка" spawned in server <STEAM_0:0:702824973> (took 34 seconds).
+[18:45:06] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 39 seconds).
+[18:45:35] Client "GAFARON" connected.
+[18:45:52] kunsinviktor suicided!
+[18:46:56] Кириешка was killed by box_normal
+[18:48:13] kunsinviktor suicided!
+[18:48:18] Кириешка suicided!
+[18:49:53] Кириешка suicided!
+[18:49:58] kunsinviktor was killed by box_normal
+[18:51:06] kunsinviktor suicided!
+[18:52:36] Кириешка suicided!
+[18:53:39] Кириешка suicided!
+[18:55:06] kunsinviktor suicided!
+[18:56:10] kunsinviktor was killed by box_normal
+[18:56:10] Кириешка suicided!
+[18:56:46] Кириешка suicided!
+[18:57:37] kunsinviktor was killed by box_normal
+[18:58:05] kunsinviktor suicided!
+[19:02:14] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[19:02:14] kunsinviktor suicided!
+[19:02:27] Client "kunsinviktor" connected.
+[19:02:51] Client "kunsinviktor" spawned in server <STEAM_0:0:762795673> (took 24 seconds).
+[19:03:56] Кириешка suicided!
+[19:04:30] kunsinviktor suicided!
+[19:07:03] Кириешка: бывает
+[19:07:36] Client "yeschapskii" connected.
+[19:08:38] kunsinviktor was killed by box_normal
+[19:08:38] Кириешка was killed by box_normal
+[19:10:15] kunsinviktor was killed by box_normal
+[19:10:15] Кириешка was killed by box_normal
+[19:11:20] Кириешка was killed by box_normal
+[19:11:20] kunsinviktor was killed by box_normal
+[19:12:03] kunsinviktor suicided!
+[19:12:41] Client "yeschapskii" spawned in server <STEAM_0:1:844239955> (took 305 seconds).
+[19:13:35] Client "бебебебебебебеб" connected.
+[19:13:37] yeschapskii suicided!
+[19:13:41] Dropped "yeschapskii" from server<STEAM_0:1:844239955>
+[19:14:30] Кириешка: афк 9999999
+[19:14:30] Dropped "Кириешка" from server<STEAM_0:0:702824973>
+[19:14:30] Кириешка suicided!
+[19:15:50] Dropped "kunsinviktor" from server<STEAM_0:0:762795673>
+[19:15:50] kunsinviktor suicided!
+[19:19:39] Client "бебебебебебебеб" spawned in server <STEAM_0:0:606361468> (took 364 seconds).
+[19:21:49] Dropped "бебебебебебебеб" from server<STEAM_0:0:606361468>
+[19:21:49] бебебебебебебеб suicided!
+[19:59:26] Client "ГНИДА" connected.
+[23:12:28] Client "G4QX4" connected.
+[23:18:55] Client "G4QX4" spawned in server <STEAM_0:1:509157265> (took 387 seconds).
+[23:22:44] G4QX4 голосует за Да
+[23:23:39] Dropped "G4QX4" from server<STEAM_0:1:509157265>
+[23:23:39] G4QX4 suicided!
+<Logging continued in "data/ulx_logs/11-10-24.txt">

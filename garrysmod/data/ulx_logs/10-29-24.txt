@@ -1,0 +1,509 @@
+<Logging continued from "data/ulx_logs/10-28-24.txt">
+[03:48:04] Client "HotDogBuns" connected.
+[04:00:06] Client "HotDogBuns" connected.
+[07:19:35] Client "Kerler!" connected.
+[07:21:43] Client "Kerler!" connected.
+[08:48:26] Client "Aprikot" connected.
+[08:54:54] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 388 seconds).
+[08:55:52] Aprikot: !rtvs
+[08:57:19] Server is shutting down/changing levels.
+
+
+
+[08:57:33] New map: gm_school_snbp_v2_sandbox
+[08:57:33] Server is shutting down/changing levels.
+
+
+
+[08:57:45] New map: gm_school_snbp_v2_sandbox
+[08:57:45] Client "Aprikot" connected.
+[08:57:45] Client "Aprikot" connected.
+[08:58:44] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 59 seconds).
+[09:01:07] Aprikot: !motd
+[09:01:44] Client "c4s | qRRaz11cHHH" connected.
+[09:03:22] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 98 seconds).
+[09:03:52] c4s | qRRaz11cHHH suicided!
+[09:03:52] c4s | qRRaz11cHHH suicided!
+[09:06:01] Aprikot suicided!
+[09:06:33] c4s | qRRaz11cHHH suicided!
+[09:07:27] c4s | qRRaz11cHHH: !levelend
+[09:07:28] Aprikot suicided!
+[09:07:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/van001a_01_nodoor.mdl
+[09:08:25] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent npc_igs
+[09:08:41] Client "SG_KaAp" connected.
+[09:09:16] Aprikot<STEAM_0:1:552532806> spawned model models/props/de_nuke/crate_extrasmall.mdl
+[09:09:21] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_fortifications/sandbags_line2.mdl
+[09:09:23] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_fortifications/sandbags_corner3.mdl
+[09:09:24] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_fortifications/sandbags_corner2.mdl
+[09:09:31] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent box_normal
+[09:09:37] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 56 seconds).
+[09:10:06] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_lightsaber
+[09:10:25] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/forklift_ep2.mdl
+[09:10:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/apc.mdl
+[09:10:44] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/combineapc.mdl
+[09:12:23] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car005b/vehicle.mdl
+[09:13:29] Dropped "Aprikot" from server<STEAM_0:1:552532806>
+[09:13:29] Aprikot suicided!
+[09:13:32] Client "Aprikot" connected.
+[09:14:05] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 33 seconds).
+[09:14:39] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/truck001c_01.mdl
+[09:15:25] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testnextbot
+[09:15:28] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_drg_testhuman
+[09:15:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:57] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:58] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:59] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:15:59] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[09:16:28] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9х19mm
+[09:16:28] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9х19mm
+[09:16:29] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9х19mm
+[09:16:29] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_9х19mm
+[09:16:32] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:32] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:32] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_.44magnum
+[09:16:45] SG_KaAp suicided!
+[09:16:45] SG_KaAp suicided!
+[09:17:04] Aprikot suicided!
+[09:17:09] Dropped "Aprikot" from server<STEAM_0:1:552532806>
+[09:17:09] Aprikot suicided!
+[09:17:12] Client "Aprikot" connected.
+[09:17:24] c4s | qRRaz11cHHH suicided!
+[09:17:38] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hazmat
+[09:17:46] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 34 seconds).
+[09:18:14] c4s | qRRaz11cHHH suicided!
+[09:18:31] c4s | qRRaz11cHHH suicided!
+[09:18:41] SG_KaAp suicided!
+[09:18:56] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[09:19:05] SG_KaAp: !noclip
+[09:19:07] SG_KaAp: !noclip
+[09:19:11] SG_KaAp: !noclip
+[09:19:17] SG_KaAp: !point control_point
+[09:19:18] SG_KaAp: !noclip
+[09:19:29] SG_KaAp: !noclip
+[09:19:30] SG_KaAp: !point control_point
+[09:19:32] SG_KaAp: !noclip
+[09:19:40] SG_KaAp: !noclip
+[09:19:43] SG_KaAp: !point control_point
+[09:19:45] SG_KaAp: !levelend
+[09:20:02] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[09:20:15] c4s | qRRaz11cHHH suicided!
+[09:21:45] Aprikot suicided!
+[09:21:52] Aprikot suicided!
+[09:22:00] SG_KaAp was killed by box_normal
+[09:22:08] SG_KaAp: !menu
+[09:23:13] SG_KaAp suicided!
+[09:24:35] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_ceramicpot
+[09:24:53] c4s | qRRaz11cHHH suicided!
+[09:25:06] Aprikot suicided!
+[09:25:06] Aprikot suicided!
+[09:26:33] c4s | qRRaz11cHHH suicided!
+[09:26:40] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[09:26:40] SG_KaAp suicided!
+[09:26:43] Aprikot suicided!
+[09:26:44] c4s | qRRaz11cHHH suicided!
+[09:27:32] Aprikot suicided!
+[09:27:44] c4s | qRRaz11cHHH respawned Aprikot
+[09:27:47] c4s | qRRaz11cHHH suicided!
+[09:27:47] c4s | qRRaz11cHHH suicided!
+[09:27:53] c4s | qRRaz11cHHH respawned Themself
+[09:28:20] Aprikot suicided!
+[09:28:37] (TEAM) c4s | qRRaz11cHHH: /levelend
+[09:28:56] c4s | qRRaz11cHHH: !levelend
+[09:29:29] c4s | qRRaz11cHHH created 1 bots
+[09:29:29] Client "Bot01" connected.
+[09:29:29] Client "Bot01" spawned in server <BOT> (took 1909 seconds).
+[09:30:27] Bot01 suicided!
+[09:31:34] Aprikot suicided!
+[09:31:41] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[09:32:09] Aprikot was killed by box_normal
+[09:32:09] c4s | qRRaz11cHHH was killed by box_normal
+[09:32:32] c4s | qRRaz11cHHH kicked all bots from server
+[09:32:32] Dropped "Bot01" from server<BOT>
+[09:32:32] Bot01 suicided!
+[09:32:48] Aprikot suicided!
+[09:34:05] c4s | qRRaz11cHHH suicided!
+[09:34:11] Aprikot suicided!
+[09:34:11] c4s | qRRaz11cHHH suicided!
+[09:34:41] Server is shutting down/changing levels.
+
+
+
+[09:34:50] New map: gm_backrooms_classic
+[09:34:50] Server is shutting down/changing levels.
+
+
+
+[09:34:58] New map: gm_backrooms_classic
+[09:34:58] Client "c4s | qRRaz11cHHH" connected.
+[09:34:58] Client "c4s | qRRaz11cHHH" connected.
+
+
+
+[09:35:31] New map: gm_mdach
+[09:35:31] Client "c4s | qRRaz11cHHH" connected.
+[09:35:54] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 23 seconds).
+[09:40:10] c4s | qRRaz11cHHH сменил карту на gm_backrooms_classic
+[09:40:10] Server is shutting down/changing levels.
+
+
+
+[09:40:18] New map: gm_backrooms_classic
+[09:40:42] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 27 seconds).
+[09:40:57] c4s | qRRaz11cHHH respawned Themself
+[09:41:38] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_sjg_howlers_battle
+[09:42:52] c4s | qRRaz11cHHH suicided!
+[09:43:05] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[10:01:38] Client "SG_KaAp" connected.
+[10:02:18] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 40 seconds).
+[10:02:35] SG_KaAp: !menu
+[10:02:47] Client "c4s | qRRaz11cHHH" connected.
+[10:02:58] SG_KaAp сменил карту на ttt_skyscraper
+[10:02:58] Server is shutting down/changing levels.
+
+
+
+[10:03:06] New map: ttt_skyscraper
+[10:03:06] Client "MR DRAGONS XD" connected.
+[10:03:06] Client "MR DRAGONS XD" connected.
+[10:03:29] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 26 seconds).
+[10:03:30] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 27 seconds).
+[10:04:28] c4s | qRRaz11cHHH suicided!
+[10:04:33] SG_KaAp suicided!
+[10:04:50] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 104 seconds).
+[10:05:22] c4s | qRRaz11cHHH suicided!
+[10:05:22] SG_KaAp was killed by box_normal
+[10:05:45] c4s | qRRaz11cHHH suicided!
+[10:06:13] MR DRAGONS XD suicided!
+[10:06:13] MR DRAGONS XD suicided!
+[10:06:40] Client "MoraleZz1" connected.
+[10:07:04] MR DRAGONS XD suicided!
+[10:07:04] MR DRAGONS XD suicided!
+[10:08:28] c4s | qRRaz11cHHH suicided!
+[10:08:31] SG_KaAp suicided!
+[10:09:26] MR DRAGONS XD suicided!
+[10:10:12] c4s | qRRaz11cHHH suicided!
+[10:10:12] SG_KaAp убил c4s | qRRaz11cHHH
+[10:11:52] SG_KaAp suicided!
+[10:12:31] SG_KaAp suicided!
+[10:12:31] SG_KaAp respawned Themself
+[10:12:34] Client "Bonee" connected.
+[10:12:38] MR DRAGONS XD suicided!
+[10:12:39] Dropped "MR DRAGONS XD" from server<STEAM_0:0:12823366>
+[10:12:47] Client "Bonee" connected.
+[10:12:56] c4s | qRRaz11cHHH suicided!
+[10:12:58] SG_KaAp suicided!
+[10:13:06] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[10:13:27] Client "SG_KaAp" connected.
+[10:13:29] Client "MoraleZz1" spawned in server <STEAM_0:0:13607659> (took 409 seconds).
+[10:13:32] c4s | qRRaz11cHHH suicided!
+[10:13:50] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[10:14:40] SG_KaAp suicided!
+[10:14:43] c4s | qRRaz11cHHH respawned Themself
+[10:14:48] c4s | qRRaz11cHHH suicided!
+[10:14:48] SG_KaAp убил c4s | qRRaz11cHHH
+[10:15:49] SG_KaAp: supply radio: night vision goggles
+[10:15:58] SG_KaAp: fmh
+[10:16:02] SG_KaAp: %
+[10:16:09] SG_KaAp: Абоба
+[10:16:25] SG_KaAp: Найн
+[10:17:11] Dropped "MoraleZz1" from server<STEAM_0:0:13607659>
+[10:17:11] MoraleZz1 suicided!
+[10:17:18] SG_KaAp suicided!
+[10:17:22] c4s | qRRaz11cHHH suicided!
+[10:17:58] Client "MR DRAGONS XD" connected.
+[10:18:40] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 42 seconds).
+[10:19:27] Client "Raiden" connected.
+[10:19:56] SG_KaAp: !menu
+[10:20:18] Client "MoraleZz1" connected.
+[10:20:27] SG_KaAp suicided!
+[10:20:37] SG_KaAp: /pm
+[10:20:40] SG_KaAp: !pm
+[10:20:46] c4s | qRRaz11cHHH suicided!
+[10:20:52] Client "MoraleZz1" spawned in server <STEAM_0:0:13607659> (took 34 seconds).
+[10:21:33] c4s | qRRaz11cHHH suicided!
+[10:21:34] MoraleZz1 suicided!
+[10:21:37] SG_KaAp suicided!
+[10:21:58] SG_KaAp: !menu
+[10:22:42] SG_KaAp: Абоба
+[10:22:47] SG_KaAp: Руки вверх!
+[10:22:50] SG_KaAp: Быстро!
+[10:22:55] c4s | qRRaz11cHHH suicided!
+[10:22:56] SG_KaAp: Руки вверх!
+[10:22:58] SG_KaAp: Быстро!
+[10:23:07] SG_KaAp: Руки вверх!
+[10:23:09] SG_KaAp: Быстро!
+[10:23:19] c4s | qRRaz11cHHH suicided!
+[10:23:53] SG_KaAp suicided!
+[10:24:31] MoraleZz1 suicided!
+[10:24:41] c4s | qRRaz11cHHH suicided!
+[10:25:11] MoraleZz1 suicided!
+[10:25:11] c4s | qRRaz11cHHH suicided!
+[10:25:50] c4s | qRRaz11cHHH was killed by box_normal
+[10:25:50] SG_KaAp suicided!
+[10:25:50] MR DRAGONS XD suicided!
+[10:26:18] MoraleZz1 was killed by box_normal
+[10:26:31] Client "Raiden" spawned in server <STEAM_0:1:481529353> (took 424 seconds).
+[10:26:53] MoraleZz1 was killed by box_normal
+[10:27:19] SG_KaAp: Руки вверх!
+[10:27:20] SG_KaAp: Быстро!
+[10:27:35] SG_KaAp: Руки вверх!
+[10:28:06] c4s | qRRaz11cHHH suicided!
+[10:28:06] c4s | qRRaz11cHHH suicided!
+[10:28:06] MoraleZz1 was killed by box_normal
+[10:28:06] Raiden was killed by box_normal
+[10:28:06] SG_KaAp suicided!
+[10:28:17] Raiden: куда я зашел
+[10:28:27] Raiden: не соменно
+[10:28:54] MoraleZz1 suicided!
+[10:29:01] c4s | qRRaz11cHHH suicided!
+[10:29:05] Raiden suicided!
+[10:29:44] SG_KaAp suicided!
+[10:30:23] MR DRAGONS XD suicided!
+[10:30:23] MR DRAGONS XD suicided!
+[10:30:23] Raiden suicided!
+[10:30:41] SG_KaAp: Руки вверх!
+[10:30:56] MoraleZz1 suicided!
+[10:30:59] Raiden suicided!
+[10:31:32] SG_KaAp suicided!
+[10:31:32] SG_KaAp suicided!
+[10:31:36] MoraleZz1 suicided!
+[10:31:36] MoraleZz1 suicided!
+[10:31:44] Raiden suicided!
+[10:32:03] c4s | qRRaz11cHHH suicided!
+[10:32:03] c4s | qRRaz11cHHH suicided!
+[10:34:52] MoraleZz1 suicided!
+[10:34:57] SG_KaAp suicided!
+[10:34:57] c4s | qRRaz11cHHH suicided!
+[10:34:57] MR DRAGONS XD suicided!
+[10:34:57] Raiden suicided!
+[10:34:57] MoraleZz1 suicided!
+[10:35:27] Server is shutting down/changing levels.
+
+
+
+[10:35:35] New map: gm_trainride_v1
+[10:35:35] Server is shutting down/changing levels.
+
+
+
+[10:35:43] New map: gm_trainride_v1
+[10:35:43] Client "MR DRAGONS XD" connected.
+[10:35:43] Client "Raiden" connected.
+[10:35:43] Client "Raiden" connected.
+[10:35:43] Client "c4s | qRRaz11cHHH" connected.
+[10:35:43] Client "c4s | qRRaz11cHHH" connected.
+[10:35:43] Client "SG_KaAp" connected.
+[10:35:43] Client "SG_KaAp" connected.
+[10:35:43] Client "MoraleZz1" connected.
+[10:35:43] Client "MoraleZz1" connected.
+[10:36:07] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 24 seconds).
+[10:36:09] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 26 seconds).
+[10:36:15] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 32 seconds).
+[10:36:23] SG_KaAp suicided!
+[10:36:23] Client "Raiden" spawned in server <STEAM_0:1:481529353> (took 40 seconds).
+[10:36:34] Client "MoraleZz1" spawned in server <STEAM_0:0:13607659> (took 51 seconds).
+[10:36:39] SG_KaAp suicided!
+[10:36:43] c4s | qRRaz11cHHH suicided!
+[10:36:53] MoraleZz1 suicided!
+[10:36:55] MR DRAGONS XD suicided!
+[10:36:57] Raiden suicided!
+[10:37:21] SG_KaAp suicided!
+[10:37:21] SG_KaAp suicided!
+[10:38:02] SG_KaAp set Themself's model to models/dannio/pm/joebiden.mdl with colors R:255, G:255, B:255
+[10:39:04] MoraleZz1 suicided!
+[10:39:09] Raiden suicided!
+[10:39:24] MR DRAGONS XD suicided!
+[10:39:29] SG_KaAp suicided!
+[10:39:43] MoraleZz1 suicided!
+[10:39:44] Raiden suicided!
+[10:40:24] MoraleZz1 suicided!
+[10:40:27] SG_KaAp suicided!
+[10:40:28] MR DRAGONS XD suicided!
+[10:40:54] MoraleZz1 was killed by trigger_hurt
+[10:41:26] c4s | qRRaz11cHHH suicided!
+[10:41:31] Dropped "Raiden" from server<STEAM_0:1:481529353>
+[10:41:31] Raiden suicided!
+[10:41:40] Client "batonic1234" connected.
+[10:41:45] MR DRAGONS XD suicided!
+[10:41:59] MR DRAGONS XD suicided!
+[10:42:01] SG_KaAp suicided!
+[10:42:06] Client "Raiden" connected.
+[10:42:09] MoraleZz1 suicided!
+[10:42:12] SG_KaAp respawned Themself
+[10:42:12] SG_KaAp: !frespawn ^
+[10:42:15] SG_KaAp предоставил режим бога Themself
+[10:42:15] SG_KaAp: !god
+[10:42:17] Dropped "MoraleZz1" from server<STEAM_0:0:13607659>
+[10:42:24] SG_KaAp: !point blue
+[10:42:27] SG_KaAp: !point blue
+[10:42:29] SG_KaAp: !point blue
+[10:42:32] SG_KaAp: !point blue
+[10:42:34] SG_KaAp: !point blue
+[10:42:35] Client "Raiden" spawned in server <STEAM_0:1:481529353> (took 29 seconds).
+[10:42:36] SG_KaAp: !point blue
+[10:42:39] SG_KaAp: !point blue
+[10:42:42] SG_KaAp: !point blue
+[10:42:45] c4s | qRRaz11cHHH was killed by trigger_hurt
+[10:42:45] SG_KaAp: !point blue
+[10:42:55] Raiden suicided!
+[10:42:56] SG_KaAp: !noclip
+[10:43:05] SG_KaAp: !noclip
+[10:43:07] SG_KaAp: !noclip
+[10:43:09] SG_KaAp: !noclip
+[10:43:12] Raiden: !huyclip
+[10:43:18] SG_KaAp: !point red
+[10:43:21] SG_KaAp: !point red
+[10:43:22] SG_KaAp: !point red
+[10:43:24] SG_KaAp: !point red
+[10:43:26] SG_KaAp: !point red
+[10:43:27] SG_KaAp: !point red
+[10:43:28] SG_KaAp: !point red
+[10:43:32] (TEAM) SG_KaAp: !point red
+[10:43:35] SG_KaAp: !point red
+[10:43:37] SG_KaAp: !point red
+[10:43:39] SG_KaAp: !point red
+[10:43:41] SG_KaAp: !point red
+[10:43:42] SG_KaAp: !point red
+[10:43:44] (TEAM) SG_KaAp: !point red
+[10:43:46] SG_KaAp: !point red
+[10:43:56] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 136 seconds).
+[10:44:13] SG_KaAp was killed by box_normal
+[10:44:23] Raiden was killed by box_normal
+[10:44:24] c4s | qRRaz11cHHH was killed by box_normal
+[10:44:27] MR DRAGONS XD suicided!
+[10:44:38] SG_KaAp: !levelend
+[10:44:51] SG_KaAp suicided!
+[10:44:52] batonic1234 suicided!
+[10:45:08] MR DRAGONS XD suicided!
+[10:45:09] batonic1234 suicided!
+[10:45:09] batonic1234 suicided!
+[10:45:09] batonic1234 suicided!
+[10:45:19] batonic1234 suicided!
+[10:45:23] Raiden suicided!
+[10:45:25] MR DRAGONS XD suicided!
+[10:45:25] MR DRAGONS XD suicided!
+[10:45:30] SG_KaAp suicided!
+[10:45:48] Raiden: мы же вроде против красных ...
+[10:45:58] MR DRAGONS XD suicided!
+[10:45:58] MR DRAGONS XD suicided!
+[10:46:03] SG_KaAp was killed by trigger_hurt
+[10:46:04] c4s | qRRaz11cHHH suicided!
+[10:46:11] batonic1234 suicided!
+[10:46:14] batonic1234 suicided!
+[10:46:14] batonic1234 suicided!
+[10:46:21] batonic1234 suicided!
+[10:46:22] batonic1234 suicided!
+[10:46:26] c4s | qRRaz11cHHH suicided!
+[10:46:32] SG_KaAp suicided!
+[10:46:33] SG_KaAp suicided!
+[10:47:03] Raiden suicided!
+[10:47:08] Raiden suicided!
+[10:47:16] MR DRAGONS XD suicided!
+[10:47:24] batonic1234 suicided!
+[10:47:28] MR DRAGONS XD suicided!
+[10:47:29] MR DRAGONS XD suicided!
+[10:47:29] MR DRAGONS XD suicided!
+[10:47:48] batonic1234 suicided!
+[10:48:15] c4s | qRRaz11cHHH suicided!
+[10:48:22] batonic1234 suicided!
+[10:48:29] batonic1234 was killed by trigger_hurt
+[10:48:29] batonic1234 suicided!
+[10:48:35] batonic1234 suicided!
+[10:48:38] MR DRAGONS XD suicided!
+[10:48:39] batonic1234 suicided!
+[10:48:40] batonic1234 suicided!
+[10:48:40] batonic1234 suicided!
+[10:48:49] batonic1234 suicided!
+[10:48:49] batonic1234 suicided!
+[10:48:54] Raiden suicided!
+[10:48:57] Raiden was killed by trigger_hurt
+[10:48:57] Raiden suicided!
+[10:49:07] c4s | qRRaz11cHHH suicided!
+[10:49:23] MR DRAGONS XD suicided!
+[10:49:23] MR DRAGONS XD suicided!
+[10:49:23] Raiden suicided!
+[10:49:24] MR DRAGONS XD suicided!
+[10:49:37] batonic1234 suicided!
+[10:50:08] Client "Loly" connected.
+[10:50:10] c4s | qRRaz11cHHH suicided!
+[10:50:15] SG_KaAp suicided!
+[10:50:35] Raiden suicided!
+[10:50:36] Raiden suicided!
+[10:50:47] Raiden suicided!
+[10:50:48] Raiden was killed by trigger_hurt
+[10:50:48] Raiden suicided!
+[10:50:53] Raiden suicided!
+[10:50:55] Raiden suicided!
+[10:50:55] Raiden suicided!
+[10:51:04] MR DRAGONS XD suicided!
+[10:51:31] c4s | qRRaz11cHHH suicided!
+[10:51:37] SG_KaAp suicided!
+[10:52:12] SG_KaAp: !levelend
+[10:52:29] batonic1234 suicided!
+[10:52:32] c4s | qRRaz11cHHH suicided!
+[10:52:48] Raiden suicided!
+[10:52:48] Raiden suicided!
+[10:53:17] MR DRAGONS XD suicided!
+[10:53:35] SG_KaAp suicided!
+[10:53:40] c4s | qRRaz11cHHH suicided!
+[10:53:43] MR DRAGONS XD suicided!
+[10:53:52] Raiden: добей
+[10:53:57] Raiden suicided!
+[10:54:08] SG_KaAp: !noclip
+[10:54:16] SG_KaAp: !noclip
+[10:54:17] MR DRAGONS XD suicided!
+[10:54:22] SG_KaAp: !point control_point
+[10:54:23] SG_KaAp: !noclip
+[10:54:31] SG_KaAp: !noclip
+[10:54:33] SG_KaAp: !point control_point
+[10:54:34] SG_KaAp: !noclip
+[10:54:45] SG_KaAp: !noclip
+[10:54:47] SG_KaAp: !point control_point
+[10:54:49] SG_KaAp: !noclip
+[10:54:50] SG_KaAp was killed by trigger_hurt
+[10:55:14] Client "Loly" spawned in server <STEAM_0:0:617733039> (took 306 seconds).
+[10:55:22] Raiden suicided!
+[10:55:25] batonic1234 was killed by box_normal
+[10:55:25] MR DRAGONS XD suicided!
+[10:55:43] SG_KaAp suicided!
+[10:55:56] Client "SOMPLE" connected.
+[10:56:06] c4s | qRRaz11cHHH suicided!
+[10:56:06] c4s | qRRaz11cHHH suicided!
+[10:56:23] Raiden suicided!
+[10:56:39] batonic1234 was killed by box_normal
+[10:56:39] Loly suicided!
+[10:57:12] MR DRAGONS XD suicided!
+[10:57:13] Raiden was killed by trigger_hurt
+[10:57:18] SG_KaAp suicided!
+[10:57:18] batonic1234 was killed by box_normal
+[10:57:25] Client "SOMPLE" spawned in server <STEAM_0:1:604217571> (took 89 seconds).
+[10:57:38] Loly was killed by trigger_hurt
+[10:58:11] Raiden suicided!
+[10:58:13] c4s | qRRaz11cHHH suicided!
+[10:58:13] c4s | qRRaz11cHHH suicided!
+[10:58:22] Loly suicided!
+[10:58:39] batonic1234 was killed by box_normal
+[10:58:44] Dropped "SOMPLE" from server<STEAM_0:1:604217571>
+[10:58:44] SOMPLE suicided!
+[10:59:32] Loly was killed by trigger_hurt
+[10:59:33] MR DRAGONS XD suicided!
+[10:59:55] *** Loly показал военный билет: Окрошин М.А | МТР | 810-я гв.оБрМП| СТРЛК |-|-
+[11:00:08] SG_KaAp suicided!
+[11:00:09] batonic1234 suicided!
+[11:00:18] MR DRAGONS XD suicided!
+[11:00:35] SG_KaAp: !menu
+[11:01:03] Server is shutting down/changing levels.

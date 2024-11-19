@@ -1,10 +1,9 @@
-"STEAM_0:0:709713214"	
+"STEAM_0:0:798151674"	
 {
 	"allow"	
 	{
-		"ulx setmodel"
 	}
-	"name"	"Гомоградец"
+	"name"	"?who are you"
 	"deny"	
 	{
 	}
@@ -12,51 +11,28 @@
 }
 "STEAM_0:1:566748347"	
 {
-	"deny"	
-	{
-	}
 	"allow"	
 	{
 	}
 	"name"	"SG_KaAp"
+	"deny"	
+	{
+	}
 	"group"	"superadmin"
-}
-"STEAM_0:1:34526941"	
-{
-	"name"	"c4s | qRRaz11cHHH"
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"group"	"admin"
-}
-"STEAM_0:0:798151674"	
-{
-	"name"	"?who are you"
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"group"	"admin"
 }
 "STEAM_0:0:206797798"	
 {
-	"allow"	
-	{
-	}
 	"name"	"ДимASS"
 	"deny"	
+	{
+	}
+	"allow"	
 	{
 	}
 	"group"	"admin"
 }
 "STEAM_0:1:740599899"	
 {
-	"name"	"Дед Щукарь"
 	"deny"	
 	{
 	}
@@ -86,6 +62,25 @@
 		"ulx setmodel"
 		"ulx setmodel"
 		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
 	}
+	"name"	"Дед Щукарь"
 	"group"	"admin"
 }

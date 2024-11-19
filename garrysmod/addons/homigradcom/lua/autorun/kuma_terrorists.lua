@@ -1,0 +1,8 @@
+player_manager.AddValidModel("Al Qaeda Commando","models/player/kuma/alqaeda_commando.mdl")
+list.Set("PlayerOptionsModel","Al Qaeda Commando","models/player/kuma/alqaeda_commando.mdl")
+player_manager.AddValidModel("Taliban Bomber","models/player/kuma/taliban_bomber.mdl")
+list.Set("PlayerOptionsModel","Taliban Bomber","models/player/kuma/taliban_bomber.mdl")
+player_manager.AddValidModel("Taliban RPG","models/player/kuma/taliban_rpg.mdl")
+list.Set("PlayerOptionsModel","Taliban RPG","models/player/kuma/taliban_rpg.mdl")
+player_manager.AddValidModel("Taliban Grunt","models/player/kuma/taliban_grunt.mdl")
+list.Set("PlayerOptionsModel","Taliban Grunt","models/player/kuma/taliban_grunt.mdl")

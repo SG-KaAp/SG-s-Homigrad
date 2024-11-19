@@ -1,0 +1,1076 @@
+<Logging continued from "data/ulx_logs/10-30-24.txt">
+[00:14:05] Client "s.i.n.k.e.r_ap" connected.
+[07:05:27] Client "c4s | qRRaz11cHHH" connected.
+[07:05:59] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 32 seconds).
+[07:06:47] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[07:07:00] Client "c4s | qRRaz11cHHH" connected.
+[07:07:17] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 17 seconds).
+[07:07:37] c4s | qRRaz11cHHH respawned Themself
+[07:08:02] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[07:08:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_c17/canister01a.mdl
+[07:08:25] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_c17/oildrum001.mdl
+[07:08:39] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/kleiner.mdl
+[07:15:49] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/player/hwm/soldier.mdl
+[07:15:49] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube1x1x1.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x6x025.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x125x025.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x2x025.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate075x1.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate05x1.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:16:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:16:29] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/kleiner.mdl
+[07:16:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/kleiner.mdl
+[07:17:06] c4s | qRRaz11cHHH: всем привет я пидор
+[07:18:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/breen.mdl
+[07:20:03] Client "Fimozzz" connected.
+[07:22:03] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/humans/group01/male_cheaple.mdl
+[07:22:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/lamarr.mdl
+[07:23:09] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/police.mdl
+[07:23:44] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/combine_scanner.mdl
+[07:24:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned effect models/soldier_stripped.mdl
+[07:24:23] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/combine_super_soldier.mdl
+[07:25:32] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/lamarr.mdl
+[07:25:38] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 335 seconds).
+[07:27:04] Fimozzz suicided!
+[07:27:30] Fimozzz suicided!
+[07:31:05] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car005b/vehicle.mdl
+[07:32:40] Fimozzz suicided!
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x6x025.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x125x025.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x2x025.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate075x1.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate05x1.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:34:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:35:22] Fimozzz suicided!
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x6x025.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x125x025.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x2x025.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate075x1.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate05x1.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/blocks/cube025x150x025.mdl
+[07:35:51] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/hunter/plates/plate2x2.mdl
+[07:36:42] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/nova/jeep_seat.mdl
+[07:37:51] Fimozzz suicided!
+[07:38:10] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car004a.mdl
+[07:39:56] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_pigeon
+[07:40:25] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/lamarr.mdl
+[07:40:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned effect models/leech.mdl
+[07:40:59] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned effect models/ichthyosaur.mdl
+[07:41:02] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned effect models/ichthyosaur.mdl
+[07:44:42] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/humans/group02/female_03.mdl
+[07:46:47] Fimozzz suicided!
+[07:48:57] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[07:49:53] Fimozzz suicided!
+[07:50:00] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 63 seconds).
+[07:51:31] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[07:51:41] Fimozzz suicided!
+[07:52:12] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/humans/group02/female_07.mdl
+[07:52:15] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/humans/group02/female_06.mdl
+[07:52:17] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/humans/group02/female_01.mdl
+[07:53:28] Fimozzz suicided!
+[07:54:08] c4s | qRRaz11cHHH set the walk speed for Themself to 1000
+[07:54:19] c4s | qRRaz11cHHH установил здоровье Themself на 100
+[07:55:13] Fimozzz suicided!
+[07:55:26] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[07:55:53] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[07:55:53] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[07:55:53] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[07:55:53] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_ammo_12/70gauge
+[07:58:21] c4s | qRRaz11cHHH suicided!
+[07:58:21] Fimozzz suicided!
+[07:58:21] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[07:58:51] Server is shutting down/changing levels.
+
+
+
+[07:58:59] New map: gm_school
+[07:59:00] Server is shutting down/changing levels.
+
+
+
+[07:59:06] New map: gm_school
+[07:59:06] Client "c4s | qRRaz11cHHH" connected.
+[07:59:06] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[07:59:06] Client "Fimozzz" connected.
+[07:59:31] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 25 seconds).
+[07:59:34] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 28 seconds).
+[07:59:40] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 34 seconds).
+[08:00:17] Fimozzz suicided!
+[08:00:17] Fimozzz suicided!
+[08:00:55] (TEAM) c4s | qRRaz11cHHH: /csay в класс!!
+[08:01:09] Fimozzz suicided!
+[08:01:10] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:01:31] (TEAM) c4s | qRRaz11cHHH: /csay в класс!!!
+[08:01:49] c4s | qRRaz11cHHH: все быстро в класс 203
+[08:03:18] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:03:43] Fimozzz suicided!
+[08:04:27] Fimozzz: b
+[08:05:03] c4s | qRRaz11cHHH suicided!
+[08:05:15] c4s | qRRaz11cHHH: !levelend
+[08:05:24] c4s | qRRaz11cHHH suicided!
+[08:05:42] c4s | qRRaz11cHHH respawned Themself
+[08:05:55] c4s | qRRaz11cHHH suicided!
+[08:06:04] c4s | qRRaz11cHHH: !levelend
+[08:08:38] Fimozzz: 3
+[08:09:49] Fimozzz suicided!
+[08:10:11] c4s | qRRaz11cHHH respawned Fimozzz
+[08:11:31] Fimozzz: pipiska
+[08:11:46] Fimozzz: fimoz
+[08:11:47] ＶＥＮＯＭ ＳＮＡＫＥ: фимоз
+\
+[08:12:01] ＶＥＮＯＭ ＳＮＡＫＥ: Фимоз
+[08:12:05] Fimozzz: fimoz
+[08:13:02] Fimozzz: ya slomslsa
+[08:14:04] Fimozzz suicided!
+[08:14:04] c4s | qRRaz11cHHH respawned Fimozzz
+[08:14:36] Fimozzz suicided!
+[08:14:36] c4s | qRRaz11cHHH respawned Fimozzz
+[08:15:25] c4s | qRRaz11cHHH set the walk speed for Themself to 1000
+[08:15:28] Fimozzz: wkl;'
+[08:15:43] c4s | qRRaz11cHHH set the walk speed for Themself to 650
+[08:16:05] Fimozzz suicided!
+[08:16:22] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:18:04] Fimozzz suicided!
+[08:18:17] c4s | qRRaz11cHHH установил здоровье Themself на 100
+[08:19:08] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:19:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:19:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:19:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:19:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:19:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:19:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:19:51] c4s | qRRaz11cHHH suicided!
+[08:19:57] Fimozzz suicided!
+[08:20:00] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:20:04] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[08:20:24] c4s | qRRaz11cHHH suicided!
+[08:20:35] Fimozzz suicided!
+[08:20:54] c4s | qRRaz11cHHH suicided!
+[08:20:54] c4s | qRRaz11cHHH suicided!
+[08:20:54] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:23:25] Client "you're an idiot" connected.
+[08:23:53] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:24:45] Fimozzz suicided!
+[08:25:14] Fimozzz suicided!
+[08:25:32] Fimozzz suicided!
+[08:25:32] c4s | qRRaz11cHHH respawned Fimozzz
+[08:25:37] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:25:37] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:26:33] c4s | qRRaz11cHHH: !levelend
+[08:27:13] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_junk/watermelon01.mdl
+[08:27:19] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_lab/monitor01b.mdl
+[08:27:20] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_lab/monitor01b.mdl
+[08:27:20] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_combine/breenglobe.mdl
+[08:27:21] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_lab/reciever01a.mdl
+[08:27:21] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_lab/monitor01a.mdl
+[08:27:30] Fimozzz<STEAM_0:1:771215697> spawned model models/maxofs2d/companion_doll.mdl
+[08:27:30] Fimozzz<STEAM_0:1:771215697> spawned model models/maxofs2d/companion_doll.mdl
+[08:27:46] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:46] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:46] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:47] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:47] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:47] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:47] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:47] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:47] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:48] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:48] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:48] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:48] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_prodigy/tirestack2.mdl
+[08:27:49] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_train/de_train_signalbox_01.mdl
+[08:27:49] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props/de_train/de_train_signalbox_01.mdl
+[08:28:05] Fimozzz<STEAM_0:1:771215697> spawned model models/food/hotdog.mdl
+[08:29:08] c4s | qRRaz11cHHH was killed by gb_rocket_rp3
+[08:29:08] ＶＥＮＯＭ ＳＮＡＫＥ was killed by gb_rocket_rp3
+[08:29:08] Fimozzz was killed by gb_rocket_rp3
+[08:29:18] c4s | qRRaz11cHHH: !levelend
+[08:29:24] c4s | qRRaz11cHHH suicided!
+[08:29:24] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:29:24] Fimozzz suicided!
+[08:29:53] Server is shutting down/changing levels.
+
+
+
+[08:30:00] New map: gm_hmcd_rooftops
+[08:30:00] Server is shutting down/changing levels.
+
+
+
+[08:30:05] New map: gm_hmcd_rooftops
+[08:30:06] Client "c4s | qRRaz11cHHH" connected.
+[08:30:06] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[08:30:06] Client "Fimozzz" connected.
+[08:30:31] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 25 seconds).
+[08:30:34] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 28 seconds).
+[08:30:45] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 39 seconds).
+[08:31:35] Fimozzz suicided!
+[08:31:53] Fimozzz suicided!
+[08:32:08] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:33:00] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:33:10] c4s | qRRaz11cHHH suicided!
+[08:33:14] ＶＥＮＯＭ ＳＮＡＫＥ killed Fimozzz using player
+[08:33:32] Fimozzz suicided!
+[08:34:32] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:35:30] Fimozzz suicided!
+[08:36:06] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:36:20] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/truck001c_01.mdl
+[08:36:53] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/apc.mdl
+[08:36:59] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car005b/vehicle.mdl
+[08:37:40] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/van001a_01_nodoor.mdl
+[08:37:42] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car004a.mdl
+[08:37:45] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car002a.mdl
+[08:37:56] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car004a.mdl
+[08:38:13] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car004b/vehicle.mdl
+[08:38:27] c4s | qRRaz11cHHH suicided!
+[08:38:27] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:38:53] c4s | qRRaz11cHHH respawned Themself
+[08:39:59] Dropped "ＶＥＮＯＭ ＳＮＡＫＥ" from server<STEAM_0:0:778205308>
+[08:39:59] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:40:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car003a.mdl
+[08:40:42] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/nova/chair_office01.mdl
+[08:40:52] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[08:40:56] Fimozzz suicided!
+[08:41:10] c4s | qRRaz11cHHH respawned Fimozzz
+[08:41:25] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 33 seconds).
+[08:43:19] Dropped "ＶＥＮＯＭ ＳＮＡＫＥ" from server<STEAM_0:0:778205308>
+[08:43:19] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[08:43:47] Fimozzz suicided!
+[08:43:56] c4s | qRRaz11cHHH respawned Fimozzz
+[08:44:07] c4s | qRRaz11cHHH was killed by trigger_hurt
+[08:44:59] Fimozzz suicided!
+[08:44:59] c4s | qRRaz11cHHH respawned Fimozzz
+[08:48:23] Fimozzz suicided!
+[08:48:35] c4s | qRRaz11cHHH respawned Fimozzz
+[08:49:51] Fimozzz suicided!
+[08:50:01] c4s | qRRaz11cHHH respawned Fimozzz
+[08:50:24] c4s | qRRaz11cHHH переместил Fimozzz
+[08:50:28] Fimozzz suicided!
+[08:50:36] c4s | qRRaz11cHHH respawned Fimozzz
+[08:50:42] c4s | qRRaz11cHHH переместил Fimozzz
+[08:51:47] c4s | qRRaz11cHHH suicided!
+[08:51:47] c4s | qRRaz11cHHH suicided!
+[08:52:17] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gb_bomb_500gp
+[08:52:41] c4s | qRRaz11cHHH was killed by gb_bomb_500gp
+[08:52:42] Fimozzz suicided!
+[08:52:42] c4s | qRRaz11cHHH suicided!
+[08:52:42] Fimozzz suicided!
+[08:53:09] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gb_bomb_500gp
+[08:53:15] Fimozzz suicided!
+[08:53:15] c4s | qRRaz11cHHH was killed by gb_bomb_500gp
+[08:53:15] c4s | qRRaz11cHHH suicided!
+[08:53:20] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[08:53:20] c4s | qRRaz11cHHH suicided!
+[08:53:21] Fimozzz suicided!
+[08:55:36] Fimozzz suicided!
+[08:56:05] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[08:56:05] Fimozzz suicided!
+[08:57:38] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[08:58:22] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 44 seconds).
+[08:59:40] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:01:09] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:01:31] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:02:38] Client "Данил уебан не ме" connected.
+[09:02:39] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:03:45] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:03:56] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:04:35] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:06:27] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:06:45] ＶＥＮＯＭ ＳＮＡＫＥ: !motd
+[09:07:26] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:07:29] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:07:38] Client "c4s | qRRaz11cHHH" connected.
+[09:08:11] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 33 seconds).
+[09:10:35] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:12:08] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:12:42] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:12:49] c4s | qRRaz11cHHH respawned ＶＥＮＯＭ ＳＮＡＫＥ
+[09:13:22] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:13:42] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:13:55] c4s | qRRaz11cHHH respawned ＶＥＮＯＭ ＳＮＡＫＥ
+[09:14:09] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:14:11] c4s | qRRaz11cHHH respawned ＶＥＮＯＭ ＳＮＡＫＥ
+[09:17:06] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:18:47] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:18:55] c4s | qRRaz11cHHH respawned ＶＥＮＯＭ ＳＮＡＫＥ
+[09:19:27] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:19:32] c4s | qRRaz11cHHH respawned ＶＥＮＯＭ ＳＮＡＫＥ
+[09:19:38] Client "Fimozzz" connected.
+[09:19:43] Client "Данил уебан не ме" spawned in server <STEAM_0:1:571638039> (took 1025 seconds).
+[09:19:55] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:20:04] c4s | qRRaz11cHHH respawned ＶＥＮＯＭ ＳＮＡＫＥ
+[09:20:06] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 28 seconds).
+[09:20:13] c4s | qRRaz11cHHH cleaned up map
+[09:20:47] Данил уебан не ме: Of
+[09:20:52] Данил уебан не ме: Ща у меня же микро
+[09:20:54] Данил уебан не ме: Ща
+[09:21:18] Fimozzz suicided!
+[09:21:27] c4s | qRRaz11cHHH suicided!
+[09:21:37] Fimozzz suicided!
+[09:21:37] c4s | qRRaz11cHHH respawned Fimozzz
+[09:21:39] c4s | qRRaz11cHHH respawned Themself
+[09:21:55] Данил уебан не ме: Меня слышно?
+[09:22:04] Данил уебан не ме: Я зажимаю
+[09:22:12] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gred_emp_nebelwerfer
+[09:22:26] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gred_emp_nebelwerfer
+[09:22:28] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gred_emp_nebelwerfer
+[09:22:49] Данил уебан не ме suicided!
+[09:22:58] c4s | qRRaz11cHHH respawned Данил уебан не ме
+[09:23:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent gred_emp_nebelwerfer
+[09:23:36] c4s | qRRaz11cHHH cleaned up map
+[09:23:59] Данил уебан не ме: Звони блат
+[09:24:19] Данил уебан не ме suicided!
+[09:24:20] c4s | qRRaz11cHHH установил здоровье Themself на 100
+[09:24:26] c4s | qRRaz11cHHH suicided!
+[09:24:30] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:24:47] Fimozzz suicided!
+[09:25:43] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:25:43] Данил уебан не ме suicided!
+[09:25:48] Client "tv/tailung999" connected.
+[09:25:53] Dropped "Данил уебан не ме" from server<STEAM_0:1:571638039>
+[09:25:53] Данил уебан не ме suicided!
+[09:26:09] Fimozzz suicided!
+[09:26:15] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:26:15] c4s | qRRaz11cHHH suicided!
+[09:26:15] Fimozzz suicided!
+[09:26:45] Server is shutting down/changing levels.
+
+
+
+[09:26:51] New map: cs_apartments
+[09:26:51] Server is shutting down/changing levels.
+
+
+
+[09:26:57] New map: cs_apartments
+[09:26:57] Client "c4s | qRRaz11cHHH" connected.
+[09:26:57] Client "Fimozzz" connected.
+[09:26:57] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[09:27:24] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 27 seconds).
+[09:27:28] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 31 seconds).
+[09:27:41] Client "Данил уебан не ме" connected.
+[09:27:51] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 54 seconds).
+[09:28:10] Fimozzz suicided!
+[09:28:15] c4s | qRRaz11cHHH suicided!
+[09:28:21] Client "Данил уебан не ме" spawned in server <STEAM_0:1:571638039> (took 40 seconds).
+[09:28:33] Fimozzz suicided!
+[09:28:33] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:28:37] Fimozzz: [ploekjd
+[09:28:59] Fimozzz suicided!
+[09:29:03] Данил уебан не ме suicided!
+[09:29:26] Данил уебан не ме suicided!
+[09:29:26] Данил уебан не ме suicided!
+[09:29:28] Fimozzz suicided!
+[09:30:23] Данил уебан не ме suicided!
+[09:30:30] c4s | qRRaz11cHHH suicided!
+[09:30:48] c4s | qRRaz11cHHH respawned Данил уебан не ме
+[09:30:50] c4s | qRRaz11cHHH respawned Themself
+[09:31:39] c4s | qRRaz11cHHH respawned Themself
+[09:31:49] c4s | qRRaz11cHHH привел к Fimozzz
+[09:31:51] ＶＥＮＯＭ ＳＮＡＫＥ: !motd
+[09:32:07] c4s | qRRaz11cHHH привел к ＶＥＮＯＭ ＳＮＡＫＥ
+[09:32:07] Dropped "ＶＥＮＯＭ ＳＮＡＫＥ" from server<STEAM_0:0:778205308>
+[09:32:07] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:32:10] Fimozzz suicided!
+[09:32:10] Fimozzz suicided!
+[09:32:14] Dropped "Данил уебан не ме" from server<STEAM_0:1:571638039>
+[09:32:14] Данил уебан не ме suicided!
+[09:33:48] Fimozzz suicided!
+[09:33:52] c4s | qRRaz11cHHH suicided!
+[09:34:00] c4s | qRRaz11cHHH: /levelend
+[09:35:26] Fimozzz suicided!
+[09:36:28] Fimozzz suicided!
+[09:37:29] Fimozzz suicided!
+[09:37:29] Fimozzz suicided!
+[09:38:22] Fimozzz suicided!
+[09:38:52] c4s | qRRaz11cHHH suicided!
+[09:39:49] Fimozzz suicided!
+[09:39:49] c4s | qRRaz11cHHH was killed by box_normal
+[09:40:34] c4s | qRRaz11cHHH suicided!
+[09:40:40] c4s | qRRaz11cHHH suicided!
+[09:40:40] Fimozzz suicided!
+[09:41:10] Server is shutting down/changing levels.
+
+
+
+[09:41:15] New map: ba_jail_electric_vip_v2
+[09:41:15] Server is shutting down/changing levels.
+
+
+
+[09:41:20] New map: ba_jail_electric_vip_v2
+[09:41:21] Client "c4s | qRRaz11cHHH" connected.
+[09:41:21] Client "Fimozzz" connected.
+
+
+
+[09:41:45] New map: gm_mdach
+[09:41:45] Client "c4s | qRRaz11cHHH" connected.
+[09:41:54] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[09:42:09] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 24 seconds).
+[09:42:36] c4s | qRRaz11cHHH respawned Themself
+[09:42:38] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 44 seconds).
+[09:43:22] Client "SG_KaAp" connected.
+[09:43:23] Client "Fimozzz" connected.
+[09:43:52] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 29 seconds).
+[09:44:08] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 46 seconds).
+[09:44:52] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:45:13] Client "Данил уебан не ме" connected.
+[09:45:25] Fimozzz suicided!
+[09:45:51] SG_KaAp suicided!
+[09:45:53] Client "Данил уебан не ме" spawned in server <STEAM_0:1:571638039> (took 40 seconds).
+[09:46:49] SG_KaAp запустил голосование (Скип)
+[09:46:49] SG_KaAp: !vote Скип Да Нет
+[09:46:52] SG_KaAp голосует за Да
+[09:46:52] ＶＥＮＯＭ ＳＮＡＫＥ голосует за Нет
+[09:46:53] c4s | qRRaz11cHHH голосует за Да
+[09:46:57] Fimozzz голосует за Да
+[09:47:09] Результат: 'Да' . (3/5)
+[09:47:35] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:47:39] c4s | qRRaz11cHHH suicided!
+[09:47:53] Client "Sashakakulka666" connected.
+[09:48:18] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:48:20] SG_KaAp suicided!
+[09:48:32] Fimozzz suicided!
+[09:48:43] SG_KaAp запустил голосование (Скип)
+[09:48:43] SG_KaAp: !vote Скип Да Нет
+[09:48:45] c4s | qRRaz11cHHH голосует за Да
+[09:48:45] ＶＥＮＯＭ ＳＮＡＫＥ голосует за Да
+[09:48:48] Fimozzz голосует за Да
+[09:48:55] SG_KaAp голосует за Да
+[09:49:03] Результат: 'Да' . (4/5)
+[09:49:16] Данил уебан не ме suicided!
+[09:49:41] ＶＥＮＯＭ ＳＮＡＫＥ: ДАЙТЕ БИНД ЧТОБ ВСТАТЬ
+[09:49:43] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[09:50:01] SG_KaAp killed c4s | qRRaz11cHHH using player
+[09:50:09] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:50:09] SG_KaAp killed Fimozzz using player
+[09:50:22] c4s | qRRaz11cHHH respawned Themself
+[09:50:25] Данил уебан не ме suicided!
+[09:50:36] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[09:50:52] SG_KaAp suicided!
+[09:50:56] c4s | qRRaz11cHHH killed ＶＥＮＯＭ ＳＮＡＫＥ using player
+[09:51:13] SG_KaAp set Themself's model to models/dih/salat.mdl with colors R:255, G:255, B:255
+[09:51:32] SG_KaAp was killed by box_normal
+[09:51:55] Данил уебан не ме suicided!
+[09:52:13] Fimozzz suicided!
+[09:52:18] c4s | qRRaz11cHHH suicided!
+[09:54:00] Fimozzz: пока
+[09:54:07] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:54:07] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:54:08] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[09:54:48] Данил уебан не ме suicided!
+[09:55:02] SG_KaAp suicided!
+[09:55:05] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:55:29] SG_KaAp suicided!
+[09:56:24] Данил уебан не ме suicided!
+[09:56:26] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:57:03] c4s | qRRaz11cHHH suicided!
+[09:57:03] Данил уебан не ме was killed by box_normal
+[09:57:23] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[09:57:28] Dropped "ＶＥＮＯＭ ＳＮＡＫＥ" from server<STEAM_0:0:778205308>
+[09:57:33] SG_KaAp was killed by box_normal
+[09:57:33] Данил уебан не ме suicided!
+[09:57:52] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[09:58:32] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 40 seconds).
+[09:58:39] c4s | qRRaz11cHHH was killed by box_normal
+[09:59:14] SG_KaAp suicided!
+[09:59:28] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[09:59:49] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[09:59:56] Данил уебан не ме suicided!
+[09:59:56] Данил уебан не ме suicided!
+[09:59:58] c4s | qRRaz11cHHH was killed by box_normal
+[09:59:58] SG_KaAp was killed by box_normal
+[10:00:14] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[10:00:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[10:00:39] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:00:52] c4s | qRRaz11cHHH was killed by box_normal
+[10:01:09] SG_KaAp suicided!
+[10:01:26] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:02:00] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:02:26] SG_KaAp suicided!
+[10:03:38] Данил уебан не ме suicided!
+[10:03:38] Данил уебан не ме suicided!
+[10:03:43] c4s | qRRaz11cHHH suicided!
+[10:03:56] Данил уебан не ме suicided!
+[10:04:23] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:04:23] SG_KaAp suicided!
+[10:04:53] Данил уебан не ме suicided!
+[10:05:09] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:05:15] c4s | qRRaz11cHHH suicided!
+[10:05:15] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:05:15] SG_KaAp suicided!
+[10:05:15] Данил уебан не ме suicided!
+[10:05:45] Server is shutting down/changing levels.
+
+
+
+[10:05:51] New map: gm_construct
+[10:05:51] Server is shutting down/changing levels.
+
+
+
+[10:05:56] New map: gm_construct
+[10:05:56] Client "SG_KaAp" connected.
+[10:05:56] Client "c4s | qRRaz11cHHH" connected.
+[10:05:57] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[10:05:57] Client "Данил уебан не ме" connected.
+[10:06:15] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 19 seconds).
+[10:06:21] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 25 seconds).
+[10:06:28] Client "Данил уебан не ме" spawned in server <STEAM_0:1:571638039> (took 31 seconds).
+[10:06:28] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 31 seconds).
+[10:06:34] c4s | qRRaz11cHHH suicided!
+[10:06:37] SG_KaAp suicided!
+[10:07:04] SG_KaAp respawned Themself
+[10:07:04] SG_KaAp: !frespawn ^
+[10:07:12] SG_KaAp suicided!
+[10:07:12] SG_KaAp suicided!
+[10:07:14] SG_KaAp respawned Themself
+[10:07:14] SG_KaAp: !frespawn ^
+[10:07:27] SG_KaAp: bind key fake
+[10:07:39] c4s | qRRaz11cHHH suicided!
+[10:07:42] SG_KaAp: !explode ^
+[10:07:45] SG_KaAp: !menu
+[10:07:58] SG_KaAp suicided!
+[10:07:58] SG_KaAp убил Themself
+[10:08:08] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/mossman.mdl
+[10:08:23] Данил уебан не ме suicided!
+[10:08:42] Данил уебан не ме suicided!
+[10:08:45] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:08:49] c4s | qRRaz11cHHH suicided!
+[10:09:00] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:09:40] Данил уебан не ме suicided!
+[10:09:42] c4s | qRRaz11cHHH was killed by box_normal
+[10:10:10] c4s | qRRaz11cHHH killed Данил уебан не ме using player
+[10:10:17] c4s | qRRaz11cHHH killed ＶＥＮＯＭ ＳＮＡＫＥ using player
+[10:10:34] c4s | qRRaz11cHHH suicided!
+[10:10:51] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:11:58] Данил уебан не ме suicided!
+[10:11:58] Данил уебан не ме suicided!
+[10:12:07] Client "MR DRAGONS XD" connected.
+[10:13:06] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:13:07] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 60 seconds).
+[10:13:44] MR DRAGONS XD suicided!
+[10:14:13] c4s | qRRaz11cHHH: kflyj dctv gjrvcf z ghjrloer[ywogft
+[10:14:25] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:14:25] Данил уебан не ме suicided!
+[10:15:02] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_combine/breendesk.mdl
+[10:15:54] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/horizontalcoolingtank04.mdl
+[10:15:55] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/horizontalcoolingtank04.mdl
+[10:15:59] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/horizontalcoolingtank04.mdl
+[10:16:08] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/horizontalcoolingtank04.mdl
+[10:16:32] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[10:16:32] c4s | qRRaz11cHHH suicided!
+[10:16:38] MR DRAGONS XD suicided!
+[10:17:31] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_junk/wood_crate002a.mdl
+[10:17:47] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_fortifications/sandbags_corner2.mdl
+[10:17:48] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_fortifications/sandbags_corner2.mdl
+[10:17:54] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_phx/sp_screen.mdl
+[10:19:00] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_c17/furnituredresser001a.mdl
+[10:19:11] MR DRAGONS XD suicided!
+[10:19:31] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/interior_fence002c.mdl
+[10:20:22] Dropped "Данил уебан не ме" from server<STEAM_0:1:571638039>
+[10:20:22] Данил уебан не ме suicided!
+[10:20:29] Client "Данил уебан не ме" connected.
+[10:20:36] Dropped "ＶＥＮＯＭ ＳＮＡＫＥ" from server<STEAM_0:0:778205308>
+[10:20:36] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:20:41] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[10:20:55] Client "Данил уебан не ме" spawned in server <STEAM_0:1:571638039> (took 26 seconds).
+[10:21:11] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 30 seconds).
+[10:21:23] MR DRAGONS XD suicided!
+[10:21:44] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_interiors/furniture_shelf01a.mdl
+[10:21:53] MR DRAGONS XD suicided!
+[10:22:18] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_interiors/furniture_shelf01a.mdl
+[10:22:42] Данил уебан не ме suicided!
+[10:22:48] Dropped "MR DRAGONS XD" from server<STEAM_0:0:12823366>
+[10:22:48] MR DRAGONS XD suicided!
+[10:22:49] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_combine/breendesk.mdl
+[10:22:52] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_combine/breenbust.mdl
+[10:23:00] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_combine/breenchair.mdl
+[10:23:17] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:24:07] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:24:21] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_c17/doll01.mdl
+[10:24:30] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_c17/display_cooler01a.mdl
+[10:24:48] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_fortifications/sandbags_corner2.mdl
+[10:25:12] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_fortifications/sandbags_line2.mdl
+[10:25:14] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:25:24] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_fortifications/sandbags_line2.mdl
+[10:25:30] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/controlroom_desk001b.mdl
+[10:26:36] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer001a.mdl
+[10:26:38] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer001a.mdl
+[10:26:38] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer001a.mdl
+[10:26:38] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer001a.mdl
+[10:26:38] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer001a.mdl
+[10:26:40] Данил уебан не ме suicided!
+[10:26:41] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:26:45] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_fortifications/sandbags_line2.mdl
+[10:26:48] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_fortifications/sandbags_line2.mdl
+[10:26:56] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_combine/breendesk.mdl
+[10:27:19] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_c17/furniturefridge001a.mdl
+[10:27:25] Данил уебан не ме was killed by prop_physics
+[10:27:37] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_fortifications/sandbags_line2.mdl
+[10:27:41] ＶＥＮＯＭ ＳＮＡＫＥ: !levelend
+[10:27:50] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer003.mdl
+[10:27:55] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer003.mdl
+[10:28:00] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_wasteland/laundry_washer003.mdl
+[10:28:31] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_c17/furniturebathtub001a.mdl
+[10:28:45] Данил уебан не ме<STEAM_0:1:571638039> spawned model models/props_fortifications/sandbags_line2.mdl
+[10:28:48] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_c17/furniturebathtub001a.mdl
+[10:28:59] ＶＥＮＯＭ ＳＮＡＫＥ<STEAM_0:0:778205308> spawned model models/props_c17/furniturebathtub001a.mdl
+[10:29:52] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:29:57] Данил уебан не ме suicided!
+[10:29:57] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:30:27] Server is shutting down/changing levels.
+
+
+
+[10:30:37] New map: gm_school_snbp_v2_sandbox
+[10:30:38] Server is shutting down/changing levels.
+
+
+
+[10:30:47] New map: gm_school_snbp_v2_sandbox
+[10:30:48] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[10:30:48] Client "ＶＥＮＯＭ ＳＮＡＫＥ" connected.
+[10:30:48] Client "Данил уебан не ме" connected.
+[10:30:48] Client "Данил уебан не ме" connected.
+[10:30:48] Client "SG_KaAp" connected.
+[10:30:48] Client "SG_KaAp" connected.
+[10:31:13] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 25 seconds).
+[10:31:32] Client "ＶＥＮＯＭ ＳＮＡＫＥ" spawned in server <STEAM_0:0:778205308> (took 44 seconds).
+[10:31:42] Client "Данил уебан не ме" spawned in server <STEAM_0:1:571638039> (took 54 seconds).
+[10:32:22] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:32:42] SG_KaAp suicided!
+[10:32:46] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:33:53] SG_KaAp suicided!
+[10:34:20] Данил уебан не ме killed ＶＥＮＯＭ ＳＮＡＫＥ using player
+[10:34:49] SG_KaAp: !levelend
+[10:35:31] Client "MR DRAGONS XD" connected.
+[10:35:36] Данил уебан не ме suicided!
+[10:36:18] Client "MR DRAGONS XD" spawned in server <STEAM_0:0:12823366> (took 47 seconds).
+[10:38:34] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:41:02] MR DRAGONS XD suicided!
+[10:42:32] MR DRAGONS XD suicided!
+[10:42:56] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:43:13] MR DRAGONS XD suicided!
+[10:43:13] MR DRAGONS XD suicided!
+[10:43:27] MR DRAGONS XD suicided!
+[10:44:39] Client "Dj_fen" connected.
+[10:48:07] Данил уебан не ме suicided!
+[10:48:59] MR DRAGONS XD suicided!
+[10:50:42] Данил уебан не ме suicided!
+[10:51:29] Client "Barsik2421" connected.
+[10:54:01] Dropped "MR DRAGONS XD" from server<STEAM_0:0:12823366>
+[10:54:01] MR DRAGONS XD suicided!
+[10:54:34] Client "Barsik2421" spawned in server <STEAM_0:0:834834392> (took 185 seconds).
+[10:56:17] Данил уебан не ме suicided!
+[10:56:17] Данил уебан не ме suicided!
+[10:56:50] Barsik2421 suicided!
+[10:57:14] SG_KaAp suicided!
+[10:57:58] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:58:24] ＶＥＮＯＭ ＳＮＡＫＥ killed Данил уебан не ме using player
+[10:58:44] ＶＥＮＯＭ ＳＮＡＫＥ: ДА МЕНЯ ЗАЕБАЛИ ЗАХВАТЫ ТОЧЕК
+[10:59:05] ＶＥＮＯＭ ＳＮＡＫＥ suicided!
+[10:59:09] Dropped "ＶＥＮＯＭ ＳＮＡＫＥ" from server<STEAM_0:0:778205308>
+[10:59:13] Dropped "Данил уебан не ме" from server<STEAM_0:1:571638039>
+[10:59:13] Данил уебан не ме suicided!
+[10:59:40] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[10:59:40] SG_KaAp suicided!
+[11:01:54] Dropped "Barsik2421" from server<STEAM_0:0:834834392>
+[11:01:54] Barsik2421 suicided!
+[11:50:19] Client "Хомячела" connected.
+[11:51:28] Client "Aprikot" connected.
+[11:53:20] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 112 seconds).
+[11:55:17] Server is shutting down/changing levels.
+
+
+
+[11:55:28] New map: tdm_postbellum
+[11:55:28] Server is shutting down/changing levels.
+
+
+
+[11:55:34] New map: tdm_postbellum
+[11:55:34] Client "Хомячела" connected.
+[11:55:34] Client "Aprikot" connected.
+[11:56:27] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 53 seconds).
+[11:58:20] Server is shutting down/changing levels.
+
+
+
+[11:58:29] New map: gm_oilrig_v2
+[11:58:29] Server is shutting down/changing levels.
+
+
+
+[11:58:37] New map: gm_oilrig_v2
+[11:58:37] Client "Хомячела" connected.
+[11:58:37] Client "Хомячела" connected.
+[11:58:37] Client "Aprikot" connected.
+[11:58:37] Client "Aprikot" connected.
+[11:59:36] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 59 seconds).
+[12:01:40] Server is shutting down/changing levels.
+
+
+
+[12:02:09] New map: gm_mdach
+[12:03:38] Client "Aprikot" connected.
+[12:04:12] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 34 seconds).
+[12:05:13] Server is shutting down/changing levels.
+
+
+
+[12:05:19] New map: ttt_sandraiders_b2
+[12:05:19] Server is shutting down/changing levels.
+
+
+
+[12:05:25] New map: ttt_sandraiders_b2
+[12:05:25] Client "Aprikot" connected.
+[12:06:03] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 38 seconds).
+[12:10:16] Client "oyasumi darling" connected.
+[12:13:40] Client "Fimozzz" connected.
+[12:14:18] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 38 seconds).
+[12:14:32] Fimozzz suicided!
+[12:14:47] Aprikot suicided!
+[12:15:23] Fimozzz suicided!
+[12:15:58] Fimozzz suicided!
+[12:16:12] Client "Хомячела" connected.
+[12:16:15] Fimozzz killed Aprikot using player
+[12:16:30] Aprikot suicided!
+[12:16:52] Fimozzz suicided!
+[12:17:03] Fimozzz: я твою маму ебал
+[12:17:06] Fimozzz suicided!
+[12:17:20] Fimozzz killed Aprikot using player
+[12:17:35] Fimozzz suicided!
+[12:17:55] Aprikot suicided!
+[12:17:58] Aprikot suicided!
+[12:18:01] Client "Хомячела" spawned in server <STEAM_0:0:753206008> (took 109 seconds).
+[12:18:02] Fimozzz suicided!
+[12:18:02] Fimozzz suicided!
+[12:18:10] Aprikot suicided!
+[12:18:13] Client "oyasumi darling" spawned in server <STEAM_0:1:440570237> (took 477 seconds).
+[12:18:14] Fimozzz killed Хомячела using player
+[12:18:22] Хомячела suicided!
+[12:18:22] Хомячела suicided!
+[12:18:27] Хомячела suicided!
+[12:19:25] Dropped "oyasumi darling" from server<STEAM_0:1:440570237>
+[12:19:25] oyasumi darling suicided!
+[12:19:26] Client "oyasumi darling" connected.
+[12:19:37] Aprikot suicided!
+[12:19:51] Client "oyasumi darling" spawned in server <STEAM_0:1:440570237> (took 25 seconds).
+[12:20:05] Хомячела suicided!
+[12:20:05] Хомячела suicided!
+[12:20:18] oyasumi darling suicided!
+[12:20:46] Dropped "oyasumi darling" from server<STEAM_0:1:440570237>
+[12:20:46] oyasumi darling suicided!
+[12:20:46] Client "oyasumi darling" connected.
+[12:20:47] Fimozzz suicided!
+[12:21:10] Client "oyasumi darling" spawned in server <STEAM_0:1:440570237> (took 24 seconds).
+[12:21:21] Dropped "Хомячела" from server<STEAM_0:0:753206008>
+[12:21:21] Хомячела suicided!
+[12:23:38] Aprikot suicided!
+[12:24:01] Dropped "oyasumi darling" from server<STEAM_0:1:440570237>
+[12:24:01] oyasumi darling suicided!
+[12:24:56] Aprikot suicided!
+[12:25:15] Fimozzz suicided!
+[12:25:19] Fimozzz suicided!
+[12:25:19] Fimozzz suicided!
+[12:25:24] Aprikot suicided!
+[12:26:59] Fimozzz suicided!
+[12:28:28] Fimozzz suicided!
+[12:28:53] Aprikot suicided!
+[12:28:53] Fimozzz suicided!
+[12:29:23] Server is shutting down/changing levels.
+
+
+
+[12:29:30] New map: gm_deschool
+[12:29:31] Server is shutting down/changing levels.
+
+
+
+[12:29:36] New map: gm_deschool
+[12:29:37] Client "Aprikot" connected.
+[12:30:16] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 39 seconds).
+[12:36:28] Client "c4s | qRRaz11cHHH" connected.
+[12:37:18] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 50 seconds).
+[12:38:42] Client "i11ushenka" connected.
+[12:39:09] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 27 seconds).
+[12:39:44] Aprikot was killed by box_normal
+[12:40:06] c4s | qRRaz11cHHH suicided!
+[12:40:40] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:46] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:47] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:47] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:47] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:47] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:48] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:48] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:48] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:48] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:55] i11ushenka suicided!
+[12:40:57] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:57] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:40:58] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:41:00] Aprikot was killed by box_normal
+[12:41:27] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car004a.mdl
+[12:42:34] Aprikot suicided!
+[12:43:22] i11ushenka suicided!
+[12:43:50] Aprikot suicided!
+[12:43:50] Aprikot suicided!
+[12:44:46] i11ushenka suicided!
+[12:45:04] i11ushenka suicided!
+[12:45:19] c4s | qRRaz11cHHH suicided!
+[12:45:54] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:19] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:22] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:25] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:29] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:30] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:32] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_citizen
+[12:46:34] i11ushenka suicided!
+[12:47:44] c4s | qRRaz11cHHH suicided!
+[12:48:28] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned vehicle models/source_vehicles/car002b/vehicle.mdl
+[12:48:28] Aprikot suicided!
+[12:48:39] i11ushenka suicided!
+[12:48:57] Aprikot suicided!
+[12:49:32] Aprikot suicided!
+[12:49:34] i11ushenka suicided!
+[12:50:23] i11ushenka suicided!
+[12:51:11] c4s | qRRaz11cHHH suicided!
+[12:51:33] i11ushenka suicided!
+[12:52:21] i11ushenka suicided!
+[12:52:25] c4s | qRRaz11cHHH suicided!
+[12:53:22] i11ushenka suicided!
+[12:53:28] Aprikot suicided!
+[12:53:28] c4s | qRRaz11cHHH suicided!
+[12:53:28] i11ushenka suicided!
+[12:53:58] Server is shutting down/changing levels.
+
+
+
+[12:54:05] New map: tdm_postbellum
+[12:54:05] Server is shutting down/changing levels.
+
+
+
+[12:54:11] New map: tdm_postbellum
+[12:54:11] Client "Aprikot" connected.
+[12:54:11] Client "c4s | qRRaz11cHHH" connected.
+[12:54:11] Client "i11ushenka" connected.
+
+
+
+[12:54:43] New map: gm_mdach
+[12:54:48] Client "c4s | qRRaz11cHHH" connected.
+[12:55:12] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 24 seconds).
+[12:55:27] c4s | qRRaz11cHHH respawned Themself
+[12:55:45] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned NPC npc_pigeon
+[12:56:03] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned effect models/ichthyosaur.mdl
+[12:56:15] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/humans/charple02.mdl
+[12:56:22] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/humans/charple01.mdl
+[12:56:30] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned effect models/advisor.mdl
+[12:56:40] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/combine_soldier_prisonguard.mdl
+[12:57:13] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned ragdoll models/combine_super_soldier.mdl
+[12:57:31] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[12:57:31] c4s | qRRaz11cHHH suicided!
+[12:59:18] Client "Aprikot" connected.
+[12:59:52] Client "SG_KaAp" connected.
+[12:59:52] Client "Aprikot" spawned in server <STEAM_0:1:552532806> (took 34 seconds).
+[13:00:30] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 38 seconds).
+[13:04:04] Aprikot suicided!
+[13:04:30] SG_KaAp suicided!
+[13:04:31] SG_KaAp suicided!
+[13:04:43] SG_KaAp respawned Themself
+[13:04:43] SG_KaAp: !frespawn ^
+[13:04:46] SG_KaAp: !noclip
+[13:04:53] SG_KaAp: !noclip
+[13:05:04] SG_KaAp: connect p2p:90207467355562002
+[13:05:16] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[13:05:16] SG_KaAp suicided!
+[13:05:20] Dropped "Aprikot" from server<STEAM_0:1:552532806>
+[13:05:20] Aprikot suicided!
+[13:14:22] Client "Actin_mine" connected.
+[13:26:53] Client "Fimozzz" connected.
+[13:47:21] Client "c4s | qRRaz11cHHH" connected.
+[13:47:44] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 23 seconds).
+[13:48:11] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[13:48:11] c4s | qRRaz11cHHH suicided!
+[13:55:14] Client "SG_KaAp" connected.
+[13:55:44] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 30 seconds).
+[13:57:42] Client "c4s | qRRaz11cHHH" connected.
+[13:58:12] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 30 seconds).
+[13:59:55] SG_KaAp suicided!
+[14:00:35] SG_KaAp suicided!
+[14:01:27] SG_KaAp suicided!
+[14:02:33] SG_KaAp suicided!
+[14:03:14] (TEAM) c4s | qRRaz11cHHH: /inv
+[14:04:00] c4s | qRRaz11cHHH was killed by box_normal
+[14:04:00] SG_KaAp was killed by box_normal
+[14:04:17] (TEAM) c4s | qRRaz11cHHH: /levelend
+[14:04:57] SG_KaAp suicided!
+[14:05:32] SG_KaAp suicided!
+[14:05:57] SG_KaAp suicided!
+[14:07:15] SG_KaAp suicided!
+[14:08:01] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_c17/metalladder001.mdl
+[14:08:06] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_docks/dock01_pole01a_256.mdl
+[14:08:08] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_docks/dock01_pole01a_256.mdl
+[14:08:13] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_docks/dock02_pole02a.mdl
+[14:08:17] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_docks/dock02_pole02a.mdl
+[14:08:23] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned model models/props_docks/dock01_pole01a_128.mdl
+[14:11:10] Client "Aprikot" connected.
+[14:14:45] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_nvgs
+[14:14:48] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_thermals
+[14:14:55] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_maska
+[14:15:02] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hhead
+[14:15:05] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_rioth
+[14:15:11] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_mhtorso
+[14:15:13] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_lrshoulder
+[14:15:14] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_llshoulder
+[14:15:16] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hlthigh
+[14:15:17] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hrthigh
+[14:15:18] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_llthigh
+[14:15:20] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_lrthigh
+[14:15:22] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hlshoulder
+[14:15:23] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_hrshoulder
+[14:15:27] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_srforearm
+[14:15:31] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_slforearm
+[14:15:33] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_srcalf
+[14:15:34] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_slcalf
+[14:15:42] c4s | qRRaz11cHHH<STEAM_0:1:34526941> spawned sent ent_jack_gmod_ezarmor_spelvis
+[14:17:11] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[14:17:11] c4s | qRRaz11cHHH suicided!
+[14:32:26] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[15:48:08] Client "Gamoci" connected.
+[15:48:08] Client "aboba" connected.
+[16:12:17] Client "batonic1234" connected.
+[16:12:56] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 39 seconds).
+[16:15:49] batonic1234: !menu
+[16:17:56] Client "moguchayaparasha" connected.
+[16:35:09] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[16:39:41] Client "SG_KaAp" connected.
+[16:40:31] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 50 seconds).
+[16:41:10] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[16:44:56] Client "Разьебатор Овец" connected.
+[16:51:57] Client "Разьебатор Овец" spawned in server <STEAM_0:1:546487121> (took 421 seconds).
+[16:53:18] Dropped "Разьебатор Овец" from server<STEAM_0:1:546487121>
+[17:03:11] Client "Налбен:)" connected.
+[17:08:53] Client "P. S e e r" connected.
+[17:12:11] Client "3XL_TWO" connected.
+[17:13:32] Client "Налбен:)" connected.
+[17:14:52] Client "3XL_TWO" spawned in server <STEAM_0:1:461500228> (took 161 seconds).
+[17:15:31] Client "Налбен:)" spawned in server <STEAM_0:0:753730717> (took 119 seconds).
+[17:15:36] 3XL_TWO suicided!
+[17:15:36] Налбен:) suicided!
+[17:16:06] Server is shutting down/changing levels.
+
+
+
+[17:16:14] New map: cs_office
+[17:16:14] Server is shutting down/changing levels.
+
+
+
+[17:16:19] New map: cs_office
+[17:16:20] Client "3XL_TWO" connected.
+[17:16:20] Client "Налбен:)" connected.
+
+
+
+[17:16:45] New map: gm_mdach
+[17:25:40] Client "SG_KaAp" connected.
+[17:25:57] Client "batonic1234" connected.
+[17:26:12] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 32 seconds).
+[17:26:25] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 28 seconds).
+[17:26:50] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[17:26:50] batonic1234 suicided!
+[17:27:47] Client "batonic1234" connected.
+[17:28:18] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 31 seconds).
+[17:28:36] SG_KaAp suicided!
+[17:28:36] SG_KaAp: gg
+[17:28:38] SG_KaAp: g
+[17:28:48] SG_KaAp: Блять
+[17:28:50] SG_KaAp: Пиздец
+[17:29:02] SG_KaAp: Пиздец
+[17:29:25] SG_KaAp: Блять
+[17:29:26] SG_KaAp: Пиздец
+[17:29:52] SG_KaAp suicided!
+[17:30:06] Client "Nnnn [MMT]" connected.
+[17:30:46] SG_KaAp suicided!
+[17:30:46] SG_KaAp suicided!
+[17:31:15] SG_KaAp suicided!
+[17:32:06] SG_KaAp suicided!
+[17:32:35] batonic1234 suicided!
+[17:32:35] batonic1234 suicided!
+[17:32:48] batonic1234 suicided!
+[17:32:50] batonic1234 suicided!
+[17:33:09] SG_KaAp suicided!
+[17:33:51] SG_KaAp suicided!
+[17:34:23] SG_KaAp suicided!
+[17:34:39] batonic1234 suicided!
+[17:34:40] batonic1234 suicided!
+[17:35:08] batonic1234 suicided!
+[17:35:08] batonic1234 suicided!
+[17:35:08] batonic1234 suicided!
+[17:35:08] batonic1234 suicided!
+[17:35:08] batonic1234 suicided!
+[17:35:10] batonic1234 suicided!
+[17:35:14] batonic1234 suicided!
+[17:35:14] batonic1234 suicided!
+[17:35:15] batonic1234 suicided!
+[17:35:17] batonic1234 suicided!
+[17:35:59] SG_KaAp suicided!
+[17:36:22] batonic1234 suicided!
+[17:36:26] batonic1234 suicided!
+[17:36:30] batonic1234 suicided!
+[17:36:30] batonic1234 suicided!
+[17:36:32] batonic1234 suicided!
+[17:36:39] SG_KaAp suicided!
+[17:36:40] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[17:36:40] SG_KaAp suicided!
+[17:42:58] batonic1234: !levelnext hideandseek
+[17:43:14] batonic1234: !menu
+[17:43:42] batonic1234: !levelend
+[17:43:46] batonic1234 голосует за Да
+[17:49:38] batonic1234 suicided!
+[17:49:45] batonic1234 suicided!
+[17:49:53] batonic1234 suicided!
+[17:49:58] batonic1234 suicided!
+[17:50:03] batonic1234 suicided!
+[17:50:09] batonic1234 suicided!
+[17:50:23] batonic1234: !levels
+[17:51:19] batonic1234: !help
+[17:51:47] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[17:51:47] batonic1234 suicided!
+[17:54:40] Client "Дед Щукарь" connected.
+[18:00:02] Client "Дед Щукарь" spawned in server <STEAM_0:1:740599899> (took 322 seconds).
+[18:01:39] Дед Щукарь: !levelend
+[18:04:59] Дед Щукарь: g
+[18:06:42] Client "Embotus" connected.
+[18:12:59] Дед Щукарь suicided!
+[18:13:12] Dropped "Дед Щукарь" from server<STEAM_0:1:740599899>
+[18:13:12] Дед Щукарь suicided!
+[20:46:24] Client "batonic1234" connected.
+[20:46:47] Client "batonic1234" spawned in server <STEAM_0:1:784420595> (took 23 seconds).
+[20:48:49] Dropped "batonic1234" from server<STEAM_0:1:784420595>
+[20:48:49] batonic1234 suicided!
+<Logging continued in "data/ulx_logs/11-01-24.txt">
