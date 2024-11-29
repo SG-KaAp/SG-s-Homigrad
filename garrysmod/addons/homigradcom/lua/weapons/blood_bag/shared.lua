@@ -4,11 +4,11 @@ AddCSLuaFile()
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Пустой пакет крови"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Пакет ёмкостью 500мл для забора крови, наборы для определения группы крови в комплекте\nКАК ИСПОЛЬЗОВАТЬ: зажать на 2 секунды ЛКМ/ПКМ, чтобы влить в пакет кровь/вылить из пакета кровь (ЛКМ - действие с собой, ПКМ - действие с игроком)"
 
 SWEP.Spawnable = true
-SWEP.Category = "Медицина"
+SWEP.Category = "SG's Homigrad | Медицина"
 
 SWEP.Slot = 3
 SWEP.SlotPos = 3

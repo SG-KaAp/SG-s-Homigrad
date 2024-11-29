@@ -1,0 +1,473 @@
+[20:03:12] New map: gm_mdach
+[20:03:44] Server is shutting down/changing levels.
+
+
+
+[20:04:41] New map: ttt_aircraft_v3
+[20:05:54] Client "SG_KaAp" connected.
+[20:07:01] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 67 seconds).
+[20:08:50] Server is shutting down/changing levels.
+
+
+
+[20:08:55] New map: deathrun_toxic_metal
+[20:08:55] Server is shutting down/changing levels.
+
+
+
+[20:09:01] New map: deathrun_toxic_metal
+[20:09:01] Client "SG_KaAp" connected.
+
+
+
+[20:09:28] New map: ttt_aircraft_v3
+[20:10:38] Client "SG_KaAp" connected.
+[20:10:59] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 21 seconds).
+[20:13:06] Server is shutting down/changing levels.
+
+
+
+[20:13:37] New map: ttt_aircraft_v3
+[20:13:58] Client "SG_KaAp" connected.
+[20:14:19] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 21 seconds).
+[20:19:15] Server is shutting down/changing levels.
+
+
+
+[20:19:55] New map: ttt_aircraft_v3
+[20:20:30] Client "SG_KaAp" connected.
+[20:20:52] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[20:22:37] SG_KaAp: @ as
+[20:22:40] SG_KaAp: !menu
+[20:22:45] SG_KaAp удалил весь доступ SG_KaAp
+[20:22:50] SG_KaAp: !menu
+[20:23:12] (Console) добавил SG_KaAp в группу superadmin
+[20:23:15] SG_KaAp: !menu
+[20:23:44] SG_KaAp создал группу owner из superadmin
+[20:24:03] SG_KaAp добавил SG_KaAp в группу owner
+[20:24:08] SG_KaAp изменил доступ "fpp_settings" к группе superadmin
+[20:24:09] SG_KaAp изменил доступ "fprofiler" к группе superadmin
+[20:24:28] SG_KaAp изменил доступ "ulx cexec" к группе superadmin
+[20:24:29] SG_KaAp изменил доступ "ulx ent" к группе superadmin
+[20:24:29] SG_KaAp изменил доступ "ulx exec" к группе superadmin
+[20:24:30] SG_KaAp изменил доступ "ulx luarun" к группе superadmin
+[20:24:32] SG_KaAp изменил доступ "ulx rcon" к группе superadmin
+[20:24:51] SG_KaAp изменил доступ "ulx logchat" к группе superadmin
+[20:24:52] SG_KaAp изменил доступ "ulx logdir" к группе superadmin
+[20:24:53] SG_KaAp изменил доступ "ulx logecho" к группе superadmin
+[20:24:53] SG_KaAp изменил доступ "ulx logechocolorconsole" к группе superadmin
+[20:24:54] SG_KaAp изменил доступ "ulx logechocolordefault" к группе superadmin
+[20:24:55] SG_KaAp изменил доступ "ulx logechocoloreveryone" к группе superadmin
+[20:24:56] SG_KaAp изменил доступ "ulx logechocolormisc" к группе superadmin
+[20:24:56] SG_KaAp изменил доступ "ulx logechocolorplayer" к группе superadmin
+[20:24:57] SG_KaAp изменил доступ "ulx logechocolorplayerasgroup" к группе superadmin
+[20:24:57] SG_KaAp изменил доступ "ulx logechocolors" к группе superadmin
+[20:24:58] SG_KaAp изменил доступ "ulx logechocolorself" к группе superadmin
+[20:24:58] SG_KaAp выдал доступ "ulx logechocolorself" группе superadmin
+[20:24:59] SG_KaAp изменил доступ "ulx logevents" к группе superadmin
+[20:25:00] SG_KaAp изменил доступ "ulx logechocolorself" к группе superadmin
+[20:25:00] SG_KaAp изменил доступ "ulx logfile" к группе superadmin
+[20:25:01] SG_KaAp изменил доступ "ulx logjoinleaveecho" к группе superadmin
+[20:25:02] SG_KaAp изменил доступ "ulx logspawns" к группе superadmin
+[20:25:02] SG_KaAp изменил доступ "ulx logspawnsecho" к группе superadmin
+[20:25:04] SG_KaAp изменил доступ "ulx voteecho" к группе superadmin
+[20:25:30] SG_KaAp изменил доступ "fpp_cleanup" к группе admin
+[20:25:31] SG_KaAp изменил доступ "fpp_touchotherplayersprops" к группе admin
+[20:25:32] SG_KaAp выдал доступ "fpp_cleanup" группе admin
+[20:25:42] SG_KaAp изменил доступ "ulx mappatcher" к группе admin
+[20:25:50] SG_KaAp выдал доступ "ulx stopvote" группе admin
+[20:26:04] SG_KaAp изменил доступ "ulx armor" к группе admin
+[20:26:05] SG_KaAp изменил доступ "ulx hp" к группе admin
+[20:26:09] SG_KaAp изменил доступ "ulx jail" к группе admin
+[20:26:09] SG_KaAp изменил доступ "ulx jailtp" к группе admin
+[20:27:05] SG_KaAp добавил ДимASS в группу superadmin
+[20:27:36] SG_KaAp выдал доступ "ulx mute" группе operator
+[20:27:42] SG_KaAp выдал доступ "ulx gag" группе operator
+[20:27:43] SG_KaAp изменил доступ "ulx mute" к группе operator
+[20:28:06] SG_KaAp выдал доступ "fpp_cleanup" группе operator
+[20:28:32] SG_KaAp respawned Themself
+[20:28:32] SG_KaAp: !frespawn ^
+[20:30:08] SG_KaAp suicided!
+[20:30:08] SG_KaAp respawned Themself
+[20:30:08] SG_KaAp: !frespawn ^
+[20:31:15] SG_KaAp: f
+[20:37:51] SG_KaAp: f
+[20:37:52] SG_KaAp suicided!
+[20:37:52] SG_KaAp respawned Themself
+[20:37:52] SG_KaAp: !frespawn ^
+[20:38:24] SG_KaAp: !menu
+[20:38:35] SG_KaAp добавил SG_KaAp в группу superadmin
+[20:38:47] SG_KaAp создал группу curator из admin
+[20:38:52] SG_KaAp rудалить группу owner
+[20:39:05] SG_KaAp добавил ДимASS в группу curator
+[20:39:14] SG_KaAp выдал доступ "fpp_settings" группе superadmin
+[20:39:15] SG_KaAp выдал доступ "ulx ban" группе superadmin
+[20:39:22] SG_KaAp выдал доступ "fpp_touchotherplayersprops" группе superadmin
+[20:39:22] SG_KaAp выдал доступ "fprofiler" группе superadmin
+[20:39:33] SG_KaAp выдал доступ "ulx cexec" группе superadmin
+[20:39:33] SG_KaAp выдал доступ "ulx ent" группе superadmin
+[20:39:35] SG_KaAp выдал доступ "ulx luarun" группе superadmin
+[20:39:36] SG_KaAp выдал доступ "ulx exec" группе superadmin
+[20:39:37] SG_KaAp выдал доступ "ulx rcon" группе superadmin
+[20:39:39] SG_KaAp выдал доступ "ulx armor" группе superadmin
+[20:39:41] SG_KaAp выдал доступ "ulx jail" группе superadmin
+[20:39:43] SG_KaAp выдал доступ "ulx hp" группе superadmin
+[20:39:43] SG_KaAp выдал доступ "ulx jailtp" группе superadmin
+[20:39:51] SG_KaAp выдал доступ "ulx logdir" группе superadmin
+[20:39:51] SG_KaAp выдал доступ "ulx logchat" группе superadmin
+[20:39:52] SG_KaAp выдал доступ "ulx logecho" группе superadmin
+[20:39:54] SG_KaAp выдал доступ "ulx logechocolorconsole" группе superadmin
+[20:39:54] SG_KaAp выдал доступ "ulx logechocolordefault" группе superadmin
+[20:39:56] SG_KaAp выдал доступ "ulx logechocoloreveryone" группе superadmin
+[20:39:56] SG_KaAp выдал доступ "ulx logechocolormisc" группе superadmin
+[20:40:01] SG_KaAp выдал доступ "ulx logechocolorplayer" группе superadmin
+[20:40:04] SG_KaAp выдал доступ "ulx logspawnsecho" группе superadmin
+[20:40:05] SG_KaAp выдал доступ "ulx logechocolorplayerasgroup" группе superadmin
+[20:40:07] SG_KaAp выдал доступ "ulx logechocolors" группе superadmin
+[20:40:08] SG_KaAp выдал доступ "ulx logspawns" группе superadmin
+[20:40:09] SG_KaAp выдал доступ "ulx logfile" группе superadmin
+[20:40:12] SG_KaAp выдал доступ "ulx logechocolorself" группе superadmin
+[20:40:13] SG_KaAp выдал доступ "ulx logevents" группе superadmin
+[20:40:13] SG_KaAp выдал доступ "ulx logjoinleaveecho" группе superadmin
+[20:40:16] SG_KaAp выдал доступ "ulx voteecho" группе superadmin
+[20:40:37] SG_KaAp выдал доступ "ulx setmodel" группе curator
+[20:40:39] SG_KaAp выдал доступ "ulx mappatcher" группе curator
+[20:40:40] SG_KaAp выдал доступ "ps2_addpoints" группе curator
+[20:40:46] SG_KaAp выдал доступ "ulx addgroup" группе curator
+[20:40:47] SG_KaAp выдал доступ "ulx adduser" группе curator
+[20:40:47] SG_KaAp выдал доступ "ulx adduserid" группе curator
+[20:40:48] SG_KaAp выдал доступ "ulx groupallow" группе curator
+[20:40:49] SG_KaAp выдал доступ "ulx groupdeny" группе curator
+[20:40:49] SG_KaAp выдал доступ "ulx removegroup" группе curator
+[20:40:50] SG_KaAp выдал доступ "ulx removeuser" группе curator
+[20:40:51] SG_KaAp выдал доступ "ulx removeuserid" группе curator
+[20:40:51] SG_KaAp выдал доступ "ulx renamegroup" группе curator
+[20:40:52] SG_KaAp выдал доступ "ulx setgroupcantarget" группе curator
+[20:40:52] SG_KaAp выдал доступ "ulx userallow" группе curator
+[20:40:53] SG_KaAp выдал доступ "ulx userallowid" группе curator
+[20:40:53] SG_KaAp выдал доступ "ulx userdeny" группе curator
+[20:40:54] SG_KaAp выдал доступ "ulx userdenyid" группе curator
+[20:40:58] SG_KaAp выдал доступ "ulx armor" группе curator
+[20:40:58] SG_KaAp выдал доступ "ulx hp" группе curator
+[20:40:59] SG_KaAp выдал доступ "ulx jail" группе curator
+[20:41:00] SG_KaAp выдал доступ "ulx jailtp" группе curator
+[20:41:00] SG_KaAp выдал доступ "ulx maul" группе curator
+[20:41:05] SG_KaAp выдал доступ "ulx banid" группе curator
+[20:42:53] SG_KaAp выдал доступ "ulx ip" группе curator
+[20:42:54] SG_KaAp выдал доступ "ulx hook" группе curator
+[20:42:55] SG_KaAp выдал доступ "ulx hide" группе curator
+[20:42:56] SG_KaAp выдал доступ "ulx gravity" группе curator
+[20:42:57] SG_KaAp выдал доступ "ulx fakeban" группе curator
+[20:43:03] SG_KaAp выдал доступ "ulx admin" группе curator
+[20:43:03] SG_KaAp выдал доступ "ulx administrate" группе curator
+[20:43:04] SG_KaAp выдал доступ "ulx banip" группе curator
+[20:43:06] SG_KaAp выдал доступ "ulx convar" группе curator
+[20:43:08] SG_KaAp выдал доступ "ulx gethooktable" группе curator
+[20:43:09] SG_KaAp выдал доступ "ulx maprestart" группе curator
+[20:43:12] SG_KaAp выдал доступ "ulx printhooks" группе curator
+[20:43:15] SG_KaAp изменил доступ "ulx printhooks" к группе curator
+[20:44:09] SG_KaAp: !menu
+[20:44:39] SG_KaAp сменил имя группы curator на owner
+[20:45:17] SG_KaAp добавил SG_KaAp в группу owner
+[20:45:33] SG_KaAp изменил доступ "ulx cexec" к группе superadmin
+[20:45:33] SG_KaAp изменил доступ "ulx ent" к группе superadmin
+[20:45:34] SG_KaAp изменил доступ "ulx exec" к группе superadmin
+[20:45:34] SG_KaAp изменил доступ "ulx luarun" к группе superadmin
+[20:45:35] SG_KaAp изменил доступ "ulx rcon" к группе superadmin
+[20:45:47] SG_KaAp изменил доступ "ulx logchat" к группе superadmin
+[20:45:47] SG_KaAp изменил доступ "ulx logdir" к группе superadmin
+[20:45:48] SG_KaAp изменил доступ "ulx logecho" к группе superadmin
+[20:45:49] SG_KaAp изменил доступ "ulx logechocolorconsole" к группе superadmin
+[20:45:50] SG_KaAp изменил доступ "ulx logechocolordefault" к группе superadmin
+[20:45:50] SG_KaAp изменил доступ "ulx logechocoloreveryone" к группе superadmin
+[20:45:52] SG_KaAp изменил доступ "ulx logechocolorplayer" к группе superadmin
+[20:45:52] SG_KaAp изменил доступ "ulx logechocolormisc" к группе superadmin
+[20:45:53] SG_KaAp изменил доступ "ulx logechocolorplayerasgroup" к группе superadmin
+[20:45:54] SG_KaAp изменил доступ "ulx logevents" к группе superadmin
+[20:45:55] SG_KaAp изменил доступ "ulx logechocolors" к группе superadmin
+[20:45:56] SG_KaAp выдал доступ "ulx logechocolors" группе superadmin
+[20:45:56] SG_KaAp изменил доступ "ulx logechocolors" к группе superadmin
+[20:45:57] SG_KaAp изменил доступ "ulx logechocolorself" к группе superadmin
+[20:45:58] SG_KaAp изменил доступ "ulx logfile" к группе superadmin
+[20:45:59] SG_KaAp изменил доступ "ulx logjoinleaveecho" к группе superadmin
+[20:46:00] SG_KaAp изменил доступ "ulx logspawns" к группе superadmin
+[20:46:00] SG_KaAp изменил доступ "ulx logspawnsecho" к группе superadmin
+[20:46:14] SG_KaAp изменил доступ "ulx voteecho" к группе superadmin
+[20:46:18] SG_KaAp добавил ДимASS в группу superadmin
+[20:49:21] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:49:21] SG_KaAp suicided!
+[20:49:24] Client "SG_KaAp" connected.
+[20:49:48] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 24 seconds).
+[20:50:47] Client "Luke" connected.
+[20:51:36] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:51:39] Client "SG_KaAp" connected.
+[20:52:02] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 23 seconds).
+[20:53:06] Client "Luke" spawned in server <STEAM_0:0:709713214> (took 139 seconds).
+[20:53:36] SG_KaAp: !menu
+[20:53:44] SG_KaAp добавил Luke в группу admin
+[20:54:18] Client "Фермер" connected.
+[20:55:02] Luke<STEAM_0:0:709713214> spawned model models/props_junk/trafficcone001a.mdl
+[20:58:45] Luke suicided!
+[20:58:51] Dropped "Luke" from server<STEAM_0:0:709713214>
+[20:58:51] Luke suicided!
+[20:58:52] Client "Luke" connected.
+[20:59:31] Client "Luke" spawned in server <STEAM_0:0:709713214> (took 39 seconds).
+[21:00:23] Luke: ргш
+[21:01:19] SG_KaAp suicided!
+[21:02:05] Luke suicided!
+[21:02:45] SG_KaAp suicided!
+[21:02:46] SG_KaAp: !levelend
+[21:02:50] SG_KaAp: !levelend
+[21:02:51] SG_KaAp: !levelend
+[21:02:52] SG_KaAp: !levelend
+[21:02:52] SG_KaAp: !levelend
+[21:02:59] Luke: !levelend
+[21:03:01] Luke suicided!
+[21:03:28] Luke suicided!
+[21:04:37] SG_KaAp suicided!
+[21:04:46] Client "lil_goblin" connected.
+[21:06:07] SG_KaAp suicided!
+[21:06:07] SG_KaAp suicided!
+[21:07:28] Luke<STEAM_0:0:709713214> spawned sent box_normal
+[21:07:35] Luke<STEAM_0:0:709713214> spawned sent ent_hgjack_40mm_contact
+[21:07:35] Luke suicided!
+[21:07:55] SG_KaAp: !levelend
+[21:07:58] Luke suicided!
+[21:07:58] SG_KaAp: !levelend
+[21:08:01] Luke: !levelend
+[21:09:32] Luke suicided!
+[21:09:37] SG_KaAp suicided!
+[21:09:37] Luke suicided!
+[21:09:52] Luke: sync
+[21:10:07] Server is shutting down/changing levels.
+
+
+
+[21:10:15] New map: deathrun_hot_desert_v9
+[21:10:15] Server is shutting down/changing levels.
+
+
+
+[21:10:22] New map: deathrun_hot_desert_v9
+[21:10:22] Client "SG_KaAp" connected.
+[21:10:22] Client "lil_goblin" connected.
+[21:10:22] Client "lil_goblin" connected.
+[21:10:22] Client "Luke" connected.
+[21:10:22] Client "Luke" connected.
+[21:10:46] Client "lil_goblin" spawned in server <STEAM_0:0:795152741> (took 24 seconds).
+[21:10:50] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 28 seconds).
+[21:11:08] Client "Luke" spawned in server <STEAM_0:0:709713214> (took 46 seconds).
+[21:11:15] SG_KaAp suicided!
+[21:11:25] Dropped "lil_goblin" from server<STEAM_0:0:795152741>
+[21:11:25] lil_goblin suicided!
+[21:12:06] Luke suicided!
+[21:12:18] Luke suicided!
+[21:12:46] SG_KaAp suicided!
+[21:12:49] Luke suicided!
+[21:13:25] Server is shutting down/changing levels.
+
+
+
+[21:13:32] New map: ttt_halflife
+[21:13:32] Server is shutting down/changing levels.
+
+
+
+[21:13:40] New map: ttt_halflife
+[21:13:40] Client "Luke" connected.
+[21:13:40] Client "Luke" connected.
+[21:13:40] Client "SG_KaAp" connected.
+
+
+
+[21:14:08] New map: ttt_aircraft_v3
+[21:15:07] Client "SG_KaAp" connected.
+[21:15:29] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 22 seconds).
+[21:16:25] SG_KaAp respawned Themself
+[21:16:25] SG_KaAp: !frespawn ^
+[21:16:48] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:16:48] SG_KaAp suicided!
+[21:29:08] Client "i11ushenka" connected.
+[21:32:26] Client "SG_KaAp" connected.
+[21:32:53] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 27 seconds).
+[21:33:08] Client "Luke" connected.
+[21:34:05] SG_KaAp respawned Themself
+[21:34:05] SG_KaAp: !frespawn ^
+[21:34:12] Client "Luke" spawned in server <STEAM_0:0:709713214> (took 64 seconds).
+[21:35:38] Luke<STEAM_0:0:709713214> spawned model models/props_unique/hospital/hospital_bed.mdl
+[21:35:47] Luke<STEAM_0:0:709713214> spawned model models/props_c17/furniturebed001a.mdl
+[21:36:10] Luke<STEAM_0:0:709713214> spawned ragdoll models/gibs/fast_zombie_legs.mdl
+[21:36:57] SG_KaAp: !noclip
+[21:37:00] SG_KaAp переместился к Luke
+[21:37:01] SG_KaAp: !noclip
+[21:37:02] Luke suicided!
+[21:37:36] Luke<STEAM_0:0:709713214> spawned model models/noesis/donut.mdl
+[21:38:02] SG_KaAp suicided!
+[21:38:06] Luke suicided!
+[21:38:08] SG_KaAp: !explode Luke
+[21:39:16] Client "bolotorust бот ботинок" connected.
+[21:40:13] Client "Dekan 65" connected.
+[21:41:17] Luke suicided!
+[21:42:37] Luke suicided!
+[21:42:37] Luke убил Themself
+[21:43:20] SG_KaAp: Брат
+[21:43:26] SG_KaAp: В чем сила брат?
+[21:44:44] SG_KaAp suicided!
+[21:45:35] SG_KaAp suicided!
+[21:45:46] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 998 seconds).
+[21:45:58] Luke: !levelend
+[21:46:07] SG_KaAp: !levelend
+[21:48:10] Luke set Themself's model to models/player/skeleton.mdl with colors R:255, G:255, B:255
+[21:48:19] i11ushenka suicided!
+[21:48:25] SG_KaAp suicided!
+[21:49:07] i11ushenka suicided!
+[21:50:09] Luke: !noclip
+[21:50:12] SG_KaAp suicided!
+[21:50:16] SG_KaAp suicided!
+[21:50:53] Luke suicided!
+[21:51:01] Luke set Themself's model to models/player/group01/male_07.mdl with colors R:255, G:255, B:255
+[21:52:03] Client "СВО монстр" connected.
+[21:52:19] i11ushenka suicided!
+[21:52:35] Luke killed SG_KaAp using weapon_slb_admin_deagle
+[21:53:01] SG_KaAp: Я скорострел
+[21:53:05] Luke killed i11ushenka using weapon_slb_admin_deagle
+[21:53:16] SG_KaAp: *Дрочит*
+[21:53:21] Luke killed SG_KaAp using weapon_slb_admin_deagle
+[21:53:34] SG_KaAp: *Дрочит*
+[21:53:58] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[21:53:58] SG_KaAp suicided!
+[21:54:36] Luke: !noclip
+[21:54:46] i11ushenka suicided!
+[21:55:37] Luke suicided!
+[21:56:20] i11ushenka suicided!
+[21:56:23] Luke suicided!
+[21:56:26] i11ushenka suicided!
+[21:56:26] Luke suicided!
+[21:56:32] Luke: !menu
+[21:56:36] Client "SG_KaAp" connected.
+[21:56:43] Luke сменил карту на gm_ragdoll_slaughter_4
+[21:56:43] Server is shutting down/changing levels.
+
+
+
+[21:56:51] New map: gm_ragdoll_slaughter_4
+[21:57:25] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 38 seconds).
+[21:57:27] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 40 seconds).
+[21:57:28] Client "ARBUS" connected.
+[21:57:30] SG_KaAp suicided!
+[21:57:35] SG_KaAp suicided!
+[21:57:40] i11ushenka suicided!
+[21:57:45] i11ushenka suicided!
+[21:57:46] Client "Luke" spawned in server <STEAM_0:0:709713214> (took 59 seconds).
+[21:57:46] SG_KaAp suicided!
+[21:57:50] i11ushenka suicided!
+[21:57:55] SG_KaAp respawned Themself
+[21:57:55] SG_KaAp: !frespawn ^
+[21:57:55] SG_KaAp suicided!
+[21:57:55] Luke suicided!
+[21:57:57] SG_KaAp respawned Themself
+[21:57:57] SG_KaAp: !frespawn ^
+[21:58:00] Luke suicided!
+[21:58:02] SG_KaAp: !point blue
+[21:58:04] SG_KaAp: !point blue
+[21:58:05] i11ushenka suicided!
+[21:58:07] SG_KaAp: !point blue
+[21:58:12] SG_KaAp: !point blue
+[21:58:19] SG_KaAp: !point red
+[21:58:21] SG_KaAp: !point red
+[21:58:23] SG_KaAp: !point red
+[21:58:25] SG_KaAp: !point red
+[21:58:28] Luke suicided!
+[21:58:32] SG_KaAp: !menu
+[21:58:37] Luke suicided!
+[21:58:40] i11ushenka suicided!
+[21:58:40] i11ushenka suicided!
+[21:59:30] SG_KaAp: !noclip
+[21:59:36] SG_KaAp: !noclip
+[21:59:43] i11ushenka suicided!
+[21:59:47] Luke suicided!
+[21:59:53] SG_KaAp: !frespawn STEAM_0:1:789318958
+[21:59:57] i11ushenka suicided!
+[21:59:57] SG_KaAp respawned i11ushenka
+[22:00:02] SG_KaAp привел к i11ushenka
+[22:00:10] i11ushenka suicided!
+[22:00:14] SG_KaAp привел к i11ushenka
+[22:00:21] i11ushenka suicided!
+[22:00:21] SG_KaAp respawned i11ushenka
+[22:00:23] SG_KaAp привел к i11ushenka
+[22:00:58] SG_KaAp: !menu
+[22:01:00] Luke suicided!
+[22:01:05] Luke suicided!
+[22:01:05] SG_KaAp respawned Luke
+[22:01:07] SG_KaAp привел к Luke
+[22:01:31] Luke suicided!
+[22:01:40] Luke suicided!
+[22:01:43] Luke: !noclip
+[22:01:45] i11ushenka suicided!
+[22:01:48] SG_KaAp suicided!
+[22:02:08] Luke: @ Какащке
+[22:02:18] Luke: @Какащке
+[22:02:30] i11ushenka suicided!
+[22:02:34] SG_KaAp: !menu
+[22:02:36] Luke suicided!
+[22:02:46] SG_KaAp добавил i11ushenka в группу admin
+[22:02:49] Luke<STEAM_0:0:709713214> spawned sent ent_lightsaber
+[22:02:49] Luke<STEAM_0:0:709713214> spawned sent ent_lightsaber
+[22:02:52] SG_KaAp: !menu
+[22:02:55] Dropped "i11ushenka" from server<STEAM_0:1:789318958>
+[22:02:55] i11ushenka suicided!
+[22:02:56] Client "i11ushenka" connected.
+[22:02:59] SG_KaAp добавил i11ushenka в группу operator
+[22:03:07] Luke suicided!
+[22:03:11] Luke: !levelend
+[22:03:15] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:03:26] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 30 seconds).
+[22:03:31] i11ushenka suicided!
+[22:03:32] Luke suicided!
+[22:03:32] i11ushenka suicided!
+[22:03:37] Luke suicided!
+[22:03:47] Luke respawned Themself
+[22:03:50] Luke suicided!
+[22:03:51] Luke: !point red
+[22:04:02] Luke: !levelend
+[22:04:07] i11ushenka suicided!
+[22:04:08] Luke suicided!
+[22:04:08] i11ushenka suicided!
+[22:04:15] Dropped "i11ushenka" from server<STEAM_0:1:789318958>
+[22:04:15] i11ushenka suicided!
+[22:04:20] Luke: !nortv 1
+[22:04:25] Luke: !levelend
+[22:04:31] Luke: !levelend
+[22:04:32] Luke: !levelend
+[22:05:00] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezdynamite
+[22:05:04] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsticknade
+[22:05:15] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsticknadebundle
+[22:05:22] Luke suicided!
+[22:05:29] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezincendiarybomb
+[22:05:31] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezincendiarybomb
+[22:05:33] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsticknade
+[22:05:44] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezbomb
+[22:06:04] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezfougasse
+[22:06:18] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsmallbomb
+[22:06:30] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezthermobaricbomb
+[22:06:31] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezpowderkeg
+[22:06:31] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezpowderkeg
+[22:06:34] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezsatchelcharge
+[22:06:45] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_eztnt
+[22:06:56] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_eztnt
+[22:06:57] Luke<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezpowderkeg
+[22:09:12] Luke suicided!
+[22:09:17] Luke: !noclip
+[22:09:29] Luke suicided!
+[22:09:33] Luke: !noclip
+[22:09:39] Luke: !noclip
+[22:09:54] Dropped "Luke" from server<STEAM_0:0:709713214>
+[22:09:54] Luke suicided!
+[22:49:17] Client "x.d.z" connected.
+[23:02:42] Client "K4K1CK" connected.
+[23:03:33] Client "K4K1CK" connected.
+[23:04:31] Client "K4K1CK" connected.
+[23:17:02] Client "K4K1CK" spawned in server <STEAM_0:0:806766969> (took 751 seconds).
+[23:18:01] Dropped "K4K1CK" from server<STEAM_0:0:806766969>
+[23:18:01] K4K1CK suicided!
+<Logging continued in "data/ulx_logs/11-20-24.txt">

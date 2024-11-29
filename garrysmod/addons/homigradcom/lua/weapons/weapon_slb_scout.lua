@@ -1,8 +1,8 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "Scout"
 SWEP.Instructions = "Scout - это снайперская винтовка, разработанная американской компанией Steyr Mannlicher. Калибры: 5,56x45 или 7,62x51"
-SWEP.Category = "Оружие 2"
-SWEP.Author = "Homigrad"
+SWEP.Category 				= "SG's Homigrad | Снайперские винтовки"
+SWEP.Author = "SG's Homigrad"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

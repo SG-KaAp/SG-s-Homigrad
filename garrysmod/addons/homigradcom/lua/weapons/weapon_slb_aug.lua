@@ -1,8 +1,8 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "AUG"
 SWEP.Instructions = "Автоматический ружей, разработанный в 1960-х годах в Швейцарии. Калибр: 5,56x45"
-SWEP.Category = "Оружие 2"
-SWEP.Author = "Homigrad"
+SWEP.Category 				= "SG's Homigrad | Снайперские винтовки"
+SWEP.Author = "SG's Homigrad"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

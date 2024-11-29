@@ -1,7 +1,7 @@
 
 SWEP.PrintName = "Extinguisher (Infinite)"
 SWEP.Author = "Robotboy655"
-SWEP.Category = "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 SWEP.Contact = "http://steamcommunity.com/profiles/76561197996891752"
 SWEP.Purpose = "To extinguish fire!"
 SWEP.Instructions = "Shoot into a fire, to extinguish it."

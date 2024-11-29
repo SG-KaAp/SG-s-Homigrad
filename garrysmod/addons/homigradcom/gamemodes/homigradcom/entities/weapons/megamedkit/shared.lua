@@ -6,7 +6,7 @@ SWEP.PrintName = "Мега Аптечка"
 SWEP.Author = "First AID"
 SWEP.Instructions = "на себя не юзается"
 
-SWEP.Category = "Медицина"
+SWEP.Category = "SG's Homigrad | Медицина"
 SWEP.Spawnable = true
 
 SWEP.Slot = 3

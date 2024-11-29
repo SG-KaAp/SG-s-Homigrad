@@ -2,9 +2,9 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Five-Seven"
-SWEP.Author 				= "Homigrad"
-SWEP.Instructions			= "Бронебойный пистолет. Пробьёт даже дыру в твоей жопе."
-SWEP.Category 				= "Оружие"
+SWEP.Author 				= "SG's Homigrad"
+SWEP.Instructions			= "Бронебойный пистолет. Пробьёт даже дыру в ракете Седсалата."
+SWEP.Category 				= "SG's Homigrad | Пистолеты"
 SWEP.WepSelectIcon			= "entities/weapon_insurgencymakarov.png"
 
 SWEP.Spawnable 				= true

@@ -185,12 +185,13 @@ function SolidMapVote.postMapVoteChange()
                 SolidMapVote.close()
                 SolidMapVote.reset()
             else
-                RunConsoleCommand( 'changelevel', game.GetMap() )
+                RunConsoleCommand( 'ulx', "map", game.GetMap() )
+                print("map " .. game.GetMap())
             end
         elseif SolidMapVote.realWinner == 'random' then
-            RunConsoleCommand( 'changelevel', SolidMapVote.fixedWinner )
+            RunConsoleCommand( 'ulx', "map", SolidMapVote.fixedWinner )
         else
-            RunConsoleCommand( 'changelevel', SolidMapVote.realWinner )
+            RunConsoleCommand( 'ulx', "map", SolidMapVote.realWinner )
         end
     end
 end

@@ -4,7 +4,7 @@ SWEP.Base = 'salat_base' -- base
 SWEP.PrintName 				= "XM8 LMG"
 SWEP.Author 				= "Niik"
 SWEP.Instructions			= "Автоматика под калибр 5,56x45"
-SWEP.Category 				= "Оружие 2"
+SWEP.Category 				= "SG's Homigrad | Винтовки"
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false
 

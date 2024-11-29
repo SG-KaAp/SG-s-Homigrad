@@ -1,9 +1,9 @@
 SWEP.Base                   = "weapon_base"
 
 SWEP.PrintName 				= "Рация"
-SWEP.Author 				= "homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "Используется для того чтобы координироваться со своей командой"
-SWEP.Category 				= "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

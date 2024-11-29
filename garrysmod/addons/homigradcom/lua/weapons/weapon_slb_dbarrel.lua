@@ -2,7 +2,7 @@ SWEP.Base = "armer_base" -- base
 SWEP.PrintName = "Двух-стволка"
 SWEP.Author = "Benelli & ROLEX"
 SWEP.Instructions = "большие города..."
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

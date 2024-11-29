@@ -18,7 +18,7 @@ SWEP.UseHands = true
 
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
-SWEP.Category = "DarkRP"
+SWEP.Category = "SG's Homigrad | DarkRP"
 
 SWEP.Sound = Sound("physics/wood/wood_box_impact_hard3.wav")
 

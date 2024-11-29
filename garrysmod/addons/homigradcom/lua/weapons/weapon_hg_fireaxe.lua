@@ -2,8 +2,8 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Пожарный топор"
-SWEP.Author = "Homigrad"
-SWEP.Category = "Ближний Бой"
+SWEP.Author = "SG's Homigrad"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 SWEP.Instructions = "Массивный топор для вскрытия и разборки конструкций при тушении пожара."
 
 SWEP.Spawnable= true

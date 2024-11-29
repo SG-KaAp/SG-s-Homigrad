@@ -1,7 +1,7 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "M249"
 SWEP.Instructions = "ПулеПлет)"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

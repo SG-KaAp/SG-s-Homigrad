@@ -2,9 +2,9 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "GALIL-SAR"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "Автоматическая винтовка под калибр 5,56х45"
-SWEP.Category 				= "Оружие"
+SWEP.Category 				= "SG's Homigrad | Винтовки"
 SWEP.WepSelectIcon			= "pwb2/vgui/weapons/ace23"
 
 SWEP.Spawnable 				= true

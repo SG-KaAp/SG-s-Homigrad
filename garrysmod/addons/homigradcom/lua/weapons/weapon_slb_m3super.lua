@@ -2,7 +2,7 @@ SWEP.Base = "armer_base" -- base
 SWEP.PrintName = "M3 Super"
 SWEP.Author = "Benelli"
 SWEP.Instructions = "Ружье"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

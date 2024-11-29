@@ -36,7 +36,7 @@ ULogs.config.MaxLoadTime    = 5                        -- After how many seconds
                                                        -- no data is received
 
 ULogs.config.CanSee         = {                        -- ULX ranks that can open the logs menu
-
+"owner",
 "superadmin",
 "headadmin",
 "senioradmin",
@@ -47,6 +47,7 @@ ULogs.config.CanSee         = {                        -- ULX ranks that can ope
 
 ULogs.config.SeeIP          = {                        -- ULX ranks that can see IP addresses
 
+"owner",
 "superadmin",
 "headadmin",
 "senioradmin",
@@ -57,6 +58,7 @@ ULogs.config.SeeIP          = {                        -- ULX ranks that can see
 
 ULogs.config.Delete         = {                        -- ULX ranks that can delete logs
 
+"owner",
 "superadmin",
 "headadmin",
 }

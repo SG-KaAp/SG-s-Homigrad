@@ -1,11 +1,11 @@
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Ампула VX"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Используй это на предмете, чтобы отравить подбирающего"
 
 SWEP.Spawnable = true
-SWEP.Category = "Примочки убийцы"
+SWEP.Category = "SG's Homigrad | Примочки убийцы"
 
 SWEP.Slot = 3
 SWEP.SlotPos = 0

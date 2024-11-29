@@ -2,7 +2,7 @@
 
 SWEP.PrintName = "База ближнего боя"
 
-SWEP.Category = "Ближний Бой"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 
 SWEP.Spawnable= false
 SWEP.AdminSpawnable= false

@@ -4,7 +4,7 @@ SWEP.Base = 'salat_base' -- base
 SWEP.PrintName 				= "KRISS Vector"
 SWEP.Author 				= "Niik"
 SWEP.Instructions			= "Автоматический ПП под калибр 9x19"
-SWEP.Category 				= "Оружие 2"
+SWEP.Category 				= "SG's Homigrad | ПП"
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false
 

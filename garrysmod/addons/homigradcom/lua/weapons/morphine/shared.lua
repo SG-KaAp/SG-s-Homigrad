@@ -4,11 +4,11 @@ AddCSLuaFile()
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Морфий"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Агонистическое влияние морфина на опиатные рецепторы сопровождается снижением уровня сознания, ощущением тепла, сонливостью и эйфорией"
 
 SWEP.Spawnable = true
-SWEP.Category = "Медицина"
+SWEP.Category = "SG's Homigrad | Медицина"
 
 SWEP.Slot = 3
 SWEP.SlotPos = 3

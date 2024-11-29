@@ -1,9 +1,9 @@
 SWEP.Base                   = "weapon_base"
 
 SWEP.PrintName 				= "Шакидка"
-SWEP.Author 				= "homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "Пояс смертника, исход всегда один"
-SWEP.Category 				= "Примочки убийцы"
+SWEP.Category = "SG's Homigrad | Примочки убийцы"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

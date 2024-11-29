@@ -1,9 +1,9 @@
 if engine.ActiveGamemode() == "homigradcom" then
 
 SWEP.PrintName = "Деревянная бита"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 
-SWEP.Category = "Ближний Бой"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 SWEP.Instructions = "Часть спортивного инвентаря, предназначенная для нанесения ударов по мячу. Также популярно как холодное оружие благодаря своему удобству. Особенности конструкции биты позволяют наносить ею тяжёлые и мощные удары."
 
 SWEP.Spawnable= true

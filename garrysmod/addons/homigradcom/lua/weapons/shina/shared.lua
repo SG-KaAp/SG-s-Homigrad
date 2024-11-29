@@ -4,11 +4,11 @@ AddCSLuaFile()
 SWEP.Base = "weapon_base"
 
 SWEP.PrintName = "Медицинская шина"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "устройство для фиксации и стабилизации сломанных или поврежденных конечностей. (Лечит сломанные ноги.)"
 
 SWEP.Spawnable = true
-SWEP.Category = "Медицина"
+SWEP.Category = "SG's Homigrad | Медицина"
 
 SWEP.Slot = 3
 SWEP.SlotPos = 3

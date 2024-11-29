@@ -1,8 +1,8 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "AWP"
 SWEP.Instructions = "AWP (Arctic Warfare Police) - это снайперская винтовка, разработанная британской компанией Accuracy International. Калибр: 7,52x51"
-SWEP.Category = "Оружие 2"
-SWEP.Author = "Homigrad"
+SWEP.Category 				= "SG's Homigrad | Снайперские винтовки"
+SWEP.Author = "SG's Homigrad"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

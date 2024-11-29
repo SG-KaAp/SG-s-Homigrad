@@ -1,8 +1,8 @@
 SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Wrench"
-SWEP.Author = "Homigrad"
-SWEP.Category = "Ближний Бой"
+SWEP.Author = "SG's Homigrad"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 SWEP.Instructions = ""
 
 SWEP.Spawnable= true

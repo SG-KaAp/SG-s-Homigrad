@@ -28,7 +28,8 @@ end
 local validUserGroupSuperAdmin = {
 	superadmin = true,
 	admin = true,
-	headadmin =true
+	headadmin = true,
+    owner = true
 }
 
 local validUserGroup = {

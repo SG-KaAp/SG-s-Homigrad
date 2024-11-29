@@ -17,7 +17,7 @@ if ( SERVER ) then resource.AddWorkshop( "104607228" ) end
 
 SWEP.PrintName = "Extinguisher"
 SWEP.Author = "Robotboy655"
-SWEP.Category = "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 SWEP.Contact = "http://steamcommunity.com/profiles/76561197996891752"
 SWEP.Purpose = "To extinguish fire!"
 SWEP.Instructions = "Shoot into a fire, to extinguish it. Jump into water to get more ammo!"

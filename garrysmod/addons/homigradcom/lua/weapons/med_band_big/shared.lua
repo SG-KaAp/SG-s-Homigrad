@@ -4,11 +4,11 @@ AddCSLuaFile()
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Большой бинт"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Лечит большую кровопотерю"
 
 SWEP.Spawnable = true
-SWEP.Category = "Медицина"
+SWEP.Category = "SG's Homigrad | Медицина"
 
 SWEP.Slot = 3
 SWEP.SlotPos = 3

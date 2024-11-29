@@ -2,9 +2,9 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "InstaGib Grenade Launcher"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions			= "Выпускает 40мм заряды. Может и вас убить на раз-два."
-SWEP.Category 				= "Оружие 2"
+SWEP.Category = "SG's Homigrad | Разное"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

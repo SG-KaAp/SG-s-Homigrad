@@ -2,9 +2,9 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "P99"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "Пистолет под калибр 9х19"
-SWEP.Category 				= "Оружие"
+SWEP.Category 				= "SG's Homigrad | Пистолеты"
 SWEP.WepSelectIcon			= "pwb/sprites/p99"
 
 SWEP.Spawnable 				= true

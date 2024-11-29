@@ -4,7 +4,7 @@ SWEP.Base = 'salat_base' -- base
 SWEP.PrintName 				= "MINIGUN"
 SWEP.Author 				= "ADMINI"
 SWEP.Instructions			= "MINIGUN АДМИНХУЙ! БАМ БАМ БАМ!"
-SWEP.Category 				= "Оружие"
+SWEP.Category = "SG's Homigrad | Разное"
 SWEP.WepSelectIcon			= "pwb/sprites/m134"
 
 SWEP.Spawnable 				= true

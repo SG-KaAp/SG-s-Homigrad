@@ -1,0 +1,12 @@
+<Logging continued from "data/ulx_logs/11-28-24.txt">
+[01:14:16] Client "T J D" connected.
+[01:15:30] Client "T J D" spawned in server <STEAM_0:0:727692737> (took 74 seconds).
+[01:18:21] T J D: афк 9999999
+[01:18:21] Dropped "T J D" from server<STEAM_0:0:727692737>
+[01:18:21] T J D suicided!
+[01:20:59] Client "T J D" connected.
+[01:21:26] Client "T J D" spawned in server <STEAM_0:0:727692737> (took 27 seconds).
+[01:32:46] T J D: афк 9999999
+[01:32:46] Dropped "T J D" from server<STEAM_0:0:727692737>
+[01:32:46] T J D suicided!
+[08:59:28] Client "Skidibi Dob Dob" connected.

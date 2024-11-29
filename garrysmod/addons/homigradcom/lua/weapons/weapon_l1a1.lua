@@ -2,9 +2,9 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "TAR21"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions			= "TAR-21 является автоматическим оружием с магазинным питанием, воздушным охлаждением ствола и газовым двигателем автоматики, построенным по конфигурации буллпап."
-SWEP.Category 				= "Оружие"
+SWEP.Category 				= "SG's Homigrad | Винтовки"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

@@ -1,9 +1,9 @@
 SWEP.Base                   = "weapon_base"
 
 SWEP.PrintName 				= "Бинокль"
-SWEP.Author 				= "homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "Оптический прибор, состоящий из двух параллельно расположенных и соединённых вместе зрительных труб, для наблюдения удалённых предметов двумя глазами"
-SWEP.Category 				= "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

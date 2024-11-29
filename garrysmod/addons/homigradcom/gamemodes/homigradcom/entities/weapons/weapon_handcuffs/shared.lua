@@ -3,9 +3,9 @@ AddCSLuaFile()
 SWEP.Base = "medkit"
 
 SWEP.PrintName = "Стяжки"
-SWEP.Author = "z"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Связать человека"
-SWEP.Category = "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 
 SWEP.Slot = 5
 SWEP.SlotPos = 3

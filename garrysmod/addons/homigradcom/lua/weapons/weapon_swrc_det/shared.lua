@@ -3,7 +3,7 @@ AddCSLuaFile( )
 SWEP.Author = ""
 SWEP.Instructions = ""
 SWEP.Purpose = ""
-SWEP.Category = "Star Wars"
+SWEP.Category				= "SG's Homigrad | Star Wars"
 
 SWEP.Slot			= 4
 SWEP.SlotPos			= 1

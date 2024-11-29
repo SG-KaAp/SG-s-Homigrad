@@ -1,8 +1,8 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "G3SG1"
 SWEP.Instructions = "G3SG1 - это модифицированная версия автоматической винтовки G3, разработанной немецкой компанией Heck & Sohn в 1970-х годах. Калибр: 7,62x51"
-SWEP.Category = "Оружие 2"
-SWEP.Author = "Homigrad"
+SWEP.Category 				= "SG's Homigrad | Снайперские винтовки"
+SWEP.Author = "SG's Homigrad"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

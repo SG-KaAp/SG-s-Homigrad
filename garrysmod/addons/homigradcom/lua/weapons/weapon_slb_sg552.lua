@@ -1,8 +1,8 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "SG552"
 SWEP.Instructions = "SG552 - это компактная версия автоматической винтовки SG550, разработанная швейцарской компанией SIG Sauer. Калибр: 5,56x45"
-SWEP.Category = "Оружие 2"
-SWEP.Author = "Homigrad"
+SWEP.Category 				= "SG's Homigrad | Снайперские винтовки"
+SWEP.Author = "SG's Homigrad"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

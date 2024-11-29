@@ -2,7 +2,7 @@ SWEP.Base = "armer_base" -- base
 SWEP.PrintName = "AK74"
 SWEP.Author = "Kalashnikov"
 SWEP.Instructions = "АК47! БАМ БАМ БАМ!"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

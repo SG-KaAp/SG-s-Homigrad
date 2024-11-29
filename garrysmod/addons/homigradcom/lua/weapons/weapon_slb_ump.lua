@@ -1,7 +1,7 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "UMP"
 SWEP.Instructions = "Что может еще делать ПП? СТРЕЛЯТЬ В ЛИЦО!"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

@@ -263,9 +263,254 @@ hook.Add("PostDrawOpaqueRenderables", "laser", function()
 	end
 end)
 
+function draw.CirclePart(x, y, radius, seg, parts, pos)
+	local cir = {}
+	table.insert(cir, {
+		x = x,
+		y = y,
+		u = 0.5,
+		v = 0.5
+	})
+
+	for i = 0, seg do
+		local a = math.rad((i / seg) * -360 / parts - pos * 360 / parts)
+		table.insert(cir, {
+			x = x + math.sin(a) * radius,
+			y = y + math.cos(a) * radius,
+			u = math.sin(a) / 2 + 0.5,
+			v = math.cos(a) / 2 + 0.5
+		})
+		--draw.DrawText("asd","HomigradFontBig",x + math.sin(a) * radius,y + math.cos(a) * radius)
+	end
+
+	--local a = math.rad(0)
+	--table.insert(cir, {x = x + math.sin(a) * radius, y = y + math.cos(a) * radius, u = math.sin(a) / 2 + 0.5, v = math.cos(a) / 2 + 0.5})
+	surface.DrawPoly(cir)
+end
+
+local menuPanel
+hg.radialOptions = hg.radialOptions or {}
+local colBlack = Color(0, 0, 0, 122)
+local colWhite = Color(255, 255, 255, 255)
+local colWhiteTransparent = Color(255, 255, 255, 122)
+local colTransparent = Color(0, 0, 0, 0)
+local matHuy = Material("vgui/white")
+local vecXY = Vector(0, 0)
+local vecDown = Vector(0, 1)
+local isMouseIntersecting = false
+local isMouseOnRadial = false
+local current_option = 1
+local current_option_select = 1
+local hook_Run = hook.Run
+local function dropWeapon()
+	RunConsoleCommand("say", "*drop")
+end
+local function unloadWeapon()
+	net.Start("Unload")
+    net.WriteEntity(wep)
+    net.SendToServer()
+end
+local function lasergg()
+	if LocalPlayer().Laser then
+		LocalPlayer().Laser = false
+		net.Start("lasertgg")
+	
+		net.WriteBool(false)
+		net.SendToServer()
+		LocalPlayer():EmitSound("items/nvg_off.wav")
+	else
+		LocalPlayer().Laser = true
+		net.Start("lasertgg")
+		net.WriteBool(true)
+		net.SendToServer()
+		LocalPlayer():EmitSound("items/nvg_on.wav")
+	end
+end
+local function armorMenu()
+	LocalPlayer():ConCommand("jmod_ez_inv")
+end
+local function ammoMenu()
+	LocalPlayer():ConCommand("hg_ammomenu")
+end
+local function toggleEyesMenu()
+	LocalPlayer():ConCommand("jmod_ez_toggleeyes")
+end
+local function saluteEmote()
+	LocalPlayer():ConCommand("act salute; say Здравия желаю!")
+	LocalPlayer():EmitSound("snd_jack_hmcd_salute.wav",75)
+end
+local function agreeEmote()
+	LocalPlayer():ConCommand("act agree; say Да")
+	LocalPlayer():EmitSound("snd_jack_hmcd_agree.wav",75)
+end
+local function disagreeEmote()
+	LocalPlayer():ConCommand("act disagree; say Нет")
+	LocalPlayer():EmitSound("snd_jack_hmcd_disagree.wav",75)
+end
+local function beconEmote()
+	LocalPlayer():ConCommand("act becon; say Идём!")
+	LocalPlayer():EmitSound("snd_jack_hmcd_becon.wav",75)
+end
+local function forwardEmote()
+	LocalPlayer():ConCommand("act forward")
+end
+local function bowEmote()
+	LocalPlayer():ConCommand("act bow; say Слушаю и повинуюсь!")
+	LocalPlayer():EmitSound("snd_jack_hmcd_bow.wav",75)
+end
+local function groupEmote()
+	LocalPlayer():ConCommand("act group")
+end
+local function danceEmote()
+	LocalPlayer():ConCommand("act dance; say Все танцуем!")
+	LocalPlayer():EmitSound("snd_jack_hmcd_dance.wav",75)
+end
+local function cheerEmote()
+	LocalPlayer():ConCommand("act cheer; say Урааа!")
+	LocalPlayer():EmitSound("snd_jack_hmcd_wow.wav",75)
+end
+local function laughEmote()
+	LocalPlayer():ConCommand("act laugh; say Аахахахаха!")
+	LocalPlayer():EmitSound("snd_jack_hmcd_laugh.wav",75)
+end
+local function haltEmote()
+	LocalPlayer():ConCommand("act halt")
+end
+
+hook.Add("radialOptions", "!Main", function()
+	local lply = LocalPlayer()
+    local wep = lply:GetActiveWeapon()
+	local tbl
+	if wep:GetClass()!="weapon_hands" then
+		tbl = {dropWeapon, "Выбросить оружие"}
+		hg.radialOptions[#hg.radialOptions + 1] = tbl
+	end
+	if wep:Clip1()>0 then
+		tbl = {unloadWeapon, "Разрядить оружие"}
+		hg.radialOptions[#hg.radialOptions + 1] = tbl
+	end
+	if laserweps[wep:GetClass()] then
+		tbl = {lasergg, "Вкл/Выкл Лазер"}
+		hg.radialOptions[#hg.radialOptions + 1] = tbl
+	end
+	tbl = {armorMenu, "Меню брони"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {ammoMenu, "Меню патрон"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	local EZarmor = LocalPlayer().EZarmor
+	if JMod.GetItemInSlot(EZarmor, "eyes") then
+		tbl = {toggleEyesMenu, "Активировать Маску/Забрало"}
+		hg.radialOptions[#hg.radialOptions + 1] = tbl
+	end
+end)
+hook.Add("radialEmoteOptions", "!Emote", function()
+	tbl = {saluteEmote, "Отдать честь"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {agreeEmote, "Одобрить"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {disagreeEmote, "Отклонить"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {beconEmote, "Идём!"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {bowEmote, "Поклон"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {forwardEmote, "Приказ вперёд!"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {groupEmote, "Приказ за мной!"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {groupEmote, "Приказ остановиться"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {danceEmote, "Танец"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {cheerEmote, "Ликование"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+	tbl = {laughEmote, "Насмешка"}
+	hg.radialOptions[#hg.radialOptions + 1] = tbl
+end)
+local function CreateRadialMenu(type)
+	local sizeX, sizeY = ScrW(), ScrH()
+	hg.radialOptions = {}
+	if type == 1 then
+		hook_Run("radialOptions")
+	elseif type == 2 then
+		hook_Run("radialEmoteOptions")
+	end
+	local options = hg.radialOptions
+	if IsValid(menuPanel) then
+		menuPanel:Remove()
+		menuPanel = nil
+	end
+
+	menuPanel = vgui.Create("DPanel")
+	menuPanel:SetPos(ScrW() / 2 - sizeX / 2, ScrH() / 2 - sizeY / 2)
+	menuPanel:SetSize(sizeX, sizeY)
+	menuPanel:MakePopup()
+	menuPanel:SetKeyBoardInputEnabled(false)
+	input.SetCursorPos(sizeX / 2, sizeY / 2)
+	menuPanel.Paint = function(self, w, h)
+		local x, y = input.GetCursorPos()
+		x = x - sizeX / 2
+		y = y - sizeY / 2
+		vecXY.x = x
+		vecXY.y = y
+		local deg = (vecXY:GetNormalized() - vecDown):Angle()
+		deg = (deg[2] - 180) * 2
+		for num, option in pairs(options) do
+			local num = num - 1
+			local r = 400
+			local partDeg = 360 / #options
+			local sqrt = math.sqrt(x ^ 2 + y ^ 2)
+			isMouseOnRadial = sqrt <= r and sqrt > 4
+			isMouseIntersecting = isMouseOnRadial and deg > num * partDeg and deg < (num + 1) * partDeg
+			if isMouseIntersecting then current_option = num + 1 end
+			if option[3] then
+				surface.SetMaterial(matHuy)
+				surface.SetDrawColor(isMouseIntersecting and colBlack or colBlack)
+				draw.CirclePart(w / 2, h / 2, r, 30, #options, num)
+				local count = #option[4]
+				local selectedPart = math.floor((r - sqrt) / (r / count)) + 1
+				current_option_select = selectedPart
+				for i, opt in pairs(option[4]) do
+					local selected = selectedPart == i
+					surface.SetMaterial(matHuy)
+					surface.SetDrawColor((selected and isMouseIntersecting) and colWhiteTransparent or colTransparent)
+					draw.CirclePart(w / 2, h / 2, r / i, 30, #options, num)
+					local a = -partDeg * num - partDeg / 2
+					a = math.rad(a)
+					draw.DrawText(opt, "HomigradFontBig", ScrW() / 2 + math.sin(a) * r / i / 1.5, ScrH() / 2 + math.cos(a) * r / i / 1.5, colWhite, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+				end
+
+				continue
+			end
+
+			surface.SetMaterial(matHuy)
+			surface.SetDrawColor(isMouseIntersecting and colWhiteTransparent or colBlack)
+			draw.CirclePart(w / 2, h / 2, r, 30, #options, num)
+			local a = -partDeg * num - partDeg / 2
+			a = math.rad(a)
+			draw.DrawText(option[2], "HomigradFontBig", ScrW() / 2 + math.sin(a) * r / 1.5, ScrH() / 2 + math.cos(a) * r / 1.5, colWhite, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		end
+	end
+end
+
+local function PressRadialMenu()
+	local options = hg.radialOptions
+	--print(options[current_option][1])
+	if IsValid(menuPanel) and options[current_option] and isMouseOnRadial then
+		local func = options[current_option][1]
+		if isfunction(func) then func(current_option_select) end
+	end
+
+	if IsValid(menuPanel) then
+		menuPanel:Remove()
+		menuPanel = nil
+	end
+end
+
 local function ToggleMenu(toggle)
-    if toggle then
-        local w,h = ScrW(), ScrH()
+    if toggle and LocalPlayer():Alive() then
+		CreateRadialMenu(1)
+        --[[local w,h = ScrW(), ScrH()
         if IsValid(wepMenu) then wepMenu:Remove() end
         local lply = LocalPlayer()
         local wep = lply:GetActiveWeapon()
@@ -321,27 +566,43 @@ local function ToggleMenu(toggle)
 			plyMenu:AddOption("Активировать Маску/Забрало",function()
 				LocalPlayer():ConCommand("jmod_ez_toggleeyes")
 			end)
-		end
+		end-]]
     else
-		if IsValid(wepMenu) then
+		PressRadialMenu()
+		--[[if IsValid(wepMenu) then
         	wepMenu:Remove()
 		end
 		if IsValid(plyMenu) then
         	plyMenu:Remove()
-		end
+		end--]]
+    end
+end
+local function ToggleEmoteMenu(toggle)
+    if toggle and LocalPlayer():Alive() then
+		CreateRadialMenu(2)
+	elseif !toggle then
+		PressRadialMenu()
     end
 end
 
-local active,oldValue
+local active,oldValue,activeG,oldValueG
 hook.Add("Think","Thinkhuyhuy",function()
 	active = input.IsKeyDown(KEY_C)
+	activeG = input.IsKeyDown(KEY_H)
 	if oldValue ~= active then
 		oldValue = active
-		
 		if active then
 			ToggleMenu(true)
 		else
 			ToggleMenu(false)
+		end
+	end
+	if oldValueG ~= activeG then
+		oldValueG = activeG
+		if activeG then
+			ToggleEmoteMenu(true)
+		else
+			ToggleEmoteMenu(false)
 		end
 	end
 end)

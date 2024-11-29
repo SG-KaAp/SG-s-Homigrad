@@ -1,11 +1,11 @@
 SWEP.Base = "medkit"
 SWEP.PrintName = "Электрошокер"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Электрическое возбуждение передается нервным клеткам, вызывая в основном болевой шок, а также кратковременные судороги и состояние «ошарашенности», дезориентации."
 SWEP.Slot = 2
 SWEP.SlotPos = 4
 SWEP.Spawnable = true
-SWEP.Category = "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 
 SWEP.ViewModel = "models/realistic_police/taser/w_taser.mdl"
 SWEP.WorldModel = "models/realistic_police/taser/w_taser.mdl"

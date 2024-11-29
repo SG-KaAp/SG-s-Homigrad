@@ -10,7 +10,7 @@ SWEP.Instructions = "LMB: Rip Fat Clouds\n (Hold and release)\nRMB & Reload: Pla
 SWEP.PrintName = "Vape"
 
 SWEP.IconLetter	= "V"
-SWEP.Category = "Vapes"
+SWEP.Category = "SG's Homigrad | Вейпы"
 SWEP.Slot = 1
 SWEP.SlotPos = 0
 

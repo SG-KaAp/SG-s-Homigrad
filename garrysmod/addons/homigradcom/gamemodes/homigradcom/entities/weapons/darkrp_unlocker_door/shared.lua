@@ -4,7 +4,7 @@ SWEP.DrawAmmo = false
 SWEP.DrawCrosshair = false
 
 SWEP.PrintName = "Взломщик"
-SWEP.Category = "DarkRP"
+SWEP.Category = "SG's Homigrad | DarkRP"
 SWEP.Author = "DarkRP"
 
 SWEP.AdminOnly = false

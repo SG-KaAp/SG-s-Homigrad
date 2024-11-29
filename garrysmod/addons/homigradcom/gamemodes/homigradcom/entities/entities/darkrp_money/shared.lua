@@ -3,7 +3,7 @@ AddCSLuaFile()
 ENT.Type = "anim"
 ENT.PrintName = "Деньги"
 ENT.Author = "Jackarunda"
-ENT.Category = "DarkRP"
+ENT.Category = "SG's Homigrad | DarkRP"
 ENT.Spawnable = true
 ENT.AdminSpawnable = false
 

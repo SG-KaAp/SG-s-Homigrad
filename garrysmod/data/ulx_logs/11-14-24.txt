@@ -46,3 +46,33 @@
 [15:53:36] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
 [15:53:36] Fimozzz suicided!
 [18:03:21] Client "РусскаяМразь" connected.
+[18:45:22] Client "2qmr" connected.
+[18:54:11] Client "2qmr" spawned in server <STEAM_0:1:804218275> (took 529 seconds).
+[18:56:19] 2qmr was killed by box_normal
+[18:58:01] Dropped "2qmr" from server<STEAM_0:1:804218275>
+[18:58:01] 2qmr suicided!
+[19:11:17] Client "Мику" connected.
+[19:12:19] Client "i11ushenka" connected.
+[19:12:33] Client "Мику" spawned in server <STEAM_0:0:50399502> (took 76 seconds).
+[19:12:48] Dropped "Мику" from server<STEAM_0:0:50399502>
+[19:41:04] Client "ivan_zhikoff12" connected.
+[19:45:33] Client "bebrochka" connected.
+[19:46:55] Client "ivan_zhikoff12" spawned in server <STEAM_0:0:709109529> (took 351 seconds).
+[19:50:07] Dropped "ivan_zhikoff12" from server<STEAM_0:0:709109529>
+[19:50:07] ivan_zhikoff12 suicided!
+[19:50:07] Client "ivan_zhikoff12" connected.
+[20:10:28] Client "Bashmak752" connected.
+[20:11:32] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 64 seconds).
+[20:12:48] Client "LIMON" connected.
+[20:16:52] Bashmak752 was killed by box_normal
+[20:20:16] Bashmak752 suicided!
+[20:20:36] Bashmak752 suicided!
+[20:21:17] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[20:30:04] Client "SG_KaAp" connected.
+[20:30:28] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 24 seconds).
+[20:37:31] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:37:31] SG_KaAp suicided!
+[20:37:32] Client "SG_KaAp" connected.
+[22:01:10] Client "Kirya" connected.
+[22:59:50] Client "Мику" connected.
+<Logging continued in "data/ulx_logs/11-15-24.txt">

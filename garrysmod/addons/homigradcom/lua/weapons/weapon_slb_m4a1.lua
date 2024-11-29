@@ -2,7 +2,7 @@ SWEP.Base = "armer_base" -- base
 SWEP.PrintName = "M4A4"
 SWEP.Author = "ArmaLite"
 SWEP.Instructions = "Approved by USA invaders"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

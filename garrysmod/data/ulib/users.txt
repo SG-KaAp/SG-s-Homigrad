@@ -1,33 +1,38 @@
-"STEAM_0:0:798151674"	
+"STEAM_0:0:709713214"	
 {
-	"allow"	
-	{
-	}
-	"name"	"?who are you"
-	"deny"	
-	{
-	}
-	"group"	"admin"
-}
-"STEAM_0:1:566748347"	
-{
-	"allow"	
-	{
-	}
-	"name"	"SG_KaAp"
-	"deny"	
-	{
-	}
-	"group"	"superadmin"
-}
-"STEAM_0:0:206797798"	
-{
-	"name"	"ДимASS"
+	"name"	"Crusad"
 	"deny"	
 	{
 	}
 	"allow"	
 	{
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
+		"ulx setmodel"
 	}
 	"group"	"admin"
 }
@@ -43,34 +48,69 @@
 		"ulx setmodel"
 		"ulx setmodel"
 		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
-		"ulx setmodel"
+	}
+	"name"	"Дед Щукарь"
+	"group"	"admin"
+}
+"STEAM_0:1:459714783"	
+{
+	"name"	"aboba"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:566748347"	
+{
+	"name"	"SG_KaAp"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"owner"
+}
+"STEAM_0:1:789318958"	
+{
+	"name"	"i11ushenka"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:572372440"	
+{
+	"name"	"kn1ght"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:0:206797798"	
+{
+	"name"	"ДимASS"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
+"STEAM_0:1:776813961"	
+{
+	"allow"	
+	{
 		"ulx setmodel"
 		"ulx setmodel"
 		"ulx setmodel"
@@ -81,6 +121,9 @@
 		"ulx setmodel"
 		"ulx setmodel"
 	}
-	"name"	"Дед Щукарь"
+	"name"	"tupikrupik"
+	"deny"	
+	{
+	}
 	"group"	"admin"
 }

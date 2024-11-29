@@ -1,4 +1,4 @@
-AddCSLuaFile("autorun/Weapon_Scripts.lua")
+--AddCSLuaFile("autorun/Weapon_Scripts.lua")
  
 game.AddParticles( "particles/muzzles_universal.pcf")
  
@@ -14,5 +14,5 @@ PrecacheParticleSystem("muzzle_sparks_pistol")
 PrecacheParticleSystem("muzzle_smoke")
 PrecacheParticleSystem("smoke_trail_new")
 
-game.AddParticles( "particles/weapon_fx.pcf")
+--  game.AddParticles( "particles/weapon_fx.pcf")
 game.AddParticles( "particles/weapon_fx_ins.pcf")

@@ -2,7 +2,7 @@ SWEP.Base = "armer_base" -- base
 SWEP.PrintName = "P220"
 SWEP.Author = "Пистолет"
 SWEP.Instructions = "Что может еще делать пистолет? СТРЕЛЯТЬ В ЛИЦО!"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

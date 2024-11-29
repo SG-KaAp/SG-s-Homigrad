@@ -2,8 +2,8 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Фубар"
-SWEP.Author = "Homigrad"
-SWEP.Category = "Ближний Бой"
+SWEP.Author = "SG's Homigrad"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 SWEP.Instructions = "Ручное рычажно-клиновое приспособление для вытаскивания (выдирания) вбитых в материал (дерево, пластик и др.) гвоздей."
 
 SWEP.Spawnable= true

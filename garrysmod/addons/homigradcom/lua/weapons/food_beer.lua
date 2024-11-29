@@ -3,9 +3,9 @@ SWEP.Base = 'weapon_base'
 AddCSLuaFile()
 
 SWEP.PrintName = "Пиво"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Purpose = "Такое готовили еще при ящерах!"
-SWEP.Category = "Вкусности"
+SWEP.Category = "SG's Homigrad | Еда"
 
 SWEP.Slot = 3
 SWEP.SlotPos = 3

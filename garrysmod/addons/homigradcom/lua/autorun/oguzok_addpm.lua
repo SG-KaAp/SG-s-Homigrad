@@ -1,0 +1,1 @@
+player_manager.AddValidModel( "Oguzok", "models/player/oguzok.mdl" )

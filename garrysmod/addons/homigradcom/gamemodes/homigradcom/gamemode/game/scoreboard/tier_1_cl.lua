@@ -56,7 +56,7 @@ local function ToggleScoreboard(toggle)
 
 		HomigradScoreboard = vgui.Create("DFrame")
 		HomigradScoreboard:SetTitle("")
-		HomigradScoreboard:SetSize(scrw*.5,scrh*.7)
+		HomigradScoreboard:SetSize(scrw,scrh)
 		HomigradScoreboard:Center()
 		HomigradScoreboard:ShowCloseButton(false)
 		HomigradScoreboard:SetDraggable(false)
@@ -125,7 +125,7 @@ local function ToggleScoreboard(toggle)
 		HomigradScoreboard.delaySort = 0
 		HomigradScoreboard.Paint = function(self,w,h)
 
-			draw.RoundedBox(30, 0, 0, w, h, Color(15,15,15,200))
+			draw.RoundedBox(0, 0, 0, w, h, Color(15,15,15,200))
 
 			draw.SimpleText("Статус","HomigradFont",100,15,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 			draw.SimpleText("Имя","HomigradFont",w / 2,15,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)

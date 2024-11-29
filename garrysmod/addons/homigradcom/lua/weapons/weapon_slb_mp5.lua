@@ -2,7 +2,7 @@ SWEP.Base = "armer_base" -- base
 SWEP.PrintName = "MP5"
 SWEP.Author = "Heckler & Koch"
 SWEP.Instructions = "в аудио-плеере мп3, на компе мп4, в школьном рюкзаке лежит мп5"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

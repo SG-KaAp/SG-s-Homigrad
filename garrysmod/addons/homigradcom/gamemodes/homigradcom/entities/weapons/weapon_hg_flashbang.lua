@@ -1,9 +1,9 @@
 SWEP.Base = "weapon_hg_granade_base"
 
 SWEP.PrintName = "Светошумовая Граната"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Специальное средство несмертельного действия, оказывающие на человека светозвуковое и осколочное воздействие."
-SWEP.Category = "Гранаты"
+SWEP.Category = "SG's Homigrad | Гранаты"
 
 SWEP.Slot = 4
 SWEP.SlotPos = 2

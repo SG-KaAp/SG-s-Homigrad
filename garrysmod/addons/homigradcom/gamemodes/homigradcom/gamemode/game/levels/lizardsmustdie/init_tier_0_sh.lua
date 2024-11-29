@@ -13,7 +13,7 @@ lizardsmustdie.red = {"РУСЫ",Color(55,55,150),
 lizardsmustdie.blue = {"ЯЩЕРЫ",Color(75,45,45),
 	weapons = {"weapon_hands","med_band_big","med_band_small","weapon_radio","shina","food_beer"},
 	main_weapon = {"weapon_hg_sword"},
-	secondary_weapon = {"weapon_hg_metalbat", "weapon_bat","weapon_pipe"},
+	secondary_weapon = {},
 	models = {"models/mailer/characters/tesv_argonianfemale.mdl","models/mailer/characters/tesv_maleargonian.mdl"}
 }
 

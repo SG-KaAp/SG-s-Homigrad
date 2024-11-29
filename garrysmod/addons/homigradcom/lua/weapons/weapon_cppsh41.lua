@@ -4,7 +4,7 @@ SWEP.Base = 'salat_base' -- base
 SWEP.PrintName 				= "ППШ-41"
 SWEP.Author 				= "Ce1azz"
 SWEP.Instructions			= "Пистолет-пулемёт под калибр 9х19"
-SWEP.Category 				= "Оружие 2"
+SWEP.Category 				= "SG's Homigrad | ПП"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

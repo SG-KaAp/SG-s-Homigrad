@@ -1,0 +1,2606 @@
+<Logging continued from "data/ulx_logs/11-25-24.txt">
+[00:13:59] Client "Yhwach" connected.
+[00:24:25] Client "Yhwach" spawned in server <STEAM_0:1:563300791> (took 626 seconds).
+[00:24:53] Dropped "Yhwach" from server<STEAM_0:1:563300791>
+[08:01:03] Client "binocol" connected.
+[08:02:18] Client "binocol" spawned in server <STEAM_0:0:510217317> (took 75 seconds).
+[08:03:01] Dropped "binocol" from server<STEAM_0:0:510217317>
+[09:59:38] Client "Mann" connected.
+[10:11:44] Client "Mann" spawned in server <STEAM_0:1:573141501> (took 726 seconds).
+[10:13:11] Dropped "Mann" from server<STEAM_0:1:573141501>
+[10:17:42] Client "Упал намоченный" connected.
+[10:18:48] Client "Упал намоченный" spawned in server <STEAM_0:1:623115343> (took 66 seconds).
+[10:19:15] Dropped "Упал намоченный" from server<STEAM_0:1:623115343>
+[10:47:05] Client "kukusian" connected.
+[10:48:48] Client "kukusian" spawned in server <STEAM_0:0:761024921> (took 103 seconds).
+[10:49:50] Dropped "kukusian" from server<STEAM_0:0:761024921>
+[11:04:28] Client "[𝓩𝓵𝓸𝔂]CREA" connected.
+[11:06:59] Client "[𝓩𝓵𝓸𝔂]CREA" spawned in server <STEAM_0:0:609886268> (took 151 seconds).
+[11:08:47] Dropped "[𝓩𝓵𝓸𝔂]CREA" from server<STEAM_0:0:609886268>
+[11:22:17] Client "P1gmentoCore" connected.
+[12:00:40] Client "[𝓩𝓵𝓸𝔂]CREA" connected.
+[12:01:59] Client "[𝓩𝓵𝓸𝔂]CREA" spawned in server <STEAM_0:0:609886268> (took 79 seconds).
+[12:02:54] Dropped "[𝓩𝓵𝓸𝔂]CREA" from server<STEAM_0:0:609886268>
+[12:08:36] Client "Неко-Арк" connected.
+[12:09:40] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 64 seconds).
+[12:11:28] Dropped "Неко-Арк" from server<STEAM_0:0:571814230>
+[12:20:43] Client "fost1k" connected.
+[12:49:51] Client "Неко-Арк" connected.
+[12:50:53] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 62 seconds).
+[12:52:16] Неко-Арк: !motd
+[12:52:48] Client "50 ммр ценности" connected.
+[12:53:09] Неко-Арк: https://steamcommunity.com/workshop/filedetails/?id=3339891812
+[12:54:06] Dropped "Неко-Арк" from server<STEAM_0:0:571814230>
+[12:54:31] Client "Неко-Арк" connected.
+[12:54:47] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 119 seconds).
+[12:55:30] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[13:00:37] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 366 seconds).
+[13:03:19] Dropped "Неко-Арк" from server<STEAM_0:0:571814230>
+[14:12:10] Client "Неко-Арк" connected.
+[14:12:57] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 47 seconds).
+[14:20:00] Dropped "Неко-Арк" from server<STEAM_0:0:571814230>
+[14:21:12] Client "ЪУЪ" connected.
+[14:29:30] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 498 seconds).
+[14:32:03] Dropped "ЪУЪ" from server<STEAM_0:0:235451227>
+[14:42:17] Client "Fimozzz" connected.
+[14:43:36] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 79 seconds).
+[14:44:29] (Console) сменил карту на rp_hometown1999
+[14:44:29] Server is shutting down/changing levels.
+
+
+
+[14:44:39] New map: rp_hometown1999
+[14:44:40] Server is shutting down/changing levels.
+
+
+
+[14:44:47] New map: rp_hometown1999
+[14:44:47] Client "Fimozzz" connected.
+[14:44:47] Client "Fimozzz" connected.
+
+
+
+[14:45:15] New map: ttt_aircraft_v3
+[14:46:06] Client "fost1k" connected.
+[14:48:01] Client "Fimozzz" connected.
+[14:48:36] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 35 seconds).
+[14:50:51] Client "борис убивака" connected.
+[14:51:50] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[14:52:11] Client "Rarirury" connected.
+[14:58:10] Client "борис убивака" spawned in server <STEAM_0:1:482258132> (took 439 seconds).
+[15:00:05] Client "Jesus is our everything" connected.
+[15:08:05] Dropped "борис убивака" from server<STEAM_0:1:482258132>
+[15:10:07] Client "борис убивака" connected.
+[15:11:21] Client "борис убивака" spawned in server <STEAM_0:1:482258132> (took 74 seconds).
+[15:15:42] Client "Bashmak752" connected.
+[15:16:50] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 68 seconds).
+[15:18:27] Client "Oleg" connected.
+[15:18:33] Client "Oleg" connected.
+[15:19:06] Client "Oleg" spawned in server <STEAM_0:1:636778118> (took 33 seconds).
+[15:20:18] Bashmak752 suicided!
+[15:21:19] Oleg suicided!
+[15:23:27] Oleg suicided!
+[15:23:33] борис убивака suicided!
+[15:23:57] Oleg suicided!
+[15:24:50] Bashmak752 killed Bashmak752
+[15:25:20] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[15:26:00] Oleg suicided!
+[15:26:39] Oleg suicided!
+[15:27:08] Bashmak752 suicided!
+[15:27:13] борис убивака suicided!
+[15:27:32] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 132 seconds).
+[15:28:12] Dropped "ᴋоʙᴀᴩныᴇ яйцᴀ" from server<STEAM_0:1:638498957>
+[15:29:53] Bashmak752 suicided!
+[15:29:54] Oleg suicided!
+[15:30:39] Oleg suicided!
+[15:31:14] Client "Ctrl+v" connected.
+[15:31:50] борис убивака suicided!
+[15:32:04] Client "Неко-Арк" connected.
+[15:32:53] Oleg suicided!
+[15:32:57] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 53 seconds).
+[15:33:39] Bashmak752 suicided!
+[15:35:01] Неко-Арк suicided!
+[15:36:19] борис убивака suicided!
+[15:36:56] Oleg suicided!
+[15:37:02] борис убивака suicided!
+[15:37:02] Bashmak752 suicided!
+[15:37:02] Oleg suicided!
+[15:37:02] Неко-Арк suicided!
+[15:37:32] (Console) сменил карту на cs_christ_borough
+[15:37:32] Server is shutting down/changing levels.
+
+
+
+[15:37:41] New map: cs_christ_borough
+[15:37:41] Server is shutting down/changing levels.
+
+
+
+[15:37:49] New map: cs_christ_borough
+[15:37:49] Client "Oleg" connected.
+[15:37:49] Client "Oleg" connected.
+[15:37:49] Client "борис убивака" connected.
+[15:37:49] Client "борис убивака" connected.
+[15:38:03] Client "Bashmak752" connected.
+[15:38:29] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 40 seconds).
+[15:38:35] Client "Oleg" spawned in server <STEAM_0:1:636778118> (took 46 seconds).
+[15:38:49] Client "борис убивака" spawned in server <STEAM_0:1:482258132> (took 60 seconds).
+[15:39:01] Client "Rarirury" connected.
+[15:39:04] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 61 seconds).
+[15:39:26] Client "Ctrl+v" spawned in server <STEAM_0:1:811487482> (took 97 seconds).
+[15:39:33] Oleg suicided!
+[15:39:36] Неко-Арк suicided!
+[15:41:22] Неко-Арк: bind v fake
+[15:41:55] Ctrl+v: а как регдол делать как падать
+[15:41:58] Bashmak752 killed Неко-Арк using player
+[15:42:42] Ctrl+v suicided!
+[15:42:42] Bashmak752 suicided!
+[15:42:46] Неко-Арк suicided!
+[15:43:08] Ctrl+v suicided!
+[15:43:11] Неко-Арк suicided!
+[15:43:16] Ctrl+v: за что блять
+[15:43:41] Oleg suicided!
+[15:44:01] Oleg suicided!
+[15:44:20] Oleg suicided!
+[15:44:36] Ctrl+v suicided!
+[15:44:40] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 339 seconds).
+[15:44:55] Bashmak752 suicided!
+[15:44:55] Bashmak752 suicided!
+[15:45:01] борис убивака suicided!
+[15:45:01] борис убивака suicided!
+[15:45:04] Неко-Арк suicided!
+[15:45:33] Oleg suicided!
+[15:45:35] Неко-Арк suicided!
+[15:45:38] Dropped "Oleg" from server<STEAM_0:1:636778118>
+[15:45:39] Client "Sined" connected.
+[15:46:19] Client "Fimozzz" connected.
+[15:46:23] Неко-Арк: !levelend
+[15:46:23] Неко-Арк голосует за Да
+[15:46:24] Rarirury голосует за Да
+[15:46:25] Bashmak752 голосует за Да
+[15:46:34] Bashmak752 suicided!
+[15:46:44] Ctrl+v: а на какую кнопку падать
+[15:47:07] Client "Sined" spawned in server <STEAM_0:1:550169720> (took 88 seconds).
+[15:47:09] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 50 seconds).
+[15:47:31] Bashmak752 suicided!
+[15:47:31] Bashmak752 suicided!
+[15:47:33] Rarirury suicided!
+[15:47:37] Client "Qwerty" connected.
+[15:48:09] Неко-Арк suicided!
+[15:48:19] Sined suicided!
+[15:48:22] Rarirury suicided!
+[15:48:51] Bashmak752 suicided!
+[15:49:01] Fimozzz suicided!
+[15:49:13] Sined suicided!
+[15:49:20] Rarirury suicided!
+[15:49:36] Client "НеШИЗ" connected.
+[15:49:45] Ctrl+v suicided!
+[15:49:48] Sined suicided!
+[15:49:51] Неко-Арк suicided!
+[15:49:58] Dropped "Неко-Арк" from server<STEAM_0:0:571814230>
+[15:50:41] Client "НеШИЗ" spawned in server <STEAM_0:0:783569113> (took 65 seconds).
+[15:50:50] Rarirury suicided!
+[15:50:52] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[15:50:52] Bashmak752 suicided!
+[15:50:59] Fimozzz suicided!
+[15:51:18] Fimozzz: xt cj vyjq
+[15:51:24] Fimozzz: че со мной
+[15:51:45] борис убивака suicided!
+[15:52:01] НеШИЗ suicided!
+[15:52:09] Rarirury suicided!
+[15:52:22] Fimozzz: ты нафиг по своим стреляешь
+[15:52:29] НеШИЗ: кто?
+[15:52:54] Rarirury suicided!
+[15:52:54] НеШИЗ suicided!
+[15:53:08] Fimozzz suicided!
+[15:53:08] Fimozzz suicided!
+[15:54:02] Ctrl+v suicided!
+[15:54:24] Client "Bebrik" connected.
+[15:54:31] борис убивака suicided!
+[15:54:41] Sined suicided!
+[15:54:53] борис убивака suicided!
+[15:54:56] НеШИЗ suicided!
+[15:55:32] НеШИЗ suicided!
+[15:55:43] Rarirury: афк 9999999
+[15:55:43] Dropped "Rarirury" from server<STEAM_0:0:59257294>
+[15:55:43] Rarirury suicided!
+[15:55:46] Ctrl+v suicided!
+[15:56:08] Fimozzz suicided!
+[15:56:24] НеШИЗ suicided!
+[15:56:43] борис убивака suicided!
+[15:56:43] борис убивака suicided!
+[15:57:05] Ctrl+v suicided!
+[15:57:05] Ctrl+v suicided!
+[15:57:26] Client "Rarirury" connected.
+[15:57:46] Sined suicided!
+[15:57:46] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 20 seconds).
+[15:57:51] Rarirury suicided!
+[15:58:31] Client "птерозоид" connected.
+[15:58:32] борис убивака suicided!
+[15:58:43] Client "C H E G O U.exe" connected.
+[15:58:58] Sined suicided!
+[16:01:28] Client "Orange_990" connected.
+[16:01:28] Ctrl+v suicided!
+[16:02:07] Rarirury suicided!
+[16:02:35] Rarirury suicided!
+[16:03:13] Fimozzz suicided!
+[16:03:47] борис убивака suicided!
+[16:03:51] Ctrl+v suicided!
+[16:04:07] Fimozzz suicided!
+[16:04:09] Fimozzz: !levelend
+[16:04:11] Sined голосует за Да
+[16:04:12] Fimozzz голосует за Да
+[16:04:13] Client "Keht" connected.
+[16:04:15] Ctrl+v голосует за Нет
+[16:04:24] Client "THANKGOD" connected.
+[16:04:39] Ctrl+v suicided!
+[16:04:42] Rarirury suicided!
+[16:04:48] Fimozzz suicided!
+[16:05:02] Fimozzz: нахер вы своих убиваете
+[16:05:10] Fimozzz: конч
+[16:05:34] Client "THANKGOD" spawned in server <STEAM_0:0:709713214> (took 70 seconds).
+[16:06:27] НеШИЗ suicided!
+[16:06:38] Client "cideM" connected.
+[16:06:42] НеШИЗ suicided!
+[16:06:42] борис убивака suicided!
+[16:06:44] Rarirury suicided!
+[16:06:47] Ctrl+v suicided!
+[16:06:47] Rarirury suicided!
+[16:06:47] Sined suicided!
+[16:06:47] борис убивака suicided!
+[16:06:47] Fimozzz suicided!
+[16:06:47] НеШИЗ suicided!
+[16:06:47] THANKGOD suicided!
+[16:06:55] Client "Утка_в_сланцах" connected.
+[16:07:17] (Console) сменил карту на deathrun_family_guy_final2
+[16:07:17] Server is shutting down/changing levels.
+
+
+
+[16:07:26] New map: deathrun_family_guy_final2
+[16:07:26] Server is shutting down/changing levels.
+
+
+
+[16:07:35] New map: deathrun_family_guy_final2
+[16:07:35] Client "cideM" connected.
+[16:07:35] Client "cideM" connected.
+[16:07:35] Client "Sined" connected.
+[16:07:35] Client "Sined" connected.
+[16:07:35] Client "Fimozzz" connected.
+[16:07:35] Client "Fimozzz" connected.
+[16:07:35] Client "борис убивака" connected.
+[16:07:35] Client "борис убивака" connected.
+[16:07:35] Client "THANKGOD" connected.
+[16:07:35] Client "THANKGOD" connected.
+[16:07:35] Client "птерозоид" connected.
+[16:07:35] Client "птерозоид" connected.
+[16:08:06] Client "THANKGOD" spawned in server <STEAM_0:0:709713214> (took 31 seconds).
+[16:08:07] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 32 seconds).
+[16:08:12] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 37 seconds).
+[16:08:13] Client "Багхантер (Pelemen)" connected.
+[16:08:16] Client "Sined" spawned in server <STEAM_0:1:550169720> (took 41 seconds).
+[16:08:21] Client "НеШИЗ" spawned in server <STEAM_0:0:783569113> (took 46 seconds).
+[16:08:24] Client "борис убивака" spawned in server <STEAM_0:1:482258132> (took 49 seconds).
+[16:08:24] Client "Bebrik" spawned in server <STEAM_0:1:633683622> (took 49 seconds).
+[16:08:34] Client "Ctrl+v" spawned in server <STEAM_0:1:811487482> (took 59 seconds).
+[16:08:42] Client "taiman" spawned in server <STEAM_0:1:806060327> (took 67 seconds).
+[16:09:15] Client "kukusian" connected.
+[16:09:22] THANKGOD: !noclip'
+[16:09:26] THANKGOD: !noclip
+[16:09:54] THANKGOD suicided!
+[16:09:55] Rarirury suicided!
+[16:10:12] Client "kukusian" spawned in server <STEAM_0:0:761024921> (took 57 seconds).
+[16:10:18] THANKGOD suicided!
+[16:10:18] Ctrl+v suicided!
+[16:10:51] taiman was killed by func_door
+[16:11:06] Client "Oleg" connected.
+[16:11:24] Dropped "Bebrik" from server<STEAM_0:1:633683622>
+[16:11:24] Bebrik suicided!
+[16:11:25] THANKGOD<STEAM_0:0:709713214> spawned sent grenade_helicopter
+[16:11:26] Sined suicided!
+[16:11:27] THANKGOD<STEAM_0:0:709713214> spawned sent grenade_helicopter
+[16:11:42] Client "Oleg" spawned in server <STEAM_0:1:636778118> (took 36 seconds).
+[16:11:43] Client "птерозоид" spawned in server <STEAM_0:0:630785233> (took 248 seconds).
+[16:11:43] Client "Багхантер (Pelemen)" spawned in server <STEAM_0:1:716884281> (took 210 seconds).
+[16:11:44] Dropped "НеШИЗ" from server<STEAM_0:0:783569113>
+[16:11:44] НеШИЗ suicided!
+[16:11:54] THANKGOD respawned Themself
+[16:11:57] THANKGOD: !noclip
+[16:12:08] борис убивака suicided!
+[16:12:14] THANKGOD<STEAM_0:0:709713214> spawned model models/props_lab/blastdoor001b.mdl
+[16:12:19] THANKGOD<STEAM_0:0:709713214> spawned model models/props_lab/blastdoor001b.mdl
+[16:12:26] THANKGOD<STEAM_0:0:709713214> spawned model models/props_lab/blastdoor001b.mdl
+[16:12:31] Sined suicided!
+[16:12:31] птерозоид suicided!
+[16:13:06] THANKGOD respawned Themself
+[16:13:31] taiman suicided!
+[16:13:37] Client "Утка_в_сланцах" spawned in server <STEAM_0:1:591321459> (took 362 seconds).
+[16:13:38] Client "Неко-Арк" connected.
+[16:13:45] Fimozzz: не умирай
+[16:13:56] Fimozzz suicided!
+[16:14:02] Client "Markatae" connected.
+[16:14:07] борис убивака suicided!
+[16:14:07] Rarirury suicided!
+[16:14:07] Ctrl+v suicided!
+[16:14:07] THANKGOD suicided!
+[16:14:13] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 35 seconds).
+[16:14:16] kukusian suicided!
+[16:14:33] Dropped "Ctrl+v" from server<STEAM_0:1:811487482>
+[16:14:33] Ctrl+v suicided!
+[16:14:34] THANKGOD suicided!
+[16:14:34] борис убивака suicided!
+[16:14:35] taiman suicided!
+[16:14:46] Dropped "борис убивака" from server<STEAM_0:1:482258132>
+[16:14:53] Oleg suicided!
+[16:14:55] Rarirury suicided!
+[16:15:01] Утка_в_сланцах was killed by func_door
+[16:15:02] kukusian was killed by func_door
+[16:15:22] *** птерозоид  показал военный билет: Пердаков Б.О. | РЯД | 102-й МСП | МОБИЛ | - | - |
+[16:15:48] *** птерозоид  показал военный билет: Пердаков Б.О. | РЯД | 102-й МСП | МОБИЛ | - | - |
+[16:16:20] Sined was killed by trigger_hurt
+[16:16:31] Неко-Арк suicided!
+[16:16:32] Client "barboskotbaris04" connected.
+[16:16:35] птерозоид suicided!
+[16:16:40] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[16:16:47] THANKGOD respawned Themself
+[16:16:51] THANKGOD: !noclip
+[16:17:23] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 43 seconds).
+[16:17:38] *** птерозоид  показал военный билет: Пердаков Б.О. | РЯД | 102-й МСП | МОБИЛ | - | - |
+[16:17:43] Багхантер (Pelemen) suicided!
+[16:17:48] THANKGOD suicided!
+[16:17:52] Oleg suicided!
+[16:17:57] kukusian suicided!
+[16:17:57] Sined suicided!
+[16:17:59] Rarirury suicided!
+[16:18:00] птерозоид suicided!
+[16:18:38] taiman suicided!
+[16:18:58] Утка_в_сланцах suicided!
+[16:19:15] Fimozzz suicided!
+[16:19:25] Client "MARMELADKA222_333" connected.
+[16:19:34] Утка_в_сланцах suicided!
+[16:19:47] Dropped "Утка_в_сланцах" from server<STEAM_0:1:591321459>
+[16:19:49] Oleg suicided!
+[16:19:56] THANKGOD suicided!
+[16:20:00] Fimozzz suicided!
+[16:20:22] Dropped "ᴋоʙᴀᴩныᴇ яйцᴀ" from server<STEAM_0:1:638498957>
+[16:20:42] Багхантер (Pelemen) suicided!
+[16:21:22] птерозоид: афк 9999999
+[16:21:22] Dropped "птерозоид" from server<STEAM_0:0:630785233>
+[16:21:22] птерозоид suicided!
+[16:21:46] Client "sash1k3" connected.
+[16:22:24] Oleg suicided!
+[16:22:36] taiman suicided!
+[16:22:44] Rarirury suicided!
+[16:22:46] Неко-Арк suicided!
+[16:22:54] Багхантер (Pelemen) suicided!
+[16:23:09] Oleg: в начале
+[16:23:10] Client "doglover68" connected.
+[16:24:27] Dropped "taiman" from server<STEAM_0:1:806060327>
+[16:24:27] taiman suicided!
+[16:24:48] Dropped "Неко-Арк" from server<STEAM_0:0:571814230>
+[16:25:02] Oleg suicided!
+[16:25:10] Багхантер (Pelemen) suicided!
+[16:25:20] Fimozzz suicided!
+[16:26:29] kukusian suicided!
+[16:26:37] Client "taiman" connected.
+[16:27:16] Client "taiman" spawned in server <STEAM_0:1:806060327> (took 39 seconds).
+[16:27:24] kukusian suicided!
+[16:27:28] Client "doglover68" spawned in server <STEAM_0:1:621843185> (took 258 seconds).
+[16:27:35] Client "marki" connected.
+[16:27:43] Rarirury suicided!
+[16:27:43] Client "Mboe Mboe" connected.
+[16:27:46] THANKGOD suicided!
+[16:27:50] Client "Qwerty" connected.
+[16:29:02] Rarirury suicided!
+[16:30:08] doglover68 suicided!
+[16:30:46] Багхантер (Pelemen) suicided!
+[16:31:04] Rarirury suicided!
+[16:31:04] Багхантер (Pelemen) suicided!
+[16:31:04] doglover68 suicided!
+[16:31:30] Oleg suicided!
+[16:31:57] kukusian suicided!
+[16:32:00] Client "Pentazocine" connected.
+[16:32:30] kukusian suicided!
+[16:32:38] Client "Pentazocine" spawned in server <STEAM_0:0:569758844> (took 38 seconds).
+[16:32:56] Oleg suicided!
+[16:33:48] Client "marki" spawned in server <STEAM_0:0:709551420> (took 373 seconds).
+[16:33:55] THANKGOD: !menu
+[16:34:58] THANKGOD забанил Rarirury на 1 hour (OSR (Оск.Родни)| Мешает играть|TeamKill|)
+[16:34:58] Dropped "Rarirury" from server<STEAM_0:0:59257294>
+[16:34:59] Client "Qwerty" spawned in server <STEAM_0:1:660065253> (took 429 seconds).
+[16:35:03] Sined suicided!
+[16:36:05] Client "ДимASS" connected.
+[16:36:43] Fimozzz suicided!
+[16:36:48] doglover68 suicided!
+[16:36:48] taiman suicided!
+[16:36:48] marki suicided!
+[16:36:48] Pentazocine suicided!
+[16:36:48] Sined suicided!
+[16:36:48] Fimozzz suicided!
+[16:36:48] THANKGOD suicided!
+[16:36:48] Qwerty suicided!
+[16:36:48] Багхантер (Pelemen) suicided!
+[16:36:48] kukusian suicided!
+[16:36:48] Oleg suicided!
+[16:36:59] Client "MARMELADKA222_333" spawned in server <STEAM_0:0:912120677> (took 1054 seconds).
+[16:37:18] (Console) сменил карту на de_train
+[16:37:18] Server is shutting down/changing levels.
+
+
+
+[16:37:28] New map: de_train
+[16:37:28] Server is shutting down/changing levels.
+
+
+
+[16:37:36] New map: de_train
+[16:37:36] Client "Fimozzz" connected.
+[16:37:36] Client "Sined" connected.
+[16:37:36] Client "Sined" connected.
+[16:37:36] Client "THANKGOD" connected.
+[16:37:36] Client "THANKGOD" connected.
+[16:37:49] Client "ДимASS" connected.
+[16:38:02] Client "marki" spawned in server <STEAM_0:0:709551420> (took 26 seconds).
+[16:38:03] Client "Oleg" spawned in server <STEAM_0:1:636778118> (took 27 seconds).
+[16:38:06] Client "Fimozzz" spawned in server <STEAM_0:1:771215697> (took 30 seconds).
+[16:38:09] Client "Qwerty" spawned in server <STEAM_0:1:660065253> (took 33 seconds).
+[16:38:10] Client "THANKGOD" spawned in server <STEAM_0:0:709713214> (took 34 seconds).
+[16:38:11] Client "Pentazocine" spawned in server <STEAM_0:0:569758844> (took 35 seconds).
+[16:38:13] Client "kukusian" spawned in server <STEAM_0:0:761024921> (took 37 seconds).
+[16:38:17] Client "Sined" spawned in server <STEAM_0:1:550169720> (took 41 seconds).
+[16:38:20] Oleg suicided!
+[16:38:21] Client "taiman" spawned in server <STEAM_0:1:806060327> (took 45 seconds).
+[16:38:21] Client "doglover68" spawned in server <STEAM_0:1:621843185> (took 45 seconds).
+[16:38:33] THANKGOD запустил голосование (TeamDeathMatch?)
+[16:38:33] THANKGOD: !vote TeamDeathMatch? Yes! No!
+[16:38:35] marki голосует за No!
+[16:38:35] Fimozzz голосует за No!
+[16:38:35] Qwerty голосует за Yes!
+[16:38:36] THANKGOD голосует за Yes!
+[16:38:36] Client "Rarirury" connected.
+[16:38:37] Sined голосует за No!
+[16:38:38] kukusian голосует за Yes!
+[16:38:41] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 52 seconds).
+[16:38:42] Oleg голосует за No!
+[16:38:43] Client "MARMELADKA222_333" spawned in server <STEAM_0:0:912120677> (took 67 seconds).
+[16:38:53] Результат: 'No!' . (4/10)
+[16:39:12] Dropped "taiman" from server<STEAM_0:1:806060327>
+[16:39:13] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 37 seconds).
+[16:39:16] marki suicided!
+[16:39:22] THANKGOD запустил голосование (ТДМ-Хотите-или-нет?)
+[16:39:22] THANKGOD: !vote ТДМ-Хотите-или-нет? Да неа
+[16:39:24] THANKGOD голосует за Да
+[16:39:25] marki голосует за неа
+[16:39:25] Rarirury голосует за неа
+[16:39:25] Fimozzz голосует за неа
+[16:39:26] Qwerty голосует за Да
+[16:39:26] Sined голосует за неа
+[16:39:29] kukusian голосует за неа
+[16:39:32] MARMELADKA222_333 голосует за Да
+[16:39:35] marki suicided!
+[16:39:38] Client "Утка_в_сланцах" connected.
+[16:39:41] Oleg голосует за Да
+[16:39:41] Результат: 'неа' . (5/12)
+[16:40:09] Pentazocine suicided!
+[16:40:41] Client "Утка_в_сланцах" spawned in server <STEAM_0:1:591321459> (took 63 seconds).
+[16:41:43] kukusian suicided!
+[16:42:10] Fimozzz: f xnj 'nf nfrjt
+[16:42:15] Pentazocine: афк 9999999
+[16:42:15] Dropped "Pentazocine" from server<STEAM_0:0:569758844>
+[16:42:15] Pentazocine suicided!
+[16:42:18] Fimozzz: что это такое
+[16:43:03] Oleg suicided!
+[16:43:22] Dropped "MARMELADKA222_333" from server<STEAM_0:0:912120677>
+[16:43:22] MARMELADKA222_333 suicided!
+[16:43:26] marki suicided!
+[16:44:01] Rarirury suicided!
+[16:44:35] THANKGOD suicided!
+[16:44:36] ДимASS suicided!
+[16:44:44] doglover68 suicided!
+[16:44:48] kukusian suicided!
+[16:45:01] Qwerty suicided!
+[16:45:05] Oleg suicided!
+[16:45:33] Утка_в_сланцах: афк 9999999
+[16:45:33] Dropped "Утка_в_сланцах" from server<STEAM_0:1:591321459>
+[16:45:33] Утка_в_сланцах suicided!
+[16:45:53] Fimozzz suicided!
+[16:45:53] Fimozzz suicided!
+[16:46:00] Client "Утка_в_сланцах" connected.
+[16:46:34] Client "Утка_в_сланцах" spawned in server <STEAM_0:1:591321459> (took 34 seconds).
+[16:46:40] Sined suicided!
+[16:47:05] Client "Чипсон" connected.
+[16:47:10] marki suicided!
+[16:47:14] Rarirury suicided!
+[16:47:41] Client "Pentazocine" connected.
+[16:47:42] THANKGOD запустил голосование (Яйца?)
+[16:47:42] THANKGOD: !vote Яйца? ДАА  нит
+[16:47:43] Client "AnapaDogs FOKINF" connected.
+[16:47:43] THANKGOD голосует за ДАА
+[16:47:43] Sined голосует за ДАА
+[16:47:44] Fimozzz голосует за нит
+[16:47:44] Rarirury голосует за ДАА
+[16:47:44] Qwerty голосует за ДАА
+[16:47:44] Утка_в_сланцах голосует за нит
+[16:47:44] kukusian голосует за нит
+[16:47:45] ДимASS голосует за нит
+[16:47:58] Oleg голосует за ДАА
+[16:48:01] Client "50 ммр ценности" connected.
+[16:48:02] Результат: 'ДАА' . (5/11)
+[16:48:03] Client "Pentazocine" spawned in server <STEAM_0:0:569758844> (took 22 seconds).
+[16:48:20] Fimozzz suicided!
+[16:48:25] THANKGOD: !noclip
+[16:48:33] Fimozzz: пидоры
+[16:48:34] Утка_в_сланцах suicided!
+[16:48:44] Fimozzz: лох
+[16:48:50] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 49 seconds).
+[16:48:50] Fimozzz: лошара ебаное
+[16:49:03] ДимASS suicided!
+[16:49:18] Client "AnapaDogs FOKINF" spawned in server <STEAM_0:0:536134978> (took 95 seconds).
+[16:49:26] ДимASS set Themself's model to models/player/open season/boog.mdl with colors R:255, G:255, B:255
+[16:49:28] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:49:35] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:49:54] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:49:54] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:50:03] doglover68 suicided!
+[16:50:03] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:50:12] THANKGOD: +walk
+[16:50:28] 50 ммр ценности suicided!
+[16:50:28] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:50:39] Rarirury suicided!
+[16:50:43] Fimozzz killed THANKGOD using player
+[16:50:48] Client "negrillo556" connected.
+[16:50:49] Client "ласковый май" connected.
+[16:51:00] Oleg suicided!
+[16:51:22] Qwerty suicided!
+[16:51:43] Fimozzz suicided!
+[16:51:57] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:51:58] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:51:59] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:52:00] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_ceramicpot
+[16:52:01] Client "krytoi22132" connected.
+[16:52:06] Sined suicided!
+[16:52:07] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_ceramicpot
+[16:52:10] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:52:14] Fimozzz suicided!
+[16:52:21] ДимASS запустил голосование (прятки?)
+[16:52:21] ДимASS: !vote "прятки?" Da Net
+[16:52:22] Rarirury голосует за Net
+[16:52:22] AnapaDogs FOKINF голосует за Da
+[16:52:23] THANKGOD голосует за Da
+[16:52:23] 50 ммр ценности голосует за Net
+[16:52:23] Утка_в_сланцах голосует за Da
+[16:52:23] Fimozzz голосует за Da
+[16:52:24] marki голосует за Net
+[16:52:24] kukusian голосует за Net
+[16:52:24] Oleg голосует за Da
+[16:52:26] marki suicided!
+[16:52:28] Pentazocine голосует за Da
+[16:52:28] Client "Чипсон" connected.
+[16:52:28] THANKGOD suicided!
+[16:52:29] Oleg suicided!
+[16:52:31] Sined голосует за Da
+[16:52:36] Qwerty голосует за Da
+[16:52:39] ДимASS голосует за Net
+[16:52:41] Результат: 'Da' . (8/14)
+[16:52:43] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_ceramicpot
+[16:52:43] Fimozzz suicided!
+[16:52:46] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:52:47] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:52:48] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:52:49] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:52:50] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:53:01] Qwerty suicided!
+[16:53:22] Утка_в_сланцах suicided!
+[16:53:42] marki suicided!
+[16:53:45] Oleg suicided!
+[16:53:48] AnapaDogs FOKINF suicided!
+[16:54:00] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_ceramicpot
+[16:54:01] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:54:02] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:54:02] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:54:03] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:54:11] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" connected.
+[16:54:16] Rarirury suicided!
+[16:54:18] Client "Чипсон" spawned in server <STEAM_0:0:721560350> (took 110 seconds).
+[16:54:30] Client "negrillo556" spawned in server <STEAM_0:1:615248108> (took 222 seconds).
+[16:54:34] Client "adamgreen.adam" connected.
+[16:54:40] Fimozzz suicided!
+[16:54:52] Client "スバルノ" connected.
+[16:54:55] Client "ᴋоʙᴀᴩныᴇ яйцᴀ" spawned in server <STEAM_0:1:638498957> (took 44 seconds).
+[16:54:56] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:54:57] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[16:54:58] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_ceramicpot
+[16:55:09] Fimozzz: конус у тебя в жове
+[16:55:11] Dropped "ᴋоʙᴀᴩныᴇ яйцᴀ" from server<STEAM_0:1:638498957>
+[16:55:13] kukusian suicided!
+[16:55:13] kukusian suicided!
+[16:55:25] marki suicided!
+[16:55:25] 50 ммр ценности suicided!
+[16:55:42] Утка_в_сланцах suicided!
+[16:56:48] Client "viktorbilenko7" connected.
+[16:56:52] Rarirury suicided!
+[16:57:05] Client "I'm NOT spy" connected.
+[16:57:07] Pentazocine suicided!
+[16:57:19] Чипсон suicided!
+[16:57:26] (TEAM) Fimozzz: он там
+[16:57:50] Утка_в_сланцах suicided!
+[16:57:51] marki suicided!
+[16:57:52] negrillo556: афк 9999999
+[16:57:52] Dropped "negrillo556" from server<STEAM_0:1:615248108>
+[16:57:52] negrillo556 suicided!
+[16:57:55] THANKGOD suicided!
+[16:57:57] Oleg suicided!
+[16:58:02] Client "negrillo556" connected.
+[16:58:09] Client "ImogenHeap" connected.
+[16:58:09] Client "_VAFLYA_" connected.
+[16:58:19] 50 ммр ценности suicided!
+[16:58:21] Client "_VAFLYA_" connected.
+[16:58:23] THANKGOD suicided!
+[16:58:26] Qwerty suicided!
+[16:58:28] doglover68 suicided!
+[16:58:31] Oleg suicided!
+[16:58:31] Client "negrillo556" spawned in server <STEAM_0:1:615248108> (took 29 seconds).
+[16:58:39] Чипсон suicided!
+[16:58:45] ДимASS suicided!
+[16:58:58] Утка_в_сланцах suicided!
+[16:59:01] kukusian suicided!
+[16:59:15] Rarirury suicided!
+[16:59:36] ДимASS: [26/11/2024 - 04:55:46 PM] 50 ммр ценности(unknown) used ULX command ' vote кто меня убил сын шюхи'
+[17:00:17] marki suicided!
+[17:00:25] Client "スバルノ" spawned in server <STEAM_0:0:634337722> (took 333 seconds).
+[17:00:37] 50 ммр ценности: !levelend
+[17:00:47] Sined suicided!
+[17:01:02] Pentazocine suicided!
+[17:01:06] Client "adamgreen.adam" spawned in server <STEAM_0:1:772899156> (took 392 seconds).
+[17:01:36] THANKGOD<STEAM_0:0:709713214> spawned sent ent_othershit_box
+[17:01:38] Fimozzz suicided!
+[17:01:40] THANKGOD<STEAM_0:0:709713214> spawned sent ent_othershit_box
+[17:01:55] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_ceramicpot
+[17:01:56] ДимASS<STEAM_0:0:206797798> spawned vehicle models/source_vehicles/van001a_01_nodoor.mdl
+[17:01:57] ДимASS<STEAM_0:0:206797798> spawned vehicle models/source_vehicles/van001a_01_nodoor.mdl
+[17:01:57] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:01:58] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:01:59] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:01:59] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:02:00] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:02:02] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:02:16] Qwerty suicided!
+[17:02:22] doglover68 suicided!
+[17:02:22] Fimozzz: как одеть
+[17:02:26] kukusian suicided!
+[17:02:26] Утка_в_сланцах suicided!
+[17:02:30] AnapaDogs FOKINF suicided!
+[17:02:31] negrillo556 suicided!
+[17:02:35] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:02:39] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_trafficcone
+[17:02:54] Client "M'nore" connected.
+[17:03:04] Fimozzz suicided!
+[17:03:05] スバルノ suicided!
+[17:03:11] Pentazocine suicided!
+[17:03:19] THANKGOD<STEAM_0:0:709713214> spawned sent ent_jack_gmod_ezarmor_htorso
+[17:03:31] THANKGOD suicided!
+[17:03:36] Dropped "Fimozzz" from server<STEAM_0:1:771215697>
+[17:03:54] Qwerty: !levelend
+[17:04:30] スバルノ suicided!
+[17:04:30] Чипсон suicided!
+[17:04:32] negrillo556 suicided!
+[17:04:36] 50 ммр ценности suicided!
+[17:04:41] THANKGOD suicided!
+[17:04:46] Dropped "adamgreen.adam" from server<STEAM_0:1:772899156>
+[17:04:46] adamgreen.adam suicided!
+[17:04:56] Oleg suicided!
+[17:05:14] doglover68 suicided!
+[17:05:24] Client "Капец" connected.
+[17:05:31] Qwerty suicided!
+[17:05:40] Утка_в_сланцах suicided!
+[17:06:03] marki suicided!
+[17:06:21] kukusian suicided!
+[17:06:26] ДимASS suicided!
+[17:06:46] Sined suicided!
+[17:07:04] Rarirury suicided!
+[17:07:13] Pentazocine: афк 9999999
+[17:07:13] Dropped "Pentazocine" from server<STEAM_0:0:569758844>
+[17:07:13] Pentazocine suicided!
+[17:07:16] Client "Капец" spawned in server <STEAM_0:0:26183405> (took 112 seconds).
+[17:07:47] Чипсон suicided!
+[17:07:51] Oleg suicided!
+[17:07:52] Rarirury suicided!
+[17:08:02] Qwerty suicided!
+[17:08:03] Dropped "スバルノ" from server<STEAM_0:0:634337722>
+[17:08:03] スバルノ suicided!
+[17:08:03] Sined suicided!
+[17:08:06] Утка_в_сланцах suicided!
+[17:08:06] 50 ммр ценности suicided!
+[17:08:06] 50 ммр ценности suicided!
+[17:08:39] AnapaDogs FOKINF suicided!
+[17:09:29] marki suicided!
+[17:09:39] Dropped "marki" from server<STEAM_0:0:709551420>
+[17:09:51] Dropped "Qwerty" from server<STEAM_0:1:660065253>
+[17:09:54] Client "Pentazocine" connected.
+[17:09:54] Client "Pentazocine" connected.
+[17:10:16] Client "Pentazocine" spawned in server <STEAM_0:0:569758844> (took 22 seconds).
+[17:10:33] Чипсон suicided!
+[17:10:33] Чипсон suicided!
+[17:10:35] Утка_в_сланцах suicided!
+[17:10:41] Dropped "Oleg" from server<STEAM_0:1:636778118>
+[17:10:41] Oleg suicided!
+[17:10:46] Sined killed doglover68 using player
+[17:10:50] kukusian suicided!
+[17:11:00] Sined suicided!
+[17:11:00] negrillo556 suicided!
+[17:11:01] Client "snak" connected.
+[17:11:13] THANKGOD suicided!
+[17:11:19] Утка_в_сланцах suicided!
+[17:11:19] doglover68 suicided!
+[17:11:19] Чипсон suicided!
+[17:11:19] ДимASS suicided!
+[17:11:19] Pentazocine suicided!
+[17:11:19] kukusian suicided!
+[17:11:19] AnapaDogs FOKINF suicided!
+[17:11:19] Капец suicided!
+[17:11:19] Sined suicided!
+[17:11:19] THANKGOD suicided!
+[17:11:19] Rarirury suicided!
+[17:11:19] 50 ммр ценности suicided!
+[17:11:19] negrillo556 suicided!
+[17:11:27] Dropped "Утка_в_сланцах" from server<STEAM_0:1:591321459>
+[17:11:49] (Console) сменил карту на de_train
+[17:11:49] Server is shutting down/changing levels.
+
+
+
+[17:11:57] New map: de_train
+[17:11:57] Server is shutting down/changing levels.
+
+
+
+[17:12:05] New map: de_train
+[17:12:05] Client "ДимASS" connected.
+[17:12:05] Client "Pentazocine" connected.
+[17:12:05] Client "Pentazocine" connected.
+[17:12:05] Client "50 ммр ценности" connected.
+[17:12:05] Client "50 ммр ценности" connected.
+[17:12:05] Client "AnapaDogs FOKINF" connected.
+[17:12:05] Client "AnapaDogs FOKINF" connected.
+[17:12:05] Client "doglover68" connected.
+[17:12:05] Client "doglover68" connected.
+[17:12:05] Client "kukusian" connected.
+[17:12:05] Client "kukusian" connected.
+[17:12:05] Client "Капец" connected.
+[17:12:05] Client "Rarirury" connected.
+[17:12:05] Client "Rarirury" connected.
+[17:12:05] Client "negrillo556" connected.
+[17:12:05] Client "negrillo556" connected.
+[17:12:05] Client "THANKGOD" connected.
+[17:12:05] Client "THANKGOD" connected.
+[17:12:05] Client "Чипсон" connected.
+[17:12:05] Client "Sined" connected.
+[17:12:05] Client "Sined" connected.
+[17:12:05] Client "snak" connected.
+[17:12:05] Client "snak" connected.
+[17:12:05] Client "Чипсон" connected.
+[17:12:25] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 20 seconds).
+[17:12:27] Client "Pentazocine" spawned in server <STEAM_0:0:569758844> (took 22 seconds).
+[17:12:30] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 25 seconds).
+[17:12:30] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 25 seconds).
+[17:12:31] Client "Чипсон" spawned in server <STEAM_0:0:721560350> (took 26 seconds).
+[17:12:33] Client "kukusian" spawned in server <STEAM_0:0:761024921> (took 28 seconds).
+[17:12:33] Client "negrillo556" spawned in server <STEAM_0:1:615248108> (took 28 seconds).
+[17:12:34] Client "Sined" spawned in server <STEAM_0:1:550169720> (took 29 seconds).
+[17:12:35] Client "doglover68" spawned in server <STEAM_0:1:621843185> (took 30 seconds).
+[17:12:36] Client "THANKGOD" spawned in server <STEAM_0:0:709713214> (took 31 seconds).
+[17:12:36] Client "AnapaDogs FOKINF" spawned in server <STEAM_0:0:536134978> (took 31 seconds).
+[17:13:03] Client "Капец" spawned in server <STEAM_0:0:26183405> (took 58 seconds).
+[17:13:07] ДимASS suicided!
+[17:13:09] Pentazocine suicided!
+[17:13:27] ДимASS suicided!
+[17:13:45] doglover68 suicided!
+[17:13:45] doglover68 suicided!
+[17:13:48] Sined suicided!
+[17:13:49] Капец suicided!
+[17:13:54] negrillo556 suicided!
+[17:14:02] THANKGOD<STEAM_0:0:709713214> spawned model models/props_c17/oildrum001.mdl
+[17:14:08] ДимASS respawned Themself
+[17:14:32] THANKGOD<STEAM_0:0:709713214> spawned model models/props_debris/barricade_short01a.mdl
+[17:14:34] kukusian suicided!
+[17:14:34] negrillo556 suicided!
+[17:14:41] doglover68 suicided!
+[17:14:45] Sined killed Rarirury using player
+[17:14:49] THANKGOD suicided!
+[17:15:05] 50 ммр ценности suicided!
+[17:15:14] Pentazocine suicided!
+[17:15:24] Капец suicided!
+[17:15:47] Client "чилловый парень" connected.
+[17:16:01] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[17:16:05] Dropped "THANKGOD" from server<STEAM_0:0:709713214>
+[17:16:21] AnapaDogs FOKINF suicided!
+[17:16:23] Client "THANKGOD" connected.
+[17:16:25] Sined killed Чипсон using player
+[17:16:39] doglover68 suicided!
+[17:16:39] Rarirury suicided!
+[17:16:53] Client "THANKGOD" spawned in server <STEAM_0:0:709713214> (took 30 seconds).
+[17:16:56] Client "otata" connected.
+[17:17:07] Client "orypeww" connected.
+[17:17:13] Client "snak" spawned in server <STEAM_0:1:444656227> (took 308 seconds).
+[17:17:33] negrillo556 suicided!
+[17:17:44] kukusian suicided!
+[17:17:45] AnapaDogs FOKINF suicided!
+[17:18:09] kukusian suicided!
+[17:18:14] Client "Неко-Арк" connected.
+[17:18:16] Dropped "THANKGOD" from server<STEAM_0:0:709713214>
+[17:18:16] THANKGOD suicided!
+[17:18:22] negrillo556 suicided!
+[17:18:26] doglover68 suicided!
+[17:18:29] Dropped "Капец" from server<STEAM_0:0:26183405>
+[17:18:29] Капец suicided!
+[17:18:30] Client "otata" spawned in server <STEAM_0:0:823223725> (took 94 seconds).
+[17:18:43] Rarirury suicided!
+[17:18:55] Dropped "Pentazocine" from server<STEAM_0:0:569758844>
+[17:18:55] Pentazocine suicided!
+[17:19:02] Client "Неко-Арк" spawned in server <STEAM_0:0:571814230> (took 48 seconds).
+[17:19:12] Sined suicided!
+[17:19:15] Client "ZAZA SMOKER" connected.
+[17:19:16] Dropped "otata" from server<STEAM_0:0:823223725>
+[17:19:25] AnapaDogs FOKINF suicided!
+[17:19:40] Неко-Арк: !levelend
+[17:19:43] Client "чилловый парень" spawned in server <STEAM_0:1:631879885> (took 236 seconds).
+[17:20:00] Client "otata" connected.
+[17:20:02] Rarirury suicided!
+[17:20:03] Client "pepsi lover" connected.
+[17:20:28] Client "otata" spawned in server <STEAM_0:0:823223725> (took 28 seconds).
+[17:20:36] doglover68 suicided!
+[17:20:36] Sined suicided!
+[17:20:43] negrillo556 suicided!
+[17:20:46] Неко-Арк suicided!
+[17:21:04] snak suicided!
+[17:21:36] Dropped "Неко-Арк" from server<STEAM_0:0:571814230>
+[17:21:44] kukusian suicided!
+[17:21:53] AnapaDogs FOKINF suicided!
+[17:21:54] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezimpactnade
+[17:22:41] чилловый парень suicided!
+[17:22:46] doglover68 suicided!
+[17:22:47] snak suicided!
+[17:23:00] Чипсон suicided!
+[17:23:01] Rarirury suicided!
+[17:23:10] kukusian suicided!
+[17:23:23] kukusian suicided!
+[17:23:33] otata suicided!
+[17:23:33] doglover68 suicided!
+[17:23:39] Sined suicided!
+[17:23:39] kukusian suicided!
+[17:23:52] snak suicided!
+[17:23:52] Dropped "otata" from server<STEAM_0:0:823223725>
+[17:23:52] otata suicided!
+[17:23:53] AnapaDogs FOKINF suicided!
+[17:23:57] чилловый парень suicided!
+[17:23:57] чилловый парень suicided!
+[17:24:00] kukusian suicided!
+[17:24:00] kukusian suicided!
+[17:24:04] Чипсон suicided!
+[17:24:12] Rarirury suicided!
+[17:24:21] kukusian suicided!
+[17:24:21] kukusian suicided!
+[17:24:38] Sined suicided!
+[17:24:38] Sined suicided!
+[17:24:44] doglover68 suicided!
+[17:24:50] doglover68 suicided!
+[17:24:50] doglover68 suicided!
+[17:24:55] ДимASS: !menu
+[17:25:07] Чипсон suicided!
+[17:25:08] чилловый парень suicided!
+[17:25:15] ДимASS забанил Rarirury на 1 day (Тим килл)
+[17:25:15] Dropped "Rarirury" from server<STEAM_0:0:59257294>
+[17:25:15] Rarirury suicided!
+[17:25:24] snak suicided!
+[17:25:34] Чипсон suicided!
+[17:25:47] чилловый парень suicided!
+[17:25:53] negrillo556 suicided!
+[17:25:57] AnapaDogs FOKINF suicided!
+[17:26:05] Sined suicided!
+[17:26:11] kukusian suicided!
+[17:26:13] AnapaDogs FOKINF suicided!
+[17:26:23] Sined suicided!
+[17:26:29] Чипсон suicided!
+[17:26:31] Чипсон suicided!
+[17:26:33] kukusian suicided!
+[17:26:35] snak suicided!
+[17:26:51] Client "ZAZA SMOKER" spawned in server <STEAM_0:0:141265072> (took 456 seconds).
+[17:26:56] snak suicided!
+[17:26:58] Sined suicided!
+[17:26:58] чилловый парень suicided!
+[17:27:03] AnapaDogs FOKINF suicided!
+[17:27:18] Dropped "ZAZA SMOKER" from server<STEAM_0:0:141265072>
+[17:27:18] ZAZA SMOKER suicided!
+[17:27:34] Sined suicided!
+[17:27:34] Sined suicided!
+[17:27:43] kukusian suicided!
+[17:27:49] чилловый парень suicided!
+[17:28:02] Чипсон suicided!
+[17:28:04] negrillo556 suicided!
+[17:28:19] Sined suicided!
+[17:28:22] Чипсон suicided!
+[17:28:27] Dropped "Чипсон" from server<STEAM_0:0:721560350>
+[17:28:29] snak suicided!
+[17:28:29] snak suicided!
+[17:28:31] negrillo556 suicided!
+[17:28:31] negrillo556 suicided!
+[17:28:33] kukusian suicided!
+[17:29:02] AnapaDogs FOKINF suicided!
+[17:29:02] AnapaDogs FOKINF suicided!
+[17:29:33] Client "иншааллах синуля" connected.
+[17:29:34] doglover68 suicided!
+[17:29:38] snak suicided!
+[17:29:55] kukusian suicided!
+[17:29:55] kukusian suicided!
+[17:29:59] Client "Shakal Onal" connected.
+[17:30:00] AnapaDogs FOKINF suicided!
+[17:30:17] negrillo556 suicided!
+[17:30:32] kukusian suicided!
+[17:30:38] doglover68 suicided!
+[17:30:53] Dropped "ДимASS" from server<STEAM_0:0:206797798>
+[17:30:53] ДимASS suicided!
+[17:30:54] чилловый парень suicided!
+[17:31:27] doglover68 suicided!
+[17:31:27] чилловый парень suicided!
+[17:31:49] kukusian suicided!
+[17:32:16] kukusian suicided!
+[17:32:21] чилловый парень suicided!
+[17:32:26] Dropped "kukusian" from server<STEAM_0:0:761024921>
+[17:32:31] Dropped "Sined" from server<STEAM_0:1:550169720>
+[17:32:31] Sined suicided!
+[17:33:05] negrillo556 suicided!
+[17:33:12] snak suicided!
+[17:33:50] Dropped "AnapaDogs FOKINF" from server<STEAM_0:0:536134978>
+[17:33:50] AnapaDogs FOKINF suicided!
+[17:34:36] Client "Shakal Onal" spawned in server <STEAM_0:1:107729359> (took 277 seconds).
+[17:34:52] Dropped "чилловый парень" from server<STEAM_0:1:631879885>
+[17:34:52] чилловый парень suicided!
+[17:35:38] doglover68 suicided!
+[17:35:40] negrillo556: нету
+[17:35:58] Shakal Onal suicided!
+[17:36:04] Dropped "Shakal Onal" from server<STEAM_0:1:107729359>
+[17:36:04] Shakal Onal suicided!
+[17:36:28] doglover68 suicided!
+[17:38:23] doglover68 suicided!
+[17:38:29] doglover68 suicided!
+[17:38:29] negrillo556 suicided!
+[17:38:29] snak suicided!
+[17:38:33] Dropped "negrillo556" from server<STEAM_0:1:615248108>
+[17:38:34] Dropped "doglover68" from server<STEAM_0:1:621843185>
+[17:38:49] Dropped "snak" from server<STEAM_0:1:444656227>
+[17:52:33] Client "kukusian" connected.
+[17:52:38] (Console) сменил карту на de_prodigy
+[17:52:38] Server is shutting down/changing levels.
+
+
+
+[17:52:49] New map: de_prodigy
+[17:52:49] Server is shutting down/changing levels.
+
+
+
+[17:52:57] New map: de_prodigy
+[17:52:57] Client "kukusian" connected.
+[17:52:57] Client "kukusian" connected.
+[17:53:27] Client "kukusian" spawned in server <STEAM_0:0:761024921> (took 30 seconds).
+[17:53:41] Dropped "kukusian" from server<STEAM_0:0:761024921>
+[17:56:08] Client "СВИНский ушЛЁПОК" connected.
+[17:56:43] Client "AnaforaAyan" connected.
+[17:58:13] Client "AnaforaAyan" spawned in server <STEAM_0:0:91548684> (took 90 seconds).
+[17:58:38] Dropped "AnaforaAyan" from server<STEAM_0:0:91548684>
+[18:04:24] Client "Chobot1998" connected.
+[18:04:28] Client "Chobot1998" connected.
+[18:19:19] Client "T J D" connected.
+[18:20:11] Client "T J D" spawned in server <STEAM_0:0:727692737> (took 52 seconds).
+[18:20:58] Client "Ctrl+v" connected.
+[18:22:40] Client "Ctrl+v" spawned in server <STEAM_0:1:811487482> (took 102 seconds).
+[18:23:22] Client "i hate n" connected.
+[18:24:30] Client "otata" connected.
+[18:25:07] Client "otata" spawned in server <STEAM_0:0:823223725> (took 37 seconds).
+[18:26:10] Ctrl+v suicided!
+[18:28:06] T J D suicided!
+[18:28:28] Dropped "Ctrl+v" from server<STEAM_0:1:811487482>
+[18:28:28] Ctrl+v suicided!
+[18:30:06] T J D suicided!
+[18:31:38] otata: ноу
+[18:32:23] otata: что блять
+[18:32:31] otata: ахахаххахаха
+[18:32:42] otata: иди нахуй я не бум бум
+[18:32:44] Client "Ctrl+v" connected.
+[18:32:59] Client "AlAmPoPaLaM" connected.
+[18:33:18] otata: ноууу
+[18:33:51] otata: по русски шпиль то я не бум бум
+[18:34:15] Client "Orange_990" connected.
+[18:34:17] Client "ShApOcHKa" connected.
+[18:34:32] Client "AlAmPoPaLaM" spawned in server <STEAM_0:0:630026690> (took 93 seconds).
+[18:34:36] Client "Ctrl+v" spawned in server <STEAM_0:1:811487482> (took 112 seconds).
+[18:35:14] Dropped "Ctrl+v" from server<STEAM_0:1:811487482>
+[18:35:33] otata suicided!
+[18:35:33] Client "Король Гемарой" connected.
+[18:35:51] otata suicided!
+[18:35:55] Dropped "otata" from server<STEAM_0:0:823223725>
+[18:36:02] Client "Король Гемарой" spawned in server <STEAM_0:1:778030574> (took 29 seconds).
+[18:36:20] Client "ShApOcHKa" spawned in server <STEAM_0:0:525406032> (took 123 seconds).
+[18:36:34] Client "Gr3nk!ch" connected.
+[18:36:34] T J D suicided!
+[18:38:07] AlAmPoPaLaM suicided!
+[18:40:30] AlAmPoPaLaM suicided!
+[18:40:33] T J D suicided!
+[18:40:36] Король Гемарой suicided!
+[18:40:56] Client "ЪУЪ" connected.
+[18:41:05] Dropped "Король Гемарой" from server<STEAM_0:1:778030574>
+[18:41:05] Король Гемарой suicided!
+[18:41:30] Dropped "ShApOcHKa" from server<STEAM_0:0:525406032>
+[18:41:30] ShApOcHKa suicided!
+[18:42:08] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 72 seconds).
+[18:42:35] Client "Sined" connected.
+[18:43:13] T J D suicided!
+[18:43:14] Client "Sined" spawned in server <STEAM_0:1:550169720> (took 39 seconds).
+[18:43:40] T J D suicided!
+[18:45:45] ЪУЪ suicided!
+[18:46:05] T J D suicided!
+[18:47:10] Client "c4s | qRRaz11cHHH" connected.
+[18:47:29] Client "Goner" connected.
+[18:47:41] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 31 seconds).
+[18:48:01] T J D suicided!
+[18:48:05] ЪУЪ suicided!
+[18:48:08] AlAmPoPaLaM suicided!
+[18:48:33] c4s | qRRaz11cHHH suicided!
+[18:49:15] ЪУЪ suicided!
+[18:49:37] T J D suicided!
+[18:50:31] Sined suicided!
+[18:50:37] T J D suicided!
+[18:50:37] Sined suicided!
+[18:50:37] AlAmPoPaLaM suicided!
+[18:50:37] ЪУЪ suicided!
+[18:50:37] c4s | qRRaz11cHHH suicided!
+[18:50:40] Client "Король Гемарой" connected.
+[18:51:05] Client "Король Гемарой" spawned in server <STEAM_0:1:778030574> (took 25 seconds).
+[18:51:07] (Console) сменил карту на cs_havana
+[18:51:07] Server is shutting down/changing levels.
+
+
+
+[18:51:18] New map: cs_havana
+[18:51:18] Server is shutting down/changing levels.
+
+
+
+[18:51:26] New map: cs_havana
+[18:51:26] Client "Gr3nk!ch" connected.
+[18:51:26] Client "Gr3nk!ch" connected.
+[18:51:26] Client "AlAmPoPaLaM" connected.
+[18:51:26] Client "AlAmPoPaLaM" connected.
+[18:51:26] Client "c4s | qRRaz11cHHH" connected.
+[18:51:26] Client "c4s | qRRaz11cHHH" connected.
+[18:51:26] Client "T J D" connected.
+[18:51:26] Client "T J D" connected.
+[18:51:26] Client "Король Гемарой" connected.
+[18:51:26] Client "Король Гемарой" connected.
+[18:51:26] Client "ЪУЪ" connected.
+[18:51:26] Client "ЪУЪ" connected.
+[18:51:26] Client "Sined" connected.
+[18:51:42] Client "SG_KaAp" connected.
+[18:51:46] Client "Король Гемарой" spawned in server <STEAM_0:1:778030574> (took 20 seconds).
+[18:51:46] Client "akUss_Yulia" connected.
+[18:51:48] Client "SG_KaAp" connected.
+[18:51:50] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 24 seconds).
+[18:51:55] Client "T J D" spawned in server <STEAM_0:0:727692737> (took 29 seconds).
+[18:51:56] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 30 seconds).
+[18:51:56] Client "Sined" spawned in server <STEAM_0:1:550169720> (took 30 seconds).
+[18:52:01] Король Гемарой suicided!
+[18:52:15] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 27 seconds).
+[18:52:15] Client "AlAmPoPaLaM" spawned in server <STEAM_0:0:630026690> (took 49 seconds).
+[18:52:21] Sined suicided!
+[18:52:34] ЪУЪ suicided!
+[18:52:50] Sined suicided!
+[18:52:55] Король Гемарой suicided!
+[18:52:56] SG_KaAp запустил голосование (Ставить обновление? Сервер вырубиться)
+[18:52:56] SG_KaAp: !vote "Ставить обновление? Сервер вырубиться" да нет
+[18:52:59] c4s | qRRaz11cHHH голосует за да
+[18:53:00] SG_KaAp suicided!
+[18:53:00] SG_KaAp suicided!
+[18:53:01] Sined голосует за да
+[18:53:02] AlAmPoPaLaM голосует за нет
+[18:53:16] Результат: 'да' . (2/7)
+[18:53:29] Client "Gr3nk!ch" spawned in server <STEAM_0:1:859896297> (took 123 seconds).
+[18:53:41] ЪУЪ suicided!
+[18:54:02] Dropped "Король Гемарой" from server<STEAM_0:1:778030574>
+[18:54:06] T J D suicided!
+[18:54:07] SG_KaAp запустил голосование (Ставить обновление? Сервер вырубиться)
+[18:54:07] SG_KaAp: !vote "Ставить обновление? Сервер вырубиться" да нет
+[18:54:07] AlAmPoPaLaM suicided!
+[18:54:10] c4s | qRRaz11cHHH голосует за да
+[18:54:11] AlAmPoPaLaM голосует за нет
+[18:54:12] ЪУЪ голосует за да
+[18:54:24] Sined голосует за да
+[18:54:26] Gr3nk!ch голосует за да
+[18:54:27] SG_KaAp голосует за да
+[18:54:27] Результат: 'да' . (5/7)
+[18:55:08] SG_KaAp: !menu
+[18:56:23] (csay from SG_KaAp) В следующем раунде обновлкение!
+[18:56:26] (csay from SG_KaAp) В следующем раунде обновлкение!
+[18:56:26] (csay from SG_KaAp) В следующем раунде обновлкение!
+[18:56:35] T J D: афк 9999999
+[18:56:35] Dropped "T J D" from server<STEAM_0:0:727692737>
+[18:56:35] T J D suicided!
+[18:56:44] Dropped "Gr3nk!ch" from server<STEAM_0:1:859896297>
+[18:56:44] Gr3nk!ch suicided!
+[18:57:31] c4s | qRRaz11cHHH suicided!
+[18:57:33] Sined suicided!
+[18:57:47] Client "Dude" connected.
+[18:57:52] Client "naprimer_pawel" connected.
+[18:57:55] AlAmPoPaLaM suicided!
+[18:57:56] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[18:57:56] SG_KaAp suicided!
+[18:59:20] AlAmPoPaLaM suicided!
+[18:59:23] (csay from Console)  ,   
+[18:59:28] Server is shutting down/changing levels.
+
+
+
+[19:10:12] New map: gm_liminal_hotel
+[19:11:06] Client "SG_KaAp" connected.
+[19:11:38] Client "Король Гемарой" connected.
+[19:11:46] Client "tupikrupik" connected.
+[19:13:27] Client "Король Гемарой" spawned in server <STEAM_0:1:778030574> (took 109 seconds).
+[19:13:32] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 146 seconds).
+[19:13:48] SG_KaAp: Слушаю и повинуюсь!
+[19:13:49] Client "Башмак" connected.
+[19:13:52] SG_KaAp: !menu
+[19:14:00] Client "tupikrupik" spawned in server <STEAM_0:1:776813961> (took 134 seconds).
+[19:14:16] SG_KaAp: Слушаю и повинуюсь!
+[19:14:21] SG_KaAp: Урааа!
+[19:14:24] SG_KaAp: Аахахахаха!
+[19:14:29] SG_KaAp: Да
+[19:14:30] Король Гемарой: Идём!
+[19:14:55] SG_KaAp: bind b fake
+[19:14:59] SG_KaAp: Все танцуем!
+[19:15:03] Король Гемарой suicided!
+[19:15:05] SG_KaAp suicided!
+[19:15:16] (TEAM) Король Гемарой: !bind b fake
+[19:15:21] SG_KaAp: Да
+[19:15:27] SG_KaAp: Здравия желаю!
+[19:15:33] SG_KaAp: Урааа!
+[19:15:42] SG_KaAp: Все танцуем!
+[19:15:52] Король Гемарой suicided!
+[19:16:00] tupikrupik: а как метаться?
+[19:16:03] (TEAM) Король Гемарой: bind b fake
+[19:16:23] SG_KaAp suicided!
+[19:16:23] SG_KaAp suicided!
+[19:16:27] tupikrupik: Аахахахаха!
+[19:16:34] tupikrupik: Здравия желаю!
+[19:16:38] Король Гемарой: Нет
+[19:16:40] Король Гемарой: Нет
+[19:16:55] Client "akUss_Yulia" connected.
+[19:16:56] SG_KaAp suicided!
+[19:16:57] Король Гемарой suicided!
+[19:17:15] Король Гемарой suicided!
+[19:17:18] tupikrupik suicided!
+[19:17:21] SG_KaAp: Все танцуем!
+[19:17:34] Client "Bashmak752" connected.
+[19:17:37] SG_KaAp: Все танцуем!
+[19:17:42] Король Гемарой: Все танцуем!
+[19:17:44] Король Гемарой suicided!
+[19:17:55] SG_KaAp: Слушаю и повинуюсь!
+[19:18:01] SG_KaAp: Урааа!
+[19:18:04] SG_KaAp: Урааа!
+[19:18:13] SG_KaAp suicided!
+[19:18:16] tupikrupik: Урааа!
+[19:18:24] SG_KaAp: Здравия желаю!
+[19:18:29] tupikrupik suicided!
+[19:18:35] SG_KaAp: Идём!
+[19:18:39] tupikrupik: заебался я быть трейтором
+[19:18:41] SG_KaAp: Аахахахаха!
+[19:18:51] tupikrupik: Все танцуем!
+[19:19:00] Client "Dude" connected.
+[19:19:36] tupikrupik suicided!
+[19:21:00] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 206 seconds).
+[19:21:03] tupikrupik suicided!
+[19:21:18] SG_KaAp suicided!
+[19:21:33] tupikrupik ударил Король Гемарой на 5 урон(а)
+[19:21:48] SG_KaAp: !frespawn
+[19:21:53] SG_KaAp respawned Themself
+[19:21:53] SG_KaAp: !frespawn ^
+[19:21:55] SG_KaAp предоставил режим бога Themself
+[19:21:55] SG_KaAp: !god
+[19:22:00] SG_KaAp переместился к Король Гемарой
+[19:22:01] tupikrupik suicided!
+[19:22:06] Client "ЪУЪ" connected.
+[19:22:15] SG_KaAp: Слушаю и повинуюсь!
+[19:22:17] tupikrupik respawned Themself
+[19:23:19] Король Гемарой: Все танцуем!
+[19:23:21] Король Гемарой: Слушаю и повинуюсь!
+[19:23:23] SG_KaAp: Все танцуем!
+[19:23:29] tupikrupik: Да
+[19:23:32] tupikrupik: Все танцуем!
+[19:23:33] tupikrupik: Все танцуем!
+[19:23:34] tupikrupik: Все танцуем!
+[19:23:35] Король Гемарой: Нет
+[19:23:35] tupikrupik: Все танцуем!
+[19:23:35] SG_KaAp: Все танцуем!
+[19:23:39] SG_KaAp: Все танцуем!
+[19:23:56] (TEAM) Король Гемарой: Bind b fake
+[19:23:57] Король Гемарой: Нет
+[19:24:00] tupikrupik<STEAM_0:1:776813961> spawned NPC npc_breen
+[19:24:05] tupikrupik<STEAM_0:1:776813961> spawned NPC npc_breen
+[19:24:21] tupikrupik: я забрал
+[19:24:25] tupikrupik: ты кинул, а я забрал
+[19:24:29] tupikrupik: умно
+[19:24:40] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 154 seconds).
+[19:24:51] Client "c4s | qRRaz11cHHH" connected.
+[19:24:53] Bashmak752: !motd
+[19:25:01] SG_KaAp suicided!
+[19:25:01] SG_KaAp убил Themself
+[19:25:11] Bashmak752: bind key fake
+[19:25:13] Bashmak752: Урааа!
+[19:25:15] Bashmak752: Идём!
+[19:25:17] Bashmak752: Слушаю и повинуюсь!
+[19:25:39] Король Гемарой: bind b fake
+[19:25:45] Bashmak752: Все танцуем!
+[19:25:57] Король Гемарой: a
+[19:26:01] Bashmak752: Все танцуем!
+[19:26:13] Bashmak752: Все танцуем!
+[19:26:24] Bashmak752: Все танцуем!
+[19:26:34] Bashmak752 suicided!
+[19:26:50] Bashmak752: Все танцуем!
+[19:26:54] Bashmak752: Все танцуем!
+[19:27:15] Bashmak752: Все танцуем!
+[19:27:47] Bashmak752: !motd
+[19:28:01] Король Гемарой: bind v fake
+[19:28:06] Client "c4s | qRRaz11cHHH" connected.
+[19:28:32] tupikrupik<STEAM_0:1:776813961> spawned sent box_normal
+[19:28:33] Bashmak752 suicided!
+[19:28:33] ЪУЪ suicided!
+[19:28:50] tupikrupik<STEAM_0:1:776813961> spawned sent box_normal
+[19:29:18] Client "c4s | qRRaz11cHHH" connected.
+[19:29:42] tupikrupik suicided!
+[19:29:54] Dropped "tupikrupik" from server<STEAM_0:1:776813961>
+[19:30:17] Bashmak752 suicided!
+[19:30:35] ЪУЪ suicided!
+[19:30:35] ЪУЪ suicided!
+[19:30:53] ЪУЪ suicided!
+[19:30:55] Client "Шкибиди туалеты" connected.
+[19:31:10] Bashmak752 killed ЪУЪ using player
+[19:31:12] Bashmak752 suicided!
+[19:31:29] ЪУЪ killed Король Гемарой using player
+[19:31:32] Bashmak752: Да
+[19:31:34] Bashmak752 suicided!
+[19:31:39] Король Гемарой suicided!
+[19:31:39] Bashmak752 suicided!
+[19:31:39] ЪУЪ suicided!
+[19:32:09] (Console) сменил карту на cs_jungle
+[19:32:09] Server is shutting down/changing levels.
+
+
+
+[19:32:21] New map: cs_jungle
+[19:32:21] Server is shutting down/changing levels.
+
+
+
+[19:32:30] New map: cs_jungle
+[19:32:31] Client "Король Гемарой" connected.
+[19:32:31] Client "SG_KaAp" connected.
+[19:32:31] Client "SG_KaAp" connected.
+[19:32:31] Client "Король Гемарой" connected.
+[19:32:31] Client "ЪУЪ" connected.
+[19:32:31] Client "ЪУЪ" connected.
+[19:32:31] Client "akUss_Yulia" connected.
+[19:32:35] Client "Bashmak752" connected.
+[19:33:00] Client "Король Гемарой" spawned in server <STEAM_0:1:778030574> (took 29 seconds).
+[19:33:01] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 30 seconds).
+[19:33:01] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 30 seconds).
+[19:33:15] Client "akUss_Yulia" spawned in server <STEAM_0:0:613155397> (took 44 seconds).
+[19:33:19] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 44 seconds).
+[19:34:33] Client "Никита Пропан" connected.
+[19:34:38] SG_KaAp suicided!
+[19:34:41] Король Гемарой suicided!
+[19:34:45] SG_KaAp suicided!
+[19:34:52] akUss_Yulia: Аахахахаха!
+[19:34:53] akUss_Yulia: Слушаю и повинуюсь!
+[19:34:58] Client "Флайс" connected.
+[19:35:31] ЪУЪ suicided!
+[19:35:32] akUss_Yulia suicided!
+[19:36:01] Bashmak752: Все танцуем!
+[19:36:02] Bashmak752: Все танцуем!
+[19:36:04] Bashmak752: Да
+[19:36:06] Bashmak752: Да
+[19:36:19] Bashmak752: Все танцуем!
+[19:36:40] Dropped "akUss_Yulia" from server<STEAM_0:0:613155397>
+[19:36:45] Король Гемарой: Идём!
+[19:36:46] Король Гемарой: Нет
+[19:37:13] Bashmak752 suicided!
+[19:37:41] Bashmak752 suicided!
+[19:38:42] SG_KaAp: !menu
+[19:39:13] Client "kn1ght" connected.
+[19:39:52] Client "50 ммр ценности" connected.
+[19:39:58] Client "[𝓩𝓵𝓸𝔂]CREA" connected.
+[19:40:35] Король Гемарой suicided!
+[19:41:05] Bashmak752 suicided!
+[19:41:10] Bashmak752: !MOTD
+[19:42:07] Client "kn1ght" spawned in server <STEAM_0:1:572372440> (took 174 seconds).
+[19:42:48] Король Гемарой: Слушаю и повинуюсь!
+[19:43:14] Король Гемарой suicided!
+[19:43:16] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 204 seconds).
+[19:43:16] ЪУЪ suicided!
+[19:43:19] kn1ght suicided!
+[19:43:26] Client "[𝓩𝓵𝓸𝔂]CREA" spawned in server <STEAM_0:0:609886268> (took 208 seconds).
+[19:43:40] kn1ght: Все танцуем!
+[19:43:41] Dropped "[𝓩𝓵𝓸𝔂]CREA" from server<STEAM_0:0:609886268>
+[19:43:50] kn1ght: Все танцуем!
+[19:43:53] kn1ght: Аахахахаха!
+[19:44:06] ЪУЪ suicided!
+[19:44:16] kn1ght suicided!
+[19:44:30] Client "[𝓩𝓵𝓸𝔂]CREA" connected.
+[19:44:31] Bashmak752 suicided!
+[19:44:38] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[19:44:38] 50 ммр ценности suicided!
+[19:44:45] SG_KaAp: Все танцуем!
+[19:45:04] SG_KaAp: Идём!
+[19:45:07] Bashmak752: Все танцуем!
+[19:45:11] Client "50 ммр ценности" connected.
+[19:45:11] Client "[𝓩𝓵𝓸𝔂]CREA" spawned in server <STEAM_0:0:609886268> (took 41 seconds).
+[19:45:11] SG_KaAp: Да
+[19:45:15] SG_KaAp: Все танцуем!
+[19:45:15] Bashmak752: Все танцуем!
+[19:45:16] SG_KaAp: Урааа!
+[19:45:18] Client "Паскуда" connected.
+[19:45:27] SG_KaAp: Аахахахаха!
+[19:45:33] SG_KaAp: Аахахахаха!
+[19:45:43] Client "50 ммр ценности" spawned in server <STEAM_0:1:47136849> (took 32 seconds).
+[19:45:47] SG_KaAp: Все танцуем!
+[19:45:52] SG_KaAp: Аахахахаха!
+[19:45:54] kn1ght: я выбраться пытаюсь
+[19:45:57] Bashmak752: Все танцуем!
+[19:45:57] Король Гемарой suicided!
+[19:45:57] SG_KaAp: Урааа!
+[19:46:01] kn1ght: сука
+[19:46:03] kn1ght: я застрял
+[19:46:04] SG_KaAp suicided!
+[19:46:04] kn1ght suicided!
+[19:46:19] Bashmak752 suicided!
+[19:46:19] Bashmak752: Все танцуем!
+[19:46:34] SG_KaAp: Слушаю и повинуюсь!
+[19:46:40] SG_KaAp: Слушаю и повинуюсь!
+[19:46:43] SG_KaAp: Слушаю и повинуюсь!
+[19:46:46] SG_KaAp: Слушаю и повинуюсь!
+[19:46:50] Client "xqmak_pro" connected.
+[19:46:51] SG_KaAp: Урааа!
+[19:47:05] SG_KaAp: Да
+[19:47:09] SG_KaAp: Здравия желаю!
+[19:47:25] ЪУЪ suicided!
+[19:47:26] SG_KaAp: !levelend
+[19:47:28] SG_KaAp suicided!
+[19:47:29] SG_KaAp: Все танцуем!
+[19:47:35] Dropped "50 ммр ценности" from server<STEAM_0:1:47136849>
+[19:47:35] 50 ммр ценности suicided!
+[19:47:50] Bashmak752: Все танцуем!
+[19:47:51] Bashmak752: Все танцуем!
+[19:48:08] Bashmak752 suicided!
+[19:48:11] SG_KaAp: Аахахахаха!
+[19:48:18] Король Гемарой: Здравия желаю!
+[19:48:33] SG_KaAp: Слушаю и повинуюсь!
+[19:48:46] ЪУЪ suicided!
+[19:48:47] Client "c4s | qRRaz11cHHH" connected.
+[19:49:23] SG_KaAp: !levelend
+[19:49:34] Bashmak752: Все танцуем!
+[19:49:46] SG_KaAp: Аахахахаха!
+[19:49:50] SG_KaAp: Аахахахаха!
+[19:50:00] SG_KaAp: Здравия желаю!
+[19:50:26] Client "Паскуда" connected.
+[19:50:30] Король Гемарой suicided!
+[19:50:30] Король Гемарой suicided!
+[19:50:32] SG_KaAp: Аахахахаха!
+[19:50:33] Client "Паскуда" connected.
+[19:50:33] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 106 seconds).
+[19:50:42] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:50:42] SG_KaAp suicided!
+[19:51:54] Client "Lefusu13" connected.
+[19:52:09] Client "twitch: aqq2emii" connected.
+[19:52:14] Client "Nes" connected.
+[19:52:51] ЪУЪ suicided!
+[19:53:03] kn1ght suicided!
+[19:53:36] Bashmak752: Идём!
+[19:53:45] Bashmak752: Все танцуем!
+[19:54:08] [𝓩𝓵𝓸𝔂]CREA suicided!
+[19:54:11] Bashmak752 suicided!
+[19:54:46] kn1ght killed ЪУЪ using player
+[19:55:59] Король Гемарой: Нет
+[19:56:00] ЪУЪ suicided!
+[19:56:09] c4s | qRRaz11cHHH: Здравия желаю!
+[19:56:24] c4s | qRRaz11cHHH suicided!
+[19:56:30] Bashmak752: supply radio: sentry
+[19:57:54] kn1ght killed Король Гемарой using player
+[19:58:23] c4s | qRRaz11cHHH suicided!
+[19:58:23] c4s | qRRaz11cHHH suicided!
+[19:58:46] Bashmak752: supply radio: toolboxes
+[19:59:01] Король Гемарой suicided!
+[19:59:01] Король Гемарой suicided!
+[19:59:06] [𝓩𝓵𝓸𝔂]CREA suicided!
+[19:59:09] c4s | qRRaz11cHHH suicided!
+[19:59:11] kn1ght suicided!
+[19:59:32] Client "Паскуда" spawned in server <STEAM_0:0:809780389> (took 539 seconds).
+[20:00:01] Dropped "Паскуда" from server<STEAM_0:0:809780389>
+[20:00:01] Паскуда suicided!
+[20:00:08] c4s | qRRaz11cHHH: Все танцуем!
+[20:00:19] ЪУЪ suicided!
+[20:00:19] Client "xqmak_pro" spawned in server <STEAM_0:0:836579604> (took 809 seconds).
+[20:01:11] c4s | qRRaz11cHHH suicided!
+[20:01:20] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:01:21] Client "c4s | qRRaz11cHHH" connected.
+[20:01:40] ЪУЪ suicided!
+[20:01:41] Bashmak752: supply radio: toolboxes
+[20:01:44] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 23 seconds).
+[20:02:32] Client "Nes" spawned in server <STEAM_0:1:865530950> (took 618 seconds).
+[20:02:53] c4s | qRRaz11cHHH: Все танцуем!
+[20:03:04] c4s | qRRaz11cHHH: Все танцуем!
+[20:03:10] c4s | qRRaz11cHHH: Все танцуем!
+[20:03:11] (TEAM) [𝓩𝓵𝓸𝔂]CREA: bind V key
+[20:03:17] c4s | qRRaz11cHHH: Аахахахаха!
+[20:03:29] c4s | qRRaz11cHHH: Все танцуем!
+[20:03:34] Bashmak752: Все танцуем!
+[20:03:44] [𝓩𝓵𝓸𝔂]CREA: Все танцуем!
+[20:03:52] [𝓩𝓵𝓸𝔂]CREA: Нет
+[20:03:55] [𝓩𝓵𝓸𝔂]CREA: Все танцуем!
+[20:03:58] [𝓩𝓵𝓸𝔂]CREA: Аахахахаха!
+[20:04:00] xqmak_pro suicided!
+[20:04:00] xqmak_pro suicided!
+[20:04:01] Bashmak752: Все танцуем!
+[20:04:01] [𝓩𝓵𝓸𝔂]CREA: Нет
+[20:04:08] [𝓩𝓵𝓸𝔂]CREA: Нет
+[20:04:15] kn1ght suicided!
+[20:04:25] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:04:25] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:04:30] Nes suicided!
+[20:04:30] Nes suicided!
+[20:04:48] Dropped "xqmak_pro" from server<STEAM_0:0:836579604>
+[20:04:48] xqmak_pro suicided!
+[20:04:49] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:04:49] c4s | qRRaz11cHHH suicided!
+[20:04:52] Client "c4s | qRRaz11cHHH" connected.
+[20:05:06] Bashmak752: supply radio: sentry
+[20:05:41] ЪУЪ suicided!
+[20:05:45] kn1ght suicided!
+[20:05:53] ЪУЪ: конец мб?
+[20:06:04] Король Гемарой suicided!
+[20:06:04] Client "c4s | qRRaz11cHHH" connected.
+[20:06:13] Bashmak752 suicided!
+[20:06:19] kn1ght: это не инет тикрейт
+[20:06:30] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:06:32] kn1ght: !levelend
+[20:06:44] Client "c4s | qRRaz11cHHH" connected.
+[20:07:14] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 30 seconds).
+[20:07:46] Client "xqmak_pro" connected.
+[20:07:54] kn1ght suicided!
+[20:07:57] c4s | qRRaz11cHHH: Все танцуем!
+[20:08:11] Nes suicided!
+[20:08:14] kn1ght: !menu
+[20:08:15] c4s | qRRaz11cHHH suicided!
+[20:08:28] kn1ght запустил голосование (ставим хомисайд?)
+[20:08:30] Bashmak752 голосует за да
+[20:08:31] ЪУЪ голосует за да
+[20:08:31] [𝓩𝓵𝓸𝔂]CREA голосует за да
+[20:08:31] c4s | qRRaz11cHHH голосует за да
+[20:08:33] kn1ght голосует за да
+[20:08:33] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:08:39] Король Гемарой голосует за да
+[20:08:46] c4s | qRRaz11cHHH suicided!
+[20:08:47] c4s | qRRaz11cHHH suicided!
+[20:08:48] Результат: 'да' . (6/7)
+[20:08:49] Client "xqmak_pro" spawned in server <STEAM_0:0:836579604> (took 63 seconds).
+[20:08:58] kn1ght: !levelnext homicide
+[20:09:17] Bashmak752 suicided!
+[20:09:17] Bashmak752 suicided!
+[20:09:46] Король Гемарой suicided!
+[20:10:11] Client "Karnage2875" connected.
+[20:10:13] kn1ght suicided!
+[20:10:18] c4s | qRRaz11cHHH: Все танцуем!
+[20:10:24] ЪУЪ: Все танцуем!
+[20:10:29] c4s | qRRaz11cHHH: Все танцуем!
+[20:10:33] kn1ght: !menu
+[20:10:37] Nes: афк 9999999
+[20:10:37] Dropped "Nes" from server<STEAM_0:1:865530950>
+[20:10:37] Nes suicided!
+[20:10:41] kn1ght запустил голосование (закончить раунд?)
+[20:10:43] Bashmak752 голосует за да
+[20:10:43] c4s | qRRaz11cHHH голосует за да
+[20:10:44] xqmak_pro голосует за нет
+[20:10:45] Король Гемарой голосует за да
+[20:10:48] kn1ght голосует за нет
+[20:10:51] [𝓩𝓵𝓸𝔂]CREA голосует за нет
+[20:11:01] Результат: 'да' . (3/7)
+[20:11:39] ЪУЪ suicided!
+[20:11:39] Король Гемарой suicided!
+[20:11:39] Король Гемарой suicided!
+[20:11:46] kn1ght suicided!
+[20:12:05] c4s | qRRaz11cHHH: где конец
+[20:12:25] kn1ght<STEAM_0:1:572372440> spawned sent gb_bomb_sc100
+[20:12:40] kn1ght suicided!
+[20:12:40] kn1ght suicided!
+[20:12:49] kn1ght: levelend
+[20:12:54] kn1ght: !levelend
+[20:12:56] c4s | qRRaz11cHHH suicided!
+[20:13:08] Bashmak752 suicided!
+[20:13:22] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:14:04] Client "Nes" connected.
+[20:14:40] Король Гемарой suicided!
+[20:14:42] Client "Nes" spawned in server <STEAM_0:1:865530950> (took 38 seconds).
+[20:14:48] xqmak_pro suicided!
+[20:14:59] ЪУЪ suicided!
+[20:17:59] c4s | qRRaz11cHHH killed kn1ght using player
+[20:18:03] Король Гемарой suicided!
+[20:18:15] xqmak_pro suicided!
+[20:18:17] c4s | qRRaz11cHHH: Все танцуем!
+[20:18:53] Bashmak752: Идём!
+[20:18:53] c4s | qRRaz11cHHH set Themself's model to models/player/skeleton.mdl with colors R:255, G:255, B:255
+[20:19:06] Nes killed [𝓩𝓵𝓸𝔂]CREA using player
+[20:19:09] Nes killed Bashmak752 using player
+[20:19:12] Король Гемарой suicided!
+[20:19:12] c4s | qRRaz11cHHH suicided!
+[20:19:12] ЪУЪ suicided!
+[20:19:12] kn1ght suicided!
+[20:19:12] Bashmak752 suicided!
+[20:19:12] xqmak_pro suicided!
+[20:19:12] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:19:12] Nes suicided!
+[20:19:42] (Console) сменил карту на de_dust2
+[20:19:42] Server is shutting down/changing levels.
+
+
+
+[20:19:54] New map: de_dust2
+[20:19:54] Server is shutting down/changing levels.
+
+
+
+[20:20:02] New map: de_dust2
+[20:20:02] Client "ЪУЪ" connected.
+[20:20:02] Client "ЪУЪ" connected.
+[20:20:02] Client "c4s | qRRaz11cHHH" connected.
+[20:20:02] Client "c4s | qRRaz11cHHH" connected.
+[20:20:02] Client "Король Гемарой" connected.
+[20:20:02] Client "Король Гемарой" connected.
+[20:20:02] Client "Karnage2875" connected.
+[20:20:02] Client "Karnage2875" connected.
+[20:20:02] Client "[𝓩𝓵𝓸𝔂]CREA" connected.
+[20:20:02] Client "[𝓩𝓵𝓸𝔂]CREA" connected.
+[20:20:14] Client "Bashmak752" connected.
+[20:20:29] Client "Король Гемарой" spawned in server <STEAM_0:1:778030574> (took 27 seconds).
+[20:20:40] Client "kn1ght" spawned in server <STEAM_0:1:572372440> (took 38 seconds).
+[20:20:44] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 42 seconds).
+[20:20:45] Client "c4s | qRRaz11cHHH" spawned in server <STEAM_0:1:34526941> (took 43 seconds).
+[20:20:58] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 44 seconds).
+[20:21:14] kn1ght: ЛЯГ
+[20:21:21] kn1ght suicided!
+[20:21:22] Король Гемарой suicided!
+[20:21:40] Client "Nes" spawned in server <STEAM_0:1:865530950> (took 98 seconds).
+[20:21:57] kn1ght suicided!
+[20:22:03] Bashmak752 suicided!
+[20:22:07] Client "[𝓩𝓵𝓸𝔂]CREA" spawned in server <STEAM_0:0:609886268> (took 125 seconds).
+[20:22:29] c4s | qRRaz11cHHH suicided!
+[20:22:38] Король Гемарой suicided!
+[20:22:52] Client "xqmak_pro" spawned in server <STEAM_0:0:836579604> (took 170 seconds).
+[20:22:54] c4s | qRRaz11cHHH: Да
+[20:23:56] Король Гемарой suicided!
+[20:24:29] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:24:52] xqmak_pro suicided!
+[20:24:52] c4s | qRRaz11cHHH suicided!
+[20:24:52] Bashmak752 suicided!
+[20:24:53] ЪУЪ suicided!
+[20:25:06] Nes suicided!
+[20:25:15] Client "ShaZam" connected.
+[20:25:18] Client "bochonok22" connected.
+[20:25:29] kn1ght suicided!
+[20:25:48] Bashmak752 suicided!
+[20:25:53] Nes suicided!
+[20:25:55] kn1ght suicided!
+[20:25:56] c4s | qRRaz11cHHH suicided!
+[20:25:59] kn1ght: ИШАКИ СУКАА
+[20:26:17] Nes suicided!
+[20:27:02] Client "bochonok22" spawned in server <STEAM_0:0:634516979> (took 104 seconds).
+[20:27:19] Client "СЕКСИ" connected.
+[20:27:21] Client "Karnage2875" spawned in server <STEAM_0:1:733900309> (took 439 seconds).
+[20:27:22] c4s | qRRaz11cHHH: ты гей
+[20:27:59] Bashmak752 suicided!
+[20:28:01] xqmak_pro suicided!
+[20:28:25] Karnage2875 suicided!
+[20:28:25] bochonok22 suicided!
+[20:28:31] Dropped "bochonok22" from server<STEAM_0:0:634516979>
+[20:28:34] Bashmak752 suicided!
+[20:28:34] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:28:52] xqmak_pro suicided!
+[20:28:52] xqmak_pro suicided!
+[20:28:56] Nes suicided!
+[20:28:59] Король Гемарой suicided!
+[20:29:01] Karnage2875: !SKIP
+[20:29:08] (TEAM) [𝓩𝓵𝓸𝔂]CREA: !SKIP
+[20:29:20] c4s | qRRaz11cHHH suicided!
+[20:29:21] xqmak_pro: !skip
+[20:29:56] Karnage2875 suicided!
+[20:30:08] xqmak_pro suicided!
+[20:30:08] ЪУЪ killed Король Гемарой using player
+[20:30:09] kn1ght suicided!
+[20:30:10] c4s | qRRaz11cHHH suicided!
+[20:30:14] Bashmak752 suicided!
+[20:30:14] xqmak_pro: /skip
+[20:30:43] kn1ght: Здравия желаю!
+[20:31:02] Nes suicided!
+[20:31:09] Client "bochonok22" connected.
+[20:31:20] kn1ght suicided!
+[20:31:47] Client "bochonok22" spawned in server <STEAM_0:0:634516979> (took 38 seconds).
+[20:31:50] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:31:51] Client "MF" connected.
+[20:32:03] ЪУЪ suicided!
+[20:32:17] Client "zerex200" connected.
+[20:32:18] Bashmak752 suicided!
+[20:32:58] Король Гемарой suicided!
+[20:33:04] Karnage2875 suicided!
+[20:33:06] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:33:15] xqmak_pro suicided!
+[20:33:25] Dropped "bochonok22" from server<STEAM_0:0:634516979>
+[20:33:25] bochonok22 suicided!
+[20:33:31] Client "MF" spawned in server <STEAM_0:1:540984533> (took 100 seconds).
+[20:34:17] Nes suicided!
+[20:34:32] c4s | qRRaz11cHHH suicided!
+[20:34:51] Client "ShaZam" spawned in server <STEAM_0:1:787411888> (took 576 seconds).
+[20:35:19] kn1ght suicided!
+[20:35:26] Bashmak752 suicided!
+[20:35:26] Nes suicided!
+[20:35:28] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:35:31] Король Гемарой suicided!
+[20:35:36] MF suicided!
+[20:36:00] (TEAM) [𝓩𝓵𝓸𝔂]CREA: го за скип карты
+[20:36:04] Karnage2875 suicided!
+[20:36:09] Client "ДимASS" connected.
+[20:36:16] c4s | qRRaz11cHHH suicided!
+[20:36:22] Client "bochonok22" connected.
+[20:36:47] ЪУЪ suicided!
+[20:37:02] Client "bochonok22" spawned in server <STEAM_0:0:634516979> (took 40 seconds).
+[20:37:22] kn1ght suicided!
+[20:37:25] Karnage2875 suicided!
+[20:37:26] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 77 seconds).
+[20:37:32] ЪУЪ suicided!
+[20:37:43] xqmak_pro suicided!
+[20:37:44] Король Гемарой suicided!
+[20:38:05] c4s | qRRaz11cHHH suicided!
+[20:38:52] Dropped "ShaZam" from server<STEAM_0:1:787411888>
+[20:38:52] ShaZam suicided!
+[20:39:10] Dropped "bochonok22" from server<STEAM_0:0:634516979>
+[20:39:10] bochonok22 suicided!
+[20:39:24] [𝓩𝓵𝓸𝔂]CREA: Все танцуем!
+[20:39:26] ЪУЪ suicided!
+[20:39:30] kn1ght suicided!
+[20:39:53] Dropped "c4s | qRRaz11cHHH" from server<STEAM_0:1:34526941>
+[20:39:53] c4s | qRRaz11cHHH suicided!
+[20:40:07] xqmak_pro suicided!
+[20:40:25] Король Гемарой suicided!
+[20:40:34] ДимASS suicided!
+[20:40:54] Karnage2875 suicided!
+[20:41:22] xqmak_pro: Идём!
+[20:41:30] Karnage2875 suicided!
+[20:41:39] Король Гемарой suicided!
+[20:41:46] kn1ght suicided!
+[20:41:56] Nes suicided!
+[20:41:57] Dropped "xqmak_pro" from server<STEAM_0:0:836579604>
+[20:41:57] xqmak_pro suicided!
+[20:42:05] [𝓩𝓵𝓸𝔂]CREA suicided!
+[20:42:16] ДимASS suicided!
+[20:42:20] Nes suicided!
+[20:42:25] Client "TheDarkKnight" connected.
+[20:42:39] Король Гемарой suicided!
+[20:42:40] ЪУЪ suicided!
+[20:42:40] ЪУЪ suicided!
+[20:42:41] Dropped "[𝓩𝓵𝓸𝔂]CREA" from server<STEAM_0:0:609886268>
+[20:42:49] kn1ght suicided!
+[20:43:03] Karnage2875 suicided!
+[20:43:03] Karnage2875 suicided!
+[20:43:24] kn1ght suicided!
+[20:43:42] MF suicided!
+[20:43:42] MF suicided!
+[20:43:57] Nes suicided!
+[20:43:58] Bashmak752 suicided!
+[20:44:16] Король Гемарой suicided!
+[20:44:19] Nes suicided!
+[20:44:26] kn1ght suicided!
+[20:44:31] Client "мактрахер" connected.
+[20:44:32] Client "THANKGOD" connected.
+[20:44:33] MF suicided!
+[20:44:33] ДимASS suicided!
+[20:44:53] ДимASS: !menu
+[20:45:13] MF suicided!
+[20:45:18] Nes suicided!
+[20:45:23] Nes suicided!
+[20:45:23] ЪУЪ suicided!
+[20:45:23] Bashmak752 suicided!
+[20:45:23] Король Гемарой suicided!
+[20:45:23] Karnage2875 suicided!
+[20:45:23] ДимASS suicided!
+[20:45:23] MF suicided!
+[20:45:53] (Console) сменил карту на gm_backrooms_classic
+[20:45:53] Server is shutting down/changing levels.
+
+
+
+[20:46:01] New map: gm_backrooms_classic
+[20:46:01] Server is shutting down/changing levels.
+
+
+
+[20:46:09] New map: gm_backrooms_classic
+[20:46:09] Client "мактрахер" connected.
+[20:46:09] Client "ДимASS" connected.
+[20:46:19] Client "Bashmak752" connected.
+[20:46:40] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 31 seconds).
+[20:46:42] Client "Король Гемарой" spawned in server <STEAM_0:1:778030574> (took 33 seconds).
+[20:46:45] Client "THANKGOD" spawned in server <STEAM_0:0:709713214> (took 36 seconds).
+[20:46:49] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 40 seconds).
+[20:46:49] Client "kn1ght" spawned in server <STEAM_0:1:572372440> (took 40 seconds).
+[20:46:57] Client "Bashmak752" spawned in server <STEAM_0:1:591564572> (took 38 seconds).
+[20:47:01] Client "Karnage2875" spawned in server <STEAM_0:1:733900309> (took 52 seconds).
+[20:47:04] Client "Nes" spawned in server <STEAM_0:1:865530950> (took 55 seconds).
+[20:47:07] kn1ght: чо за писапопа
+[20:47:11] Client "MF" spawned in server <STEAM_0:1:540984533> (took 62 seconds).
+[20:47:14] ЪУЪ: псиопа
+[20:47:20] ЪУЪ: рестарт сделай пжпжпж
+[20:47:45] THANKGOD suicided!
+[20:47:46] Король Гемарой suicided!
+[20:48:01] Dropped "THANKGOD" from server<STEAM_0:0:709713214>
+[20:48:04] ДимASS: !levelend
+[20:49:38] ДимASS<STEAM_0:0:206797798> spawned vehicle models/source_vehicles/car001b_hatchback/vehicle.mdl
+[20:49:39] ДимASS<STEAM_0:0:206797798> spawned vehicle models/source_vehicles/car001b_hatchback/vehicle.mdl
+[20:50:11] kn1ght: Идём!
+[20:50:30] ДимASS: Нет
+[20:50:44] Client "СЕКСИ" connected.
+[20:50:56] Nes: афк 9999999
+[20:50:56] Dropped "Nes" from server<STEAM_0:1:865530950>
+[20:50:56] Nes suicided!
+[20:51:49] Client "TheDarkKnight" spawned in server <STEAM_0:0:791215245> (took 340 seconds).
+[20:51:51] kn1ght<STEAM_0:1:572372440> spawned vehicle models/source_vehicles/car003b_rebel.mdl
+[20:52:04] Karnage2875: /KILL
+[20:52:18] Karnage2875: !kill
+[20:52:41] MF: афк 9999999
+[20:52:41] Dropped "MF" from server<STEAM_0:1:540984533>
+[20:52:41] MF suicided!
+[20:52:45] Client "MF" connected.
+[20:53:11] Client "MF" spawned in server <STEAM_0:1:540984533> (took 26 seconds).
+[20:53:27] Король Гемарой suicided!
+[20:53:32] ЪУЪ suicided!
+[20:54:07] Karnage2875 was killed by npc_sjg_howlers_battle
+[20:54:33] Karnage2875: !skip
+[20:54:39] Client "мактрахер" spawned in server <STEAM_0:0:643417588> (took 510 seconds).
+[20:54:40] kn1ght suicided!
+[20:54:49] MF: G!
+[20:55:01] ДимASS suicided!
+[20:55:15] kn1ght<STEAM_0:1:572372440> spawned vehicle models/source_vehicles/car005b_armored/vehicle.mdl
+[20:55:17] MF suicided!
+[20:55:23] мактрахер suicided!
+[20:55:24] ЪУЪ suicided!
+[20:55:41] ДимASS was killed by npc_sjg_howlers_battle
+[20:56:41] ДимASS<STEAM_0:0:206797798> spawned NPC npc_sjg_howlers_maze
+[20:56:52] Bashmak752 was killed by npc_sjg_howlers_maze
+[20:57:07] Dropped "Король Гемарой" from server<STEAM_0:1:778030574>
+[20:57:07] Король Гемарой suicided!
+[20:57:13] Dropped "Bashmak752" from server<STEAM_0:1:591564572>
+[20:58:16] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[20:58:17] kn1ght: он рядом
+[20:58:27] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[20:58:31] TheDarkKnight suicided!
+[20:58:44] ДимASS<STEAM_0:0:206797798> spawned model models/props_canal/bridge_pillar02.mdl
+[20:58:44] kn1ght suicided!
+[20:58:49] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[20:58:54] Karnage2875 suicided!
+[20:59:07] Client "Aзарник" connected.
+[20:59:12] kn1ght<STEAM_0:1:572372440> spawned vehicle models/buggy.mdl
+[20:59:16] kn1ght: Нет
+[21:00:10] kn1ght: выйди
+[21:00:11] kn1ght: выйди
+[21:00:12] kn1ght: пж
+[21:00:30] ЪУЪ suicided!
+[21:00:34] kn1ght: ой
+[21:00:35] kn1ght: прости
+[21:00:41] ЪУЪ: :(
+[21:00:43] kn1ght: я не специально
+[21:01:09] kn1ght: я нарик
+[21:01:31] TheDarkKnight: Все танцуем!
+[21:01:41] kn1ght: лысый ахуел
+[21:01:50] TheDarkKnight: Все танцуем!
+[21:01:52] kn1ght: на по скворешнику
+[21:01:52] мактрахер suicided!
+[21:01:52] мактрахер suicided!
+[21:02:04] TheDarkKnight: Все танцуем!
+[21:02:06] TheDarkKnight: Все танцуем!
+[21:02:12] Client "HYDROCIPHALUS52" connected.
+[21:02:40] kn1ght suicided!
+[21:02:46] TheDarkKnight: Аахахахаха!
+[21:03:08] kn1ght<STEAM_0:1:572372440> spawned model models/props_interiors/bathtub01a.mdl
+[21:03:15] TheDarkKnight: Все танцуем!
+[21:04:25] ДимASS<STEAM_0:0:206797798> spawned model models/props_interiors/bathtub01a.mdl
+[21:04:53] MF: ЖОПА
+[21:05:05] kn1ght<STEAM_0:1:572372440> spawned model models/props_interiors/pot02a.mdl
+[21:05:10] MF suicided!
+[21:05:12] TheDarkKnight suicided!
+[21:05:13] ДимASS suicided!
+[21:05:53] kn1ght<STEAM_0:1:572372440> spawned model models/props_c17/canister02a.mdl
+[21:05:58] ДимASS: !menu
+[21:06:04] TheDarkKnight: чел сражается со столом
+[21:06:27] ДимASS сменил карту на gm_trainride_v1_day
+[21:06:27] Server is shutting down/changing levels.
+
+
+
+[21:06:37] New map: gm_trainride_v1_day
+[21:06:59] Client "kn1ght" spawned in server <STEAM_0:1:572372440> (took 26 seconds).
+[21:07:09] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 36 seconds).
+[21:07:12] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 39 seconds).
+[21:07:13] kn1ght: ахуенная карта
+[21:07:14] Client "MF" spawned in server <STEAM_0:1:540984533> (took 41 seconds).
+[21:07:16] kn1ght: красав димас
+[21:07:19] Client "TheDarkKnight" spawned in server <STEAM_0:0:791215245> (took 46 seconds).
+[21:07:29] ЪУЪ suicided!
+[21:07:30] Client "Karnage2875" spawned in server <STEAM_0:1:733900309> (took 57 seconds).
+[21:08:07] TheDarkKnight suicided!
+[21:08:13] MF suicided!
+[21:08:17] Karnage2875 suicided!
+[21:08:31] ЪУЪ suicided!
+[21:08:36] kn1ght suicided!
+[21:09:27] kn1ght suicided!
+[21:09:32] TheDarkKnight suicided!
+[21:09:32] ДимASS suicided!
+[21:09:32] MF suicided!
+[21:10:17] kn1ght suicided!
+[21:10:20] MF suicided!
+[21:10:20] kn1ght: cerf
+[21:10:21] ЪУЪ suicided!
+[21:10:21] ЪУЪ suicided!
+[21:10:22] kn1ght: сука
+[21:10:38] ДимASS suicided!
+[21:10:44] MF suicided!
+[21:10:50] kn1ght: АХХАХА
+[21:11:06] Karnage2875 suicided!
+[21:11:12] MF suicided!
+[21:11:17] Client "Ваня трубочист" connected.
+[21:11:28] kn1ght suicided!
+[21:11:31] kn1ght: да бля
+[21:11:44] MF suicided!
+[21:11:48] TheDarkKnight suicided!
+[21:11:58] kn1ght: Да
+[21:12:12] kn1ght: Да
+[21:12:20] Client "Мне сосала дочка трампа" connected.
+[21:12:21] kn1ght: Здравия желаю!
+[21:12:25] kn1ght: Урааа!
+[21:12:27] Karnage2875 suicided!
+[21:12:29] kn1ght: Урааа!
+[21:12:31] kn1ght: Урааа!
+[21:12:38] kn1ght: Урааа!
+[21:12:44] MF suicided!
+[21:12:50] kn1ght: Урааа!
+[21:12:54] Karnage2875 suicided!
+[21:12:54] Karnage2875 suicided!
+[21:12:58] kn1ght: Урааа!
+[21:13:05] kn1ght suicided!
+[21:13:05] kn1ght suicided!
+[21:13:09] kn1ght: урааа
+[21:13:14] kn1ght: Урааа!
+[21:13:16] kn1ght: Аахахахаха!
+[21:13:21] kn1ght: Урааа!
+[21:13:23] Client "Ваня трубочист" spawned in server <STEAM_0:1:615150123> (took 126 seconds).
+[21:13:31] kn1ght: Урааа!
+[21:13:34] kn1ght suicided!
+[21:13:41] ЪУЪ suicided!
+[21:13:50] ДимASS suicided!
+[21:13:50] ДимASS suicided!
+[21:13:51] MF suicided!
+[21:14:10] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:14:45] TheDarkKnight suicided!
+[21:14:47] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:14:59] kn1ght: го без точек
+[21:15:08] kn1ght suicided!
+[21:15:19] ЪУЪ suicided!
+[21:15:24] Ваня трубочист: Да
+[21:15:26] Ваня трубочист: Да
+[21:15:29] Ваня трубочист: Да
+[21:15:32] ДимASS suicided!
+[21:15:37] kn1ght suicided!
+[21:15:42] TheDarkKnight suicided!
+[21:15:42] TheDarkKnight suicided!
+[21:15:43] TheDarkKnight was killed by trigger_hurt
+[21:15:43] TheDarkKnight suicided!
+[21:15:43] TheDarkKnight suicided!
+[21:15:44] Ваня трубочист: Нет
+[21:15:46] ЪУЪ suicided!
+[21:15:48] Ваня трубочист: Все танцуем!
+[21:16:05] ЪУЪ suicided!
+[21:16:05] ЪУЪ suicided!
+[21:16:06] ДимASS suicided!
+[21:16:15] ЪУЪ suicided!
+[21:16:15] ЪУЪ suicided!
+[21:16:21] kn1ght suicided!
+[21:16:25] kn1ght suicided!
+[21:16:30] kn1ght suicided!
+[21:16:34] kn1ght suicided!
+[21:16:38] kn1ght suicided!
+[21:16:40] TheDarkKnight suicided!
+[21:16:47] Karnage2875 suicided!
+[21:16:56] MF suicided!
+[21:16:57] ЪУЪ suicided!
+[21:16:57] Ваня трубочист suicided!
+[21:17:02] kn1ght suicided!
+[21:17:06] Karnage2875 suicided!
+[21:17:12] kn1ght suicided!
+[21:17:12] kn1ght suicided!
+[21:17:17] ЪУЪ suicided!
+[21:17:22] kn1ght suicided!
+[21:17:26] ЪУЪ suicided!
+[21:17:26] ЪУЪ suicided!
+[21:17:27] TheDarkKnight suicided!
+[21:17:27] ДимASS suicided!
+[21:17:27] TheDarkKnight suicided!
+[21:17:28] TheDarkKnight was killed by trigger_hurt
+[21:17:28] TheDarkKnight suicided!
+[21:17:31] MF was killed by trigger_hurt
+[21:17:31] MF suicided!
+[21:17:37] kn1ght suicided!
+[21:17:37] kn1ght suicided!
+[21:17:56] ЪУЪ suicided!
+[21:18:10] kn1ght suicided!
+[21:18:11] kn1ght was killed by trigger_hurt
+[21:18:11] kn1ght suicided!
+[21:18:24] MF suicided!
+[21:18:25] ЪУЪ suicided!
+[21:18:40] Karnage2875 suicided!
+[21:18:46] kn1ght suicided!
+[21:18:47] Karnage2875 suicided!
+[21:18:47] kn1ght suicided!
+[21:18:48] MF suicided!
+[21:18:48] ЪУЪ suicided!
+[21:18:48] Karnage2875 suicided!
+[21:19:00] Dropped "Ваня трубочист" from server<STEAM_0:1:615150123>
+[21:19:00] Ваня трубочист suicided!
+[21:19:11] TheDarkKnight suicided!
+[21:19:17] MF suicided!
+[21:19:23] Client "Мне сосала дочка трампа" spawned in server <STEAM_0:1:584392665> (took 423 seconds).
+[21:19:39] MF: какого хуя их четверо
+[21:19:39] ДимASS suicided!
+[21:20:03] Karnage2875 suicided!
+[21:20:14] kn1ght suicided!
+[21:20:24] kn1ght: го хомисайд
+[21:20:42] MF suicided!
+[21:20:47] kn1ght suicided!
+[21:20:54] TheDarkKnight suicided!
+[21:20:55] MF was killed by trigger_hurt
+[21:21:05] Karnage2875 suicided!
+[21:21:07] MF suicided!
+[21:21:08] Karnage2875 suicided!
+[21:21:15] kn1ght suicided!
+[21:21:16] ДимASS was killed by trigger_hurt
+[21:21:23] Karnage2875 suicided!
+[21:21:31] Karnage2875 suicided!
+[21:21:37] Karnage2875 was killed by trigger_hurt
+[21:21:41] Karnage2875 was killed by trigger_hurt
+[21:21:41] kn1ght suicided!
+[21:21:45] ЪУЪ was killed by trigger_hurt
+[21:21:48] kn1ght respawned Themself
+[21:21:51] kn1ght предоставил режим бога Themself
+[21:21:51] kn1ght: !god
+[21:21:58] Karnage2875 suicided!
+[21:22:04] Karnage2875 suicided!
+[21:22:20] Мне сосала дочка трампа: афк 9999999
+[21:22:20] Dropped "Мне сосала дочка трампа" from server<STEAM_0:1:584392665>
+[21:22:20] Мне сосала дочка трампа suicided!
+[21:22:43] Karnage2875 suicided!
+[21:22:50] Karnage2875 was killed by trigger_hurt
+[21:22:51] Karnage2875 was killed by trigger_hurt
+[21:22:53] ДимASS suicided!
+[21:22:57] MF suicided!
+[21:22:58] Client "вилер URF.IM" connected.
+[21:23:01] ДимASS suicided!
+[21:23:05] TheDarkKnight suicided!
+[21:23:10] MF was killed by trigger_hurt
+[21:23:13] MF suicided!
+[21:23:26] Client "Мне сосала дочка трампа" connected.
+[21:23:27] Karnage2875 suicided!
+[21:23:43] MF suicided!
+[21:23:43] Karnage2875 suicided!
+[21:23:45] Client "Мне сосала дочка трампа" spawned in server <STEAM_0:1:584392665> (took 19 seconds).
+[21:23:54] kn1ght убрал режим бога Themself
+[21:23:54] (TEAM) kn1ght: !ungod
+[21:24:16] ДимASS suicided!
+[21:24:32] Мне сосала дочка трампа suicided!
+[21:24:35] ЪУЪ suicided!
+[21:24:38] kn1ght suicided!
+[21:24:43] kn1ght: хд
+[21:24:46] TheDarkKnight was killed by trigger_hurt
+[21:24:48] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:24:51] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:24:53] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:24:53] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:24:54] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:24:55] Karnage2875 suicided!
+[21:25:15] Karnage2875 killed TheDarkKnight using player
+[21:25:30] ЪУЪ suicided!
+[21:25:39] kn1ght: сука
+[21:25:43] kn1ght: нехуй бить было
+[21:25:44] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezgasnade
+[21:25:47] Karnage2875 killed Мне сосала дочка трампа using player
+[21:25:51] Karnage2875 killed ДимASS using player
+[21:25:56] kn1ght: ликвидирован
+[21:26:03] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:26:15] ДимASS<STEAM_0:0:206797798> spawned model models/props_combine/combine_fence01b.mdl
+[21:26:17] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:26:23] Client "вилер URF.IM" spawned in server <STEAM_0:0:636073940> (took 205 seconds).
+[21:26:28] Karnage2875 suicided!
+[21:26:41] kn1ght suicided!
+[21:26:45] kn1ght: почти
+[21:26:45] MF was killed by trigger_hurt
+[21:26:46] TheDarkKnight suicided!
+[21:26:46] MF suicided!
+[21:26:46] вилер URF.IM suicided!
+[21:26:46] kn1ght suicided!
+[21:26:46] Мне сосала дочка трампа suicided!
+[21:26:46] ЪУЪ suicided!
+[21:26:46] Karnage2875 suicided!
+[21:26:46] ДимASS suicided!
+[21:26:54] kn1ght: чимей
+[21:26:56] kn1ght: ЧИИМЕЙ
+[21:26:57] kn1ght: ЧИМЕЕЕЙ
+[21:27:01] Client "KiRiRaZ" connected.
+[21:27:03] kn1ght: ЧИИМЕЕЙ
+[21:27:04] kn1ght: ЧИИМЕЕЙ
+[21:27:05] kn1ght: ЧИИМЕЕЙ
+[21:27:06] kn1ght: ЕЧИИМЕЕЙ
+[21:27:16] (Console) сменил карту на cs_assault
+[21:27:16] Server is shutting down/changing levels.
+
+
+
+[21:27:26] New map: cs_assault
+[21:27:26] Server is shutting down/changing levels.
+
+
+
+[21:27:34] New map: cs_assault
+[21:27:34] Client "ДимASS" connected.
+[21:27:34] Client "kn1ght" connected.
+[21:27:34] Client "kn1ght" connected.
+[21:27:34] Client "TheDarkKnight" connected.
+[21:27:34] Client "TheDarkKnight" connected.
+[21:27:34] Client "ЪУЪ" connected.
+[21:27:34] Client "ЪУЪ" connected.
+[21:27:34] Client "MF" connected.
+[21:27:34] Client "MF" connected.
+[21:27:34] Client "вилер URF.IM" connected.
+[21:27:34] Client "вилер URF.IM" connected.
+[21:27:34] Client "Мне сосала дочка трампа" connected.
+[21:27:34] Client "Мне сосала дочка трампа" connected.
+[21:28:03] Client "Мне сосала дочка трампа" spawned in server <STEAM_0:1:584392665> (took 29 seconds).
+[21:28:04] Client "kn1ght" spawned in server <STEAM_0:1:572372440> (took 30 seconds).
+[21:28:15] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 41 seconds).
+[21:28:16] Client "MF" spawned in server <STEAM_0:1:540984533> (took 42 seconds).
+[21:28:21] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 47 seconds).
+[21:29:00] Client "TheDarkKnight" spawned in server <STEAM_0:0:791215245> (took 86 seconds).
+[21:29:32] Мне сосала дочка трампа suicided!
+[21:29:35] ЪУЪ suicided!
+[21:29:36] Client "вилер URF.IM" spawned in server <STEAM_0:0:636073940> (took 122 seconds).
+[21:29:40] Client "Чипсон" connected.
+[21:29:53] TheDarkKnight: за точто черним назвал
+[21:30:03] ЪУЪ killed Мне сосала дочка трампа using player
+[21:30:35] Dropped "Мне сосала дочка трампа" from server<STEAM_0:1:584392665>
+[21:30:37] ЪУЪ suicided!
+[21:30:50] вилер URF.IM killed MF using player
+[21:30:54] Client "tupikrupik" connected.
+[21:31:06] ДимASS suicided!
+[21:31:06] TheDarkKnight suicided!
+[21:31:37] Client "tupikrupik" spawned in server <STEAM_0:1:776813961> (took 43 seconds).
+[21:31:40] kn1ght suicided!
+[21:31:55] ДимASS: Идём!
+[21:31:58] Client "Чипсон" spawned in server <STEAM_0:0:721560350> (took 138 seconds).
+[21:32:04] вилер URF.IM suicided!
+[21:32:04] tupikrupik suicided!
+[21:32:31] kn1ght suicided!
+[21:32:34] вилер URF.IM suicided!
+[21:32:42] kn1ght respawned Themself
+[21:32:44] kn1ght: Идём!
+[21:32:54] tupikrupik suicided!
+[21:32:59] kn1ght suicided!
+[21:32:59] kn1ght убил Themself
+[21:33:12] Чипсон suicided!
+[21:33:13] tupikrupik: !menu
+[21:34:25] MF suicided!
+[21:34:33] TheDarkKnight suicided!
+[21:34:52] ДимASS killed tupikrupik using player
+[21:34:55] kn1ght suicided!
+[21:34:55] Чипсон suicided!
+[21:35:10] tupikrupik suicided!
+[21:35:13] kn1ght suicided!
+[21:35:18] вилер URF.IM suicided!
+[21:35:32] ЪУЪ suicided!
+[21:35:35] MF suicided!
+[21:36:10] MF suicided!
+[21:36:10] вилер URF.IM suicided!
+[21:36:32] Чипсон suicided!
+[21:36:44] Чипсон suicided!
+[21:36:46] Client "PLECEHb (COX)" connected.
+[21:36:48] ДимASS suicided!
+[21:36:51] kn1ght suicided!
+[21:37:48] TheDarkKnight suicided!
+[21:37:50] вилер URF.IM suicided!
+[21:37:50] вилер URF.IM suicided!
+[21:37:59] ЪУЪ suicided!
+[21:37:59] ЪУЪ suicided!
+[21:38:04] tupikrupik suicided!
+[21:38:17] MF suicided!
+[21:38:31] kn1ght suicided!
+[21:38:43] MF suicided!
+[21:39:19] kn1ght suicided!
+[21:39:33] вилер URF.IM suicided!
+[21:39:42] вилер URF.IM suicided!
+[21:39:43] tupikrupik suicided!
+[21:39:49] tupikrupik: siski
+[21:40:31] tupikrupik: ухты пиздец
+[21:40:36] Client "PLECEHb (COX)" connected.
+[21:40:41] tupikrupik: пивка бахнул и погнал
+[21:40:49] ДимASS suicided!
+[21:41:19] ЪУЪ suicided!
+[21:41:34] tupikrupik suicided!
+[21:42:11] ДимASS suicided!
+[21:42:25] вилер URF.IM suicided!
+[21:42:33] ЪУЪ suicided!
+[21:42:40] ДимASS suicided!
+[21:42:40] tupikrupik suicided!
+[21:42:40] TheDarkKnight suicided!
+[21:42:50] MF suicided!
+[21:42:59] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:43:11] вилер URF.IM suicided!
+[21:43:11] вилер URF.IM suicided!
+[21:43:48] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_eztimebomb
+[21:43:53] Client "PLECEHb (COX)" spawned in server <STEAM_0:1:565973558> (took 197 seconds).
+[21:43:56] Чипсон suicided!
+[21:43:56] Чипсон suicided!
+[21:44:12] kn1ght was killed by ent_jack_gmod_eztimebomb
+[21:44:13] вилер URF.IM suicided!
+[21:44:14] tupikrupik suicided!
+[21:44:29] TheDarkKnight suicided!
+[21:44:33] ДимASS suicided!
+[21:44:44] ЪУЪ suicided!
+[21:44:44] ЪУЪ suicided!
+[21:44:44] ДимASS suicided!
+[21:44:58] TheDarkKnight: Все танцуем!
+[21:45:08] TheDarkKnight: Все танцуем!
+[21:45:09] TheDarkKnight suicided!
+[21:45:09] TheDarkKnight suicided!
+[21:45:11] tupikrupik suicided!
+[21:45:42] ЪУЪ suicided!
+[21:45:43] ДимASS suicided!
+[21:45:43] ДимASS suicided!
+[21:45:43] TheDarkKnight suicided!
+[21:45:54] tupikrupik suicided!
+[21:45:54] ДимASS: !point control_point
+[21:46:17] MF: Все танцуем!
+[21:46:20] tupikrupik: пидоры спавнкиллят нахуй
+[21:46:24] kn1ght suicided!
+[21:46:32] MF: Все танцуем!
+[21:46:53] MF: Урааа!
+[21:46:55] MF: Аахахахаха!
+[21:47:06] Чипсон suicided!
+[21:47:09] MF suicided!
+[21:47:32] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezstickynade
+[21:47:41] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezsticknade
+[21:47:48] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezsticknade
+[21:48:00] tupikrupik suicided!
+[21:48:01] ЪУЪ suicided!
+[21:48:05] Client "Pro100Хомяк" connected.
+[21:48:06] вилер URF.IM suicided!
+[21:48:06] TheDarkKnight suicided!
+[21:48:09] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezsticknade
+[21:48:20] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezsticknadebundle
+[21:48:26] PLECEHb (COX) suicided!
+[21:48:37] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezgasnade
+[21:48:47] kn1ght suicided!
+[21:49:10] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezboundingmine
+[21:49:11] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:49:15] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:49:47] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:49:47] MF suicided!
+[21:49:50] PLECEHb (COX) suicided!
+[21:49:51] TheDarkKnight suicided!
+[21:49:51] TheDarkKnight suicided!
+[21:49:54] kn1ght suicided!
+[21:49:54] Чипсон suicided!
+[21:49:55] Dropped "PLECEHb (COX)" from server<STEAM_0:1:565973558>
+[21:49:58] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:50:01] Client "Tандем" connected.
+[21:50:17] TheDarkKnight: как сделать так чтоб меня слышно было
+[21:50:36] вилер URF.IM suicided!
+[21:50:41] tupikrupik: изи катка наху
+[21:51:11] вилер URF.IM suicided!
+[21:51:12] Чипсон suicided!
+[21:51:19] tupikrupik: лохи
+[21:51:45] ДимASS suicided!
+[21:52:01] tupikrupik: великие админі дайте мне энэргос
+[21:52:06] tupikrupik: прошу
+[21:52:10] TheDarkKnight suicided!
+[21:52:13] tupikrupik suicided!
+[21:52:14] MF suicided!
+[21:52:15] kn1ght suicided!
+[21:52:38] ЪУЪ suicided!
+[21:52:44] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:52:46] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:52:47] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:53:05] Чипсон suicided!
+[21:53:16] ДимASS suicided!
+[21:53:19] kn1ght suicided!
+[21:53:19] TheDarkKnight suicided!
+[21:53:19] вилер URF.IM suicided!
+[21:53:19] tupikrupik suicided!
+[21:53:19] MF suicided!
+[21:53:45] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:53:50] tupikrupik<STEAM_0:1:776813961> spawned sent ent_jack_gmod_ezsticknadebundle
+[21:53:51] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:53:52] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:53:52] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:53:53] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:53:59] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:54:29] ДимASS suicided!
+[21:54:29] ДимASS suicided!
+[21:54:34] tupikrupik suicided!
+[21:54:46] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:54:51] вилер URF.IM suicided!
+[21:54:52] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:55:01] TheDarkKnight suicided!
+[21:55:06] kn1ght suicided!
+[21:55:06] MF suicided!
+[21:55:06] Чипсон suicided!
+[21:55:06] ЪУЪ suicided!
+[21:55:26] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:55:29] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:55:31] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:55:33] kn1ght suicided!
+[21:55:33] kn1ght killed TheDarkKnight using base_shell
+[21:55:33] kn1ght killed ЪУЪ using base_shell
+[21:55:33] MF suicided!
+[21:55:33] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezminimore
+[21:55:53] ДимASS suicided!
+[21:55:53] вилер URF.IM suicided!
+[21:55:53] tupikrupik suicided!
+[21:55:58] kn1ght запустил голосование (закончить?)
+[21:55:58] kn1ght: !vote закончить? да нет
+[21:56:00] MF голосует за да
+[21:56:00] вилер URF.IM голосует за да
+[21:56:00] tupikrupik: !menu
+[21:56:01] kn1ght голосует за да
+[21:56:01] ЪУЪ голосует за да
+[21:56:01] Чипсон голосует за нет
+[21:56:01] ДимASS голосует за да
+[21:56:02] TheDarkKnight голосует за да
+[21:56:11] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[21:56:18] Результат: 'да' . (6/8)
+[21:56:25] tupikrupik запустил голосование (Идем на фривей?!)
+[21:56:26] TheDarkKnight голосует за Да
+[21:56:26] tupikrupik голосует за Нет
+[21:56:29] kn1ght голосует за Да
+[21:56:29] ДимASS: !levelend
+[21:56:30] вилер URF.IM голосует за Да
+[21:56:30] MF голосует за Нет
+[21:56:30] Чипсон голосует за Нет
+[21:56:32] tupikrupik suicided!
+[21:56:33] kn1ght killed MF using base_shell
+[21:56:33] kn1ght suicided!
+[21:56:33] Чипсон suicided!
+[21:56:33] Чипсон suicided!
+[21:56:35] ЪУЪ голосует за Нет
+[21:56:45] Результат: 'Нет' . (4/8)
+[21:56:50] tupikrupik: Все танцуем!
+[21:56:54] ЪУЪ suicided!
+[21:56:54] TheDarkKnight suicided!
+[21:57:05] Чипсон suicided!
+[21:57:15] MF: Все танцуем!
+[21:57:34] MF: Все танцуем!
+[21:57:53] ДимASS suicided!
+[21:58:17] MF suicided!
+[21:58:24] вилер URF.IM suicided!
+[21:58:28] Dropped "MF" from server<STEAM_0:1:540984533>
+[21:58:47] tupikrupik suicided!
+[21:58:50] Client "NJeyy 17" connected.
+[21:59:22] (Console) сменил карту на mu_smallotown_v2_13
+[21:59:22] Server is shutting down/changing levels.
+
+
+
+[21:59:32] New map: mu_smallotown_v2_13
+[21:59:33] Server is shutting down/changing levels.
+
+
+
+[21:59:41] New map: mu_smallotown_v2_13
+[21:59:41] Client "ДимASS" connected.
+[21:59:41] Client "kn1ght" connected.
+[21:59:41] Client "kn1ght" connected.
+[21:59:41] Client "TheDarkKnight" connected.
+[21:59:41] Client "TheDarkKnight" connected.
+[21:59:41] Client "вилер URF.IM" connected.
+[21:59:41] Client "вилер URF.IM" connected.
+[21:59:41] Client "tupikrupik" connected.
+[21:59:41] Client "Чипсон" connected.
+[21:59:41] Client "Чипсон" connected.
+[21:59:41] Client "ЪУЪ" connected.
+[21:59:41] Client "ЪУЪ" connected.
+[21:59:43] Client "Right" connected.
+[22:00:22] Client "ДимASS" spawned in server <STEAM_0:0:206797798> (took 41 seconds).
+[22:00:26] Client "Чипсон" spawned in server <STEAM_0:0:721560350> (took 45 seconds).
+[22:00:36] Client "ЪУЪ" spawned in server <STEAM_0:0:235451227> (took 55 seconds).
+[22:01:08] Client "kn1ght" spawned in server <STEAM_0:1:572372440> (took 87 seconds).
+[22:01:13] Client "TheDarkKnight" spawned in server <STEAM_0:0:791215245> (took 92 seconds).
+[22:01:30] Client "вилер URF.IM" spawned in server <STEAM_0:0:636073940> (took 109 seconds).
+[22:01:32] kn1ght respawned Themself
+[22:01:32] Чипсон suicided!
+[22:01:36] kn1ght suicided!
+[22:01:36] kn1ght убил Themself
+[22:02:00] TheDarkKnight suicided!
+[22:02:00] TheDarkKnight suicided!
+[22:02:45] kn1ght suicided!
+[22:03:01] Client "Кека" connected.
+[22:03:10] ЪУЪ suicided!
+[22:03:30] Чипсон suicided!
+[22:03:49] Client "XFansis" connected.
+[22:04:29] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezstickynade
+[22:04:30] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezsticknade
+[22:04:42] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezsticknade
+[22:04:43] ЪУЪ suicided!
+[22:04:51] kn1ght suicided!
+[22:04:52] Чипсон suicided!
+[22:04:53] Client "tupikrupik" spawned in server <STEAM_0:1:776813961> (took 312 seconds).
+[22:05:12] ДимASS<STEAM_0:0:206797798> spawned sent 9x19mm_mag
+[22:05:14] ДимASS<STEAM_0:0:206797798> spawned sent 9x19mm_box
+[22:05:25] ДимASS<STEAM_0:0:206797798> spawned sent ent_othershit_box
+[22:05:35] ДимASS<STEAM_0:0:206797798> spawned sent 7.62x54_stripper
+[22:05:35] вилер URF.IM suicided!
+[22:05:36] ДимASS<STEAM_0:0:206797798> spawned sent 9x19mm_box
+[22:05:40] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezammobox_bppc
+[22:05:42] ДимASS<STEAM_0:0:206797798> spawned sent ent_jack_gmod_ezammobox_a
+[22:05:49] tupikrupik<STEAM_0:1:776813961> spawned model models/props_c17/furniturecouch001a.mdl
+[22:06:14] kn1ght suicided!
+[22:06:23] ДимASS<STEAM_0:0:206797798> spawned sent gb_rocket_hvar
+[22:06:49] kn1ght suicided!
+[22:06:49] kn1ght suicided!
+[22:06:52] ЪУЪ suicided!
+[22:06:52] ЪУЪ suicided!
+[22:07:26] Client "Кека" spawned in server <STEAM_0:0:87840632> (took 265 seconds).
+[22:07:37] Client "Rarirury" connected.
+[22:07:43] Client "m1_garand" connected.
+[22:08:05] tupikrupik suicided!
+[22:08:18] kn1ght killed ДимASS using player
+[22:08:19] ЪУЪ suicided!
+[22:08:31] Чипсон suicided!
+[22:08:31] Чипсон suicided!
+[22:08:52] Чипсон suicided!
+[22:08:53] kn1ght suicided!
+[22:09:02] Чипсон suicided!
+[22:09:04] kn1ght respawned Themself
+[22:09:06] kn1ght предоставил режим бога Themself
+[22:09:06] kn1ght: !god
+[22:09:18] Кека suicided!
+[22:09:29] ДимASS suicided!
+[22:09:36] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 119 seconds).
+[22:09:37] ЪУЪ suicided!
+[22:09:43] tupikrupik suicided!
+[22:09:43] tupikrupik suicided!
+[22:09:55] tupikrupik suicided!
+[22:10:01] Чипсон suicided!
+[22:10:04] tupikrupik suicided!
+[22:10:14] Чипсон suicided!
+[22:10:26] TheDarkKnight suicided!
+[22:10:27] tupikrupik suicided!
+[22:10:31] Чипсон suicided!
+[22:10:45] Кека suicided!
+[22:10:51] tupikrupik suicided!
+[22:10:57] ЪУЪ suicided!
+[22:10:57] ЪУЪ suicided!
+[22:10:59] ДимASS suicided!
+[22:11:05] Client "андрей" connected.
+[22:11:19] ДимASS<STEAM_0:0:206797798> spawned sent gb_rocket_hydra
+[22:11:21] Чипсон suicided!
+[22:11:29] kn1ght suicided!
+[22:11:32] ДимASS suicided!
+[22:11:32] вилер URF.IM suicided!
+[22:11:43] Rarirury suicided!
+[22:11:56] Кека suicided!
+[22:12:06] вилер URF.IM suicided!
+[22:12:06] вилер URF.IM suicided!
+[22:12:08] Чипсон suicided!
+[22:12:23] kn1ght respawned Themself
+[22:12:24] ДимASS suicided!
+[22:12:25] kn1ght предоставил режим бога Themself
+[22:12:25] (TEAM) kn1ght: !god
+[22:12:26] TheDarkKnight suicided!
+[22:12:26] TheDarkKnight suicided!
+[22:12:59] kn1ght suicided!
+[22:13:00] Чипсон suicided!
+[22:13:19] ЪУЪ suicided!
+[22:13:34] ДимASS suicided!
+[22:13:35] TheDarkKnight suicided!
+[22:14:24] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[22:14:31] ДимASS<STEAM_0:0:206797798> spawned model models/props_c17/utilitypole03a.mdl
+[22:14:32] Rarirury suicided!
+[22:14:33] ДимASS<STEAM_0:0:206797798> spawned model models/props_junk/propane_tank001a.mdl
+[22:14:35] kn1ght<STEAM_0:1:572372440> spawned model models/props_c17/canister02a.mdl
+[22:14:48] Client "SG_KaAp" connected.
+[22:15:00] Client "бублик )" connected.
+[22:15:05] Rarirury killed вилер URF.IM using player
+[22:15:28] kn1ght suicided!
+[22:15:46] Rarirury killed Кека using player
+[22:15:50] ДимASS suicided!
+[22:16:11] tupikrupik suicided!
+[22:16:23] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 95 seconds).
+[22:16:26] Dropped "tupikrupik" from server<STEAM_0:1:776813961>
+[22:17:01] Rarirury suicided!
+[22:17:01] Rarirury suicided!
+[22:17:10] ЪУЪ suicided!
+[22:17:26] ДимASS: !menu
+[22:17:28] kn1ght: bind "любая удобная кнопка" fake
+[22:17:29] SG_KaAp: Что делать?
+[22:17:29] TheDarkKnight suicided!
+[22:17:49] ЪУЪ suicided!
+[22:17:50] TheDarkKnight suicided!
+[22:17:57] Кека suicided!
+[22:18:07] Rarirury suicided!
+[22:18:31] вилер URF.IM suicided!
+[22:18:32] SG_KaAp suicided!
+[22:18:32] SG_KaAp suicided!
+[22:18:42] SG_KaAp: Ну шо
+[22:18:44] Чипсон suicided!
+[22:18:47] SG_KaAp: Рации как работают?
+[22:18:53] ДимASS: Не пробовал
+[22:18:55] SG_KaAp: Нормально или нет
+[22:19:00] ДимASS: А кто разбанил рарури?
+[22:19:08] вилер URF.IM suicided!
+[22:19:10] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:19:10] SG_KaAp suicided!
+[22:19:14] Кека suicided!
+[22:19:15] TheDarkKnight suicided!
+[22:19:24] Rarirury suicided!
+[22:19:29] ЪУЪ suicided!
+[22:20:46] ДимASS suicided!
+[22:21:32] kn1ght suicided!
+[22:21:56] TheDarkKnight suicided!
+[22:22:11] Кека suicided!
+[22:22:17] kn1ght suicided!
+[22:23:04] Rarirury suicided!
+[22:23:18] ЪУЪ suicided!
+[22:23:51] Client "SG_KaAp" connected.
+[22:24:35] ДимASS suicided!
+[22:24:40] ДимASS: !menu
+[22:24:50] Dropped "Чипсон" from server<STEAM_0:0:721560350>
+[22:24:50] Чипсон suicided!
+[22:25:00] Rarirury suicided!
+[22:25:04] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 73 seconds).
+[22:25:10] ДимASS<STEAM_0:0:206797798> spawned vehicle models/source_vehicles/car001b_hatchback/vehicle.mdl
+[22:25:15] TheDarkKnight suicided!
+[22:25:19] SG_KaAp: !menu
+[22:26:01] SG_KaAp: !menu
+[22:26:15] (csay from SG_KaAp) Сорян, мне просто рацию надо прверить
+[22:26:20] ДимASS suicided!
+[22:27:05] вилер URF.IM suicided!
+[22:27:57] SG_KaAp запустил голосование (Levelend?)
+[22:27:57] SG_KaAp: !vote  Levelend? Да Нет
+[22:27:59] Кека голосует за Да
+[22:28:00] ДимASS голосует за Да
+[22:28:02] ЪУЪ голосует за Нет
+[22:28:02] kn1ght голосует за Нет
+[22:28:02] SG_KaAp голосует за Да
+[22:28:03] вилер URF.IM голосует за Да
+[22:28:08] Rarirury голосует за Да
+[22:28:09] TheDarkKnight голосует за Да
+[22:28:09] Результат: 'Да' . (6/8)
+[22:28:18] ДимASS: Арсений, посмотри личку
+[22:28:23] ЪУЪ suicided!
+[22:28:41] TheDarkKnight suicided!
+[22:28:47] SG_KaAp: Прием
+[22:28:58] kn1ght suicided!
+[22:29:02] Dropped "TheDarkKnight" from server<STEAM_0:0:791215245>
+[22:29:07] Rarirury suicided!
+[22:29:10] SG_KaAp: Димас, ты из какой тимы?
+[22:29:12] kn1ght: !motd
+[22:29:22] вилер URF.IM suicided!
+[22:29:24] SG_KaAp suicided!
+[22:30:00] ЪУЪ suicided!
+[22:30:23] SG_KaAp: АХахха
+[22:30:31] Кека suicided!
+[22:30:35] SG_KaAp: Безвыходность
+[22:30:37] ДимASS suicided!
+[22:30:37] kn1ght suicided!
+[22:30:37] вилер URF.IM suicided!
+[22:30:37] SG_KaAp suicided!
+[22:30:37] ЪУЪ suicided!
+[22:30:37] Rarirury suicided!
+[22:30:37] Кека suicided!
+[22:30:44] Dropped "Кека" from server<STEAM_0:0:87840632>
+[22:30:50] SG_KaAp: На вкладки пох
+[22:30:50] Dropped "ЪУЪ" from server<STEAM_0:0:235451227>
+[22:31:02] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[22:31:07] (Console) сменил карту на ttt_clue_2022
+[22:31:07] Server is shutting down/changing levels.
+
+
+
+[22:31:16] New map: ttt_clue_2022
+[22:31:16] Server is shutting down/changing levels.
+
+
+
+[22:31:25] New map: ttt_clue_2022
+[22:31:25] Client "kn1ght" connected.
+[22:31:25] Client "kn1ght" connected.
+[22:31:25] Client "Rarirury" connected.
+[22:31:25] Client "Rarirury" connected.
+[22:31:25] Client "вилер URF.IM" connected.
+[22:31:25] Client "вилер URF.IM" connected.
+[22:32:20] Client "kn1ght" spawned in server <STEAM_0:1:572372440> (took 55 seconds).
+[22:32:33] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 68 seconds).
+[22:32:47] Rarirury suicided!
+[22:33:09] Rarirury suicided!
+[22:33:19] Client "mentale ritardee" connected.
+[22:33:20] Client "вилер URF.IM" spawned in server <STEAM_0:0:636073940> (took 115 seconds).
+[22:34:37] kn1ght suicided!
+[22:34:54] Client "T J D" connected.
+[22:35:16] kn1ght suicided!
+[22:35:16] Rarirury suicided!
+[22:35:47] вилер URF.IM suicided!
+[22:36:17] kn1ght suicided!
+[22:36:35] вилер URF.IM suicided!
+[22:37:08] вилер URF.IM suicided!
+[22:37:08] вилер URF.IM suicided!
+[22:37:43] Client "T J D" spawned in server <STEAM_0:0:727692737> (took 169 seconds).
+[22:38:24] kn1ght suicided!
+[22:38:50] T J D suicided!
+[22:38:50] T J D suicided!
+[22:39:03] kn1ght: !motd
+[22:39:31] kn1ght: !motd
+[22:39:43] Client "dr.pepper" connected.
+[22:39:50] Rarirury suicided!
+[22:40:17] T J D suicided!
+[22:40:41] T J D suicided!
+[22:41:29] Rarirury suicided!
+[22:41:48] вилер URF.IM suicided!
+[22:42:12] kn1ght suicided!
+[22:42:13] Dropped "kn1ght" from server<STEAM_0:1:572372440>
+[22:42:46] вилер URF.IM suicided!
+[22:42:51] Dropped "вилер URF.IM" from server<STEAM_0:0:636073940>
+[22:43:30] Rarirury: афк 9999999
+[22:43:30] Dropped "Rarirury" from server<STEAM_0:0:59257294>
+[22:43:30] Rarirury suicided!
+[22:43:47] Client "Rarirury" connected.
+[22:44:08] Client "Rarirury" spawned in server <STEAM_0:0:59257294> (took 21 seconds).
+[22:44:09] Client "mentale ritardee" spawned in server <STEAM_0:0:494404134> (took 650 seconds).
+[22:44:22] Dropped "T J D" from server<STEAM_0:0:727692737>
+[22:44:22] T J D suicided!
+[22:45:10] Client "n.tankamx" connected.
+[22:46:15] Rarirury suicided!
+[22:46:48] Rarirury suicided!
+[22:46:48] Rarirury suicided!
+[22:46:49] Dropped "Rarirury" from server<STEAM_0:0:59257294>
+[22:47:12] Client "n.tankamx" connected.
+[22:48:19] Client "mirasermekbaj4" connected.
+[22:49:17] Dropped "mentale ritardee" from server<STEAM_0:0:494404134>
+[22:49:17] mentale ritardee suicided!
+[23:02:49] Client "T J D" connected.
+[23:03:40] Client "T J D" spawned in server <STEAM_0:0:727692737> (took 51 seconds).
+[23:05:33] T J D suicided!
+[23:10:52] T J D: афк 9999999
+[23:10:52] Dropped "T J D" from server<STEAM_0:0:727692737>
+[23:10:52] T J D suicided!
+[23:11:37] Client "T J D" connected.
+[23:12:05] Client "T J D" spawned in server <STEAM_0:0:727692737> (took 28 seconds).
+[23:12:57] T J D killed T J D
+[23:16:44] T J D suicided!
+[23:20:14] T J D killed T J D
+[23:22:32] T J D: афк 9999999
+[23:22:32] Dropped "T J D" from server<STEAM_0:0:727692737>
+[23:22:32] T J D suicided!
+[23:23:51] Client "The Last Warrior" connected.
+[23:34:31] Client "Мику" connected.
+[23:43:55] Client "The Last Warrior" spawned in server <STEAM_0:0:582841038> (took 1204 seconds).
+[23:49:32] Dropped "The Last Warrior" from server<STEAM_0:0:582841038>
+[23:49:32] The Last Warrior suicided!
+<Logging continued in "data/ulx_logs/11-27-24.txt">

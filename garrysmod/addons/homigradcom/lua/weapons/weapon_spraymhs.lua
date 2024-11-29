@@ -6,7 +6,7 @@ SWEP.Slot				= 0
 SWEP.SlotPos			= 1
 
 SWEP.Base				= "mhs_weapon_base"
-SWEP.Category			= "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true

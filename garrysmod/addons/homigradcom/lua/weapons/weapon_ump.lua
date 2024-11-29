@@ -3,7 +3,7 @@ SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "IMI Micro Uzi"
 SWEP.Instructions			= "Настоящий гэнгста носит только УЗИ!"
-SWEP.Category 				= "Оружие"
+SWEP.Category 				= "SG's Homigrad | ПП"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

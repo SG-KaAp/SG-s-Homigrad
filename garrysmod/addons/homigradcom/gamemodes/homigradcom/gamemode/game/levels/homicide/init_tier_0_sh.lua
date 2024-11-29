@@ -46,7 +46,7 @@ function homicide.IsMapBig()
 end
 
 -- Обновление команды "homicide_setmode"
-local homicide_setmode = CreateConVar("homicide_setmode", "99", FCVAR_LUA_SERVER, "Выберите режим раунда (1 - Чрезвычайное Положение, 2 - Обычный, 3 - Безоружная Зона, 4 - Дикий Запад,5-THT)")
+local homicide_setmode = CreateConVar("homicide_setmode", "99", FCVAR_LUA_SERVER, "Select a round mode (1 - State of Emergency, 2 - Casual, 3 - Unarmed Zone, 4 - Wild West, 5-TTT)")
 
 function homicide.StartRound(data)
     team.SetColor(1, homicide.red[2])

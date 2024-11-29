@@ -22,7 +22,7 @@ end
 SWEP.HoldType				= "revolver"
 SWEP.Base					= "weapon_swsft_base"
 
-SWEP.Category				= "Star Wars"
+SWEP.Category				= "SG's Homigrad | Star Wars"
 
 SWEP.Spawnable				= true
 SWEP.AdminSpawnable			= true

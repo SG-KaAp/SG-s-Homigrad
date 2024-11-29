@@ -8,7 +8,7 @@ SWEP.DrawCrosshair			= true
 SWEP.ViewModel				= "models/drover/baton.mdl"	
 SWEP.ViewModelFOV			= 70
 SWEP.WorldModel				= "models/drover/w_baton.mdl"
-SWEP.HoldType				= "melee"	
+SWEP.HoldType				= "melee"
 SWEP.UseHands           	= true
 
 -- Other settings
@@ -21,7 +21,7 @@ SWEP.Author					= "Haze_of_dream"
 SWEP.Contact				= "https://steamcommunity.com/id/Haze_of_dream/"
 SWEP.Purpose				= "Easily apprehend criminals, or beat people I guess."
 SWEP.Instructions			= "Beat people you dislike."
-SWEP.Category 				= "Ближний Бой"	
+SWEP.Category = "SG's Homigrad | Ближний Бой"	
 
 -- Primary fire settings
 SWEP.Primary.Damage			= 0
@@ -229,7 +229,24 @@ function SWEP:PrimaryAttack()
 end
 
 function SWEP:SecondaryAttack()
-	return false
+	if(CLIENT)then return end
+	sound.Play("weapons/slam/throw.wav",self:GetPos(),55,math.random(90,110))
+	local ent = ents.Create("ent_hg_thknife")
+	ent.Weapon=self:GetClass()
+    ent:SetModel(self.WorldModel)
+	ent.HmcdSpawned=self.HmcdSpawned
+	ent:SetOwner(self.Owner)
+	ent:SetPos(self.Owner:GetShootPos())
+	local knife_ang = self.Owner:EyeAngles()
+	knife_ang:RotateAroundAxis(knife_ang:Up(), -90)
+	ent:SetAngles(knife_ang)
+	ent.Poisoned=self.Poisoned
+	ent.Thrown=true
+	ent:Spawn()
+	local phys = ent:GetPhysicsObject()
+	phys:SetVelocity(self.Owner:GetVelocity()+self.Owner:GetAimVector()*(750))
+	phys:AddAngleVelocity(Vector(0, 0, 100))
+    self.Owner:StripWeapon(self:GetClass())
 end
 
 function SWEP:Deploy()

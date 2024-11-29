@@ -289,8 +289,8 @@ if CLIENT then
     end
 
     local function RemoveSandboxTabs()
-    	local firstuser = {"superadmin", "admin"}
-        local seconduser = {"moderator","admin","superadmin","Sponsor","MegaSponsor"}
+    	local firstuser = {"owner", "superadmin", "admin"}
+        local seconduser = {"owner", "moderator","admin","superadmin","Sponsor","MegaSponsor"}
 
         local tabstoremovefirst = {
 	        	language.GetPhrase("spawnmenu.content_tab"),

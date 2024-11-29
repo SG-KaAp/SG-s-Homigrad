@@ -5,9 +5,9 @@ SWEP.BounceWeaponIcon = false
 end
 
 SWEP.PrintName = "Кукри"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Режущий инструмент, используемый для рубки деревьев, листвы и других вещей, которые попадутся под руку. Обладает удобной рукоятью и длинным лезвием, благодаря чему становится отличным оружием ближнего боя."
-SWEP.Category = "Ближний Бой"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 
 SWEP.Spawnable= true
 SWEP.AdminSpawnable= true

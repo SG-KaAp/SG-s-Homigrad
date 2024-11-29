@@ -1,8 +1,8 @@
 SWEP.Base = "armer_base" -- base 
 SWEP.PrintName = "M4A1-S"
 SWEP.Author = "ArmaLite"
-SWEP.Instructions = "Пендоское оружие?"
-SWEP.Category = "Старые пушки"
+SWEP.Category 				= "SG's Homigrad | Винтовки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

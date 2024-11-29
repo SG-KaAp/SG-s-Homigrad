@@ -2,9 +2,9 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "XM1014"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "Полуавтоматический дробовик под калибр 12/70"
-SWEP.Category 				= "Оружие"
+SWEP.Category 				= "SG's Homigrad | Дробовики"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

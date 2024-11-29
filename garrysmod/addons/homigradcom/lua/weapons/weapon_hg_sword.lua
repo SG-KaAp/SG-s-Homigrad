@@ -3,7 +3,7 @@ SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Металический меч"
 SWEP.Author = "SG_KaAp"
-SWEP.Category = "Ближний Бой"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 SWEP.Instructions = "Меч, которыми древние русы жёстко искореняли ящеров."
 
 SWEP.Spawnable= true

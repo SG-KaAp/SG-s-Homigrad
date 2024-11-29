@@ -2,9 +2,9 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "ИЖ-43"
-SWEP.Author 				= "Homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "Представляет собой внутрикурковое двуствольное ружьё с горизонтальным расположением стволов. Калибр: 12/70"
-SWEP.Category 				= "Оружие 2"
+SWEP.Category 				= "SG's Homigrad | Дробовики"
 SWEP.WepSelectIcon			= "pwb2/vgui/weapons/m4super90"
 
 SWEP.Spawnable 				= true

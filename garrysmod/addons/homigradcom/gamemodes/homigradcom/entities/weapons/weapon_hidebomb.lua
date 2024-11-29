@@ -1,9 +1,9 @@
 SWEP.Base                   = "weapon_base"
 
 SWEP.PrintName 				= "Бомба в пропе"
-SWEP.Author 				= "homigrad"
+SWEP.Author 				= "SG's Homigrad"
 SWEP.Instructions			= "ЛКМ, чтобы заложить в проп/поставить; ПКМ, чтобы взорвать"
-SWEP.Category 				= "Примочки убийцы"
+SWEP.Category = "SG's Homigrad | Примочки убийцы"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false

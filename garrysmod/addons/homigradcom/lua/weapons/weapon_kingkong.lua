@@ -2,7 +2,7 @@
 AddCSLuaFile()
 
 SWEP.PrintName = "Кинг-Конг"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Purpose = "манке"
 
 SWEP.Slot = 0

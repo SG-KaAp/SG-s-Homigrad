@@ -2,8 +2,8 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Металическая Бита"
-SWEP.Author = "Homigrad"
-SWEP.Category = "Ближний Бой"
+SWEP.Author = "SG's Homigrad"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 SWEP.Instructions = "Часть спортивного инвентаря, предназначенная для нанесения ударов по мячу, выполненная из металлического материала, благодаря чему урон от данной биты будет в разы сильнее, чем от её деревянного аналога. Особенности конструкции биты позволяют наносить ею тяжёлые и мощные удары, но отличается от деревянной битой тем."
 
 SWEP.Spawnable= true

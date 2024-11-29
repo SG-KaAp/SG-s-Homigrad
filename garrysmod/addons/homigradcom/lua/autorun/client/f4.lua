@@ -61,12 +61,14 @@ if CLIENT then
         AddNodeWithIcon(groupNode, "riot", "riot_icon.png")
         AddNodeWithIcon(groupNode, "lizardsmustdie", "riot_icon.png")
         AddNodeWithIcon(groupNode, "alkoriot", "riot_icon.png")
+        AddNodeWithIcon(groupNode, "scp", "riot_icon.png")
         AddNodeWithIcon(groupNode, "slovopacana", "slovopacana_icon.png")
         AddNodeWithIcon(groupNode, "bodycam", "camera.png")
         AddNodeWithIcon(groupNode, "scout", "airplane.png")
 
         local dmFolder = AddNodeWithIcon(tree, "Каждый сам за себя", "gun.png")
         AddNodeWithIcon(dmFolder, "dm", "gun.png")
+        AddNodeWithIcon(dmFolder, "alko", "gun.png")
         AddNodeWithIcon(dmFolder, "igib", "bomb.png")
         AddNodeWithIcon(tree, "wick", "assassins.png")
         AddNodeWithIcon(tree, "kingkong", "speak_no_evil.png")
@@ -136,6 +138,9 @@ if CLIENT then
                     description:SetText("Жесткий режим.")
                     description:SetTextColor(Color(255, 255, 255))
                 elseif selectedMode == "alkoriot" then
+                    description:SetText("Жесткий режим.")
+                    description:SetTextColor(Color(255, 255, 255))
+                elseif selectedMode == "scp" then
                     description:SetText("Жесткий режим.")
                     description:SetTextColor(Color(255, 255, 255))
                 elseif selectedMode == "slovopacana" then

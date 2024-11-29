@@ -2,7 +2,7 @@ SWEP.Base = "armer_base" -- base
 SWEP.PrintName = "Glock-18"
 SWEP.Author = "дэбэгэ прожект (украдено у хомиграда!!!)"
 SWEP.Instructions = "Что может еще делать пистолет? СРАТЬ В ЛИЦО!"
-SWEP.Category = "Старые пушки"
+SWEP.Category = "SG's Homigrad | Counter Strike: Source оружие"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 ------------------------------------------

@@ -1,9 +1,9 @@
 if engine.ActiveGamemode() == "homigradcom" then
 
 SWEP.PrintName = "Байонет"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Армейский штык-нож. Клинок штыка M9 — однолезвийный с пилой на обухе."
-SWEP.Category = "Ближний Бой"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 
 SWEP.Spawnable= true
 SWEP.AdminSpawnable= true

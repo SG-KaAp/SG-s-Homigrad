@@ -1,9 +1,9 @@
 if engine.ActiveGamemode() == "homigradcom" then
 
 SWEP.PrintName = "Полицейская Дубинка"
-SWEP.Author = "Homigrad"
+SWEP.Author = "SG's Homigrad"
 SWEP.Instructions = "Дубинка, используемая полицейскими подразделениями"
-SWEP.Category = "Ближний Бой"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 
 SWEP.Spawnable= true
 SWEP.AdminSpawnable= true

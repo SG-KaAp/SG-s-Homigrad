@@ -16,7 +16,7 @@ end
 
 if SERVER then return end
 
-function sandbox.CanUseSpawnMenu() return GetGlobalVar("Can",false) end
+function sandbox.CanUseSpawnMenu() return GetGlobalVar("Can",true) end
 
 local gray = Color(122,122,122,255)
 
@@ -24,7 +24,7 @@ function sandbox.GetTeamName(ply)
     local teamID = ply:Team()
 
     if ply:Team() == 1 then
-        return "sandboxer",gray
+        return "Sandboxer",gray
     end
 end
 

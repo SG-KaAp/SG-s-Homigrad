@@ -1,0 +1,207 @@
+<Logging continued from "data/ulx_logs/11-20-24.txt">
+[04:46:17] Client "hok" connected.
+[04:47:06] Client "hok" connected.
+[08:30:27] Client "Злой разрушитель" connected.
+[10:28:18] Client "Абакачев Арслан" connected.
+[10:29:23] Client "Абакачев Арслан" connected.
+[10:30:10] Client "Абакачев Арслан" spawned in server <STEAM_0:1:779311989> (took 47 seconds).
+[10:30:17] Client "c4s | qRRaz11cHHH" connected.
+[10:30:41] Client "c4s | qRRaz11cHHH" connected.
+[10:31:26] Client "c4s | qRRaz11cHHH" connected.
+[10:32:42] Client "c4s | qRRaz11cHHH" connected.
+[10:36:00] Client "c4s | qRRaz11cHHH" connected.
+[10:37:22] Client "c4s | qRRaz11cHHH" connected.
+[10:42:19] Dropped "Абакачев Арслан" from server<STEAM_0:1:779311989>
+[12:38:04] Client "Биба" connected.
+[12:41:33] Client "ZELL GUTMAN" connected.
+[12:48:40] Client "ZELL GUTMAN" spawned in server <STEAM_0:0:97018918> (took 427 seconds).
+[12:50:40] Client "Биба" spawned in server <STEAM_0:0:162677392> (took 756 seconds).
+[12:50:44] Биба suicided!
+[12:50:44] ZELL GUTMAN suicided!
+[12:51:14] Server is shutting down/changing levels.
+
+
+
+[12:51:25] New map: mu_smallotown_v2_13
+[12:51:26] Server is shutting down/changing levels.
+
+
+
+[12:51:33] New map: mu_smallotown_v2_13
+[12:51:33] Client "Биба" connected.
+[12:51:33] Client "Биба" connected.
+[12:52:26] Client "Биба" spawned in server <STEAM_0:0:162677392> (took 53 seconds).
+[12:55:20] Dropped "Биба" from server<STEAM_0:0:162677392>
+[13:02:12] Client "барбареска ★" connected.
+[13:54:03] Client "ZAGRUZKA RAUNDSHOTA!" connected.
+[14:00:13] Client "Tyler Derden" connected.
+[14:02:09] Client "Tyler Derden" connected.
+[14:25:31] Client "ISON" connected.
+[14:28:57] Client "Dissenter" connected.
+[14:41:39] Client "Tyler Derden" connected.
+[14:51:16] Client "Tyler Derden" spawned in server <STEAM_0:1:631879885> (took 577 seconds).
+[14:56:17] Dropped "Tyler Derden" from server<STEAM_0:1:631879885>
+[15:09:31] Client "Пакет" connected.
+[15:19:31] Client "Пакет" spawned in server <STEAM_0:0:548751395> (took 600 seconds).
+[15:25:53] Dropped "Пакет" from server<STEAM_0:0:548751395>
+[16:01:55] Client "✠Megrel✠" connected.
+[16:03:39] Client "Гордон гений мира" connected.
+[16:05:09] Client "✠Megrel✠" spawned in server <STEAM_0:1:625204885> (took 194 seconds).
+[16:06:57] Dropped "✠Megrel✠" from server<STEAM_0:1:625204885>
+[16:13:58] Client "Mister Muscle 12" connected.
+[16:14:19] Client "Mister Muscle 12" connected.
+[16:16:40] Client "- FAZI -" connected.
+[16:19:27] Client "Гордон гений мира" spawned in server <STEAM_0:1:812301266> (took 948 seconds).
+[16:21:29] Dropped "Гордон гений мира" from server<STEAM_0:1:812301266>
+[16:21:41] Client "hosimiro?" connected.
+[16:25:23] Client "- FAZI -" connected.
+[16:39:53] Client "- FAZI -" spawned in server <STEAM_0:1:621507963> (took 870 seconds).
+[16:40:22] Client "ionov.kn" connected.
+[16:41:33] Dropped "- FAZI -" from server<STEAM_0:1:621507963>
+[16:55:23] Client "Гена цидармян" connected.
+[16:59:30] Client "otata" connected.
+[17:12:49] Client "ionov.kn" spawned in server <STEAM_0:1:561524756> (took 1947 seconds).
+[17:14:48] Dropped "ionov.kn" from server<STEAM_0:1:561524756>
+[17:37:27] Client "negrillo556" connected.
+[17:45:54] Client "negrillo556" spawned in server <STEAM_0:1:615248108> (took 507 seconds).
+[17:51:16] Dropped "negrillo556" from server<STEAM_0:1:615248108>
+[18:56:28] Client "kirillagafonov624" connected.
+[19:22:49] Client "SplatMaxie" connected.
+[19:47:36] Server is shutting down/changing levels.
+
+
+
+[19:48:15] New map: ttt_aircraft_v3
+[19:51:01] Client "SG_KaAp" connected.
+[19:51:38] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 37 seconds).
+[19:51:54] SG_KaAp created 3 bots
+[19:51:54] SG_KaAp: !bot 3
+[19:51:54] Client "Bot01" connected.
+[19:51:54] Client "Bot01" spawned in server <BOT> (took 227 seconds).
+[19:51:54] Client "Bot02" connected.
+[19:51:54] Client "Bot02" spawned in server <BOT> (took 227 seconds).
+[19:51:54] Client "Bot03" connected.
+[19:51:54] Client "Bot03" spawned in server <BOT> (took 227 seconds).
+[19:53:27] SG_KaAp: !menu
+[19:53:54] SG_KaAp сменил карту на claude monet 2
+[19:55:31] Client "i11ushenka" connected.
+[19:56:02] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[19:56:02] SG_KaAp suicided!
+[19:56:08] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 37 seconds).
+[19:58:31] (Console) kicked all bots from server
+[19:58:31] Dropped "Bot01" from server<BOT>
+[19:58:31] Bot01 suicided!
+[19:58:31] Dropped "Bot02" from server<BOT>
+[19:58:31] Bot02 suicided!
+[19:58:31] Dropped "Bot03" from server<BOT>
+[19:58:31] Bot03 suicided!
+[19:59:01] Server is shutting down/changing levels.
+
+
+
+[19:59:22] New map: gm_rayon
+[19:59:22] Server is shutting down/changing levels.
+
+
+
+[19:59:32] New map: gm_rayon
+[19:59:32] Client "i11ushenka" connected.
+[19:59:32] Client "i11ushenka" connected.
+[19:59:42] Client "SG_KaAp" connected.
+[20:00:53] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 71 seconds).
+[20:01:28] SG_KaAp сменил карту на claude monet 2
+[20:01:28] SG_KaAp: !map "claude monet 2"
+[20:01:28] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 116 seconds).
+[20:01:55] SG_KaAp: !vote "Поменять карту?"
+[20:02:03] SG_KaAp запустил голосование (Поменять карту?)
+[20:02:03] SG_KaAp: !vote "Поменять карту?" Да Нет
+[20:02:04] SG_KaAp голосует за Да
+[20:02:06] i11ushenka голосует за Да
+[20:02:06] Результат: 'Да' . (2/2)
+[20:03:15] SG_KaAp: !menu
+[20:03:28] SG_KaAp сменил карту на freeway_thicc_v3
+[20:03:28] Server is shutting down/changing levels.
+
+
+
+[20:03:38] New map: freeway_thicc_v3
+[20:04:02] Client "i11ushenka" spawned in server <STEAM_0:1:789318958> (took 28 seconds).
+[20:04:15] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 41 seconds).
+[20:04:32] i11ushenka suicided!
+[20:05:13] i11ushenka suicided!
+[20:05:13] i11ushenka suicided!
+[20:05:15] SG_KaAp suicided!
+[20:05:45] Client "Zenith" connected.
+[20:05:51] SG_KaAp suicided!
+[20:06:03] SG_KaAp: Ну давай давай нападай
+[20:06:13] i11ushenka suicided!
+[20:06:13] i11ushenka suicided!
+[20:06:15] SG_KaAp: Ну давай давай нападай
+[20:06:26] SG_KaAp: Ну давай давай нападай
+[20:06:43] (TEAM) SG_KaAp: Где же ты
+[20:06:46] SG_KaAp: Где же ты
+[20:06:50] SG_KaAp: Мой пупсик
+[20:07:00] SG_KaAp: ХАХАХА
+[20:07:20] SG_KaAp suicided!
+[20:07:24] i11ushenka suicided!
+[20:07:49] SG_KaAp was killed by trigger_hurt
+[20:07:50] i11ushenka suicided!
+[20:07:59] i11ushenka: !skip
+[20:08:01] SG_KaAp: Ты тоже помер
+[20:08:04] SG_KaAp: !levelend
+[20:08:23] i11ushenka suicided!
+[20:08:36] SG_KaAp: Посмотри с
+[20:09:09] i11ushenka suicided!
+[20:09:12] SG_KaAp suicided!
+[20:09:27] SG_KaAp: СТАЛКЕР 2!
+[20:09:29] SG_KaAp: СТАЛКЕР 2!
+[20:09:32] SG_KaAp: СТАЛКЕР 2!
+[20:09:34] SG_KaAp: СТАЛКЕР 2!
+[20:09:38] SG_KaAp: СТАЛКЕР 2!
+[20:09:43] SG_KaAp: СТАЛКЕР 2!
+[20:09:50] SG_KaAp suicided!
+[20:09:52] SG_KaAp: СТАЛКЕР 2!
+[20:10:20] SG_KaAp suicided!
+[20:10:23] SG_KaAp: СТАЛКЕР 2!
+[20:10:27] i11ushenka suicided!
+[20:11:19] i11ushenka suicided!
+[20:11:22] SG_KaAp suicided!
+[20:11:25] i11ushenka suicided!
+[20:11:25] SG_KaAp suicided!
+[20:11:47] SG_KaAp: Промик
+[20:11:50] SG_KaAp: Активировал?
+[20:11:55] Server is shutting down/changing levels.
+
+
+
+[20:12:09] New map: gm_backrooms
+[20:12:09] Server is shutting down/changing levels.
+
+
+
+[20:12:22] New map: gm_backrooms
+
+
+
+[20:12:59] New map: ttt_aircraft_v3
+[20:17:12] Client "Link32bit" connected.
+[20:20:37] Client "SG_KaAp" connected.
+[20:21:05] Client "SG_KaAp" spawned in server <STEAM_0:1:566748347> (took 28 seconds).
+[20:21:33] SG_KaAp respawned Themself
+[20:21:33] SG_KaAp: !frespawn ^
+[20:22:58] SG_KaAp suicided!
+[20:23:03] Dropped "SG_KaAp" from server<STEAM_0:1:566748347>
+[20:24:44] Client "DoktorLivse" connected.
+[20:26:04] Client "Link32bit" spawned in server <STEAM_0:0:221215351> (took 532 seconds).
+[20:26:42] Dropped "Link32bit" from server<STEAM_0:0:221215351>
+[20:29:51] Client "Анальная агония" connected.
+[20:31:42] Client "Анальная агония" connected.
+[20:31:43] Client "Максим Чекрыжкин" connected.
+[20:42:49] Client "Максим Чекрыжкин" spawned in server <STEAM_0:0:756817928> (took 666 seconds).
+[20:43:01] Client "Анальная агония" connected.
+[20:44:02] Dropped "Максим Чекрыжкин" from server<STEAM_0:0:756817928>
+[21:00:27] Client "Mästare av bröd" connected.
+[21:23:01] Client "kukusian" connected.
+[21:25:08] Client "kukusian" connected.
+[22:26:37] Client "T0_Oth1e5s" connected.
+<Logging continued in "data/ulx_logs/11-22-24.txt">

@@ -22,7 +22,7 @@ function SWEP:PrimaryAttack()
     local ent = tr.Entity
     if not IsValid(ent) or not ent:IsPlayer() or ent:GetNWBool("DarkRPArest") then return end
 
-    darkrp.Arest(ent,true)
+    --darkrp.Arest(ent,true)
 end
 
 function SWEP:SecondaryAttack()
@@ -45,7 +45,7 @@ function SWEP:SecondaryAttack()
     local ent = tr.Entity
     if not IsValid(ent) or not ent:IsPlayer() or not ent:GetNWBool("DarkRPArest") then return end
 
-    darkrp.Arest(ent,false)
+    --darkrp.Arest(ent,false)
 end
 
 function SWEP:Reload()
@@ -71,7 +71,7 @@ function SWEP:Holster()
     return true
 end
 
-function darkrp.Arest(ply,value)
+--[[function darkrp.Arest(ply,value)
     local list = ReadDataMap("darkrp_jail")
     if #list == 0 then ply:ChatPrint("Скажи админам что нету darkrp_jail point") return end
 
@@ -88,4 +88,4 @@ function darkrp.Arest(ply,value)
         local point = table.Random(homicide.Spawns())
         ply:SetPoint(point[1])
     end
-end
+end--]]

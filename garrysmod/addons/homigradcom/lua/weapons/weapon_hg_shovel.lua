@@ -2,8 +2,8 @@ if engine.ActiveGamemode() == "homigradcom" then
 SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Монтировка"
-SWEP.Author = "Homigrad"
-SWEP.Category = "Ближний Бой"
+SWEP.Author = "SG's Homigrad"
+SWEP.Category = "SG's Homigrad | Ближний Бой"
 SWEP.Instructions = "Ручной ударный и рычажный инструмент, один из наиболее древних видов инструмента, известных человечеству, наряду с молотком, зубилом, топором, лопатой."
 
 SWEP.Spawnable= true

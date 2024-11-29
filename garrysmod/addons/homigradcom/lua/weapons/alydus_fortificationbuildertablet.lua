@@ -49,7 +49,7 @@ SWEP.Contact = ""
 SWEP.Purpose = ""
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
-SWEP.Category = "Разное"
+SWEP.Category = "SG's Homigrad | Разное"
 
 SWEP.Primary.ClipSize = -1
 SWEP.Primary.DefaultClip = -1
