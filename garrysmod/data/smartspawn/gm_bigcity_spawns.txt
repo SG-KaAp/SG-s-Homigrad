@@ -1,1 +1,0 @@
-{"entitySpawnPoints":[],"playerSpawnPoints":{"all":[]}}

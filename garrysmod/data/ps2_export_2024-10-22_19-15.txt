@@ -1,6 +1,0 @@
-["Pointshop2.TrailPersistence"] = {
-},
-["Pointshop2.PlayermodelPersistence"] = {
-},
-["Pointshop2.HatPersistence"] = {
-},

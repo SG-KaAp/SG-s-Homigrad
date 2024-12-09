@@ -1,1 +1,0 @@
-{"bRenderSpawns":false,"bOverrideSpawns":true,"bPlayerSpawns":true,"bEntitySpawns":true}
