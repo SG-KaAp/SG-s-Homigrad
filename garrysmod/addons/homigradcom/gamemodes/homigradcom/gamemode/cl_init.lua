@@ -78,6 +78,7 @@ flashlightOn = flashlightOn or false
 local gradient_d = Material("vgui/gradient-d")
 
 hook.Add("HUDPaint","spectate",function()
+	draw.SimpleText( "SG's Homigrad | Version v.1.7.1", "HomigradFont", 0, ScrH() - 16, Color(255, 255, 255, 255) )
 	local lply = LocalPlayer()
 	
 	local spec = lply:GetNWEntity("HeSpectateOn")

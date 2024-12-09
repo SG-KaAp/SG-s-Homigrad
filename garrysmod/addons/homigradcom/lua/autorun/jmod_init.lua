@@ -46,6 +46,8 @@ JMod.EZ_RESOURCE_TYPES = {
 	CLOTH = "cloth",
 	CERAMIC = "ceramic",
 	PAPER = "paper",
+	SAND = "sand",
+	CONCRETE = "concrete",
 	--
 	AMMO = "ammo",
 	MUNITIONS = "munitions",
@@ -63,6 +65,12 @@ JMod.EZ_RESOURCE_TYPES = {
 	FISSILEMATERIAL = "fissile material",
 	--
 	ANTIMATTER = "antimatter"
+}
+
+JMod.PrimitiveResourceTypes = {
+	["wood"] = { JMod.EZ_RESOURCE_TYPES.WOOD },
+	["metal"] = { JMod.EZ_RESOURCE_TYPES.ALUMINUM, JMod.EZ_RESOURCE_TYPES.COPPER, JMod.EZ_RESOURCE_TYPES.STEEL },
+	["rock"] = { JMod.EZ_RESOURCE_TYPES.CONCRETE, JMod.EZ_RESOURCE_TYPES.CERAMIC }
 }
 
 JMod.ResourceToIndex = {}
@@ -83,7 +91,7 @@ for k, v in pairs(JMod.EZ_RESOURCE_TYPES) do
 end
 
 JMod.EZ_RESOURCE_ENTITIES = {
-	/*[JMod.EZ_RESOURCE_TYPES.WATER] = "ent_jack_gmod_ezwater",
+	[JMod.EZ_RESOURCE_TYPES.WATER] = "ent_jack_gmod_ezwater",
 	[JMod.EZ_RESOURCE_TYPES.WOOD] = "ent_jack_gmod_ezwood",
 	[JMod.EZ_RESOURCE_TYPES.ORGANICS] = "ent_jack_gmod_ezorganics",
 	[JMod.EZ_RESOURCE_TYPES.OIL] = "ent_jack_gmod_ezoil",
@@ -130,23 +138,35 @@ JMod.EZ_RESOURCE_ENTITIES = {
 	[JMod.EZ_RESOURCE_TYPES.PRECISIONPARTS] = "ent_jack_gmod_ezprecparts",
 	[JMod.EZ_RESOURCE_TYPES.ADVANCEDTEXTILES] = "ent_jack_gmod_ezadvtextiles",
 	[JMod.EZ_RESOURCE_TYPES.ADVANCEDPARTS] = "ent_jack_gmod_ezadvparts",
-	[JMod.EZ_RESOURCE_TYPES.FISSILEMATERIAL] = "ent_jack_gmod_ezfissilematerial",*/
-	[JMod.EZ_RESOURCE_TYPES.ANTIMATTER] = "ent_jack_gmod_ezantimatter"
+	[JMod.EZ_RESOURCE_TYPES.FISSILEMATERIAL] = "ent_jack_gmod_ezfissilematerial",
+	[JMod.EZ_RESOURCE_TYPES.ANTIMATTER] = "ent_jack_gmod_ezantimatter",
+	[JMod.EZ_RESOURCE_TYPES.SAND] = "ent_jack_gmod_ezsand",
+	[JMod.EZ_RESOURCE_TYPES.CONCRETE] = "ent_jack_gmod_ezconcrete"
 }
 
-for k, v in pairs({
-	"models/squad/sf_tris/sf_tri8x8.mdl",
-	"models/squad/sf_tris/sf_tri7x7.mdl",
-	"models/squad/sf_tris/sf_tri6x6.mdl",
-	"models/squad/sf_tris/sf_tri5x5.mdl",
-	"models/squad/sf_tris/sf_tri4x4.mdl",
-	"models/squad/sf_tris/sf_tri3x3.mdl",
-	"models/squad/sf_tris/sf_tri2x2.mdl",
-	"models/squad/sf_tris/sf_tri1x1.mdl",
-}) do
-	util.PrecacheModel(v)
-end
+JMod.EZ_RESOURCE_TYPE_METHODS = {
+	[JMod.EZ_RESOURCE_TYPES.BASICPARTS] = "BasicParts",
+	[JMod.EZ_RESOURCE_TYPES.POWER] = "Electricity",
+	[JMod.EZ_RESOURCE_TYPES.GAS] = "Gas",
+	[JMod.EZ_RESOURCE_TYPES.COOLANT] = "Coolant",
+	[JMod.EZ_RESOURCE_TYPES.WATER] = "Water",
+	[JMod.EZ_RESOURCE_TYPES.CHEMICALS] = "Chemicals",
+	[JMod.EZ_RESOURCE_TYPES.OIL] = "Oil",
+	[JMod.EZ_RESOURCE_TYPES.FUEL] = "Fuel",
+	[JMod.EZ_RESOURCE_TYPES.AMMO] = "Ammo",
+	[JMod.EZ_RESOURCE_TYPES.MUNITIONS] = "Munitions",
+	[JMod.EZ_RESOURCE_TYPES.MEDICALSUPPLIES] = "Supplies",
+	[JMod.EZ_RESOURCE_TYPES.COAL] = "Coal",
+	[JMod.EZ_RESOURCE_TYPES.SAND] = "Sand",
+	[JMod.EZ_RESOURCE_TYPES.CONCRETE] = "Concrete"
+}
 
+JMod.EZ_WEIGHTLESS_RESOURCE_TYPES = {
+	[JMod.EZ_RESOURCE_TYPES.POWER] = true,
+	[JMod.EZ_RESOURCE_TYPES.ANTIMATTER] = true
+}
+
+-- EZ item quality grade (upgrade level) definitions
 JMod.EZ_GRADE_BASIC = 1
 JMod.EZ_GRADE_COPPER = 2
 JMod.EZ_GRADE_SILVER = 3
@@ -162,15 +182,7 @@ JMod.EZ_GRADE_MATS = {Material("models/mats_jack_grades/1"), Material("models/ma
 JMod.EZ_GRADE_UPGRADE_COSTS = {.5, 1, 1.5, 2}
 
 JMod.EZ_UPGRADE_RESOURCE_BLACKLIST = {}
-
-JMod.EZ_GRADE_BUFFS = {1, 1.25, 1.5, 1.75, 2}
-
-JMod.EZ_GRADE_NAMES = {"basic", "copper", "silver", "gold", "platinum"}
-
-JMod.EZ_GRADE_UPGRADE_COSTS = {.5, 1, 1.5, 2}
-
-JMod.EZ_UPGRADE_RESOURCE_BLACKLIST = {}
-
+-- State enums
 JMod.EZ_STATE_BROKEN = -1
 JMod.EZ_STATE_OFF = 0
 JMod.EZ_STATE_ON = 1
@@ -180,6 +192,7 @@ JMod.EZ_STATE_ARMED = 4
 JMod.EZ_STATE_WARNING = 5
 
 JMod.EZ_HAZARD_PARTICLES = {
+	["ent_jack_gmod_ezcsparticle"] = {JMod.EZ_RESOURCE_TYPES.CHEMICALS, .2},
 	["ent_jack_gmod_ezgasparticle"] = {JMod.EZ_RESOURCE_TYPES.CHEMICALS, .5},
 	["ent_jack_gmod_ezvirusparticle"] = {JMod.EZ_RESOURCE_TYPES.CHEMICALS, .1},
 	["ent_jack_gmod_ezfalloutparticle"] = {JMod.EZ_RESOURCE_TYPES.FISSILEMATERIAL, .2}
@@ -213,6 +226,9 @@ JMod.MapSolarPowerModifiers = {
 	}
 }
 
+-- this table is just a bunch of assumptions
+-- so that we have something to fall back on for camoflauge
+-- obviously hand-picked colors will be better, but hey
 JMod.HitMatColors = {
 	[MAT_ANTLION] = {Color(194, 193, 109)},
 	[MAT_BLOODYFLESH] = {Color(116, 57, 50)},
@@ -238,6 +254,76 @@ JMod.HitMatColors = {
 	[MAT_WARPSHIELD] = {Color(255, 255, 255)}
 }
 
+JMod.DefualtArmorTable={
+	[DMG_BUCKSHOT]=.1,
+	[DMG_CRUSH]=.5,
+	[DMG_VEHICLE]=.5,
+	[DMG_BULLET]=.2,
+	[DMG_SLASH]=.2,
+	[DMG_BLAST]=1,
+	[DMG_BLAST_SURFACE]=1,
+	[DMG_CLUB]=.5,
+	[DMG_SHOCK]=1,
+	[DMG_BURN]=.3,
+	[DMG_SLOWBURN]=.3,
+	[DMG_ACID]=.4,
+	[DMG_PLASMA]=.4,
+	[DMG_AIRBOAT]=.75,
+	[DMG_SONIC]=.1,
+	-- Machines should never be damaged by these
+	[DMG_DROWN]=0,
+	[DMG_PARALYZE]=0,
+	[DMG_NERVEGAS]=0,
+	[DMG_POISON]=0,
+	[DMG_RADIATION]=0,
+	-- These damages should always be applied
+	[DMG_SNIPER]=1,
+	[DMG_GENERIC]=1,
+	[DMG_FALL]=1,
+	[DMG_ENERGYBEAM]=1,
+	[DMG_PHYSGUN]=1,
+	[DMG_DIRECT]=1,
+	[DMG_DISSOLVE]=1,
+	[DMG_MISSILEDEFENSE]=1
+}
+
+JMod.TreeArmorTable={
+	[DMG_SLASH]=1.1,
+	[DMG_BLAST]=1.1,
+	[DMG_CLUB]=1.1,
+	[DMG_BUCKSHOT]=.1,
+	[DMG_SNIPER]=.2,
+	[DMG_CRUSH]=.9,
+	[DMG_BULLET]=.1,
+	[DMG_SHOCK]=.9,
+	[DMG_BURN]=.3,
+	[DMG_SLOWBURN]=.3,
+	[DMG_AIRBOAT]=.5,
+	[DMG_PLASMA]=.3,
+	[DMG_RADIATION]=.2,
+	-- These values are more black and white
+	[DMG_POISON]=0,
+	[DMG_DROWN]=0,
+	[DMG_PARALYZE]=0,
+	[DMG_NERVEGAS]=0,
+	[DMG_FALL]=0,
+	[DMG_SONIC]=0,
+	[DMG_ENERGYBEAM]=1,
+	[DMG_PHYSGUN]=1,
+	[DMG_ACID]=1,
+	[DMG_VEHICLE]=1,
+	[DMG_DISSOLVE]=1,
+	[DMG_BLAST_SURFACE]=1,
+	[DMG_DIRECT]=1,
+	[DMG_GENERIC]=1,
+	[DMG_MISSILEDEFENSE]=1
+}
+
+JMod.EZ_OwnerID = {}
+
+-- we have to load locales before any other files
+-- because files that add concommands have help text
+-- and we want the help text to be localized
 include("jmod/sh_locales.lua")
 AddCSLuaFile("jmod/sh_locales.lua")
 
@@ -259,3 +345,411 @@ for i, f in pairs(file.Find("jmod/*.lua", "LUA")) do
 		print("JMod detected unaccounted-for lua file '" .. f .. "'-check prefixes!")
 	end
 end
+
+local PrimitiveBenchReqs = {[JMod.EZ_RESOURCE_TYPES.WOOD] = 25, [JMod.EZ_RESOURCE_TYPES.CERAMIC] = 15, [JMod.EZ_RESOURCE_TYPES.ALUMINUM] = 8}
+
+local Handcraft = function(ply, cmd, args)
+	local Pos = ply:GetPos()
+	local ScrapResources, LocalScrap = JMod.FindSuitableScrap(Pos, 200, ply)
+	local ResourcesFromResourceEntities = JMod.CountResourcesInRange(nil, nil, ply)
+	local AvailableResources = {}
+	for k, v in pairs(ScrapResources) do
+		AvailableResources[k] = (AvailableResources[k] or 0) + v
+	end
+	for k, v in pairs(ResourcesFromResourceEntities) do
+		AvailableResources[k] = (AvailableResources[k] or 0) + v
+	end
+	local EnoughStuff, StuffLeft = JMod.HaveResourcesToPerformTask(nil, nil, PrimitiveBenchReqs, nil, AvailableResources)
+	if EnoughStuff then
+		local WherePutBench = util.QuickTrace(ply:GetShootPos(), ply:GetAimVector() * 100, ply)
+		JMod.BuildEffect(WherePutBench.HitPos + Vector(0, 0, 30))
+		timer.Simple(0.5, function()
+			local Bench = ents.Create("ent_jack_gmod_ezprimitivebench")
+			Bench:SetPos(WherePutBench.HitPos + Vector(0, 0, 30))
+			Bench:SetAngles(-ply:GetAngles())
+			Bench:Spawn()
+			JMod.SetEZowner(Bench, ply)
+			Bench:Activate()
+		end)
+		
+		local AllDone, Moar = JMod.ConsumeResourcesInRange(PrimitiveBenchReqs, Pos, 200, ply, false, LocalScrap)
+		if not(AllDone) then
+			JMod.ConsumeResourcesInRange(Moar, Pos, 200, ply, false)
+		end
+	else
+		local Mssg = ""
+		for k, v in pairs(StuffLeft) do
+			Mssg = Mssg .. tostring(v) .. " more " .. tostring(k) .. ", "
+		end
+		ply:PrintMessage(HUD_PRINTCENTER, "You need: " .. string.sub(Mssg, 1, -3))
+	end
+end
+
+-- This needs to be here I guess, probably due to load order
+JMod.EZ_CONCOMMANDS = {
+	{name = "inv", func = JMod.EZ_Open_Inventory, helpTxt = "Opens your EZ inventory to manage your armour.", noShow = true},
+	{name = "bombdrop", func = JMod.EZ_BombDrop, helpTxt = "Drops any bombs you have armed and welded."},
+	{name = "launch", func = JMod.EZ_WeaponLaunch, helpTxt = "Fires any active missiles you own."},
+	{name = "trigger", func = JMod.EZ_Remote_Trigger,  helpTxt = "Triggers any EZ bombs/mini-nades you have armed."},
+	{name = "scrounge", func = JMod.EZ_ScroungeArea, helpTxt = "Scrounges area for useful props to salvage."},
+	{name = "grab", func = JMod.EZ_GrabItem, helpTxt = "Grabs the item and tries to put it in your inventory"},
+	{name = "handcraft", func = Handcraft, helpTxt = "Construct crafting table from scrap."},
+	{name = "config", func = JMod.EZ_Open_ConfigUI, helpTxt = "Opens the EZ config editor.", adminOnly = true}
+}
+
+if SERVER then
+	for _, v in ipairs(JMod.EZ_CONCOMMANDS) do
+		concommand.Add("jmod_ez_"..v.name, function(ply, cmd, args)
+			if not (IsValid(ply) and ply:Alive()) then return end
+			if v.adminOnly and not(JMod.IsAdmin(ply)) then ply:PrintMessage(HUD_PRINTCENTER, "This command is admin only") return end
+			v.func(ply, cmd, args)
+		end, nil, v.helpTxt)
+	end
+end
+
+JMod.EZ_RESOURCE_INV_WEIGHT = .5
+
+--[[local ImpactSounds = {
+	Metal = {"Canister.ImpactSoft", "Metal_Barrel.BulletImpact", "Metal_Barrel.ImpactSoft", "Metal_Box.BulletImpact", "Metal_Box.ImpactSoft", "Metal_SeafloorCar.BulletImpact", "MetalGrate.BulletImpact", "MetalGrate.ImpactSoft", "MetalVehicle.ImpactSoft", "MetalVent.ImpactHard",},
+	Wood = {"Wood.BulletImpact", "Wood.ImpactSoft", "Wood_Box.BulletImpact", "Wood_Box.ImpactSoft", "Wood_Crate.ImpactSoft", "Wood_Furniture.ImpactSoft", "Wood_Panel.BulletImpact", "Wood_Panel.ImpactSoft", "Wood_Plank.BulletImpact", "Wood_Plank.ImpactSoft", "Wood_Solid.BulletImpact", "Wood_Solid.ImpactSoft"},
+	Flesh = {"Flesh.BulletImpact", "Flesh.ImpactSoft"},
+	Concrete = {"Concrete.BulletImpact", "Concrete.ImpactSoft"},
+	Dirt = {"Dirt.BulletImpact", "Dirt.Impact"}
+}
+
+JMod.EZ_BulletMatImpactTable = {
+	[MAT_METAL] = ImpactSounds.Metal,
+	[MAT_WOOD] = ImpactSounds.Wood,
+	[MAT_FLESH] = ImpactSounds.Flesh,
+	[MAT_CONCRETE] = ImpactSounds.Concrete,
+	[MAT_DIRT] = ImpactSounds.Dirt,
+	[MAT_DEFAULT] = ImpactSounds.Concrete,
+}
+JMod.EZ_BulletPhysImpactTable = {
+	"metal" = ImpactSounds.Metal,
+	"wood" = ImpactSounds.Wood,
+	"concrete" = ImpactSounds.Concrete,
+}
+
+JMod.EZ_PhysImpactSound = function(physmat)
+
+end--]]
+
+--[[
+Physics Sounds
+
+ArmorFlesh.BulletImpact
+BaseEntity.EnterWater
+BaseEntity.ExitWater
+Boulder.ImpactHard
+Boulder.ImpactSoft
+Boulder.ScrapeRough
+Boulder.ScrapeSmooth
+Bounce.Concrete
+Bounce.Flesh
+Bounce.Glass
+Bounce.Metal
+Bounce.Shell
+Bounce.ShotgunShell
+Bounce.Shrapnel
+Bounce.Wood
+Breakable.Ceiling
+Breakable.Computer
+Breakable.Concrete
+Breakable.Crate
+Breakable.Flesh
+Breakable.Glass
+Breakable.MatConcrete
+Breakable.MatFlesh
+Breakable.MatGlass
+Breakable.MatMetal
+Breakable.MatWood
+Breakable.Metal
+Breakable.Spark
+Canister.ImpactHard
+Canister.ImpactSoft
+Canister.Roll
+Canister.ScrapeRough
+Canister.ScrapeSmooth
+Cardboard.Break
+Cardboard.BulletImpact
+Cardboard.ImpactHard
+Cardboard.ImpactSoft
+Cardboard.ScrapeRough
+Cardboard.ScrapeSmooth
+Cardboard.Shake
+Cardboard.StepLeft
+Cardboard.StepRight
+Cardboard.Strain
+Carpet.BulletImpact
+Carpet.Impact
+Carpet.Scrape
+ceiling_tile.Break
+ceiling_tile.BulletImpact
+ceiling_tile.ImpactHard
+ceiling_tile.ImpactSoft
+ceiling_tile.ScrapeRough
+ceiling_tile.ScrapeSmooth
+ceiling_tile.StepLeft
+ceiling_tile.StepRight
+Chain.BulletImpact
+Chain.ImpactHard
+Chain.ImpactSoft
+Chain.ScrapeRough
+Chain.ScrapeSmooth
+ChainLink.BulletImpact
+ChainLink.ImpactHard
+ChainLink.ImpactSoft
+ChainLink.ScrapeRough
+ChainLink.ScrapeSmooth
+ChainLink.StepLeft
+ChainLink.StepRight
+Computer.BulletImpact
+Computer.ImpactHard
+Computer.ImpactSoft
+Concrete.BulletImpact
+Concrete.ImpactHard
+Concrete.ImpactSoft
+Concrete.ScrapeRough
+Concrete.ScrapeSmooth
+Concrete.StepLeft
+Concrete.StepRight
+Concrete_Block.ImpactHard
+Default.BulletImpact
+Default.ImpactHard
+Default.ImpactSoft
+Default.ScrapeRough
+Default.ScrapeSmooth
+Default.StepLeft
+Default.StepRight
+Dirt.BulletImpact
+Dirt.Impact
+Dirt.Scrape
+Dirt.StepLeft
+Dirt.StepRight
+drywall.ImpactHard
+drywall.ImpactSoft
+drywall.StepLeft
+drywall.StepRight
+Flesh.Break
+Flesh.BulletImpact
+Flesh.ImpactHard
+Flesh.ImpactSoft
+Flesh.ScrapeRough
+Flesh.ScrapeSmooth
+Flesh.StepLeft
+Flesh.StepRight
+Flesh.Strain
+Flesh_Bloody.ImpactHard
+Glass.Break
+Glass.BulletImpact
+Glass.ImpactHard
+Glass.ImpactSoft
+Glass.ScrapeRough
+Glass.ScrapeSmooth
+Glass.StepLeft
+Glass.StepRight
+Glass.Strain
+GlassBottle.Break
+GlassBottle.BulletImpact
+GlassBottle.ImpactHard
+GlassBottle.ImpactSoft
+GlassBottle.ScrapeRough
+GlassBottle.ScrapeSmooth
+GlassBottle.StepLeft
+GlassBottle.StepRight
+Grass.StepLeft
+Grass.StepRight
+Gravel.StepLeft
+Gravel.StepRight
+Grenade.ImpactHard
+Grenade.ImpactSoft
+Grenade.Roll
+Grenade.ScrapeRough
+Grenade.ScrapeSmooth
+Grenade.StepLeft
+Grenade.StepRight
+Gunship.Impact
+Gunship.Scrape
+ItemSoda.Bounce
+Ladder.StepLeft
+Ladder.StepRight
+Metal.SawbladeStick
+Metal_Barrel.BulletImpact
+Metal_Barrel.ImpactHard
+Metal_Barrel.ImpactSoft
+Metal_Barrel.Roll
+Metal_Box.Break
+Metal_Box.BulletImpact
+Metal_Box.ImpactHard
+Metal_Box.ImpactSoft
+Metal_Box.ScrapeRough
+Metal_Box.ScrapeSmooth
+Metal_Box.StepLeft
+Metal_Box.StepRight
+Metal_Box.Strain
+Metal_SeafloorCar.BulletImpact
+MetalGrate.BulletImpact
+MetalGrate.ImpactHard
+MetalGrate.ImpactSoft
+MetalGrate.ScrapeRough
+MetalGrate.ScrapeSmooth
+MetalGrate.StepLeft
+MetalGrate.StepRight
+MetalVehicle.ImpactHard
+MetalVehicle.ImpactSoft
+MetalVehicle.ScrapeRough
+MetalVehicle.ScrapeSmooth
+MetalVent.ImpactHard
+MetalVent.StepLeft
+MetalVent.StepRight
+Mud.StepLeft
+Mud.StepRight
+Paintcan.ImpactHard
+Paintcan.ImpactSoft
+Paintcan.Roll
+Papercup.Impact
+Papercup.Scrape
+Physics.WaterSplash
+Plastic_Barrel.Break
+Plastic_Barrel.BulletImpact
+Plastic_Barrel.ImpactHard
+Plastic_Barrel.ImpactSoft
+Plastic_Barrel.Roll
+Plastic_Barrel.ScrapeRough
+Plastic_Barrel.ScrapeSmooth
+Plastic_Barrel.StepLeft
+Plastic_Barrel.StepRight
+Plastic_Barrel.Strain
+Plastic_Box.Break
+Plastic_Box.BulletImpact
+Plastic_Box.ImpactHard
+Plastic_Box.ImpactSoft
+Plastic_Box.ScrapeRough
+Plastic_Box.ScrapeSmooth
+Plastic_Box.StepLeft
+Plastic_Box.StepRight
+Plastic_Box.Strain
+Popcan.BulletImpact
+Popcan.ImpactHard
+Popcan.ImpactSoft
+Popcan.ScrapeRough
+Popcan.ScrapeSmooth
+Pottery.Break
+Pottery.BulletImpact
+Pottery.ImpactHard
+Pottery.ImpactSoft
+Rock.ImpactHard
+Rock.ImpactSoft
+Roller.Impact
+Rubber.BulletImpact
+Rubber.ImpactHard
+Rubber.ImpactSoft
+Rubber.StepLeft
+Rubber.StepRight
+Rubber_Tire.BulletImpact
+Rubber_Tire.ImpactHard
+Rubber_Tire.ImpactSoft
+Rubber_Tire.Strain
+Sand.BulletImpact
+Sand.StepLeft
+Sand.StepRight
+SlipperySlime.StepLeft
+SlipperySlime.StepRight
+SolidMetal.BulletImpact
+SolidMetal.ImpactHard
+SolidMetal.ImpactSoft
+SolidMetal.ScrapeRough
+SolidMetal.ScrapeSmooth
+SolidMetal.StepLeft
+SolidMetal.StepRight
+SolidMetal.Strain
+Strider.Impact
+Strider.Scrape
+Tile.BulletImpact
+Tile.StepLeft
+Tile.StepRight
+Tst11
+Tst22
+Tst44
+Tst448
+TstADPCM
+TstMusic
+Tstpitch11
+Tstpitch22
+Tstpitch44
+Tstpitch448
+Tstpitch44l
+TstPitchADPCM
+TstPitchADPCMl
+TstPitchMusic
+TstPitchMusicl
+Underwater.BulletImpact
+Wade.StepLeft
+Wade.StepRight
+Water.BulletImpact
+Water.StepLeft
+Water.StepRight
+Watermelon.BulletImpact
+Watermelon.Impact
+Watermelon.Scrape
+weapon.BulletImpact
+weapon.ImpactHard
+weapon.ImpactSoft
+weapon.ScrapeRough
+weapon.ScrapeSmooth
+weapon.StepLeft
+weapon.StepRight
+Wood.Break
+Wood.BulletImpact
+Wood.ImpactHard
+Wood.ImpactSoft
+Wood.ScrapeRough
+Wood.ScrapeSmooth
+Wood.StepLeft
+Wood.StepRight
+Wood.Strain
+Wood_Box.Break
+Wood_Box.BulletImpact
+Wood_Box.ImpactHard
+Wood_Box.ImpactSoft
+Wood_Box.ScrapeRough
+Wood_Box.ScrapeSmooth
+Wood_Box.StepLeft
+Wood_Box.StepRight
+Wood_Box.Strain
+Wood_Crate.Break
+Wood_Crate.ImpactHard
+Wood_Crate.ImpactSoft
+Wood_Crate.ScrapeRough
+Wood_Crate.ScrapeSmooth
+Wood_Crate.StepLeft
+Wood_Crate.StepRight
+Wood_Crate.Strain
+Wood_Furniture.Break
+Wood_Furniture.ImpactSoft
+Wood_Furniture.Strain
+Wood_Panel.Break
+Wood_Panel.BulletImpact
+Wood_Panel.ImpactHard
+Wood_Panel.ImpactSoft
+Wood_Panel.ScrapeRough
+Wood_Panel.ScrapeSmooth
+Wood_Panel.StepLeft
+Wood_Panel.StepRight
+Wood_Panel.Strain
+Wood_Plank.Break
+Wood_Plank.BulletImpact
+Wood_Plank.ImpactHard
+Wood_Plank.ImpactSoft
+Wood_Plank.ScrapeRough
+Wood_Plank.ScrapeSmooth
+Wood_Plank.Strain
+Wood_Solid.Break
+Wood_Solid.BulletImpact
+Wood_Solid.ImpactHard
+Wood_Solid.ImpactSoft
+Wood_Solid.ScrapeRough
+Wood_Solid.ScrapeSmooth
+Wood_Solid.Strain
+--]]

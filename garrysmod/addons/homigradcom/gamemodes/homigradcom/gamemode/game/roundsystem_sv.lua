@@ -354,7 +354,26 @@ local function donaterVoteLevel(t,argv,calling_ply,args)
 
 	calling_ply.canVoteNext = CurTime() + 600
 end
+COMMANDS.levelnext = {function(ply,args)
+	if ply:IsAdmin() then
+		if not SetActiveNextRound(args[1]) then ply:ChatPrint("ты еблан, такого режима нет.") return end
+	else
+		local calling_ply = ply
+		if (calling_ply.canVoteNext or CurTime()) - CurTime() <= 0 and table.HasValue(LevelList,args[1]) then
+			ulx.doVote( "Поменять режим следующего раунда на " .. tostring(args[1]) .. "?", { "No", "Yes" }, donaterVoteLevel, 15, _, _, argv, calling_ply, args)
+		end
+	end
+end}
+COMMANDS.levels = {function(ply,args)
+	local text = ""
+	for i,name in pairs(LevelList) do
+		text = text .. name .. "\n"
+	end
 
+	text = string.sub(text,1,#text - 1)
+
+	ply:ChatPrint(text)
+end}
 
 concommand.Add("set_next_mode", function(ply, cmd, args)
     local modeName = args[1]
@@ -443,9 +462,6 @@ concommand.Add("vote_next_mode", function(ply, cmd, args)
         ply:ChatPrint("Вам нужно подождать перед следующим голосованием.")
     end
 end)
-
-
-
 
 COMMANDS.levellist = {function(ply,args)
 	local text = ""

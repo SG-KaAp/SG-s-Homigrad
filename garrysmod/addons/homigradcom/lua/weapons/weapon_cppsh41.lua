@@ -53,4 +53,5 @@ SWEP.vbwPos = Vector(4,-3,2)
 SWEP.vbwAng = Angle(90,-30,0)
 
 SWEP.addAng = Angle(0,0,0)
+SWEP.Recoil = 50
 end

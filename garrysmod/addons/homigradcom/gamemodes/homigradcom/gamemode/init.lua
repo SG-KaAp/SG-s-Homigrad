@@ -291,7 +291,7 @@ votemap2:help( "Starts a public map vote." )
 
 hook.Add("Player Think","HasGodMode Rep",function(ply) ply:SetNWBool("HasGodMode",ply:HasGodMode()) end)
 
-resource.AddWorkshop("864612139") --remove red death screen
+--resource.AddWorkshop("864612139") --remove red death screen
 
 COMMANDS.roll = {function(ply,args)
 	local r = math.random(1,tonumber(args[1]))

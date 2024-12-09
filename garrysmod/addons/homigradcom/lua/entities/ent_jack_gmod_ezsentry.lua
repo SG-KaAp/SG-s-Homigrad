@@ -10,14 +10,10 @@ ENT.NoSitAllowed=true
 ENT.Spawnable=true
 ENT.AdminSpawnable=true
 ENT.SpawnHeight=15
-ENT.EZconsumes={
-    JMod.EZ_RESOURCE_TYPES.AMMO,
-    JMod.EZ_RESOURCE_TYPES.POWER,
-    JMod.EZ_RESOURCE_TYPES.BASICPARTS,
-    JMod.EZ_RESOURCE_TYPES.COOLANT
-}
+ENT.EZconsumes=nil
 ENT.EZscannerDanger=true
 ENT.JModPreferredCarryAngles=Angle(0,0,0)
+ENT.EZpowerSocket=Vector(-5, 0, 1)
 ENT.EZupgradable=true
 ENT.Model="models/props_phx/oildrum001_explosive.mdl"
 ENT.Mat="models/mat_jack_gmod_ezsentry"
@@ -50,9 +46,18 @@ ENT.AmmoTypes = {
 		Accuracy = .8,
 		BarrelLength = .75
 	}, -- explosive projectile
+	["Rocket Launcher"] = {
+		MaxAmmo = .20,
+		FireRate = .05,
+		Damage = 3,
+		Accuracy = .8,
+		BarrelLength = 2,
+		TargetingRadius = 1.5,
+		SearchSpeed = 0.75
+	}, -- explosive projectile
 	["Pulse Laser"] = {
 		Accuracy = 3,
-		Damage = .4,
+		Damage = .25,
 		MaxElectricity = 2,
 		BarrelLength = .75
 	} -- bzew
@@ -76,7 +81,8 @@ ENT.StaticPerfSpecs = {
 	BlacklistedNPCs = {"npc_enemyfinder", "bullseye_strider_focus", "npc_turret_floor", "npc_turret_ceiling", "npc_turret_ground", "npc_bullseye"},
 	WhitelistedNPCs = {"npc_rollermine"},
 	SpecialTargetingHeights = {
-		["npc_rollermine"] = 15
+		["npc_rollermine"] = 15,
+		["npc_apcdriver"] = 30
 	},
 	MaxDurability = 100,
 	ThinkSpeed = 1,
@@ -98,46 +104,82 @@ ENT.DynamicPerfSpecs={
 	Cooling=1
 }
 ENT.DynamicPerfSpecExp=1.2
--- All moddable attributes
--- Each mod selected for it is +1, against it is -1
-ENT.ModPerfSpecs = {
-	MaxAmmo = 0,
-	TurnSpeed = 0,
-	TargetingRadius = 0,
-	Armor = 0,
-	FireRate = 0,
-	Damage = 0,
-	Accuracy = 0,
-	SearchSpeed = 0,
-	Cooling = 0
+
+ENT.AmmoRefundTable = {
+	["Bullet"] = {
+		varToRead = "Ammo",
+		spawnType = JMod.EZ_RESOURCE_TYPES.AMMO,
+		conversionMult = 1
+	},
+	["Buckshot"] = {
+		varToRead = "Ammo",
+		spawnType = JMod.EZ_RESOURCE_TYPES.AMMO,
+		conversionMult = 1
+	},
+	["API Bullet"] = {
+		varToRead = "Ammo",
+		spawnType = JMod.EZ_RESOURCE_TYPES.AMMO,
+		conversionMult = 1
+	},
+	["HE Grenade"] = {
+		varToRead = "Ammo",
+		spawnType = JMod.EZ_RESOURCE_TYPES.MUNITIONS,
+		conversionMult = 1
+	},
+	["Rocket Launcher"] = {
+		varToRead = "Ammo",
+		spawnType = JMod.EZ_RESOURCE_TYPES.MUNITIONS,
+		conversionMult = 1
+	},
+	["Pulse Laser"] = {
+		varToRead = "Electricity",
+		spawnType = JMod.EZ_RESOURCE_TYPES.POWER,
+		conversionMult = 1
+	}
 }
 
 function ENT:SetMods(tbl, ammoType)
+	local OldMaxAmmoSpec = (self.ModPerfSpecs and self.ModPerfSpecs.MaxAmmo) or 0
 	self.ModPerfSpecs = tbl
 	local OldAmmo = self:GetAmmoType()
 	self:SetAmmoType(ammoType)
-	if (OldAmmo~=ammoType) then
-		local AmmoTypeToSpawn = JMod.EZ_RESOURCE_TYPES.AMMO
-		if (OldAmmo == "HE Grenade") then
-			AmmoTypeToSpawn = JMod.EZ_RESOURCE_TYPES.MUNITIONS
+	if (OldAmmo~=ammoType)or(self.ModPerfSpecs.MaxAmmo<OldMaxAmmoSpec) then
+		local RefundInfo = self.AmmoRefundTable[OldAmmo]
+		local AmmoTypeToSpawn = RefundInfo.spawnType
+		local NetVarValueName = "Get" .. RefundInfo.varToRead
+		local NetVarValue = self[NetVarValueName](self)
+		local AmtToSpawn = NetVarValue * RefundInfo.conversionMult
+		if (OldAmmo == "Pulse Laser") then
+			// we were using Electricity as ammo, and now our MaxElectricity is about to change
+			// we're gonna kick our all our Electricity, so set ours to 0
+			// no exploit
+			self:SetElectricity(0)
 		end
-		JMod.MachineSpawnResource(self, AmmoTypeToSpawn, self:GetAmmo(), self:GetForward() * -50 + self:GetUp() * 50, Angle(0, 0, 0), self:GetForward(), true)
+		JMod.MachineSpawnResource(self, AmmoTypeToSpawn, AmtToSpawn, Vector(0, -20, 50), Angle(0, 0, 0), self:GetRight(), 100)
 	end
-	self:InitPerfSpecs(OldAmmo~=ammoType)
+	self:InitPerfSpecs((OldAmmo~=ammoType)or((self.ModPerfSpecs.MaxAmmo<OldMaxAmmoSpec)))
 	if(ammoType=="Pulse Laser")then
 		self.EZconsumes={JMod.EZ_RESOURCE_TYPES.POWER,JMod.EZ_RESOURCE_TYPES.BASICPARTS,JMod.EZ_RESOURCE_TYPES.COOLANT}
-	elseif(ammoType=="HE Grenade")then
+	elseif(ammoType=="HE Grenade")or(ammoType=="Rocket Launcher")then
 		self.EZconsumes={JMod.EZ_RESOURCE_TYPES.MUNITIONS,JMod.EZ_RESOURCE_TYPES.POWER,JMod.EZ_RESOURCE_TYPES.BASICPARTS,JMod.EZ_RESOURCE_TYPES.COOLANT}
 	else
 		self.EZconsumes={JMod.EZ_RESOURCE_TYPES.AMMO,JMod.EZ_RESOURCE_TYPES.POWER,JMod.EZ_RESOURCE_TYPES.BASICPARTS,JMod.EZ_RESOURCE_TYPES.COOLANT}
 	end
+	if SERVER then
+		self:SetupWire()
+	end
 end
 
 function ENT:InitPerfSpecs(removeAmmo)
+	if not self.ModPerfSpecs then return end
 	local PerfMult=self:GetPerfMult() or 1
 	local Grade=self:GetGrade()
 	for specName,value in pairs(self.StaticPerfSpecs)do self[specName]=value end
-	for specName,value in pairs(self.DynamicPerfSpecs)do self[specName]=value*PerfMult*JMod.EZ_GRADE_BUFFS[Grade]^self.DynamicPerfSpecExp end
+	for specName,value in pairs(self.DynamicPerfSpecs)do 
+		if(type(value)~="table")then
+			self[specName]=value*PerfMult*JMod.EZ_GRADE_BUFFS[Grade]^self.DynamicPerfSpecExp 
+		end
+	end
 	self.MaxAmmo=math.Round(self.MaxAmmo/100)*100 -- a sight for sore eyes, ey jack?-titanicjames
 	self.TargetingRadius=self.TargetingRadius*52.493 -- convert meters to source units
 	
@@ -184,17 +226,117 @@ function ENT:CustomSetupDataTables()
 	self:NetworkVar("String",0,"AmmoType")
 end
 if(SERVER)then
+	function ENT:SetupWire()
+		if not(istable(WireLib)) then return end
+		local WireInputs = {
+			"Toggle [NORMAL]", 
+			"On-Off [NORMAL]", 
+			"Engage [ENTITY]", 
+			"AimAt [VECTOR]", 
+			"Shoot [NORMAL]",
+			"Reset [NORMAL]"
+		}
+		local WireInputDesc = {
+			"Greater than 1 toggles machine on and off", 
+			"1 turns on, 0 turns off", 
+			"Entity to get angry at",
+			"Vector to aim at",
+			"Fires sentry",
+			"Resets sentry memory"
+		}
+		self.Inputs = WireLib.CreateInputs(self, WireInputs, WireInputDesc)
+		--
+		local WireOutputs = {"State [NORMAL]", "Grade [NORMAL]"}
+		local WireOutputDesc = {"The state of the machine \n-1 is broken \n0 is off \n1 is on", "The machine grade"}
+		for _, typ in ipairs(self.EZconsumes) do
+			if typ == JMod.EZ_RESOURCE_TYPES.BASICPARTS then typ = "Durability" end
+			local ResourceName = string.Replace(typ, " ", "")
+			local ResourceDesc = "Amount of "..ResourceName.." left"
+			--
+			local OutResourceName = string.gsub(ResourceName, "^%l", string.upper).." [NORMAL]"
+			table.insert(WireOutputs, OutResourceName)
+			table.insert(WireOutputDesc, ResourceDesc)
+		end
+		self.Outputs = WireLib.CreateOutputs(self, WireOutputs, WireOutputDesc)
+	end
+
+	function ENT:TriggerInput(iname, value)
+		local State, Owner = self:GetState(), JMod.GetEZowner(self)
+		if State < 0 then return end
+		if iname == "On-Off" then
+			if value == 1 then
+				self:TurnOn(Owner)
+			elseif value == 0 then
+				self:TurnOff(Owner)
+			end
+		elseif iname == "Toggle" then
+			if value > 0 then
+				if State == 0 then
+					self:TurnOn(Owner)
+				elseif State > 0 then
+					self:TurnOff(Owner)
+				end
+			end
+		elseif iname == "Engage" then
+			if IsValid(value) then
+				self.EngageOverride = true
+				self:Engage(value)
+			else
+				self.EngageOverride = false
+			end
+		elseif iname == "AimAt" then
+			if value == Vector(0, 0, 0) then
+				self.AimOverride = nil
+			else
+				self.AimOverride = value
+				local NeedTurnPitch, NeedTurnYaw = self:GetTargetAimOffset(value)
+
+				if (math.abs(NeedTurnPitch) > 0) or (math.abs(NeedTurnYaw) > 0) then
+					self:Turn(NeedTurnPitch, NeedTurnYaw)
+				end
+			end
+		elseif iname == "Shoot" then
+			if value > 0 then
+				self.FireOverride = true
+			else
+				self.FireOverride = false
+			end
+		elseif iname == "Reset" then
+			if value > 0 then
+				self:ResetMemory()
+			end
+		end
+	end
+
 	function ENT:CustomInit()
-		local phys=self.Entity:GetPhysicsObject()
+		local phys=self:GetPhysicsObject()
 		if phys:IsValid()then
 			phys:SetBuoyancyRatio(.3)
 		end
-
+		self.EZconsumes = {
+			JMod.EZ_RESOURCE_TYPES.AMMO,
+			JMod.EZ_RESOURCE_TYPES.POWER,
+			JMod.EZ_RESOURCE_TYPES.BASICPARTS,
+			JMod.EZ_RESOURCE_TYPES.COOLANT
+		}
+		-- All moddable attributes
+		-- Each mod selected for it is +1, against it is -1
+		self.ModPerfSpecs = {
+			MaxAmmo = 0,
+			TurnSpeed = 0,
+			TargetingRadius = 0,
+			Armor = 0,
+			FireRate = 0,
+			Damage = 0,
+			Accuracy = 0,
+			SearchSpeed = 0,
+			Cooling = 0
+		}
 		---
 		self:SetAmmoType("Bullet")
 		JMod.Colorify(self)
-		self:SetPerfMult(JMod.Config.SentryPerformanceMult)
-		self:InitPerfSpecs()
+		self:SetPerfMult(JMod.Config.Machines.Sentry.PerformanceMult)
+		self:SetMods(self.ModPerfSpecs, self:GetAmmoType())
 		---
 		self:Point(0, 0)
 		self.SearchStageTime = self.SearchTime / 2
@@ -204,8 +346,13 @@ if(SERVER)then
 		self:ResetMemory()
 		self:CreateNPCTarget()
 		---
-		self:SetAmmo(0)
-		self:SetCoolant(0)
+		if self.SpawnFull then
+			self:SetAmmo(self.MaxAmmo)
+			self:SetCoolant(self.MaxCoolant)
+		else
+			self:SetAmmo(0)
+			self:SetCoolant(0)
+		end
 	end
 
 	function ENT:ResetMemory()
@@ -227,11 +374,14 @@ if(SERVER)then
 			State = 0 -- 0=not searching, 1=aiming at last known point, 2=aiming at predicted point
 			
 		}
+		self.EngageOverride = nil
+		self.AimOverride = nil
+		self.FireOverride = nil
 	end
 	
-	function ENT:PostEntityPaste(ply, ent, createdEntities)
-		JMod.SetOwner(self, ply)
+	function ENT:OnPostEntityPaste(ply, ent, createdEntities)
 		self:ResetMemory()
+		self:SetMods(self.ModPerfSpecs, self:GetAmmoType())
 	end
 
 	function ENT:CreateNPCTarget()
@@ -283,8 +433,9 @@ if(SERVER)then
 			self:TurnOff()
 		end
 	end
+
 	function ENT:CustomDetermineDmgMult(dmginfo)
-		local Mult=1
+		local Mult=.2 -- Let's just make it tougher overall
 		local IncomingVec=dmginfo:GetDamageForce():GetNormalized()
 		local Up,Right,Forward=self:GetUp(),self:GetRight(),self:GetForward()
 		local AimAng=self:GetAngles()
@@ -296,7 +447,7 @@ if(SERVER)then
 			Mult=Mult*.2
 			if(math.random(1,2)==1)then
 				local SelfPos=self:GetPos()
-				sound.Play("snds_jack_gmod/ricochet_"..math.random(1,2)..".wav",SelfPos+VectorRand(),70,math.random(80,120))
+				sound.Play("snds_jack_gmod/ricochet_"..math.random(1,2)..".ogg",SelfPos+VectorRand(),70,math.random(80,120))
 				local effectdata=EffectData()
 				effectdata:SetOrigin(SelfPos+Up*30+AimVec*20)
 				effectdata:SetNormal(VectorRand())
@@ -329,7 +480,7 @@ if(SERVER)then
 	end
 
 	function ENT:Use(activator)
-		if activator:IsPlayer() then
+		if IsValid(activator) and activator:IsPlayer() then
 			local State = self:GetState()
 
 			if State == STATE_BROKEN then
@@ -339,10 +490,11 @@ if(SERVER)then
 			end
 
 			if State > 0 then
-				self:TurnOff()
+				self:TurnOff(activator)
 			else
 				if self:GetElectricity() > 0 then
 					self:TurnOn(activator)
+					JMod.SetEZowner(self, activator, true)
 					JMod.Hint(activator, "sentry friends")
 				else
 					JMod.Hint(activator, "nopower")
@@ -351,11 +503,12 @@ if(SERVER)then
 		end
 	end
 
-	function ENT:TurnOff()
-		local State = self:GetState()
-		if (State == STATE_OFF) or (State == STATE_BROKEN) then return end
+	function ENT:TurnOff(activator)
+		if (self:GetState() <= 0) then return end
+		if IsValid(activator) and IsValid(self.Target) and (self.Target == activator) and not(activator == self.EZowner) then return end
+		if IsValid(activator) then self.EZstayOn = nil end
 		self:SetState(STATE_OFF)
-		self:EmitSound("snds_jack_gmod/ezsentry_shutdown.wav", 65, 100)
+		self:EmitSound("snds_jack_gmod/ezsentry_shutdown.ogg", 65, 100)
 		self:ResetMemory()
 		self:RemoveNPCTarget()
 	end
@@ -365,18 +518,10 @@ if(SERVER)then
 	end
 
 	function ENT:TurnOn(activator)
-		local OldOwner = self:GetOwner()
-		JMod.SetOwner(self, activator)
-
-		if IsValid(self:GetOwner()) then
-			-- if owner changed then reset team color
-			if OldOwner ~= self:GetOwner() then
-				JMod.Colorify(self)
-			end
-		end
-
+		if self:GetState() > STATE_OFF then return end
+		if IsValid(activator) then self.EZstayOn = true end
 		self:SetState(STATE_WATCHING)
-		self:EmitSound("snds_jack_gmod/ezsentry_startup.wav", 65, 100)
+		self:EmitSound("snds_jack_gmod/ezsentry_startup.ogg", 65, 100)
 		self:ResetMemory()
 		self:CreateNPCTarget()
 	end
@@ -417,7 +562,10 @@ if(SERVER)then
 		end
 	end
 
-	function ENT:CanSee(ent)
+	-- 12/8/2023: there's an addon in the jackarunda sandbox collection (we don't know which one) that will override this function on the sentries if it's named CanSee
+	-- if we name it something else, then it works fine
+	-- i hate retarded gmod script kiddies
+	function ENT:CanSee2(ent)
 		if not IsValid(ent) then return false end
 		local TargPos, SelfPos = self:DetermineTargetAimPoint(ent), self:GetPos() + self:GetUp() * 35
 		local Dist = TargPos:Distance(SelfPos)
@@ -434,10 +582,11 @@ if(SERVER)then
 	end
 
 	function ENT:CanEngage(ent)
+		if self.EngageOverride then return true end
 		if not IsValid(ent) then return false end
 		if ent == self.NPCTarget then return false end
 
-		return JMod.ShouldAttack(self, ent) and self:CanSee(ent)
+		return JMod.ShouldAttack(self, ent) and self:CanSee2(ent)
 	end
 
 	function ENT:TryFindTarget()
@@ -486,8 +635,8 @@ if(SERVER)then
 		self.NextTargetReSearch = CurTime() + self.TargetLockTime
 		self.SearchData.State = 0
 		self:SetState(STATE_ENGAGING)
-		self:EmitSound("snds_jack_gmod/ezsentry_engage.wav", 65, 100)
-		JMod.Hint(self:GetOwner(), "sentry upgrade")
+		self:EmitSound("snds_jack_gmod/ezsentry_engage.ogg", 65, 100)
+		JMod.Hint(JMod.GetEZowner(self), "sentry upgrade")
 	end
 
 	function ENT:Disengage()
@@ -496,19 +645,20 @@ if(SERVER)then
 		self.SearchData.NextSearchChange = Time + self.SearchStageTime
 		self.SearchData.NextDeEsc = Time + self.SearchTime
 		self:SetState(STATE_SEARCHING)
-		self:EmitSound("snds_jack_gmod/ezsentry_disengage.wav", 65, 100)
+		self:EmitSound("snds_jack_gmod/ezsentry_disengage.ogg", 65, 100)
 	end
 
 	function ENT:StandDown()
 		self.Target = nil
 		self.SearchData.State = 0
 		self:SetState(STATE_WATCHING)
-		self:EmitSound("snds_jack_gmod/ezsentry_standdown.wav", 65, 100)
-		JMod.Hint(self:GetOwner(), "sentry modify")
+		self:EmitSound("snds_jack_gmod/ezsentry_standdown.ogg", 65, 100)
+		JMod.Hint(JMod.GetEZowner(self), "sentry modify")
 	end
 
 	function ENT:Think()
 		local Time = CurTime()
+		self:UpdateWireOutputs()
 
 		if self.NextRealThink < Time then
 			local Electricity, Ammo = self:GetElectricity(), self:GetAmmo()
@@ -561,7 +711,7 @@ if(SERVER)then
 							-- aim at last known point
 							local NeedTurnPitch, NeedTurnYaw = self:GetTargetAimOffset(self.SearchData.LastKnownPos)
 
-							if (math.abs(NeedTurnPitch) > 0) or (math.abs(NeedTurnYaw) > 0) then
+							if (math.abs(NeedTurnPitch or 0) > 0) or (math.abs(NeedTurnYaw or 0) > 0) then
 								self:Turn(NeedTurnPitch, NeedTurnYaw)
 							end
 						elseif SearchState == 2 then
@@ -659,14 +809,14 @@ if(SERVER)then
 			local CoolinAmt, Kewlant, Severity = self.Cooling / 3, self:GetCoolant(), self.Heat / 300
 
 			if (Kewlant > 0) and (Severity > .1) then
-				self:SetCoolant(Kewlant - Severity ^ 2 * 20)
+				self:SetCoolant(math.max(Kewlant - Severity ^ 2 * 20, 0))
 				CoolinAmt = CoolinAmt * (200 * Severity ^ 2)
 			end
 
 			self.Heat = math.Clamp(self.Heat - CoolinAmt, 0, 100)
 		end
 
-		if self.Firing then
+		if self.Firing or self.FireOverride then
 			if self.NextFire < Time then
 				self.NextFire = Time + 1 / self.FireRate --  (1/self.FireRate^1.2+0.05) 
 				self:FireAtPoint(self.SearchData.LastKnownPos, self.SearchData.LastKnownVel or Vector(0, 0, 0))
@@ -679,7 +829,6 @@ if(SERVER)then
 	end
 
 	function ENT:FireAtPoint(point, targVel)
-		if not point then return end
 		local Ammo = self:GetAmmo()
 		if Ammo <= 0 then return end
 		local SelfPos, Up, Right, Forward, ProjType = self:GetPos(), self:GetUp(), self:GetRight(), self:GetForward(), self:GetAmmoType()
@@ -688,6 +837,13 @@ if(SERVER)then
 		AimAng:RotateAroundAxis(Up, self:GetAimYaw())
 		local AimForward = AimAng:Forward()
 		local ShootPos = SelfPos + Up * 38 + AimForward * self.BarrelLength
+
+		if not point then
+			local Trace = util.QuickTrace(ShootPos, AimForward * 1000, self)
+			point = Trace.HitPos
+		end
+
+		---
 		local AmmoConsume, ElecConsume = 1, .02
 		local Heat = self.Damage * self.ShotCount / 30
 		self:AddVisualRecoil(Heat * 2)
@@ -707,23 +863,23 @@ if(SERVER)then
 
 			if Dmg >= 60 then
 				util.Effect("RifleShellEject", Eff, true, true)
-				sound.Play("snds_jack_gmod/sentry_powerful.wav", SelfPos, 70, math.random(90, 110))
+				sound.Play("snds_jack_gmod/sentry_powerful.ogg", SelfPos, 70, math.random(90, 110))
 				ParticleEffect("muzzle_center_M82", ShootPos, AimAng, self)
 			elseif Dmg >= 15 then
 				util.Effect("RifleShellEject", Eff, true, true)
-				sound.Play("snds_jack_gmod/sentry.wav", SelfPos, 70, math.random(90, 110))
+				sound.Play("snds_jack_gmod/sentry.ogg", SelfPos, 70, math.random(90, 110))
 				ParticleEffect("muzzleflash_g3", ShootPos, AimAng, self)
 			else
 				util.Effect("ShellEject", Eff, true, true)
-				sound.Play("snds_jack_gmod/sentry_weak.wav", SelfPos, 70, math.random(90, 110))
+				sound.Play("snds_jack_gmod/sentry_weak.ogg", SelfPos, 70, math.random(90, 110))
 				ParticleEffect("muzzleflash_pistol", ShootPos, AimAng, self)
 			end
 
-			sound.Play("snds_jack_gmod/sentry_far.wav", SelfPos + Up, 100, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_far.ogg", SelfPos + Up, 100, math.random(90, 110))
 			ShootDir = (ShootDir + VectorRand() * math.Rand(.05, 1) * Inacc):GetNormalized()
 
 			local Ballut = {
-				Attacker = self:GetOwner() or self,
+				Attacker = self.EZowner or self,
 				Callback = nil,
 				Damage = Dmg,
 				Force = Force,
@@ -752,11 +908,11 @@ if(SERVER)then
 			local Force = Dmg / 5
 			local ShootDir = (point - ShootPos):GetNormalized()
 			util.Effect("ShotgunShellEject", Eff, true, true)
-			sound.Play("snds_jack_gmod/sentry_shotgun.wav", SelfPos, 70, math.random(90, 110))
-			sound.Play("snds_jack_gmod/sentry_far.wav", SelfPos + Up, 100, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_shotgun.ogg", SelfPos, 70, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_far.ogg", SelfPos + Up, 100, math.random(90, 110))
 
 			local Ballut = {
-				Attacker = self:GetOwner() or self,
+				Attacker = self.EZowner or self,
 				Callback = nil,
 				Damage = Dmg,
 				Force = Force,
@@ -783,9 +939,9 @@ if(SERVER)then
 			local Force = Dmg / 5
 			local ShootDir = (point - ShootPos):GetNormalized()
 			util.Effect("RifleShellEject", Eff, true, true)
-			sound.Play("snds_jack_gmod/sentry.wav", SelfPos, 70, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry.ogg", SelfPos, 70, math.random(90, 110))
 			ParticleEffect("muzzleflash_pistol_deagle", ShootPos, AimAng, self)
-			sound.Play("snds_jack_gmod/sentry_far.wav", SelfPos + Up, 100, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_far.ogg", SelfPos + Up, 100, math.random(90, 110))
 			ShootDir = (ShootDir + VectorRand() * math.Rand(.05, 1) * Inacc):GetNormalized()
 
 			JMod.RicPenBullet(self, ShootPos, ShootDir, Dmg, false, false, 1, 15, "eff_jack_gmod_smallarmstracer", function(att, tr, dmg)
@@ -826,9 +982,9 @@ if(SERVER)then
 			end)
 		elseif ProjType == "HE Grenade" then
 			local Dmg, Inacc = self.Damage, .06 / self.Accuracy
-			sound.Play("snds_jack_gmod/sentry_gl.wav", SelfPos, 70, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_gl.ogg", SelfPos, 70, math.random(90, 110))
 			ParticleEffect("muzzleflash_m79", ShootPos, AimAng, self)
-			sound.Play("snds_jack_gmod/sentry_far.wav", SelfPos + Up, 100, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_far.ogg", SelfPos + Up, 100, math.random(90, 110))
 			local Shell = ents.Create("ent_jack_gmod_ez40mmshell")
 			Shell:SetPos(SelfPos + Up * 36 + AimForward * 5)
 			Shell:SetAngles(AngleRand())
@@ -866,17 +1022,91 @@ if(SERVER)then
 			Gnd:SetPos(ShootPos)
 			ShootAng:RotateAroundAxis(ShootAng:Right(), -90)
 			Gnd:SetAngles(ShootAng)
-			JMod.SetOwner(Gnd, self:GetOwner() or self)
+			JMod.SetEZowner(Gnd, JMod.GetEZowner(self) or self)
 			Gnd.Dmg = Dmg
 			Gnd:Spawn()
 			Gnd:Activate()
 			Gnd:GetPhysicsObject():SetVelocity(self:GetVelocity() + ShootDir * Speed)
+		elseif ProjType == "Rocket Launcher" then
+			local Dmg, Inacc = self.Damage, .06 / self.Accuracy
+			AmmoConsume = math.min(Ammo, 5)
+			sound.Play("snds_jack_gmod/sentry_gl.ogg", SelfPos, 70, math.random(90, 110))
+			ParticleEffect("muzzleflash_m79", ShootPos, AimAng, self)
+			sound.Play("snds_jack_gmod/sentry_far.ogg", SelfPos + Up, 100, math.random(90, 110))
+			-- leading calcs --
+			local Speed, Gravity = 4000, GetConVar("sv_gravity"):GetFloat() -- Probably 600
+			local TargetVec = point - ShootPos
+			local Distance = TargetVec:Length()
+			local FlightTime = Distance / Speed
+			local CorrectedFirePosition = point + targVel * FlightTime
+			local ShootDir = (CorrectedFirePosition - ShootPos):GetNormalized()
+			-- ballistic calcs --
+			local Theta = math.deg(math.asin(Distance * Gravity / Speed ^ 2) / 2)
+
+			-- target too far away, no mathematical solution possible, shoot at 45 degrees
+			if Theta ~= Theta then
+				Theta = 45
+			end
+
+			Theta = Theta * (1 - math.abs(TargetVec:GetNormalized().z)) --reduce angle compensation to account for vertical displacement
+
+			if Theta > 45 then
+				Theta = 45
+			end
+
+			local ShootAng = ShootDir:Angle()
+			ShootAng:RotateAroundAxis(ShootAng:Right(), Theta ^ 1.1)
+			ShootDir = ShootAng:Forward()
+			-- end calcs --
+			ShootDir = (ShootDir + VectorRand() * math.Rand(.05, 1) * Inacc):GetNormalized()
+			local Rocket = ents.Create("ent_jack_gmod_ezminirocket")
+			Rocket:SetPos(ShootPos)
+			ShootAng:RotateAroundAxis(ShootAng:Up(), -90)
+			Rocket:SetAngles(ShootAng)
+			JMod.SetEZowner(Rocket, JMod.GetEZowner(self) or self)
+			Rocket.Damage = Dmg * (AmmoConsume / 5)
+			Rocket.CurVel = self:GetVelocity() + ShootDir * Speed
+			Rocket:Spawn()
+			Rocket:Activate()
+
+			-- Backblast code copied from the weapon base --
+			self.BackBlast = 1
+			local RPos, RDir = ShootPos + ShootAng:Right() * 100, -ShootAng:Right()
+			local Dist = 200
+
+			local Tr = util.TraceLine({
+				start = RPos,
+				endpos = RPos - RDir * Dist,
+				filter = {self, Rocket},
+				mask = MASK_SOLID_BRUSHONLY
+			})
+
+			if Tr.Hit then
+				Dist = RPos:Distance(Tr.HitPos)
+				JMod.Hint(JMod.GetEZowner(self), "backblast wall")
+			end
+
+			for i = 1, 4 do
+				util.BlastDamage(self, JMod.GetEZowner(self) or self, RPos + RDir * (i * 40 - Dist) * self.BackBlast, 70 * self.BackBlast, 30 * self.BackBlast)
+			end
+
+			--
+			local FooF = EffectData()
+			FooF:SetOrigin(RPos)
+			FooF:SetScale(self.BackBlast)
+			FooF:SetNormal(RDir)
+			util.Effect("eff_jack_gmod_smalldustshock", FooF, true, true)
+			local Ploom = EffectData()
+			Ploom:SetOrigin(RPos)
+			Ploom:SetScale(self.BackBlast)
+			Ploom:SetNormal(RDir)
+			util.Effect("eff_jack_gmod_ezbackblast", Ploom, true, true)
 		elseif ProjType == "Pulse Laser" then
 			local Dmg, Inacc = self.Damage, .06 / self.Accuracy
 			local Force = Dmg / 5
 			local ShootDir = (point - ShootPos):GetNormalized()
-			sound.Play("snds_jack_gmod/sentry_laser" .. math.random(1, 2) .. ".wav", SelfPos, 70, math.random(90, 110))
-			sound.Play("snds_jack_gmod/sentry_far.wav", SelfPos + Up, 100, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_laser" .. math.random(1, 2) .. ".ogg", SelfPos, 70, math.random(90, 110))
+			sound.Play("snds_jack_gmod/sentry_far.ogg", SelfPos + Up, 100, math.random(90, 110))
 			ShootDir = (ShootDir + VectorRand() * math.Rand(.05, 1) * Inacc):GetNormalized()
 			local Zap = EffectData()
 			Zap:SetOrigin(ShootPos)
@@ -887,7 +1117,7 @@ if(SERVER)then
 			local Tr = util.TraceLine({
 				start = ShootPos,
 				endpos = ShootPos + ShootDir * 20000,
-				mask = -1,
+				mask = MASK_SHOT,
 				filter = {self}
 			})
 
@@ -904,7 +1134,7 @@ if(SERVER)then
 				util.Effect("eff_jack_heavylaserbeamimpact", Derp2, true, true)
 				---
 				local DmgInfo = DamageInfo()
-				DmgInfo:SetAttacker(self:GetOwner() or self)
+				DmgInfo:SetAttacker(JMod.GetEZowner(self))
 				DmgInfo:SetInflictor(self)
 
 				if Tr.Entity:IsOnFire() then
@@ -922,7 +1152,7 @@ if(SERVER)then
 				end
 
 				util.Decal("FadingScorch", Tr.HitPos + Tr.HitNormal, Tr.HitPos - Tr.HitNormal)
-				sound.Play("snd_jack_heavylaserburn.wav", Tr.HitPos, 60, math.random(90, 110))
+				sound.Play("snd_jack_heavylaserburn.ogg", Tr.HitPos, 60, math.random(90, 110))
 			end
 
 			Heat = Heat * 3
@@ -940,18 +1170,19 @@ if(SERVER)then
 		end
 
 		self.Heat = math.Clamp(self.Heat + Heat, 0, 100)
-		self:SetAmmo(Ammo - AmmoConsume)
+		self:SetAmmo(math.max(Ammo - AmmoConsume, 0))
 		self:ConsumeElectricity(ElecConsume)
 	end
 
 	function ENT:GetTargetAimOffset(point)
+		if self.AimOverride then point = self.AimOverride end
 		if not point then return nil, nil end
 		local SelfPos = self:GetPos() + self:GetUp() * 35
 		local TargAng = self:WorldToLocalAngles((point - SelfPos):Angle())
-		local GoalPitch, GoalYaw = -TargAng.p, TargAng.y
+		local GoalPitch, GoalYaw = TargAng.p, TargAng.y
 		local CurPitchOffset, CurYawOffset = self:GetAimPitch(), self:GetAimYaw()
 
-		return -(CurPitchOffset - GoalPitch), CurYawOffset - GoalYaw
+		return -CurPitchOffset - GoalPitch , CurYawOffset - GoalYaw
 	end
 
 	function ENT:RandomMove()
@@ -969,23 +1200,24 @@ if(SERVER)then
 		self:Point(Y + TurnAmtPitch, X - TurnAmtYaw)
 
 		if (math.abs(TurnAmtPitch) > .5) or (math.abs(TurnAmtYaw) > .5) then
-			sound.Play("snds_jack_gmod/ezsentry_turn.wav", self:GetPos(), 60, math.random(95, 105))
+			sound.Play("snds_jack_gmod/ezsentry_turn.ogg", self:GetPos(), 60, math.random(95, 105))
 		end
 
 		self:ConsumeElectricity()
 	end
 
 	function ENT:Turn(pitch, yaw)
+		if self:GetElectricity() <= 0 then return end
 		local X, Y = self:GetAimYaw(), self:GetAimPitch()
 		local TurnAmtPitch = math.Clamp(pitch, -self.TurnSpeed / 8, self.TurnSpeed / 8)
 		local TurnAmtYaw = math.Clamp(yaw, -self.TurnSpeed / 4, self.TurnSpeed / 4)
 		self:Point(Y + TurnAmtPitch, X - TurnAmtYaw)
 
 		if (math.abs(TurnAmtPitch) > .5) or (math.abs(TurnAmtYaw) > .5) then
-			sound.Play("snds_jack_gmod/ezsentry_turn.wav", self:GetPos(), 60, math.random(95, 105))
+			sound.Play("snds_jack_gmod/ezsentry_turn.ogg", self:GetPos(), 60, math.random(95, 105))
 		end
 
-		self:ConsumeElectricity()
+		self:ConsumeElectricity(0.02)
 	end
 
 	function ENT:Point(pitch, yaw)
@@ -1030,12 +1262,14 @@ elseif(CLIENT)then
 		self.Camera=JMod.MakeModel(self,"models/mechanics/robotics/b2.mdl","phoenix_storms/metal",.4)
 		self.LeftHandle=JMod.MakeModel(self,"models/props_wasteland/panel_leverhandle001a.mdl","phoenix_storms/metal")
 		self.RightHandle=JMod.MakeModel(self,"models/props_wasteland/panel_leverhandle001a.mdl","phoenix_storms/metal")
+		self.RocketLauncher=JMod.MakeModel(self,"models/weapons/w_jmod_at4.mdl",nil,1)
 		---
 		self.CurAimPitch = 0
 		self.CurAimYaw = 0
 		self.VisualRecoil = 0
 		---
 		self.LastAmmoType = ""
+		self.ModPerfSpecs = {}
 	end
 
 	function ENT:AddVisualRecoil(amt)
@@ -1051,6 +1285,7 @@ elseif(CLIENT)then
 		["API Bullet"] = 0,
 		["Buckshot"] = 1,
 		["HE Grenade"] = 2,
+		["Rocket Launcher"] = 2,
 		["Pulse Laser"] = 3
 	}
 
@@ -1080,7 +1315,7 @@ elseif(CLIENT)then
 		}).Hit
 
 		local Closeness = LocalPlayer():GetFOV() * EyePos():Distance(SelfPos)
-		local DetailDraw = Closeness < 36000 -- cutoff point is 400 units when the fov is 90 degrees
+		local DetailDraw = Closeness < 36000 * 2 -- cutoff point is 400 units when the fov is 90 degrees
 		if (not DetailDraw) and Obscured then return end -- if player is far and sentry is obscured, draw nothing
 
 		-- if obscured, at least disable details
@@ -1159,11 +1394,20 @@ elseif(CLIENT)then
 		local AimUp, AimRight, AimForward = AimAngle:Up(), AimAngle:Right(), AimAngle:Forward()
 
 		if AmmoType ~= self.LastAmmoType then
+			if not IsValid(self.MachineGun) then
+				self.MachineGun = JMod.MakeModel(self,"models/jmod/ez/sentrygun.mdl")
+			end
 			self.LastAmmoType = AmmoType
 			self.MachineGun:SetBodygroup(0, AmmoBGs[AmmoType])
 		end
 
-		JMod.RenderModel(self.MachineGun, BasePos + AimUp * .5 - AimForward * (1 + self.VisualRecoil) - AimRight * .5, AimAngle)
+		if AmmoType == "Rocket Launcher" then
+			local RocketAngle = AimAngle:GetCopy()
+			RocketAngle:RotateAroundAxis(AimUp, 90)
+			JMod.RenderModel(self.RocketLauncher, BasePos - AimUp * 3.5 + AimForward * 20 - AimRight * .25, RocketAngle)
+		else
+			JMod.RenderModel(self.MachineGun, BasePos + AimUp * .5 - AimForward * (1 + self.VisualRecoil) - AimRight * .5, AimAngle)
+		end
 		self.VisualRecoil = math.Clamp(self.VisualRecoil - FT * 4, 0, 5)
 		---
 		local ShieldAngle = AimAngle:GetCopy()
@@ -1251,5 +1495,5 @@ elseif(CLIENT)then
 		end
 	end
 
-	--language.Add("ent_jack_gmod_ezsentry", "EZ Sentry")
+	language.Add("ent_jack_gmod_ezsentry", "EZ Sentry")
 end

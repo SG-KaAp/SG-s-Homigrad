@@ -370,9 +370,9 @@ hook.Add("CheckPassword","sync",function(steamID)
 
 	--if CloseDev then return false,"dev" end
 
-	if MaxPlayers and #getNotDonaters() + 1 > MaxPlayers then
+	--[[if MaxPlayers and #getNotDonaters() + 1 > MaxPlayers then
 		return false,"Сервер заполнен,Донат слоты доступны Спонсорам.\n discord.gg/homigrad"
-	end
+	end--]]
 
 	if Sync then return false,"xd" end
 end)

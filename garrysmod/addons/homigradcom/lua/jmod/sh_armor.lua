@@ -168,7 +168,7 @@ JMod.ArmorTable = {
 		ang = Angle(100, 180, 90),
 		wgt = 5,
 		mskmat = "mats_jack_gmod_sprites/vignette_gray.png",
-		sndlop = "snds_jack_gmod/mask_breathe.wav",
+		sndlop = "snds_jack_gmod/mask_breathe.ogg",
 		ent = "ent_jack_gmod_ezarmor_gasmask",
 		tgl = {
 			pos = Vector(3, 3, 0),
@@ -232,7 +232,7 @@ JMod.ArmorTable = {
 			power = 20
 		},
 		mskmat = "mats_jack_gmod_sprites/vignette.png",
-		eqsnd = "snds_jack_gmod/tinycapcharge.wav",
+		eqsnd = "snds_jack_gmod/tinycapcharge.ogg",
 		ent = "ent_jack_gmod_ezarmor_nvgs",
 		eff = {
 			nightVision = true
@@ -267,7 +267,7 @@ JMod.ArmorTable = {
 			power = 20
 		},
 		mskmat = "mats_jack_gmod_sprites/vignette.png",
-		eqsnd = "snds_jack_gmod/tinycapcharge.wav",
+		eqsnd = "snds_jack_gmod/tinycapcharge.ogg",
 		ent = "ent_jack_gmod_ezarmor_thermals",
 		eff = {
 			thermalVision = true
@@ -303,7 +303,7 @@ JMod.ArmorTable = {
 		},
 		wgt = 5,
 		dur = 2,
-		sndlop = "snds_jack_gmod/mask_breathe.wav",
+		sndlop = "snds_jack_gmod/mask_breathe.ogg",
 		ent = "ent_jack_gmod_ezarmor_respirator",
 		tgl = {
 			def = NonArmorProtectionProfile,
@@ -318,7 +318,7 @@ JMod.ArmorTable = {
 	},
 	["Headset"] = {
 		PrintName = "Headset",
-		mdl = "models/lt_c/sci_fi/headset_2.mdl", -- sci fi lt
+		mdl = "models/jmod/props/items/sci_fi_headset.mdl", -- sci fi lt
 		slots = {
 			ears = 1
 		},
@@ -352,7 +352,6 @@ JMod.ArmorTable = {
 		slots = {
 			head = .6
 		},
-		mskmat = "sprites/mat_jack_hmcd_helmover",
 		def = BasicArmorProtectionProfile,
 		bon = "ValveBiped.Bip01_Head1",
 		siz = Vector(1.07, 1, 1.1),
@@ -368,7 +367,6 @@ JMod.ArmorTable = {
 		slots = {
 			head = .8
 		},
-		mskmat = "sprites/mat_jack_hmcd_helmover",
 		def = BasicArmorProtectionProfile,
 		bon = "ValveBiped.Bip01_Head1",
 		siz = Vector(1.05, 1, 1.05),
@@ -384,7 +382,6 @@ JMod.ArmorTable = {
 		slots = {
 			head = 1
 		},
-		mskmat = "sprites/mat_jack_hmcd_helmover",
 		def = BasicArmorProtectionProfile,
 		bon = "ValveBiped.Bip01_Head1",
 		siz = Vector(1.1, 1, 1.1),
@@ -497,6 +494,7 @@ JMod.ArmorTable = {
 			head = 1,
 			eyes = .75
 		},
+		eff = {scuba = true},
 		def = PoorArmorProtectionProfile,
 		bon = "ValveBiped.Bip01_Head1",
 		siz = Vector(.75, .75, .75),
@@ -587,6 +585,7 @@ JMod.ArmorTable = {
 		ang = Angle(-90, 0, 90),
 		wgt = 5,
 		dur = 250,
+		storage = 5,
 		ent = "ent_jack_gmod_ezarmor_ltorso",
 		gayPhysics = true
 	},
@@ -600,10 +599,11 @@ JMod.ArmorTable = {
 		def = BasicArmorProtectionProfile,
 		bon = "ValveBiped.Bip01_Spine2",
 		siz = Vector(1.05, 1.05, .95),
-		pos = Vector(-3, -4.5, 0),
+		pos = Vector(-3, -6, 0),
 		ang = Angle(-90, 0, 90),
 		wgt = 10,
 		dur = 450,
+		storage = 5,
 		ent = "ent_jack_gmod_ezarmor_mltorso",
 		gayPhysics = true
 	},
@@ -621,6 +621,7 @@ JMod.ArmorTable = {
 		ang = Angle(-90, 0, 90),
 		wgt = 20,
 		dur = 625,
+		storage = 5,
 		ent = "ent_jack_gmod_ezarmor_mtorso",
 		gayPhysics = true
 	},
@@ -902,15 +903,107 @@ JMod.ArmorTable = {
 			[2] = 1
 		},
 		snds = {
-			eq = "snd_jack_clothequip.wav",
-			uneq = "snd_jack_clothunequip.wav"
+			eq = "snd_jack_clothequip.ogg",
+			uneq = "snd_jack_clothunequip.ogg"
 		},
 		plymdl = "models/bloocobalt/splinter cell/chemsuit_cod.mdl", -- https://steamcommunity.com/sharedfiles/filedetails/?id=243665786&searchtext=splinter+cell+blacklist
 		mskmat = "mats_jack_gmod_sprites/vignette_gray.png",
-		sndlop = "snds_jack_gmod/mask_breathe.wav",
+		sndlop = "snds_jack_gmod/mask_breathe.ogg",
 		wgt = 15,
 		dur = 8,
 		ent = "ent_jack_gmod_ezarmor_hazmat"
+	},
+	["Parachute"] = {
+		PrintName = "Parachute",
+		mdl = "models/jessev92/resliber/weapons/parachute_backpack_closed_w.mdl",
+		clr = {
+			r = 83,
+			g = 83,
+			b = 55
+		},
+		slots = {
+			back = .8
+		},
+		eff = {
+			parachute = {mdl = "models/jessev92/bf2/parachute.mdl", offset = 50, drag = 3}
+		},
+		def = NonArmorProtectionProfile,
+		bon = "ValveBiped.Bip01_Spine2",
+		siz = Vector(1, 1, 1),
+		pos = Vector(-3, -50, 0),
+		ang = Angle(-90, 0, 90),
+		wgt = 30,
+		dur = 100,
+		ent = "ent_jack_gmod_ezarmor_parachute"
+	},
+	["Backpack"] = {
+		PrintName = "Backpack",
+		mdl = "models/jmod/props/backpack_3.mdl",
+		clr = {
+			r = 50,
+			g = 50,
+			b = 50
+		},
+		slots = {
+			back = .9
+		},
+		storage = 30,
+		def = NonArmorProtectionProfile,
+		bon = "ValveBiped.Bip01_Spine2",
+		siz = Vector(1, 1, 1),
+		pos = Vector(-2, 0, 0),
+		ang = Angle(-90, 0, 90),
+		wgt = 5,
+		dur = 100,
+		ent = "ent_jack_gmod_ezarmor_backpack"
+	},
+	["Pouches"] = {
+		PrintName = "Pouches",
+		mdl = "models/weapons/w_defuser.mdl",
+		slots = {
+			waist = .5
+		},
+		storage = 10,
+		def = NonArmorProtectionProfile,
+		bon = "ValveBiped.Bip01_Spine",
+		siz = Vector(1, 1, 1),
+		pos = Vector(4, -3, 0),
+		ang = Angle(-80, 0, 90),
+		wgt = 5,
+		dur = 50,
+		ent = "ent_jack_gmod_ezarmor_pouch"
+	},
+	["Flamethrower-Tank"] = {
+		PrintName = "Flamethrower Tank",
+		mdl = "models/weapons/sanic/w_m2_static.mdl",
+		clr = {
+			r = 255,
+			g = 255,
+			b = 255
+		},
+		clrForced = true,
+		slots = {
+			back = 1
+		},
+		chrg = {
+			fuel = 100,
+			gas = 100,
+		},
+		eff = {
+			weapon = "wep_jack_gmod_ezflamethrower",
+			explosive = true
+		},
+		bdg = {
+			[1] = 0
+		},
+		def = BasicArmorProtectionProfile,
+		bon = "ValveBiped.Bip01_Spine2",
+		siz = Vector(1, 1, 1),
+		pos = Vector(0.1, -10.1, -0.5),
+		ang = Angle(90, 180, -90),
+		wgt = 30,
+		dur = 20,
+		ent = "ent_jack_gmod_ezarmor_flametank"
 	}
 }
 
@@ -921,7 +1014,11 @@ function JMod.GenerateArmorEntities(tbl)
 		local armorent = {}
 		armorent.Base = "ent_jack_gmod_ezarmor"
 		armorent.PrintName = info.PrintName or class
-		armorent.Spawnable = info.Spawnable or true
+		if info.Spawnable == nil then
+			armorent.Spawnable = true
+		else
+			armorent.Spawnable = info.Spawnable
+		end
 		armorent.AdminOnly = info.AdminOnly or false
 		armorent.Category = info.Category or "JMod - EZ Armor"
 		armorent.ArmorName = class
@@ -963,7 +1060,7 @@ function JMod.GetArmorBiologicalResistance(ply, typ)
 end
 
 function JMod.DepleteArmorChemicalCharge(ply, amt)
-	local SubtractAmt = amt * JMod.Config.ArmorDegredationMult * math.Rand(.5, 1.5)
+	local SubtractAmt = amt * JMod.Config.Armor.DegradationMult * math.Rand(.5, 1.5)
 
 	if ply.EZarmor then
 		for k, armorData in pairs(ply.EZarmor.items) do
@@ -982,8 +1079,47 @@ function JMod.DepleteArmorChemicalCharge(ply, amt)
 	end
 end
 
-hook.Add("Move", "JMOD_ARMOR_MOVE", function(ply, mv, cmd)
+hook.Add("SetupMove", "JMOD_SLEEP", function(ply, mvd, cmd)
+	if not(ply:Alive()) then ply.JMod_IsSleeping = false return end
+	local Time = CurTime()
+	local Veh = ply:GetVehicle()
+	if not((cmd:GetMouseX() < 10) and (cmd:GetMouseY() < 10) and (cmd:GetButtons() == 0) and IsValid(Veh) and IsValid(Veh:GetParent()) and Veh:GetParent().EZrespawnPoint) then
+		ply.JModLastLookMoveTime = Time
+	end
+	if (Time - ply.JModLastLookMoveTime) > 15 then
+		ply.JMod_IsSleeping = true
+	else
+		ply.JMod_IsSleeping = false
+	end
+end)
 
+hook.Add("SetupMove", "JMOD_DISABLE_JUMP", function(ply, mvd, cmd)
+	if mvd:KeyDown(IN_JUMP) and (ply.EZImmobilizationTime and (ply.EZImmobilizationTime > CurTime())) then
+		local NewButtons = bit.band(mvd:GetButtons(), bit.bnot(IN_JUMP))
+		mvd:SetButtons(NewButtons)
+	end
+end)
+
+hook.Add("Move", "JMOD_ARMOR_MOVE", function(ply, mv)
+	local origSpeed = mv:GetMaxSpeed()
+	local origClientSpeed = mv:GetMaxClientSpeed()
+
+	if not(ply.IsProne and ply:IsProne()) and ply.EZarmor then
+		if ply.EZarmor.speedfrac and ply.EZarmor.speedfrac ~= 1 then
+			mv:SetMaxSpeed(origSpeed * ply.EZarmor.speedfrac)
+			mv:SetMaxClientSpeed(origClientSpeed * ply.EZarmor.speedfrac)
+		end
+		if SERVER and IsFirstTimePredicted() then
+			if ply:GetNW2Bool("EZparachuting", false) and IsValid(ply.EZparachute) and ply:GetMoveType() ~= MOVETYPE_WALK then
+				ply:SetNW2Bool("EZparachuting", false)
+			end
+		end
+	end
+
+	if ply.EZImmobilizationTime and (ply.EZImmobilizationTime > CurTime()) then
+		mv:SetMaxSpeed(origSpeed * .01)
+		mv:SetMaxClientSpeed(origClientSpeed * .01)
+	end
 end)
 
 if CLIENT then
@@ -1001,23 +1137,123 @@ if CLIENT then
 	concommand.Add("jmod_ez_toggleeyes", function()
 		local ply = LocalPlayer()
 		if not (IsValid(ply) and ply:Alive()) then return end
-		local ItemID, ItemData, ItemInfo = JMod.GetItemInSlot(ply.EZarmor, "eyes")
-
-		if not ItemID then
-			ply:PrintMessage(HUD_PRINTCENTER, "You are not wearing anything that covers your eyes!")
-		else
-			net.Start("JMod_Inventory")
-			net.WriteInt(2, 8) -- toggle
-			net.WriteString(ItemID)
-			net.SendToServer()
-		end
+		-- 2 eyes
+		ply:ConCommand("jmod_ez_armoraction toggle eyes")
 	end)
+
+	local ArmorCommands = {"drop", "toggle", "repair", "recharge"}
+	local ArmorNames = {"head", "eyes", "mouthnose", "ears", "leftshoulder", "leftforearm", "leftthigh", "leftcalf", "chest", "back", "waist", "pelvis", "rightshoulder", "rightforearm", "rightthigh", "rightcalf"}
+
+	concommand.Add("jmod_ez_armoraction", function(ply, cmd, args)
+		if not(IsValid(ply)) or not(ply:Alive()) then return end
+		local action = args[1]
+		local slot = args[2]
+
+		if not(action) or not(slot) then return end
+
+		if not isnumber(tonumber(action)) then
+			action = table.KeyFromValue(ArmorCommands, action)
+		end
+		if isnumber(tonumber(slot)) then
+			slot = ArmorNames[tonumber(slot)]
+		end
+
+		if not(action) then return end
+		
+		if not(slot) then
+			for number, slot in ipairs(ArmorNames) do
+				local ItemID, ItemData, ItemInfo = JMod.GetItemInSlot(ply.EZarmor, slot)
+				if ItemID then
+					net.Start("JMod_Inventory")
+					net.WriteInt(action, 8)
+					net.WriteString(ItemID)
+					net.SendToServer()
+				end
+			end
+		else
+			local ItemID, ItemData, ItemInfo = JMod.GetItemInSlot(ply.EZarmor, slot)
+			if not ItemID then
+				ply:PrintMessage(HUD_PRINTCENTER, "There's nothing in slot " .. slot)
+			else
+				net.Start("JMod_Inventory")
+				net.WriteInt(action, 8)
+				net.WriteString(ItemID)
+				net.SendToServer()
+			end
+		end
+	end, function(cmd, params)
+		-- Normalizes the string
+		params = params:Trim():lower()
+		-- Splits the string into an array
+		params = string.Explode('%s+',params,true)
+		
+		local Suggestions = {}
+
+		if #params < 2 then
+			for _, action in ipairs(ArmorCommands) do
+				if string.find(action, params[1]) then
+					table.insert(Suggestions, cmd .. " " .. action)
+				end
+			end
+		else
+			for _, slot in ipairs(ArmorNames) do
+				if string.find(slot, params[2]) then
+					table.insert(Suggestions, cmd .. " " .. params[1] .. " " .. slot)
+				end
+			end
+		end
+
+		return Suggestions
+
+	end, "First argument is action, second arg is slot to apply the action to")
 end
 
 -- Debug
 --[[
-for _, ply in pairs(player.GetAll()) do
+for _, ply in player.Iterator() do
 	ply.NextEZarmorTableCopy=0
 end
 --]]
 LoadAdditionalArmor()
+
+-- Sounds
+sound.Add({	name = "JMod_ZipLine_Clip",
+	channel = CHAN_BODY,
+	volume	= 1.0,
+	level	= 50,
+	pitch	= { 90, 110 },
+	sound	= { "npc/combine_soldier/zipline_clip1.ogg", "npc/combine_soldier/zipline_clip2.ogg"}
+} )
+
+sound.Add({	name = "JMod_ParaWep_Deploy",
+	channel	= CHAN_BODY,
+	volume	= 1.0,
+	level	= 100,
+	pitch	= { 105, 110 },
+	--sound	= {"jessev92/parachute/deploy1.ogg","jessev92/parachute/deploy2.ogg","jessev92/parachute/deploy3.ogg","jessev92/parachute/deploy4.ogg","jessev92/parachute/deploy5.ogg"}
+	sound	= {"common/null.ogg"}
+})
+
+sound.Add({	name = "JMod_BF2142_Para_Deploy",
+	channel	= CHAN_BODY,
+	volume	= 1.0,
+	level	= 75,
+	pitch	= { 105, 110 },
+	sound	= {"jessev92/bf2142/vehicles/parachute_open.ogg"}
+})
+
+sound.Add({	name = "JMod_BF2_Para_Deploy",
+	channel	= CHAN_BODY,
+	volume	= 1.0,
+	level	= 75,
+	pitch	= { 105, 110 },
+	sound	= {"jessev92/bf2/vehicles/parachute_deploy.ogg"}
+})
+
+sound.Add({	name = "JMod_BF2_Para_Idle",
+	channel	= CHAN_STATIC,
+	volume	= 1.0,
+	level	= 75,
+	pitch	= { 105, 110 },
+	sound	= {"jessev92/bf2/vehicles/parachute_ride_loop.wav"}
+})

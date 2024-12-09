@@ -42,9 +42,12 @@ end
 function JMod.EZ_WeaponLaunch(ply)
 	if not (IsValid(ply) and ply:Alive()) then return end
 	local Weps = {}
+	local Pods = {}
 
-	for k, ent in pairs(ents.GetAll()) do
-		if ent.EZlaunchableWeaponArmedTime and IsValid(ent.Owner) and ent.Owner == ply and ent:GetState() == 1 then
+	for k, ent in ents.Iterator() do
+		if ent.EZlaunchableWeaponLoadTime and JMod.GetEZowner(ent) == ply then
+			table.insert(Pods, ent)
+		elseif ent.EZlaunchableWeaponArmedTime and JMod.GetEZowner(ent) == ply and ent:GetState() == 1 then
 			table.insert(Weps, ent)
 		end
 	end
@@ -58,14 +61,25 @@ function JMod.EZ_WeaponLaunch(ply)
 		end
 	end
 
+	for k, pod in pairs(Pods) do
+		if pod.EZlaunchableWeaponLoadTime < Earliest then
+			FirstWep = pod
+			Earliest = pod.EZlaunchableWeaponLoadTime
+		end
+	end
+
 	if IsValid(FirstWep) then
 		-- knock knock it's pizza time
 		FirstWep:EmitSound("buttons/button6.wav", 75, 110)
 
 		timer.Simple(.2, function()
 			if IsValid(FirstWep) then
-				FirstWep.DropOwner = ply
-				FirstWep:Launch()
+				if FirstWep.EZlaunchableWeaponLoadTime then
+					FirstWep:LaunchRocket(#FirstWep.Rockets, true, ply)
+				elseif FirstWep.EZlaunchableWeaponArmedTime then
+					FirstWep.DropOwner = ply
+					FirstWep:Launch()
+				end
 			end
 		end)
 	end
@@ -76,10 +90,10 @@ function JMod.EZ_BombDrop(ply)
 	local Boms = {}
 	local Bays = {}
 
-	for k, ent in pairs(ents.GetAll()) do
-		if ent.EZdroppableBombArmedTime and IsValid(ent.Owner) and ent.Owner == ply then
+	for k, ent in ents.Iterator() do
+		if ent.EZdroppableBombArmedTime and IsValid(ent.EZowner) and ent.EZowner == ply then
 			table.insert(Boms, ent)
-		elseif ent.EZdroppableBombLoadTime and IsValid(ent.Owner) and ent.Owner == ply then
+		elseif ent.EZdroppableBombLoadTime and IsValid(ent.EZowner) and ent.EZowner == ply then
 			table.insert(Bays, ent)
 		end
 	end
@@ -107,10 +121,14 @@ function JMod.EZ_BombDrop(ply)
 		timer.Simple(.25, function()
 			if IsValid(FirstBom) then
 				if FirstBom.EZdroppableBombArmedTime then
-					constraint.RemoveAll(FirstBom)
-					FirstBom:GetPhysicsObject():EnableMotion(true)
-					FirstBom:GetPhysicsObject():Wake()
-					FirstBom.DropOwner = ply
+					if FirstBom.Drop then
+						FirstBom:Drop(ply)
+					else
+						constraint.RemoveAll(FirstBom)
+						FirstBom:GetPhysicsObject():EnableMotion(true)
+						FirstBom:GetPhysicsObject():Wake()
+						FirstBom.DropOwner = ply
+					end
 				elseif FirstBom.EZdroppableBombLoadTime then
 					FirstBom:BombRelease(#FirstBom.Bombs, true, ply)
 				end
@@ -127,7 +145,7 @@ function JMod.DamageSpark(ent)
 	effectdata:SetScale(math.Rand(.5, 1.5)) --length of strands
 	effectdata:SetRadius(math.Rand(2, 4)) --thickness of strands
 	util.Effect("Sparks", effectdata, true, true)
-	ent:EmitSound("snd_jack_turretfizzle.wav", 70, 100)
+	ent:EmitSound("snd_jack_turretfizzle.ogg", 70, 100)
 end
 
 -- copied from Homicide
@@ -169,9 +187,13 @@ function JMod.BlastThatDoor(ent, vel)
 			end)
 		end
 
-		Replacement:SetCollisionGroup(COLLISION_GROUP_DEBRIS)
+		timer.Simple(3, function()
+			if IsValid(Replacement) then
+				Replacement:SetCollisionGroup(COLLISION_GROUP_WEAPON)
+			end
+		end)
 
-		timer.Simple(30 * JMod.Config.DoorBreachResetTimeMult, function()
+		timer.Simple(30 * JMod.Config.Explosives.DoorBreachResetTimeMult, function()
 			if IsValid(ent) then
 				ent:SetNotSolid(false)
 				ent:SetNoDraw(false)
@@ -197,24 +219,6 @@ function JMod.EmitAIsound(pos, vol, dur, typ)
 	SafeRemoveEntityDelayed(snd, dur + .5)
 end
 
-local function paintHoles(ent,tr)
-	--if tr.MatType != MAT_FLESH then
-		--util.Decal("Impact.Concrete",tr.HitPos + tr.HitNormal,tr.HitPos - tr.HitNormal)
-	--end
-	local effectdata = EffectData()
-	effectdata:SetEntity(tr.Entity)
-	effectdata:SetOrigin(tr.HitPos)
-	effectdata:SetStart(tr.StartPos)
-
-	effectdata:SetSurfaceProp(tr.SurfaceProps)
-	effectdata:SetDamageType(DMG_BULLET)
-	effectdata:SetHitBox(tr.HitBox)
-
-	util.Effect("Impact",effectdata)
-end
-
---paintHoles(nil,Entity(9):GetEyeTrace())
-
 function JMod.FragSplosion(shooter, origin, fragNum, fragDmg, fragMaxDist, attacker, direction, spread, zReduction)
 	-- fragmentation/shrapnel simulation
 	local Eff = EffectData()
@@ -227,14 +231,23 @@ function JMod.FragSplosion(shooter, origin, fragNum, fragDmg, fragMaxDist, attac
 	shooter = shooter or game.GetWorld()
 	zReduction = zReduction or 2
 
-	if not JMod.Config.FragExplosions then
-		util.BlastDamage(shooter, attacker, origin, fragDmg * 8, fragDmg)
+	if not JMod.Config.Explosives.FragExplosions then
+		util.BlastDamage(shooter, attacker, origin, fragMaxDist * .25, fragDmg)
 
 		return
 	end
 
-	local Spred = Vector(0, 0, 0.125)
-	local BulletsFired, MaxBullets, disperseTime = 0, 600, .5
+	local WaterDivider = 1
+	for i = 1, 4 do
+		if bit.band(util.PointContents(origin + Vector(0, 0, i * 50)), CONTENTS_WATER) == CONTENTS_WATER then
+			WaterDivider = i
+		else
+			break
+		end
+	end
+
+	local Spred = Vector(0, 0, 0)
+	local BulletsFired, MaxBullets, disperseTime = 0, 300, .5
 
 	if fragNum >= 12000 then
 		disperseTime = 2
@@ -259,36 +272,42 @@ function JMod.FragSplosion(shooter, origin, fragNum, fragDmg, fragMaxDist, attac
 				Dir:Normalize()
 			end
 
-			local Tr = util.QuickTrace(origin, Dir * fragMaxDist, shooter)
+			local Tr = util.QuickTrace(origin, Dir * fragMaxDist / WaterDivider, shooter)
 
 			if Tr.Hit and not Tr.HitSky and not Tr.HitWorld and (BulletsFired < MaxBullets) then
-				local LowFrag = (Tr.Entity.IsVehicle and Tr.Entity:IsVehicle()) or Tr.Entity.LFS or Tr.Entity.EZlowFragPlease
-				
-				paintHoles(nil,Tr)
-				
-				if (not LowFrag) or (LowFrag and math.random(1, 4) == 2) then
-					local DmgMul = 1
+				debugoverlay.Line(origin, Tr.HitPos, 5, Color(255, 0, 0), true)
+				local DmgMul = 1 / WaterDivider
 
-					if BulletsFired > 500 then
-						DmgMul = 5
-					end
+				if ((Tr.Entity.IsVehicle and Tr.Entity:IsVehicle()) or Tr.Entity.LFS or Tr.Entity.LVS or Tr.Entity.EZlowFragPlease) then
+					DmgMul = DmgMul * .25 -- This is basically the same as lowering the amount of frags by 25%
+				end
 
-					local firer = (IsValid(shooter) and shooter) or game.GetWorld()
+				if IsValid(Tr.Entity:GetPhysicsObject()) and (Tr.Entity:GetPhysicsObject():GetMass() > 300) then
+					DmgMul = 1
+					fragDmg = 1
+				end
 
+				local firer = (IsValid(shooter) and shooter) or game.GetWorld()
+
+				local DistFactor = (-Tr.Fraction + 1.2)^2
+				local DamageToDeal = fragDmg * DmgMul * DistFactor
+				if DamageToDeal >= 1 then
 					firer:FireBullets({
 						Attacker = attacker,
-						Damage = fragDmg * DmgMul,
-						Force = fragDmg / 8 * (DmgMul/4),
+						Damage = DamageToDeal,
+						Force = DamageToDeal * .02,
 						Num = 1,
 						Src = origin,
 						Tracer = 0,
 						Dir = Dir,
 						Spread = Spred,
-						AmmoType = "Buckshot", -- for identification as "fragments"
+						AmmoType = "Buckshot" -- for identification as "fragments"
 					})
-
-					BulletsFired = BulletsFired + 1
 				end
+
+				BulletsFired = BulletsFired + 1
+			else
+				debugoverlay.Line(origin, Tr.HitPos, 2, Color(217, 255, 0), true)
 			end
 		end)
 	end
@@ -301,7 +320,7 @@ function JMod.PackageObject(ent, pos, ang, ply)
 		ent:SetAngles(ang)
 
 		if ply then
-			JMod.SetOwner(ent, ply)
+			JMod.SetEZowner(ent, ply)
 		end
 
 		ent:Spawn()
@@ -314,11 +333,12 @@ function JMod.PackageObject(ent, pos, ang, ply)
 	Bocks:SetContents(ent)
 
 	if ply then
-		JMod.SetOwner(Bocks, ply)
+		JMod.SetEZowner(Bocks, ply)
 	end
 
 	Bocks:Spawn()
 	Bocks:Activate()
+	return Bocks
 end
 
 function JMod.SimpleForceExplosion(pos, power, range, sourceEnt)
@@ -383,18 +403,18 @@ function JMod.BlastDamageIgnoreWorld(pos, att, infl, dmg, range)
 	end
 end
 
-local WreckBlacklist = {"gmod_lamp", "gmod_cameraprop", "gmod_light", "ent_jack_gmod_nukeflash","prop_ragdoll"}
+local WreckBlacklist = {"gmod_lamp", "gmod_cameraprop", "gmod_light", "ent_jack_gmod_nukeflash", "ent_jack_gmod_ezoilfire"}
 
 function JMod.WreckBuildings(blaster, pos, power, range, ignoreVisChecks)
 	local origPower = power
-	power = power * JMod.Config.ExplosionPropDestroyPower
+	power = power * JMod.Config.Explosives.PropDestroyPower
 	local maxRange = 250 * power * (range or 1) -- todo: this still doesn't do what i want for the nuke
 	local maxMassToDestroy = 10 * power ^ .8
 	local masMassToLoosen = 30 * power
 	local allProps = ents.FindInSphere(pos, maxRange)
 
 	for k, prop in pairs(allProps) do
-		if not (table.HasValue(WreckBlacklist, prop:GetClass()) or hook.Run("JMod_CanDestroyProp", prop, blaster, pos, power, range, ignore) == false or prop.ExplProof == true) then
+		if not (table.HasValue(WreckBlacklist, prop:GetClass()) or (prop.ExplProof == true) or hook.Run("JMod_CanDestroyProp", prop, blaster, pos, power, range, ignoreVisChecks) == false) then
 			local physObj = prop:GetPhysicsObject()
 			local propPos = prop:LocalToWorld(prop:OBBCenter())
 			local DistFrac = 1 - propPos:Distance(pos) / maxRange
@@ -416,7 +436,7 @@ function JMod.WreckBuildings(blaster, pos, power, range, ignoreVisChecks)
 
 				if proceed then
 					if mass <= myDestroyThreshold then
-						prop:Remove()
+						SafeRemoveEntity(prop)
 					elseif mass <= myLoosenThreshold then
 						physObj:EnableMotion(true)
 						constraint.RemoveAll(prop)
@@ -432,7 +452,7 @@ end
 
 function JMod.BlastDoors(blaster, pos, power, range, ignoreVisChecks)
 	for k, door in pairs(ents.FindInSphere(pos, 40 * power * (range or 1))) do
-		if JMod.IsDoor(door) and hook.Run("JMod_CanDestroyDoor", door, blaster, pos, power, range, ignore) ~= false then
+		if JMod.IsDoor(door) and hook.Run("JMod_CanDestroyDoor", door, blaster, pos, power, range, ignoreVisChecks) ~= false then
 			local proceed = ignoreVisChecks
 
 			if not proceed then
@@ -443,6 +463,9 @@ function JMod.BlastDoors(blaster, pos, power, range, ignoreVisChecks)
 			if proceed then
 				JMod.BlastThatDoor(door, (door:LocalToWorld(door:OBBCenter()) - pos):GetNormalized() * 1000)
 			end
+		end
+		if door:GetClass() == "func_breakable_surf" then
+			door:Fire("Break")
 		end
 	end
 end
@@ -497,7 +520,7 @@ local SurfaceHardness = {
 function JMod.RicPenBullet(ent, pos, dir, dmg, doBlasts, wreckShit, num, penMul, tracerName, callback)
 	if not IsValid(ent) then return end
 	if num and num > 10 then return end
-	local Attacker = ent.Owner or ent or game.GetWorld()
+	local Attacker = ent.EZowner or ent or game.GetWorld()
 
 	ent:FireBullets({
 		Attacker = Attacker,
@@ -607,7 +630,7 @@ function JMod.RicPenBullet(ent, pos, dir, dmg, doBlasts, wreckShit, num, penMul,
 	elseif ApproachAngle < (MaxRicAngle * .95) then
 		-- ping whiiiizzzz
 		if SERVER then
-			sound.Play("snds_jack_gmod/ricochet_" .. math.random(1, 2) .. ".wav", IPos, 60, math.random(90, 100))
+			sound.Play("snds_jack_gmod/ricochet_" .. math.random(1, 2) .. ".ogg", IPos, 60, math.random(90, 100))
 		end
 
 		local NewVec = AVec:Angle()
@@ -617,81 +640,98 @@ function JMod.RicPenBullet(ent, pos, dir, dmg, doBlasts, wreckShit, num, penMul,
 	end
 end
 
---[[
-	1) am i valid? if not, return world
-	2) is there GetOwner? if so, call it, check if the return is valid, and if so, return it
-	3) is there .Owner? is it valid? if so, return it
-	4 otherwise return world
-]]--
-
-function JMod.Owner(ent, newOwner)
-	
+function JMod.GetEZowner(ent)
 	if not IsValid(ent) then return game.GetWorld() end
 
-	if ent.GetOwner and IsValid(ent:GetOwner()) then
-		local OldOwner = ent:GetOwner()
-	else
-		local OldOwner = ent.Owner or game.GetWorld()
-	end
+	if ent.EZowner and IsValid(ent.EZowner) then
 
-	if IsValid(newOwner) then
-		if OldOwner and (OldOwner == newOwner) then 
-
-			return OldOwner 
-		end
-
-		if CPPI and isfunction(ent.CPPISetOwner) then
-			ent:CPPISetOwner(newOwner)
-		end
-
-		return newOwner
-	end
-end
-
-function JMod.GetOwner(ent)
-	if not IsValid(ent) then return game.GetWorld() end
-
-	if ent.GetOwner and IsValid(ent:GetOwner()) then
-
-		return ent:GetOwner()
-	elseif ent.Owner and IsValid(ent.Owner) then
-
-		return ent.Owner
+		return ent.EZowner
+	elseif ent:IsPlayer() then
+			
+		return ent	
 	else
 		
 		return game.GetWorld()
 	end
 end
 
-function JMod.SetOwner(ent, newOwner)
-	if not(IsValid(ent) or IsValid(newOwner)) then return end
+function JMod.SetEZowner(ent, newOwner, setColor)
+	if not IsValid(ent) then return end
+	if not (newOwner and IsValid(newOwner)) then newOwner = game.GetWorld() end
 
-	if JMod.GetOwner(ent) == newOwner then return end
+	if JMod.GetEZowner(ent) == newOwner then
+		if setColor == true then
+			JMod.Colorify(ent)
+		end
 
-	if ent.SetOwner and isfunction(ent.SetOwner) then
-		--ent:SetOwner(newOwner)
+		return 
 	end
 
-	ent.Owner = newOwner
+	ent.EZowner = newOwner
+	if newOwner:IsPlayer() then
+		ent.EZownerID = newOwner:SteamID64()
+		ent.EZownerTeam = newOwner:Team()
+	else
+		ent.EZownerID = nil
+		ent.EZownerTeam = nil
+	end
+
+	if setColor == true then
+		JMod.Colorify(ent)
+	end
 
 	if CPPI and isfunction(ent.CPPISetOwner) then
 		ent:CPPISetOwner(newOwner)
 	end
 end
 
-function JMod.ShouldAllowControl(self, ply)
+function JMod.AddFriend(ply, friend)
+	if not (IsValid(ply) and ply:IsPlayer() and IsValid(friend) and friend:IsPlayer()) then return end
+	ply.JModFriends = ply.JModFriends or {}
+
+	table.insert(ply.JModFriends, friend)
+
+	net.Start("JMod_Friends")
+		net.WriteBit(true)
+		net.WriteEntity(ply)
+		net.WriteTable(ply.JModFriends)
+	net.Broadcast()
+end
+
+function JMod.RemoveFriend(ply, friend)
+	if not (IsValid(ply) and ply:IsPlayer() and IsValid(friend) and friend:IsPlayer()) then return end
+	ply.JModFriends = ply.JModFriends or {}
+	
+	table.RemoveByValue(ply.JModFriends, friend)
+
+	net.Start("JMod_Friends")
+		net.WriteBit(true)
+		net.WriteEntity(ply)
+		net.WriteTable(ply.JModFriends)
+	net.Broadcast()
+end
+
+function JMod.ShouldAllowControl(self, ply, neutral)
+	neutral = neutral or false
 	if not IsValid(ply) then return false end
-	if not IsValid(self:GetOwner()) then return false end
-	if ply == self:GetOwner() then return true end
-	local Allies = self:GetOwner().JModFriends or {}
+	if (ply.EZkillme) then return false end
+	local EZowner = JMod.GetEZowner(self)
+	if not IsValid(EZowner) then return neutral end
+	if ply == EZowner then return true end
+	local Allies = EZowner.JModFriends or {}
 	if table.HasValue(Allies, ply) then return true end
 
-	return (engine.ActiveGamemode() ~= "sandbox" or ply:Team() ~= TEAM_UNASSIGNED) and ply:Team() == self:GetOwner():Team()
+	return (engine.ActiveGamemode() ~= "sandbox" or ply:Team() ~= TEAM_UNASSIGNED) and ply:Team() == EZowner:Team()
 end
 
 function JMod.ShouldAttack(self, ent, vehiclesOnly, peaceWasNeverAnOption)
 	if not IsValid(ent) then return false end
 	if ent:IsWorld() then return false end
+	local SelfOwner = JMod.GetEZowner(self)
+
+	local Override = hook.Run("JMod_ShouldAttack", self, ent, vehiclesOnly, peaceWasNeverAnOption)
+	if (Override ~= nil) then return Override end
+
 	local Gaymode, PlayerToCheck, InVehicle = engine.ActiveGamemode(), nil, false
 
 	if ent:IsPlayer() then
@@ -702,14 +742,16 @@ function JMod.ShouldAttack(self, ent, vehiclesOnly, peaceWasNeverAnOption)
 		if ent.Health and (type(ent.Health) == "function") then
 			local Helf = ent:Health()
 			if (type(Helf) == "number") and (Helf > 0) then return true end
+		elseif ent.Health and (type(ent.Health) == "number") then
+			if ent.Health > 0 then return true end
 		end
 	elseif ent:IsNPC() then
 		local Class = ent:GetClass()
 		if self.WhitelistedNPCs and table.HasValue(self.WhitelistedNPCs, Class) then return true end
 		if self.BlacklistedNPCs and table.HasValue(self.BlacklistedNPCs, Class) then return false end
-		if not IsValid(self:GetOwner()) then return ent:Health() > 0 end
+		if not IsValid(self.EZowner) then return ent:Health() > 0 end
 
-		if ent.Disposition and (ent:Disposition(self:GetOwner()) == D_HT) and ent.GetMaxHealth and ent.Health then
+		if ent.Disposition and (ent:Disposition(self.EZowner) == D_HT) and ent.GetMaxHealth and ent.Health then
 			if vehiclesOnly then
 				return ent:GetMaxHealth() > 100 and ent:Health() > 0
 			else
@@ -721,22 +763,25 @@ function JMod.ShouldAttack(self, ent, vehiclesOnly, peaceWasNeverAnOption)
 	elseif ent:IsVehicle() then
 		PlayerToCheck = ent:GetDriver()
 		InVehicle = true
-	elseif ent.LFS and ent.GetEngineActive then
-		-- LunasFlightSchool compatibility
-		if ent:GetEngineActive() and ent.GetDriver then
-			local Pilot = ent:GetDriver()
-
-			if IsValid(Pilot) then
-				PlayerToCheck = ent:GetDriver()
-				InVehicle = true
-			else
-				return true
+	elseif (ent.LVS and not(ent.ExplodedAlready)) then
+		if ent.GetDriver and IsValid(ent:GetDriver()) then
+			PlayerToCheck = ent:GetDriver()
+			InVehicle = true
+		elseif SelfOwner.lvsGetAITeam then --and ((ent.GetEngineActive and ent:GetEngineActive()))
+			local OurTeam = SelfOwner:lvsGetAITeam()
+			if ent.GetAITEAM and ent.GetAI and ent:GetAI() then
+				local TheirTeam = ent:GetAITEAM()
+				if ((OurTeam ~= 0) and (TheirTeam ~= 0) and TheirTeam ~= OurTeam) or (TheirTeam == 3) then
+					return true
+				end
 			end
+		else
+			return peaceWasNeverAnOption or false
 		end
-	elseif ent.IS_DRONE and IsValid(ent.Owner) then
+	elseif ent.IS_DRONE and IsValid(JMod.GetEZowner(ent)) then
 		-- Drones Rewrite compatibility
 		if ent.GetHealth and ent:GetHealth() > 0 then
-			PlayerToCheck = ent.Owner
+			PlayerToCheck = ent.EZowner
 		end
 	end
 
@@ -744,14 +789,14 @@ function JMod.ShouldAttack(self, ent, vehiclesOnly, peaceWasNeverAnOption)
 		if vehiclesOnly and not InVehicle then return false end
 		if PlayerToCheck.EZkillme then return true end -- for testing
 		if PlayerToCheck:GetObserverMode() ~= 0 then return false end
-		if self:GetOwner() and (PlayerToCheck == self:GetOwner()) then return false end
-		local Allies = (self:GetOwner() and self:GetOwner().JModFriends) or {}
+		if (SelfOwner) and (PlayerToCheck == SelfOwner) then return false end
+		local Allies = (SelfOwner and SelfOwner.JModFriends) or {}
 		if table.HasValue(Allies, PlayerToCheck) then return false end
 		local OurTeam = nil
 
-		if IsValid(self:GetOwner()) then
-			OurTeam = self:GetOwner():Team()
-			if Gaymode == "basewars" and self:GetOwner().IsAlly then return not self:GetOwner():IsAlly(PlayerToCheck) end
+		if IsValid(SelfOwner) then
+			OurTeam = SelfOwner:Team()
+			if Gaymode == "basewars" and SelfOwner.IsAlly then return not SelfOwner:IsAlly(PlayerToCheck) end
 		end
 
 		if Gaymode == "sandbox" and OurTeam == TEAM_UNASSIGNED then return PlayerToCheck:Alive() end
@@ -760,7 +805,7 @@ function JMod.ShouldAttack(self, ent, vehiclesOnly, peaceWasNeverAnOption)
 		return PlayerToCheck:Alive()
 	end
 
-	return peaceWasNeverAnOption or false
+	return (peaceWasNeverAnOption or false)
 end
 
 function JMod.EnemiesNearPoint(ent, pos, range, vehiclesOnly)
@@ -772,20 +817,39 @@ function JMod.EnemiesNearPoint(ent, pos, range, vehiclesOnly)
 end
 
 function JMod.EMP(pos, range)
+	--debugoverlay.Sphere(pos, range, 5, Color(0, 0, 255), true)
 	for k, ent in pairs(ents.FindInSphere(pos, range)) do
-		if ent.SetState and ent.SetElectricity and ent.GetState and ent:GetState() > 0 then
-			ent:SetState(0)
+		if ent.IsJackyEZmachine and ent.SetState and ent.GetState and (ent:GetState() > 0) then
+			if ent.TurnOff then 
+				ent:TurnOff() 
+			else
+				ent:SetState(JMod.EZ_STATE_OFF)
+			end
+			ent.EZstayOn = nil
+		end
+		if ent.LVS and ent.StopEngine then
+			ent:StopEngine()
+			ent.EZengineNextStartTime = CurTime() + 30
 		end
 	end
 end
 
+hook.Add( "LVS.IsEngineStartAllowed", "JMod_DisableEMPedEngines", function(veh)
+	if veh.EZengineNextStartTime and (veh.EZengineNextStartTime > CurTime()) then
+		return false
+	else
+		veh.EZengineNextStartTime = nil 
+	end
+end)
+
 function JMod.Colorify(ent)
-	if IsValid(ent.Owner) then
-		if engine.ActiveGamemode() == "sandbox" and ent.Owner:Team() == TEAM_UNASSIGNED then
-			local Col = ent.Owner:GetPlayerColor()
+	if (ent.EZcolorable ~= nil) and (ent.EZcolorable == false) then return end
+	if IsValid(JMod.GetEZowner(ent)) then
+		if engine.ActiveGamemode() == "sandbox" and ent.EZowner:Team() == TEAM_UNASSIGNED then
+			local Col = ent.EZowner:GetPlayerColor()
 			ent:SetColor(Color(Col.x * 255, Col.y * 255, Col.z * 255))
 		else
-			local Tem = ent.Owner:Team()
+			local Tem = ent.EZowner:Team()
 
 			if Tem then
 				local Col = team.GetColor(Tem)
@@ -795,6 +859,8 @@ function JMod.Colorify(ent)
 				end
 			end
 		end
+	else
+		ent:SetColor(Color(255, 255, 255))
 	end
 end
 
@@ -819,7 +885,7 @@ function JMod.ThrowablePickup(playa, item, hardstr, softstr)
 			if key == IN_ATTACK then
 				timer.Simple(0, function()
 					if IsValid(Phys) then
-						Phys:ApplyForceCenter(ply:GetAimVector() * (hardstr or 600) * Phys:GetMass())
+						Phys:ApplyForceCenter(ply:GetAimVector() * (hardstr or 600) * Phys:GetMass() * JMod.GetPlayerStrength(playa))
 
 						if item.EZspinThrow then
 							Phys:ApplyForceOffset(ply:GetAimVector() * Phys:GetMass() * 50, Phys:GetMassCenter() + Vector(0, 0, 10))
@@ -833,7 +899,7 @@ function JMod.ThrowablePickup(playa, item, hardstr, softstr)
 
 				timer.Simple(0, function()
 					if IsValid(Phys) then
-						Phys:ApplyForceCenter(vec * (softstr or 400) * Phys:GetMass())
+						Phys:ApplyForceCenter(vec * (softstr or 400) * Phys:GetMass() * JMod.GetPlayerStrength(playa))
 					end
 				end)
 			elseif key == IN_USE then
@@ -857,42 +923,65 @@ function JMod.BlockPhysgunPickup(ent, isblock)
 	ent.block_pickup = isblock
 end
 
-function JMod.MachineSpawnResource(machine, resourceType, amount, relativeSpawnPos, relativeSpawnAngle, ejectionVector, findCrate, range)
-	if not(amount) or (amount <= 0) then print("[JMOD] " .. tostring(machine) .. " tried to produce a resource with 0 value") return end
-	local SpawnPos = machine:LocalToWorld(relativeSpawnPos)
-	for i = 1, math.ceil(amount/100) do
-		if findCrate then
-			range = range or 256
+function JMod.MachineSpawnResource(machine, resourceType, amount, relativeSpawnPos, relativeSpawnAngle, ejectionVector, findCrateRange)
+	amount = math.Round(amount)
+	if not(amount) or (amount < 1) then return end --print("[JMOD] " .. tostring(machine) .. " tried to produce a resource with 0 value") return end
+	machine.NextRefillTime = CurTime() + 1
+	local SpawnPos, SpawnAngle, MachineOwner = machine:LocalToWorld(relativeSpawnPos), relativeSpawnAngle and machine:LocalToWorldAngles(relativeSpawnAngle), JMod.GetEZowner(machine)
+	local MachineCenter = machine:LocalToWorld(machine:OBBCenter())
+	if (resourceType == JMod.EZ_RESOURCE_TYPES.POWER) and (machine.GetState and machine:GetState() == JMod.EZ_STATE_ON) and machine.EZconnections then
+		local PowerToGive = amount
+		for entID, cable in pairs(machine.EZconnections) do
+			local Ent, Cable = Entity(entID), cable
+			if not IsValid(Ent) or not IsValid(Cable) or not(Ent.EZconsumes and table.HasValue(Ent.EZconsumes, JMod.EZ_RESOURCE_TYPES.POWER)) then
+				JMod.RemoveConnection(machine, Ent)
+			else
+				local Accepted = Ent:TryLoadResource(resourceType, PowerToGive)
+				Ent.NextRefillTime = 0
+				amount = math.Clamp(amount - Accepted, 0, 100)
+			end
+		end
+	end
+	if amount <= 0 then return end
+	for i = 1, math.ceil(amount/100*JMod.Config.ResourceEconomy.MaxResourceMult) do
+		if findCrateRange then
+			findCrateRange = findCrateRange * findCrateRange -- Sqr root stuff
 			local BestCrate = nil
 			local IsGenericCrate = true
 
-			for _, ent in pairs(ents.FindInSphere(SpawnPos, range)) do
-				if (ent:GetClass() == "ent_jack_gmod_ezcrate") then
-					local Dist = SpawnPos:Distance(ent:LocalToWorld(ent:OBBCenter()))
-					if (Dist <= range) and (ent:GetResource() < ent.MaxResource) then
-						if (ent:GetResourceType() == resourceType) then
+			for _, ent in pairs(ents.FindInSphere(machine:LocalToWorld(ejectionVector or machine:OBBCenter()), findCrateRange)) do
+				if (ent.IsJackyEZcrate and table.HasValue(ent.EZconsumes, resourceType)) or (ent.IsJackyEZresource and (ent.EZsupplies == resourceType)) then
+					local Dist = MachineCenter:DistToSqr(ent:LocalToWorld(ent:OBBCenter()))
+					if (Dist <= findCrateRange) and (ent:GetResource() < ent.MaxResource) then
+						local EntSupplies = ent:GetEZsupplies()
+						if (EntSupplies[resourceType] ~= nil) then
 							BestCrate = ent
-							range = Dist
+							findCrateRange = Dist
 							IsGenericCrate = false
-							--print("We found a crate with similar resource")
-							--print(tostring(BestCrate))
-						elseif (ent:GetResourceType() == "generic") and (IsGenericCrate == true) then
+						elseif (EntSupplies["generic"] == 0) and (IsGenericCrate == true) then
 							BestCrate = ent
-							range = Dist
+							findCrateRange = Dist
 							IsGenericCrate = true
-							--print("We found a crate with generic resource")
-							--print(tostring(BestCrate))
 						end
 					end
 				end
 			end
+			
 			if IsValid(BestCrate) then
-				local Accepted = BestCrate:TryLoadResource(resourceType, amount)
+				local Remaining = amount
+				if BestCrate.TryLoadResource then
+					Remaining = BestCrate:TryLoadResource(resourceType, amount, true)
+				else
+					local SuppliesContained = BestCrate:GetEZsupplies(resourceType)
+					if not SuppliesContained then SuppliesContained = 0 end -- To fix weird bugs
+					Remaining = math.min(BestCrate.MaxResource - SuppliesContained, Remaining)
+					BestCrate:SetEZsupplies(resourceType, SuppliesContained + Remaining)
+				end
 				
-				if Accepted > 0 then
+				if Remaining > 0 then
 					local entPos = BestCrate:LocalToWorld(BestCrate:OBBCenter())
-					JMod.ResourceEffect(resourceType, machine:LocalToWorld(machine:OBBCenter()), entPos, amount * 0.02, 0.1, 1)
-					amount = amount - Accepted
+					JMod.ResourceEffect(resourceType, machine:LocalToWorld(ejectionVector or machine:OBBCenter()), entPos, amount * 0.01, 0.1, 1)
+					amount = amount - Remaining
 					if amount <= 0 then 
 					
 						return
@@ -901,30 +990,38 @@ function JMod.MachineSpawnResource(machine, resourceType, amount, relativeSpawnP
 			end
 		end
 
-		local SpawnAmount = math.min(amount, 100)
-		JMod.ResourceEffect(resourceType, machine:LocalToWorld(machine:OBBCenter()), SpawnPos, SpawnAmount * 0.02, 1, 1)
-		timer.Simple(1 * math.ceil(amount/100), function()
-			if not(IsValid(machine)) then return end
+		local SpawnTr = util.TraceLine({
+			start = MachineCenter,
+			endpos = SpawnPos,
+			filter = {machine},
+			mask = MASK_SOLID
+		})
+
+		if SpawnTr.Hit then
+			local SpawnPos = SpawnTr.HitPos + (SpawnTr.HitNormal * 40)
+		end
+		-- TODO: Figure out how to optimize the resource effects
+		local SpawnAmount = math.min(amount, 100 * JMod.Config.ResourceEconomy.MaxResourceMult)
+		if ejectionVector then
+			JMod.ResourceEffect(resourceType, machine:LocalToWorld(ejectionVector), SpawnPos, SpawnAmount * 0.01, 1, 1)
+		end
+		timer.Simple(.3 * math.ceil(amount/(100 * JMod.Config.ResourceEconomy.MaxResourceMult)), function()
 			local Resource = ents.Create(JMod.EZ_RESOURCE_ENTITIES[resourceType])
 			Resource:SetPos(SpawnPos)
-			Resource:SetAngles(machine:LocalToWorldAngles(relativeSpawnAngle))
+			Resource:SetAngles(SpawnAngle or Resource.JModPreferredCarryAngles or Angle(0, 0, 0))
 			Resource:Spawn()
-			JMod.SetOwner(machine.Owner)
-			Resource:SetResource(math.Round(SpawnAmount))
+			JMod.SetEZowner(Resource, MachineOwner)
+			Resource:SetEZsupplies(resourceType, SpawnAmount)
 			Resource:Activate()
-			--local NoCollide = constraint.NoCollide(machine, Resource, 0, 0)
-			--Resource:GetPhysicsObject():SetVelocity(ejectionVector)
-			--[[
-			timer.Simple(1, function()
-				if IsValid(Resource) then
-					constraint.RemoveConstraints(Resource, "NoCollide")
-				end
-			end)
-			--]]
 		end)
+
 		amount = amount - SpawnAmount
+
 		if amount <= 0 then
 			
+			if (resourceType == JMod.EZ_RESOURCE_TYPES.POWER) and not(machine.EZstayOn) and machine.TurnOff then
+				machine:TurnOff()
+			end
 			return
 		end
 	end
@@ -932,11 +1029,11 @@ end
 
 local LiquidResourceTypes = {JMod.EZ_RESOURCE_TYPES.WATER, JMod.EZ_RESOURCE_TYPES.COOLANT, JMod.EZ_RESOURCE_TYPES.OIL, JMod.EZ_RESOURCE_TYPES.CHEMICALS, JMod.EZ_RESOURCE_TYPES.FUEL}
 
-local SpriteResourceTypes = {JMod.EZ_RESOURCE_TYPES.GAS, JMod.EZ_RESOURCE_TYPES.PAPER, JMod.EZ_RESOURCE_TYPES.ANTIMATTER, JMod.EZ_RESOURCE_TYPES.PROPELLANT, JMod.EZ_RESOURCE_TYPES.CLOTH, JMod.EZ_RESOURCE_TYPES.POWER}
+local SpriteResourceTypes = {JMod.EZ_RESOURCE_TYPES.GAS, JMod.EZ_RESOURCE_TYPES.SAND, JMod.EZ_RESOURCE_TYPES.PAPER, JMod.EZ_RESOURCE_TYPES.ANTIMATTER, JMod.EZ_RESOURCE_TYPES.PROPELLANT, JMod.EZ_RESOURCE_TYPES.CLOTH, JMod.EZ_RESOURCE_TYPES.POWER}
 
 function JMod.ResourceEffect(typ, fromPoint, toPoint, amt, spread, scale, upSpeed)
 	--print("Type: " .. tostring(typ) .. " From point: " .. tostring(fromPoint) .. " Amount: " .. amt)
-	amt = amt or 1
+	amt = (amt and math.Clamp(amt, 0, 1)) or 1
 	spread = spread or 1
 	scale = scale or 1
 	upSpeed = upSpeed or 0
@@ -949,7 +1046,7 @@ function JMod.ResourceEffect(typ, fromPoint, toPoint, amt, spread, scale, upSpee
 
 	for j = 0, 2 * amt do
 		timer.Simple(j / 20, function()
-			for i = 1, math.ceil(7 * amt * JMod.Config.SupplyEffectMult) do
+			for i = 1, math.ceil(amt * JMod.Config.Machines.SupplyEffectMult) do
 				local whee = EffectData()
 				whee:SetOrigin(fromPoint)
 				if toPoint then
@@ -975,6 +1072,663 @@ function JMod.ResourceEffect(typ, fromPoint, toPoint, amt, spread, scale, upSpee
 				end
 			end
 		end)
+	end
+end
+
+function JMod.FindBoltPos(ply, origin, dir)
+	local Pos, Vec = origin or ply:GetShootPos(), dir or ply:GetAimVector()
+
+	local HitTest = util.QuickTrace(Pos, Vec * 80, {ply})
+
+	if HitTest.Hit then
+		local Ent1 = HitTest.Entity
+		if HitTest.HitSky or Ent1:IsPlayer() or Ent1:IsNPC() then return nil end
+		if not IsValid(Ent1:GetPhysicsObject()) then return nil end
+		local HitPos1 = HitTest.HitPos
+
+		local HitTest2 = util.QuickTrace(HitPos1, HitTest.HitNormal * -30, {ply, Ent1})
+		if not(HitTest2.Hit) then 
+			HitTest2 = util.QuickTrace(HitPos1, HitTest.HitNormal * 30, {ply, Ent1})
+		end
+
+		if HitTest2.Hit then
+			local Ent2 = HitTest2.Entity
+			if (Ent1 == Ent2) or HitTest2.HitSky or Ent2:IsPlayer() or Ent2:IsNPC() then return nil end
+			if not Ent2:IsWorld() and not IsValid(Ent2:GetPhysicsObject()) then return nil end
+			local Dist = HitPos1:Distance(HitTest.HitPos)
+			if Dist > 30 then return nil end
+
+			return true, HitPos1, HitTest2.HitPos, Ent1, Ent2
+		end
+	end
+end
+
+function JMod.Bolt(ply)
+	local Success, Pos, Vec, Ent1, Ent2 = JMod.FindBoltPos(ply)
+	if not Success then return end
+	
+	local Axis = constraint.Axis(Ent1, Ent2, 0, 0, Ent1:WorldToLocal(Pos), Ent2:WorldToLocal(Vec), 50000, 0, 1, false)
+	
+	local Dir = (Pos - Vec):GetNormalized()
+	local Bolt = ents.Create("prop_dynamic")
+	Bolt:SetModel("models/crossbow_bolt.mdl")
+	Bolt:SetMaterial("models/shiny")
+	Bolt:SetColor(Color(50, 50, 50))
+	Bolt:SetPos(Pos - Dir * 20)
+	Bolt:SetAngles(Dir:Angle())
+	Bolt:Spawn()
+	Bolt:Activate()
+	Bolt:SetParent(Ent1)
+	Ent1.EZnails = Ent1.EZnails or {}
+	table.insert(Ent1.EZnails, Bolt)
+	sound.Play("snds_jack_gmod/ez_tools/" .. math.random(1, 27) .. ".ogg", Pos, 60, math.random(80, 120))
+end
+
+function JMod.FindNailPos(ply, origin, dir)
+	local Pos, Vec = origin or ply:GetShootPos(), dir or ply:GetAimVector()
+
+	local Tr1 = util.QuickTrace(Pos, Vec * 80, {ply})
+
+	if Tr1.Hit then
+		local Ent1 = Tr1.Entity
+		if Tr1.HitSky or Ent1:IsWorld() or Ent1:IsPlayer() or Ent1:IsNPC() then return nil end
+		if not IsValid(Ent1:GetPhysicsObject()) then return nil end
+
+		local Tr2 = util.QuickTrace(Pos, Vec * 120, {ply, Ent1})
+
+		if Tr2.Hit then
+			local Ent2 = Tr2.Entity
+			if (Ent1 == Ent2) or Tr2.HitSky or Ent2:IsPlayer() or Ent2:IsNPC() then return nil end
+			if not Ent2:IsWorld() and not IsValid(Ent2:GetPhysicsObject()) then return nil end
+			local Dist = Tr1.HitPos:Distance(Tr2.HitPos)
+			if Dist > 30 then return nil end
+
+			return true, Tr1.HitPos, Vec, Ent1, Ent2
+		end
+	end
+end
+
+function JMod.Nail(ply)
+	local Success, Pos, Vec, Ent1, Ent2 = JMod.FindNailPos(ply)
+	if not Success then return end
+	local Weld = constraint.Find(Ent1, Ent2, "Weld", 0, 0)
+
+	if Weld then
+		local Strength = Weld:GetTable().forcelimit + 5000
+		Weld:Remove()
+
+		timer.Simple(.01, function()
+			Weld = constraint.Weld(Ent1, Ent2, 0, 0, Strength, false, false)
+		end)
+	else
+		Weld = constraint.Weld(Ent1, Ent2, 0, 0, 5000, false, false)
+	end
+
+	local Nail = ents.Create("prop_dynamic")
+	Nail:SetModel("models/crossbow_bolt.mdl")
+	Nail:SetMaterial("models/shiny")
+	Nail:SetColor(Color(50, 50, 50))
+	Nail:SetPos(Pos - Vec * 2)
+	Nail:SetAngles(Vec:Angle())
+	Nail:Spawn()
+	Nail:Activate()
+	Nail:SetParent(Ent1)
+	Ent1.EZnails = Ent1.EZnails or {}
+	table.insert(Ent1.EZnails, Nail)
+	sound.Play("snds_jack_gmod/ez_tools/" .. math.random(1, 27) .. ".ogg", Pos, 60, math.random(80, 120))
+end
+
+function JMod.GetPackagableObject(packager, origin, dir)
+	local PackageBlacklist = {"func_"}
+	local Tr = util.QuickTrace(origin or packager:GetShootPos(), (dir or packager:GetAimVector()) * 80, {packager})
+
+	local Ent = Tr.Entity
+
+	if IsValid(Ent) and not Ent:IsWorld() then
+		if Ent.EZunpackagable then
+
+			return nil, "No."
+		end
+
+		if Ent:IsPlayer() or Ent:IsNPC() then return nil end
+		if Ent:IsRagdoll() then return nil end
+		local Constraints, Constrained = constraint.GetTable(Ent), false
+
+		for k, v in pairs(Constraints) do
+			if v.Type ~= "NoCollide" then
+				Constrained = true
+				break
+			end
+		end
+
+		if Constrained then
+
+			return nil, "object is constrained"
+		end
+
+		for k, v in pairs(PackageBlacklist) do
+			if string.find(Ent:GetClass(), v) then
+
+				return nil, "can't package this"
+			end
+		end
+
+		if Ent.IsJackyEZmachine and Ent.GetState and Ent:GetState() ~= 0 then
+			return nil, "device must be turned off to package"
+		end
+
+		return Ent
+	end
+
+	return nil
+end
+
+function JMod.Package(packager)
+	local Ent, Message = JMod.GetPackagableObject(packager)
+
+	if Ent then
+		JMod.PackageObject(Ent)
+		sound.Play("snds_jack_gmod/packagify.ogg", packager:GetPos(), 60, math.random(90, 110))
+
+		for i = 1, 3 do
+			timer.Simple(i / 3, function()
+				if IsValid(packager) then
+					sound.Play("snds_jack_gmod/ez_tools/" .. math.random(1, 27) .. ".ogg", packager:GetPos(), 60, math.random(80, 120))
+				end
+			end)
+		end
+	elseif isstring(Message) then
+		packager:PrintMessage(HUD_PRINTCENTER, Message)
+	end
+end
+
+function JMod.Rope(ply, origin, dir, width, strength, mat)
+	local RopeStartData = ply and ply.EZropeData
+	if not(RopeStartData) or not IsValid(RopeStartData.Ent) then
+		if origin and dir then
+			local RopeStartTr = util.QuickTrace(origin, dir * 80)
+			if not(RopeStartTr.Hit) then return end
+			RopeStartData = {Pos = RopeStartTr.Entity:WorldToLocal(RopeStartTr.HitPos), Ent = RopeStartTr.Entity}
+		else
+
+			return
+		end
+	end
+
+	local RopeTr = util.QuickTrace(origin or ply:GetShootPos(), (dir or ply:GetAimVector()) * 80, {ply})
+	local LropePos1, LropePos2 = ply.EZropeData.Pos, RopeTr.Entity:WorldToLocal(RopeTr.HitPos)
+	local Dist = ply.EZropeData.Ent:LocalToWorld(RopeStartData.Pos):Distance(RopeTr.HitPos)
+
+	local Rope, Vrope = constraint.Rope(ply.EZropeData.Ent, RopeTr.Entity, 0, 0, LropePos1, LropePos2, Dist, 0, strength or 5000, width or 2, mat or "cable/cable2", false)
+	return Rope, RopeTr.Entity
+end
+
+function JMod.EZprogressTask(ent, pos, deconstructor, task, mult)
+	mult = mult or 1
+	local Time = CurTime()
+
+	if not IsValid(ent) then return "Invalid Ent" end
+
+	if task == "mining" then
+		local DepositKey = JMod.GetDepositAtPos(ent, pos)
+		local DepositInfo = JMod.NaturalResourceTable[DepositKey]
+		if DepositInfo and ent.SetResourceType then
+			local NewType = JMod.NaturalResourceTable[DepositKey].typ
+			if ent.GetResourceType and (ent:GetResourceType() ~= NewType) then
+				ent:SetNW2Float("EZminingProgress", 0) -- No you don't
+			end 
+			ent:SetResourceType(NewType)
+		end
+		
+		if ent.EZpreviousMiningPos and ent.EZpreviousMiningPos:Distance(pos) > 200 then
+			ent:SetNW2Float("EZminingProgress", 0)
+			ent.EZpreviousMiningPos = nil
+		end
+		if ent:GetNW2Float("EZcancelminingTime", 0) <= Time then
+			ent:SetNW2Float("EZminingProgress", 0)
+			ent.EZpreviousMiningPos = nil
+		end
+		ent:SetNW2Float("EZcancelminingTime", Time + 5)
+		ent.EZpreviousMiningPos = pos
+
+		local Prog = ent:GetNW2Float("EZminingProgress", 0)
+		local AddAmt = math.random(15, 25) * mult * JMod.Config.ResourceEconomy.ExtractionSpeed
+
+		ent:SetNW2Float("EZminingProgress", math.Clamp(Prog + AddAmt, 0, 100))
+
+		if (Prog >= 10) and not(JMod.NaturalResourceTable[DepositKey]) then
+			ent:SetNW2Float("EZminingProgress", 0)
+			ent.EZpreviousMiningPos = nil
+			local NearestGoodDeposit = JMod.GetDepositAtPos(ent, pos, 3)
+			if JMod.NaturalResourceTable[NearestGoodDeposit] then
+				net.Start("JMod_ResourceScanner")
+					net.WriteEntity(ent)
+					net.WriteTable({JMod.NaturalResourceTable[NearestGoodDeposit]})
+				net.Broadcast()
+				return JMod.NaturalResourceTable[NearestGoodDeposit].typ .. " nearby"
+			else
+				return "nothing of value nearby"
+			end
+		elseif Prog >= 100 then
+			local AmtToProduce
+
+			if JMod.NaturalResourceTable[DepositKey].rate then
+				local Rate = JMod.NaturalResourceTable[DepositKey].rate
+				AmtToProduce = Rate * Prog
+			else
+				local AmtLeft = JMod.NaturalResourceTable[DepositKey].amt
+				AmtToProduce = math.min(AmtLeft, math.random(5, 20))
+				if (JMod.NaturalResourceTable[DepositKey].typ == JMod.EZ_RESOURCE_TYPES.DIAMOND) then
+					AmtToProduce = math.min(AmtLeft, math.random(1, 2))
+				end
+				JMod.DepleteNaturalResource(DepositKey, AmtToProduce)
+			end
+
+			JMod.MachineSpawnResource(ent, JMod.NaturalResourceTable[DepositKey].typ, AmtToProduce, ent:WorldToLocal(pos + Vector(0, 0, 8)), Angle(0, 0, 0), nil, 100)
+			ent:SetNW2Float("EZminingProgress", 0)
+			ent.EZpreviousMiningPos = nil
+			JMod.ResourceEffect(JMod.NaturalResourceTable[DepositKey].typ, pos, nil, 1, 1, 1, 5)
+			util.Decal("EZgroundHole", pos + Vector(0, 0, 10), pos + Vector(0, 0, -10))
+			--
+			net.Start("JMod_ResourceScanner")
+				net.WriteEntity(ent)
+				net.WriteTable({JMod.NaturalResourceTable[DepositKey]})
+			net.Broadcast()
+
+			ent:SetResourceType("")
+			
+			return nil
+		end
+
+		return nil
+	end
+
+	if ent:GetNW2Float("EZcancel"..task.."Time", 0) <= Time then
+		ent:SetNW2Float("EZ"..task.."Progress", 0)
+	end
+	ent:SetNW2Float("EZcancel"..task.."Time", Time + 3)
+	
+	local Prog = ent:GetNW2Float("EZ"..task.."Progress", 0)
+	local Phys = ent:GetPhysicsObject()
+	
+	if IsValid(Phys) then
+		local WorkSpreadMult = JMod.CalcWorkSpreadMult(ent, pos)
+
+		if task == "loosen" then
+			if constraint.HasConstraints(ent) or not Phys:IsMotionEnabled() then
+				local Mass = Phys:GetMass() ^ .8
+				local AddAmt = 300 / Mass * WorkSpreadMult * JMod.Config.Tools.Toolbox.DeconstructSpeedMult
+				ent:SetNW2Float("EZ"..task.."Progress", math.Clamp(Prog + AddAmt, 0, 100))
+
+				if Prog >= 100 then
+					sound.Play("snds_jack_gmod/ez_tools/hit.ogg", pos + VectorRand(), 70, math.random(50, 60))
+					constraint.RemoveAll(ent)
+					Phys:EnableMotion(true)
+					Phys:Wake()
+					ent:SetNW2Float("EZ"..task.."Progress", 0)
+					if ent.EZnails then
+						for _, v in ipairs(ent.EZnails) do
+							if IsValid(v) then
+								v:Remove()
+							end
+						end
+						ent.EZnails = {}
+					end
+				end
+			else
+				return "object is already unconstrained"
+			end
+		elseif task == "salvage" then
+			if constraint.HasConstraints(ent) or not Phys:IsMotionEnabled() then
+				return "object is constrained"
+			else
+				local Mass = (Phys:GetMass() * ent:GetPhysicsObjectCount()) ^ .8
+				DropEntityIfHeld(ent)
+				local Yield, Message = JMod.GetSalvageYield(ent)
+
+				if #table.GetKeys(Yield) <= 0 then
+					return Message
+				else
+					local AddAmt = 250 / Mass * WorkSpreadMult * JMod.Config.Tools.Toolbox.DeconstructSpeedMult
+					ent:SetNW2Float("EZ"..task.."Progress", math.Clamp(Prog + AddAmt, 0, 100))
+					
+					if Prog >= 100 then
+						sound.Play("snds_jack_gmod/ez_tools/hit.ogg", pos + VectorRand(), 70, math.random(50, 60))
+
+						for k, v in pairs(Yield) do
+							local AmtLeft = v
+
+							while AmtLeft > 0 do
+								local Remove = math.min(AmtLeft, 100 * JMod.Config.ResourceEconomy.MaxResourceMult)
+								local Ent = ents.Create(JMod.EZ_RESOURCE_ENTITIES[k])
+								Ent:SetPos(pos + VectorRand() * 40 + Vector(0, 0, 30))
+								Ent:SetAngles(AngleRand())
+								Ent:Spawn()
+								Ent:Activate()
+								Ent:SetEZsupplies(k, Remove)
+								JMod.SetEZowner(Ent, deconstructor)
+								timer.Simple(.1, function()
+									if (IsValid(Ent) and IsValid(Ent:GetPhysicsObject())) then 
+										Ent:GetPhysicsObject():SetVelocity(Vector(0, 0, 0)) --- This is so jank
+									end
+								end)
+								AmtLeft = AmtLeft - Remove
+							end
+						end
+						if ent.JModInv then
+							for _, v in ipairs(ent.JModInv.items) do
+								JMod.RemoveFromInventory(ent, v.ent, pos + VectorRand() * 50)
+							end
+						end
+						SafeRemoveEntity(ent)
+					end
+				end
+			end
+		end
+	end
+end
+
+function JMod.BuildRecipe(results, ply, Pos, Ang, skinNum)
+	if istable(results) then
+		for n = 1, (results[2] or 1) do
+			local Ent = ents.Create(results[1])
+			Ent:SetPos(Pos)
+			Ent:SetAngles(Ang)
+			JMod.SetEZowner(Ent, ply)
+			Ent:SetCreator(ply)
+			Ent:Spawn()
+			Ent:Activate()
+			if (results[3]) then
+				Ent:SetEZsupplies(Ent.EZsupplies, results[3])
+			end
+		end
+	else
+		local StringParts=string.Explode(" ", results)
+		if((StringParts[1])and(StringParts[1] == "FUNC"))then
+			local FuncName = StringParts[2]
+			if((JMod.LuaConfig) and (JMod.LuaConfig.BuildFuncs) and (JMod.LuaConfig.BuildFuncs[FuncName]))then
+				local Ent = JMod.LuaConfig.BuildFuncs[FuncName](ply, Pos, Ang)
+			else
+				print("JMOD WORKBENCH ERROR: JMod.LuaConfig is missing, corrupt, or doesn't have an entry for that build function")
+			end
+		elseif string.Right(results, 4) == ".mdl" then
+			local Ent = ents.Create("prop_physics")
+			Ent:SetModel(results)
+			Ent:SetPos(Pos)
+			Ent:SetAngles(Ang)
+			JMod.SetEZowner(Ent, ply)
+			Ent:SetCreator(ply)
+			Ent:Spawn()
+			Ent:Activate()
+			if skinNum then
+				if istable(skinNum) then
+					Ent:SetSkin(table.Random(skinNum))
+				else
+					Ent:SetSkin(skinNum)
+				end
+			end
+		else
+			local Ent = ents.Create(results)
+			Ent:SetPos(Pos)
+			Ent:SetAngles(Ang)
+			JMod.SetEZowner(Ent, ply)
+			Ent:SetCreator(ply)
+			Ent:Spawn()
+			Ent:Activate()
+			JMod.Hint(ply, results)
+		end
+	end
+end
+
+function JMod.ConsumeNutrients(ply, amt)
+	if not IsValid(ply) or not ply:Alive() then return false end
+	local Time = CurTime()
+	amt = math.Round(amt)
+	--
+	ply.EZnutrition = ply.EZnutrition or {
+		NextEat = 0,
+		Nutrients = 0
+	}
+	if (ply.EZnutrition.NextEat or 0) > Time then JMod.Hint(activator, "can not eat") return false end
+	if (ply.EZnutrition.Nutrients or 0) >= 100 then JMod.Hint(ply, "nutrition filled") return false end
+	--
+	ply.EZnutrition.NextEat = Time + amt / JMod.Config.FoodSpecs.EatSpeed
+	ply.EZnutrition.Nutrients = math.Round(ply.EZnutrition.Nutrients + amt * JMod.Config.FoodSpecs.ConversionEfficiency)
+
+	local result = hook.Run("JMod_ConsumeNutrients", ply, amt)
+
+	ply:PrintMessage(HUD_PRINTCENTER, "nutrition: " .. ply.EZnutrition.Nutrients .. "/100")
+	return true
+end
+
+hook.Add("JMod_ConsumeNutrients", "DarkRP_EnergyCompat", function(ply, amt)
+	if ply.getDarkRPVar and ply.setDarkRPVar and ply:getDarkRPVar("energy") then
+		local Old = ply:getDarkRPVar("energy")
+		ply:setDarkRPVar("energy", math.Clamp(Old + amt * JMod.Config.FoodSpecs.ConversionEfficiency, 0, 100))
+	end
+end)
+
+function JMod.GetPlayerStrength(ply)
+	if not(IsValid(ply) and ply:IsPlayer() and ply:Alive()) then return 0 end
+	local PlyHealth = ply:Health()
+	local PlyMaxHealth = ply:GetMaxHealth()
+
+	--jprint(1 + (math.max(PlyHealth - PlyMaxHealth, 0) ^ 1.2 / (PlyMaxHealth)) * JMod.Config.General.HandGrabStrength)
+	return 1 + (math.max(PlyHealth - PlyMaxHealth, 0) ^ 1.2 / (PlyMaxHealth)) * JMod.Config.General.HandGrabStrength
+end
+
+function JMod.BuildEffect(pos)
+	local Scale = .5
+	local effectdata = EffectData()
+	effectdata:SetOrigin(pos + VectorRand())
+	effectdata:SetNormal((VectorRand() + Vector(0, 0, 1)):GetNormalized())
+	effectdata:SetMagnitude(math.Rand(1, 2) * Scale) --amount and shoot hardness
+	effectdata:SetScale(math.Rand(.5, 1.5) * Scale) --length of strands
+	effectdata:SetRadius(math.Rand(2, 4) * Scale) --thickness of strands
+	util.Effect("Sparks", effectdata,true,true)
+	sound.Play("snds_jack_gmod/ez_tools/hit.ogg", pos + VectorRand(), 60, math.random(80, 120))
+	sound.Play("snds_jack_gmod/ez_tools/"..math.random(1, 27)..".ogg", pos, 60, math.random(80, 120))
+	local eff = EffectData()
+	eff:SetOrigin(pos + VectorRand())
+	eff:SetScale(Scale)
+	util.Effect("eff_jack_gmod_ezbuildsmoke", eff, true, true)
+	-- todo: useEffects
+end
+
+function JMod.DebugArrangeEveryone(ply)
+	local Origin, Dist, Ang = ply:GetPos(), 50, Angle(0, 0, 0)
+	local Beings = player.GetAll()
+	table.Add(Beings, ents.FindByClass("npc_*"))
+	for k, playa in pairs(Beings) do
+		if (playa ~= ply) then
+			local Target = Origin + Ang:Forward() * Dist
+			local Tr = util.QuickTrace(Target + Vector(0, 0, 300), Vector(0, 0, -600), playa)
+			playa:SetPos(Tr.HitPos)
+			Ang:RotateAroundAxis(vector_up, 25)
+			Dist = Dist + 120
+		end
+	end
+	ply:SetPos(Origin + Vector(0, 0, 200))
+	ply:SetMoveType(MOVETYPE_NOCLIP)
+	ply:SetHealth(999)
+	RunConsoleCommand("r_cleardecals")
+end
+
+function JMod.EZimmobilize(victim, timeToImmobilize, immobilizer)
+	if not IsValid(victim) then return end
+	victim.EZimmobilizers = victim.EZimmobilizers or {}
+	if not(IsValid(immobilizer)) then immobilizer = victim end
+	victim.EZimmobilizers[immobilizer] = (victim.EZimmobilizers[immobilizer] or CurTime()) + timeToImmobilize
+	victim.EZImmobilizationTime = timeToImmobilize
+end
+
+function JMod.EZinstallMachine(machine, install)
+	install = install or true
+	if not(IsValid(machine)) then return end
+	local Phys = machine:GetPhysicsObject()
+	if not(IsValid(Phys)) then return end
+
+	machine.EZinstalled = install
+	Phys:EnableMotion(not install)
+end
+
+function JMod.StartConnection(machine, ply)
+	if not(IsValid(machine)) then return end
+	if IsValid(machine.EZconnectorPlug) then 
+		if machine.EZconnectorPlug:IsPlayerHolding() then return end
+		SafeRemoveEntity(machine.EZconnectorPlug)
+	end
+	if not(JMod.ShouldAllowControl(machine, ply, true)) then return end
+	if not IsValid(ply) then return end
+
+	local Plugy = ents.Create("ent_jack_gmod_ezhook")
+	if not IsValid(Plugy) then return end
+	Plugy:SetPos(machine:GetPos() + Vector(0, 0, 50)) -- Adjust the position as needed
+	Plugy:SetAngles(machine:GetAngles())
+	Plugy.Model = "models/props_lab/tpplug.mdl"
+	Plugy.EZhookType = "Plugin"
+	Plugy.EZconnector = machine
+	Plugy:Spawn()
+	Plugy:Activate()
+	machine.EZconnectorPlug = Plugy
+
+	local ropeLength = machine.MaxConnectionRange or 1000
+	local Rope = constraint.Rope(machine, Plugy, 0, 0, machine.EZpowerSocket or Vector(0,0,0), Vector(10,0,0), ropeLength, 0, 1000, 2, "cable/cable2", false)
+	Plugy.Chain = Rope
+
+	ply:DropObject()
+	ply:PickupObject(Plugy)
+end
+
+function JMod.CreateConnection(machine, ent, resType, plugPos, dist, cable)
+	dist = dist or 1000
+	if not (IsValid(machine) and IsValid(ent) and resType) then return false end
+	if not IsValid(ent) or (ent == machine) then return false end
+	if not (ent.EZconsumes and table.HasValue(ent.EZconsumes, resType)) and not (resType == JMod.EZ_RESOURCE_TYPES.POWER and (ent.EZpowerProducer and not machine.EZpowerProducer)) then return false end
+	if ent.IsJackyEZcrate and ent.GetResourceType and not(ent:GetResourceType() == resType or ent:GetResourceType() == "generic") then return false end
+	if not JMod.ShouldAllowControl(ent, JMod.GetEZowner(machine), true) then return false end
+	local PluginPos = ent.EZpowerSocket or plugPos or ent:OBBCenter()
+	if not IsValid(cable) then
+		local DistanceBetween = (machine:GetPos() - ent:LocalToWorld(PluginPos)):Length()
+		if (DistanceBetween > dist) then return false end
+	end
+	--
+	machine.EZconnections = machine.EZconnections or {}
+	local AlreadyConnected = false
+	local EntID = ent:EntIndex()
+	for entID, cable in pairs(machine.EZconnections) do
+		if entID == EntID then
+			AlreadyConnected = true
+
+			break
+		end
+	end
+	if AlreadyConnected then return false end
+	
+	ent.EZconnections = ent.EZconnections or {}
+	local MachineIndex = machine:EntIndex()
+	for entID, cable in pairs(ent.EZconnections) do
+		if (EntID == MachineIndex) then
+			if IsValid(cable) then
+				cable:Remove()
+			end
+			ent.EZconnections[entID] = nil
+		end
+	end
+	--
+	if not IsValid(cable) then
+		cable = constraint.Rope(machine, ent, 0, 0, machine.EZpowerSocket or Vector(0, 0, 0), PluginPos, dist + 20, 10, 100, 2, "cable/cable2")
+	end
+	ent.EZconnections[MachineIndex] = cable
+	machine.EZconnections[EntID] = cable
+
+	return true
+end
+
+function JMod.RemoveConnection(machine, connection)
+	if not IsValid(machine) then return end
+	-- Check if connection is a entity first
+	if type(connection) == "Entity" and IsValid(connection) then
+		-- Check if it is connected
+		connection = connection:EntIndex()
+	end
+	if not(machine.EZconnections[connection]) then return end
+	local ConnectedEnt = Entity(connection)
+	local Cable = machine.EZconnections[connection]
+	if IsValid(Cable) then
+		Cable:Remove()
+	end
+	machine.EZconnections[connection] = nil
+end
+
+function JMod.ConnectionValid(machine, otherMachine)
+	if not(IsValid(machine) and IsValid(otherMachine)) then return false end
+	if not(machine.EZconnections and otherMachine.EZconnections) then return false end
+	if not(IsValid(machine.EZconnections[otherMachine:EntIndex()])) then return false end
+	return true
+end
+
+function JMod.EnergeticsCookoff(pos, attacker, powerMult, numExplo, numBullet, numFire)
+	-- spark/smoke effects
+	for i = 1, numExplo do
+		timer.Simple(math.Rand(0, .5), function()
+			JMod.Sploom(attacker, pos + VectorRand() * powerMult, powerMult * 10, 50)
+		end)
+	end
+	for i = 1, numBullet do
+		timer.Simple(math.Rand(0, .5), function()
+			local dir = VectorRand():GetNormalized()
+			local firer = (IsValid(attacker) and attacker) or game.GetWorld()
+
+			sound.Play("snd_jack_fireworkpop" .. math.random(1, 5) .. ".ogg", pos + VectorRand() * 10, 75, math.random(90, 110))
+
+			firer:FireBullets({
+				Attacker = attacker,
+				Damage = powerMult,
+				Force = 0,
+				Num = 1,
+				Src = pos,
+				Tracer = 0,
+				TracerName = "Tracer",
+				Dir = dir,
+				Spread = 1,
+				AmmoType = "Buckshot"
+			})
+		end)
+	end
+	for i = 1, numFire do
+		local tr = util.QuickTrace(pos, VectorRand() * powerMult * 20, attacker)
+		if tr.Hit then
+			local Haz = ents.Create("ent_jack_gmod_ezfirehazard")
+
+			if IsValid(Haz) then
+				Haz:SetDTInt(0, 1)
+				Haz:SetPos(tr.HitPos + tr.HitNormal * 2)
+				Haz:SetAngles(tr.HitNormal:Angle())
+				JMod.SetEZowner(Haz, JMod.GetEZowner(attacker))
+				Haz.HighVisuals = true
+				Haz.Burnin = true
+				Haz:Spawn()
+				Haz:Activate()
+				
+				if IsValid(tr.Entity) and tr.Entity:IsWorld() then
+					Haz:SetParent(tr.Entity)
+				end
+			end
+		else
+			local FireVec = (VectorRand() * powerMult + Vector(0, 0, .3)):GetNormalized()
+			FireVec.z = FireVec.z / 2
+			local Flame = ents.Create("ent_jack_gmod_eznapalm")
+			Flame:SetPos(pos + VectorRand() * 10)
+			Flame:SetAngles(FireVec:Angle())
+			Flame:SetOwner(JMod.GetEZowner(attacker))
+			JMod.SetEZowner(Flame, attacker.EZowner or attacker)
+			Flame.SpeedMul = (powerMult / 4)
+			Flame.Creator = attacker
+			Flame.HighVisuals = math.random(1, numFire) >= numFire / 2
+			Flame:Spawn()
+			Flame:Activate()
+		end
 	end
 end
 

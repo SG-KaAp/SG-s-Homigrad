@@ -48,6 +48,9 @@ hook.Add("CalcView","SIX.CalcView",function( ply, pos, angles, fov )
         net.Start("SIX.SIDETO")
             net.WriteInt( SIX.CurSide,3 )
         net.SendToServer()
+        if SIX.CurSide ~= 0 then
+            sound.Play( "sht/draw_rifle.wav", LocalPlayer():GetPos(), 50,150 )
+        end
         oldside = SIX.CurSide
     end
 
@@ -61,6 +64,9 @@ hook.Add("CalcView","SIX.CalcView",function( ply, pos, angles, fov )
     local ispl = LocalPlayer():GetViewEntity() == LocalPlayer()
 
     local view = {
+        origin = ispl and (pos + anng:Right() * Vector(SIX.SideAngleRollFinish,SIX.SideAngleRollFinish,0)) or pos,
+        angles = ispl and (Angle(angles.x,angles.y,SIX.SideAngleRollFinish)) or angles,
+        fov = fov
     }
 
 	return view

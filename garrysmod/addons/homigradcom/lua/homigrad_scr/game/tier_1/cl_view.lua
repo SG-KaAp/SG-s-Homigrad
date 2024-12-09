@@ -545,12 +545,15 @@ if engine.ActiveGamemode() == "homigradcom" then
 					pointshooting = not pointshooting
 				end
 				if pointshooting then
-					ScopeLerp = LerpFT(GetConVar("hg_bodycam"):GetInt() == 0 and 0.1 or 1,ScopeLerp,0.85)
+					--ScopeLerp = LerpFT(GetConVar("hg_bodycam"):GetInt() == 0 and 0.1 or 1,ScopeLerp,0.85)
+					ScopeLerp = LerpFT(0.1,ScopeLerp,0.85)
 				else
-					ScopeLerp = LerpFT(GetConVar("hg_bodycam"):GetInt() == 0 and 0.1 or 1,ScopeLerp,1)
+					--ScopeLerp = LerpFT(GetConVar("hg_bodycam"):GetInt() == 0 and 0.1 or 1,ScopeLerp,1)
+					ScopeLerp = LerpFT(0.1,ScopeLerp,1)
 				end
 			else
-				ScopeLerp = LerpFT(GetConVar("hg_bodycam"):GetInt() == 0 and 0.1 or 1,ScopeLerp,0)
+				--ScopeLerp = LerpFT(GetConVar("hg_bodycam"):GetInt() == 0 and 0.1 or 1,ScopeLerp,0)
+				ScopeLerp = LerpFT(0.1,ScopeLerp,0)
 			end
 		end
 	
@@ -836,7 +839,7 @@ if engine.ActiveGamemode() == "homigradcom" then
 		else
 			angEye = LerpAngleFT(0.25,LerpEye,angEye)
 			
-			if GetConVar("hg_bodycam"):GetInt() == 1 and IsValid(wep) and wep:LookupAttachment("muzzle") and scope then
+			--[[if GetConVar("hg_bodycam"):GetInt() == 1 and IsValid(wep) and wep:LookupAttachment("muzzle") and scope then
 				vecWep = vecWep + hand.Ang:Up() * 2 - hand.Ang:Forward() * -15 + hand.Ang:Right() * -1.5			--LerpEye[3] = 0
 				
 				if wep.HoldType == "revolver" then
@@ -849,7 +852,7 @@ if engine.ActiveGamemode() == "homigradcom" then
 					angEye[2] = angEye[2] + 10
 					--angEye[3] = 0
 				end
-			end
+			end--]]
 	
 		end
 	

@@ -41,13 +41,14 @@ local function makeT(ply)
     table.insert(homicide.t, ply)
 
     local shouldGiveJahidka = math.random() < 0.25 -- 25% шанс на выдачу оружия
+    local bombType = math.random(1, 3)
 
     if homicide.roundType == 1 or homicide.roundType == 2 then
         local wep = ply:Give("weapon_hk_usps")
         wep:SetClip1(wep:GetMaxClip1())
         ply:Give("weapon_kabar")
         ply:Give("weapon_hg_t_vxpoison")
-        ply:Give("weapon_hidebomb")
+        if bombType == 1 then ply:Give("weapon_hidebomb") else ply:Give("weapon_doorf1") end
         ply:Give("weapon_hg_rgd5")
         if shouldGiveJahidka then
             ply:Give("weapon_jahidka")
@@ -65,9 +66,10 @@ local function makeT(ply)
         print(player.GetCount())
     elseif homicide.roundType == 4 then
         local wep = ply:Give("weapon_deagle")
+        ply:GiveAmmo(3*8, ".44 Remington Magnum", true) -- slots = bullets.
         ply:Give("weapon_kabar")
         ply:Give("weapon_hg_t_vxpoison")
-        ply:Give("weapon_hidebomb")
+        if bombType == 1 then ply:Give("weapon_hidebomb") else ply:Give("weapon_doorf1") end
         ply:Give("weapon_hg_rgd5")
         if shouldGiveJahidka then
             ply:Give("weapon_jahidka")
@@ -78,7 +80,7 @@ local function makeT(ply)
         wep:SetClip1(wep:GetMaxClip1())
         ply:Give("weapon_kabar")
         ply:Give("weapon_hg_t_vxpoison")
-        ply:Give("weapon_hidebomb")
+        if bombType == 1 then ply:Give("weapon_hidebomb") else ply:Give("weapon_doorf1") end
         ply:Give("weapon_hg_rgd5")
         if shouldGiveJahidka then
             ply:Give("weapon_jahidka")
@@ -87,10 +89,10 @@ local function makeT(ply)
 end
     timer.Simple(5,function() ply.allowFlashlights = true end)
 
-    AddNotificate( ply,"You are a traitor.")
+    AddNotificate( ply,"Вы предатель.")
 
     if #GetFriends(ply) >= 1 then
-        timer.Simple(1,function() AddNotificate( ply,"Your mates " .. GetFriends(ply)) end)
+        timer.Simple(1,function() AddNotificate( ply,"Ваши товарищи " .. GetFriends(ply)) end)
     end
 end
 
@@ -99,23 +101,21 @@ local function makeCT(ply)
     table.insert(homicide.ct,ply)
     if homicide.roundType == 1 then
         local wep = ply:Give("weapon_doublebarrel_dulo")
-        ply:GiveAmmo(2, "12/70 gauge", true) -- slots = bullets.
+        ply:GiveAmmo(4, "12/70 gauge", true) -- slots = bullets.
         wep:SetClip1(wep:GetMaxClip1())
-        AddNotificate( ply,"You are a bystander with a pew-pew")
+        AddNotificate( ply,"Вы невиновный с дробовиком вашего деда.")
     elseif homicide.roundType == 2 then
         local wep = ply:Give("weapon_beretta")
-	ply:GiveAmmo(15, "9х19 mm Parabellum", true)
         wep:SetClip1(wep:GetMaxClip1())
-        AddNotificate( ply,"You are a bystander with a pew-pew")
+        AddNotificate( ply,"Вы невиновный со скрытым огнестрельным оружием.")
     elseif homicide.roundType == 3 then
         local wep = ply:Give("weapon_taser")
         ply:Give("weapon_police_bat")
-        ply:Give("weapon_handcuffs")
         wep:SetClip1(wep:GetMaxClip1())
-        AddNotificate( ply,"You are undercoverd police. You have a police baton and a tazer.\nYour target is to zip or kill the traitor.")
+        AddNotificate( ply,"Вы полицейский под прикрытием. Вам выдан шокер и дубинка\nВаша задача: связать преступника.")
     elseif homicide.roundType == 4 then
         local wep = ply:Give("weapon_deagle")
-        AddNotificate( ply,"You are a bystander with a revolver. CumBoyLOL ")
+        AddNotificate( ply,"Вы невиновный ковбой с револьвером в кобуре.")
     end
 
 end
@@ -263,7 +263,7 @@ end
 local aviable = ReadDataMap("spawnpointsct")
 
 COMMANDS.forcepolice = {function(ply)
-    if not ply:IsAdmin() then PrintMessage(3,"What is OP go kys") return end
+    if not ply:IsAdmin() then PrintMessage(3,"Пошел нахуй, ОПку не взломал еще.") return end
     homicide.police = false
 
     roundTime = 0
@@ -279,9 +279,9 @@ function homicide.RoundEndCheck()
         if not homicide.police then
             homicide.police = true
             if homicide.roundType == 1 then
-                PrintMessage(3,"S.W.A.T truck is here!")
+                PrintMessage(3,"Спецназ приехал.")
             else
-                PrintMessage(3,"Police cars is here!")
+                PrintMessage(3,"Полиция приехала.")
             end
 
             local aviable = ReadDataMap("spawnpointsct")
@@ -313,9 +313,9 @@ end
 
 function homicide.EndRound(winner)
     RunConsoleCommand("homicide_setmode", "99")    
-    PrintMessage(3,(winner == 1 and "Traitor wins..." or winner == 2 and "Победа невиновых." or "Ничья"))
+    PrintMessage(3,(winner == 1 and "Победа предателей." or winner == 2 and "Победа невиновых." or "Ничья"))
     if homicide.t and #homicide.t > 0 then
-        PrintMessage(3,#homicide.t > 1 and ("Traitors were : " .. homicide.t[1]:Name() .. ", " .. GetFriends(homicide.t[1])) or ("Трейтором был: " .. homicide.t[1]:Name()))
+        PrintMessage(3,#homicide.t > 1 and ("Трейторами были: " .. homicide.t[1]:Name() .. ", " .. GetFriends(homicide.t[1])) or ("Трейтором был: " .. homicide.t[1]:Name()))
     end
 end
 
@@ -330,7 +330,7 @@ function homicide.PlayerSpawn(ply,teamID)
 
     ply:Give("weapon_hands")
     
-    timer.Simple(0,function() ply.allowFlashlights = true end)
+    --timer.Simple(0,function() ply.allowFlashlights = true end)
 end
 
 function homicide.PlayerInitialSpawn(ply)
@@ -339,8 +339,8 @@ end
 
 function homicide.PlayerCanJoinTeam(ply,teamID)
     if ply:IsAdmin() then
-        if teamID == 2 then ply.forceCT = nil ply.forceT = true ply:ChatPrint("wat RED NEXT (kys)") return false end
-        if teamID == 3 then ply.forceT = nil ply.forceCT = true ply:ChatPrint("Homicider next round (kys)") return false end
+        if teamID == 2 then ply.forceCT = nil ply.forceT = true ply:ChatPrint("ты будешь за дбгшера некст раунд") return false end
+        if teamID == 3 then ply.forceT = nil ply.forceCT = true ply:ChatPrint("ты будешь за хомисайдера некст раунд") return false end
     else
         if teamID == 2 or teamID == 3 then ply:ChatPrint("Иди нахуй") return false end
     end
@@ -367,7 +367,7 @@ function homicide.PlayerDeath(ply,inf,att) return false end
 
 local common = {"food_lays","weapon_pipe","weapon_bat","med_band_big","med_band_small","medkit","food_monster","food_fishcan","food_spongebob_home"}
 local uncommon = {"medkit","weapon_molotok","weapon_per4ik","painkiller"}
-local rare = {"weapon_glock18","weapon_gurkha","weapon_t","weapon_deagle","weapon_minu14", "}
+local rare = {"weapon_glock18","weapon_gurkha","weapon_t","weapon_deagle","weapon_minu14"}
 
 function homicide.ShouldSpawnLoot()
 if roundTimeStart + roundTimeLoot - CurTime() > 0 then return false end

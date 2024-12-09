@@ -1,6 +1,10 @@
 if engine.ActiveGamemode() == "homigradcom" then
 local PlayerMeta = FindMetaTable("Player")
 local EntityMeta = FindMetaTable("Entity")
+util.AddNetworkString("ShowSmileyleft")
+util.AddNetworkString("RemoveSmileyleft")
+util.AddNetworkString("ShowSmileyright")
+util.AddNetworkString("RemoveSmileyright")
 
 Organs = {
 	['brain']=5,
@@ -453,7 +457,10 @@ hook.Add("DoPlayerDeath","blad",function(ply,att,dmginfo)
 end)
 
 hook.Add("PostPlayerDeath","fuckyou",function(ply)
-
+	net.Start("RemoveSmileyleft")
+	net.Send(ply)
+	net.Start("RemoveSmileyright")
+	net.Send(ply)
 end)
 
 hook.Add("PhysgunDrop", "DropPlayer", function(ply,ent)
@@ -1229,6 +1236,9 @@ hook.Add("Player Think","FakeControl",function(ply,time) --управление 
 						local cons = constraint.Weld(rag,trace.Entity,bone,trace.PhysicsBone,0,false,false)
 						if(IsValid(cons))then
 							rag.ZacConsLH=cons
+							net.Start("ShowSmileyleft")
+							net.WriteEntity(rag)  -- Отправляем рагдолл
+							net.Send(ply)  -- Отправляем только клиенту, который это сделал
 						end
 						break
 					end
@@ -1239,6 +1249,8 @@ hook.Add("Player Think","FakeControl",function(ply,time) --управление 
 			if(IsValid(rag.ZacConsLH))then
 				rag.ZacConsLH:Remove()
 				rag.ZacConsLH=nil
+				net.Start("RemoveSmileyleft")
+				net.Send(ply)
 			end
 		end
 		if(ply:KeyDown(IN_WALK)) and !RagdollOwner(rag).Otrub and !timer.Exists("StunTime"..ply:EntIndex()) then
@@ -1265,6 +1277,9 @@ hook.Add("Player Think","FakeControl",function(ply,time) --управление 
 						local cons = constraint.Weld(rag,trace.Entity,bone,trace.PhysicsBone,0,false,false)
 						if(IsValid(cons))then
 							rag.ZacConsRH=cons
+							net.Start("ShowSmileyright")
+							net.WriteEntity(rag)  -- Отправляем рагдолл
+							net.Send(ply)  -- Отправляем только клиенту, который это сделал
 						end
 						break
 					end
@@ -1274,6 +1289,8 @@ hook.Add("Player Think","FakeControl",function(ply,time) --управление 
 			if(IsValid(rag.ZacConsRH))then
 				rag.ZacConsRH:Remove()
 				rag.ZacConsRH=nil
+				net.Start("RemoveSmileyright")
+				net.Send(ply)
 			end
 		end
 		if(ply:KeyDown(IN_FORWARD) and IsValid(rag.ZacConsLH))then

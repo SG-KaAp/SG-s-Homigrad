@@ -25,5 +25,5 @@ if SERVER then
 		self:SpoonEffect()
 	end
 elseif CLIENT then
-	--language.Add("ent_jack_gmod_eznade_timed", "EZminiNade-Timed")
+	language.Add("ent_jack_gmod_eznade_timed", "EZminiNade-Timed")
 end

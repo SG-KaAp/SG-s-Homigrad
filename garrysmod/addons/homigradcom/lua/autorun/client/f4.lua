@@ -331,11 +331,11 @@ if LocalPlayer():IsAdmin() then
     end
 
     -- Добавление обычных кнопок
-    addAdminButton(normalButtonGrid, "Разрешить Q меню", "accessspawn", false)
-    addAdminButton(normalButtonGrid, "Рандом режимы", "levelrandom", false)
-    addAdminButton(normalButtonGrid, "Закончить раунд", "levelend", false)
-    addAdminButton(normalButtonGrid, "Кик при смерти", "sync", false)
-    addAdminButton(normalButtonGrid, "Закрыть сервер", "closedev", false)
+    addAdminButton(normalButtonGrid, "Разрешить Q меню", "!accessspawn", false)
+    addAdminButton(normalButtonGrid, "Рандом режимы", "!levelrandom", false)
+    addAdminButton(normalButtonGrid, "Закончить раунд", "!levelend", false)
+    addAdminButton(normalButtonGrid, "Кик при смерти", "!sync", false)
+    addAdminButton(normalButtonGrid, "Закрыть сервер", "!closedev", false)
 
     -- Переменная для отслеживания состояния RTV
     local nortvState = false
@@ -592,12 +592,12 @@ sheet:AddSheet("Настройки", settingsPanel, "icon16/wrench_orange.png")
         end
     end
 
-    hook.Add("OnPlayerChat", "OpenMenuOnChatCommand", function(ply, text)
+    --[[hook.Add("OnPlayerChat", "OpenMenuOnChatCommand", function(ply, text)
         if ply == LocalPlayer() and (string.lower(text) == "!levels" or string.lower(text) == "!levelnext") then
             OpenF4Menu()
             return true
         end
-    end)
+    end)--]]
 
     hook.Add("Think", "ToggleF4Menu", function()
         if input.IsKeyDown(KEY_F4) then

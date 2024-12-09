@@ -1,6 +1,6 @@
-resource.AddWorkshop("779759026")--049
-resource.AddWorkshop("367531149")--096
-resource.AddWorkshop("830210642")--173
+--resource.AddWorkshop("779759026")--049
+--resource.AddWorkshop("367531149")--096
+--resource.AddWorkshop("830210642")--173
 
 function scp.SpawnSCP(ply,id)
     ply:SetTeam(3)
