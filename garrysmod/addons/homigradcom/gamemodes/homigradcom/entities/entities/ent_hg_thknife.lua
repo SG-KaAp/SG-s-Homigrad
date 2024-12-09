@@ -24,17 +24,13 @@ if(SERVER)then
 		end
 		self.HitSomething=false
 	end
+	function ENT:Use(ply)
+		ply:Give(self.Weapon)
+		self:Remove()
+	end
 	function ENT:Think()
 		if((self:GetVelocity():Length()>300)and not(self.HitSomething))then
 			self:EmitSound("snd_jack_hmcd_tinyswish.wav",70,math.random(90,110))
-		end
-		if(self.HitSomething)then
-			for key,ply in pairs(ents.FindInSphere(self:GetPos(),30))do
-				if ply:IsPlayer() then
-					ply:Give(self.Weapon)
-					self:Remove()
-				end
-			end
 		end
 		self:NextThink(CurTime()+.1)
 		return true

@@ -7,7 +7,7 @@ ENT.Spawnable = false
 ENT.AdminSpawnable = false
 ENT.Model = "models/shells/shell_gndspoon.mdl"
 ENT.ModelScale = 1.5
-ENT.Sound = "snd_jack_spoonbounce.ogg"
+ENT.Sound = "weapons/m67/handling/m67_spooneject.wav"
 
 if SERVER then
 	function ENT:Initialize()
@@ -59,5 +59,5 @@ if SERVER then
 end
 
 if CLIENT then
-	language.Add("ent_jack_spoon", "Spoon")
+	--language.Add("ent_jack_spoon", "Spoon")
 end

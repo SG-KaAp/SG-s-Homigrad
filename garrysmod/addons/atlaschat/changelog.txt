@@ -1,1 +1,0 @@
-+ Fixed text entry text not being visible.

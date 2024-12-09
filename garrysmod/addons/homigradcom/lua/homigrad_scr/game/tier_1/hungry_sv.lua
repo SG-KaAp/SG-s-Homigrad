@@ -1,4 +1,4 @@
---[[if not engine.ActiveGamemode() == "homigrad" then return end
+--[[if not engine.ActiveGamemode() == "homigradcom" then return end
 local math_Clamp = math.Clamp
 local player_GetAll = player.GetAll
 hook.Add("Think","homigrad-hungry",function(ply,time)

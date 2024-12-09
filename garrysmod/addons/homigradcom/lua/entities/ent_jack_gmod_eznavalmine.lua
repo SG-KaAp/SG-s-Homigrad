@@ -10,7 +10,6 @@ ENT.AdminSpawnable = true
 ---
 ENT.EZscannerDanger = true
 ENT.JModPreferredCarryAngles = Angle(0, -90, 0)
-ENT.EZbombBaySize = 25
 ---
 local STATE_BROKEN, STATE_OFF, STATE_ARMED = -1, 0, 1
 
@@ -25,7 +24,7 @@ if SERVER then
 		local ent = ents.Create(self.ClassName)
 		ent:SetAngles(Angle(180, 0, 0))
 		ent:SetPos(SpawnPos)
-		JMod.SetEZowner(ent, ply)
+		JMod.SetOwner(ent, ply)
 		ent:Spawn()
 		ent:Activate()
 		--local effectdata=EffectData()
@@ -36,13 +35,13 @@ if SERVER then
 	end
 
 	function ENT:Initialize()
-		self:SetModel("models/jmod/explosives/mines/submine.mdl")
-		--self:SetMaterial("models/mat_jack_dullscratchedmetal")
-		self:PhysicsInit(SOLID_VPHYSICS)
-		self:SetMoveType(MOVETYPE_VPHYSICS)
-		self:SetSolid(SOLID_VPHYSICS)
-		self:DrawShadow(true)
-		self:SetUseType(SIMPLE_USE)
+		self.Entity:SetModel("models/jmod/explosives/mines/submine.mdl")
+		--self.Entity:SetMaterial("models/mat_jack_dullscratchedmetal")
+		self.Entity:PhysicsInit(SOLID_VPHYSICS)
+		self.Entity:SetMoveType(MOVETYPE_VPHYSICS)
+		self.Entity:SetSolid(SOLID_VPHYSICS)
+		self.Entity:DrawShadow(true)
+		self.Entity:SetUseType(SIMPLE_USE)
 
 		---
 		timer.Simple(.01, function()
@@ -95,7 +94,7 @@ if SERVER then
 	function ENT:Break()
 		if self:GetState() == STATE_BROKEN then return end
 		self:SetState(STATE_BROKEN)
-		self:EmitSound("snd_jack_turretbreak.ogg", 70, math.random(80, 120))
+		self:EmitSound("snd_jack_turretbreak.wav", 70, math.random(80, 120))
 
 		for i = 1, 20 do
 			JMod.DamageSpark(self)
@@ -105,11 +104,11 @@ if SERVER then
 	end
 
 	function ENT:OnTakeDamage(dmginfo)
-		self:TakePhysicsDamage(dmginfo)
+		self.Entity:TakePhysicsDamage(dmginfo)
 
 		if JMod.LinCh(dmginfo:GetDamage(), 100, 200) then
 			if self:WaterLevel() > 0 then
-				JMod.SetEZowner(self, dmginfo:GetAttacker())
+				JMod.SetOwner(self, dmginfo:GetAttacker())
 				self:Detonate()
 			else
 				self:Break()
@@ -122,11 +121,11 @@ if SERVER then
 		if State < 0 then return end
 
 		if State == STATE_OFF then
-			JMod.SetEZowner(self, activator)
+			JMod.SetOwner(self, activator)
 
 			if Time - self.LastUse < .2 then
 				self:SetState(STATE_ARMED)
-				self:EmitSound("snds_jack_gmod/bomb_arm.ogg", 70, 110)
+				self:EmitSound("snds_jack_gmod/bomb_arm.wav", 70, 110)
 				self.NextDet = CurTime() + 3
 
 				-- if we're already underwater when we arm, the user probably wants to moor us mid-water
@@ -144,11 +143,11 @@ if SERVER then
 
 			self.LastUse = Time
 		elseif State == STATE_ARMED then
-			JMod.SetEZowner(self, activator)
+			JMod.SetOwner(self, activator)
 
 			if Time - self.LastUse < .2 then
 				self:SetState(STATE_OFF)
-				self:EmitSound("snds_jack_gmod/bomb_disarm.ogg", 70, 110)
+				self:EmitSound("snds_jack_gmod/bomb_disarm.wav", 70, 110)
 				self.Moored = false
 			else
 				JMod.Hint(activator, "double tap to disarm")
@@ -161,11 +160,11 @@ if SERVER then
 	function ENT:Detonate()
 		if self.Exploded then return end
 		self.Exploded = true
-		sound.Play("snds_jack_gmod/mine_warn.ogg", self:GetPos() + Vector(0, 0, 30), 60, 100)
+		sound.Play("snds_jack_gmod/mine_warn.wav", self:GetPos() + Vector(0, 0, 30), 60, 100)
 
-		timer.Simple(math.Rand(.15, .4) * JMod.Config.Explosives.Mine.Delay, function()
+		timer.Simple(math.Rand(.15, .4) * JMod.Config.MineDelay, function()
 			if IsValid(self) then
-				local SelfPos, Att = self:GetPos() + Vector(0, 0, 60), JMod.GetEZowner(self)
+				local SelfPos, Att = self:GetPos() + Vector(0, 0, 60), self:GetOwner() or game.GetWorld()
 				---
 				local splad = EffectData()
 				splad:SetOrigin(SelfPos)
@@ -278,5 +277,5 @@ elseif CLIENT then
 		self:DrawModel()
 	end
 
-	language.Add("ent_jack_gmod_eznavalmine", "EZ Mini Naval Mine")
+	--language.Add("ent_jack_gmod_eznavalmine", "EZ Mini Naval Mine")
 end

@@ -1,7 +1,7 @@
 ﻿-- Jackarunda 2021
 AddCSLuaFile()
 ENT.Base = "ent_jack_gmod_ezresource"
-ENT.PrintName = "Ore Lead"
+ENT.PrintName = "EZ Lead Ore"
 ENT.Category = "JMod - EZ Resources"
 ENT.IconOverride = "materials/ez_resource_icons/lead ore.png"
 ENT.Spawnable = true
@@ -9,7 +9,7 @@ ENT.AdminSpawnable = true
 ---
 ENT.EZsupplies = JMod.EZ_RESOURCE_TYPES.LEADORE
 ENT.JModPreferredCarryAngles = Angle(0, 0, 0)
-ENT.Model = "models/jmod/resources/resourcecube.mdl"
+ENT.Model = "models/hunter/blocks/cube05x05x05.mdl"
 ENT.Material = "models/mat_jack_gmod_leadore"
 ENT.ModelScale = 1
 ENT.Mass = 50
@@ -17,12 +17,20 @@ ENT.ImpactNoise1 = "Rock.ImpactHard"
 ENT.DamageThreshold = 120
 ENT.BreakNoise = "Boulder.ImpactHard"
 
-if CLIENT then
-    local drawvec, drawang = Vector(0, -12, 1), Angle(90, 0, 90)
+ENT.PropModels = {"models/props_debris/concrete_spawnchunk001g.mdl", "models/props_debris/concrete_spawnchunk001k.mdl", "models/props_debris/concrete_chunk04a.mdl", "models/props_debris/concrete_chunk05g.mdl", "models/props_debris/concrete_spawnchunk001d.mdl"}
+
+---
+if SERVER then
+	function ENT:UseEffect(pos, ent)
+		for i = 1, 1 * JMod.Config.SupplyEffectMult do
+			self:FlingProp(table.Random(self.PropModels))
+		end
+	end
+elseif CLIENT then
 	function ENT:Draw()
 		self:DrawModel()
 
-		JMod.HoloGraphicDisplay(self, drawvec, drawang, .04, 300, function()
+		JMod.HoloGraphicDisplay(self, Vector(0, -12, 1), Angle(90, 0, 90), .04, 300, function()
 			JMod.StandardResourceDisplay(JMod.EZ_RESOURCE_TYPES.LEADORE, self:GetResource(), nil, 0, 0, 200, true)
 		end)
 	end

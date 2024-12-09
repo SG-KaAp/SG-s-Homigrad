@@ -237,8 +237,7 @@ JMod.WeaponTable = {
 	["Flintlock Pistol"] = {
 		mdl = "models/weapons/w_jmod_musket.mdl",
 		swep = "wep_jack_gmod_flintlockmusket",
-		ent = "ent_jack_gmod_ezweapon_flp",
-		Spawnable = false
+		ent = "ent_jack_gmod_ezweapon_flp"
 	},
 	["Cap and Ball Revolver"] = {
 		mdl = "models/krazy/gtav/weapons/navyrevolver_w.mdl",
@@ -248,23 +247,21 @@ JMod.WeaponTable = {
 	["Magnum Trapdoor Revolver"] = {
 		mdl = "models/krazy/gtav/weapons/navyrevolver_w.mdl",
 		swep = "wep_jack_gmod_bigiron",
-		ent = "ent_jack_gmod_ezweapon_bigiron",
-		Spawnable = false
+		ent = "ent_jack_gmod_ezweapon_bigiron"
 	},
 	["Pocket Knife"] = {
 		mdl = "models/weapons/w_jmod_pocketknife.mdl",
 		swep = "wep_jack_gmod_pocketknife",
-		ent = "ent_jack_gmod_ezweapon_pocketknife",
-		Spawnable = false
+		ent = "ent_jack_gmod_ezweapon_pocketknife"
 	},
 	["Combat Knife"] = {
 		mdl = "models/weapons/w_jmod_pocketknife.mdl",
 		swep = "wep_jack_gmod_combatknife",
-		ent = "ent_jack_gmod_ezweapon_combatknife",
-		Spawnable = false
+		ent = "ent_jack_gmod_ezweapon_combatknife"
 	}
 }
 
+-- keepcorpses caauses floating arrow bug
 JMod.AmmoTable = {
 	["Light Rifle Round"] = {
 		resourcetype = "ammo",
@@ -273,22 +270,18 @@ JMod.AmmoTable = {
 		basedmg = 40,
 		effrange = 100,
 		terminaldmg = 10,
-		penetration = 40,
-		--ammoboxEnt = "ent_jack_gmod_ezammobox_lrr"
+		penetration = 40
 	},
 	["Light Rifle Round-Armor Piercing"] = {
 		armorpiercing = .2,
-		penetration = 70,
-		--ammoboxEnt = "ent_jack_gmod_ezammobox_lrrap"
+		penetration = 70
 	},
 	["Light Rifle Round-Ballistic Tip"] = {
 		expanding = .4,
-		penetration = 30,
-		--ammoboxEnt = "ent_jack_gmod_ezammobox_lrrbt"
+		penetration = 30
 	},
 	["Light Rifle Round-Tracer"] = {
-		tracer = true,
-		--ammoboxEnt = "ent_jack_gmod_ezammobox_lrrt"
+		tracer = true
 	},
 	["Medium Rifle Round"] = {
 		resourcetype = "ammo",
@@ -315,7 +308,7 @@ JMod.AmmoTable = {
 		basedmg = 110,
 		effrange = 400,
 		terminaldmg = 20,
-		penetration = 80
+		penetration = 90
 	},
 	["Shotgun Round"] = {
 		resourcetype = "ammo",
@@ -332,19 +325,10 @@ JMod.AmmoTable = {
 		resourcetype = "ammo",
 		sizemult = 3,
 		carrylimit = 300,
-		basedmg = 30,
+		basedmg = 20,
 		effrange = 50,
 		terminaldmg = 5,
 		penetration = 20
-	},
-    ["Medium Pistol Round"] = {
-		resourcetype = "ammo",
-		sizemult = 4,
-		carrylimit = 200,
-		basedmg = 40,
-		effrange = 65,
-		terminaldmg = 10,
-		penetration = 25
 	},
 	["Plinking Round"] = {
 		resourcetype = "ammo",
@@ -359,10 +343,10 @@ JMod.AmmoTable = {
 		resourcetype = "ammo",
 		sizemult = 6,
 		carrylimit = 150,
-		basedmg = 55,
+		basedmg = 35,
 		effrange = 50,
 		terminaldmg = 15,
-		penetration = 35
+		penetration = 25
 	},
 	["Small Shotgun Round"] = {
 		resourcetype = "ammo",
@@ -381,8 +365,8 @@ JMod.AmmoTable = {
 		carrylimit = 20,
 		ent = "ent_jack_gmod_ezprojectilenade",
 		nicename = "EZ 40mm Grenade",
-		basedmg = 240,
-		blastrad = 180
+		basedmg = 220,
+		blastrad = 150
 	},
 	["Mini Rocket"] = {
 		resourcetype = "munitions",
@@ -397,9 +381,8 @@ JMod.AmmoTable = {
 		sizemult = 24,
 		carrylimit = 30,
 		ent = "ent_jack_gmod_ezarrow",
-		armorpiercing = .7,
-		basedmg = 75,
-		ammoboxEnt = "ent_jack_gmod_ezammobox_a"
+		armorpiercing = .6,
+		basedmg = 70
 	},
 	["Black Powder Paper Cartridge"] = {
 		sizemult = 7,
@@ -408,8 +391,7 @@ JMod.AmmoTable = {
 		effrange = 50,
 		terminaldmg = 30,
 		penetration = 30,
-		dmgtype = DMG_BUCKSHOT,
-		ammoboxEnt = "ent_jack_gmod_ezammobox_bppc"
+		dmgtype = DMG_BUCKSHOT
 	},
 	["Black Powder Metallic Cartridge"] = {
 		sizemult = 6,
@@ -417,109 +399,41 @@ JMod.AmmoTable = {
 		basedmg = 90,
 		effrange = 100,
 		terminaldmg = 30,
-		penetration = 40,
-		--ammoboxEnt = "ent_jack_gmod_ezammobox_bpmc"
+		penetration = 40
 	}
 }
 
-function JMod.LoadAmmoTable(tbl)
-	for k, v in pairs(tbl) do
-		v.carrylimit = v.carrylimit or -2
-		game.AddAmmoType({
-			name = k,
-			maxcarry = v.carrylimit,
-			npcdmg = v.basedmg,
-			plydmg = v.basedmg,
-			dmgtype = v.dmgtype or DMG_BULLET
-		})
-		if SERVER then
-			timer.Simple(1, function()
-				if (v.resourcetype) and (v.resourcetype == "munitions") then
-					if not(table.HasValue(JMod.Config.Weapons.AmmoTypesThatAreMunitions, k)) then
-						table.insert(JMod.Config.Weapons.AmmoTypesThatAreMunitions, k)
-					end
-				elseif not(v.resourcetype) then
-					if not(table.HasValue(JMod.Config.Weapons.WeaponAmmoBlacklist, k)) then
-						table.insert(JMod.Config.Weapons.WeaponAmmoBlacklist, k)
-					end
+for k, v in pairs(JMod.AmmoTable) do
+	v.carrylimit = v.carrylimit or -2
+	game.AddAmmoType({
+		name = k,
+		maxcarry = v.carrylimit,
+		npcdmg = v.basedmg,
+		plydmg = v.basedmg,
+		dmgtype = v.dmgtype or DMG_BULLET
+	})
+	if SERVER then
+		timer.Simple(1, function()
+			if (v.resourcetype) and (v.resourcetype == "munitions") then
+				if not(table.HasValue(JMod.Config.AmmoTypesThatAreMunitions, k)) then
+					table.insert(JMod.Config.AmmoTypesThatAreMunitions, k)
 				end
-			end)
-		end
-
-		if CLIENT then
-			language.Add(k .. "_ammo", k)
-
-			if v.ent then
-				language.Add(v.ent, v.nicename or ("EZ " .. k))
+			elseif not(v.resourcetype) then
+				if not(table.HasValue(JMod.Config.WeaponAmmoBlacklist, k)) then
+					table.insert(JMod.Config.WeaponAmmoBlacklist, k)
+				end
 			end
-		end
+		end)
+	end
 
-		if v.ammoboxEnt then
-			local BoxEnt = {}
-			BoxEnt.Base = "ent_jack_gmod_ezammobox"
-			BoxEnt.PrintName = "EZ " .. k
-			BoxEnt.Spawnable = true
-			BoxEnt.AdminOnly = v.AdminOnly or false
-			BoxEnt.Category = v.Category or "JMod - EZ Special Ammo"
-			BoxEnt.EZammo = k
-			BoxEnt.Model = v.ammoboxModel
-			BoxEnt.ModelScale = v.mdlScale or nil
-			scripted_ents.Register(BoxEnt, v.ammoboxEnt)
+	if CLIENT then
+		--language.Add(k .. "_ammo", k)
 
-			if CLIENT then
-				language.Add(v.ammoboxEnt, v.nicename or ("EZ " .. k))
-			end
+		if v.ent then
+			--language.Add(v.ent, v.nicename)
 		end
 	end
 end
-
--- Dynamically create weapon Ents
-function JMod.GenerateWeaponEntities(tbl)
-	for name, info in pairs(tbl) do
-		if info.noent then continue end
-
-		local WeaponEnt = {}
-		WeaponEnt.Base = info.BaseEnt or "ent_jack_gmod_ezweapon"
-		WeaponEnt.PrintName = info.PrintName or name
-		if info.Spawnable == nil then
-			WeaponEnt.Spawnable = true
-		else
-			WeaponEnt.Spawnable = info.Spawnable
-		end
-		WeaponEnt.AdminOnly = info.AdminOnly or false
-		WeaponEnt.Category = info.Category or "JMod - EZ Weapons"
-		WeaponEnt.WeaponName = name
-		WeaponEnt.ModelScale = info.gayPhysics and nil or info.size -- or math.max(info.siz.x, info.siz.y, info.siz.z)
-		scripted_ents.Register(WeaponEnt, info.ent)
-
-		if CLIENT then
-			language.Add(info.ent, name)
-		end
-	end
-end
-
-JMod.LoadAmmoTable(JMod.AmmoTable)
-JMod.GenerateWeaponEntities(JMod.WeaponTable)
-
--- support third-party additions to the jmod ammo/weapons table
-function JMod.LoadAdditionalAmmo()
-	if JMod.AdditionalAmmoTable then
-		table.Merge(JMod.AmmoTable, JMod.AdditionalAmmoTable)
-		JMod.LoadAmmoTable(JMod.AdditionalAmmoTable)
-	end
-end
-hook.Add("Initialize", "JMod_LoadAdditionalAmmo", JMod.LoadAdditionalAmmo)
-
-function JMod.LoadAdditionalWeaponEntities()
-	if JMod.AdditionalWeaponTable then
-		table.Merge(JMod.WeaponTable, JMod.AdditionalWeaponTable)
-		JMod.GenerateWeaponEntities(JMod.AdditionalWeaponTable)
-	end
-end
-hook.Add("Initialize", "JMod_LoadAdditionalWeaponEntities", JMod.LoadAdditionalWeaponEntities)
-
-JMod.LoadAdditionalAmmo()
-JMod.LoadAdditionalWeaponEntities()
 
 function JMod.GetAmmoSpecs(typ)
 	if not JMod.AmmoTable[typ] then return nil end
@@ -532,7 +446,6 @@ function JMod.ApplyAmmoSpecs(wep, typ, mult)
 	mult = mult or 1
 	wep.Primary.Ammo = typ
 	local Specs = JMod.GetAmmoSpecs(typ)
-	if not Specs then print("[JMod] - " ..typ.." is not a registered ammo type") return end
 	wep.Damage = Specs.basedmg * mult
 	wep.Num = Specs.projnum or 1
 
@@ -566,9 +479,9 @@ function JMod.ApplyAmmoSpecs(wep, typ, mult)
 
 	-- todo: implement this when we add these types
 	if Specs.tracer then
-		wep.Tracer = Specs.tracer
+		wep.Tracer = true
 	else
-		wep.Tracer = nil
+		wep.Tracer = false
 	end
 end
 
@@ -578,26 +491,26 @@ end
 
 JMod.GunHandlingSounds = {
 	draw = {
-		handgun = {"snds_jack_gmod/ez_weapons/handling/draw_pistol1.ogg", "snds_jack_gmod/ez_weapons/handling/draw_pistol2.ogg", "snds_jack_gmod/ez_weapons/handling/draw_pistol3.ogg", "snds_jack_gmod/ez_weapons/handling/draw_pistol4.ogg", "snds_jack_gmod/ez_weapons/handling/draw_pistol5.ogg", "snds_jack_gmod/ez_weapons/handling/draw_pistol6.ogg"},
-		longgun = {"snds_jack_gmod/ez_weapons/handling/draw_longgun1.ogg", "snds_jack_gmod/ez_weapons/handling/draw_longgun2.ogg", "snds_jack_gmod/ez_weapons/handling/draw_longgun3.ogg", "snds_jack_gmod/ez_weapons/handling/draw_longgun4.ogg", "snds_jack_gmod/ez_weapons/handling/draw_longgun5.ogg", "snds_jack_gmod/ez_weapons/handling/draw_longgun6.ogg", "snds_jack_gmod/ez_weapons/handling/draw_longgun7.ogg", "snds_jack_gmod/ez_weapons/handling/draw_longgun8.ogg"}
+		handgun = {"snds_jack_gmod/ez_weapons/handling/draw_pistol1.wav", "snds_jack_gmod/ez_weapons/handling/draw_pistol2.wav", "snds_jack_gmod/ez_weapons/handling/draw_pistol3.wav", "snds_jack_gmod/ez_weapons/handling/draw_pistol4.wav", "snds_jack_gmod/ez_weapons/handling/draw_pistol5.wav", "snds_jack_gmod/ez_weapons/handling/draw_pistol6.wav"},
+		longgun = {"snds_jack_gmod/ez_weapons/handling/draw_longgun1.wav", "snds_jack_gmod/ez_weapons/handling/draw_longgun2.wav", "snds_jack_gmod/ez_weapons/handling/draw_longgun3.wav", "snds_jack_gmod/ez_weapons/handling/draw_longgun4.wav", "snds_jack_gmod/ez_weapons/handling/draw_longgun5.wav", "snds_jack_gmod/ez_weapons/handling/draw_longgun6.wav", "snds_jack_gmod/ez_weapons/handling/draw_longgun7.wav", "snds_jack_gmod/ez_weapons/handling/draw_longgun8.wav"}
 	},
 	tap = {
-		magwell = {"snds_jack_gmod/ez_weapons/handling/tap_magwell1.ogg", "snds_jack_gmod/ez_weapons/handling/tap_magwell2.ogg", "snds_jack_gmod/ez_weapons/handling/tap_magwell3.ogg", "snds_jack_gmod/ez_weapons/handling/tap_magwell4.ogg", "snds_jack_gmod/ez_weapons/handling/tap_magwell5.ogg", "snds_jack_gmod/ez_weapons/handling/tap_magwell6.ogg"},
-		metallic = {"snds_jack_gmod/ez_weapons/handling/tap_metallic.ogg"}
+		magwell = {"snds_jack_gmod/ez_weapons/handling/tap_magwell1.wav", "snds_jack_gmod/ez_weapons/handling/tap_magwell2.wav", "snds_jack_gmod/ez_weapons/handling/tap_magwell3.wav", "snds_jack_gmod/ez_weapons/handling/tap_magwell4.wav", "snds_jack_gmod/ez_weapons/handling/tap_magwell5.wav", "snds_jack_gmod/ez_weapons/handling/tap_magwell6.wav"},
+		metallic = {"snds_jack_gmod/ez_weapons/handling/tap_metallic.wav"}
 	},
 	aim = {
-		inn = {"snds_jack_gmod/ez_weapons/handling/aim1.ogg", "snds_jack_gmod/ez_weapons/handling/aim2.ogg", "snds_jack_gmod/ez_weapons/handling/aim3.ogg", "snds_jack_gmod/ez_weapons/handling/aim4.ogg", "snds_jack_gmod/ez_weapons/handling/aim5.ogg", "snds_jack_gmod/ez_weapons/handling/aim6.ogg"},
-		out = {"snds_jack_gmod/ez_weapons/handling/aim_out.ogg"},
-		minor = {"snds_jack_gmod/ez_weapons/handling/aim_minor.ogg"}
+		inn = {"snds_jack_gmod/ez_weapons/handling/aim1.wav", "snds_jack_gmod/ez_weapons/handling/aim2.wav", "snds_jack_gmod/ez_weapons/handling/aim3.wav", "snds_jack_gmod/ez_weapons/handling/aim4.wav", "snds_jack_gmod/ez_weapons/handling/aim5.wav", "snds_jack_gmod/ez_weapons/handling/aim6.wav"},
+		out = {"snds_jack_gmod/ez_weapons/handling/aim_out.wav"},
+		minor = {"snds_jack_gmod/ez_weapons/handling/aim_minor.wav"}
 	},
 	cloth = {
-		loud = {"snds_jack_gmod/ez_weapons/handling/cloth_loud.ogg"},
-		quiet = {"snds_jack_gmod/ez_weapons/handling/cloth_quiet.ogg"},
-		magpull = {"snds_jack_gmod/ez_weapons/handling/cloth_magpull1.ogg", "snds_jack_gmod/ez_weapons/handling/cloth_magpull2.ogg", "snds_jack_gmod/ez_weapons/handling/cloth_magpull3.ogg", "snds_jack_gmod/ez_weapons/handling/cloth_magpull4.ogg"},
-		move = {"snds_jack_gmod/ez_weapons/handling/cloth_move.ogg"}
+		loud = {"snds_jack_gmod/ez_weapons/handling/cloth_loud.wav"},
+		quiet = {"snds_jack_gmod/ez_weapons/handling/cloth_quiet.wav"},
+		magpull = {"snds_jack_gmod/ez_weapons/handling/cloth_magpull1.wav", "snds_jack_gmod/ez_weapons/handling/cloth_magpull2.wav", "snds_jack_gmod/ez_weapons/handling/cloth_magpull3.wav", "snds_jack_gmod/ez_weapons/handling/cloth_magpull4.wav"},
+		move = {"snds_jack_gmod/ez_weapons/handling/cloth_move.wav"}
 	},
-	grab = {"snds_jack_gmod/ez_weapons/handling/grab1.ogg"},
-	shotshell = {"snds_jack_gmod/ez_weapons/handling/shotshell_insert1.ogg", "snds_jack_gmod/ez_weapons/handling/shotshell_insert2.ogg", "snds_jack_gmod/ez_weapons/handling/shotshell_insert3.ogg", "snds_jack_gmod/ez_weapons/handling/shotshell_insert4.ogg"}
+	grab = {"snds_jack_gmod/ez_weapons/handling/grab1.wav"},
+	shotshell = {"snds_jack_gmod/ez_weapons/handling/shotshell_insert1.wav", "snds_jack_gmod/ez_weapons/handling/shotshell_insert2.wav", "snds_jack_gmod/ez_weapons/handling/shotshell_insert3.wav", "snds_jack_gmod/ez_weapons/handling/shotshell_insert4.wav"}
 }
 
 if CLIENT then
@@ -714,7 +627,6 @@ if CLIENT then
 				ang:RotateAroundAxis(forward, WepAng.r)
 				mdl:SetRenderOrigin(pos)
 				mdl:SetRenderAngles(ang)
-				render.SetColorModulation(1, 1, 1)
 				mdl:DrawModel()
 			end
 		else
@@ -785,7 +697,6 @@ elseif SERVER then
 		local Wep = ply:GetActiveWeapon()
 
 		if IsValid(Wep) and Wep.EZdroppable then
-			Wep.EZdropper = ply
 			ply:DropWeapon(Wep)
 		end
 	end, nil, "Drops your current EZ weapon.")
@@ -855,9 +766,9 @@ elseif SERVER then
 
 				--[[ PRIMARY --]]
 				if PrimName then
-					PrimMax = PrimMax * JMod.Config.Weapons.AmmoCarryLimitMult
-					local IsPrimMunitions = IsAmmoOnTable(PrimName, JMod.Config.Weapons.AmmoTypesThatAreMunitions)
-					if (IsPrimMunitions == IsMunitionBox) and not(IsAmmoOnTable(PrimName, JMod.Config.Weapons.WeaponAmmoBlacklist)) then
+					PrimMax = PrimMax * JMod.Config.AmmoCarryLimitMult
+					local IsPrimMunitions = IsAmmoOnTable(PrimName, JMod.Config.AmmoTypesThatAreMunitions)
+					if (IsPrimMunitions == IsMunitionBox) and not(IsAmmoOnTable(PrimName, JMod.Config.WeaponAmmoBlacklist)) then
 						if PrimSize == -1 then
 							PrimSize = -PrimSize
 						end
@@ -867,7 +778,8 @@ elseif SERVER then
 						local AmmoPerResourceUnit = PrimMax / 30
 						local ResourceUnitPerAmmo = 1 / AmmoPerResourceUnit
 						local AmtToGive = math.min(PrimSize, math.floor(ResourceLeftInBox / ResourceUnitPerAmmo), SpaceLeftInPlayerInv)
-						if (AmtToGive > 0) and (ply:GetAmmoCount(PrimType) < PrimMax) then
+
+						if ply:GetAmmoCount(PrimType) < PrimMax then
 							ply:GiveAmmo(AmtToGive, PrimType)
 							ent:SetResource(ResourceLeftInBox - math.ceil(AmtToGive * ResourceUnitPerAmmo))
 							ent:UseEffect(ent:GetPos(), ent)
@@ -886,9 +798,9 @@ elseif SERVER then
 				if ent:GetResource() <= 0 then return end
 				--[[ Secondary --]]
 				if SecName then
-					SecMax = SecMax * JMod.Config.Weapons.AmmoCarryLimitMult
-					local IsSecMunitions = IsAmmoOnTable(SecName, JMod.Config.Weapons.AmmoTypesThatAreMunitions)
-					if (IsSecMunitions == IsMunitionBox) and not(IsAmmoOnTable(SecName, JMod.Config.Weapons.WeaponAmmoBlacklist)) then
+					SecMax = SecMax * JMod.Config.AmmoCarryLimitMult
+					local IsSecMunitions = IsAmmoOnTable(SecName, JMod.Config.AmmoTypesThatAreMunitions)
+					if (IsSecMunitions == IsMunitionBox) and not(IsAmmoOnTable(SecName, JMod.Config.WeaponAmmoBlacklist)) then
 						if SecSize == -1 then
 							SecSize = -SecSize
 						end
@@ -899,7 +811,7 @@ elseif SERVER then
 						local ResourceUnitPerAmmo = 1 / AmmoPerResourceUnit
 						local AmtToGive = math.min(SecSize, math.floor(ResourceLeftInBox / ResourceUnitPerAmmo), SpaceLeftInPlayerInv)
 						
-						if (AmtToGive > 0) and (ply:GetAmmoCount(SecType) < SecMax) then
+						if ply:GetAmmoCount(SecType) < SecMax then
 							ply:GiveAmmo(AmtToGive, SecType)
 							ent:SetResource(ResourceLeftInBox - math.ceil(AmtToGive * ResourceUnitPerAmmo))
 							ent:UseEffect(ent:GetPos(), ent)

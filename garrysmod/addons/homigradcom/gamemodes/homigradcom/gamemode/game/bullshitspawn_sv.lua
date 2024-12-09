@@ -267,7 +267,7 @@ hook.Add("Boxes Think", "SpawnBoxes",function()
 	if func and func() == false then return end
 
 
-	local randomWep = randomLoot()
+	--[[local randomWep = randomLoot()
 	local ent = ents.Create(not randomWep and "prop_physics" or randomWep)
 
 	if not randomWep then
@@ -275,6 +275,11 @@ hook.Add("Boxes Think", "SpawnBoxes",function()
 	else
 		ent.Spawned = true
 	end
+	if IsValid(ent) then
+		ent:SetPos(spawns[math.random(#spawns)] + vec)
+		ent:Spawn()
+	end--]]
+	local ent = ents.Create("box_normal")
 	if IsValid(ent) then
 		ent:SetPos(spawns[math.random(#spawns)] + vec)
 		ent:Spawn()

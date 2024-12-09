@@ -15,20 +15,17 @@ else
 	local HandTex, ClosedTex = surface.GetTextureID("vgui/hud/gmod_hand"), surface.GetTextureID("vgui/hud/gmod_closedhand")
 
 	function SWEP:DrawHUD()
-		if GetConVar("cl_drawhud"):GetBool() == false then return end
 		if not (GetViewEntity() == LocalPlayer()) then return end
 		if LocalPlayer():InVehicle() then return end
-		local Ply = self.Owner
-		local W, H, Build = ScrW(), ScrH()
 
 		if not self:GetFists() then
-			local Tr = util.QuickTrace(self.Owner:GetShootPos(), self.Owner:GetAimVector() * self.ReachDistance, {self.Owner})
+			local Tr = util.QuickTrace(self:GetOwner():GetShootPos(), self:GetOwner():GetAimVector() * self.ReachDistance, {self:GetOwner()})
 
 			if Tr.Hit then
 				if self:CanPickup(Tr.Entity) then
-					local Size = math.Clamp(1 - ((Tr.HitPos - self.Owner:GetShootPos()):Length() / self.ReachDistance) ^ 2, .2, 1)
+					local Size = math.Clamp(1 - ((Tr.HitPos - self:GetOwner():GetShootPos()):Length() / self.ReachDistance) ^ 2, .2, 1)
 
-					if self.Owner:KeyDown(IN_ATTACK2) then
+					if self:GetOwner():KeyDown(IN_ATTACK2) then
 						surface.SetTexture(ClosedTex)
 					else
 						surface.SetTexture(HandTex)
@@ -39,10 +36,6 @@ else
 				end
 			end
 		end
-		local ToolBox = Ply:GetWeapon("wep_jack_gmod_eztoolbox")
-		if IsValid(ToolBox) and ToolBox:GetNW2Bool("EZoneHandedBuild", false) then
-			draw.SimpleTextOutlined("ALT+LMB: use toolbox onehanded: "..ToolBox:GetSelectedBuild(), "Trebuchet24", W * .4, H * .7 + 60, Color(255, 255, 255, 30), TEXT_ALIGN_LEFT, TEXT_ALIGN_TOP, 3, Color(0, 0, 0, 10))
-		end
 	end
 end
 
@@ -52,7 +45,7 @@ SWEP.InstantPickup = true -- FF compat
 SWEP.Author = ""
 SWEP.Contact = ""
 SWEP.Purpose = ""
-SWEP.Instructions = "Grab and move stuff with your friends!"
+SWEP.Instructions = "you suck"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.HoldType = "normal"
@@ -77,7 +70,6 @@ function SWEP:SetupDataTables()
 	self:NetworkVar("Float", 1, "NextDown")
 	self:NetworkVar("Bool", 3, "Blocking")
 	self:NetworkVar("Bool", 4, "IsCarrying")
-	self:NetworkVar("Float", 2, "TaskProgress")
 end
 
 function SWEP:PreDrawViewModel(vm, wep, ply)
@@ -95,7 +87,7 @@ end
 function SWEP:Deploy()
 	if not IsFirstTimePredicted() then
 		self:DoBFSAnimation("fists_draw")
-		self.Owner:GetViewModel():SetPlaybackRate(.1)
+		self:GetOwner():GetViewModel():SetPlaybackRate(.1)
 
 		return
 	end
@@ -128,12 +120,10 @@ function SWEP:CanPickup(ent)
 	if ent:IsNPC() then return false end
 	if ent:IsPlayer() then return false end
 	if ent:IsWorld() then return false end
-	--if ent:GetParent() then return false end
 	local class = ent:GetClass()
-	--if pickupWhiteList[class] then return true end
+	if pickupWhiteList[class] then return true end
 	if CLIENT then return true end
-	if ent:IsPlayerHolding() then return false end
-	if IsValid(ent:GetPhysicsObject()) and ent:GetPhysicsObject():IsMotionEnabled() then return true end
+	if IsValid(ent:GetPhysicsObject()) then return true end
 
 	return false
 end
@@ -143,26 +133,26 @@ function SWEP:SecondaryAttack()
 	if self:GetFists() then return end
 
 	if SERVER then
-		JMod.Hint(self.Owner, "hands grab")
+		JMod.Hint(self:GetOwner(), "jmod hands grab", "jmod hands drag")
 		self:SetCarrying()
-		local tr = self.Owner:GetEyeTraceNoCursor()
+		local tr = self:GetOwner():GetEyeTraceNoCursor()
 
 		if IsValid(tr.Entity) and self:CanPickup(tr.Entity) and not tr.Entity:IsPlayer() then
-			local Dist = (self.Owner:GetShootPos() - tr.HitPos):Length()
+			local Dist = (self:GetOwner():GetShootPos() - tr.HitPos):Length()
 
 			if Dist < self.ReachDistance then
-				sound.Play("Flesh.ImpactSoft", self.Owner:GetShootPos(), 65, math.random(90, 110))
+				sound.Play("Flesh.ImpactSoft", self:GetOwner():GetShootPos(), 65, math.random(90, 110))
 				self:SetCarrying(tr.Entity, tr.PhysicsBone, tr.HitPos, Dist)
 				tr.Entity.Touched = true
 				self:ApplyForce()
 			end
 		elseif IsValid(tr.Entity) and tr.Entity:IsPlayer() then
-			local Dist = (self.Owner:GetShootPos() - tr.HitPos):Length()
+			local Dist = (self:GetOwner():GetShootPos() - tr.HitPos):Length()
 
 			if Dist < self.ReachDistance then
-				sound.Play("Flesh.ImpactSoft", self.Owner:GetShootPos(), 65, math.random(90, 110))
-				self.Owner:SetVelocity(self.Owner:GetAimVector() * 20)
-				tr.Entity:SetVelocity(-self.Owner:GetAimVector() * 50)
+				sound.Play("Flesh.ImpactSoft", self:GetOwner():GetShootPos(), 65, math.random(90, 110))
+				self:GetOwner():SetVelocity(self:GetOwner():GetAimVector() * 20)
+				tr.Entity:SetVelocity(-self:GetOwner():GetAimVector() * 50)
 				self:SetNextSecondaryFire(CurTime() + .25)
 			end
 		end
@@ -170,7 +160,7 @@ function SWEP:SecondaryAttack()
 end
 
 function SWEP:ApplyForce()
-	local target = self.Owner:GetAimVector() * self.CarryDist + self.Owner:GetShootPos() + Vector(0, 0, 5)
+	local target = self:GetOwner():GetAimVector() * self.CarryDist + self:GetOwner():GetShootPos()
 	local phys = self.CarryEnt:GetPhysicsObjectNum(self.CarryBone)
 
 	if IsValid(phys) then
@@ -183,26 +173,26 @@ function SWEP:ApplyForce()
 		local vec = target - TargetPos
 		local len, mul = vec:Length(), self.CarryEnt:GetPhysicsObject():GetMass()
 
-		local StandingEnt = self.Owner:GetGroundEntity()
-		local StandingOn = IsValid(StandingEnt) and ((StandingEnt == self.CarryEnt) or (StandingEnt:IsConstrained() and table.HasValue(constraint.GetAllConstrainedEntities(StandingEnt), self.CarryEnt)))
-		local PlyIn = (self.CarryEnt == self.Owner:GetVehicle())
-		if len > self.ReachDistance or StandingOn or PlyIn then
+		if len > self.ReachDistance then
 			self:SetCarrying()
 
 			return
 		end
 
 		if self.CarryEnt:GetClass() == "prop_ragdoll" then
-			mul = mul * 10
+			mul = mul * 2
 		end
 
 		vec:Normalize()
-		local avec, velo = vec * len^1.5, phys:GetVelocity() - self.Owner:GetVelocity()
+		local avec, velo = vec * len, phys:GetVelocity() - self:GetOwner():GetVelocity()
 		local Force = (avec - velo / 2) * mul
-		local ForceNormal = Force:GetNormalized()
 		local ForceMagnitude = Force:Length()
-		ForceMagnitude = math.Clamp(ForceMagnitude, 0, 2000 * JMod.GetPlayerStrength(self.Owner))
-		Force = ForceNormal * ForceMagnitude
+
+		if ForceMagnitude > 4000 * JMod.Config.HandGrabStrength then
+			self:SetCarrying()
+
+			return
+		end
 
 		local CounterDir, CounterAmt = velo:GetNormalized(), velo:Length()
 
@@ -218,8 +208,8 @@ function SWEP:ApplyForce()
 end
 
 function SWEP:OnRemove()
-	if IsValid(self.Owner) and CLIENT and self.Owner:IsPlayer() then
-		local vm = self.Owner:GetViewModel()
+	if IsValid(self:GetOwner()) and CLIENT and self:GetOwner():IsPlayer() then
+		local vm = self:GetOwner():GetViewModel()
 
 		if IsValid(vm) then
 			vm:SetMaterial("")
@@ -232,7 +222,6 @@ function SWEP:GetCarrying()
 end
 
 function SWEP:SetCarrying(ent, bone, pos, dist)
-	if not SERVER then return end
 	if IsValid(ent) then
 		self.CarryEnt = ent
 		self.CarryBone = bone
@@ -240,30 +229,19 @@ function SWEP:SetCarrying(ent, bone, pos, dist)
 
 		if not (ent:GetClass() == "prop_ragdoll") then
 			self.CarryPos = ent:WorldToLocal(pos)
-			--self.CarryAng = ent:GetAngles()
 		else
 			self.CarryPos = nil
 		end
-		--[[hook.Add("EntityTakeDamage", "CancelDamageFromCarryEnt"..tostring(self.CarryEnt:EntIndex()), function(target, dmginfo)
-			if (target == self.Owner) and (dmginfo:GetInflictor() == self.CarryEnt) and (dmginfo:GetDamageType() == DMG_CRUSH) then
-				return true
-			end
-		end)--]]
 	else
-		--[[if IsValid(self.CarryEnt) then
-			local Index = self.CarryEnt:EntIndex()
-			hook.Remove("EntityTakeDamage", "CancelDamageFromCarryEnt"..tostring(Index))
-		end--]]
 		self.CarryEnt = nil
 		self.CarryBone = nil
 		self.CarryPos = nil
 		self.CarryDist = nil
-		--self.CarryAng = nil
 	end
 end
 
 function SWEP:Think()
-	if IsValid(self.Owner) and self.Owner:KeyDown(IN_ATTACK2) and not self:GetFists() then
+	if IsValid(self:GetOwner()) and self:GetOwner():KeyDown(IN_ATTACK2) and not self:GetFists() then
 		if IsValid(self.CarryEnt) then
 			self:ApplyForce()
 		end
@@ -271,7 +249,7 @@ function SWEP:Think()
 		self:SetCarrying()
 	end
 
-	if self:GetFists() and self.Owner:KeyDown(IN_ATTACK2) then
+	if self:GetFists() and self:GetOwner():KeyDown(IN_ATTACK2) then
 		self:SetNextPrimaryFire(CurTime() + .5)
 		self:SetBlocking(true)
 	else
@@ -294,7 +272,7 @@ function SWEP:Think()
 			HoldType = "normal"
 		end
 
-		if (self:GetNextDown() < Time) or self.Owner:KeyDown(IN_SPEED) then
+		if (self:GetNextDown() < Time) or self:GetOwner():KeyDown(IN_SPEED) then
 			self:SetNextDown(Time + 1)
 			self:SetFists(false)
 			self:SetBlocking(false)
@@ -308,7 +286,7 @@ function SWEP:Think()
 		HoldType = "magic"
 	end
 
-	if self.Owner:KeyDown(IN_SPEED) then
+	if self:GetOwner():KeyDown(IN_SPEED) then
 		HoldType = "normal"
 	end
 
@@ -319,19 +297,7 @@ end
 
 function SWEP:PrimaryAttack()
 	if SERVER then
-		local Alt = self.Owner:KeyDown(JMod.Config.General.AltFunctionKey)
-
-		if Alt and self.Owner:HasWeapon("wep_jack_gmod_eztoolbox") and IsFirstTimePredicted() then
-			local ToolBox = self.Owner:GetWeapon("wep_jack_gmod_eztoolbox")
-			local SelectedBuild = ToolBox:GetSelectedBuild()
-			local BuildInfo = JMod.Config.Craftables[SelectedBuild]
-			if BuildInfo and BuildInfo.oneHanded then
-				ToolBox:BuildItem(SelectedBuild)
-				self:SetNextPrimaryFire(CurTime() + .6)
-
-				return
-			end
-		end
+		JMod.Hint(self:GetOwner(), "jmod hands", "jmod hands move")
 	end
 
 	local side = "fists_left"
@@ -351,24 +317,24 @@ function SWEP:PrimaryAttack()
 	end
 
 	if self:GetBlocking() then return end
-	if self.Owner:KeyDown(IN_SPEED) then return end
+	if self:GetOwner():KeyDown(IN_SPEED) then return end
 
 	if not IsFirstTimePredicted() then
 		self:DoBFSAnimation(side)
-		self.Owner:GetViewModel():SetPlaybackRate(1.25)
+		self:GetOwner():GetViewModel():SetPlaybackRate(1.25)
 
 		return
 	end
 
-	self.Owner:ViewPunch(Angle(0, 0, math.random(-2, 2)))
+	self:GetOwner():ViewPunch(Angle(0, 0, math.random(-2, 2)))
 	self:DoBFSAnimation(side)
-	self.Owner:SetAnimation(PLAYER_ATTACK1)
-	self.Owner:GetViewModel():SetPlaybackRate(1.25)
+	self:GetOwner():SetAnimation(PLAYER_ATTACK1)
+	self:GetOwner():GetViewModel():SetPlaybackRate(1.25)
 	self:UpdateNextIdle()
 
 	if SERVER then
 		sound.Play("weapons/slam/throw.wav", self:GetPos(), 65, math.random(90, 110))
-		self.Owner:ViewPunch(Angle(0, 0, math.random(-2, 2)))
+		self:GetOwner():ViewPunch(Angle(0, 0, math.random(-2, 2)))
 
 		timer.Simple(.075, function()
 			if IsValid(self) then
@@ -383,12 +349,12 @@ end
 
 function SWEP:AttackFront()
 	if CLIENT then return end
-	self.Owner:LagCompensation(true)
-	local Ent, HitPos = JMod.WhomILookinAt(self.Owner, .3, 55)
-	local AimVec = self.Owner:GetAimVector()
+	self:GetOwner():LagCompensation(true)
+	local Ent, HitPos = JMod.WhomILookinAt(self:GetOwner(), .3, 55)
+	local AimVec = self:GetOwner():GetAimVector()
 
 	if IsValid(Ent) or (Ent and Ent.IsWorld and Ent:IsWorld()) then
-		local SelfForce, Mul = 125, (JMod.GetPlayerStrength(self.Owner) or 1)
+		local SelfForce, Mul = 125, 1
 
 		if self:IsEntSoft(Ent) then
 			SelfForce = 25
@@ -404,7 +370,7 @@ function SWEP:AttackFront()
 
 		local DamageAmt = math.random(2, 4)
 		local Dam = DamageInfo()
-		Dam:SetAttacker(self.Owner)
+		Dam:SetAttacker(self:GetOwner())
 		Dam:SetInflictor(self.Weapon)
 		Dam:SetDamage(DamageAmt * Mul)
 		Dam:SetDamageForce(AimVec * Mul ^ 3)
@@ -419,7 +385,7 @@ function SWEP:AttackFront()
 			end
 
 			Phys:ApplyForceOffset(AimVec * 5000 * Mul, HitPos)
-			self.Owner:SetVelocity(-AimVec * SelfForce * .8)
+			self:GetOwner():SetVelocity(-AimVec * SelfForce * .8)
 		end
 
 		if Ent:GetClass() == "func_breakable_surf" then
@@ -429,28 +395,11 @@ function SWEP:AttackFront()
 		end
 	end
 
-	self.Owner:LagCompensation(false)
+	self:GetOwner():LagCompensation(false)
 end
 
 function SWEP:Reload()
 	if not IsFirstTimePredicted() then return end
-	local Time = CurTime()
-	local Alt = self.Owner:KeyDown(JMod.Config.General.AltFunctionKey)
-
-	if not(self:GetFists()) then -- Pick up to inv
-		if IsValid(self:GetCarrying()) then
-			local Tar = self:GetCarrying()
-			local ply = self.Owner
-			
-			JMod.EZ_GrabItem(ply, nil, {Tar})
-		else
-			--[[if self.Owner:HasWeapon("wep_jack_gmod_eztoolbox") then
-				local ToolBox = self.Owner:GetWeapon("wep_jack_gmod_eztoolbox")
-				ToolBox:Reload()
-			end--]]
-		end
-	end
-	
 	self:SetFists(false)
 	self:SetBlocking(false)
 	self:SetCarrying()
@@ -461,12 +410,12 @@ end
 
 -- no, do nothing
 function SWEP:DoBFSAnimation(anim)
-	local vm = self.Owner:GetViewModel()
+	local vm = self:GetOwner():GetViewModel()
 	vm:SendViewModelMatchingSequence(vm:LookupSequence(anim))
 end
 
 function SWEP:UpdateNextIdle()
-	local vm = self.Owner:GetViewModel()
+	local vm = self:GetOwner():GetViewModel()
 	self:SetNextIdle(CurTime() + vm:SequenceDuration())
 end
 
@@ -490,15 +439,3 @@ if CLIENT then
 		return pos, ang
 	end
 end
-
--- Stop carry entity from damaging the player
-hook.Add("EntityTakeDamage", "CancelDamageFromCarryEnt", function(target, dmginfo)
-	if target:IsPlayer() then 
-		local Weppy = target:GetActiveWeapon() 
-		if IsValid(Weppy) and IsValid(Weppy.CarryEnt) then
-			if (dmginfo:GetInflictor() == Weppy.CarryEnt) and (dmginfo:GetDamageType() == DMG_CRUSH) then
-				return true
-			end
-		end
-	end
-end)

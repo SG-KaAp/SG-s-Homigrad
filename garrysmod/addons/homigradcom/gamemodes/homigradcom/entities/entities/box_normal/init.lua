@@ -12,12 +12,82 @@ local eda = {
 	"food_fishcan"
 }
 
-local bita = {
+--[[local bita = {
     "weapon_bat",
     "weapon_hg_kitknife",
     "weapon_hg_crowbar",
     "weapon_hg_metalbat",
     "weapon_t"
+}--]]
+local bita = {
+    "weapon_glock18",
+}
+weaponscommon = {
+	"weapon_binokle",
+	"weapon_molotok",
+	"ent_drop_flashlight",
+
+	"weapon_knife",
+	"weapon_pipe",
+	
+	"med_band_small",
+	"med_band_big",
+	"blood_bag"
+}
+
+weaponsuncommon = {
+	"weapon_glock18",
+	"weapon_per4ik",
+
+	"weapon_hg_crowbar",
+	"weapon_hg_fubar",
+	"weapon_bat",
+	"weapon_hg_metalbat",
+	"weapon_hg_hatchet",
+
+	"*ammo*",
+
+	"ent_jack_gmod_ezarmor_respirator",
+	"ent_jack_gmod_ezarmor_lhead",
+
+	"medkit"
+}
+
+weaponsrare = {
+	"weapon_beretta",
+	"weapon_remington870",
+	"weapon_glock",
+	"weapon_t",
+	"weapon_hg_molotov",
+
+	"*ammo*",
+
+	"weapon_hg_sleagehammer",
+	"weapon_hg_fireaxe",
+
+	"ent_jack_gmod_ezarmor_gasmask",
+	"ent_jack_gmod_ezarmor_mltorso"
+}
+
+weaponsveryrare = {
+	"weapon_m3super",
+
+	"ent_jack_gmod_ezarmor_mtorso",
+	"ent_jack_gmod_ezarmor_mhead"
+}
+
+weaponslegendary = {
+	"weapon_xm1014",
+	"weapon_ar15",
+	"weapon_civil_famas"
+}
+
+local ammos = {
+	"ent_ammo_.44magnum",
+	"ent_ammo_12/70gauge",
+	"ent_ammo_762x39mm",
+	"ent_ammo_556x45mm",
+	"ent_ammo_9х19mm"
 }
 
 util.AddNetworkString("inventory")
@@ -42,25 +112,33 @@ function ENT:Initialize()
         Ammo = {}
     }
     
-    local random = math.random(1,10) 
+    local random = math.random(1,100) 
     local randomWeapon = eda[math.random(1, #eda)]
     self.Info.Weapons[randomWeapon] = {
         Clip1 =  -2
     }
     print(random)
-    if random >= 3 then
-        local randomWeaponss = bita[math.random(1, #bita)]
-        self.Info.Weapons[randomWeaponss] = {
-            Clip1 =  -2
-        }
+    if random < 10 then
+        local randomWeaponss = weaponslegendary[math.random(1, #weaponslegendary)]
+        local weaponTable = weapons.GetStored(randomWeaponss)
+        self.Info.Weapons[randomWeaponss] = {Clip1 = weaponTable.Primary.ClipSize}
+    elseif random < 20 then
+        local randomWeaponss = weaponsveryrare[math.random(1, #weaponsveryrare)]
+        local weaponTable = weapons.GetStored(randomWeaponss)
+        self.Info.Weapons[randomWeaponss] = {Clip1 = weaponTable.Primary.ClipSize}
+    elseif random < 45 then
+        local randomWeaponss = weaponsrare[math.random(1, #weaponsrare)]
+        local weaponTable = weapons.GetStored(randomWeaponss)
+        self.Info.Weapons[randomWeaponss] = {Clip1 = weaponTable.Primary.ClipSize}
+    elseif random < 65 then
+        local randomWeaponss = weaponsuncommon[math.random(1, #weaponsuncommon)]
+        local weaponTable = weapons.GetStored(randomWeaponss)
+        self.Info.Weapons[randomWeaponss] = {Clip1 = weaponTable.Primary.ClipSize}
+    elseif random < 80 then
+        local randomWeaponss = weaponscommon[math.random(1, #weaponscommon)]
+        local weaponTable = weapons.GetStored(randomWeaponss)
+        self.Info.Weapons[randomWeaponss] = {Clip1 = weaponTable.Primary.ClipSize}
     end
-    if random >= 5 then
-        local randomWeaponsss = tyagi[math.random(1, #tyagi)]
-        self.Info.Weapons[randomWeaponsss] = {
-            Clip1 =  -2
-        }
-    end
-
 end
 
 function ENT:Use(activator, caller)
@@ -69,6 +147,7 @@ function ENT:Use(activator, caller)
             net.Start("inventory")
             net.WriteEntity(self)
 			net.WriteTable(self.Info.Weapons)
+            --net.WriteTable(self.Info.Weapons:GetPrimaryAmmoType())
             net.Send(activator)
         end
     end

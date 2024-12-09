@@ -73,7 +73,7 @@
 	end
 
 	emitter:Finish()
-	local DLight = DynamicLight(0)
+	DLight = DynamicLight(0)
 
 	if DLight then
 		DLight.Brightness = 7

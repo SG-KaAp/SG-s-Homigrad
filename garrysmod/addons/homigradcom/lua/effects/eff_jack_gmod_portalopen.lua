@@ -1,6 +1,5 @@
 ﻿function EFFECT:Init(data)
 	self.Position = data:GetOrigin()
-	self.Size = data:GetScale()
 	local emitter = ParticleEmitter(self.Position)
 
 	for i = 0, 25 do
@@ -10,7 +9,7 @@
 		particle:SetStartAlpha(255)
 		particle:SetEndAlpha(255)
 		particle:SetStartSize(0)
-		particle:SetEndSize(self.Size or 150)
+		particle:SetEndSize(150)
 		particle:SetRoll(0)
 		particle:SetRollDelta(0)
 		particle:SetColor(0, 0, 0)

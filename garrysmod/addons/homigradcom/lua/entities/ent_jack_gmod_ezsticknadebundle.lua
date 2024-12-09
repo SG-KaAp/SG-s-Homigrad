@@ -13,23 +13,39 @@ ENT.HardThrowStr = 200
 ENT.SoftThrowStr = 100
 ENT.JModPreferredCarryAngles = Angle(0, 0, 0)
 ENT.EZspinThrow = true
-ENT.PinBodygroup = nil -- No pin
-ENT.SpoonBodygroup = {4, 1}
-ENT.DetDelay = 4
 --ENT.EZstorageVolumeOverride=2
 local BaseClass = baseclass.Get(ENT.Base)
 
 if SERVER then
+	function ENT:Prime()
+		self:SetState(JMod.EZ_STATE_PRIMED)
+		self:EmitSound("weapons/pinpull.wav", 60, 100)
+	end
+
+	function ENT:Arm()
+		self:SetState(JMod.EZ_STATE_ARMED)
+		self:SetBodygroup(4, 1)
+
+		timer.Simple(4, function()
+			if IsValid(self) then
+				self:Detonate()
+			end
+		end)
+
+		self:SetBodygroup(3, 1)
+		self:SpoonEffect()
+	end
+
 	function ENT:ShiftAltUse(activator, onOff)
 		if not onOff then return end
 		self.Splitterring = not self.Splitterring
 
 		if self.Splitterring then
 			self:SetMaterial("models/mats_jack_nades/stick_grenade_frag")
-			self:EmitSound("snds_jack_gmod/metal_shf.ogg", 60, 120)
+			self:EmitSound("snds_jack_gmod/metal_shf.wav", 60, 120)
 		else
 			self:SetMaterial("models/mats_jack_nades/stick_grenade")
-			self:EmitSound("snds_jack_gmod/metal_shf.ogg", 60, 80)
+			self:EmitSound("snds_jack_gmod/metal_shf.wav", 60, 80)
 		end
 	end
 
@@ -49,7 +65,7 @@ if SERVER then
 					plooie:SetNormal(vector_up)
 					util.Effect("eff_jack_minesplode", plooie, true, true)
 					util.ScreenShake(SelfPos, 99999, 99999, 1, 750 * PowerMult)
-					JMod.FragSplosion(self, SelfPos + Vector(0, 0, 20), 5000, 70, 5000, JMod.GetEZowner(self))
+					JMod.FragSplosion(self, SelfPos + Vector(0, 0, 20), 5000, 70, 7000, self:GetOwner() or game.GetWorld())
 
 					timer.Simple(.1, function()
 						for i = 1, 5 do
@@ -78,7 +94,7 @@ if SERVER then
 						sound.Play("BaseExplosionEffect.Sound", SelfPos, 120, math.random(90, 110))
 					end
 
-					self:EmitSound("snd_jack_fragsplodeclose.ogg", 90, 100)
+					self:EmitSound("snd_jack_fragsplodeclose.wav", 90, 100)
 
 					timer.Simple(.1, function()
 						for i = 1, 5 do
@@ -95,7 +111,7 @@ if SERVER then
 
 					timer.Simple(0, function()
 						local ZaWarudo = game.GetWorld()
-						local Infl, Att = (IsValid(self) and self) or ZaWarudo, (IsValid(self) and IsValid(self.EZowner) and self.EZowner) or (IsValid(self) and self) or ZaWarudo
+						local Infl, Att = (IsValid(self) and self) or ZaWarudo, (IsValid(self) and IsValid(self:GetOwner()) and self:GetOwner()) or (IsValid(self) and self) or ZaWarudo
 						util.BlastDamage(Infl, Att, SelfPos, 125 * PowerMult, 180 * PowerMult)
 						self:Remove()
 					end)
@@ -104,5 +120,5 @@ if SERVER then
 		end)
 	end
 elseif CLIENT then
-	language.Add("ent_jack_gmod_ezsticknadebundle", "EZ Gebalte Ladung")
+	--language.Add("ent_jack_gmod_ezsticknadebundle", "EZ Gebalte Ladung")
 end

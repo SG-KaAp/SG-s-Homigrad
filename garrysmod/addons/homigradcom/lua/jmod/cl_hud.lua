@@ -1,43 +1,25 @@
 ﻿local MskSndLops, MaskMats = {}, {}
 
-local function FindPlyMemory()
-	local files, folders = file.Find("screenshots/*.jpg", "MOD")
-	if not(files) then return nil end
-	return Material("../screenshots/"..tostring(table.Random(files)))
-end
-
-local BlackFadeTop, BlackFadeBottom = Material("png_jack_gmod_blackfadetop.png"), Material("png_jack_gmod_blackfadebottom.png")
---local NightmareGnome = ents.CreateClientProp("models/props_junk/gnome.mdl")
-local NextMemTime, CurrentMemory, TimeToDisplay = 0, nil, 12
-local WasSleepy = false
-local ColorableVignette = Material("mats_jack_gmod_sprites/hard_vignette_colorable.png")
-local CurrentBleed = 0
 hook.Add("HUDPaintBackground", "JMOD_HUDBG", function()
 	local ply, Play = LocalPlayer(), false
-	local W, H, FT = ScrW(), ScrH(), FrameTime()
-	local Alive, ThirdPerson = ply:Alive(), ply:ShouldDrawLocalPlayer()
-	local Wakin = ply.JMod_RequiredWakeAmount or 0
 
 	if ply.EZarmor then
+		local Alive, ThirdPerson = ply:Alive(), false
 
-		local ArmorMaskmats = ply.EZarmor.mskmats
-		if ArmorMaskmats and not(table.IsEmpty(ArmorMaskmats)) and Alive and not ThirdPerson then
+		if ply.EZarmor.mskmat and Alive and not ThirdPerson then
+			local Mat = MaskMats[ply.EZarmor.mskmat]
+
+			if not Mat then
+				Mat = Material(ply.EZarmor.mskmat)
+				MaskMats[ply.EZarmor.mskmat] = Mat
+			end
 
 			local Col = render.GetLightColor(EyePos())
-			for id, maskMat in pairs(ArmorMaskmats) do -- TODO: Sort by slot relevance
-				local Mat = MaskMats[maskMat]
-
-				if not Mat then
-					Mat = Material(maskMat)
-					MaskMats[maskMat] = Mat
-				end
-
-				surface.SetMaterial(Mat)
-				surface.SetDrawColor(Col.r * 255, Col.g * 255, Col.b * 255, 255)
-				surface.DrawTexturedRect(-1, -1, ScrW() + 2, ScrH() + 2)
-				surface.DrawTexturedRect(-1, -1, ScrW() + 2, ScrH() + 2)
-				surface.DrawTexturedRect(-1, -1, ScrW() + 2, ScrH() + 2)
-			end
+			surface.SetMaterial(Mat)
+			surface.SetDrawColor(Col.r * 255, Col.g * 255, Col.b * 255, 255)
+			surface.DrawTexturedRect(-1, -1, ScrW() + 2, ScrH() + 2)
+			surface.DrawTexturedRect(-1, -1, ScrW() + 2, ScrH() + 2)
+			surface.DrawTexturedRect(-1, -1, ScrW() + 2, ScrH() + 2)
 		end
 
 		Play = Alive and ply.EZarmor.sndlop and not ThirdPerson
@@ -52,61 +34,11 @@ hook.Add("HUDPaintBackground", "JMOD_HUDBG", function()
 		end
 	end
 
-	local TargetBleed = ply.EZbleeding or 0--(math.sin(CurTime())+1)/2*100
-	if Alive and (TargetBleed > 0) and not(ThirdPerson) then
-		surface.SetDrawColor(156, 0, 21)
-		surface.SetMaterial(ColorableVignette)
-		local Vscale = (CurrentBleed)/50
-		surface.DrawTexturedRect(-W/2/Vscale, -H/2/Vscale, W+W/Vscale, H+H/Vscale)
-		--jprint(math.Round(TargetBleed), math.Round(CurrentBleed), Vscale)
-		CurrentBleed = Lerp(FT, CurrentBleed, TargetBleed)
-	end
-
 	if not Play then
 		for k, v in pairs(MskSndLops) do
 			v:Stop()
 			MskSndLops[k] = nil
 		end
-	end
-
-	if Alive and ((Wakin > 0) or ply.JMod_IsSleeping) then
-		local Time = CurTime()
-		render.SetColorModulation(255, 255, 255)
-		render.SetMaterial(BlackFadeTop)
-		render.DrawScreenQuadEx(- W, - H + Wakin / 100 * H, W * 2, H)
-		render.SetMaterial(BlackFadeBottom)
-		render.DrawScreenQuadEx(- W, H - Wakin / 100 * H, W * 2, H)
-		
-		if ply.JMod_IsSleeping then
-			ply.JMod_RequiredWakeAmount = math.Clamp(Wakin + FT * 100, 0, 100)
-			if not WasSleepy then
-				WasSleepy = true
-				NextMemTime = Time + 1--TimeToDisplay * 1.5
-				CurrentMemory = nil
-			end
-		else
-			ply.JMod_RequiredWakeAmount = math.Clamp(Wakin - FT * 100, 0, 100)
-			if WasSleepy then
-				WasSleepy = false
-				CurrentMemory = nil
-			end
-		end
-		
-		if (NextMemTime < Time) then
-			NextMemTime = Time + TimeToDisplay
-			CurrentMemory = FindPlyMemory()
-		end
-		if CurrentMemory then
-			surface.SetMaterial(CurrentMemory)
-			surface.SetDrawColor(255, 255, 255, (math.sin(((NextMemTime - Time) - TimeToDisplay / 4) * (2 * math.pi) / TimeToDisplay) / 2 + .4)^.2 * 100)
-			surface.DrawTexturedRect(0, 0, W, H)
-			surface.SetDrawColor(0, 0, 0, 240)
-			surface.SetMaterial(ColorableVignette)
-			surface.DrawTexturedRect(0, 0, W, H)
-			surface.SetAlphaMultiplier(1)
-		end
-	else
-		WasSleepy = false
 	end
 end)
 
@@ -143,44 +75,13 @@ local GoggleDarkness, GogglesWereOn, CurVisionBlur, CurEyeClose = 0, false, 0, 0
 local ThermalGlowMat = Material("models/debug/debugwhite")
 local blurMaterial = Material('pp/bokehblur')
 
-JMod.EZ_NightVisionScreenSpaceEffect = function(ply)
-
-	DrawColorModify({
-		["$pp_colour_addr"] = 0,
-		["$pp_colour_addg"] = 0,
-		["$pp_colour_addb"] = 0,
-		["$pp_colour_brightness"] = .01,
-		["$pp_colour_contrast"] = 7,
-		["$pp_colour_colour"] = 0,
-		["$pp_colour_mulr"] = 0,
-		["$pp_colour_mulg"] = 0,
-		["$pp_colour_mulb"] = 0
-	})
-
-	DrawColorModify({
-		["$pp_colour_addr"] = 0,
-		["$pp_colour_addg"] = .1,
-		["$pp_colour_addb"] = 0,
-		["$pp_colour_brightness"] = 0,
-		["$pp_colour_contrast"] = 1,
-		["$pp_colour_colour"] = 1,
-		["$pp_colour_mulr"] = 0,
-		["$pp_colour_mulg"] = 0,
-		["$pp_colour_mulb"] = 0
-	})
-
-	if ply and not ply.EZflashbanged then
-		DrawMotionBlur(FrameTime() * 50, .8, .01)
-	end
-end
-
 local RavebreakColors = {Color(255, 0, 0), Color(0, 255, 0), Color(0, 0, 255), Color(0, 255, 255), Color(255, 0, 255), Color(255, 255, 0)}
+
 local NextRavebreakBeat, CurRavebreakColor, CurRavebreakLightPos = 0, math.random(1, 6), Vector(0, 0, 0)
 
 hook.Add("RenderScreenspaceEffects", "JMOD_SCREENSPACE", function()
 	local ply, FT, SelfPos, Time, W, H = LocalPlayer(), FrameTime(), EyePos(), CurTime(), ScrW(), ScrH()
-	local AimVec, FirstPerson, Ravebreakin = ply:GetAimVector(), not ply:ShouldDrawLocalPlayer(), ply.JMod_RavebreakEndTime and ply.JMod_RavebreakEndTime > Time and ply.JMod_RavebreakStartTime < Time
-	local Alive, BlurFadeAmt = ply:Alive(), ply.EZvisionBlurFadeAmt or 2
+	local AimVec, FirstPerson, Ravebreakin = ply:GetAimVector(), true, ply.JMod_RavebreakEndTime and ply.JMod_RavebreakEndTime > Time and ply.JMod_RavebreakStartTime < Time
 
 	--CreateClientLag(10000) -- for debugging the effect at low framerates
 	--JMod.MeasureFramerate()
@@ -232,21 +133,46 @@ hook.Add("RenderScreenspaceEffects", "JMOD_SCREENSPACE", function()
 	end
 
 	if FirstPerson then
-		if Alive and JMod.PlyHasArmorEff(ply) then
-			local ArmorEffects = ply.EZarmor.effects
+		if ply:Alive() and ply.EZarmor and ply.EZarmor.effects then
 			if ply.EZarmor.blackvision then
 				surface.SetDrawColor(0, 0, 0, 255)
 				surface.DrawRect(-1, -1, W + 2, H + 2)
 				draw.SimpleText("vision device is dead; please recharge", "JMod-Display", W / 2, H * .8, Color(255, 255, 255, 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 				--GoggleDarkness=100
-			elseif ArmorEffects.nightVision then
+			elseif ply.EZarmor.effects.nightVision then
 				if not GogglesWereOn then
 					GogglesWereOn = true
 					GoggleDarkness = 100
 				end
-				JMod.EZ_NightVisionScreenSpaceEffect(ply)
 
-			elseif ArmorEffects.nightVisionWP then
+				DrawColorModify({
+					["$pp_colour_addr"] = 0,
+					["$pp_colour_addg"] = 0,
+					["$pp_colour_addb"] = 0,
+					["$pp_colour_brightness"] = .01,
+					["$pp_colour_contrast"] = 7,
+					["$pp_colour_colour"] = 0,
+					["$pp_colour_mulr"] = 0,
+					["$pp_colour_mulg"] = 0,
+					["$pp_colour_mulb"] = 0
+				})
+
+				DrawColorModify({
+					["$pp_colour_addr"] = 0,
+					["$pp_colour_addg"] = .1,
+					["$pp_colour_addb"] = 0,
+					["$pp_colour_brightness"] = 0,
+					["$pp_colour_contrast"] = 1,
+					["$pp_colour_colour"] = 1,
+					["$pp_colour_mulr"] = 0,
+					["$pp_colour_mulg"] = 0,
+					["$pp_colour_mulb"] = 0
+				})
+
+				if not ply.EZflashbanged then
+					DrawMotionBlur(FT * 50, .8, .01)
+				end
+			elseif ply.EZarmor.effects.nightVisionWP then
 				if not GogglesWereOn then
 					GogglesWereOn = true
 					GoggleDarkness = 100
@@ -279,7 +205,7 @@ hook.Add("RenderScreenspaceEffects", "JMOD_SCREENSPACE", function()
 				if not ply.EZflashbanged then
 					DrawMotionBlur(FT * 50, .8, .01)
 				end
-			elseif ArmorEffects.thermalVision then
+			elseif ply.EZarmor.effects.thermalVision then
 				if not GogglesWereOn then
 					GogglesWereOn = true
 					GoggleDarkness = 100
@@ -323,9 +249,9 @@ hook.Add("RenderScreenspaceEffects", "JMOD_SCREENSPACE", function()
 		end
 
 		if ply.EZflashbanged then
-			if Alive then
+			if ply:Alive() then
 				DrawMotionBlur(.001, math.Clamp(ply.EZflashbanged / 20, 0, 1), .01)
-				ply.EZflashbanged = math.Clamp(ply.EZflashbanged - 7 * FT, 0, 200)
+				ply.EZflashbanged = ply.EZflashbanged - 7 * FT
 			else
 				ply.EZflashbanged = 0
 			end
@@ -366,10 +292,12 @@ hook.Add("RenderScreenspaceEffects", "JMOD_SCREENSPACE", function()
 		blurMaterial:SetFloat("$focusradius", 1)
 		render.SetMaterial(blurMaterial)
 		render.DrawScreenQuad()
+		-- also add an eye-closing effect
+		-- todo
 	end
 
-	ply.EZvisionBlur = math.Clamp((ply.EZvisionBlur or 0) - FT * BlurFadeAmt, 0, 75)
-	CurVisionBlur = Lerp(FT * 3, CurVisionBlur, ply.EZvisionBlur)
+	ply.EZvisionBlur = math.Clamp((ply.EZvisionBlur or 0) - FT * 2, 0, 75)
+	CurVisionBlur = Lerp(FT * .5, CurVisionBlur, ply.EZvisionBlur)
 
 	if CurVisionBlur < .01 then
 		CurVisionBlur = 0
@@ -392,7 +320,7 @@ local FPSData = {
 hook.Add("PostDrawHUD", "JMod_PostDrawHUD", function()
 	if not(GetConVar("jmod_debug_display"):GetBool()) then return end
 
-	local FT, Time, ply, W, H = FrameTime(), CurTime(), LocalPlayer(), ScrW(), ScrH()
+	local FT, Time = FrameTime(), CurTime()
 
 	-- record data
 	FPSData.frameTimeSum = FPSData.frameTimeSum + FT
@@ -446,23 +374,4 @@ hook.Add("PostDrawHUD", "JMod_PostDrawHUD", function()
 		surface.SetDrawColor(JMod.GoodBadColor(FPSfraction))
 		surface.DrawLine(PixelX, PixelY, PreviousPixelX, PreviousPixelY)
 	end
-
-	-- rangefinder
-	local ShootPos, AimVec = ply:GetShootPos(), ply:GetAimVector()
-	local veh, adjustment = ply:GetVehicle(), 0
-	if (IsValid(veh)) then adjustment = 200 end
-	local Tr = util.QuickTrace(ShootPos + AimVec * adjustment, AimVec * 9e9, ply)
-	if (Tr.Hit) then
-		local Dist = Tr.HitPos:Distance(ShootPos) - adjustment
-		draw.SimpleTextOutlined(Tr.Entity, "Default", W/2 - 10, H/2 + 10, Color(255, 255, 255, 180), TEXT_ALIGN_RIGHT, TEXT_ALIGN_CENTER, 1, Color(0, 0, 0, 180))
-		draw.SimpleTextOutlined(math.Round(Dist).." hu", "Default", W/2 + 10, H/2 + 10, Color(255, 255, 255, 180), TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER, 1, Color(0, 0, 0, 180))
-		draw.SimpleTextOutlined(math.Round(Dist * .75 / 12).." ft", "Default", W/2 + 10, H/2 + 25, Color(255, 255, 255, 180), TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER, 1, Color(0, 0, 0, 180))
-		draw.SimpleTextOutlined(math.Round(Dist / 52.49, 1).." m", "Default", W/2 + 10, H/2 + 40, Color(255, 255, 255, 180), TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER, 1, Color(0, 0, 0, 180))
-	end
-
-	-- gps
-	-- todo: pos and angle of view
-
-	-- speedometer
-	-- todo: speed of player in hu/s, m/s, ft/s and mph
 end )

@@ -21,12 +21,9 @@ if SERVER then
 		self:SetCollisionGroup(COLLISION_GROUP_WEAPON)
 
 		---
-		local Phys = self:GetPhysicsObject()
 		timer.Simple(.01, function()
-			if IsValid(Phys) then
-				Phys:SetMass(1)
-				Phys:Wake()
-			end
+			self:GetPhysicsObject():SetMass(1)
+			self:GetPhysicsObject():Wake()
 		end)
 
 		self.Ignited = false
@@ -41,7 +38,7 @@ if SERVER then
 	function ENT:PhysicsCollide(data, physobj)
 		if not data.HitEntity:IsWorld() then
 			if math.random(1, 2) == 1 then
-				SafeRemoveEntityDelayed(self, 0)
+				self:Remove()
 			end
 		end
 	end
@@ -56,16 +53,16 @@ if SERVER then
 		end
 
 		if dmginfo:IsDamageType(DMG_BURN) then
-			JMod.SetEZowner(self, dmginfo:GetAttacker())
+			JMod.SetOwner(self, dmginfo:GetAttacker())
 			self:Arm()
 		end
 	end
 
 	function ENT:Use(activator, activatorAgain, onOff)
 		local Dude = activator or activatorAgain
-		JMod.SetEZowner(self, Dude)
+		JMod.SetOwner(self, Dude)
 
-		if Dude:KeyDown(JMod.Config.General.AltFunctionKey) then
+		if Dude:KeyDown(JMod.Config.AltFunctionKey) then
 			self:Arm()
 		else
 			if math.random(1, 2) == 2 then
@@ -77,7 +74,7 @@ if SERVER then
 	function ENT:Arm()
 		if self.Ignited then return end
 		self.Ignited = true
-		self:EmitSound("snd_jack_sss.wav", 60, math.Rand(90, 110))
+		self.Entity:EmitSound("snd_jack_sss.wav", 60, math.Rand(90, 110))
 
 		for i = 1, 8 do
 			local Fsh = EffectData()
@@ -92,7 +89,7 @@ if SERVER then
 
 			for k, v in pairs(ents.FindInSphere(self:GetPos(), 80)) do
 				if v.JModHighlyFlammableFunc then
-					JMod.SetEZowner(v, self.EZowner)
+					JMod.SetOwner(v, self:GetOwner())
 					local Func = v[v.JModHighlyFlammableFunc]
 					Func(v)
 				end
@@ -125,5 +122,5 @@ elseif CLIENT then
 		end
 	end
 
-	language.Add("ent_jack_gmod_ezblackpowderpile", "EZ Black Powder Pile")
+	--language.Add("ent_jack_gmod_ezblackpowderpile", "EZ Black Powder Pile")
 end

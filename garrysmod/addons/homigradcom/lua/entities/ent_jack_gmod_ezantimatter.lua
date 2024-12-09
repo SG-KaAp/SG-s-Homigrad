@@ -24,11 +24,10 @@ ENT.Hint = "antimatter"
 if SERVER then
 	function ENT:UseEffect(pos, ent, destructive)
 		if destructive and not self.Sploomd then
-			local Resources = self:GetResource()
 			self.Sploomd = true
 			local Blam = EffectData()
 			Blam:SetOrigin(pos)
-			Blam:SetScale(5 * (Resources / 200))
+			Blam:SetScale(5)
 			util.Effect("eff_jack_plastisplosion", Blam, true, true)
 			util.ScreenShake(pos, 99999, 99999, 1, 750 * 5)
 
@@ -43,15 +42,9 @@ if SERVER then
 			timer.Simple(.1, function()
 				local MeltBlast = DamageInfo()
 				MeltBlast:SetInflictor(game.GetWorld())
-				MeltBlast:SetAttacker(game.GetWorld())
-				MeltBlast:SetDamage(Resources * 5)
+				MeltBlast:SetDamage(500)
 				MeltBlast:SetDamageType(DMG_DISSOLVE)
-				util.BlastDamageInfo(MeltBlast, pos, Resources * 8)
-				for k, v in pairs(ents.FindInSphere(pos, Resources * 5)) do 
-					if v:GetClass() == "npc_strider" then
-						v:Fire("break")
-					end
-				end
+				util.BlastDamageInfo(MeltBlast, pos, 1000)
 			end)
 		end
 	end
@@ -60,11 +53,10 @@ if SERVER then
 	end
 	--
 elseif CLIENT then
-    local drawvec, drawang = Vector(1, -6.2, 8), Angle(90, 0, 90)
 	function ENT:Draw()
 		self:DrawModel()
 
-		JMod.HoloGraphicDisplay(self, drawvec, drawang, .02, 300, function()
+		JMod.HoloGraphicDisplay(self, Vector(1, -6.2, 8), Angle(90, 0, 90), .02, 300, function()
 			JMod.StandardResourceDisplay(JMod.EZ_RESOURCE_TYPES.ANTIMATTER, self:GetResource(), nil, 0, 0, 200, true)
 		end)
 	end

@@ -15,21 +15,18 @@ ENT.Mass = 250
 ENT.SpawnHeight = 1
 --
 ENT.StaticPerfSpecs = {
-	MaxDurability = 200,
-	MaxFuel = 200
+	MaxDurability = 100,
+	MaxFuel = 100
 }
 
 ENT.DynamicPerfSpecs = {
 	ChargeSpeed = 1,
-	Armor = 2
+	Armor = 1
 }
 ENT.EZconsumes = {
 	JMod.EZ_RESOURCE_TYPES.BASICPARTS,
 	JMod.EZ_RESOURCE_TYPES.FUEL
 }
-ENT.EZpowerProducer = true
-ENT.EZpowerSocket = Vector(42, -1, 40)
-ENT.MaxConnectionRange = 500
 
 function ENT:CustomSetupDataTables()
 	self:NetworkVar("Float", 1, "Progress")
@@ -51,59 +48,54 @@ if(SERVER)then
 	function ENT:Use(activator)
 		if self.NextUseTime > CurTime() then return end
 		local State = self:GetState()
-		local Alt = activator:KeyDown(JMod.Config.General.AltFunctionKey)
-		JMod.SetEZowner(self, activator)
+		local alt = activator:KeyDown(JMod.Config.AltFunctionKey)
+		JMod.SetOwner(self, activator)
 		JMod.Colorify(self)
 
 		if State == STATE_BROKEN then
 			JMod.Hint(activator, "destroyed", self)
 			return
+		elseif State == STATE_OFF then
+			self:TurnOn(activator)
+		elseif State == STATE_ON then
+			if alt then
+				self:ProduceResource()
+				return
+			end
+			self:TurnOff()
 		end
-		if Alt then
-			self:ModConnections(activator)
-		else
-			if(State == JMod.EZ_STATE_OFF)then
-				self:TurnOn(activator)
-			elseif(State == JMod.EZ_STATE_ON)then
-				self:TurnOff(activator)
+	end
+
+	function ENT:TurnOn(activator)
+		if (self:GetState() == STATE_OFF) then
+			if (self:GetFuel() > 0) then
+				self.NextUseTime = CurTime() + 1
+				self:SetState(STATE_ON)
+				self.SoundLoop:SetSoundLevel(70)
+				self.SoundLoop:Play()
+			else
+				self:EmitSound("snds_jack_gmod/genny_start_fail.wav", 70, 100)
+				self.NextUseTime = CurTime() + 1
+				JMod.Hint(activator, "need fuel")
 			end
 		end
 	end
 
-	function ENT:TurnOn(activator, auto)
-		if self:GetState() > STATE_OFF then return end
-		if (self:WaterLevel() > 1) then return end
-		if (self:GetFuel() > 0) then
-			self.NextUseTime = CurTime() + 1
-			self:SetState(STATE_ON)
-			if not self.SoundLoop then self.SoundLoop = CreateSound(self, "snds_jack_gmod/genny_start_loop.wav") end
-			self.SoundLoop:SetSoundLevel(70)
-			self.SoundLoop:Play()
-		elseif IsValid(activator) and not(auto) then
-			self.EZstayOn = true
-			self:EmitSound("snds_jack_gmod/genny_start_fail.ogg", 70, 100)
-			self.NextUseTime = CurTime() + 1
-			JMod.Hint(activator, "need fuel")
-		end
-	end
-
-	function ENT:TurnOff(activator)
-		if (self:GetState() <= 0) then return end
+	function ENT:TurnOff()
 		self.NextUseTime = CurTime() + 1
-		if IsValid(activator) then self.EZstayOn = nil end
 		if self.SoundLoop then self.SoundLoop:Stop() end
-		self:EmitSound("snds_jack_gmod/genny_stop.ogg", 70, 100)
-		self:SetState(STATE_OFF)
+		self:EmitSound("snds_jack_gmod/genny_stop.wav", 70, 100)
 		self:ProduceResource()
+		self:SetState(STATE_OFF)
 	end
 
-	--[[function ENT:ResourceLoaded(typ, accepted)
+	function ENT:ResourceLoaded(typ, accepted)
 		if typ == JMod.EZ_RESOURCE_TYPES.FUEL and accepted > 0 then
 			timer.Simple(.1, function() 
 				if IsValid(self) then self:TurnOn() end 
 			end)
 		end
-	end--]]
+	end
 
 	function ENT:OnRemove()
 		if self.SoundLoop then self.SoundLoop:Stop() end
@@ -125,9 +117,10 @@ if(SERVER)then
 		local amt = math.Clamp(math.floor(self:GetProgress()), 0, 100)
 
 		if amt <= 0 then return end
+
 		local pos = self:WorldToLocal(SelfPos + Up * 30 + Forward * 60)
+		JMod.MachineSpawnResource(self, JMod.EZ_RESOURCE_TYPES.POWER, amt, pos, Angle(0, 0, 0), Forward * 60, true, 200)
 		self:SetProgress(math.Clamp(self:GetProgress() - amt, 0, 100))
-		JMod.MachineSpawnResource(self, JMod.EZ_RESOURCE_TYPES.POWER, amt, pos, Angle(0, 0, 0), Forward * 60, 200)
 		self:SpawnEffect(self:LocalToWorld(pos))
 	end
 
@@ -148,12 +141,9 @@ if(SERVER)then
 	function ENT:Think()
 		local Time, State, Grade = CurTime(), self:GetState(), self:GetGrade()
 
-		self:UpdateWireOutputs()
-
 		if self.NextResourceThink < Time then
 			self.NextResourceThink = Time + 1
 			if State == STATE_ON then
-				if self:WaterLevel() > 1 then self:TurnOff() return end
 				local NRGperFuel = JMod.EnergyEconomyParameters.BasePowerConversions[JMod.EZ_RESOURCE_TYPES.FUEL] * JMod.EnergyEconomyParameters.FuelGennyEfficiencies[Grade]
 				local FuelToConsume = JMod.EZ_GRADE_BUFFS[Grade]
 				local PowerToProduce = FuelToConsume * NRGperFuel
@@ -186,26 +176,25 @@ if(SERVER)then
 					if (math.random(1, 3) == 1) then
 						local Gas = ents.Create("ent_jack_gmod_ezgasparticle")
 						Gas:SetPos(self:GetPos() + Vector(0, 0, 100))
-						JMod.SetEZowner(Gas, self.EZowner)
+						JMod.SetOwner(Gas, self:GetOwner())
 						Gas:SetDTBool(0, true)
 						Gas:Spawn()
 						Gas:Activate()
-						Gas.CurVel = (VectorRand() * math.random(1, 100))
+						Gas:GetPhysicsObject():SetVelocity(VectorRand() * math.random(1, 100))
 					end
 				end
 			end
 		end
-
-		self:NextThink(Time + .1)
-		return true
 	end
 
-	function ENT:OnPostEntityPaste(ply, ent, createdEntities)
+	function ENT:PostEntityPaste(ply, ent, createdEntities)
 		local Time = CurTime()
-		self.NextResourceThink = Time + math.Rand(0, 3)
-		self.NextUseTime = Time + math.Rand(0, 3)
-		self.NextEffThink = Time + math.Rand(0, 3)
-		self.NextEnvThink = Time + math.Rand(0, 3)
+		JMod.SetOwner(self, ply)
+		ent.NextRefillTime = Time + math.random(0.1, 0.5)
+		self.NextResourceThink = 0
+		self.NextUseTime = 0
+		self.NextEffThink = 0
+		self.NextEnvThink = 0
 	end
 
 elseif(CLIENT)then
@@ -216,16 +205,16 @@ elseif(CLIENT)then
 	end
 
 	function ENT:Draw()
-		local SelfPos, SelfAng, State = self:GetPos(), self:GetAngles(), self:GetState()
+		local SelfPos, SelfAng, State, FT = self:GetPos(), self:GetAngles(), self:GetState(), FrameTime()
 		local Up, Right, Forward = SelfAng:Up(), SelfAng:Right(), SelfAng:Forward()
 		local Grade = self:GetGrade()
 		---
 		local BasePos = SelfPos
-		local Obscured = util.TraceLine({start = EyePos(), endpos = BasePos + Up * 30, filter = {LocalPlayer(), self}, mask = MASK_OPAQUE}).Hit
+		local Obscured = util.TraceLine({start = EyePos(), endpos = BasePos, filter = {LocalPlayer(), self}, mask = MASK_OPAQUE}).Hit
 		local Closeness = LocalPlayer():GetFOV() * (EyePos():Distance(SelfPos))
 		local DetailDraw = Closeness < 120000 -- cutoff point is 400 units when the fov is 90 degrees
 		---
-		--if((not(DetailDraw)) and (Obscured))then return end -- if player is far and sentry is obscured, draw nothing
+		if((not(DetailDraw)) and (Obscured))then return end -- if player is far and sentry is obscured, draw nothing
 		if(Obscured)then DetailDraw = false end -- if obscured, at least disable details
 		if(State == STATE_BROKEN)then DetailDraw = false end -- look incomplete to indicate damage, save on gpu comp too
 		---
@@ -265,5 +254,5 @@ elseif(CLIENT)then
 			end
 		end
 	end
-	language.Add("ent_jack_gmod_ezlfg", "EZ Liquid Fuel Generator")
+	--language.Add("ent_jack_gmod_ezlfg", "EZ Liquid Fuel Generator")
 end

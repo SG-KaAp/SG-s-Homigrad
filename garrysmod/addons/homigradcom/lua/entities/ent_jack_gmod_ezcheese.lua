@@ -53,7 +53,7 @@ if SERVER then
 	end
 
 	function ENT:Use(activator)
-		sound.Play("snds_jack_gmod/nom" .. math.random(1, 5) .. ".ogg", self:GetPos(), 60, math.random(90, 110))
+		sound.Play("snds_jack_gmod/nom" .. math.random(1, 5) .. ".wav", self:GetPos(), 60, math.random(90, 110))
 		activator:SetHealth(activator:Health() + 15 * self.Piece)
 		self:Remove()
 	end
@@ -66,5 +66,5 @@ elseif CLIENT then
 		self:DrawModel()
 	end
 
-	language.Add("ent_jack_gmod_ezcheese", "EZ Edible Chess piece")
+	--language.Add("ent_jack_gmod_ezcheese", "EZ Edible Chess piece")
 end

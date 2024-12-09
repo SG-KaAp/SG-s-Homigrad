@@ -11,7 +11,6 @@ ENT.AdminSpawnable = true
 ENT.JModPreferredCarryAngles = Angle(0, 0, 0)
 ENT.DamageThreshold = 120
 ENT.MaxItems = JMod.EZsmallCrateSize or 100
-ENT.KeepJModInv = true
 
 ---
 function ENT:SetupDataTables()
@@ -25,7 +24,7 @@ if SERVER then
 		local ent = ents.Create(self.ClassName)
 		ent:SetAngles(Angle(0, 0, 0))
 		ent:SetPos(SpawnPos)
-		JMod.SetEZowner(ent, ply)
+		JMod.SetOwner(ent, ply)
 		ent:Spawn()
 		ent:Activate()
 		JMod.Hint(ply, self.ClassName)
@@ -43,10 +42,10 @@ if SERVER then
 		self:SetUseType(SIMPLE_USE)
 		self:SetItemCount(0)
 
-		--self.EZconsumes = {self.ItemType}
+		self.EZconsumes = {self.ItemType}
 
 		self.NextLoad = 0
-		self.Items = self.Items or {}
+		self.Items = {}
 
 		timer.Simple(.01, function()
 			self:CalcWeight()
@@ -54,11 +53,8 @@ if SERVER then
 	end
 
 	function ENT:CalcWeight()
-		JMod.UpdateInv(self)
-		--self:GetPhysicsObject():SetMass(50 + (self:GetItemCount() / self.MaxItems) * 250)
-		self:GetPhysicsObject():SetMass(50 + self.JModInv.weight)
+		self:GetPhysicsObject():SetMass(50 + (self:GetItemCount() / self.MaxItems) * 250)
 		self:GetPhysicsObject():Wake()
-		self:SetItemCount(self.JModInv.volume)
 	end
 
 	function ENT:PhysicsCollide(data, physobj)
@@ -70,44 +66,24 @@ if SERVER then
 		if self.NextLoad > CurTime() then return end
 		local ent = data.HitEntity
 
-		local Phys = ent:GetPhysicsObject()
-		if IsValid(Phys) then
-			local Vol = Phys:GetVolume()
-			if Vol ~= nil then
+		if IsValid(ent:GetPhysicsObject()) and ent:GetPhysicsObject().GetVolume and ent:GetPhysicsObject():GetVolume() then
+			local Class = ent:GetClass()
+			local Vol = (self.Items[Class] and self.Items[Class][2]) or math.ceil(ent:GetPhysicsObject():GetVolume() / 500)
 
-				Vol = math.ceil(Vol / JMod.VOLUMEDIV) -- Weird maths
-				if ent.EZstorageVolumeOverride then
-					Vol = ent.EZstorageVolumeOverride
-				end
+			if ent.EZstorageVolumeOverride then
+				Vol = ent.EZstorageVolumeOverride
+			end
 
-				if ent.JModEZstorable and ent:IsPlayerHolding() then
-					self.NextLoad = CurTime() + 0.5
-					timer.Simple(0, function()
-						if IsValid(self) and IsValid(ent) then
-							JMod.AddToInventory(self, ent)
-							self:CalcWeight()
-						end
-					end)
-					--self:SetItemCount(self:GetItemCount() + 1)
-				end
-				--[[local Class = ent:GetClass()
-				local Vol = (self.Items[Class] and self.Items[Class][2]) or math.ceil(ent:GetPhysicsObject():GetVolume() / JMod.VOLUMEDIV)
+			if ent.JModEZstorable and ent:IsPlayerHolding() and (not ent.GetState or ent:GetState() == 0) and self:GetItemCount() + Vol <= self.MaxItems then
+				self.NextLoad = CurTime() + 0.5
 
-				if ent.EZstorageVolumeOverride then
-					Vol = ent.EZstorageVolumeOverride
-				end
+				self.Items[Class] = {(self.Items[Class] and self.Items[Class][1] or 0) + 1, Vol}
 
-				if ent.JModEZstorable and ent:IsPlayerHolding() and (not ent.GetState or ent:GetState() == 0) and self:GetItemCount() + Vol <= self.MaxItems then
-					self.NextLoad = CurTime() + 0.5
+				self:SetItemCount(self:GetItemCount() + Vol)
 
-					self.Items[Class] = {(self.Items[Class] and self.Items[Class][1] or 0) + 1, Vol}
-
-					self:SetItemCount(self:GetItemCount() + Vol)
-
-					timer.Simple(0, function()
-						SafeRemoveEntity(ent)
-					end)
-				end--]]
+				timer.Simple(0, function()
+					SafeRemoveEntity(ent)
+				end)
 			end
 		end
 	end
@@ -120,7 +96,7 @@ if SERVER then
 			sound.Play("Wood_Crate.Break", Pos)
 			sound.Play("Wood_Box.Break", Pos)
 
-			--[[for class, tbl in pairs(self.Items) do
+			for class, tbl in pairs(self.Items) do
 				for i = 1, tbl[1] do
 					local ent = ents.Create(class)
 					ent:SetPos(self:GetPos() + VectorRand() * 10)
@@ -128,19 +104,17 @@ if SERVER then
 					ent:Spawn()
 					ent:Activate()
 				end
-			end--]]
+			end
 
 			self:Remove()
 		end
 	end
 
 	function ENT:Use(activator)
-		self:CalcWeight()
-		--if self:GetItemCount() <= 0 then return end
-		net.Start("JMod_ItemInventory")
+		if self:GetItemCount() <= 0 then return end
+		net.Start("JMod_UniCrate")
 		net.WriteEntity(self)
-		net.WriteString("open_menu")
-		net.WriteTable(self.JModInv)
+		net.WriteTable(self.Items)
 		net.Send(activator)
 	end
 
@@ -149,13 +123,6 @@ if SERVER then
 
 	--pfahahaha
 	function ENT:OnRemove()
-	end
-
-	function ENT:PostEntityPaste(ply, ent, createdEntities)
-		if (ent.AdminOnly and ent.AdminOnly == true) and not(JMod.IsAdmin(ply)) then
-			SafeRemoveEntity(ent)
-		end
-		ent.NextLoad = 0
 	end
 	--aw fuck you
 elseif CLIENT then

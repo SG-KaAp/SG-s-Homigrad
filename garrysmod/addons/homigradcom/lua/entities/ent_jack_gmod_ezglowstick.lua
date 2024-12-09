@@ -27,7 +27,7 @@ if SERVER then
 		local ent = ents.Create(self.ClassName)
 		ent:SetAngles(Angle(0, 0, 0))
 		ent:SetPos(SpawnPos)
-		JMod.SetEZowner(ent, ply)
+		JMod.SetOwner(ent, ply)
 		ent:Spawn()
 		ent:Activate()
 
@@ -35,15 +35,15 @@ if SERVER then
 	end
 
 	function ENT:Initialize()
-		self:SetModel("models/jmod/props/glowstick.mdl")
-		self:SetMaterial("models/jmod/props/jlowstick_off")
-		--self:SetModelScale(1.5,0)
-		self:PhysicsInit(SOLID_VPHYSICS)
-		self:SetMoveType(MOVETYPE_VPHYSICS)
-		self:SetSolid(SOLID_VPHYSICS)
-		self:DrawShadow(true)
+		self.Entity:SetModel("models/jmod/props/glowstick.mdl")
+		self.Entity:SetMaterial("models/jmod/props/jlowstick_off")
+		--self.Entity:SetModelScale(1.5,0)
+		self.Entity:PhysicsInit(SOLID_VPHYSICS)
+		self.Entity:SetMoveType(MOVETYPE_VPHYSICS)
+		self.Entity:SetSolid(SOLID_VPHYSICS)
+		self.Entity:DrawShadow(true)
 		self:SetUseType(ONOFF_USE)
-		self:SetColor(Color(130, 200, 120))
+		self.Entity:SetColor(Color(130, 200, 120))
 		self:GetPhysicsObject():SetMass(6)
 
 		---
@@ -72,13 +72,13 @@ if SERVER then
 	function ENT:PhysicsCollide(data, physobj)
 		if data.DeltaTime > 0.2 then
 			if data.Speed > 25 then
-				self:EmitSound("Drywall.ImpactHard")
+				self.Entity:EmitSound("Drywall.ImpactHard")
 			end
 		end
 	end
 
 	function ENT:OnTakeDamage(dmginfo)
-		self:TakePhysicsDamage(dmginfo)
+		self.Entity:TakePhysicsDamage(dmginfo)
 
 		if JMod.LinCh(dmginfo:GetDamage(), 1, 50) then
 			local Pos, State = self:GetPos(), self:GetState()
@@ -96,14 +96,14 @@ if SERVER then
 		local State = self:GetState()
 		if State == STATE_BURNT then return end
 		local Dude = activator or activatorAgain
-		local Alt = Dude:KeyDown(JMod.Config.General.AltFunctionKey)
-		JMod.SetEZowner(self, Dude)
+		local Alt = Dude:KeyDown(JMod.Config.AltFunctionKey)
+		JMod.SetOwner(self, Dude)
 		local Time = CurTime()
 
 		if State == STATE_OFF then
 			if tobool(onOff) then
 				if Alt then
-					JMod.SetEZowner(self, activator)
+					JMod.SetOwner(self, activator)
 					net.Start("JMod_ColorAndArm")
 					net.WriteEntity(self)
 					net.Send(activator)
@@ -153,7 +153,7 @@ if SERVER then
 								self.StuckStick = Weld
 							end
 
-							self:EmitSound("snd_jack_claythunk.ogg", 65, math.random(80, 120))
+							self:EmitSound("snd_jack_claythunk.wav", 65, math.random(80, 120))
 							Dude:DropObject()
 							JMod.Hint(Dude, "stick to self")
 						end
@@ -170,7 +170,7 @@ if SERVER then
 		self:SetState(STATE_BURNIN)
 		self:SetMaterial("models/jmod/props/jlowstick_on")
 		self:DrawShadow(false)
-		self:EmitSound("snds_jack_gmod/glowstick_start.ogg", 60, math.random(90, 110))
+		self:EmitSound("snds_jack_gmod/glowstick_start.wav", 60, math.random(90, 110))
 	end
 
 	ENT.Arm = ENT.Light -- for compatibility with the ColorAndArm feature
@@ -238,5 +238,5 @@ elseif CLIENT then
 		self:DrawModel()
 	end
 
-	language.Add("ent_jack_gmod_ezglowstick", "EZ Glow Stick")
+	--language.Add("ent_jack_gmod_ezglowstick", "EZ Glow Stick")
 end

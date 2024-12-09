@@ -1,5 +1,5 @@
 ﻿function EFFECT:Init(data)
-	local Pos, Scl, Normal, Spread = data:GetOrigin(), data:GetScale(), data:GetNormal(), data:GetMagnitude()
+	local Pos, Scale, Normal, Spread = data:GetOrigin(), data:GetScale(), data:GetNormal(), data:GetMagnitude()
 
 	if Normal == Vector(0, 0, 0) then
 		Normal = nil
@@ -9,12 +9,11 @@
 		Spread = nil
 	end
 
-	local Disperse = 3
-	for j = 1, Disperse do
-		timer.Simple(j * .05, function()
+	for j = 1, 5 do
+		timer.Simple(j * .1, function()
 			local Emitter = ParticleEmitter(Pos)
 
-			for i = 0, Scl / Disperse do
+			for i = 0, 500 do
 				local Dir
 
 				if Normal and Spread then
@@ -26,14 +25,14 @@
 				end
 
 				local particle = Emitter:Add("particle/smokestack", Pos)
-				particle:SetVelocity(Dir * 1000000)
+				particle:SetVelocity(VectorRand() * 100000)
 				particle:SetAirResistance(10)
 				particle:SetGravity(Vector(0, 0, 0))
 				particle:SetDieTime(math.Rand(.1, .5))
 				particle:SetStartAlpha(math.Rand(200, 255))
 				particle:SetEndAlpha(0)
 				particle:SetStartSize(0)
-				particle:SetEndSize(math.Rand(15, 30))
+				particle:SetEndSize(math.Rand(10, 30) * Scale / 3000)
 				particle:SetRoll(math.Rand(-3, 3))
 				particle:SetRollDelta(math.Rand(-3, 3))
 				particle:SetLighting(true)

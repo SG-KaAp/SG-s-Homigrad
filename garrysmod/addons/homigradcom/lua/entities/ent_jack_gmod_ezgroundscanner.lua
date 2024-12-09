@@ -32,9 +32,7 @@ ENT.PhysMatDetectionWhitelist={
 	"solidmetal"
 }
 ENT.StaticPerfSpecs={
-	MaxElectricity=100,
-	MaxDurability=100,
-	Armor=3
+	MaxDurability=100
 }
 ENT.DynamicPerfSpecs={
 	Armor=.8,
@@ -57,26 +55,21 @@ if(SERVER)then
 		self.Snd1:SetSoundLevel(100)
 		self.Snd2:SetSoundLevel(100)
 		self.Snd3:SetSoundLevel(100)
-		--self:InitPerfSpecs()
+		self:InitPerfSpecs()
 	end
 
 	function ENT:TurnOn(activator)
-		if (self:WaterLevel() > 0) and (self:GetGrade() < 3) then return end
-		if self:GetState() > JMod.EZ_STATE_OFF then return end
-		if self:GetElectricity() > 0 then
-			if IsValid(activator) then self.EZstayOn = true end
+		if(self:GetElectricity()>0)then
 			self:SetState(JMod.EZ_STATE_ON)
-			self:SFX("snd_jack_metallicclick.ogg")
+			self:SFX("snd_jack_metallicclick.wav")
 		else
 			JMod.Hint(activator,"nopower")
 		end
 	end
 
-	function ENT:TurnOff(activator)
-		if (self:GetState() <= JMod.EZ_STATE_OFF) then return end
-		if IsValid(activator) then self.EZstayOn = nil end
+	function ENT:TurnOff()
 		self:SetState(JMod.EZ_STATE_OFF)
-		self:EmitSound("snd_jack_metallicclick.ogg",50,100)
+		self:EmitSound("snd_jack_metallicclick.wav",50,100)
 		self.Snd1:Stop()
 		self.Snd2:Stop()
 		self.Snd3:Stop()
@@ -86,12 +79,12 @@ if(SERVER)then
 	function ENT:Use(activator)
 		local State=self:GetState()
 		JMod.Hint(activator,"ground scanner")
-		local OldOwner=self.EZowner
-		JMod.SetEZowner(self,activator)
-		local Alt=activator:KeyDown(JMod.Config.General.AltFunctionKey)
+		local OldOwner=self:GetOwner()
+		JMod.SetOwner(self,activator)
+		local Alt=activator:KeyDown(JMod.Config.AltFunctionKey)
 		if(Alt)then
-			if(IsValid(self.EZowner))then
-				if(OldOwner~=self.EZowner)then -- if owner changed then reset team color
+			if(IsValid(self:GetOwner()))then
+				if(OldOwner~=self:GetOwner())then -- if owner changed then reset team color
 					JMod.Colorify(self)
 				end
 			end
@@ -139,9 +132,6 @@ if(SERVER)then
 
 	function ENT:Think()
 		local State=self:GetState()
-
-		self:UpdateWireOutputs()
-
 		if(State==JMod.EZ_STATE_BROKEN)then
 			self.Snd1:Stop()
 			self.Snd2:Stop()
@@ -151,7 +141,6 @@ if(SERVER)then
 			end
 			return
 		elseif(State==JMod.EZ_STATE_ON)then
-			if (self:WaterLevel() > 0) and (self:GetGrade() ~= 5) then self:TurnOff() return end
 			if(self:GetElectricity()<=0)then self:TurnOff() return end
 			self:ConsumeElectricity(.3)
 			if(self:CanScan())then
@@ -175,7 +164,7 @@ if(SERVER)then
 		self.Snd3:Stop()
 		self:EmitSound(snd,60,100)
 		timer.Simple(1,function()
-			if(IsValid(self)) and (self:GetState()==JMod.EZ_STATE_ON) and (self:GetGrade() ~= 5) then
+			if(IsValid(self) and self:GetState()==JMod.EZ_STATE_ON)then
 				self.Snd1:PlayEx(1, 80)
 				self.Snd2:PlayEx(1, 80)
 				self.Snd3:PlayEx(1, 80)
@@ -233,7 +222,7 @@ if(SERVER)then
 			end
 		end
 		if(#Results>0)then
-			self:SFX("snds_jack_gmod/tone_good.ogg")
+			self:SFX("snds_jack_gmod/tone_good.wav")
 			-- need to convert all the positions to local coordinates
 			local Pos,Ang=self:GetPos(),self:GetAngles()
 			Ang:RotateAroundAxis(Ang:Right(),-90)
@@ -246,7 +235,7 @@ if(SERVER)then
 				return a.siz>b.siz
 			end)
 		else
-			self:SFX("snds_jack_gmod/tone_meh.ogg")
+			self:SFX("snds_jack_gmod/tone_meh.wav")
 		end
 		net.Start("JMod_ResourceScanner")
 		net.WriteEntity(self)
@@ -267,18 +256,11 @@ elseif(CLIENT)then
 		local Ent=net.ReadEntity()
 		if(IsValid(Ent))then
 			Ent.ScanResults=net.ReadTable()
-			if Ent.LastScanTime then
-				Ent.LastScanTime = CurTime()
-			end
 		end
 	end)
 	function ENT:CustomInit()
 		self.Tank = JMod.MakeModel(self, "models/props_wasteland/horizontalcoolingtank04.mdl")
 		self.ScanResults = {}
-	end
-	function ENT:Think()
-		local FT=FrameTime()
-		self.DSU=math.Clamp(self.DSU+FT*.7,0,1)
 	end
 	local SourceUnitsToMeters,MetersToPixels=.0192,7.5
 	local Circol,SourceUnitsToPixels=Material("mat_jack_gmod_blurrycirclefull"),SourceUnitsToMeters*MetersToPixels
@@ -288,7 +270,7 @@ elseif(CLIENT)then
 		local Time,SelfPos,SelfAng,State,Grade=CurTime(),self:GetPos(),self:GetAngles(),self:GetState(),self:GetGrade()
 		if((State==JMod.EZ_STATE_ON)and(self.LastState~=State))then self.DSU=0 end
 		self.LastState=State
-		local Up,Right,Forward=SelfAng:Up(),SelfAng:Right(),SelfAng:Forward()
+		local Up,Right,Forward,FT=SelfAng:Up(),SelfAng:Right(),SelfAng:Forward(),FrameTime()
 		--
 		self:DrawModel()
 		--
@@ -371,8 +353,10 @@ elseif(CLIENT)then
 					draw.SimpleTextOutlined(tostring(math.Round(ProgFrac*100)).."%","JMod-Display",200,-30,Color(R,G,B,Opacity),TEXT_ALIGN_CENTER,TEXT_ALIGN_TOP,3,Color(0,0,0,Opacity))
 				end
 				cam.End3D2D()
+				--
+				self.DSU=math.Clamp(self.DSU+FT*.7,0,1)
 			end
 		end
 	end
-	language.Add("ent_jack_gmod_ezgroundscanner","EZ Ground Scanner")
+	--language.Add("ent_jack_gmod_ezgroundscanner","EZ Ground Scanner")
 end

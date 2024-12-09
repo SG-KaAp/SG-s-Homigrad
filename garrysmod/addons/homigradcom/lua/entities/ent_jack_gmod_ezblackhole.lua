@@ -8,6 +8,12 @@ ENT.Spawnable = false
 ENT.AdminSpawnable = false
 ENT.NoSitAllowed = true
 
+ENT.Blacklist = {"func_", "_dynamic"}
+
+ENT.Whitelist = {"func_physbox", "func_breakable"}
+
+ENT.DamageEnts = {"func_breakable"}
+
 ENT.PhyslessPointEnts = {"rpg_missile", "crossbow_bolt", "grenade_ar2", "grenade_spit", "npc_grenade_bugbait"}
 
 ENT.PhysNPCs = {"npc_cscanner", "npc_clawscanner", "npc_turret_floor", "npc_rollermine"}
@@ -36,12 +42,12 @@ function ENT:SUCC(Time, Phys, Age, Pos, MaxRange)
 			if SERVER and (math.random(1, 100) == 42) then
 				obj:Fire("becomeragdoll", "", 0)
 			end
-		elseif table.HasValue(JMod.Config.Machines.Blackhole.DamageEnts, Class) then
+		elseif table.HasValue(self.DamageEnts, Class) then
 			local Vec = Pos - obj:GetPos()
 			local Dist, Dir = Vec:Length(), Vec:GetNormalized()
 
 			if obj.TakeDamage then
-				obj:TakeDamage((MaxRange - Dist) / MaxRange * 50, obj.EZowner, obj)
+				obj:TakeDamage((MaxRange - Dist) / MaxRange * 50, obj.Owner, obj)
 			end
 		elseif IsValid(ObjPhys) and not (obj == self) and not self:IsBlacklisted(obj) then
 			-- not(obj:IsWorld())and 
@@ -52,7 +58,7 @@ function ENT:SUCC(Time, Phys, Age, Pos, MaxRange)
 				self:Rape(obj)
 			else
 				-- inverse square law bitchins
-				local PullStrength = ((1 - Dist / MaxRange) ^ 2) * JMod.Config.Machines.Blackhole.GravityStrength
+				local PullStrength = ((1 - Dist / MaxRange) ^ 2) * ((JMod.Config and JMod.Config.MicroBlackHoleGravityStrength) or 1)
 				local Mass = ObjPhys:GetMass()
 				local ApplyForce, Mul = true, 1
 
@@ -92,9 +98,9 @@ end
 
 function ENT:IsBlacklisted(ent)
 	local Class = ent:GetClass()
-	if table.HasValue(JMod.Config.Machines.Blackhole.Whitelist, Class) then return false end
+	if table.HasValue(self.Whitelist, Class) then return false end
 
-	for k, v in pairs(JMod.Config.Machines.Blackhole.Blacklist) do
+	for k, v in pairs(self.Blacklist) do
 		if string.find(Class, v) then return true end
 	end
 
@@ -111,7 +117,7 @@ function ENT:Rape(ent)
 		Dmg:SetDamagePosition(SelfPos)
 		Dmg:SetDamageForce((SelfPos - ent:GetPos()) * 10)
 		Dmg:SetInflictor(self)
-		Dmg:SetAttacker((IsValid(self.EZowner) and self.EZowner) or self)
+		Dmg:SetAttacker((IsValid(self:GetOwner()) and self:GetOwner()) or self)
 		ent:TakeDamageInfo(Dmg)
 
 		timer.Simple(0, function()
@@ -129,15 +135,14 @@ end
 
 if SERVER then
 	function ENT:Initialize()
-		self:SetModel("models/dav0r/hoverball.mdl")
-		self:SetMaterial("models/debug/debugwhite")
-		self:SetColor(Color(0, 0, 0))
-		self:SetModelScale(4, 1)
-		self:PhysicsInit(SOLID_VPHYSICS)
-		self:SetMoveType(MOVETYPE_VPHYSICS)
-		self:SetSolid(SOLID_VPHYSICS)
-		self:DrawShadow(true)
-		self.HawkingRadiationAge = JMod.Config.Machines.Blackhole.MaxAge - math.sqrt(JMod.Config.Machines.Blackhole.MaxAge) + 1
+		self.Entity:SetModel("models/dav0r/hoverball.mdl")
+		self.Entity:SetMaterial("models/debug/debugwhite")
+		self.Entity:SetColor(Color(0, 0, 0))
+		self.Entity:SetModelScale(4, 1)
+		self.Entity:PhysicsInit(SOLID_VPHYSICS)
+		self.Entity:SetMoveType(MOVETYPE_VPHYSICS)
+		self.Entity:SetSolid(SOLID_VPHYSICS)
+		self.Entity:DrawShadow(true)
 
 		---
 		timer.Simple(.01, function()
@@ -148,14 +153,12 @@ if SERVER then
 
 		---
 		self:SetAge(.01)
-		self.SoundRecipientFilter = RecipientFilter(true)
-		self.SoundRecipientFilter:AddPVS(self:GetPos())
-		self.SoundLoop = CreateSound(self, "snds_jack_gmod/ezblackhole.ogg", self.SoundRecipientFilter)
+		self.SoundLoop = CreateSound(self, "snds_jack_gmod/ezblackhole.mp3")
 		self.SoundLoop:PlayEx(1, 100)
-		self.SoundLoop:SetSoundLevel(180)
-		self.SoundLoop2 = CreateSound(self, "snds_jack_gmod/ezblackhole.ogg", self.SoundRecipientFilter)
+		self.SoundLoop:SetSoundLevel(160)
+		self.SoundLoop2 = CreateSound(self, "snds_jack_gmod/ezblackhole.mp3")
 		self.SoundLoop2:PlayEx(1, 100)
-		self.SoundLoop2:SetSoundLevel(180)
+		self.SoundLoop2:SetSoundLevel(150)
 		---
 		JMod.BlackHole = self -- global var for ease of comps for bullet hook
 	end
@@ -167,15 +170,15 @@ if SERVER then
 	function ENT:Think()
 		local Time, Phys, Age, Pos = CurTime(), self:GetPhysicsObject(), self:GetAge(), self:LocalToWorld(self:OBBCenter())
 		Phys:EnableMotion(false)
-		self:SetAge(Age + .05 * JMod.Config.Machines.Blackhole.EvaporateSpeed)
+		self:SetAge(Age + .05 * JMod.Config.MicroBlackHoleEvaporateSpeed)
 		local MaxRange = Age * 150
 		self:SUCC(Time, Phys, Age, Pos, MaxRange)
 
-		if Age > self.HawkingRadiationAge then
-			self:EmitHawkingRadiation(Age - self.HawkingRadiationAge)
+		if Age > 90 then
+			self:EmitHawkingRadiation(Age - 90)
 		end
 
-		if Age >= JMod.Config.Machines.Blackhole.MaxAge then
+		if Age >= 100 then
 			self:Die()
 
 			return
@@ -191,7 +194,7 @@ if SERVER then
 		Dmg:SetDamage(power / 10)
 		Dmg:SetDamageType(DMG_RADIATION)
 		Dmg:SetInflictor(self)
-		Dmg:SetAttacker((IsValid(self.EZowner) and self.EZowner) or self)
+		Dmg:SetAttacker((IsValid(self:GetOwner()) and self:GetOwner()) or self)
 		util.BlastDamageInfo(Dmg, self:GetPos(), 10000)
 	end
 
@@ -204,7 +207,6 @@ if SERVER then
 			end)
 		end
 
-		--JMod.GenerateNaturalResources()
 		RunConsoleCommand("r_cleardecals")
 		self:Remove()
 	end
@@ -270,5 +272,5 @@ elseif CLIENT then
 		render.DrawQuadEasy(Pos, -Tilt, 50 * AgeSize, 50 * AgeSize, GargantuaGlow)
 	end
 
-	language.Add("ent_jack_gmod_ezblackhole", "Micro Black Hole")
+	--language.Add("ent_jack_gmod_ezblackhole", "Micro Black Hole")
 end
