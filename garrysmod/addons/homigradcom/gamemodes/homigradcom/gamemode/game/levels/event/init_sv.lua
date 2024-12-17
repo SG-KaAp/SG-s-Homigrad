@@ -16,12 +16,16 @@ function event.EndRound()
     PrintMessage(3,"Если вы хотите закончить раунд, пропишите !levelend")
 end
 
-function event.PlayerSpawn(ply)
+function event.PlayerSpawn(ply,teamID)
     for i,ply in pairs(team.GetPlayers(2)) do
     ply:Give("weapon_physgun")
     ply:Give("weapon_physcannon")
     ply:Give("gmod_tool")
     ply:SetModel("models/player/odessa.mdl")
+    end
+    for i,ply in pairs(team.GetPlayers(1)) do
+        ply:SetModel(ply:SetModel(tdm.models[math.random(#tdm.models)]))
+        ply:SetPlayerColor(color:ToVector())
     end
 end
 
@@ -35,4 +39,4 @@ function event.PlayerCanJoinTeam(ply,teamID)
     end
 end
 
-function event.ShouldFakePhysgun(ply,ent) return false end
+--function event.ShouldFakePhysgun(ply,ent) return false end

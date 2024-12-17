@@ -48,8 +48,7 @@ showRoundInfoColor = Color(255,255,255)
 local yellow = Color(255,255,0)
 
 hook.Add("HUDPaint","homigrad-roundstate",function()
-	if roundActiveName == "event" then return end
-	if roundActive then
+	if roundActive and roundActiveName != "event" then
 		local func = TableRound().HUDPaint_RoundLeft
 
 		if func then
@@ -61,7 +60,7 @@ hook.Add("HUDPaint","homigrad-roundstate",function()
 
 			draw.SimpleText(acurcetime,"HomigradFont",ScrW()/2,ScrH()-25,white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 		end
-	else
+	elseif roundActiveName != "event" then
 		draw.WordBox(5, ScrW() / 2, ScrH() - 50, (#PlayersInGame() <= 1 and "Нужно минимум 2 игрока") or " Раунд закончен ", 'HomigradFont', Color(35, 35, 35, 200), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	end
 

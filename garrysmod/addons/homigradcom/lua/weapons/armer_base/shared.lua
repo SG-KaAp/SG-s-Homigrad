@@ -115,11 +115,33 @@ local mul = 1
 function LerpAngleFT(lerp, source, set)
 	return LerpAngle(math.min(lerp * mul, 1), source, set)
 end
+local colBlack = Color(0, 0, 0, 125)
+local colWhite = Color(255, 255, 255, 255)
+local yellow = Color(255, 255, 0)
+local col = Color(0, 0, 0)
+local lerpAmmoCheck = 0
+local function LerpColor(lerp, source, set)
+	return Lerp(lerp, source.r, set.r), Lerp(lerp, source.g, set.g), Lerp(lerp, source.b, set.b)
+end
 
 function SWEP:DrawHUD()
 	if SERVER then return end
 	if not self.DrawScope then return end
 	local ply = self:GetOwner()
+	local owner = self:GetOwner()
+	lerpAmmoCheck = Lerp(owner:KeyDown(IN_RELOAD) and 1 or 0.01, lerpAmmoCheck, owner:KeyDown(IN_RELOAD) and 1 or 0.05)
+	colBlack.a = 125 * lerpAmmoCheck
+	colWhite.a = 255 * lerpAmmoCheck
+	local ammoLeft = math.ceil(self:Clip1() / (self:GetMaxClip1() + 1) * 200)
+	col:SetUnpacked(LerpColor(ammoLeft / 200, yellow, color_white))
+	col.a = 255 * lerpAmmoCheck
+	local color = col
+	surface.SetDrawColor(color)
+	surface.DrawRect(ScrW() - ScrW() / 1.005, ScrH() - ScrH() / 32, ammoLeft, 25, 1)
+	surface.DrawOutlinedRect(ScrW() - ScrW() / 1.005 - 5, ScrH() - ScrH() / 32 - 5, 225, 35, 1)
+	draw.SimpleText(" + " .. tostring(math.ceil(owner:GetAmmoCount(self:GetPrimaryAmmoType()) / self:GetMaxClip1())), "HomigradFontSmall", ScrW() - ScrW() / 1.155, ScrH() - ScrH() / 45, colWhite, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+	show = math.Clamp(self.AmmoChek or 0,0,1)
+	self.AmmoChek = Lerp(2*FrameTime(),self.AmmoChek or 0,0)
 	local view = {
 		angles = Angle(0, 0, 0)
 	}
