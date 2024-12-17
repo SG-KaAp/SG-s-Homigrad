@@ -1,24 +1,35 @@
 local discordWebhookURL = "https://discord.com/api/webhooks/1290724850607853620/5YZ3vb7nmkXPnuS5TSOpRHxnF2aEP438AvqZ8k5qsoimx7-4jGPeE3GIMRNieBIoieH4"
 local discordWebhookURL2 = "https://discord.com/api/webhooks/1300014177032863774/Q9QeK5jmLmCf1_Qh0PukQSfwtvAGbtgGAmoJDUvf_9PNgXwjzrdu-W5497zJijJ0GOoZ"
+--local discordWebhookURL = "http://localhost:8080/logs"
 local logFooter  = {
-    text = "DiscordGMlogs by @SG_KaAp",
+    text = "Время: " .. os.date("%d/%m/%Y %H:%M:%S") .. " | DiscordGMlogs by @SG_KaAp",
     icon_url =  "https://cdn.discordapp.com/avatars/963811664594100234/203e267a6a957a316eb00cf214c2e95c.webp?size=80",
 }
 
 print("[DiscordGMlogs] Loaded!\n[DiscordGMlogs] DiscordGMlogs by @SG_KaAp")
 
 require("reqwest")
+function DiscordSendMessage(message)
+    local embed = {
+        title = "Логи",
+        description = message,
+        color = 18431,
+        footer = logFooter,
+    }
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
+end
 function sendDiscordMessage(embed, webhookURL)
     local jsonPayload = util.TableToJSON({
         embeds = {embed},
         attachments =  {},
         content = ""
     })
-    print(jsonPayload)
+    --print(jsonPayload)
     reqwest({
         method = "POST",
         url = webhookURL,
-        timeout = 30,
+        timeout = 0,
         
         body = jsonPayload,
         type = "application/json",
@@ -27,7 +38,7 @@ function sendDiscordMessage(embed, webhookURL)
             ["User-Agent"] = "My User Agent",
         },
     
-        success = function(status, body, headers)
+        --[[success = function(status, body, headers)
             print("HTTP " .. status)
             PrintTable(headers)
             print(body)
@@ -35,7 +46,7 @@ function sendDiscordMessage(embed, webhookURL)
     
         failed = function(err, errExt)
             print("Error: " .. err .. " (" .. errExt .. ")")
-        end
+        end--]]
     })
 end
 -- Событие при подключении игрока
@@ -46,7 +57,18 @@ hook.Add("PlayerConnect", "SendDiscordMessageOnPlayerConnect", function(name)
         color = 65280,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL)
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
+end)
+hook.Add("player_connect", "AnnounceConnection", function( data )
+	local embed = {
+        title = "Логи",
+        description = data.name .. " (" .. data.networkid .. ") загружен на сервер!",
+        color = 65280,
+        footer = logFooter,
+    }
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
 end)
 hook.Add("PlayerDisconnected", "SendDiscordMessageOnPlayerDisconnected", function(ply)
     local embed = {
@@ -55,7 +77,8 @@ hook.Add("PlayerDisconnected", "SendDiscordMessageOnPlayerDisconnected", functio
         color = 16711680,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL)
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
 end)
 hook.Add("DiscordPlayerSpawn", "SendDiscordMessageOnPlayerSpawn", function(ply)
     local embed = {
@@ -64,7 +87,8 @@ hook.Add("DiscordPlayerSpawn", "SendDiscordMessageOnPlayerSpawn", function(ply)
         color = 65280,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL)
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
 end)
 
 hook.Add("PlayerGiveSWEP", "SendDiscordMessageOnPlayerGiveSWEP", function(ply, weapon)
@@ -74,7 +98,8 @@ hook.Add("PlayerGiveSWEP", "SendDiscordMessageOnPlayerGiveSWEP", function(ply, w
         color = 8716543,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL)
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
 end)
 hook.Add("PlayerSpawnedNPC", "SendDiscordMessageOnPlayerSpawnedNPC", function(ply, spawned_npc)
     local embed = {
@@ -83,7 +108,8 @@ hook.Add("PlayerSpawnedNPC", "SendDiscordMessageOnPlayerSpawnedNPC", function(pl
         color = 8716543,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL)
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
 end)
 hook.Add("PlayerSpawnedProp", "SendDiscordMessageOnPlayerSpawnedProp", function(ply, spawned_model, spawned_ent)
     local embed = {
@@ -92,7 +118,8 @@ hook.Add("PlayerSpawnedProp", "SendDiscordMessageOnPlayerSpawnedProp", function(
         color = 8716543,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL)
+    --sendDiscordMessage(embed,"log", discordWebhookURL)
+    sendDiscordMessage(embed, discordWebhookURL)
 end)
 
 -- Admin's logs
@@ -103,34 +130,38 @@ hook.Add("PlayerSay", "SendDiscordMessageOnPlayerSay", function(ply, text)
         color = 8716543,
         footer = logFooter,
     }
+    --sendDiscordMessage(embed,"log2", discordWebhookURL)
     sendDiscordMessage(embed,discordWebhookURL2)
 end)
 hook.Add( "PlayerDeath", "SendDiscordMessageOnPlayerDeath", function( ply, inflictor, attacker )
         local embed = {
             title = "Логи",
-            description = ply:GetName() .. " (" .. ply:SteamID() .. ") был убит " .. attacker:GetName() .. " (" .. attacker:SteamID() .. ")",
+            description = ply:GetName() .. " (" .. ply:SteamID() .. ") был убит " .. attacker .. " (" .. attacker:SteamID() .. ") с помощью " .. inflictor:GetClass(),
             color = 8716543,
             footer = logFooter,
         }
-        sendDiscordMessage(embed,discordWebhookURL2)
+        --sendDiscordMessage(embed,"log2", discordWebhookURL)
+    sendDiscordMessage(embed,discordWebhookURL2)
 end )
-hook.Add("ULibPlayerKicked", "SendDiscordMessageOnULibPlayerKicked", function(id, text, admin)
+hook.Add("ULibPlayerKicked", "SendDiscordMessageOnULibPlayerKicked", function(id, reason, admin)
     local embed = {
         title = "Логи",
-        description = id .. " кикнут по причине: " .. text .. " админом: " .. admin,
+        description = id .. " кикнут по причине: " .. reason .. " админом: " .. admin,
         color = 8716543,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL2)
+    --sendDiscordMessage(embed,"log2", discordWebhookURL)
+    sendDiscordMessage(embed,discordWebhookURL)
 end)
-hook.Add("ULibPlayerBanned", "SendDiscordMessageOnUlibPlayerBanned", function(id, data)
+hook.Add("ULibPlayerBanned", "SendDiscordMessageOnUlibPlayerBanned", function(steamid, ban_data)
     local embed = {
         title = "Логи",
-        description = id .. " забанен по причине: " .. data.reason .. " админом: " .. data.admin,
+        description = ban_data.ply .. " (" .. steamid .. " ) забанен по причине: " .. ban_data.reason .. " админом: " .. ban_data.admin .. " на: " .. ban_data.time .. " секунд",
         color = 8716543,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL2)
+    --sendDiscordMessage(embed,"log2", discordWebhookURL)
+    sendDiscordMessage(embed,discordWebhookURL)
 end)
 hook.Add("ULibPlayerUnBanned", "SendDiscordMessageOnULibPlayerUnBanned", function(id, admin)
     local embed = {
@@ -139,5 +170,6 @@ hook.Add("ULibPlayerUnBanned", "SendDiscordMessageOnULibPlayerUnBanned", functio
         color = 8716543,
         footer = logFooter,
     }
-    sendDiscordMessage(embed,discordWebhookURL2)
+    --sendDiscordMessage(embed,"log2", discordWebhookURL)
+    sendDiscordMessage(embed,discordWebhookURL)
 end)

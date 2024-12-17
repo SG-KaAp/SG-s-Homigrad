@@ -157,6 +157,7 @@ function xgui.load_helpers()
 			self:SetFraction( self.value / self.max )
 			self.Label:SetText( "Getting data: " .. datatype .. " - " .. string.format("%.2f", (self.value / self.max) * 100) .. "%" )
 			if self.value == self.max then
+				xgui.dataInitialized = true
 				xgui.expectingdata = nil
 				self.Label:SetText( "Waiting for clientside processing..." )
 				xgui.queueFunctionCall( xgui.chunkbox.SetVisible, "chunkbox", xgui.chunkbox, false )
@@ -258,9 +259,9 @@ function xgui.load_helpers()
 			end
 
 			function outPanel.val:ValueChanged( val )
-				val = math.Clamp( tonumber( val ), self.minvalue or 0, self.maxvalue or 0 )
+				val = math.Clamp( tonumber( val ) or 0, self.minvalue or 0, self.maxvalue or 0 )
 				self.Slider:SetSlideX( self.Scratch:GetFraction( val ) )
-				if ( self.TextArea != vgui.GetKeyboardFocus() ) then
+				if ( self.TextArea ~= vgui.GetKeyboardFocus() ) then
 					self.TextArea:SetValue( self.Scratch:GetTextValue() )
 				end
 				self:OnValueChanged( val )

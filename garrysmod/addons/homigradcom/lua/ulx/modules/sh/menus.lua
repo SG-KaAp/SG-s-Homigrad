@@ -1,4 +1,4 @@
-local CATEGORY_NAME = "Доп.меню"
+local CATEGORY_NAME = "Menus"
 
 if ULib.fileExists( "lua/ulx/modules/cl/motdmenu.lua" ) or ulx.motdmenu_exists then
 	local function sendMotd( ply, showMotd )
@@ -43,17 +43,19 @@ if ULib.fileExists( "lua/ulx/modules/cl/motdmenu.lua" ) or ulx.motdmenu_exists t
 
 	function ulx.motd( calling_ply )
 		if not calling_ply:IsValid() then
-			Msg( "Вы не можете увидеть motd с консоли.\n" )
+			Msg( "You can't see the motd from the console.\n" )
 			return
 		end
 
 		if GetConVarString( "ulx_showMotd" ) == "0" then
-			ULib.tsay( calling_ply, "MOTD отключено сервером." )
+			if GetConVarString( "ulx_motdDisabledMessage" ) == "1" then
+				ULib.tsay( calling_ply, "The MOTD has been disabled on this server." )
+			end
 			return
 		end
 
 		if GetConVarString( "ulx_showMotd" ) == "1" and not ULib.fileExists( GetConVarString( "ulx_motdfile" ) ) then
-			ULib.tsay( calling_ply, "MOTD файл не найден." )
+			ULib.tsay( calling_ply, "The MOTD file could not be found." )
 			return
 		end
 
@@ -61,12 +63,13 @@ if ULib.fileExists( "lua/ulx/modules/cl/motdmenu.lua" ) or ulx.motdmenu_exists t
 	end
 	local motdmenu = ulx.command( CATEGORY_NAME, "ulx motd", ulx.motd, "!motd" )
 	motdmenu:defaultAccess( ULib.ACCESS_ALL )
-	motdmenu:help( "Показ серверное сообщение." )
+	motdmenu:help( "Show the message of the day." )
 
 	if SERVER then
-		ulx.convar( "showMotd", "2", " <0/1/2/3> - MOTD мод. 0 - выкл.", ULib.ACCESS_ADMIN )
-		ulx.convar( "motdfile", "ulx_motd.txt", "MOTD путь до файла режим 1.", ULib.ACCESS_ADMIN )
-		ulx.convar( "motdurl", "ulyssesmod.net", "MOTD URL режим 3.", ULib.ACCESS_ADMIN )
+		ulx.convar( "showMotd", "2", " <0/1/2/3> - MOTD mode. 0 is off.", ULib.ACCESS_ADMIN )
+		ulx.convar( "motdfile", "ulx_motd.txt", "MOTD filepath from gmod root to use if ulx showMotd is 1.", ULib.ACCESS_ADMIN )
+		ulx.convar( "motdurl", "ulyssesmod.net", "MOTD URL to use if ulx showMotd is 3.", ULib.ACCESS_ADMIN )
+		ulx.convar( "motdDisabledMessage", "1", "<0/1> - Show disabled message when MOTD command is run if MOTD is disabled by the server. 0 is off.", ULib.ACCESS_ADMIN )
 
 		function ulx.populateMotdData()
 			if ulx.motdSettings == nil or ulx.motdSettings.info == nil then return end

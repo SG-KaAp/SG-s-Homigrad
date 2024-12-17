@@ -1,4 +1,4 @@
-local CATEGORY_NAME = "Утилиты"
+local CATEGORY_NAME = "Utility"
 
 ------------------------------ Who ------------------------------
 function ulx.who( calling_ply, steamid )
@@ -19,7 +19,7 @@ function ulx.who( calling_ply, steamid )
 		data = ULib.ucl.getUserInfoFromID( steamid )
 
 		if not data then
-			ULib.console( calling_ply, "Нет информации" )
+			ULib.console( calling_ply, "No information for provided id exists" )
 		else
 			ULib.console( calling_ply, "   ID: " .. steamid )
 			ULib.console( calling_ply, " Name: " .. data.name )
@@ -32,7 +32,7 @@ end
 local who = ulx.command( CATEGORY_NAME, "ulx who", ulx.who )
 who:addParam{ type=ULib.cmds.StringArg, hint="steamid", ULib.cmds.optional }
 who:defaultAccess( ULib.ACCESS_ALL )
-who:help( "Показ информации о игроках." )
+who:help( "See information about currently online users." )
 
 ------------------------------ Version ------------------------------
 function ulx.versionCmd( calling_ply )
@@ -46,9 +46,9 @@ version:help( "See version information." )
 ------------------------------ Map ------------------------------
 function ulx.map( calling_ply, map, gamemode )
 	if not gamemode or gamemode == "" then
-		ulx.fancyLogAdmin( calling_ply, "#A сменил карту на #s", map )
+		ulx.fancyLogAdmin( calling_ply, "#A changed the map to #s", map )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A сменил карту на #s с модом #s", map, gamemode )
+		ulx.fancyLogAdmin( calling_ply, "#A changed the map to #s with gamemode #s", map, gamemode )
 	end
 	if gamemode and gamemode ~= "" then
 		game.ConsoleCommand( "gamemode " .. gamemode .. "\n" )
@@ -59,19 +59,19 @@ local map = ulx.command( CATEGORY_NAME, "ulx map", ulx.map, "!map" )
 map:addParam{ type=ULib.cmds.StringArg, completes=ulx.maps, hint="map", error="invalid map \"%s\" specified", ULib.cmds.restrictToCompletes }
 map:addParam{ type=ULib.cmds.StringArg, completes=ulx.gamemodes, hint="gamemode", error="invalid gamemode \"%s\" specified", ULib.cmds.restrictToCompletes, ULib.cmds.optional }
 map:defaultAccess( ULib.ACCESS_ADMIN )
-map:help( "смена карты и мода." )
+map:help( "Changes map and gamemode." )
 
 function ulx.kick( calling_ply, target_ply, reason )
 	if target_ply:IsListenServerHost() then
-		ULib.tsayError( calling_ply, "Этот игрок имеет иммунитет", true )
+		ULib.tsayError( calling_ply, "This player is immune to kicking", true )
 		return
 	end
 
 	if reason and reason ~= "" then
-		ulx.fancyLogAdmin( calling_ply, "#A выкинул с сервера #T (#s)", target_ply, reason )
+		ulx.fancyLogAdmin( calling_ply, "#A kicked #T (#s)", target_ply, reason )
 	else
 		reason = nil
-		ulx.fancyLogAdmin( calling_ply, "#A выкинул с сервера #T", target_ply )
+		ulx.fancyLogAdmin( calling_ply, "#A kicked #T", target_ply )
 	end
 	-- Delay by 1 frame to ensure the chat hook finishes with player intact. Prevents a crash.
 	ULib.queueFunctionCall( ULib.kick, target_ply, reason, calling_ply )
@@ -80,18 +80,18 @@ local kick = ulx.command( CATEGORY_NAME, "ulx kick", ulx.kick, "!kick" )
 kick:addParam{ type=ULib.cmds.PlayerArg }
 kick:addParam{ type=ULib.cmds.StringArg, hint="reason", ULib.cmds.optional, ULib.cmds.takeRestOfLine, completes=ulx.common_kick_reasons }
 kick:defaultAccess( ULib.ACCESS_ADMIN )
-kick:help( "Кикнуть игрока." )
+kick:help( "Kicks target." )
 
 ------------------------------ Ban ------------------------------
 function ulx.ban( calling_ply, target_ply, minutes, reason )
 	if target_ply:IsListenServerHost() or target_ply:IsBot() then
-		ULib.tsayError( calling_ply, "Этот игрок имеет иммунитет", true )
+		ULib.tsayError( calling_ply, "This player is immune to banning", true )
 		return
 	end
 
-	local time = "на #s"
-	if minutes == 0 then time = "чуть-чуть" end
-	local str = "#A забанил #T " .. time
+	local time = "for #s"
+	if minutes == 0 then time = "permanently" end
+	local str = "#A banned #T " .. time
 	if reason and reason ~= "" then str = str .. " (#s)" end
 	ulx.fancyLogAdmin( calling_ply, str, target_ply, minutes ~= 0 and ULib.secondsToStringTime( minutes * 60 ) or reason, reason )
 	-- Delay by 1 frame to ensure any chat hook finishes with player intact. Prevents a crash.
@@ -99,16 +99,16 @@ function ulx.ban( calling_ply, target_ply, minutes, reason )
 end
 local ban = ulx.command( CATEGORY_NAME, "ulx ban", ulx.ban, "!ban", false, false, true )
 ban:addParam{ type=ULib.cmds.PlayerArg }
-ban:addParam{ type=ULib.cmds.NumArg, hint="минут(ы)", ULib.cmds.optional, ULib.cmds.allowTimeString, min=0 }
+ban:addParam{ type=ULib.cmds.NumArg, hint="minutes, 0 for perma", ULib.cmds.optional, ULib.cmds.allowTimeString, min=0 }
 ban:addParam{ type=ULib.cmds.StringArg, hint="reason", ULib.cmds.optional, ULib.cmds.takeRestOfLine, completes=ulx.common_kick_reasons }
 ban:defaultAccess( ULib.ACCESS_ADMIN )
-ban:help( "Выдача БАНА." )
+ban:help( "Bans target." )
 
 ------------------------------ BanID ------------------------------
 function ulx.banid( calling_ply, steamid, minutes, reason )
 	steamid = steamid:upper()
 	if not ULib.isValidSteamID( steamid ) then
-		ULib.tsayError( calling_ply, "Неверный steamid." )
+		ULib.tsayError( calling_ply, "Invalid steamid." )
 		return
 	end
 
@@ -123,13 +123,13 @@ function ulx.banid( calling_ply, steamid, minutes, reason )
 	end
 
 	if target_ply and (target_ply:IsListenServerHost() or target_ply:IsBot()) then
-		ULib.tsayError( calling_ply, "Этот игрок имеет иммунитет", true )
+		ULib.tsayError( calling_ply, "This player is immune to banning", true )
 		return
 	end
 
-	local time = "на #s"
+	local time = "for #s"
 	if minutes == 0 then time = "permanently" end
-	local str = "#A забанил по steamid #s "
+	local str = "#A banned steamid #s "
 	displayid = steamid
 	if name then
 		displayid = displayid .. "(" .. name .. ") "
@@ -140,17 +140,17 @@ function ulx.banid( calling_ply, steamid, minutes, reason )
 	-- Delay by 1 frame to ensure any chat hook finishes with player intact. Prevents a crash.
 	ULib.queueFunctionCall( ULib.addBan, steamid, minutes, reason, name, calling_ply )
 end
-local banid = ulx.command( CATEGORY_NAME, "ulx banid", ulx.banid, nil, false, false, true )
+local banid = ulx.command( CATEGORY_NAME, "ulx banid", ulx.banid, "!banid", false, false, true )
 banid:addParam{ type=ULib.cmds.StringArg, hint="steamid" }
-banid:addParam{ type=ULib.cmds.NumArg, hint="минут(ы)", ULib.cmds.optional, ULib.cmds.allowTimeString, min=0 }
-banid:addParam{ type=ULib.cmds.StringArg, hint="причина", ULib.cmds.optional, ULib.cmds.takeRestOfLine, completes=ulx.common_kick_reasons }
+banid:addParam{ type=ULib.cmds.NumArg, hint="minutes, 0 for perma", ULib.cmds.optional, ULib.cmds.allowTimeString, min=0 }
+banid:addParam{ type=ULib.cmds.StringArg, hint="reason", ULib.cmds.optional, ULib.cmds.takeRestOfLine, completes=ulx.common_kick_reasons }
 banid:defaultAccess( ULib.ACCESS_SUPERADMIN )
-banid:help( "Выдача бана по steamid." )
+banid:help( "Bans steamid." )
 
 function ulx.unban( calling_ply, steamid )
 	steamid = steamid:upper()
 	if not ULib.isValidSteamID( steamid ) then
-		ULib.tsayError( calling_ply, "Неверный steamid." )
+		ULib.tsayError( calling_ply, "Invalid steamid." )
 		return
 	end
 
@@ -158,20 +158,20 @@ function ulx.unban( calling_ply, steamid )
 
 	ULib.unban( steamid, calling_ply )
 	if name then
-		ulx.fancyLogAdmin( calling_ply, "#A снял бан с steamid #s", steamid .. " (" .. name .. ")" )
+		ulx.fancyLogAdmin( calling_ply, "#A unbanned steamid #s", steamid .. " (" .. name .. ")" )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A снял бан с #s", steamid )
+		ulx.fancyLogAdmin( calling_ply, "#A unbanned steamid #s", steamid )
 	end
 end
-local unban = ulx.command( CATEGORY_NAME, "ulx unban", ulx.unban, nil, false, false, true )
+local unban = ulx.command( CATEGORY_NAME, "ulx unban", ulx.unban, "!unban", false, false, true )
 unban:addParam{ type=ULib.cmds.StringArg, hint="steamid" }
 unban:defaultAccess( ULib.ACCESS_ADMIN )
-unban:help( "Разбан игроков." )
+unban:help( "Unbans steamid." )
 
 ------------------------------ Noclip ------------------------------
 function ulx.noclip( calling_ply, target_plys )
 	if not target_plys[ 1 ]:IsValid() then
-		Msg( "Вы бог, вас не сдерживают стены, построенные простыми смертными.\n" )
+		Msg( "You are god, you are not constrained by walls built by mere mortals.\n" )
 		return
 	end
 
@@ -180,7 +180,7 @@ function ulx.noclip( calling_ply, target_plys )
 		local v = target_plys[ i ]
 
 		if v.NoNoclip then
-			ULib.tsayError( calling_ply, v:Nick() .. " сейчас не может быть отменено.", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " can't be noclipped right now.", true )
 		else
 			if v:GetMoveType() == MOVETYPE_WALK then
 				v:SetMoveType( MOVETYPE_NOCLIP )
@@ -189,7 +189,7 @@ function ulx.noclip( calling_ply, target_plys )
 				v:SetMoveType( MOVETYPE_WALK )
 				table.insert( affected_plys, v )
 			else -- Ignore if they're an observer
-				ULib.tsayError( calling_ply, v:Nick() .. " сейчас не может быть отменено.", true )
+				ULib.tsayError( calling_ply, v:Nick() .. " can't be noclipped right now.", true )
 			end
 		end
 	end
@@ -197,11 +197,11 @@ end
 local noclip = ulx.command( CATEGORY_NAME, "ulx noclip", ulx.noclip, "!noclip" )
 noclip:addParam{ type=ULib.cmds.PlayersArg, ULib.cmds.optional }
 noclip:defaultAccess( ULib.ACCESS_ADMIN )
-noclip:help( "Выдача режима полета." )
+noclip:help( "Toggles noclip on target(s)." )
 
 function ulx.spectate( calling_ply, target_ply )
 	if not calling_ply:IsValid() then
-		Msg( "Увы ты не можешь смотреть за консолью.\n" )
+		Msg( "You can't spectate from dedicated server console.\n" )
 		return
 	end
 
@@ -222,6 +222,8 @@ function ulx.spectate( calling_ply, target_ply )
 	local pos = calling_ply:GetPos()
 	local ang = calling_ply:GetAngles()
 
+	local wasAlive = calling_ply:Alive()
+
 	local function stopSpectate( player )
 		if player ~= calling_ply then -- For the spawning, make sure it's them doing the spawning
 			return
@@ -233,7 +235,7 @@ function ulx.spectate( calling_ply, target_ply )
 
 		if player.ULXHasGod then player:GodEnable() end -- Restore if player had ulx god.
 		player:UnSpectate() -- Need this for DarkRP for some reason, works fine without it in sbox
-		ulx.fancyLogAdmin( calling_ply, true, "#A прекратил подглядывать #T", target_ply )
+		ulx.fancyLogAdmin( calling_ply, true, "#A stopped spectating #T", target_ply )
 		ulx.clearExclusive( calling_ply )
 	end
 	hook.Add( "PlayerSpawn", "ulx_unspectatedspawn_" .. calling_ply:EntIndex(), stopSpectate, HOOK_MONITOR_HIGH )
@@ -243,7 +245,9 @@ function ulx.spectate( calling_ply, target_ply )
 		if key ~= IN_FORWARD and key ~= IN_BACK and key ~= IN_MOVELEFT and key ~= IN_MOVERIGHT then return end -- Not a key we're interested in
 
 		hook.Remove( "PlayerSpawn", "ulx_unspectatedspawn_" .. calling_ply:EntIndex() ) -- Otherwise spawn would cause infinite loop
-		ULib.spawn( player, true ) -- Get out of spectate.
+		if wasAlive then -- We don't want to spawn them if they were already dead.
+		    ULib.spawn( player, true ) -- Get out of spectate.
+		end
 		stopSpectate( player )
 		player:SetPos( pos )
 		player:SetAngles( ang )
@@ -261,15 +265,15 @@ function ulx.spectate( calling_ply, target_ply )
 	calling_ply:SpectateEntity( target_ply )
 	calling_ply:StripWeapons() -- Otherwise they can use weapons while spectating
 
-	ULib.tsay( calling_ply, "Чтобы выйти из режима Наблюдателя - Начни двигаться.", true )
+	ULib.tsay( calling_ply, "To get out of spectate, move forward.", true )
 	ulx.setExclusive( calling_ply, "spectating" )
 
-	ulx.fancyLogAdmin( calling_ply, true, "#A стал подглядывать за #T", target_ply )
+	ulx.fancyLogAdmin( calling_ply, true, "#A began spectating #T", target_ply )
 end
 local spectate = ulx.command( CATEGORY_NAME, "ulx spectate", ulx.spectate, "!spectate", true )
 spectate:addParam{ type=ULib.cmds.PlayerArg, target="!^" }
 spectate:defaultAccess( ULib.ACCESS_ADMIN )
-spectate:help( "Просмотр за игроками." )
+spectate:help( "Spectate target." )
 
 function ulx.addForcedDownload( path )
 	if ULib.fileIsDir( path ) then
@@ -393,6 +397,14 @@ function ulx.resettodefaults( calling_ply, param )
 	ULib.fileDelete( "data/ulib/groups.txt" )
 	ULib.fileDelete( "data/ulib/misc_registered.txt" )
 	ULib.fileDelete( "data/ulib/users.txt" )
+	
+  	if sql.TableExists( "ulib_bans" ) then
+    		sql.Query( "DROP TABLE ulib_bans" )
+	end
+	
+  	if sql.TableExists( "ulib_users" ) then
+    		sql.Query( "DROP TABLE ulib_users" )
+	end
 
 	local str = "Please change levels to finish the reset"
 	if calling_ply:IsValid() then

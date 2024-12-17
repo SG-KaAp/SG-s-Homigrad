@@ -16,15 +16,15 @@ end
 xbans.banlist.OnRowRightClick = function( self, LineID, line )
 	local menu = DermaMenu()
 	menu:SetSkin(xgui.settings.skin)
-	menu:AddOption( "Детали", function()
+	menu:AddOption( "Details...", function()
 		if not line:IsValid() then return end
 		xbans.ShowBanDetailsWindow( xgui.data.bans.cache[LineID] )
 	end )
-	menu:AddOption( "Редактировать", function()
+	menu:AddOption( "Edit Ban...", function()
 		if not line:IsValid() then return end
 		xgui.ShowBanWindow( nil, line:GetValue( 5 ), nil, true, xgui.data.bans.cache[LineID] )
 	end )
-	menu:AddOption( "Удалить", function()
+	menu:AddOption( "Remove", function()
 		if not line:IsValid() then return end
 		xbans.RemoveBan( line:GetValue( 5 ), xgui.data.bans.cache[LineID] )
 	end )
@@ -46,7 +46,7 @@ local txtCol = xbans.searchbox:GetTextColor() or Color( 0, 0, 0, 255 )
 xbans.searchbox:SetTextColor( Color( txtCol.r, txtCol.g, txtCol.b, 196 ) ) -- Set initial color
 xbans.searchbox.OnChange = function( pnl )
 	if pnl:GetText() == "" then
-		pnl:SetText( "Поиск" )
+		pnl:SetText( "Search..." )
 		pnl:SelectAll()
 		pnl:SetTextColor( Color( txtCol.r, txtCol.g, txtCol.b, 196 ) )
 	else
@@ -54,7 +54,7 @@ xbans.searchbox.OnChange = function( pnl )
 	end
 end
 xbans.searchbox.OnLoseFocus = function( pnl )
-	if pnl:GetText() == "Поиск" then
+	if pnl:GetText() == "Search..." then
 		searchFilter = ""
 	else
 		searchFilter = pnl:GetText()
@@ -80,15 +80,15 @@ function xbans.sortbox:OnSelect( i, v )
 end
 
 local hidePerma = 0
-xlib.makebutton{ x=355, y=6, w=95, label="Перма: Показ", parent=xbans }.DoClick = function( self )
+xlib.makebutton{ x=355, y=6, w=95, label="Permabans: Show", parent=xbans }.DoClick = function( self )
 	hidePerma = hidePerma + 1
 	if hidePerma == 1 then
-		self:SetText( "Перма: Скрыт" )
+		self:SetText( "Permabans: Hide" )
 	elseif hidePerma == 2 then
-		self:SetText( "Перма: Только" )
+		self:SetText( "Permabans: Only" )
 	elseif hidePerma == 3 then
 		hidePerma = 0
-		self:SetText( "Перма: Показ" )
+		self:SetText( "Permabans: Show" )
 	end
 	xbans.setPage( 1 )
 	xbans.retrieveBans()
@@ -179,9 +179,9 @@ end
 function xbans.RemoveBan( ID, bandata )
 	local tempstr = "<Unknown>"
 	if bandata then tempstr = bandata.name or "<Unknown>" end
-	Derma_Query( "Are you sure you would like to unban " .. tempstr .. " - " .. ID .. "?", "XGUI WARNING", 
+	Derma_Query( "Are you sure you would like to unban " .. tempstr .. " - " .. ID .. "?", "XGUI WARNING",
 		"Remove",	function()
-						RunConsoleCommand( "ulx", "unban", ID ) 
+						RunConsoleCommand( "ulx", "unban", ID )
 						xbans.RemoveBanDetailsWindow( ID )
 					end,
 		"Cancel", 	function() end )
@@ -217,12 +217,12 @@ function xbans.ShowBanDetailsWindow( bandata )
 	xlib.makelabel{ x=90, y=90, label=( tonumber( bandata.unban ) == 0 and "Never" or os.date( "%b %d, %Y - %I:%M:%S %p", math.min(  tonumber( bandata.unban ), 4294967295 ) ) ), parent=panel }
 	xlib.makelabel{ x=10, y=110, label="Length of Ban:", parent=panel }
 	xlib.makelabel{ x=90, y=110, label=( tonumber( bandata.unban ) == 0 and "Permanent" or xgui.ConvertTime( tonumber( bandata.unban ) - bandata.time ) ), parent=panel }
-	xlib.makelabel{ x=33, y=130, label="Осталось:", parent=panel }
+	xlib.makelabel{ x=33, y=130, label="Time Left:", parent=panel }
 	local timeleft = xlib.makelabel{ x=90, y=130, label=( tonumber( bandata.unban ) == 0 and "N/A" or xgui.ConvertTime( tonumber( bandata.unban ) - os.time() ) ), parent=panel }
 	xlib.makelabel{ x=26, y=150, label="Banned By:", parent=panel }
 	if bandata.admin then xlib.makelabel{ x=90, y=150, label=string.gsub( bandata.admin, "%(STEAM_%w:%w:%w*%)", "" ), parent=panel } end
 	if bandata.admin then xlib.makelabel{ x=90, y=165, label=string.match( bandata.admin, "%(STEAM_%w:%w:%w*%)" ), parent=panel } end
-	xlib.makelabel{ x=41, y=185, label="Причина:", parent=panel }
+	xlib.makelabel{ x=41, y=185, label="Reason:", parent=panel }
 	xlib.makelabel{ x=90, y=185, w=190, label=bandata.reason, parent=panel, tooltip=bandata.reason ~= "" and bandata.reason or nil }
 	xlib.makelabel{ x=13, y=205, label="Last Updated:", parent=panel }
 	xlib.makelabel{ x=90, y=205, label=( ( bandata.modified_time == nil ) and "Never" or os.date( "%b %d, %Y - %I:%M:%S %p", tonumber( bandata.modified_time ) ) ), parent=panel }
@@ -365,7 +365,7 @@ function xgui.ShowBanWindow( ply, ID, doFreeze, isUpdate, bandata )
 			end
 			btime = banpanel:GetMinutes()
 			if btime ~= 0 and bandata and btime * 60 + bandata.time < os.time() then
-				Derma_Query( "WARNING! The new ban time you have specified will cause this ban to expire.\nThe minimum time required in order to change the ban length successfully is " 
+				Derma_Query( "WARNING! The new ban time you have specified will cause this ban to expire.\nThe minimum time required in order to change the ban length successfully is "
 						.. xgui.ConvertTime( os.time() - bandata.time ) .. ".\nAre you sure you wish to continue?", "XGUI WARNING",
 					"Expire Ban", function()
 						performUpdate(btime)
@@ -520,4 +520,4 @@ function xbans.UCLChanged()
 end
 hook.Add( "UCLChanged", "xgui_RefreshBansMenu", xbans.UCLChanged )
 
-xgui.addModule( "Баны", xbans, "icon16/exclamation.png", "xgui_managebans" )
+xgui.addModule( "Bans", xbans, "icon16/exclamation.png", "xgui_managebans" )

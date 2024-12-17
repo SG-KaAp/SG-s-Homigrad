@@ -245,7 +245,7 @@ groups.newgroup = xlib.makebutton{ x=245, y=175, w=100, label="Create New...", p
 groups.newgroup.DoClick = function()
 	if not ULib.ucl.groups[groups.gname:GetValue()] then
 		RunConsoleCommand( "ulx", "addgroup", groups.gname:GetValue(), groups.ginherit:GetValue() )
-		if groups.gcantarget:GetValue() ~= "" && groups.gcantarget:GetValue() ~= "*" then
+		if groups.gcantarget:GetValue() ~= "" and groups.gcantarget:GetValue() ~= "*" then
 			ULib.queueFunctionCall( RunConsoleCommand, "ulx", "setgroupcantarget", groups.gname:GetValue(), groups.gcantarget:GetValue() )
 		end
 	else
@@ -489,7 +489,11 @@ xgui.allowedTeamModifiers = {
 
 groups.teammodadd = xlib.makebutton{ x=110, y=180, w=75, label="Add..", disabled=true, parent=groups.pnlG3 }
 groups.teammodadd.DoClick = function()
-	local team = groups.teamlist:GetSelected()[1]:GetColumnText(1)
+	local selectedItem = groups.teamlist:GetSelected()[1]
+	if selectedItem == nil then
+		return
+	end
+	local team = selectedItem:GetColumnText(1)
 	local teamdata
 	for i, v in pairs( xgui.data.teams ) do
 		if v.name == team then teamdata = v end
@@ -519,7 +523,11 @@ groups.teammodadd.DoClick = function()
 end
 groups.teammodremove = xlib.makebutton{ x=185, y=180, w=75, label="Remove", disabled=true, parent=groups.pnlG3 }
 groups.teammodremove.DoClick = function()
-	local team = groups.teamlist:GetSelected()[1]:GetColumnText(1)
+	local selectedItem = groups.teamlist:GetSelected()[1]
+	if selectedItem == nil then
+		return
+	end
+	local team = selectedItem:GetColumnText(1)
 	local modifier = groups.teammodifiers:GetSelected()[1]:GetColumnText(1)
 	RunConsoleCommand( "xgui", "updateTeamValue", team, modifier, "" )
 end
@@ -1022,6 +1030,8 @@ function groups.updateTeams()
 		groups.upbtn:SetDisabled( true )
 		groups.downbtn:SetDisabled( true )
 		groups.teamdelete:SetDisabled( true )
+		groups.teammodadd:SetDisabled( true )
+		groups.teammodremove:SetDisabled( true )
 	end
 	groups.teams:SetText( groups.getGroupsTeam( groups.list:GetValue() ) )
 end
@@ -1276,4 +1286,4 @@ xgui.hookEvent( "users", "remove", groups.playerRemoved, "groupsPlayerRemoved" )
 xgui.hookEvent( "teams", "process", groups.updateTeams, "groupsUpdateTeams" )
 xgui.hookEvent( "accesses", "process", groups.updateAccessPanel, "groupsUpdateAccesses" )
 xgui.hookEvent( "playermodels", "process", groups.updateModelPanel, "groupsUpdateModels" )
-xgui.addModule( "Редактор групп", groups, "icon16/group_gear.png", "xgui_managegroups" )
+xgui.addModule( "Groups", groups, "icon16/group_gear.png", "xgui_managegroups" )

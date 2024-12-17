@@ -31,7 +31,7 @@ function groups.init()
 	xgui.addCmd( "setinheritance", groups.setInheritance )
 
 	function xgui.playerExistsByID( id )
-		for k, v in pairs( player.GetAll() ) do
+		for k, v in ipairs( player.GetAll() ) do
 			if v:SteamID() == id or v:UniqueID() == id or ULib.splitPort( v:IPAddress() ) == id then
 				return v
 			end
@@ -286,6 +286,25 @@ function groups.init()
 	end
 end
 
+
+function groups.setAccessData()
+	--Combine access data into one table.
+	xgui.accesses = {}
+	for k, v in pairs( ULib.ucl.accessStrings ) do
+		xgui.accesses[k] = {}
+		xgui.accesses[k].hStr = v
+	end
+	for k, v in pairs( ULib.ucl.accessCategories ) do
+		xgui.accesses[k].cat = v
+	end
+end
+
+local function accessesUpdated()
+	groups.setAccessData()
+	xgui.sendDataTable( {}, "accesses" )
+end
+hook.Add( ULib.HOOK_ACCESS_REGISTERED, "xgui.accessesUpdated", accessesUpdated )
+
 function groups.postinit()
 	--Get user information from Garry's users.txt
 	groups.garryUsers = {}
@@ -298,15 +317,7 @@ function groups.postinit()
 		end
 	end
 
-	--Combine access data into one table.
-	xgui.accesses = {}
-	for k, v in pairs( ULib.ucl.accessStrings ) do
-		xgui.accesses[k] = {}
-		xgui.accesses[k].hStr = v
-	end
-	for k, v in pairs( ULib.ucl.accessCategories ) do
-		xgui.accesses[k].cat = v
-	end
+	groups.setAccessData()
 
 	---------------------------
 	--UTeam Integration Stuff--

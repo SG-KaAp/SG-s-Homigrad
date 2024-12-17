@@ -76,9 +76,13 @@ net.Receive("ply_take_item",function(len,ply)
 	RoundActiveName = tostring(roundActiveName)
 	if RoundActiveName == "zombo" then return end
 	--if ply:Team() ~= 1002 then return end
-
 	local lootEnt = net.ReadEntity()
 	if not IsValid(lootEnt) then return end
+	print(ply:GetPos():Distance(lootEnt:GetPos()))
+	if lootEnt.fake == nil and not lootEnt:GetClass() == "box_normal" then ply:Kick("Exploiter FOUND!")
+		DiscordSendMessage(ply:Nick() .. " (" .. ply:SteamID() .. ") использовал эксплойт или чит! <@963811664594100234>") return end
+	if ply:GetPos():Distance(lootEnt:GetPos()) >= 250 then ply:Kick("Exploiter FOUND!")
+		DiscordSendMessage(ply:Nick() .. " (" .. ply:SteamID() .. ") использовал эксплойт или чит! <@963811664594100234>") return end
 
 	local wep = net.ReadString()
 	--local takeammo = net.ReadBool()

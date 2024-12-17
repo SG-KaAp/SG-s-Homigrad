@@ -519,6 +519,10 @@ if engine.ActiveGamemode() == "homigradcom" then
 		local wep = net.ReadEntity()
 		local oldclip = wep:Clip1()
 		local ammo = wep:GetPrimaryAmmoType()
+		if wep:GetOwner() != ply then
+            ply:Kick("Exploiter FOUND!")
+			DiscordSendMessage(ply:Nick() .. " (" .. ply:SteamID() .. ") использовал эксплойт или чит! <@963811664594100234>")
+		end
 		wep:EmitSound("snd_jack_hmcd_ammotake.wav")
 		wep:SetClip1(0)
 		ply:GiveAmmo(oldclip,ammo)

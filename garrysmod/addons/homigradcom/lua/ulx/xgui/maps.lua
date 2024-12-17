@@ -173,4 +173,4 @@ hook.Add( "ULibReplicatedCvarChanged", "XGUI_mapsUpdateVotemapEnabled", maps.Con
 
 xgui.hookEvent( "onProcessModules", nil, maps.updatePermissions, "mapsUpdatePermissions" )
 xgui.hookEvent( "votemaps", "process", maps.updateVoteMaps, "mapsUpdateVotemaps" )
-xgui.addModule( "Карты", maps, "icon16/map.png" )
+xgui.addModule( "Maps", maps, "icon16/map.png" )

@@ -98,7 +98,7 @@ hook.Add("Player Think","homigrad-blood",function(ply,time)
 
 		BloodParticle(ent:GetPos() + ent:OBBCenter(),VectorRand(-15,15))
 	elseif ply.Blood < 5000 and not ply.heartstop then
-		ply.Blood = ply.Blood + math.max(math.ceil(ply.hungryregen),1) * 10 + ply.adrenaline * 20
+		ply.Blood = ply.Blood + ply.adrenaline * 20
 	end
 
 	if ply.bloodNext > time then return end

@@ -512,6 +512,10 @@ function cmds.PlayerArg:parseAndValidate( ply, arg, cmdInfo, plyRestrictions )
 	self:processRestrictions( ply, cmdInfo, plyRestrictions )
 
 	if not arg and table.HasValue( cmdInfo, cmds.optional ) then
+		if not cmdInfo.default and not ply:IsValid() then
+			return nil, "target must be specified"
+		end
+
 		arg = cmdInfo.default or "$" .. ULib.getUniqueIDForPlayer( ply ) -- Set it, needs to go through our process
 	end
 
@@ -623,6 +627,10 @@ function cmds.PlayersArg:parseAndValidate( ply, arg, cmdInfo, plyRestrictions )
 	self:processRestrictions( ply, cmdInfo, plyRestrictions )
 
 	if not arg and table.HasValue( cmdInfo, cmds.optional ) then
+		if not cmdInfo.default and not ply:IsValid() then
+			return nil, "target must be specified"
+		end
+
 		arg = cmdInfo.default or "$" .. ULib.getUniqueIDForPlayer( ply ) -- Set it, needs to go through our process
 	end
 
@@ -1344,9 +1352,8 @@ local function routedCommandCallback( ply, commandName, argv )
 	if not routedCmds[ commandName:lower() ] then
 		return error( "Base command \"" .. commandName .. "\" is not defined!" )
 	end
-	local orig_argv = argv
-	local orig_commandName = commandName
 
+	local currTable
 	currTable, commandName, argv = cmds.getCommandTableAndArgv( commandName, argv, true )
 	cmds.execute( currTable, ply, commandName, argv )
 end
@@ -1362,7 +1369,10 @@ if SERVER then
 
 	local function hookRoute( ply, command, argv )
 		if #argv > 0 then
-			concommand.Run( ply, table.remove( argv, 1 ), argv )
+			local commandName = table.remove( argv, 1 )
+			if routedCmds[ commandName:lower() ] then
+				routedCommandCallback( ply, commandName, argv )
+			end
 		end
 	end
 	concommand.Add( "_u", hookRoute )

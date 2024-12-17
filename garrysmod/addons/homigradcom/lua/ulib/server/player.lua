@@ -80,65 +80,6 @@ function ULib.slap( ent, damage, power, nosound )
 	ent:SetHealth( newHp )
 end
 
--- ULib default ban message
-ULib.BanMessage = [[
--------===== [ BANNED ] =====-------
-
----= Reason =---
-{{REASON}}
-
----= Time Left =---
-{{TIME_LEFT}} ]]
-
-function ULib.getBanMessage( steamid, banData, templateMessage )
-	banData = banData or ULib.bans[ steamid ]
-	if not banData then return end
-	templateMessage = templateMessage or ULib.BanMessage
-
-	local replacements = {
-		BANNED_BY = "(Unknown)",
-		BAN_START = "(Unknown)",
-		REASON = "(None given)",
-		TIME_LEFT = "(Permaban)",
-		STEAMID = steamid:gsub("%D", ""),
-		STEAMID64 = util.SteamIDTo64( steamid ),
-	}
-
-	if banData.admin and banData.admin ~= "" then
-		replacements.BANNED_BY = banData.admin
-	end
-
-	local time = tonumber( banData.time )
-	if time and time > 0 then
-		replacements.BAN_START = os.date( "%c", time )
-	end
-
-	if banData.reason and banData.reason ~= "" then
-		replacements.REASON = banData.reason
-	end
-
-	local unban = tonumber( banData.unban )
-	if unban and unban > 0 then
-		replacements.TIME_LEFT = ULib.secondsToStringTime( unban - os.time() )
-	end
-
-	return templateMessage:gsub( "{{([%w_]+)}}", replacements )
-end
-
-local function checkBan( steamid64, ip, password, clpassword, name )
-	local steamid = util.SteamIDFrom64( steamid64 )
-	local banData = ULib.bans[ steamid ]
-	if not banData then return end -- Not banned
-
-	-- Nothing useful to show them, go to default message
-	if not banData.admin and not banData.reason and not banData.unban and not banData.time then return end
-
-	local message = ULib.getBanMessage( steamid )
-	Msg(string.format("%s (%s)<%s> was kicked by ULib because they are on the ban list\n", name, steamid, ip))
-	return false, message
-end
-hook.Add( "CheckPassword", "ULibBanCheck", checkBan, HOOK_LOW )
--- Low priority to allow servers to easily have another ban message addon
 
 --[[
 	Function: kick
@@ -169,153 +110,6 @@ function ULib.kick( ply, reason, calling_ply )
 	hook.Call( ULib.HOOK_USER_KICKED, _, steamid, reason or "[ULX] Kicked from server", calling_ply )
 end
 
-
---[[
-	Function: ban
-
-	Bans a user.
-
-	Parameters:
-
-		ply - The player to ban.
-		time - *(Optional)* The time in minutes to ban the person for, leave nil or 0 for permaban.
-		reason - *(Optional)* The reason for banning
-		admin - *(Optional)* Admin player enacting ban
-
-	Revisions:
-
-		v2.10 - Added support for custom ban list
-]]
-function ULib.ban( ply, time, reason, admin )
-	if not time or type( time ) ~= "number" then
-		time = 0
-	end
-
-	ULib.addBan( ply:SteamID(), time, reason, ply:Name(), admin )
-
-	-- Load our currently banned users so we don't overwrite them
-	if ULib.fileExists( "cfg/banned_user.cfg" ) then
-		ULib.execFile( "cfg/banned_user.cfg" )
-	end
-end
-
-
---[[
-	Function: kickban
-
-	An alias for <ban>.
-]]
-ULib.kickban = ULib.ban
-
-
---[[
-	Function: addBan
-
-	Helper function to store additional data about bans.
-
-	Parameters:
-
-		steamid - Banned player's steamid
-		time - Length of ban in minutes, use 0 for permanant bans
-		reason - *(Optional)* Reason for banning
-		name - *(Optional)* Name of player banned
-		admin - *(Optional)* Admin player enacting the ban
-
-	Revisions:
-
-		2.10 - Initial
-		2.40 - If the steamid is connected, kicks them with the reason given
-]]
-function ULib.addBan( steamid, time, reason, name, admin )
-	if reason == "" then reason = nil end
-
-	local admin_name
-	if admin then
-		admin_name = "(Console)"
-		if admin:IsValid() then
-			admin_name = string.format( "%s(%s)", admin:Name(), admin:SteamID() )
-		end
-	end
-
-	local t = {}
-	local timeNow = os.time()
-	if ULib.bans[ steamid ] then
-		t = ULib.bans[ steamid ]
-		t.modified_admin = admin_name
-		t.modified_time = timeNow
-	else
-		t.admin = admin_name
-	end
-	t.time = t.time or timeNow
-	if time > 0 then
-		t.unban = ( ( time * 60 ) + timeNow )
-	else
-		t.unban = 0
-	end
-	if reason then
-		t.reason = reason
-	end
-	if name then
-		t.name = name
-	end
-	ULib.bans[ steamid ] = t
-
-	local strTime = time ~= 0 and ULib.secondsToStringTime( time*60 )
-	local shortReason = "Banned for " .. (strTime or "eternity")
-	if reason then
-		shortReason = shortReason .. ": " .. reason
-	end
-
-	local longReason = shortReason
-	if reason or strTime or admin then -- If we have something useful to show
-		longReason = "\n" .. ULib.getBanMessage( steamid ) .. "\n" -- Newlines because we are forced to show "Disconnect: <msg>."
-	end
-
-	local ply = player.GetBySteamID( steamid )
-	if ply then
-		ULib.kick( ply, longReason, nil, true)
-	end
-
-	-- Remove all semicolons from the reason to prevent command injection
-	shortReason = string.gsub(shortReason, ";", "")
-
-	-- This redundant kick code is to ensure they're kicked -- even if they're joining
-	game.ConsoleCommand( string.format( "kickid %s %s\n", steamid, shortReason or "" ) )
-	game.ConsoleCommand( string.format( "banid %f %s kick\n", time, steamid ) )
-	game.ConsoleCommand( "writeid\n" )
-
-	ULib.fileWrite( ULib.BANS_FILE, ULib.makeKeyValues( ULib.bans ) )
-	hook.Call( ULib.HOOK_USER_BANNED, _, steamid, t )
-end
-
---[[
-	Function: unban
-
-	Unbans the given steamid.
-
-	Parameters:
-
-		steamid - The steamid to unban.
-		admin - *(Optional)* Admin player unbanning steamid
-
-	Revisions:
-
-		v2.10 - Initial
-]]
-function ULib.unban( steamid, admin )
-
-	--Default banlist
-	if ULib.fileExists( "cfg/banned_user.cfg" ) then
-		ULib.execFile( "cfg/banned_user.cfg" )
-	end
-	ULib.queueFunctionCall( game.ConsoleCommand, "removeid " .. steamid .. ";writeid\n" ) -- Execute after done loading bans
-
-	--ULib banlist
-	ULib.bans[ steamid ] = nil
-	ULib.fileWrite( ULib.BANS_FILE, ULib.makeKeyValues( ULib.bans ) )
-	hook.Call( ULib.HOOK_USER_UNBANNED, _, steamid, admin )
-
-end
 
 local function doInvis()
 	local players = player.GetAll()
@@ -400,75 +194,6 @@ end
 
 
 --[[
-	Function: refreshBans
-
-	Refreshes the ULib bans.
-]]
-function ULib.refreshBans()
-	local err
-	if not ULib.fileExists( ULib.BANS_FILE ) then
-		ULib.bans = {}
-	else
-		ULib.bans, err = ULib.parseKeyValues( ULib.fileRead( ULib.BANS_FILE ) )
-	end
-
-	if err then
-		Msg( "Bans file was not formatted correctly. Attempting to fix and backing up original\n" )
-		if err then
-			Msg( "Error while reading bans file was: " .. err .. "\n" )
-		end
-		Msg( "Original file was backed up to " .. ULib.backupFile( ULib.BANS_FILE ) .. "\n" )
-		ULib.bans = {}
-	end
-
-	local default_bans = ""
-	if ULib.fileExists( "cfg/banned_user.cfg" ) then
-		ULib.execFile( "cfg/banned_user.cfg" )
-		ULib.queueFunctionCall( game.ConsoleCommand, "writeid\n" )
-		default_bans = ULib.fileRead( "cfg/banned_user.cfg" )
-	end
-
-	--default_bans = ULib.makePatternSafe( default_bans )
-	default_bans = string.gsub( default_bans, "banid %d+ ", "" )
-	default_bans = string.Explode( "\n", default_bans:gsub( "\r", "" ) )
-	local ban_set = {}
-	for _, v in pairs( default_bans ) do
-		if v ~= "" then
-			ban_set[ v ] = true
-			if not ULib.bans[ v ] then
-				ULib.bans[ v ] = { unban = 0 }
-			end
-		end
-	end
-
-	local commandBuffer = ""
-	for k, v in pairs( ULib.bans ) do
-		if type( v ) == "table" and type( k ) == "string" then
-			local time = ( v.unban - os.time() ) / 60
-			if time > 0 then
-				--game.ConsoleCommand( string.format( "banid %f %s\n", time, k ) )
-				commandBuffer = string.format( "%sbanid %f %s\n", commandBuffer, time, k )
-			elseif math.floor( v.unban ) == 0 then -- We floor it because GM10 has floating point errors that might make it be 0.1e-20 or something dumb.
-				if not ban_set[ k ] then
-					ULib.bans[ k ] = nil
-				end
-			else
-				ULib.bans[ k ] = nil
-			end
-		else
-			Msg( "Warning: Bad ban data is being ignored, key = " .. tostring( k ) .. "\n" )
-			ULib.bans[ k ] = nil
-		end
-	end
-	ULib.execString( commandBuffer, "InitBans" )
-
-	-- We're queueing this because it will split the load out for VERY large ban files
-	ULib.queueFunctionCall( function() ULib.fileWrite( ULib.BANS_FILE, ULib.makeKeyValues( ULib.bans ) ) end )
-end
-hook.Add( "Initialize", "ULibLoadBans", ULib.refreshBans, HOOK_MONITOR_HIGH )
-
-
---[[
 	Function: getSpawnInfo
 
 	Grabs and returns player information that can be used to respawn player with same health/armor as before the spawn.
@@ -482,26 +207,27 @@ hook.Add( "Initialize", "ULibLoadBans", ULib.refreshBans, HOOK_MONITOR_HIGH )
 
 		Updates player object to store health and armor. Has no effect unless ULib.Spawn is used later.
 ]]
-function ULib.getSpawnInfo( player )
-	local result = {}
-
+function ULib.getSpawnInfo( ply )
 	local t = {}
-	player.ULibSpawnInfo = t
-	t.health = player:Health()
-	t.armor = player:Armor()
-	if player:GetActiveWeapon():IsValid() then
-		t.curweapon = player:GetActiveWeapon():GetClass()
+	ply.ULibSpawnInfo = t
+
+	t.health = ply:Health()
+	t.armor = ply:Armor()
+
+	local wep = ply:GetActiveWeapon()
+	if IsValid( wep ) then
+		t.curweapon = wep:GetClass()
 	end
 
-	local weapons = player:GetWeapons()
 	local data = {}
+	local weapons = ply:GetWeapons()
 	for _, weapon in ipairs( weapons ) do
-		printname = weapon:GetClass()
-		data[ printname ] = {}
-		data[ printname ].clip1 = weapon:Clip1()
-		data[ printname ].clip2 = weapon:Clip2()
-		data[ printname ].ammo1 = player:GetAmmoCount( weapon:GetPrimaryAmmoType() )
-		data[ printname ].ammo2 = player:GetAmmoCount( weapon:GetSecondaryAmmoType() )
+		local class = weapon:GetClass()
+		data[ class ] = {}
+		data[ class ].clip1 = weapon:Clip1()
+		data[ class ].clip2 = weapon:Clip2()
+		data[ class ].ammo1 = ply:GetAmmoCount( weapon:GetPrimaryAmmoType() )
+		data[ class ].ammo2 = ply:GetAmmoCount( weapon:GetSecondaryAmmoType() )
 	end
 	t.data = data
 end
@@ -513,13 +239,24 @@ local function doWeapons( player, t )
 	player:StripAmmo()
 	player:StripWeapons()
 
-	for printname, data in pairs( t.data ) do
-		player:Give( printname )
-		local weapon = player:GetWeapon( printname )
-		weapon:SetClip1( data.clip1 )
-		weapon:SetClip2( data.clip2 )
-		player:SetAmmo( data.ammo1, weapon:GetPrimaryAmmoType() )
-		player:SetAmmo( data.ammo2, weapon:GetSecondaryAmmoType() )
+	for class, data in pairs( t.data ) do
+		local weapon = player:Give( class )
+		if not IsValid( weapon ) then
+			weapon = player:GetWeapon( class )
+		end
+
+		if IsValid( weapon ) then
+			if weapon.SetClip1 then
+				weapon:SetClip1( data.clip1 )
+			end
+
+			if weapon.SetClip2 then
+				weapon:SetClip2( data.clip2 )
+			end
+
+			player:SetAmmo( data.ammo1, weapon:GetPrimaryAmmoType() )
+			player:SetAmmo( data.ammo2, weapon:GetSecondaryAmmoType() )
+		end
 	end
 
 	if t.curweapon then

@@ -1,15 +1,20 @@
 -- This module holds any type of chatting functions
-CATEGORY_NAME = "Чат"
+CATEGORY_NAME = "Chat"
 
 ------------------------------ Psay ------------------------------
 function ulx.psay( calling_ply, target_ply, message )
-	ulx.fancyLog( { target_ply, calling_ply }, "#P пишет #P: " .. message, calling_ply, target_ply )
+	if calling_ply:GetNWBool( "ulx_muted", false ) then
+		ULib.tsayError( calling_ply, "You are muted, and therefore cannot speak! Use asay for admin chat if urgent.", true )
+		return
+	end
+
+	ulx.fancyLog( { target_ply, calling_ply }, "#P to #P: " .. message, calling_ply, target_ply )
 end
 local psay = ulx.command( CATEGORY_NAME, "ulx psay", ulx.psay, "!p", true )
 psay:addParam{ type=ULib.cmds.PlayerArg, target="!^", ULib.cmds.ignoreCanTarget }
-psay:addParam{ type=ULib.cmds.StringArg, hint="текст", ULib.cmds.takeRestOfLine }
+psay:addParam{ type=ULib.cmds.StringArg, hint="message", ULib.cmds.takeRestOfLine }
 psay:defaultAccess( ULib.ACCESS_ALL )
-psay:help( "Отправить личное сообщение." )
+psay:help( "Send a private message to target." )
 
 ------------------------------ Asay ------------------------------
 local seeasayAccess = "ulx seeasay"
@@ -22,7 +27,7 @@ function ulx.asay( calling_ply, message )
 		format = "(ADMINS) *** #P #s"
 		message = message:sub( me:len() + 1 )
 	else
-		format = "#P обращается: #s"
+		format = "#P to admins: #s"
 	end
 
 	local players = player.GetAll()
@@ -35,10 +40,10 @@ function ulx.asay( calling_ply, message )
 
 	ulx.fancyLog( players, format, calling_ply, message )
 end
-local asay = ulx.command( CATEGORY_NAME, "ulx asay", ulx.asay, "asay", true, true )
+local asay = ulx.command( CATEGORY_NAME, "ulx asay", ulx.asay, "@@@@", true, true )
 asay:addParam{ type=ULib.cmds.StringArg, hint="message", ULib.cmds.takeRestOfLine }
 asay:defaultAccess( ULib.ACCESS_ALL )
-asay:help( "Отправить сообщение админам." )
+asay:help( "Send a message to currently connected admins." )
 
 ------------------------------ Tsay ------------------------------
 function ulx.tsay( calling_ply, message )
@@ -51,7 +56,7 @@ end
 local tsay = ulx.command( CATEGORY_NAME, "ulx tsay", ulx.tsay, "@@", true, true )
 tsay:addParam{ type=ULib.cmds.StringArg, hint="message", ULib.cmds.takeRestOfLine }
 tsay:defaultAccess( ULib.ACCESS_ADMIN )
-tsay:help( "Отображение сообщения в чате." )
+tsay:help( "Send a message to everyone in the chat box." )
 
 ------------------------------ Csay ------------------------------
 function ulx.csay( calling_ply, message )
@@ -64,23 +69,23 @@ end
 local csay = ulx.command( CATEGORY_NAME, "ulx csay", ulx.csay, "@@@", true, true )
 csay:addParam{ type=ULib.cmds.StringArg, hint="message", ULib.cmds.takeRestOfLine }
 csay:defaultAccess( ULib.ACCESS_ADMIN )
-csay:help( "Показ сообщения в центре экрана." )
+csay:help( "Send a message to everyone in the middle of their screen." )
 
 ------------------------------ Thetime ------------------------------
 local waittime = 60
 local lasttimeusage = -waittime
 function ulx.thetime( calling_ply )
 	if lasttimeusage + waittime > CurTime() then
-		ULib.tsayError( calling_ply, "Так стоп, подожди " .. waittime .. " секунд(ы).", true )
+		ULib.tsayError( calling_ply, "I just told you what time it is! Please wait " .. waittime .. " seconds before using this command again", true )
 		return
 	end
 
 	lasttimeusage = CurTime()
-	ulx.fancyLog( "Текущее серверное время #s.", os.date( "%I:%M %p") )
+	ulx.fancyLog( "The time is now #s.", os.date( "%I:%M %p") )
 end
 local thetime = ulx.command( CATEGORY_NAME, "ulx thetime", ulx.thetime, "!thetime" )
 thetime:defaultAccess( ULib.ACCESS_ALL )
-thetime:help( "Показ времени." )
+thetime:help( "Shows you the server time." )
 
 
 ------------------------------ Adverts ------------------------------
@@ -172,16 +177,16 @@ function ulx.gimp( calling_ply, target_plys, should_ungimp )
 	end
 
 	if not should_ungimp then
-		ulx.fancyLogAdmin( calling_ply, "#A вставил кляп в рот #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A gimped #T", target_plys )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A вытащил кляп изо рта #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A ungimped #T", target_plys )
 	end
 end
 local gimp = ulx.command( CATEGORY_NAME, "ulx gimp", ulx.gimp, "!gimp" )
 gimp:addParam{ type=ULib.cmds.PlayersArg }
 gimp:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 gimp:defaultAccess( ULib.ACCESS_ADMIN )
-gimp:help( "Заменяет сообщения игрока на сообщения из списка." )
+gimp:help( "Gimps target(s) so they are unable to chat normally." )
 gimp:setOpposite( "ulx ungimp", {_, _, true}, "!ungimp" )
 
 ------------------------------ Mute ------------------------------
@@ -197,16 +202,16 @@ function ulx.mute( calling_ply, target_plys, should_unmute )
 	end
 
 	if not should_unmute then
-		ulx.fancyLogAdmin( calling_ply, "#A отключил весь чат #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A muted #T", target_plys )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A вернул возможность общения #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A unmuted #T", target_plys )
 	end
 end
 local mute = ulx.command( CATEGORY_NAME, "ulx mute", ulx.mute, "!mute" )
 mute:addParam{ type=ULib.cmds.PlayersArg }
 mute:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 mute:defaultAccess( ULib.ACCESS_ADMIN )
-mute:help( "Отключает игроку доступ к общению." )
+mute:help( "Mutes target(s) so they are unable to chat." )
 mute:setOpposite( "ulx unmute", {_, _, true}, "!unmute" )
 
 if SERVER then
@@ -230,16 +235,16 @@ function ulx.gag( calling_ply, target_plys, should_ungag )
 	end
 
 	if not should_ungag then
-		ulx.fancyLogAdmin( calling_ply, "#A заткнул #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A gagged #T", target_plys )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A вернул голос #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A ungagged #T", target_plys )
 	end
 end
 local gag = ulx.command( CATEGORY_NAME, "ulx gag", ulx.gag, "!gag" )
 gag:addParam{ type=ULib.cmds.PlayersArg }
 gag:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 gag:defaultAccess( ULib.ACCESS_ADMIN )
-gag:help( "Вырубает войс болтунам." )
+gag:help( "Gag target(s), disables microphone." )
 gag:setOpposite( "ulx ungag", {_, _, true}, "!ungag" )
 
 local function gagHook( listener, talker )
@@ -251,7 +256,7 @@ hook.Add( "PlayerCanHearPlayersVoice", "ULXGag", gagHook )
 
 -- Anti-spam stuff
 if SERVER then
-	local chattime_cvar = ulx.convar( "chattime", "1.5", "Частота написания текста в чате. 0 - отключить.", ULib.ACCESS_ADMIN )
+	local chattime_cvar = ulx.convar( "chattime", "1.5", "<time> - Players can only chat every x seconds (anti-spam). 0 to disable.", ULib.ACCESS_ADMIN )
 	local function playerSay( ply )
 		if not ply.lastChatTime then ply.lastChatTime = 0 end
 
@@ -311,6 +316,6 @@ local function showWelcome( ply )
 end
 hook.Add( "PlayerInitialSpawn", "ULXWelcome", showWelcome )
 if SERVER then
-	ulx.convar( "meChatEnabled", "1", "Доступ к '/me' в чате. 0 = Отключено, 1 = Sandbox, 2 = Включено", ULib.ACCESS_ADMIN )
-	ulx.convar( "welcomemessage", "", "<msg> - Текст сообщения при подключении.", ULib.ACCESS_ADMIN )
+	ulx.convar( "meChatEnabled", "1", "Allow players to use '/me' in chat. 0 = Disabled, 1 = Sandbox only (Default), 2 = Enabled", ULib.ACCESS_ADMIN )
+	ulx.convar( "welcomemessage", "", "<msg> - This is shown to players on join.", ULib.ACCESS_ADMIN )
 end

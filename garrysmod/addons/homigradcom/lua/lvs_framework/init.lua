@@ -70,6 +70,118 @@ end
 
 resource.AddWorkshop("2912816023")
 
+local ValveWierdBlastDamageClass = {
+	["npc_strider"] = true, -- takes 70 damage for each blast damage as constant value ...
+	["npc_combinegunship"] = true, -- takes 44 damage as constant value ...
+	["func_breakable_surf"] = true, -- this entity dont care about anything that isnt a trace attack or blast damage
+}
+
+function LVS:BlastDamage( pos, forward, attacker, inflictor, damage, damagetype, radius, force )
+
+	local dmginfo = DamageInfo()
+	dmginfo:SetAttacker( attacker )
+	dmginfo:SetInflictor( inflictor )
+	dmginfo:SetDamage( damage )
+	dmginfo:SetDamageType( damagetype == DMG_BLAST and DMG_SONIC or damagetype )
+
+	if damagetype ~= DMG_BLAST then
+		dmginfo:SetDamagePosition( pos )
+		dmginfo:SetDamageForce( forward * force )
+
+		util.BlastDamageInfo( dmginfo, pos, radius )
+
+		return
+	end
+
+	util.BlastDamageInfo( dmginfo, pos, radius )
+
+	local FragmentAngle = 10
+	local NumFragments = 16
+	local NumFragmentsMissed = 0
+
+	local RegisteredHits = {}
+
+	local trace = util.TraceLine( {
+		start = pos,
+		endpos = pos - forward * radius,
+		filter = { attacker, inflictor },
+	} )
+
+	local startpos = trace.HitPos
+
+	for i = 1, NumFragments do
+		local ang = forward:Angle() + Angle( math.random(-FragmentAngle,FragmentAngle), math.random(-FragmentAngle,FragmentAngle), 0 )
+		local dir = ang:Forward()
+
+		local endpos = pos + dir * radius
+
+		local trace = util.TraceLine( {
+			start = startpos,
+			endpos = endpos,
+			filter = { attacker, inflictor },
+		} )
+
+		debugoverlay.Line( startpos, trace.HitPos, 10, Color( 255, 0, 0, 255 ), true )
+
+		if not trace.Hit then
+			NumFragmentsMissed = NumFragmentsMissed + 1
+
+			continue
+		end
+
+		if not IsValid( trace.Entity ) then continue end
+
+		if not RegisteredHits[ trace.Entity ] then
+			RegisteredHits[ trace.Entity ] = {}
+		end
+
+		table.insert( RegisteredHits[ trace.Entity ], {
+			origin = trace.HitPos,
+			force = dir * force,
+		} )
+	end
+
+	if NumFragmentsMissed == NumFragments then return end
+
+	local DamageBoost = NumFragments / ( NumFragments - NumFragmentsMissed )
+
+	for ent, data in pairs( RegisteredHits ) do
+		local NumHits = #data
+		local AverageOrigin = vector_origin
+		local AverageForce = vector_origin
+
+		for _, HitData in pairs( data ) do
+			AverageOrigin = AverageOrigin + HitData.origin
+			AverageForce = AverageForce + HitData.force
+		end
+
+		AverageOrigin = AverageOrigin / NumHits
+		AverageForce = AverageForce / NumHits
+
+		local TotalDamage = ( ( NumHits * DamageBoost ) / NumFragments ) * damage
+
+		--debugoverlay.Cross( AverageOrigin, 50, 10, Color( 255, 0, 255 ) )
+
+		-- hack
+		if ValveWierdBlastDamageClass[ ent:GetClass() ] then
+
+			util.BlastDamage( inflictor, attacker, pos, radius, damage )
+
+			continue
+		end
+
+		local dmginfo = DamageInfo()
+		dmginfo:SetAttacker( attacker )
+		dmginfo:SetInflictor( inflictor )
+		dmginfo:SetDamage( TotalDamage )
+		dmginfo:SetDamageForce( AverageForce )
+		dmginfo:SetDamagePosition( AverageOrigin )
+		dmginfo:SetDamageType( DMG_BLAST )
+
+		ent:TakeDamageInfo( dmginfo )
+	end
+end
+
 function LVS:FixVelocity()
 	local tbl = physenv.GetPerformanceSettings()
 

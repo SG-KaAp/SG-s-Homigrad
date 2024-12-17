@@ -9,9 +9,9 @@ if not ulx then
 	local cl_modules = file.Find( "ulx/modules/cl/*.lua", "LUA" )
 
 	Msg( "///////////////////////////////\n" )
-	Msg( "// ULX Admin Mod (RUS BY Jlx7)//\n" )
+	Msg( "//       ULX Admin Mod       //\n" )
 	Msg( "///////////////////////////////\n" )
-	Msg( "// Загрузка серверной части  //\n" )
+	Msg( "// Loading...                //\n" )
 
 	Msg( "//  sh_defines.lua           //\n" )
 	include( "sh_defines.lua" )
@@ -25,18 +25,18 @@ if not ulx then
 	include( "log.lua" )
 
 	for _, file in ipairs( sv_modules ) do
-		Msg( "//  Модули: " .. file .. string.rep( " ", 17 - file:len() ) .. "//\n" )
+		Msg( "//  MODULE: " .. file .. string.rep( " ", 17 - file:len() ) .. "//\n" )
 		include( "modules/" .. file )
 	end
 
 	for _, file in ipairs( sh_modules ) do
-		Msg( "//  Модули: " .. file .. string.rep( " ", 17 - file:len() ) .. "//\n" )
+		Msg( "//  MODULE: " .. file .. string.rep( " ", 17 - file:len() ) .. "//\n" )
 		include( "modules/sh/" .. file )
 	end
 
 	Msg( "//  end.lua                  //\n" )
 	include( "end.lua" )
-	Msg( "// Загрузка завершена! //\n" )
+	Msg( "// Load Complete!            //\n" )
 	Msg( "///////////////////////////////\n" )
 
 	AddCSLuaFile( "ulx/cl_init.lua" )

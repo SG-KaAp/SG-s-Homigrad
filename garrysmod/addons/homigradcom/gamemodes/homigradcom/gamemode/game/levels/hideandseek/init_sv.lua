@@ -56,11 +56,11 @@ function hideandseek.RoundEndCheck()
 
 				ply:SetTeam(3)
 				
-                local pos,key = table.Random(aviable)
-                if not pos then continue end
-                if #aviable > 1 then table.remove(aviable,key) end
+                --local pos,key = table.Random(aviable)
+                --if not pos then continue end
+                --if #aviable > 1 then table.remove(aviable,key) end
 
-                ply:SetPos(pos)
+                --ply:SetPos(pos)
 			end
 		end
 	end

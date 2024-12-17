@@ -1,4 +1,4 @@
-CATEGORY_NAME = "Перемещение"
+CATEGORY_NAME = "Teleport"
 
 local function spiralGrid(rings)
 	local grid = {}
@@ -76,7 +76,7 @@ function ulx.bring( calling_ply, target_plys )
 	local cell_size = 50 -- Constance spacing value
 
   if not calling_ply:IsValid() then
-    Msg( "Если вы принесли кого-то к нам, они мгновенно были бы уничтожены удивительной консолью.\n" )
+    Msg( "If you brought someone to you, they would instantly be destroyed by the awesomeness that is console.\n" )
     return
   end
 
@@ -86,12 +86,12 @@ function ulx.bring( calling_ply, target_plys )
   end
 
   if not calling_ply:Alive() then
-    ULib.tsayError( calling_ply, "Ты мертв!", true )
+    ULib.tsayError( calling_ply, "You are dead!", true )
     return
   end
 
   if calling_ply:InVehicle() then
-    ULib.tsayError( calling_ply, "Выйди из транспорта!", true )
+    ULib.tsayError( calling_ply, "Please leave the vehicle first!", true )
     return
   end
 
@@ -103,7 +103,7 @@ function ulx.bring( calling_ply, target_plys )
 	local tr = util.TraceEntity( t, calling_ply )
 
   if tr.Hit then
-    ULib.tsayError( calling_ply, "Невозможно!", true )
+    ULib.tsayError( calling_ply, "Can't teleport when you're inside the world!", true )
     return
   end
 
@@ -114,7 +114,7 @@ function ulx.bring( calling_ply, target_plys )
     if ulx.getExclusive( v, calling_ply ) then
       ULib.tsayError( calling_ply, ulx.getExclusive( v, calling_ply ), true )
     elseif not v:Alive() then
-      ULib.tsayError( calling_ply, v:Nick() .. " мертв!", true )
+      ULib.tsayError( calling_ply, v:Nick() .. " is dead!", true )
     else
       table.insert( teleportable_plys, v )
     end
@@ -154,21 +154,21 @@ function ulx.bring( calling_ply, target_plys )
   end
 
   if #teleportable_plys > 0 then
-    ULib.tsayError( calling_ply, "Недостаточно места!", true )
+    ULib.tsayError( calling_ply, "Not enough free space to bring everyone!", true )
   end
 
 	if #affected_plys > 0 then
-  	ulx.fancyLogAdmin( calling_ply, "#A привел к #T", affected_plys )
+  	ulx.fancyLogAdmin( calling_ply, "#A brought #T", affected_plys )
 	end
 end
 local bring = ulx.command( CATEGORY_NAME, "ulx bring", ulx.bring, "!bring" )
 bring:addParam{ type=ULib.cmds.PlayersArg, target="!^" }
 bring:defaultAccess( ULib.ACCESS_ADMIN )
-bring:help( "Перемещает цель к вам." )
+bring:help( "Brings target(s) to you." )
 
 function ulx.goto( calling_ply, target_ply )
 	if not calling_ply:IsValid() then
-		Msg( "Вы не можете уйти в мир смертных с консоли.\n" )
+		Msg( "You may not step down into the mortal world from console.\n" )
 		return
 	end
 
@@ -178,23 +178,23 @@ function ulx.goto( calling_ply, target_ply )
 	end
 
 	if not target_ply:Alive() then
-		ULib.tsayError( calling_ply, target_ply:Nick() .. " мертв!", true )
+		ULib.tsayError( calling_ply, target_ply:Nick() .. " is dead!", true )
 		return
 	end
 
 	if not calling_ply:Alive() then
-		ULib.tsayError( calling_ply, "Ты мертв!", true )
+		ULib.tsayError( calling_ply, "You are dead!", true )
 		return
 	end
 
 	if target_ply:InVehicle() and calling_ply:GetMoveType() ~= MOVETYPE_NOCLIP then
-		ULib.tsayError( calling_ply, "Цель в транспорте! Используй Режим полета.", true )
+		ULib.tsayError( calling_ply, "Target is in a vehicle! Noclip and use this command to force a goto.", true )
 		return
 	end
 
 	local newpos = playerSend( calling_ply, target_ply, calling_ply:GetMoveType() == MOVETYPE_NOCLIP )
 	if not newpos then
-		ULib.tsayError( calling_ply, "Невозможно. Найди другое место или используй Режим полета.", true )
+		ULib.tsayError( calling_ply, "Can't find a place to put you! Noclip and use this command to force a goto.", true )
 		return
 	end
 
@@ -208,16 +208,16 @@ function ulx.goto( calling_ply, target_ply )
 	calling_ply:SetEyeAngles( newang )
 	calling_ply:SetLocalVelocity( Vector( 0, 0, 0 ) ) -- Stop!
 
-	ulx.fancyLogAdmin( calling_ply, "#A переместился к #T", target_ply )
+	ulx.fancyLogAdmin( calling_ply, "#A teleported to #T", target_ply )
 end
 local goto = ulx.command( CATEGORY_NAME, "ulx goto", ulx.goto, "!goto" )
 goto:addParam{ type=ULib.cmds.PlayerArg, target="!^", ULib.cmds.ignoreCanTarget }
 goto:defaultAccess( ULib.ACCESS_ADMIN )
-goto:help( "Переместится к игроку." )
+goto:help( "Goto target." )
 
 function ulx.send( calling_ply, target_from, target_to )
 	if target_from == target_to then
-		ULib.tsayError( calling_ply, "Вы указали одну и ту же цель дважды! Используйте две разные цели.", true )
+		ULib.tsayError( calling_ply, "You listed the same target twice! Please use two different targets.", true )
 		return
 	end
 
@@ -237,18 +237,18 @@ function ulx.send( calling_ply, target_from, target_to )
 		if not target_to:Alive() then
 			nick = target_to:Nick()
 		end
-		ULib.tsayError( calling_ply, nick .. " мертв!", true )
+		ULib.tsayError( calling_ply, nick .. " is dead!", true )
 		return
 	end
 
 	if target_to:InVehicle() and target_from:GetMoveType() ~= MOVETYPE_NOCLIP then
-		ULib.tsayError( calling_ply, "Цель в транспорте!", true )
+		ULib.tsayError( calling_ply, "Target is in a vehicle!", true )
 		return
 	end
 
 	local newpos = playerSend( target_from, target_to, target_from:GetMoveType() == MOVETYPE_NOCLIP )
 	if not newpos then
-		ULib.tsayError( calling_ply, "Невозможно!", true )
+		ULib.tsayError( calling_ply, "Can't find a place to put them!", true )
 		return
 	end
 
@@ -262,17 +262,17 @@ function ulx.send( calling_ply, target_from, target_to )
 	target_from:SetEyeAngles( newang )
 	target_from:SetLocalVelocity( Vector( 0, 0, 0 ) ) -- Stop!
 
-	ulx.fancyLogAdmin( calling_ply, "#A переместил #T к игроку #T", target_from, target_to )
+	ulx.fancyLogAdmin( calling_ply, "#A transported #T to #T", target_from, target_to )
 end
 local send = ulx.command( CATEGORY_NAME, "ulx send", ulx.send, "!send" )
 send:addParam{ type=ULib.cmds.PlayerArg, target="!^" }
 send:addParam{ type=ULib.cmds.PlayerArg, target="!^" }
 send:defaultAccess( ULib.ACCESS_ADMIN )
-send:help( "Переместить одного к другому." )
+send:help( "Goto target." )
 
 function ulx.teleport( calling_ply, target_ply )
 	if not calling_ply:IsValid() then
-		Msg( "Ты консоль, извини!\n" )
+		Msg( "You are the console, you can't teleport or teleport others since you can't see the world!\n" )
 		return
 	end
 
@@ -282,20 +282,11 @@ function ulx.teleport( calling_ply, target_ply )
 	end
 
 	if not target_ply:Alive() then
-		ULib.tsayError( calling_ply, target_ply:Nick() .. " мертв!", true )
+		ULib.tsayError( calling_ply, target_ply:Nick() .. " is dead!", true )
 		return
 	end
 
-	local t = {}
-	t.start = calling_ply:GetPos() + Vector( 0, 0, 32 ) -- Move them up a bit so they can travel across the ground
-	t.endpos = calling_ply:GetPos() + calling_ply:EyeAngles():Forward() * 16384
-	t.filter = target_ply
-	if target_ply ~= calling_ply then
-		t.filter = { target_ply, calling_ply }
-	end
-	local tr = util.TraceEntity( t, target_ply )
-
-	local pos = tr.HitPos
+ 	local pos = calling_ply:GetEyeTrace().HitPos
 
 	if target_ply == calling_ply and pos:Distance( target_ply:GetPos() ) < 64 then -- Laughable distance
 		return
@@ -312,22 +303,22 @@ function ulx.teleport( calling_ply, target_ply )
 	target_ply:SetLocalVelocity( Vector( 0, 0, 0 ) ) -- Stop!
 
 	if target_ply ~= calling_ply then
-		ulx.fancyLogAdmin( calling_ply, "#A переместил #T", target_ply ) -- We don't want to log otherwise
+		ulx.fancyLogAdmin( calling_ply, "#A teleported #T", target_ply ) -- We don't want to log otherwise
 	end
 end
 local teleport = ulx.command( CATEGORY_NAME, "ulx teleport", ulx.teleport, {"!tp", "!teleport"} )
 teleport:addParam{ type=ULib.cmds.PlayerArg, ULib.cmds.optional }
 teleport:defaultAccess( ULib.ACCESS_ADMIN )
-teleport:help( "Перемещение цели туда куда ты смотришь." )
+teleport:help( "Teleports target." )
 
 function ulx.retrn( calling_ply, target_ply )
 	if not target_ply:IsValid() then
-		Msg( "Консоль, ты надоела.\n" )
+		Msg( "Return where? The console may never return to the mortal realm.\n" )
 		return
 	end
 
 	if not target_ply.ulx_prevpos then
-		ULib.tsayError( calling_ply, target_ply:Nick() .. " нет точки возврата.", true )
+		ULib.tsayError( calling_ply, target_ply:Nick() .. " does not have any previous locations to send them to.", true )
 		return
 	end
 
@@ -337,7 +328,7 @@ function ulx.retrn( calling_ply, target_ply )
 	end
 
 	if not target_ply:Alive() then
-		ULib.tsayError( calling_ply, target_ply:Nick() .. " мертв!", true )
+		ULib.tsayError( calling_ply, target_ply:Nick() .. " is dead!", true )
 		return
 	end
 
@@ -351,9 +342,9 @@ function ulx.retrn( calling_ply, target_ply )
 	target_ply.ulx_prevang = nil
 	target_ply:SetLocalVelocity( Vector( 0, 0, 0 ) ) -- Stop!
 
-	ulx.fancyLogAdmin( calling_ply, "#A вернул #T на место до перемещения", target_ply )
+	ulx.fancyLogAdmin( calling_ply, "#A returned #T to their original position", target_ply )
 end
 local retrn = ulx.command( CATEGORY_NAME, "ulx return", ulx.retrn, "!return" )
 retrn:addParam{ type=ULib.cmds.PlayerArg, ULib.cmds.optional }
 retrn:defaultAccess( ULib.ACCESS_ADMIN )
-retrn:help( "Возврат игрока на место откуда он был телепортирован." )
+retrn:help( "Returns target to last position before a teleport." )

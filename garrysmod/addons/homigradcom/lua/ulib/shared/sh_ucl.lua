@@ -208,7 +208,7 @@ local origIsAdmin = meta.IsAdmin
 	Function: Player:IsAdmin
 
 	Overwrite garry's IsAdmin function to check for membership in admin group. This is so if group "serverowner"
-	inherits from superadmin, this function will still return true when checking on a member belonging to the
+	inherits from admin, this function will still return true when checking on a member belonging to the
 	"serverowner" group.
 
 	Returns:
@@ -223,7 +223,7 @@ function meta:IsAdmin()
 	if ucl.groups[ ULib.ACCESS_ADMIN ] then
 		return self:CheckGroup( ULib.ACCESS_ADMIN )
 	else -- Group doesn't exist, fall back on garry's method
-		origIsAdmin( self )
+		return origIsAdmin( self )
 	end
 end
 
@@ -232,7 +232,7 @@ local origIsSuperAdmin = meta.IsSuperAdmin
 --[[
 	Function: Player:IsSuperAdmin
 
-	Overwrite garry's IsSuperAdmin function to check for membership in admin group. This is so if group "serverowner"
+	Overwrite garry's IsSuperAdmin function to check for membership in superadmin group. This is so if group "serverowner"
 	inherits from superadmin, this function will still return true when checking on a member belonging to the
 	"serverowner" group.
 
@@ -248,7 +248,7 @@ function meta:IsSuperAdmin()
 	if ucl.groups[ ULib.ACCESS_SUPERADMIN ] then
 		return self:CheckGroup( ULib.ACCESS_SUPERADMIN )
 	else -- Group doesn't exist, fall back on garry's method
-		origIsSuperAdmin( self )
+		return origIsSuperAdmin( self )
 	end
 end
 

@@ -41,7 +41,7 @@ local function makeT(ply)
     table.insert(homicide.t, ply)
 
     local shouldGiveJahidka = math.random() < 0.25 -- 25% шанс на выдачу оружия
-    local bombType = math.random(1, 3)
+    local bombType = math.random(1, 2)
 
     if homicide.roundType == 1 or homicide.roundType == 2 then
         local wep = ply:Give("weapon_hk_usps")

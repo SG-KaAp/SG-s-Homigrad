@@ -11,17 +11,13 @@ ENT.Weapon = nil
 
 if(SERVER)then
 	function ENT:Initialize()
-		self:PhysicsInitBox(Vector(-2,-2,-1),Vector(2,2,1))
+		self:PhysicsInitBox(Vector(0,0,0),Vector(0,0,0))
 		self:SetMoveType( MOVETYPE_VPHYSICS )
 		self:SetSolid( SOLID_VPHYSICS )
 		self:SetCollisionGroup(COLLISION_GROUP_NONE)
 		self:SetUseType(SIMPLE_USE)
 		self:DrawShadow(true)
 		local phys = self:GetPhysicsObject()
-		if IsValid(phys) then
-			phys:Wake()
-			phys:SetMass(3)
-		end
 		self.HitSomething=false
 	end
 	function ENT:Use(ply)
@@ -32,13 +28,17 @@ if(SERVER)then
 		if((self:GetVelocity():Length()>300)and not(self.HitSomething))then
 			self:EmitSound("snd_jack_hmcd_tinyswish.wav",70,math.random(90,110))
 		end
+		if(self.HitSomething)then
+			for key,ply in pairs(ents.FindInSphere(self:GetPos(),30))do
+				if ply:IsPlayer() then
+					ply:Give(self.Weapon)
+					self:Remove()
+					ply:SelectWeapon(self.Weapon)
+				end
+			end
+		end
 		self:NextThink(CurTime()+.1)
 		return true
-	end
-	local function addangle(ang,ang2)
-		ang:RotateAroundAxis(ang:Up(),ang2.y) -- yaw
-		ang:RotateAroundAxis(ang:Forward(),ang2.r) -- roll
-		ang:RotateAroundAxis(ang:Right(),ang2.p) -- pitch
 	end
 
 	function ENT:PhysicsCollide(data,physobj)
@@ -47,17 +47,13 @@ if(SERVER)then
 			if((self.Thrown)and not(self.HitSomething))then
 				self.HitSomething=true
 				local dmg = DamageInfo()
-				dmg:SetDamage(math.random(5,9))
+				dmg:SetDamage(math.random(40,45))
 				dmg:SetAttacker(self:GetOwner())
 				dmg:SetDamageType(DMG_SLASH)
 				dmg:SetDamageForce(data.OurOldVelocity)
 				dmg:SetDamagePosition(self:GetPos())
 				ply:TakeDamageInfo(dmg)
 				self:EmitSound("snd_jack_hmcd_knifestab.wav",55,math.random(90,110))
-				if((self.Poisoned)and(ply:IsPlayer()))then
-					HMCD_Poison(ply,self:GetOwner())
-					self.Poisoned=false
-				end
 				local edata = EffectData()
 				edata:SetStart(self:GetPos())
 				edata:SetOrigin(self:GetPos())
@@ -72,12 +68,6 @@ if(SERVER)then
 			self:EmitSound("snd_jack_hmcd_knifehit.wav",70,math.random(90,110))
 		end
 		self.HitSomething=true
-	end
-	function ENT:StartTouch(ply)
-		if((ply:IsPlayer()))then
-			ply:Give(knife)
-			self:Remove()
-		end
 	end
 elseif(CLIENT)then
 	function ENT:Initialize()

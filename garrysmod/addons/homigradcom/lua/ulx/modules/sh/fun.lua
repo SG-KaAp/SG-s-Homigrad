@@ -1,4 +1,4 @@
-local CATEGORY_NAME = "Развлечения"
+local CATEGORY_NAME = "Fun"
 
 ------------------------------ Slap ------------------------------
 function ulx.slap( calling_ply, target_plys, dmg )
@@ -7,21 +7,21 @@ function ulx.slap( calling_ply, target_plys, dmg )
 	for i=1, #target_plys do
 		local v = target_plys[ i ]
 		if v:IsFrozen() then
-			ULib.tsayError( calling_ply, v:Nick() .. " был заморожен!", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is frozen!", true )
 		else
 			ULib.slap( v, dmg )
 			table.insert( affected_plys, v )
 		end
 	end
 
-	ulx.fancyLogAdmin( calling_ply, "#A ударил #T на #i урон(а)", affected_plys, dmg )
+	ulx.fancyLogAdmin( calling_ply, "#A slapped #T with #i damage", affected_plys, dmg )
 end
 
 local slap = ulx.command( CATEGORY_NAME, "ulx slap", ulx.slap, "!slap" )
 slap:addParam{ type=ULib.cmds.PlayersArg }
 slap:addParam{ type=ULib.cmds.NumArg, min=0, default=0, hint="damage", ULib.cmds.optional, ULib.cmds.round }
 slap:defaultAccess( ULib.ACCESS_ADMIN )
-slap:help( "Пнуть игрока." )
+slap:help( "Slaps target(s) with given damage." )
 
 ------------------------------ Whip ------------------------------
 function ulx.whip( calling_ply, target_plys, times, dmg )
@@ -31,9 +31,9 @@ function ulx.whip( calling_ply, target_plys, times, dmg )
 		local v = target_plys[ i ]
 
 		if v.whipped then
-			ULib.tsayError( calling_ply, v:Nick() .. " уже шлепается от " .. v.whippedby, true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is already being whipped by " .. v.whippedby, true )
 		elseif v:IsFrozen() then
-			ULib.tsayError( calling_ply, v:Nick() .. " был заморожен!", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is frozen!", true )
 		else
 			local dtime = 0
 			v.whipped = true
@@ -59,14 +59,14 @@ function ulx.whip( calling_ply, target_plys, times, dmg )
 		end
 	end
 
-	ulx.fancyLogAdmin( calling_ply, "#A начал пинать #T #i раз на #i урона", affected_plys, times, dmg )
+	ulx.fancyLogAdmin( calling_ply, "#A whipped #T #i times with #i damage", affected_plys, times, dmg )
 end
 local whip = ulx.command( CATEGORY_NAME, "ulx whip", ulx.whip, "!whip" )
 whip:addParam{ type=ULib.cmds.PlayersArg }
 whip:addParam{ type=ULib.cmds.NumArg, min=2, max=100, default=10, hint="times", ULib.cmds.optional, ULib.cmds.round }
 whip:addParam{ type=ULib.cmds.NumArg, min=0, default=0, hint="damage", ULib.cmds.optional, ULib.cmds.round }
 whip:defaultAccess( ULib.ACCESS_ADMIN )
-whip:help( "Укажи сколько раз пнуть и кол-во урона." )
+whip:help( "Slaps target(s) x times with given damage each time." )
 
 ------------------------------ Slay ------------------------------
 function ulx.slay( calling_ply, target_plys )
@@ -78,21 +78,21 @@ function ulx.slay( calling_ply, target_plys )
 		if ulx.getExclusive( v, calling_ply ) then
 			ULib.tsayError( calling_ply, ulx.getExclusive( v, calling_ply ), true )
 		elseif not v:Alive() then
-			ULib.tsayError( calling_ply, v:Nick() .. " уже мертв!", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is already dead!", true )
 		elseif v:IsFrozen() then
-			ULib.tsayError( calling_ply, v:Nick() .. " был заморожен!", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is frozen!", true )
 		else
 			v:Kill()
 			table.insert( affected_plys, v )
 		end
 	end
 
-	ulx.fancyLogAdmin( calling_ply, "#A убил #T", affected_plys )
+	ulx.fancyLogAdmin( calling_ply, "#A slayed #T", affected_plys )
 end
 local slay = ulx.command( CATEGORY_NAME, "ulx slay", ulx.slay, "!slay" )
 slay:addParam{ type=ULib.cmds.PlayersArg }
 slay:defaultAccess( ULib.ACCESS_ADMIN )
-slay:help( "Убить игрока." )
+slay:help( "Slays target(s)." )
 
 ------------------------------ Sslay ------------------------------
 function ulx.sslay( calling_ply, target_plys )
@@ -104,9 +104,9 @@ function ulx.sslay( calling_ply, target_plys )
 		if ulx.getExclusive( v, calling_ply ) then
 			ULib.tsayError( calling_ply, ulx.getExclusive( v, calling_ply ), true )
 		elseif not v:Alive() then
-			ULib.tsayError( calling_ply, v:Nick() .. " уже мертв!", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is already dead!", true )
 		elseif v:IsFrozen() then
-			ULib.tsayError( calling_ply, v:Nick() .. " был заморожен!", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is frozen!", true )
 		else
 			if v:InVehicle() then
 				v:ExitVehicle()
@@ -117,12 +117,12 @@ function ulx.sslay( calling_ply, target_plys )
 		end
 	end
 
-	ulx.fancyLogAdmin( calling_ply, "#A тихо убил #T", affected_plys )
+	ulx.fancyLogAdmin( calling_ply, "#A silently slayed #T", affected_plys )
 end
 local sslay = ulx.command( CATEGORY_NAME, "ulx sslay", ulx.sslay, "!sslay" )
 sslay:addParam{ type=ULib.cmds.PlayersArg }
 sslay:defaultAccess( ULib.ACCESS_ADMIN )
-sslay:help( "Тихое убийство." )
+sslay:help( "Silently slays target(s)." )
 
 ------------------------------ Ignite ------------------------------
 function ulx.ignite( calling_ply, target_plys, seconds, should_extinguish )
@@ -143,9 +143,9 @@ function ulx.ignite( calling_ply, target_plys, seconds, should_extinguish )
 	end
 
 	if not should_extinguish then
-		ulx.fancyLogAdmin( calling_ply, "#A поджег #T на #i секунд(ы)", affected_plys, seconds )
+		ulx.fancyLogAdmin( calling_ply, "#A ignited #T for #i seconds", affected_plys, seconds )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A потушил #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A extinguished #T", affected_plys )
 	end
 end
 local ignite = ulx.command( CATEGORY_NAME, "ulx ignite", ulx.ignite, "!ignite" )
@@ -153,7 +153,7 @@ ignite:addParam{ type=ULib.cmds.PlayersArg }
 ignite:addParam{ type=ULib.cmds.NumArg, min=1, max=300, default=300, hint="seconds", ULib.cmds.optional, ULib.cmds.round }
 ignite:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 ignite:defaultAccess( ULib.ACCESS_ADMIN )
-ignite:help( "Поджечь игрока." )
+ignite:help( "Ignites target(s)." )
 ignite:setOpposite( "ulx unignite", {_, _, _, true}, "!unignite" )
 
 local function checkFireDeath( ply )
@@ -181,29 +181,33 @@ function ulx.unigniteall( calling_ply )
 		end
 	end
 
-	ulx.fancyLogAdmin( calling_ply, "#A уже потушен" )
+	ulx.fancyLogAdmin( calling_ply, "#A extinguished everything" )
 end
 local unigniteall = ulx.command( CATEGORY_NAME, "ulx unigniteall", ulx.unigniteall, "!unigniteall" )
 unigniteall:defaultAccess( ULib.ACCESS_ADMIN )
-unigniteall:help( "Потушить все на сервере." )
+unigniteall:help( "Extinguishes all players and all entities." )
 
 ------------------------------ Playsound ------------------------------
+if SERVER then
+	util.AddNetworkString( "ulib_sound" )
+end
+
 function ulx.playsound( calling_ply, sound )
 	if not ULib.fileExists( "sound/" .. sound ) then
-		ULib.tsayError( calling_ply, "Неверный путь к звуку!", true )
+		ULib.tsayError( calling_ply, "That sound doesn't exist on the server!", true )
 		return
 	end
 
-	umsg.Start( "ulib_sound" )
-		umsg.String( Sound( sound ) )
-	umsg.End()
+	net.Start( "ulib_sound" )
+		net.WriteString( Sound( sound ) )
+	net.Broadcast()
 
-	ulx.fancyLogAdmin( calling_ply, "#A воспроизвел #s", sound )
+	ulx.fancyLogAdmin( calling_ply, "#A played sound #s", sound )
 end
 local playsound = ulx.command( CATEGORY_NAME, "ulx playsound", ulx.playsound )
 playsound:addParam{ type=ULib.cmds.StringArg, hint="sound", autocomplete_fn=ulx.soundComplete }
 playsound:defaultAccess( ULib.ACCESS_ADMIN )
-playsound:help( "Укажи путь к серверному звуку." )
+playsound:help( "Plays a sound (relative to sound dir)." )
 
 ------------------------------ Freeze ------------------------------
 function ulx.freeze( calling_ply, target_plys, should_unfreeze )
@@ -238,25 +242,25 @@ function ulx.freeze( calling_ply, target_plys, should_unfreeze )
 	end
 
 	if not should_unfreeze then
-		ulx.fancyLogAdmin( calling_ply, "#A заморозил #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A froze #T", affected_plys )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A разморозил #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A unfroze #T", affected_plys )
 	end
 end
 local freeze = ulx.command( CATEGORY_NAME, "ulx freeze", ulx.freeze, "!freeze" )
 freeze:addParam{ type=ULib.cmds.PlayersArg }
 freeze:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 freeze:defaultAccess( ULib.ACCESS_ADMIN )
-freeze:help( "Заморозить игроков." )
+freeze:help( "Freezes target(s)." )
 freeze:setOpposite( "ulx unfreeze", {_, _, true}, "!unfreeze" )
 
 ------------------------------ God ------------------------------
 function ulx.god( calling_ply, target_plys, should_revoke )
 	if not target_plys[ 1 ]:IsValid() then
 		if not should_revoke then
-			Msg( "ЭЙ! ТЫ КОНСОЛЬ! ТЫ УЖЕ БОГ!.\n" )
+			Msg( "You are the console, you are already god.\n" )
 		else
-			Msg( "Ваше положение бога безотзывно; Если вам не нравится, оставьте матрицу.\n" )
+			Msg( "Your position of god is irrevocable; if you don't like it, leave the matrix.\n" )
 		end
 		return
 	end
@@ -280,16 +284,16 @@ function ulx.god( calling_ply, target_plys, should_revoke )
 	end
 
 	if not should_revoke then
-		ulx.fancyLogAdmin( calling_ply, "#A предоставил режим бога #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A granted god mode upon #T", affected_plys )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A убрал режим бога #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A revoked god mode from #T", affected_plys )
 	end
 end
 local god = ulx.command( CATEGORY_NAME, "ulx god", ulx.god, "!god" )
 god:addParam{ type=ULib.cmds.PlayersArg, ULib.cmds.optional }
 god:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 god:defaultAccess( ULib.ACCESS_ADMIN )
-god:help( "Выдача бессмертного режима." )
+god:help( "Grants god mode to target(s)." )
 god:setOpposite( "ulx ungod", {_, _, true}, "!ungod" )
 
 ------------------------------ Hp ------------------------------
@@ -297,31 +301,31 @@ function ulx.hp( calling_ply, target_plys, amount )
 	for i=1, #target_plys do
 		target_plys[ i ]:SetHealth( amount )
 	end
-	ulx.fancyLogAdmin( calling_ply, "#A установил здоровье #T на #i", target_plys, amount )
+	ulx.fancyLogAdmin( calling_ply, "#A set the hp for #T to #i", target_plys, amount )
 end
 local hp = ulx.command( CATEGORY_NAME, "ulx hp", ulx.hp, "!hp" )
 hp:addParam{ type=ULib.cmds.PlayersArg }
 hp:addParam{ type=ULib.cmds.NumArg, min=1, max=2^32/2-1, hint="hp", ULib.cmds.round }
 hp:defaultAccess( ULib.ACCESS_ADMIN )
-hp:help( "Выдача здоровья." )
+hp:help( "Sets the hp for target(s)." )
 
 ------------------------------ Armor ------------------------------
 function ulx.armor( calling_ply, target_plys, amount )
 	for i=1, #target_plys do
 		target_plys[ i ]:SetArmor( amount )
 	end
-	ulx.fancyLogAdmin( calling_ply, "#A установил броню #T на #i", target_plys, amount )
+	ulx.fancyLogAdmin( calling_ply, "#A set the armor for #T to #i", target_plys, amount )
 end
 local armor = ulx.command( CATEGORY_NAME, "ulx armor", ulx.armor, "!armor" )
 armor:addParam{ type=ULib.cmds.PlayersArg }
 armor:addParam{ type=ULib.cmds.NumArg, min=0, max=255, hint="armor", ULib.cmds.round }
 armor:defaultAccess( ULib.ACCESS_ADMIN )
-armor:help( "Выдача брони." )
+armor:help( "Sets the armor for target(s)." )
 
 ------------------------------ Cloak ------------------------------
 function ulx.cloak( calling_ply, target_plys, amount, should_uncloak )
 	if not target_plys[ 1 ]:IsValid() then
-		Msg( "Ты уже невидим.\n" )
+		Msg( "You are always invisible.\n" )
 		return
 	end
 
@@ -332,9 +336,9 @@ function ulx.cloak( calling_ply, target_plys, amount, should_uncloak )
 	end
 
 	if not should_uncloak then
-		ulx.fancyLogAdmin( calling_ply, "#A установил прозрачность #T на #i", target_plys, amount )
+		ulx.fancyLogAdmin( calling_ply, "#A cloaked #T by amount #i", target_plys, amount )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A убрал прозрачность #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A uncloaked #T", target_plys )
 	end
 end
 local cloak = ulx.command( CATEGORY_NAME, "ulx cloak", ulx.cloak, "!cloak" )
@@ -342,17 +346,21 @@ cloak:addParam{ type=ULib.cmds.PlayersArg, ULib.cmds.optional }
 cloak:addParam{ type=ULib.cmds.NumArg, min=0, max=255, default=255, hint="amount", ULib.cmds.round, ULib.cmds.optional }
 cloak:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 cloak:defaultAccess( ULib.ACCESS_ADMIN )
-cloak:help( "Выдача невидимки." )
+cloak:help( "Cloaks target(s)." )
 cloak:setOpposite( "ulx uncloak", {_, _, _, true}, "!uncloak" )
 
 ------------------------------ Blind ------------------------------
+if SERVER then
+	util.AddNetworkString( "ulx_blind" )
+end
 function ulx.blind( calling_ply, target_plys, amount, should_unblind )
 	for i=1, #target_plys do
 		local v = target_plys[ i ]
-		umsg.Start( "ulx_blind", v )
-			umsg.Bool( not should_unblind )
-			umsg.Short( amount )
-		umsg.End()
+		
+		net.Start( "ulx_blind" )
+			net.WriteBool( not should_unblind )
+			net.WriteInt( amount, 16 )
+		net.Send( v )
 
 		if should_unblind then
 			if v.HadCamera then
@@ -368,9 +376,9 @@ function ulx.blind( calling_ply, target_plys, amount, should_unblind )
 	end
 
 	if not should_unblind then
-		ulx.fancyLogAdmin( calling_ply, "#A ослепил #T на #i", target_plys, amount )
+		ulx.fancyLogAdmin( calling_ply, "#A blinded #T by amount #i", target_plys, amount )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A убрал ослепление #T", target_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A unblinded #T", target_plys )
 	end
 end
 local blind = ulx.command( CATEGORY_NAME, "ulx blind", ulx.blind, "!blind" )
@@ -378,7 +386,7 @@ blind:addParam{ type=ULib.cmds.PlayersArg }
 blind:addParam{ type=ULib.cmds.NumArg, min=0, max=255, default=255, hint="amount", ULib.cmds.round, ULib.cmds.optional }
 blind:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 blind:defaultAccess( ULib.ACCESS_ADMIN )
-blind:help( "Белый экран." )
+blind:help( "Blinds target(s)." )
 blind:setOpposite( "ulx unblind", {_, _, _, true}, "!unblind" )
 
 ------------------------------ Jail ------------------------------
@@ -393,7 +401,7 @@ function ulx.jail( calling_ply, target_plys, seconds, should_unjail )
 			if ulx.getExclusive( v, calling_ply ) then
 				ULib.tsayError( calling_ply, ulx.getExclusive( v, calling_ply ), true )
 			elseif not jailableArea( v:GetPos() ) then
-				ULib.tsayError( calling_ply, v:Nick() .. " неудачное место для джайла!", true )
+				ULib.tsayError( calling_ply, v:Nick() .. " is not in an area where a jail can be placed!", true )
 			else
 				doJail( v, seconds )
 
@@ -407,21 +415,21 @@ function ulx.jail( calling_ply, target_plys, seconds, should_unjail )
 	end
 
 	if not should_unjail then
-		local str = "#A посадил в клетку #T"
+		local str = "#A jailed #T"
 		if seconds > 0 then
-			str = str .. " на #i секунд(ы)"
+			str = str .. " for #i seconds"
 		end
 		ulx.fancyLogAdmin( calling_ply, str, affected_plys, seconds )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A вытащил из клетки #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A unjailed #T", affected_plys )
 	end
 end
 local jail = ulx.command( CATEGORY_NAME, "ulx jail", ulx.jail, "!jail" )
 jail:addParam{ type=ULib.cmds.PlayersArg }
-jail:addParam{ type=ULib.cmds.NumArg, min=0, default=0, hint="секунд(ы).", ULib.cmds.round, ULib.cmds.optional }
+jail:addParam{ type=ULib.cmds.NumArg, min=0, default=0, hint="seconds, 0 is forever", ULib.cmds.round, ULib.cmds.optional }
 jail:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 jail:defaultAccess( ULib.ACCESS_ADMIN )
-jail:help( "Посадить игрока в клетку." )
+jail:help( "Jails target(s)." )
 jail:setOpposite( "ulx unjail", {_, _, _, true}, "!unjail" )
 
 ------------------------------ Jail TP ------------------------------
@@ -441,10 +449,10 @@ function ulx.jailtp( calling_ply, target_ply, seconds )
 		ULib.tsayError( calling_ply, ulx.getExclusive( target_ply, calling_ply ), true )
 		return
 	elseif not target_ply:Alive() then
-		ULib.tsayError( calling_ply, target_ply:Nick() .. " уже мертв!", true )
+		ULib.tsayError( calling_ply, target_ply:Nick() .. " is dead!", true )
 		return
 	elseif not jailableArea( pos ) then
-		ULib.tsayError( calling_ply, "плохая позиция для клетки!", true )
+		ULib.tsayError( calling_ply, "That is not an area where a jail can be placed!", true )
 		return
 	else
 		target_ply.ulx_prevpos = target_ply:GetPos()
@@ -460,17 +468,17 @@ function ulx.jailtp( calling_ply, target_ply, seconds )
 		doJail( target_ply, seconds )
 	end
 
-	local str = "#A переместил и посадил в клетку #T"
+	local str = "#A teleported and jailed #T"
 	if seconds > 0 then
-		str = str .. " на #i секунд(ы)"
+		str = str .. " for #i seconds"
 	end
 	ulx.fancyLogAdmin( calling_ply, str, target_ply, seconds )
 end
 local jailtp = ulx.command( CATEGORY_NAME, "ulx jailtp", ulx.jailtp, "!jailtp" )
 jailtp:addParam{ type=ULib.cmds.PlayerArg }
-jailtp:addParam{ type=ULib.cmds.NumArg, min=0, default=0, hint="секунд(ы)", ULib.cmds.round, ULib.cmds.optional }
+jailtp:addParam{ type=ULib.cmds.NumArg, min=0, default=0, hint="seconds, 0 is forever", ULib.cmds.round, ULib.cmds.optional }
 jailtp:defaultAccess( ULib.ACCESS_ADMIN )
-jailtp:help( "Перемещает игрока в ту точку куда ты смотришь и сажает его в клетку." )
+jailtp:help( "Teleports, then jails target(s)." )
 
 local function jailCheck()
 	local remove_timer = true
@@ -506,7 +514,7 @@ jailableArea = function( pos )
 	return true
 end
 
-local mdl1 = Model( "models/props_c17/fence01b.mdl" )
+local mdl1 = Model( "models/props_building_details/Storefront_Template001a_Bars.mdl" )
 local jail = {
 	{ pos = Vector( 0, 0, -5 ), ang = Angle( 90, 0, 0 ), mdl=mdl1 },
 	{ pos = Vector( 0, 0, 97 ), ang = Angle( 90, 0, 0 ), mdl=mdl1 },
@@ -631,9 +639,8 @@ end
 hook.Add( "PhysgunDrop", "ulxPlayerDropJailCheck", playerDrop )
 
 ------------------------------ Ragdoll ------------------------------
-local function ragdollPlayer( v )
+function ulx.ragdollPlayer( v )
 	if v:InVehicle() then
-		local vehicle = v:GetParent()
 		v:ExitVehicle()
 	end
 
@@ -649,7 +656,7 @@ local function ragdollPlayer( v )
 	ragdoll:Spawn()
 	ragdoll:Activate()
 	v:SetParent( ragdoll ) -- So their player ent will match up (position-wise) with where their ragdoll is.
-	-- Set velocity for each peice of the ragdoll
+	-- Set velocity for each piece of the ragdoll
 	local j = 1
 	while true do -- Break inside
 		local phys_obj = ragdoll:GetPhysicsObjectNum( j )
@@ -665,16 +672,16 @@ local function ragdollPlayer( v )
 	v:SpectateEntity( ragdoll )
 	v:StripWeapons() -- Otherwise they can still use the weapons.
 
-	ragdoll:DisallowDeleting( true, function( old, new )
+	ragdoll:DisallowDeleting( true, function( _, new )
 		if v:IsValid() then v.ragdoll = new end
 	end )
 	v:DisallowSpawning( true )
 
 	v.ragdoll = ragdoll
-	ulx.setExclusive( v, "сломан" )
+	ulx.setExclusive( v, "ragdolled" )
 end
 
-local function unragdollPlayer( v )
+function ulx.unragdollPlayer( v )
 	v:DisallowSpawning( false )
 	v:SetParent()
 
@@ -711,28 +718,28 @@ function ulx.ragdoll( calling_ply, target_plys, should_unragdoll )
 			if ulx.getExclusive( v, calling_ply ) then
 				ULib.tsayError( calling_ply, ulx.getExclusive( v, calling_ply ), true )
 			elseif not v:Alive() then
-				ULib.tsayError( calling_ply, v:Nick() .. " уже мертв", true )
+				ULib.tsayError( calling_ply, v:Nick() .. " is dead and cannot be ragdolled!", true )
 			else
-				ragdollPlayer( v )
+				ulx.ragdollPlayer( v )
 				table.insert( affected_plys, v )
 			end
 		elseif v.ragdoll then -- Only if they're ragdolled...
-			unragdollPlayer( v )
+			ulx.unragdollPlayer( v )
 			table.insert( affected_plys, v )
 		end
 	end
 
 	if not should_unragdoll then
-		ulx.fancyLogAdmin( calling_ply, "#A сломал #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A ragdolled #T", affected_plys )
 	else
-		ulx.fancyLogAdmin( calling_ply, "#A восстановил #T", affected_plys )
+		ulx.fancyLogAdmin( calling_ply, "#A unragdolled #T", affected_plys )
 	end
 end
 local ragdoll = ulx.command( CATEGORY_NAME, "ulx ragdoll", ulx.ragdoll, "!ragdoll" )
 ragdoll:addParam{ type=ULib.cmds.PlayersArg }
 ragdoll:addParam{ type=ULib.cmds.BoolArg, invisible=true }
 ragdoll:defaultAccess( ULib.ACCESS_ADMIN )
-ragdoll:help( "Преврашает игрока в куклу." )
+ragdoll:help( "ragdolls target(s)." )
 ragdoll:setOpposite( "ulx unragdoll", {_, _, true}, "!unragdoll" )
 
 local function ragdollSpawnCheck( ply )
@@ -761,7 +768,7 @@ local function removeRagdollOnCleanup()
 		local ply = players[i]
 		if ply.ragdoll then
 			ply.ragdollAfterCleanup = true
-			unragdollPlayer( ply )
+			ulx.unragdollPlayer( ply )
 		end
 	end
 end
@@ -774,7 +781,7 @@ local function createRagdollAfterCleanup()
 		if ply.ragdollAfterCleanup then
 			ply.ragdollAfterCleanup = nil
 			timer.Simple( 0.1, function() -- Doesn't like us re-creating the ragdoll immediately
-				ragdollPlayer( ply )
+				ulx.ragdollPlayer( ply )
 			end)
 		end
 	end
@@ -858,7 +865,7 @@ function ulx.maul( calling_ply, target_plys )
 			ULib.tsayError( calling_ply, ulx.getExclusive( v, calling_ply ), true )
 
 		elseif not v:Alive() then
-			ULib.tsayError( calling_ply, v:Nick() .. " уже мертв!", true )
+			ULib.tsayError( calling_ply, v:Nick() .. " is dead!", true )
 
 		else
 			local pos = {}
@@ -916,17 +923,17 @@ function ulx.maul( calling_ply, target_plys )
 
 				table.insert( affected_plys, v )
 			else
-				ULib.tsayError( calling_ply, "Плохая позиция " .. v:Nick(), true )
+				ULib.tsayError( calling_ply, "Can't find a place to put the npcs for " .. v:Nick(), true )
 			end
 		end
 	end
 
-	ulx.fancyLogAdmin( calling_ply, "#A испугал до смерти #T", affected_plys )
+	ulx.fancyLogAdmin( calling_ply, "#A mauled #T", affected_plys )
 end
 local maul = ulx.command( CATEGORY_NAME, "ulx maul", ulx.maul, "!maul" )
 maul:addParam{ type=ULib.cmds.PlayersArg }
 maul:defaultAccess( ULib.ACCESS_SUPERADMIN )
-maul:help( "Убивает игроков с помощью зомби." )
+maul:help( "Maul target(s)." )
 
 checkMaulDeath = function( ply, weapon, killer )
 	if ply.maul_npcs then
@@ -999,9 +1006,9 @@ function ulx.stripweapons( calling_ply, target_plys )
 		target_plys[ i ]:StripWeapons()
 	end
 
-	ulx.fancyLogAdmin( calling_ply, "#A отобрал оружие у #T", target_plys )
+	ulx.fancyLogAdmin( calling_ply, "#A stripped weapons from #T", target_plys )
 end
 local strip = ulx.command( CATEGORY_NAME, "ulx strip", ulx.stripweapons, "!strip" )
 strip:addParam{ type=ULib.cmds.PlayersArg }
 strip:defaultAccess( ULib.ACCESS_ADMIN )
-strip:help( "Забрать все оружие." )
+strip:help( "Strip weapons from target(s)." )

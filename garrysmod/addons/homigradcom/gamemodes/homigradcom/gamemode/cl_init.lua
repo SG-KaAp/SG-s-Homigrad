@@ -36,7 +36,9 @@ net.Receive("round_active",function(len)
 end)
 
 local view = {}
-
+hook.Add("HUDDrawPickupHistory", "NoDrawPickupHistory", function()
+	return true
+end)
 hook.Add("PreCalcView","spectate",function(lply,pos,ang,fov,znear,zfar)
 	lply = LocalPlayer()
 	if lply:Alive() or GetViewEntity() ~= lply then return end
@@ -78,7 +80,7 @@ flashlightOn = flashlightOn or false
 local gradient_d = Material("vgui/gradient-d")
 
 hook.Add("HUDPaint","spectate",function()
-	draw.SimpleText( "SG's Homigrad | Version v.1.7.1", "HomigradFont", 0, ScrH() - 16, Color(255, 255, 255, 255) )
+	draw.SimpleText( "SG's Homigrad | Version v.1.7.2", "HomigradFont", 0, ScrH() - 16, Color(255, 255, 255, 255) )
 	local lply = LocalPlayer()
 	
 	local spec = lply:GetNWEntity("HeSpectateOn")
@@ -327,6 +329,13 @@ local function lasergg()
 		LocalPlayer():EmitSound("items/nvg_on.wav")
 	end
 end
+function ServerSoundEmit(soundName, volume)
+    net.Start("soundEmit")
+    net.WriteString(soundName)
+	net.WriteEntity(LocalPlayer())
+	net.WriteFloat(volume)
+    net.SendToServer()
+end
 local function armorMenu()
 	LocalPlayer():ConCommand("jmod_ez_inv")
 end
@@ -338,41 +347,41 @@ local function toggleEyesMenu()
 end
 local function saluteEmote()
 	LocalPlayer():ConCommand("act salute; say Здравия желаю!")
-	LocalPlayer():EmitSound("snd_jack_hmcd_salute.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_salute.wav",75)
 end
 local function agreeEmote()
 	LocalPlayer():ConCommand("act agree; say Да")
-	LocalPlayer():EmitSound("snd_jack_hmcd_agree.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_agree.wav",75)
 end
 local function disagreeEmote()
 	LocalPlayer():ConCommand("act disagree; say Нет")
-	LocalPlayer():EmitSound("snd_jack_hmcd_disagree.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_disagree.wav",75)
 end
 local function beconEmote()
 	LocalPlayer():ConCommand("act becon; say Идём!")
-	LocalPlayer():EmitSound("snd_jack_hmcd_becon.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_becon.wav",75)
 end
 local function forwardEmote()
 	LocalPlayer():ConCommand("act forward")
 end
 local function bowEmote()
 	LocalPlayer():ConCommand("act bow; say Слушаю и повинуюсь!")
-	LocalPlayer():EmitSound("snd_jack_hmcd_bow.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_bow.wav",75)
 end
 local function groupEmote()
 	LocalPlayer():ConCommand("act group")
 end
 local function danceEmote()
 	LocalPlayer():ConCommand("act dance; say Все танцуем!")
-	LocalPlayer():EmitSound("snd_jack_hmcd_dance.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_dance.wav",25)
 end
 local function cheerEmote()
 	LocalPlayer():ConCommand("act cheer; say Урааа!")
-	LocalPlayer():EmitSound("snd_jack_hmcd_wow.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_wow.wav",75)
 end
 local function laughEmote()
 	LocalPlayer():ConCommand("act laugh; say Аахахахаха!")
-	LocalPlayer():EmitSound("snd_jack_hmcd_laugh.wav",75)
+	ServerSoundEmit("snd_jack_hmcd_laugh.wav",75)
 end
 local function haltEmote()
 	LocalPlayer():ConCommand("act halt")

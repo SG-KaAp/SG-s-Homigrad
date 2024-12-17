@@ -1,10 +1,6 @@
 AddCSLuaFile("shared.lua")
 include("shared.lua")
 
-local tyagi = {
-    "weapon_handcuffs",
-    "weapon_per4ik"
-}
 local eda = {
     "food_spongebob_home",
     "food_lays",
@@ -19,10 +15,8 @@ local eda = {
     "weapon_hg_metalbat",
     "weapon_t"
 }--]]
-local bita = {
-    "weapon_glock18",
-}
-weaponscommon = {
+local weaponscommon = {
+    "weapom_handcuffs",
 	"weapon_binokle",
 	"weapon_molotok",
 	"ent_drop_flashlight",
@@ -35,7 +29,7 @@ weaponscommon = {
 	"blood_bag"
 }
 
-weaponsuncommon = {
+local weaponsuncommon = {
 	"weapon_glock18",
 	"weapon_per4ik",
 
@@ -45,41 +39,35 @@ weaponsuncommon = {
 	"weapon_hg_metalbat",
 	"weapon_hg_hatchet",
 
-	"*ammo*",
-
-	"ent_jack_gmod_ezarmor_respirator",
-	"ent_jack_gmod_ezarmor_lhead",
-
 	"medkit"
 }
 
-weaponsrare = {
+local weaponsrare = {
 	"weapon_beretta",
 	"weapon_remington870",
 	"weapon_glock",
 	"weapon_t",
 	"weapon_hg_molotov",
 
-	"*ammo*",
-
 	"weapon_hg_sleagehammer",
 	"weapon_hg_fireaxe",
-
-	"ent_jack_gmod_ezarmor_gasmask",
-	"ent_jack_gmod_ezarmor_mltorso"
 }
 
-weaponsveryrare = {
+local weaponsveryrare = {
 	"weapon_m3super",
-
-	"ent_jack_gmod_ezarmor_mtorso",
-	"ent_jack_gmod_ezarmor_mhead"
 }
 
-weaponslegendary = {
+local weaponslegendary = {
 	"weapon_xm1014",
 	"weapon_ar15",
 	"weapon_civil_famas"
+}
+local armor = {"ent_jack_gmod_ezarmor_mtorso",
+	"ent_jack_gmod_ezarmor_mhead",
+    "ent_jack_gmod_ezarmor_gasmask",
+	"ent_jack_gmod_ezarmor_mltorso",
+    "ent_jack_gmod_ezarmor_respirator",
+	"ent_jack_gmod_ezarmor_lhead"
 }
 
 local ammos = {
@@ -138,6 +126,10 @@ function ENT:Initialize()
         local randomWeaponss = weaponscommon[math.random(1, #weaponscommon)]
         local weaponTable = weapons.GetStored(randomWeaponss)
         self.Info.Weapons[randomWeaponss] = {Clip1 = weaponTable.Primary.ClipSize}
+    end
+    if random < 45 then
+        local randomWeaponss = armor[math.random(1, #weaponsuncommon)]
+        self.Info.Weapons[randomWeaponss] = {}
     end
 end
 

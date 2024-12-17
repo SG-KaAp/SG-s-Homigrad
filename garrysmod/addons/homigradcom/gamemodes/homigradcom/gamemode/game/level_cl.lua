@@ -48,6 +48,7 @@ showRoundInfoColor = Color(255,255,255)
 local yellow = Color(255,255,0)
 
 hook.Add("HUDPaint","homigrad-roundstate",function()
+	if roundActiveName == "event" then return end
 	if roundActive then
 		local func = TableRound().HUDPaint_RoundLeft
 

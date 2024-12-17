@@ -1,7 +1,7 @@
 
 LVS = istable( LVS ) and LVS or {}
 
-LVS.VERSION = 304
+LVS.VERSION = 308
 LVS.VERSION_GITHUB = 0
 LVS.VERSION_TYPE = ".WS"
 LVS.VERSION_ADDONS_OUTDATED = false
@@ -33,6 +33,7 @@ LVS.WEAPONS = {
 		OnThink = function( ent, active ) end,
 		OnOverheat = function( ent ) end,
 		OnRemove = function( ent ) end,
+		OnReload = function( ent ) end,
 	},
 }
 

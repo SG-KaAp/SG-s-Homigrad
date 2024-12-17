@@ -27,7 +27,7 @@ EFFECT.DustMat = {
 EFFECT.DecalMat = Material( util.DecalMaterial( "Scorch" ) )
 
 function EFFECT:Init( data )
-	self.Dir = Vector(0,0,1)
+	self.Dir = data:GetNormal()
 	self.Pos = data:GetOrigin()
 
 	self.LifeTime = 0.35
@@ -97,13 +97,32 @@ function EFFECT:Init( data )
 		end
 	end
 
-	for i = 1, 10 do
-		for n = 0,6 do
-			local particle = emitter:Add( self.DustMat[ math.random(1,#self.DustMat) ], self.Pos )
+	if self.Dir.z > 0.8 then
+		for i = 1, 10 do
+			for n = 0,6 do
+				local particle = emitter:Add( self.DustMat[ math.random(1,#self.DustMat) ], self.Pos )
+
+				if not particle then continue end
+
+				particle:SetVelocity( (self.Dir * 50 * i + VectorRand() * 25) * self.Scale )
+				particle:SetDieTime( (i / 8) * DieTime )
+				particle:SetAirResistance( 10 ) 
+				particle:SetStartAlpha( 255 )
+				particle:SetStartSize( 10 * self.Scale )
+				particle:SetEndSize( 20 * i * self.Scale )
+				particle:SetRollDelta( math.Rand(-1,1) )
+				particle:SetColor( math.min( VecCol.r, 255 ), math.min( VecCol.g, 255 ), math.min( VecCol.b, 255 ) )
+				particle:SetGravity( Vector(0,0,-600) * self.Scale )
+				particle:SetCollide( false )
+			end
+		end
+
+		for i = 1, 10 do
+			local particle = emitter:Add( self.SmokeMat[ math.random(1,#self.SmokeMat) ], self.Pos )
 
 			if not particle then continue end
 
-			particle:SetVelocity( (self.Dir * 50 * i + VectorRand() * 25) * self.Scale )
+			particle:SetVelocity( (self.Dir * 50 * i + VectorRand() * 40) * self.Scale )
 			particle:SetDieTime( (i / 8) * DieTime )
 			particle:SetAirResistance( 10 ) 
 			particle:SetStartAlpha( 255 )
@@ -116,44 +135,28 @@ function EFFECT:Init( data )
 		end
 	end
 
-	for i = 1, 10 do
-		local particle = emitter:Add( self.SmokeMat[ math.random(1,#self.SmokeMat) ], self.Pos )
-
-		if not particle then continue end
-
-		particle:SetVelocity( (self.Dir * 50 * i + VectorRand() * 40) * self.Scale )
-		particle:SetDieTime( (i / 8) * DieTime )
-		particle:SetAirResistance( 10 ) 
-		particle:SetStartAlpha( 255 )
-		particle:SetStartSize( 10 * self.Scale )
-		particle:SetEndSize( 20 * i * self.Scale )
-		particle:SetRollDelta( math.Rand(-1,1) )
-		particle:SetColor( math.min( VecCol.r, 255 ), math.min( VecCol.g, 255 ), math.min( VecCol.b, 255 ) )
-		particle:SetGravity( Vector(0,0,-600) * self.Scale )
-		particle:SetCollide( false )
-	end
-
 	for i = 1,24 do
 		local particle = emitter:Add( self.SmokeMat[ math.random(1,#self.SmokeMat) ] , self.Pos )
 		
-		if particle then
-			local ang = i * 15
-			local X = math.cos( math.rad(ang) )
-			local Y = math.sin( math.rad(ang) )
+		if not particle then continue end
 
-			local Vel = Vector(X,Y,0) * math.Rand(1500,2000)
+		local ang = i * 15
+		local X = math.cos( math.rad(ang) )
+		local Y = math.sin( math.rad(ang) )
 
-			particle:SetVelocity( Vel * self.Scale )
-			particle:SetDieTime( math.Rand(1,3) )
-			particle:SetAirResistance( 600 ) 
-			particle:SetStartAlpha( 100 )
-			particle:SetStartSize( 40 * self.Scale )
-			particle:SetEndSize( 200 * self.Scale )
-			particle:SetRollDelta( math.Rand(-1,1) )
-			particle:SetColor( math.min( VecCol.r, 255 ), math.min( VecCol.g, 255 ), math.min( VecCol.b, 255 ) )
-			particle:SetGravity( Vector(0,0,60) * self.Scale )
-			particle:SetCollide( true )
-		end
+		local Vel = Vector(X,Y,0) * math.Rand(800,1200)
+		Vel:Rotate( self.Dir:Angle() + Angle(90,0,0) )
+
+		particle:SetVelocity( Vel * self.Scale )
+		particle:SetDieTime( math.Rand(1,3) )
+		particle:SetAirResistance( 600 ) 
+		particle:SetStartAlpha( 100 )
+		particle:SetStartSize( 40 * self.Scale )
+		particle:SetEndSize( 140 * self.Scale )
+		particle:SetRollDelta( math.Rand(-1,1) )
+		particle:SetColor( math.min( VecCol.r, 255 ), math.min( VecCol.g, 255 ), math.min( VecCol.b, 255 ) )
+		particle:SetGravity( Vector(0,0,60) * self.Scale )
+		particle:SetCollide( true )
 	end
 
 	for i = 0, 15 do
@@ -174,41 +177,61 @@ function EFFECT:Init( data )
 		end
 	end
 
-	for i = 0, 15 do
+	for i = 0, 20 do
 		local particle = emitter:Add( "effects/lvs_base/flamelet"..math.random(1,5), self.Pos )
-		
-		if particle then
-			particle:SetVelocity( VectorRand(-1,1) * 500 * scale )
-			particle:SetDieTime( math.Rand(0.15,0.3) )
-			particle:SetStartAlpha( 255 )
-			particle:SetStartSize( 25 * scale )
-			particle:SetEndSize( math.Rand(70,100) * scale )
-			particle:SetEndAlpha( 100 )
-			particle:SetRoll( math.Rand( -1, 1 ) )
-			particle:SetColor( 200,150,150 )
-			particle:SetCollide( false )
-		end
+
+		if not particle then continue end
+
+		particle:SetVelocity( VectorRand() * 800 * scale )
+		particle:SetDieTime( math.Rand(0.2,0.4) )
+		particle:SetStartAlpha( 255 )
+		particle:SetEndAlpha( 0 )
+		particle:SetStartSize( 120 * scale )
+		particle:SetEndSize( 20 * scale )
+		particle:SetColor( 255, 255, 255 )
+		particle:SetGravity( self.Dir * 2500 )
+		particle:SetRollDelta( math.Rand(-5,5) )
+		particle:SetAirResistance( 300 )
 	end
 
-	for i = 0, 20 do
-		local particle = emitter:Add( "sprites/rico1", self.Pos )
-		
-		local vel = VectorRand() * 800
-		
-		if particle then
-			particle:SetVelocity( vel * scale )
-			particle:SetAngles( vel:Angle() + Angle(0,90,0) )
-			particle:SetDieTime( math.Rand(0.2,0.4) )
-			particle:SetStartAlpha( 255 )
-			particle:SetEndAlpha( 0 )
-			particle:SetStartSize( math.Rand(20,40) * scale )
-			particle:SetEndSize( 0 )
-			particle:SetRoll( math.Rand(-100,100) )
-			particle:SetRollDelta( 0 )
-			particle:SetColor( 255, 255, 255 )
+	for i = 0, 5 do
+		local particle = emitter:Add( "effects/lvs_base/flamelet"..math.random(1,5), self.Pos )
 
-			particle:SetAirResistance( 0 )
-		end
+		if not particle then continue end
+
+		particle:SetStartAlpha( 255 )
+		particle:SetEndAlpha( 0 )
+		particle:SetColor( 255, 255, 255 )
+		particle:SetGravity( Vector(0,0,0) )
+
+		local size = math.Rand(8, 24) * scale
+		particle:SetEndSize( size )
+		particle:SetStartSize( size )
+
+		particle:SetStartLength( 400 * scale )
+		particle:SetEndLength( size )
+
+		particle:SetDieTime( math.Rand(0.1,0.2) )
+		particle:SetVelocity( (self.Dir * 4000 + VectorRand() * 2000) * scale )
+
+		particle:SetAirResistance( 0 )
+	end
+
+	for i = 0, 40 do
+		local particle = emitter:Add( "effects/fire_embers"..math.random(1,2), self.Pos )
+
+		if not particle then continue end
+
+		particle:SetVelocity( VectorRand() * 800 * scale )
+		particle:SetDieTime( math.Rand(0.4,0.6) )
+		particle:SetStartAlpha( 255 )
+		particle:SetEndAlpha( 0 )
+		particle:SetStartSize( 40 * scale )
+		particle:SetEndSize( 0 )
+		particle:SetColor( 255, 255, 255 )
+		particle:SetGravity( Vector(0,0,600) )
+		particle:SetRollDelta( math.Rand(-8,8) )
+		particle:SetAirResistance( 300 )
 	end
 
 	emitter:Finish()
@@ -248,7 +271,7 @@ function EFFECT:Render()
 	if not self.Scale then return end
 
 	local Scale = (self.DieTime - CurTime()) / self.LifeTime
-	local R1 = 600 * self.Scale
+	local R1 = 800 * self.Scale
 	render.SetMaterial( self.GlowMat )
 	render.DrawSprite( self.Pos, R1 * Scale, R1 * Scale, Color( 255, 200, 150, 255) )
 end

@@ -4,6 +4,13 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 util.AddNetworkString("remove_jmod_effects")
+util.AddNetworkString("soundEmit")
+net.Receive("soundEmit", function()
+	local soundName = net.ReadString()
+	local ply = net.ReadEntity()
+	local volume = net.ReadFloat()
+	ply:EmitSound(soundName, volume)
+end)
 
 local specColor = Vector(0.25,0.25,0.25)
 

@@ -79,7 +79,7 @@ ULib.registerPlugin{
 	Version       = string.format( "%.2f", ULib.VERSION ),
 	IsRelease     = ULib.RELEASE,
 	Author        = "Team Ulysses",
-	URL           = "http://ulyssesmod.net",
+	URL           = "https://ulyssesmod.net",
 	WorkshopID    = 557962238,
 	--WorkshopMounted = true,
 	BuildNumLocal = tonumber(ULib.fileRead( "ulib.build" )),
@@ -165,8 +165,7 @@ local function httpCheck( body, len, headers, httpCode )
 		return
 	end
 
-	timer.Remove( "ULibPluginUpdateChecker" )
-	hook.Remove( "Initialize", "ULibPluginUpdateChecker" )
+	hook.Remove( "PlayerConnect", "ULibPluginUpdateChecker" )
 
 	-- Okay, the HTTP library is functional and we can reach out. Let's check for updates.
 	for name, plugin in pairs (ULib.plugins) do
@@ -178,15 +177,13 @@ end
 
 local function httpErr()
 	-- Assume major problem and give up
-	timer.Remove( "ULibPluginUpdateChecker" )
-	hook.Remove( "Initialize", "ULibPluginUpdateChecker" )
+	hook.Remove( "PlayerConnect", "ULibPluginUpdateChecker" )
 end
 
 local function downloadForUlibUpdateCheck()
-	http.Fetch( "http://google.com", httpCheck, httpErr )
+	http.Fetch( "http://www.msftncsi.com/ncsi.txt", httpCheck, httpErr )
 end
 
 if ULib.AUTOMATIC_UPDATE_CHECKS then
-	hook.Add( "Initialize", "ULibPluginUpdateChecker", downloadForUlibUpdateCheck )
-	timer.Create( "ULibPluginUpdateChecker", 9, 10, downloadForUlibUpdateCheck )
+	hook.Add( "PlayerConnect", "ULibPluginUpdateChecker", downloadForUlibUpdateCheck )
 end

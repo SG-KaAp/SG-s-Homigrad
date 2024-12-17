@@ -185,50 +185,37 @@ function NewBullet:OnCollide( trace )
 		self.Callback( Attacker, trace, dmginfo )
 	end
 
+	if trace.Entity:GetClass() == "func_breakable_surf" then
+		-- this will cause the entire thing to just fall apart
+		dmginfo:SetDamageType( DMG_BLAST )
+	end
+
 	trace.Entity:DispatchTraceAttack( dmginfo, trace )
 
 	self.LastDamageTarget = trace.Entity
 end
 
-function NewBullet:OnCollideFinal( trace )
-	if CLIENT then return end
+function NewBullet:DoSplashDamage( trace )
+	if not self.SplashDamage or not self.SplashDamageRadius then return false end
 
-	self:OnCollide( trace )
-
-	if not self.SplashDamage or not self.SplashDamageRadius then return end
-
-	local effectdata = EffectData()
-	effectdata:SetOrigin( trace.HitPos )
-	effectdata:SetNormal( trace.HitWorld and trace.HitNormal or self.Dir )
-	effectdata:SetMagnitude( self.SplashDamageRadius / 250 )
-	util.Effect( self.SplashDamageEffect, effectdata )
+	if self.SplashDamageEffect ~= "" then
+		local effectdata = EffectData()
+		effectdata:SetOrigin( trace.HitPos )
+		effectdata:SetNormal( trace.HitWorld and trace.HitNormal or self.Dir )
+		effectdata:SetMagnitude( self.SplashDamageRadius / 250 )
+		util.Effect( self.SplashDamageEffect, effectdata )
+	end
 
 	local Attacker = (IsValid( self.Attacker ) and self.Attacker) or (IsValid( self.Entity ) and self.Entity) or game.GetWorld()
 	local Inflictor = (IsValid( self.Entity ) and self.Entity) or (IsValid( self.Attacker ) and self.Attacker) or game.GetWorld()
 
-	local dmginfo = DamageInfo()
-	dmginfo:SetAttacker( Attacker )
-	dmginfo:SetInflictor( Inflictor )
-	dmginfo:SetDamage( self.SplashDamage )
-	dmginfo:SetDamageType( self.SplashDamageType )
-	dmginfo:SetDamagePosition( trace.HitPos )
-	dmginfo:SetDamageForce( self.Dir * self.SplashDamageForce )
+	LVS:BlastDamage( trace.HitPos, self.Dir, Attacker, Inflictor, self.SplashDamage, self.SplashDamageType, self.SplashDamageRadius, self.SplashDamageForce )
 
-	local BlastPos = trace.HitPos
+	self.SplashDamage = nil
+	self.SplashDamageRadius = nil
+	self.SplashDamageEffect = nil
 
-	if self.SplashDamageType == DMG_BLAST and IsValid( trace.Entity ) then
-		BlastPos = trace.Entity:GetPos()
-
-		if isfunction( trace.Entity.GetBase ) then
-			local Base = trace.Entity:GetBase()
-
-			if IsValid( Base ) and isentity( Base ) then
-				BlastPos = Base:GetPos()
-			end
-		end
-	end
-
-	util.BlastDamageInfo( dmginfo, BlastPos, self.SplashDamageRadius )
+	return true
 end
 
 function NewBullet:HandleCollision( traceStart, traceEnd, Filter )
@@ -253,7 +240,8 @@ function NewBullet:HandleCollision( traceStart, traceEnd, Filter )
 			filter = Filter,
 			mins = self.Mins,
 			maxs = self.Maxs,
-			mask = TraceMask
+			mask = TraceMask,
+			ignoreworld = true
 		} )
 
 		if traceLine.Entity == trace.Entity and trace.Hit and traceLine.Hit then
@@ -265,6 +253,10 @@ function NewBullet:HandleCollision( traceStart, traceEnd, Filter )
 			traceHull = trace
 
 			self:OnCollide( trace )
+
+			if self:DoSplashDamage( trace ) then
+				self:Remove()
+			end
 		else
 			traceHull = { Hit = false }
 		end
@@ -279,11 +271,13 @@ function NewBullet:HandleCollision( traceStart, traceEnd, Filter )
 		} )
 	end
 
-	if not traceLine.Hit or not traceHull.Hit then
+	if not traceLine.Hit then
 		return
 	end
 
-	self:OnCollideFinal( traceLine )
+	self:OnCollide( traceLine )
+
+	self:DoSplashDamage( traceLine )
 
 	self:Remove()
 
@@ -345,7 +339,7 @@ local function HandleBullets()
 		local traceEnd = bullet:GetPos()
 
 		if CLIENT then
-			debugoverlay.Line( traceStart, traceEnd, Color( 255, 255, 255 ), true )
+			--debugoverlay.Line( traceStart, traceEnd, Color( 255, 255, 255 ), true )
 
 			-- bullet flyby sounds
 			bullet:HandleFlybySound( EarPos )

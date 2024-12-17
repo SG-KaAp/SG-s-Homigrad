@@ -221,6 +221,24 @@ function SWEP:PrimaryAttack()
 end
 
 function SWEP:SecondaryAttack()
+	if(CLIENT)then return end
+	sound.Play("weapons/slam/throw.wav",self:GetPos(),55,math.random(90,110))
+	local ent = ents.Create("ent_hg_thknife")
+	ent.Weapon=self:GetClass()
+    ent:SetModel(self.WorldModel)
+	ent.HmcdSpawned=self.HmcdSpawned
+	ent:SetOwner(self.Owner)
+	ent:SetPos(self.Owner:GetShootPos())
+	local knife_ang = self.Owner:EyeAngles()
+	knife_ang:RotateAroundAxis(knife_ang:Up(), -90)
+	ent:SetAngles(knife_ang)
+	ent.Poisoned=self.Poisoned
+	ent.Thrown=true
+	ent:Spawn()
+	local phys = ent:GetPhysicsObject()
+	phys:SetVelocity(self.Owner:GetVelocity()+self.Owner:GetAimVector()*(750))
+	phys:AddAngleVelocity(Vector(0, 0, 100))
+    self.Owner:StripWeapon(self:GetClass())
 end
 
 function SWEP:Reload()

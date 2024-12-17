@@ -227,7 +227,7 @@ function xgui.processModules()
 		if module then
 			module = xgui.modules.tab[module]
 			if module.xbutton == nil then
-				module.xbutton = xlib.makebutton{ x=555, y=-5, w=32, h=32, btype="close", parent=module.panel }
+				module.xbutton = xlib.makebutton{ x=555, y=-5, w=32, h=24, btype="close", parent=module.panel }
 				module.xbutton.DoClick = function()
 					xgui.hide()
 				end
@@ -449,8 +449,8 @@ end
 function xgui.getChunk( flag, datatype, data )
 	if xgui.expectingdata then
 		--print( datatype, flag ) --Debug
-		xgui.chunkbox:Progress( datatype )
-		if flag == -1 then return --Ignore these chunks
+		if flag == -1 then
+			--Ignore these chunks
 		elseif flag == 0 then --Data should be purged
 			if xgui.data[datatype] then
 				table.Empty( xgui.data[datatype] )
@@ -487,6 +487,7 @@ function xgui.getChunk( flag, datatype, data )
 		elseif flag == 7 then --Pass the data directly to the module to be handled.
 			xgui.callUpdate( datatype, "data", data )
 		end
+		xgui.chunkbox:Progress( datatype )
 	end
 end
 
@@ -519,7 +520,7 @@ end
 
 --If the player's group is changed, reprocess the XGUI modules for permissions, and request for extra data if needed
 function xgui.PermissionsChanged( ply )
-	if ply == LocalPlayer() and xgui.isInstalled then
+	if ply == LocalPlayer() and xgui.isInstalled and xgui.dataInitialized then
 		xgui.processModules()
 		local types = {}
 		for dtype, data in pairs( xgui.data ) do
